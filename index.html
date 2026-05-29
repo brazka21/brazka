@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>БРАЗКА — PS Plus и игры PS5</title>
+  <meta name="description" content="БРАЗКА — PS Plus, игры PS5/PS4 и актуальные предложения PS Store.">
+  <meta name="theme-color" content="#05070d">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="aurora aurora-a" aria-hidden="true"></div>
+  <div class="aurora aurora-b" aria-hidden="true"></div>
+  <div class="ps-particles" aria-hidden="true">
+    <span>△</span><span>○</span><span>□</span><span>✕</span>
+    <span>△</span><span>○</span><span>□</span><span>✕</span>
+  </div>
+
+  <header class="shell-nav">
+    <nav class="nav-links" aria-label="Навигация">
+      <a href="#plus">PS Plus</a>
+      <a href="#days">Days of Play</a>
+      <a href="#releases">Новинки</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+    <a class="brand" href="#top" aria-label="БРАЗКА">
+      <img src="assets/brazka-logo.png" alt="БРАЗКА">
+    </a>
+    <a class="nav-cta" href="#contact">Написать</a>
+  </header>
+
+  <main id="top">
+    <section class="hero section-screen">
+      <div class="hero-copy reveal-card glassline compact">
+        <h1>Подписки и игры в цифровом издании для вашей PlayStation</h1>
+        <p class="hero-subtext">Оформляйте PS Plus, выбирайте выгодные предложения из PS Store и пишите сразу по нужной позиции.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#plus">Выбрать PS Plus</a>
+          <a class="button ghost" href="#days">Смотреть распродажу</a>
+        </div>
+        <div class="mini-trust">
+          <span>Turkey <b class="flag">🇹🇷</b></span>
+          <span>PS5 / PS4</span>
+          <span>Быстрая выдача</span>
+        </div>
+      </div>
+
+      <aside class="hero-showcase reveal-card glassline compact" aria-label="Актуальные предложения">
+        <div class="soft-slider deck-slider" id="softSlider">
+          <div class="deck-stage">
+            <div class="soft-slide deck-card is-front" data-slide="0"><img src="assets/hero-slide-plus-new.jpg" alt="PlayStation Plus"></div>
+            <div class="soft-slide deck-card" data-slide="1"><img src="assets/hero-slide-days-new.jpg" alt="Days of Play"></div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section-block" id="plus">
+      <div class="plus-title-center reveal-card">
+        <img src="assets/psplus-icon.png" alt="PlayStation Plus">
+      </div>
+
+      <div class="ps-console">
+        <div class="plan-rail" role="tablist" aria-label="Выбор категории PS Plus">
+          <button class="plan-tile active" data-plan="essential" role="tab">
+            <img src="assets/ps-essential.png" alt="Essential">
+            <span class="tile-name">Essential</span>
+          </button>
+          <button class="plan-tile" data-plan="extra" role="tab">
+            <img src="assets/ps-extra.png" alt="Extra">
+            <span class="tile-name">Extra</span>
+          </button>
+          <button class="plan-tile" data-plan="deluxe" role="tab">
+            <img src="assets/ps-deluxe.png" alt="Deluxe">
+            <span class="tile-name">Deluxe</span>
+          </button>
+        </div>
+
+        <div class="price-stage">
+          <div class="price-card glassline compact tight-card reveal-card">
+            <div class="price-head">
+              <div>
+                <span class="muted-label">PlayStation Plus</span>
+                <h2 id="selectedName">PS Plus Essential</h2>
+              </div>
+              <div class="service-badge">Turkey <b class="flag">🇹🇷</b></div>
+            </div>
+
+            <div class="duration-grid" role="tablist" aria-label="Выбор срока подписки">
+              <button class="duration active" data-months="1"><span>1</span><small>месяц</small></button>
+              <button class="duration" data-months="3"><span>3</span><small>месяца</small></button>
+              <button class="duration" data-months="12"><span>12</span><small>месяцев</small></button>
+            </div>
+
+            <div class="price-big" id="selectedPrice">1 490 ₽</div>
+            <p class="selected-note" id="selectedNote">Онлайн-мультиплеер, игры месяца и базовые возможности PS Plus.</p>
+
+            <div class="feature-row" id="featureRow">
+              <span>онлайн</span>
+              <span>игры месяца</span>
+              <span>облако</span>
+            </div>
+
+            <div class="price-actions">
+              <a class="button primary" id="orderButton" href="#contact">Оформить Essential</a>
+              <a class="button ghost" href="#contact">Задать вопрос</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-block days" id="days">
+      <div class="section-title days-title reveal-card">
+        <h2>Распродажа Days Of Play</h2>
+      </div>
+
+      <div class="game-grid reveal-card">
+        <article class="game-card catalog-card">
+          <img src="assets/sale-assassins-creed-shadows.jpg" alt="Assassin's Creed Shadows">
+          <div class="game-info">
+            <span class="sale-tag">распродажа</span>
+            <h3>Assassin’s Creed Shadows</h3>
+            <p>PS5</p>
+            <strong>3 750 ₽</strong>
+            <small class="sale-end">До 11/6/2026 08:59 GMT+10</small>
+          </div>
+        </article>
+
+        <article class="game-card catalog-card">
+          <img src="assets/sale-split-fiction.jpg" alt="Split Fiction">
+          <div class="game-info">
+            <span class="sale-tag">распродажа</span>
+            <h3>Split Fiction</h3>
+            <p>PS5</p>
+            <strong>3 750 ₽</strong>
+            <small class="sale-end">До 11/6/2026 08:59 GMT+10</small>
+          </div>
+        </article>
+
+        <article class="game-card catalog-card">
+          <img src="assets/sale-resident-evil-requiem.jpg" alt="Resident Evil Requiem">
+          <div class="game-info">
+            <span class="sale-tag">распродажа</span>
+            <h3>Resident Evil Requiem</h3>
+            <p>PS5</p>
+            <strong>6 250 ₽</strong>
+            <small class="sale-end">До 11/6/2026 08:59 GMT+10</small>
+          </div>
+        </article>
+
+        <article class="game-card catalog-card">
+          <img src="assets/sale-ghost-of-yotei.jpg" alt="Ghost of Yōtei">
+          <div class="game-info">
+            <span class="sale-tag">распродажа</span>
+            <h3>Ghost of Yōtei</h3>
+            <p>PS5</p>
+            <strong>6 900 ₽</strong>
+            <small class="sale-end">До 11/6/2026 08:59 GMT+10</small>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-block releases" id="releases">
+      <div class="section-title days-title reveal-card">
+        <h2>Новинки и предзаказы</h2>
+      </div>
+
+      <div class="game-grid releases-grid reveal-card">
+        <article class="game-card catalog-card">
+          <img src="assets/new-007-first-light.jpg" alt="007 First Light">
+          <div class="game-info">
+            <span class="sale-tag">новинка</span>
+            <h3>007 First Light</h3>
+            <p>PS5</p>
+            <strong>6 900 ₽</strong>
+          </div>
+        </article>
+
+        <article class="game-card catalog-card">
+          <img src="assets/new-ufc-6-ultimate-edition.jpg" alt="EA SPORTS UFC 6 Ultimate Edition">
+          <div class="game-info">
+            <span class="sale-tag">предзаказ</span>
+            <h3>EA SPORTS UFC 6</h3>
+            <p>Ultimate Edition</p>
+            <strong>12 650 ₽</strong>
+          </div>
+        </article>
+
+        <article class="game-card catalog-card">
+          <img src="assets/new-lego-batman-legacy-dark-knight.jpg" alt="LEGO Batman: Legacy of the Dark Knight">
+          <div class="game-info">
+            <span class="sale-tag">новинка</span>
+            <h3>LEGO Batman</h3>
+            <p>Legacy of the Dark Knight</p>
+            <strong>6 900 ₽</strong>
+          </div>
+        </article>
+
+        <article class="game-card catalog-card">
+          <img src="assets/new-saros.jpg" alt="Saros">
+          <div class="game-info">
+            <span class="sale-tag">новинка</span>
+            <h3>Saros</h3>
+            <p>PS5</p>
+            <strong>8 050 ₽</strong>
+          </div>
+        </article>
+
+        <article class="game-card catalog-card">
+          <img src="assets/new-assassins-creed-black-flag-resynced.jpg" alt="Assassin's Creed Black Flag Resynced">
+          <div class="game-info">
+            <span class="sale-tag">предзаказ</span>
+            <h3>Assassin’s Creed Black Flag</h3>
+            <p>Resynced</p>
+            <strong>6 600 ₽</strong>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-block contact" id="contact">
+      <div class="contact-card glassline compact reveal-card final-cta">
+        <div class="cta-copy">
+          <span class="muted-label">ОФОРМЛЕНИЕ</span>
+          <h2>Готов оформить заказ?</h2>
+          <p>Напиши в удобный мессенджер — подберу подписку или игру, сориентирую по цене и быстро подготовлю выдачу.</p>
+        </div>
+        <div class="contact-actions">
+          <div class="contact-logo">
+            <img src="assets/brazka-logo.png" alt="БРАЗКА">
+          </div>
+          <div class="contact-buttons">
+            <a class="button primary" href="https://t.me/razim954" target="_blank" rel="noopener">Telegram</a>
+            <a class="button ghost" href="https://wa.me/79089639405" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+      <p class="disclaimer">БРАЗКА не является официальным партнёром Sony, PlayStation, Apple или других брендов. Перед заказом уточняйте регион аккаунта и актуальную цену.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
