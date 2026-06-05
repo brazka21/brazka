@@ -1,0 +1,463 @@
+/* Wolverine preorder promo */
+.promo-wolverine{
+  position:relative;
+  overflow:hidden;
+  min-height:520px;
+  margin-bottom:16px;
+  border:1px solid rgba(255,255,255,.10);
+  border-radius:32px;
+  box-shadow:var(--shadow);
+  background:#0a0d15;
+}
+
+.promo-wolverine-bg{
+  position:absolute;
+  inset:0;
+}
+
+.promo-wolverine-bg img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+  filter:saturate(1.02) contrast(1.02);
+}
+
+.promo-wolverine-bg:after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(90deg, rgba(255,242,85,.18) 0%, rgba(255,234,57,.10) 24%, rgba(7,10,18,.18) 52%, rgba(7,10,18,.82) 100%),
+    linear-gradient(180deg, rgba(0,0,0,.06) 0%, rgba(0,0,0,.18) 100%);
+}
+
+.promo-wolverine-overlay{
+  position:relative;
+  z-index:2;
+  min-height:520px;
+  display:grid;
+  grid-template-columns:320px 1fr;
+  gap:28px;
+  align-items:center;
+  padding:28px;
+}
+
+.promo-wolverine-poster{
+  display:flex;
+  justify-content:flex-start;
+}
+
+.promo-wolverine-poster img{
+  width:min(100%,320px);
+  border-radius:22px;
+  border:1px solid rgba(255,255,255,.14);
+  box-shadow:0 24px 60px rgba(0,0,0,.34);
+}
+
+.promo-wolverine-centerbox{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:22px;
+  width:100%;
+}
+
+.promo-country-prices{
+  display:flex;
+  gap:16px;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.promo-country-price{
+  min-width:220px;
+  padding:16px 20px;
+  border-radius:20px;
+  background:rgba(7,10,18,.74);
+  border:1px solid rgba(255,255,255,.14);
+  box-shadow:0 12px 30px rgba(0,0,0,.22);
+  text-align:center;
+}
+
+.promo-country-price span{
+  display:block;
+  margin-bottom:6px;
+  color:#d0dbf2;
+  font-size:15px;
+  font-weight:800;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+}
+
+.promo-country-price strong{
+  display:block;
+  color:#ffffff;
+  font-size:clamp(28px,4vw,44px);
+  line-height:1;
+  letter-spacing:-.05em;
+}
+
+.promo-timer-card{
+  width:min(100%, 620px);
+  padding:16px 18px;
+  border-radius:22px;
+  background:
+    radial-gradient(circle at top, rgba(255,216,79,.22), transparent 42%),
+    linear-gradient(180deg, rgba(22,18,8,.88), rgba(7,10,18,.78));
+  border:1px solid rgba(255,216,79,.42);
+  box-shadow:
+    0 16px 38px rgba(0,0,0,.26),
+    0 0 34px rgba(255,216,79,.10);
+}
+
+.promo-timer-title{
+  margin-bottom:12px;
+  text-align:center;
+  color:#ffd84f;
+  font-size:15px;
+  font-weight:800;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  text-shadow:0 0 18px rgba(255,216,79,.18);
+}
+
+.promo-timer-grid{
+  display:grid;
+  grid-template-columns:repeat(4, minmax(0,1fr));
+  gap:10px;
+}
+
+.promo-timer-unit{
+  padding:12px 10px;
+  border-radius:18px;
+  background:linear-gradient(180deg, rgba(255,216,79,.18), rgba(255,216,79,.055));
+  border:1px solid rgba(255,216,79,.34);
+  text-align:center;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.08);
+}
+
+.promo-timer-unit strong{
+  display:block;
+  margin-bottom:6px;
+  color:#ffd84f;
+  font-size:clamp(24px,3vw,38px);
+  line-height:1;
+  letter-spacing:-.05em;
+  text-shadow:
+    0 0 18px rgba(255,216,79,.24),
+    0 2px 0 rgba(0,0,0,.22);
+}
+
+.promo-timer-unit span{
+  display:block;
+  color:#fff1a8;
+  font-size:12px;
+  font-weight:800;
+  text-transform:uppercase;
+  letter-spacing:.06em;
+}
+
+.promo-timer-date{
+  margin-top:12px;
+  text-align:center;
+  color:#ffe98a;
+  opacity:.92;
+  font-size:13px;
+  line-height:1.4;
+}
+
+.promo-big-button{
+  min-width:min(100%,420px);
+  min-height:72px;
+  padding:0 34px;
+  border-radius:22px;
+  background:#ffffff !important;
+  color:#111319 !important;
+  border:1px solid rgba(255,255,255,.92) !important;
+  box-shadow:0 18px 36px rgba(255,255,255,.12) !important;
+  font-size:22px;
+  justify-content:center;
+}
+
+.promo-big-button:hover{
+  background:#f3f6ff !important;
+  color:#111319 !important;
+}
+
+@media(max-width:1100px){
+  .promo-wolverine-overlay{
+    grid-template-columns:280px 1fr;
+    gap:22px;
+  }
+}
+
+@media(max-width:760px){
+  .promo-wolverine{
+    min-height:auto;
+    border-radius:24px;
+  }
+
+  .promo-wolverine-bg img{
+    object-position:62% center;
+  }
+
+  .promo-wolverine-bg:after{
+    background:
+      linear-gradient(180deg, rgba(255,238,72,.10) 0%, rgba(7,10,18,.18) 36%, rgba(7,10,18,.84) 100%);
+  }
+
+  .promo-wolverine-overlay{
+    min-height:auto;
+    grid-template-columns:1fr;
+    gap:16px;
+    padding:18px;
+  }
+
+  .promo-wolverine-poster{
+    justify-content:center;
+  }
+
+  .promo-wolverine-poster img{
+    width:min(100%,260px);
+    border-radius:18px;
+  }
+
+  .promo-country-prices{
+    width:100%;
+    flex-direction:column;
+    gap:10px;
+  }
+
+  .promo-country-price{
+    width:100%;
+    min-width:0;
+  }
+
+  .promo-timer-card{
+    width:100%;
+    padding:14px;
+    border-radius:18px;
+  }
+
+  .promo-timer-grid{
+    grid-template-columns:repeat(2, minmax(0,1fr));
+    gap:8px;
+  }
+
+  .promo-timer-unit{
+    padding:10px 8px;
+    border-radius:14px;
+  }
+
+  .promo-timer-unit strong{
+    font-size:26px;
+  }
+
+  .promo-big-button{
+    width:100%;
+    min-width:0;
+    min-height:62px;
+    border-radius:18px;
+    font-size:18px;
+  }
+}
+
+
+/* v2 — main promo slider: Wolverine + GTA 6 */
+.promo-slider{
+  position:relative;
+  min-height:520px;
+  padding:0;
+}
+
+.promo-slide{
+  position:absolute;
+  inset:0;
+  opacity:0;
+  pointer-events:none;
+  transition:opacity .55s ease, transform .55s ease;
+  transform:translateX(10px);
+}
+
+.promo-slide.is-active{
+  opacity:1;
+  pointer-events:auto;
+  transform:translateX(0);
+}
+
+.promo-slider-dots{
+  position:absolute;
+  left:50%;
+  bottom:16px;
+  z-index:8;
+  transform:translateX(-50%);
+  display:flex;
+  gap:10px;
+  padding:8px 10px;
+  border-radius:999px;
+  background:rgba(7,10,18,.50);
+  border:1px solid rgba(255,255,255,.10);
+  backdrop-filter:blur(12px);
+}
+
+.promo-dot{
+  width:10px;
+  height:10px;
+  padding:0;
+  border-radius:999px;
+  border:0;
+  cursor:pointer;
+  background:rgba(255,255,255,.35);
+  transition:.22s ease;
+}
+
+.promo-dot.is-active{
+  width:28px;
+  background:#ffffff;
+}
+
+.promo-gta-slide{
+  overflow:hidden;
+}
+
+.promo-gta-bg img{
+  filter:saturate(1.08) contrast(1.04);
+}
+
+.promo-gta-bg:after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(90deg,rgba(5,7,13,.92) 0%,rgba(5,7,13,.68) 42%,rgba(5,7,13,.18) 70%,rgba(5,7,13,.76) 100%),
+    linear-gradient(180deg,rgba(0,0,0,.04),rgba(0,0,0,.58));
+}
+
+.promo-gta-overlay{
+  position:relative;
+  z-index:2;
+  min-height:520px;
+  display:grid;
+  grid-template-columns:1.05fr .95fr;
+  align-items:center;
+  gap:28px;
+  padding:34px 34px 58px;
+}
+
+.promo-gta-copy{
+  max-width:650px;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  gap:14px;
+}
+
+.promo-gta-logo{
+  width:min(100%,270px);
+  height:auto;
+  filter:drop-shadow(0 18px 32px rgba(0,0,0,.36));
+}
+
+.promo-gta-kicker{
+  display:inline-flex;
+  padding:10px 14px;
+  border-radius:999px;
+  background:rgba(94,107,255,.16);
+  border:1px solid rgba(94,107,255,.30);
+  color:#dce3ff;
+  font-size:12px;
+  font-weight:900;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+}
+
+.promo-gta-copy h2{
+  margin:0;
+  font-size:clamp(34px,5vw,64px);
+  line-height:.96;
+  letter-spacing:-.06em;
+}
+
+.promo-gta-copy p{
+  margin:0;
+  max-width:610px;
+  color:#c2c9da;
+  font-size:16px;
+  line-height:1.62;
+}
+
+.promo-gta-actions{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-top:4px;
+}
+
+.promo-gta-link{
+  min-height:72px;
+  border-radius:22px;
+  padding:0 28px;
+  font-size:18px;
+}
+
+.promo-gta-timer{
+  width:100%;
+  justify-self:end;
+  background:
+    radial-gradient(circle at top, rgba(255,216,79,.18), transparent 42%),
+    linear-gradient(180deg, rgba(10,14,26,.88), rgba(7,10,18,.78)) !important;
+}
+
+@media(max-width:1100px){
+  .promo-gta-overlay{
+    grid-template-columns:1fr;
+    gap:18px;
+  }
+
+  .promo-gta-timer{
+    justify-self:stretch;
+  }
+}
+
+@media(max-width:760px){
+  .promo-slider{
+    min-height:650px;
+  }
+
+  .promo-slide{
+    transform:translateX(0);
+  }
+
+  .promo-gta-overlay{
+    min-height:650px;
+    padding:20px 18px 60px;
+    align-content:center;
+  }
+
+  .promo-gta-copy{
+    align-items:center;
+    text-align:center;
+    width:100%;
+  }
+
+  .promo-gta-logo{
+    width:220px;
+  }
+
+  .promo-gta-actions{
+    width:100%;
+    flex-direction:column;
+  }
+
+  .promo-gta-link{
+    width:100%;
+    min-height:58px;
+    font-size:16px;
+  }
+
+  .promo-slider-dots{
+    bottom:12px;
+  }
+}
