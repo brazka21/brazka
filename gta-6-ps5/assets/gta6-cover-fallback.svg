@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="960" viewBox="0 0 720 960">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#1a0b2a"/>
+    <stop offset=".45" stop-color="#8b2c71"/>
+    <stop offset="1" stop-color="#ffb34c"/>
+  </linearGradient>
+  <radialGradient id="sun" cx="72%" cy="22%" r="45%">
+    <stop offset="0" stop-color="#ffe17a" stop-opacity=".75"/>
+    <stop offset="1" stop-color="#ffe17a" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect width="720" height="960" rx="38" fill="url(#bg)"/>
+<rect width="720" height="960" rx="38" fill="url(#sun)"/>
+<circle cx="545" cy="190" r="110" fill="#ffd36c" opacity=".52"/>
+<path d="M0 740 C170 650 330 775 720 610 L720 960 L0 960 Z" fill="#07101f" opacity=".82"/>
+<path d="M0 780 C210 690 390 805 720 670" fill="none" stroke="#ff65b4" stroke-width="5" opacity=".55"/>
+<path d="M0 820 C230 720 430 840 720 720" fill="none" stroke="#42cfff" stroke-width="4" opacity=".50"/>
+<text x="62" y="240" fill="#fff" font-family="Arial Black, Impact, sans-serif" font-size="108" letter-spacing="-6">GTA</text>
+<text x="67" y="350" fill="#fff" font-family="Arial Black, Impact, sans-serif" font-size="148" letter-spacing="-6">VI</text>
+<text x="64" y="790" fill="#fff" font-family="Arial, sans-serif" font-size="34" font-weight="800">PlayStation 5</text>
+<text x="64" y="842" fill="#ffe8f6" font-family="Arial, sans-serif" font-size="25" font-weight="700">обложка будет заменена</text>
+<text x="64" y="888" fill="#ffffff" opacity=".7" font-family="Arial, sans-serif" font-size="22">BRAZKA • предзаказ</text>
+</svg>

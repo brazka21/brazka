@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="420" viewBox="0 0 700 420">
+<defs>
+  <linearGradient id="v" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#5278ff"/>
+    <stop offset=".42" stop-color="#ae4bff"/>
+    <stop offset=".76" stop-color="#ff4fa3"/>
+    <stop offset="1" stop-color="#ffb34c"/>
+  </linearGradient>
+</defs>
+<path d="M70 40 L250 380 L340 250 L430 380 L630 40 L500 40 L340 290 L190 40 Z" fill="url(#v)" stroke="#ff9a4a" stroke-width="10"/>
+<text x="145" y="165" fill="#fff" font-family="Arial Black, Impact, sans-serif" font-size="100">grand</text>
+<text x="150" y="255" fill="#fff" font-family="Arial Black, Impact, sans-serif" font-size="100">theft</text>
+<text x="180" y="345" fill="#fff" font-family="Arial Black, Impact, sans-serif" font-size="100">auto</text>
+</svg>

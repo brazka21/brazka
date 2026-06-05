@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#170923"/>
+    <stop offset=".45" stop-color="#3b1653"/>
+    <stop offset="1" stop-color="#081833"/>
+  </linearGradient>
+  <radialGradient id="sun" cx="74%" cy="28%" r="42%">
+    <stop offset="0" stop-color="#ffb24b" stop-opacity=".95"/>
+    <stop offset=".38" stop-color="#ff5ba8" stop-opacity=".45"/>
+    <stop offset="1" stop-color="#ff5ba8" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#15182a" stop-opacity=".3"/>
+    <stop offset="1" stop-color="#05070d"/>
+  </linearGradient>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<rect width="1600" height="900" fill="url(#sun)"/>
+<circle cx="1180" cy="230" r="150" fill="#ffd36c" opacity=".52"/>
+<path d="M0 700 C320 590 540 670 800 610 C1040 555 1210 530 1600 590 L1600 900 L0 900 Z" fill="url(#road)"/>
+<path d="M0 735 C350 650 630 720 925 655 C1180 600 1360 610 1600 635" fill="none" stroke="#ff65b4" stroke-width="5" opacity=".55"/>
+<path d="M0 770 C350 690 650 760 930 700 C1190 645 1385 650 1600 675" fill="none" stroke="#42cfff" stroke-width="4" opacity=".48"/>
+<g opacity=".22" fill="#09101d">
+  <rect x="1020" y="380" width="24" height="300"/><rect x="1100" y="320" width="34" height="360"/>
+  <rect x="1220" y="360" width="20" height="320"/><rect x="1300" y="300" width="30" height="380"/>
+  <rect x="1410" y="350" width="26" height="330"/>
+</g>
+<text x="120" y="310" fill="#fff" font-family="Arial Black, Impact, sans-serif" font-size="170" letter-spacing="-12">GTA VI</text>
+<text x="128" y="390" fill="#ffe5f4" font-family="Arial, sans-serif" font-size="48" font-weight="700">Страница ожидания предзаказа</text>
+</svg>
