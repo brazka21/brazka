@@ -23,6 +23,40 @@ const rub = (n) => new Intl.NumberFormat('ru-RU').format(n) + ' ₽';
 let selectedPlan = 'essential';
 let selectedMonths = '1';
 
+function removeExpiredSale() {
+  // Убираем завершённую распродажу Days of Play с главной до добавления новой акции.
+  document.querySelectorAll('a[href="#days"]').forEach(link => {
+    // Навигационную ссылку убираем, кнопку в hero переводим на новинки.
+    if (link.classList.contains('button')) {
+      link.href = '#releases';
+      link.textContent = 'Смотреть новинки';
+    } else {
+      link.remove();
+    }
+  });
+
+  const daysSection = document.getElementById('days');
+  if (daysSection) {
+    daysSection.remove();
+  }
+
+  // Убираем слайд Days of Play из правого hero-блока, чтобы распродажа не мелькала.
+  document.querySelectorAll('#softSlider .soft-slide').forEach(slide => {
+    const img = slide.querySelector('img');
+    const alt = (img?.getAttribute('alt') || '').toLowerCase();
+    const src = (img?.getAttribute('src') || '').toLowerCase();
+
+    if (alt.includes('days of play') || src.includes('days')) {
+      slide.remove();
+    }
+  });
+
+  const firstSlide = document.querySelector('#softSlider .soft-slide');
+  if (firstSlide) {
+    firstSlide.classList.add('is-front');
+  }
+}
+
 function updateMain() {
   const p = plans[selectedPlan];
   document.getElementById('selectedName').textContent = p.title;
@@ -34,6 +68,8 @@ function updateMain() {
   document.querySelectorAll('.plan-tile').forEach(btn => btn.classList.toggle('active', btn.dataset.plan === selectedPlan));
   document.querySelectorAll('.duration').forEach(btn => btn.classList.toggle('active', btn.dataset.months === selectedMonths));
 }
+
+removeExpiredSale();
 
 document.querySelectorAll('.plan-tile').forEach(btn => {
   btn.addEventListener('click', () => { selectedPlan = btn.dataset.plan; updateMain(); });
@@ -66,10 +102,12 @@ function updateDeck() {
 }
 if (slides.length) {
   updateDeck();
-  setInterval(() => {
-    activeIndex = (activeIndex + 1) % slides.length;
-    updateDeck();
-  }, 3200);
+  if (slides.length > 1) {
+    setInterval(() => {
+      activeIndex = (activeIndex + 1) % slides.length;
+      updateDeck();
+    }, 3200);
+  }
 }
 
 updateMain();
