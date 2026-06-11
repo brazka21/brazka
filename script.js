@@ -72,7 +72,7 @@ function updateMain() {
   document.getElementById('selectedName').textContent = p.title;
   document.getElementById('selectedPrice').textContent = rub(p.prices[selectedMonths]);
   document.getElementById('selectedNote').textContent = p.note;
-  document.getElementById('orderButton').textContent = 'Оформить ' + p.title.replace('PS Plus ', '');
+  document.getElementById('orderButton').textContent = 'Уточнить цену и оформить';
   const row = document.getElementById('featureRow');
   row.innerHTML = p.features.map(x => `<span>${x}</span>`).join('');
   document.querySelectorAll('.plan-tile').forEach(btn => btn.classList.toggle('active', btn.dataset.plan === selectedPlan));
