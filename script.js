@@ -19,43 +19,53 @@ const plans = {
   }
 };
 
+const saleItems = [
+  {
+    title: 'REANIMAL',
+    platform: 'PS5',
+    oldPrice: 4025,
+    price: 3220,
+    discount: '−20%',
+    image: 'assets/sale-reanimal.webp'
+  },
+  {
+    title: 'ARC Raiders',
+    platform: 'PS5',
+    oldPrice: 4600,
+    price: 3450,
+    discount: '−25%',
+    image: 'assets/sale-arc-raiders.jpg'
+  },
+  {
+    title: 'Moving Out 2',
+    platform: 'PS4 / PS5',
+    oldPrice: 2600,
+    price: 650,
+    discount: '−75%',
+    image: 'assets/sale-moving-out-2.jpg'
+  },
+  {
+    title: 'HITMAN World of Assassination',
+    platform: 'Deluxe Edition • PS4 / PS5',
+    oldPrice: 7700,
+    price: 3465,
+    discount: '−55%',
+    image: 'assets/sale-hitman-deluxe.jpg'
+  },
+  {
+    title: 'Resident Evil 4',
+    platform: 'Gold Edition • PS4 / PS5',
+    oldPrice: 4020,
+    price: 1290,
+    discount: '−68%',
+    image: 'assets/sale-re4-gold.jpg'
+  }
+];
+
 const rub = (n) => new Intl.NumberFormat('ru-RU').format(n) + ' ₽';
 let selectedPlan = 'essential';
 let selectedMonths = '1';
 
-function removeExpiredSale() {
-  // Убираем завершённую распродажу Days of Play с главной до добавления новой акции.
-  document.querySelectorAll('a[href="#days"]').forEach(link => {
-    // Навигационную ссылку убираем, кнопку в hero переводим на новинки.
-    if (link.classList.contains('button')) {
-      link.href = '#releases';
-      link.textContent = 'Смотреть новинки';
-    } else {
-      link.remove();
-    }
-  });
-
-  const daysSection = document.getElementById('days');
-  if (daysSection) {
-    daysSection.remove();
-  }
-
-  // Убираем слайд Days of Play из правого hero-блока, чтобы распродажа не мелькала.
-  document.querySelectorAll('#softSlider .soft-slide').forEach(slide => {
-    const img = slide.querySelector('img');
-    const alt = (img?.getAttribute('alt') || '').toLowerCase();
-    const src = (img?.getAttribute('src') || '').toLowerCase();
-
-    if (alt.includes('days of play') || src.includes('days')) {
-      slide.remove();
-    }
-  });
-
-  const firstSlide = document.querySelector('#softSlider .soft-slide');
-  if (firstSlide) {
-    firstSlide.classList.add('is-front');
-  }
-}
 
 function updateMain() {
   const p = plans[selectedPlan];
@@ -68,8 +78,6 @@ function updateMain() {
   document.querySelectorAll('.plan-tile').forEach(btn => btn.classList.toggle('active', btn.dataset.plan === selectedPlan));
   document.querySelectorAll('.duration').forEach(btn => btn.classList.toggle('active', btn.dataset.months === selectedMonths));
 }
-
-removeExpiredSale();
 
 document.querySelectorAll('.plan-tile').forEach(btn => {
   btn.addEventListener('click', () => { selectedPlan = btn.dataset.plan; updateMain(); });
