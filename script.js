@@ -63,6 +63,14 @@ const saleItems = [
 ];
 
 const rub = (n) => new Intl.NumberFormat('ru-RU').format(n) + ' ₽';
+const PROMO_DISCOUNT_RATE = 0.05;
+let promoDiscountActive = false;
+const promoDiscountPrice = (n) => Math.round((n * (1 - PROMO_DISCOUNT_RATE)) / 10) * 10;
+const priceNumberFromText = (text) => {
+  const digits = String(text).replace(/[^0-9]/g, '');
+  return digits ? Number(digits) : 0;
+};
+const priceWithDiscountHtml = (original) => `<span class="promo-discount-old">${rub(original)}</span><span class="promo-discount-new">${rub(promoDiscountPrice(original))}</span>`;
 let selectedPlan = 'essential';
 let selectedMonths = '1';
 
@@ -70,7 +78,9 @@ let selectedMonths = '1';
 function updateMain() {
   const p = plans[selectedPlan];
   document.getElementById('selectedName').textContent = p.title;
-  document.getElementById('selectedPrice').textContent = rub(p.prices[selectedMonths]);
+  const selectedPriceEl = document.getElementById('selectedPrice');
+  const selectedOriginalPrice = p.prices[selectedMonths];
+  selectedPriceEl.innerHTML = promoDiscountActive ? priceWithDiscountHtml(selectedOriginalPrice) : rub(selectedOriginalPrice);
   document.getElementById('selectedNote').textContent = p.note;
   document.getElementById('orderButton').textContent = 'Уточнить цену и оформить';
   const row = document.getElementById('featureRow');
@@ -85,6 +95,28 @@ document.querySelectorAll('.plan-tile').forEach(btn => {
 document.querySelectorAll('.duration').forEach(btn => {
   btn.addEventListener('click', () => { selectedMonths = btn.dataset.months; updateMain(); });
 });
+
+
+function updateStaticDiscountPrices() {
+  const priceNodes = document.querySelectorAll('.sale-new, #releases .game-card strong, .promo-country-price strong');
+  priceNodes.forEach((node) => {
+    if (!node.dataset.originalPrice) {
+      const parsed = priceNumberFromText(node.textContent);
+      if (parsed > 0) {
+        node.dataset.originalPrice = String(parsed);
+      }
+    }
+
+    const original = Number(node.dataset.originalPrice || 0);
+    if (!original) return;
+
+    if (promoDiscountActive) {
+      node.innerHTML = priceWithDiscountHtml(original);
+    } else {
+      node.textContent = rub(original);
+    }
+  });
+}
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
@@ -119,3 +151,61 @@ if (slides.length) {
 }
 
 updateMain();
+
+const promoMessage = 'Хочу воспользоваться промокодом BRAZKA5 на скидку 5%';
+const activatePromoButton = document.getElementById('activatePromoButton');
+const promoCodeResult = document.getElementById('promoCodeResult');
+const promoTimer = document.getElementById('promoTimer');
+const copyPromoButton = document.getElementById('copyPromoButton');
+
+let promoInterval = null;
+let promoSecondsLeft = 30 * 60;
+
+function copyPromoMessage() {
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(promoMessage).catch(() => {});
+  }
+}
+
+function renderPromoTimer() {
+  if (!promoTimer) return;
+  const minutes = Math.floor(promoSecondsLeft / 60);
+  const seconds = promoSecondsLeft % 60;
+  promoTimer.textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+}
+
+function startPromoTimer() {
+  promoSecondsLeft = 30 * 60;
+  renderPromoTimer();
+  clearInterval(promoInterval);
+  promoInterval = setInterval(() => {
+    promoSecondsLeft -= 1;
+    if (promoSecondsLeft <= 0) {
+      clearInterval(promoInterval);
+      promoSecondsLeft = 0;
+      renderPromoTimer();
+      return;
+    }
+    renderPromoTimer();
+  }, 1000);
+}
+
+if (activatePromoButton && promoCodeResult) {
+  activatePromoButton.addEventListener('click', () => {
+    promoDiscountActive = true;
+    promoCodeResult.classList.add('is-active');
+    activatePromoButton.textContent = 'Скидка активирована';
+    updateMain();
+    updateStaticDiscountPrices();
+    copyPromoMessage();
+    startPromoTimer();
+  });
+}
+
+if (copyPromoButton) {
+  copyPromoButton.addEventListener('click', () => {
+    copyPromoMessage();
+    copyPromoButton.textContent = 'Скопировано';
+    setTimeout(() => copyPromoButton.textContent = 'Скопировать ещё раз', 1600);
+  });
+}
