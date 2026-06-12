@@ -410,6 +410,407 @@
   </style>
 
 
+
+  <style id="brazka-release-region-prices-css">
+    #releases .releases-grid {
+      align-items: stretch;
+    }
+    #releases .game-card {
+      display: flex;
+      flex-direction: column;
+    }
+    #releases .game-info {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+    .release-price-from {
+      margin: 10px 0 10px;
+      padding: 10px 12px;
+      border-radius: 16px;
+      background: linear-gradient(135deg, rgba(102, 73, 255, .16), rgba(35, 183, 255, .10));
+      border: 1px solid rgba(117, 142, 255, .20);
+    }
+    .release-price-from span {
+      display: block;
+      color: rgba(255,255,255,.58);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      margin-bottom: 2px;
+    }
+    .release-price-from strong {
+      display: block;
+      font-size: 28px;
+      line-height: 1;
+      font-weight: 900;
+      color: #fff;
+    }
+    .release-region-list {
+      display: grid;
+      gap: 7px;
+      margin-top: auto;
+    }
+    .release-region-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 9px 10px;
+      border-radius: 14px;
+      background: rgba(255,255,255,.045);
+      border: 1px solid rgba(255,255,255,.07);
+      color: rgba(255,255,255,.82);
+      font-size: 14px;
+      font-weight: 750;
+    }
+    .release-region-row strong {
+      color: #fff;
+      font-size: 15px;
+      white-space: nowrap;
+      text-align: right;
+    }
+    .release-card-cta {
+      width: 100%;
+      margin-top: 12px;
+      padding: 11px 12px;
+      border-radius: 15px;
+      font-size: 14px;
+    }
+    .release-region-row.is-best {
+      border-color: rgba(35, 183, 255, .22);
+      background: rgba(35, 183, 255, .075);
+    }
+    @media (max-width: 740px) {
+      .release-price-from strong {
+        font-size: 24px;
+      }
+      .release-region-row {
+        font-size: 13px;
+      }
+    }
+  </style>
+
+
+  <style id="brazka-release-visibility-fix-css">
+    /* Убираем ярлыки новинка / релиз / предзаказ в блоке новинок */
+    #releases .sale-tag {
+      display: none !important;
+    }
+
+    /* Делаем текстовый контейнер на обложках темнее и читаемее */
+    #releases .game-card {
+      position: relative;
+      overflow: hidden;
+      min-height: 0;
+    }
+    #releases .game-card img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(.88);
+    }
+    #releases .game-info {
+      position: absolute;
+      left: 12px;
+      right: 12px;
+      bottom: 12px;
+      z-index: 2;
+      padding: 12px;
+      border-radius: 22px;
+      background: linear-gradient(180deg, rgba(5, 10, 22, .58) 0%, rgba(5, 10, 22, .82) 26%, rgba(4, 8, 18, .94) 100%);
+      border: 1px solid rgba(255,255,255,.09);
+      box-shadow: 0 14px 34px rgba(0,0,0,.34);
+      -webkit-backdrop-filter: blur(7px);
+      backdrop-filter: blur(7px);
+    }
+    #releases .game-info h3,
+    #releases .game-info p,
+    #releases .game-info .release-price-from,
+    #releases .game-info .release-region-list,
+    #releases .game-info .release-card-cta {
+      position: relative;
+      z-index: 1;
+    }
+    #releases .game-info h3 {
+      margin-top: 0;
+      text-shadow: 0 2px 10px rgba(0,0,0,.35);
+    }
+    #releases .game-info p {
+      color: rgba(255,255,255,.86);
+      text-shadow: 0 2px 8px rgba(0,0,0,.32);
+    }
+    #releases .release-price-from {
+      background: linear-gradient(135deg, rgba(12, 22, 42, .74), rgba(19, 71, 131, .38));
+      border-color: rgba(126, 161, 255, .20);
+    }
+    #releases .release-region-row {
+      background: rgba(5, 10, 22, .54);
+      border-color: rgba(255,255,255,.08);
+    }
+    #releases .release-region-row.is-best {
+      background: rgba(24, 124, 219, .16);
+      border-color: rgba(79, 176, 255, .22);
+    }
+    @media (max-width: 740px) {
+      #releases .game-info {
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+        padding: 10px;
+        border-radius: 18px;
+      }
+    }
+  </style>
+
+
+  <style id="brazka-release-layout-horizontal-css">
+    /* Блок новинок и релизов — в стиле блока распродажи */
+    #releases .sale-tag {
+      display: none !important;
+    }
+    #releases .releases-grid {
+      display: grid !important;
+      grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+      gap: 18px !important;
+      align-items: stretch;
+    }
+    #releases .game-card {
+      display: flex !important;
+      flex-direction: column;
+      min-width: 0;
+      height: 100%;
+      overflow: hidden;
+      border-radius: 26px;
+      background: linear-gradient(180deg, rgba(15,24,48,.92), rgba(6,8,18,.96));
+      border: 1px solid rgba(255,255,255,.08);
+      box-shadow: 0 18px 40px rgba(0,0,0,.22);
+    }
+    #releases .game-card img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      display: block;
+      min-height: 0;
+    }
+    #releases .game-info {
+      position: static !important;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      padding: 14px 14px 16px;
+      flex: 1;
+      background: transparent !important;
+      border: 0 !important;
+      box-shadow: none !important;
+      -webkit-backdrop-filter: none !important;
+      backdrop-filter: none !important;
+    }
+    #releases .game-info h3,
+    #releases .game-info p,
+    #releases .game-info .release-price-from,
+    #releases .game-info .release-region-list,
+    #releases .game-info .release-card-cta {
+      position: static;
+      z-index: auto;
+      text-shadow: none;
+    }
+    #releases .game-info h3 {
+      font-size: 20px;
+      line-height: 1.15;
+      margin: 2px 0 0;
+      letter-spacing: -.02em;
+    }
+    #releases .game-info p {
+      margin: 0;
+      color: rgba(255,255,255,.68);
+      font-size: 14px;
+      line-height: 1.3;
+    }
+    #releases .release-price-from {
+      margin-top: 2px;
+      padding: 0;
+      width: auto;
+      background: transparent !important;
+      border: 0 !important;
+      box-shadow: none !important;
+      border-radius: 0;
+    }
+    #releases .release-price-from span {
+      display: block;
+      color: rgba(255,255,255,.58);
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: lowercase;
+      margin-bottom: 2px;
+    }
+    #releases .release-price-from strong {
+      display: block;
+      color: #ffffff;
+      font-size: 28px;
+      line-height: 1.05;
+      font-weight: 800;
+      letter-spacing: -.02em;
+    }
+    #releases .release-region-list {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      margin-top: 2px;
+    }
+    #releases .release-region-row {
+      min-height: 0;
+      padding: 9px 12px;
+      border-radius: 14px;
+      background: rgba(255, 90, 90, .16) !important;
+      border: 1px solid rgba(255, 90, 90, .28) !important;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.05);
+    }
+    #releases .release-region-row span {
+      color: rgba(255,255,255,.88);
+      font-size: 12px;
+      font-weight: 700;
+    }
+    #releases .release-region-row strong {
+      font-size: 18px;
+      line-height: 1;
+      font-weight: 800;
+      color: #fff;
+    }
+    #releases .release-region-row.is-best {
+      background: rgba(255, 165, 0, .18) !important;
+      border-color: rgba(255, 165, 0, .34) !important;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.06);
+    }
+    #releases .release-card-cta {
+      width: 100%;
+      min-height: 48px;
+      margin-top: auto;
+      justify-content: center;
+      font-size: 16px;
+    }
+    @media (max-width: 1180px) {
+      #releases .releases-grid {
+        display: flex !important;
+        gap: 16px !important;
+        overflow-x: auto;
+        padding-bottom: 6px;
+        scroll-snap-type: x proximity;
+      }
+      #releases .game-card {
+        flex: 0 0 240px;
+        scroll-snap-align: start;
+      }
+    }
+    @media (max-width: 700px) {
+      #releases .game-card {
+        flex-basis: 220px;
+      }
+      #releases .game-info h3 {
+        font-size: 18px;
+      }
+      #releases .release-price-from strong {
+        font-size: 24px;
+      }
+    }
+  </style>
+
+
+  <style id="nav-split-psplus-css">
+    .shell-nav.shell-nav-split {
+      display: grid;
+      grid-template-columns: 1fr auto auto auto 1fr auto;
+      align-items: center;
+      gap: 14px;
+    }
+    .shell-nav.shell-nav-split .brand {
+      grid-column: 3;
+      justify-self: center;
+      margin: 0;
+    }
+    .shell-nav.shell-nav-split .nav-cta {
+      grid-column: 6;
+      justify-self: end;
+      white-space: nowrap;
+    }
+    .shell-nav.shell-nav-split .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      min-width: 0;
+      flex-wrap: nowrap;
+    }
+    .shell-nav.shell-nav-split .nav-links-left {
+      grid-column: 2;
+      justify-content: flex-end;
+      justify-self: end;
+    }
+    .shell-nav.shell-nav-split .nav-links-right {
+      grid-column: 4;
+      justify-content: flex-start;
+      justify-self: start;
+    }
+    .nav-psplus-link {
+      display: inline-flex !important;
+      align-items: center;
+      justify-content: center;
+      min-width: 32px;
+    }
+    .nav-psplus-icon {
+      display: block;
+      width: 26px;
+      height: 26px;
+      object-fit: contain;
+      filter: drop-shadow(0 4px 10px rgba(255, 191, 0, 0.22));
+    }
+    .flag {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 4px;
+    }
+    #releases .release-region-row span {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    @media (max-width: 1180px) {
+      .shell-nav.shell-nav-split {
+        grid-template-columns: 1fr auto;
+        grid-template-areas:
+          "brand cta"
+          "left left"
+          "right right";
+        gap: 14px 18px;
+      }
+      .shell-nav.shell-nav-split .brand { grid-area: brand; justify-self: start; }
+      .shell-nav.shell-nav-split .nav-cta { grid-area: cta; }
+      .shell-nav.shell-nav-split .nav-links-left { grid-area: left; justify-content: flex-start; }
+      .shell-nav.shell-nav-split .nav-links-right { grid-area: right; justify-content: flex-start; }
+    }
+    @media (max-width: 700px) {
+      .shell-nav.shell-nav-split {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+          "brand"
+          "cta"
+          "left"
+          "right";
+      }
+      .shell-nav.shell-nav-split .brand,
+      .shell-nav.shell-nav-split .nav-cta {
+        justify-self: center;
+      }
+      .shell-nav.shell-nav-split .nav-links {
+        justify-content: center !important;
+        gap: 14px;
+        flex-wrap: wrap;
+      }
+    }
+  </style>
+
 </head>
 <body>
   <div class="noise" aria-hidden="true"></div>
@@ -420,18 +821,25 @@
     <span>△</span><span>○</span><span>□</span><span>✕</span>
   </div>
 
-  <header class="shell-nav">
-    <nav class="nav-links" aria-label="Навигация">
+  <header class="shell-nav shell-nav-split">
+    <nav class="nav-links nav-links-left" aria-label="Навигация слева">
       <a href="/gta-6-ps5/">GTA 6</a>
-      <a href="#plus">PS Plus</a>
+      <a href="#plus" class="nav-psplus-link" aria-label="PS Plus">
+        <img class="nav-psplus-icon" src="assets/psplus-icon-nav.png" alt="PS Plus">
+      </a>
       <a href="#promo-code">Промокод</a>
+    </nav>
+
+    <a class="brand" href="#top" aria-label="БРАЗКА">
+      <img src="https://brazka.shop/assets/brazka-logo.png" alt="БРАЗКА">
+    </a>
+
+    <nav class="nav-links nav-links-right" aria-label="Навигация справа">
       <a href="#days">Распродажа</a>
       <a href="#releases">Новинки</a>
       <a href="#contact">Контакты</a>
     </nav>
-    <a class="brand" href="#top" aria-label="БРАЗКА">
-      <img src="https://brazka.shop/assets/brazka-logo.png" alt="БРАЗКА">
-    </a>
+
     <a class="nav-cta" href="https://t.me/brazkashop" target="_blank" rel="noopener">Написать</a>
   </header>
 
@@ -715,17 +1123,51 @@
             <span class="sale-tag">новинка</span>
             <h3>007 First Light</h3>
             <p>PS5</p>
-            <strong>6 900 ₽</strong>
+            <div class="release-price-from">
+              <span>от</span>
+              <strong>4 900 ₽</strong>
+            </div>
+            <div class="release-region-list">
+              <div class="release-region-row is-best"><span>🇮🇳 Индия</span><strong>4 900 ₽</strong></div>
+              <div class="release-region-row"><span>🇹🇷 Турция</span><strong>6 900 ₽</strong></div>
+            </div>
+            <a class="button primary release-card-cta" href="https://t.me/brazkashop" target="_blank" rel="noopener">Уточнить цену</a>
           </div>
         </article>
 
         <article class="game-card catalog-card">
-          <img src="https://brazka.shop/assets/new-ufc-6-ultimate-edition.jpg" alt="EA SPORTS UFC 6 Ultimate Edition">
+          <img src="assets/new-ufc-6-standard.jpg" alt="EA SPORTS UFC 6">
+          <div class="game-info">
+            <span class="sale-tag">релиз</span>
+            <h3>EA SPORTS UFC 6</h3>
+            <p>Standard Edition • PS5</p>
+            <div class="release-price-from">
+              <span>от</span>
+              <strong>6 100 ₽</strong>
+            </div>
+            <div class="release-region-list">
+              <div class="release-region-row is-best"><span>🇮🇳 Индия</span><strong>6 100 ₽</strong></div>
+              <div class="release-region-row"><span>🇹🇷 Турция</span><strong>8 500 ₽</strong></div>
+            </div>
+            <a class="button primary release-card-cta" href="https://t.me/brazkashop" target="_blank" rel="noopener">Уточнить цену</a>
+          </div>
+        </article>
+
+        <article class="game-card catalog-card">
+          <img src="https://brazka.shop/assets/new-assassins-creed-black-flag-resynced.jpg" alt="Assassin's Creed Black Flag Resynced">
           <div class="game-info">
             <span class="sale-tag">предзаказ</span>
-            <h3>EA SPORTS UFC 6</h3>
-            <p>Ultimate Edition</p>
-            <strong>12 650 ₽</strong>
+            <h3>Assassin’s Creed Black Flag</h3>
+            <p>Resynced • PS5</p>
+            <div class="release-price-from">
+              <span>от</span>
+              <strong>6 100 ₽</strong>
+            </div>
+            <div class="release-region-list">
+              <div class="release-region-row is-best"><span>🇮🇳 Индия</span><strong>6 100 ₽</strong></div>
+              <div class="release-region-row"><span>🇹🇷 Турция</span><strong>6 600 ₽</strong></div>
+            </div>
+            <a class="button primary release-card-cta" href="https://t.me/brazkashop" target="_blank" rel="noopener">Уточнить цену</a>
           </div>
         </article>
 
@@ -734,8 +1176,16 @@
           <div class="game-info">
             <span class="sale-tag">новинка</span>
             <h3>LEGO Batman</h3>
-            <p>Legacy of the Dark Knight</p>
-            <strong>6 900 ₽</strong>
+            <p>Legacy of the Dark Knight • PS5</p>
+            <div class="release-price-from">
+              <span>от</span>
+              <strong>4 900 ₽</strong>
+            </div>
+            <div class="release-region-list">
+              <div class="release-region-row is-best"><span>🇮🇳 Индия</span><strong>4 900 ₽</strong></div>
+              <div class="release-region-row"><span>🇹🇷 Турция</span><strong>6 900 ₽</strong></div>
+            </div>
+            <a class="button primary release-card-cta" href="https://t.me/brazkashop" target="_blank" rel="noopener">Уточнить цену</a>
           </div>
         </article>
 
@@ -745,21 +1195,19 @@
             <span class="sale-tag">новинка</span>
             <h3>Saros</h3>
             <p>PS5</p>
-            <strong>8 050 ₽</strong>
-          </div>
-        </article>
-
-        <article class="game-card catalog-card">
-          <img src="https://brazka.shop/assets/new-assassins-creed-black-flag-resynced.jpg" alt="Assassin's Creed Black Flag Resynced">
-          <div class="game-info">
-            <span class="sale-tag">предзаказ</span>
-            <h3>Assassin’s Creed Black Flag</h3>
-            <p>Resynced</p>
-            <strong>6 600 ₽</strong>
+            <div class="release-price-from">
+              <span>от</span>
+              <strong>6 100 ₽</strong>
+            </div>
+            <div class="release-region-list">
+              <div class="release-region-row is-best"><span>🇮🇳 Индия</span><strong>6 100 ₽</strong></div>
+              <div class="release-region-row"><span>🇹🇷 Турция</span><strong>8 050 ₽</strong></div>
+            </div>
+            <a class="button primary release-card-cta" href="https://t.me/brazkashop" target="_blank" rel="noopener">Уточнить цену</a>
           </div>
         </article>
       </div>
-    </section>
+</section>
 
     <section class="section-block contact" id="contact">
       <div class="contact-card glassline compact reveal-card final-cta">
@@ -781,7 +1229,7 @@
     </section>
   </main>
 
-  <script src="script.js?v=35"></script>
+  <script src="script.js?v=43"></script>
   <script src="https://brazka.shop/wolverine.js?v=3"></script>
 </body>
 </html>
