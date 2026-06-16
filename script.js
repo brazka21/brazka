@@ -3,19 +3,19 @@ const plans = {
     title: 'PS Plus Essential',
     note: 'Онлайн-мультиплеер, игры месяца и базовые возможности PS Plus.',
     features: ['онлайн', 'игры месяца', 'облако'],
-    prices: { 1: 1090, 3: 2990, 12: 6900 }
+    prices: { 1: 1090, 3: 2990, 12: 7900 }
   },
   extra: {
     title: 'PS Plus Extra',
     note: 'Каталог игр плюс все базовые преимущества PS Plus Essential.',
     features: ['каталог игр', 'онлайн', 'облако'],
-    prices: { 1: 1590, 3: 4290, 12: 10590 }
+    prices: { 1: 1590, 3: 4290, 12: 11990 }
   },
   deluxe: {
     title: 'PS Plus Deluxe',
     note: 'Максимальный уровень PS Plus: всё из Extra плюс триалы и классика.',
     features: ['классика', 'триалы', 'всё из Extra'],
-    prices: { 1: 1790, 3: 4790, 12: 12390 }
+    prices: { 1: 1790, 3: 4790, 12: 13990 }
   }
 };
 
@@ -63,7 +63,7 @@ const saleItems = [
 ];
 
 const rub = (n) => new Intl.NumberFormat('ru-RU').format(n) + ' ₽';
-const PROMO_DISCOUNT_RATE = 0.05;
+const PROMO_DISCOUNT_RATE = 0;
 let promoDiscountActive = false;
 const promoDiscountPrice = (n) => Math.round((n * (1 - PROMO_DISCOUNT_RATE)) / 10) * 10;
 const priceNumberFromText = (text) => {
@@ -98,24 +98,7 @@ document.querySelectorAll('.duration').forEach(btn => {
 
 
 function updateStaticDiscountPrices() {
-  const priceNodes = document.querySelectorAll('.sale-new, #releases .game-card strong, .promo-country-price strong');
-  priceNodes.forEach((node) => {
-    if (!node.dataset.originalPrice) {
-      const parsed = priceNumberFromText(node.textContent);
-      if (parsed > 0) {
-        node.dataset.originalPrice = String(parsed);
-      }
-    }
-
-    const original = Number(node.dataset.originalPrice || 0);
-    if (!original) return;
-
-    if (promoDiscountActive) {
-      node.innerHTML = priceWithDiscountHtml(original);
-    } else {
-      node.textContent = rub(original);
-    }
-  });
+  return;
 }
 
 const observer = new IntersectionObserver((entries) => {
