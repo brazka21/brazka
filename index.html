@@ -811,6 +811,143 @@
     }
   </style>
 
+
+  <style id="psplus-offer-upgrade-css">
+    #plus {
+      scroll-margin-top: 110px;
+    }
+    .psplus-offer-card {
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(300px, .85fr);
+      gap: clamp(18px, 3vw, 36px);
+      align-items: stretch;
+      max-width: 1180px;
+      margin: 0 auto 18px;
+      padding: clamp(22px, 3.5vw, 38px);
+      border-radius: 32px;
+      background:
+        radial-gradient(circle at 10% 0%, rgba(35,183,255,.16), transparent 28%),
+        radial-gradient(circle at 95% 20%, rgba(118,83,255,.16), transparent 30%),
+        linear-gradient(180deg, rgba(12,20,42,.92), rgba(6,8,18,.96));
+      border: 1px solid rgba(255,255,255,.10);
+      box-shadow: 0 22px 60px rgba(0,0,0,.26);
+    }
+    .psplus-offer-copy h2 {
+      max-width: 760px;
+      margin: 8px 0 14px;
+      font-size: clamp(34px, 4.2vw, 58px);
+      line-height: .96;
+      letter-spacing: -.045em;
+    }
+    .psplus-offer-copy p {
+      max-width: 680px;
+      margin: 0;
+      color: rgba(255,255,255,.76);
+      font-size: clamp(16px, 1.4vw, 20px);
+      line-height: 1.5;
+    }
+    .psplus-offer-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 24px;
+    }
+    .psplus-offer-actions .button {
+      min-height: 54px;
+    }
+    .psplus-offer-points {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+    .psplus-point {
+      padding: 16px 18px;
+      border-radius: 22px;
+      background: rgba(255,255,255,.045);
+      border: 1px solid rgba(255,255,255,.08);
+    }
+    .psplus-point strong {
+      display: block;
+      margin-bottom: 5px;
+      color: #fff;
+      font-size: 18px;
+      line-height: 1.1;
+    }
+    .psplus-point span {
+      display: block;
+      color: rgba(255,255,255,.68);
+      font-size: 14px;
+      line-height: 1.35;
+    }
+    .psplus-point.is-accent {
+      background: linear-gradient(135deg, rgba(35,183,255,.13), rgba(118,83,255,.12));
+      border-color: rgba(35,183,255,.22);
+    }
+    .psplus-tariff-guide {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      max-width: 1180px;
+      margin: 0 auto 18px;
+    }
+    .psplus-tariff-guide div {
+      padding: 16px 18px;
+      border-radius: 22px;
+      background: rgba(255,255,255,.045);
+      border: 1px solid rgba(255,255,255,.08);
+    }
+    .psplus-tariff-guide b {
+      display: block;
+      margin-bottom: 4px;
+      color: #fff;
+      font-size: 18px;
+    }
+    .psplus-tariff-guide span {
+      color: rgba(255,255,255,.66);
+      font-size: 14px;
+    }
+    .psplus-price-card {
+      position: relative;
+      overflow: hidden;
+    }
+    .psplus-price-card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background: radial-gradient(circle at top right, rgba(35,183,255,.10), transparent 34%);
+    }
+    .psplus-mini-note {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      margin-top: 12px;
+      padding: 13px 15px;
+      border-radius: 18px;
+      background: rgba(255,255,255,.045);
+      border: 1px solid rgba(255,255,255,.08);
+    }
+    .psplus-mini-note strong {
+      color: #fff;
+      font-size: 14px;
+    }
+    .psplus-mini-note span {
+      color: rgba(255,255,255,.66);
+      font-size: 13px;
+    }
+    @media (max-width: 900px) {
+      .psplus-offer-card {
+        grid-template-columns: 1fr;
+      }
+      .psplus-tariff-guide {
+        grid-template-columns: 1fr;
+      }
+      .psplus-offer-actions .button {
+        width: 100%;
+      }
+    }
+  </style>
+
 </head>
 <body>
   <div class="noise" aria-hidden="true"></div>
@@ -954,7 +1091,49 @@
         <img class="plus-title-mark" src="https://brazka.shop/assets/psplus-icon.png" alt="">
       </div>
 
-      <div class="ps-console">
+      <div class="psplus-offer-card glassline reveal-card">
+        <div class="psplus-offer-copy">
+          <span class="muted-label">ПОДПИСКА PS PLUS</span>
+          <h2>Подберём подписку под твой аккаунт</h2>
+          <p>Essential, Extra или Deluxe — подскажем срок, регион и актуальный способ оформления. Без лишней переписки: напиши, какой тариф нужен, и мы быстро сориентируем по цене.</p>
+          <div class="psplus-offer-actions">
+            <a class="button primary" href="https://t.me/brazkashop" target="_blank" rel="noopener">Написать и оформить PS Plus</a>
+            <a class="button ghost" href="#plus-prices">Посмотреть цены</a>
+          </div>
+        </div>
+
+        <div class="psplus-offer-points">
+          <div class="psplus-point">
+            <strong>1 месяц</strong>
+            <span>быстрый вход, если нужна подписка прямо сейчас</span>
+          </div>
+          <div class="psplus-point">
+            <strong>3 месяца</strong>
+            <span>удобно, если хочешь попробовать без годовой оплаты</span>
+          </div>
+          <div class="psplus-point is-accent">
+            <strong>12 месяцев</strong>
+            <span>для тех, кто хочет закрыть вопрос надолго</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="psplus-tariff-guide reveal-card">
+        <div>
+          <b>Essential</b>
+          <span>онлайн и игры месяца</span>
+        </div>
+        <div>
+          <b>Extra</b>
+          <span>каталог игр + онлайн</span>
+        </div>
+        <div>
+          <b>Deluxe</b>
+          <span>максимальный тариф</span>
+        </div>
+      </div>
+
+      <div class="ps-console" id="plus-prices">
         <div class="plan-rail" role="tablist" aria-label="Выбор категории PS Plus">
           <button class="plan-tile active" data-plan="essential" role="tab">
             <img src="https://brazka.shop/assets/ps-essential.png" alt="Essential">
@@ -971,10 +1150,10 @@
         </div>
 
         <div class="price-stage">
-          <div class="price-card glassline compact tight-card reveal-card">
+          <div class="price-card glassline compact tight-card reveal-card psplus-price-card">
             <div class="price-head">
               <div>
-                <span class="muted-label">PlayStation Plus</span>
+                <span class="muted-label">АКТУАЛЬНЫЙ ПРАЙС</span>
                 <h2 id="selectedName">PS Plus Essential</h2>
               </div>
               <div class="service-badge">Турция <b class="flag">🇹🇷</b></div>
@@ -986,7 +1165,7 @@
               <button class="duration" data-months="12"><span>12</span><small>месяцев</small></button>
             </div>
 
-            <div class="price-big" id="selectedPrice">1 490 ₽</div>
+            <div class="price-big" id="selectedPrice">1 090 ₽</div>
             <p class="selected-note" id="selectedNote">Онлайн-мультиплеер, игры месяца и базовые возможности PS Plus.</p>
 
             <div class="feature-row" id="featureRow">
@@ -995,9 +1174,14 @@
               <span>облако</span>
             </div>
 
+            <div class="psplus-mini-note">
+              <strong>Не уверен, какой тариф выбрать?</strong>
+              <span>Напиши в Telegram — подскажем без навязывания.</span>
+            </div>
+
             <div class="price-actions">
-              <a class="button primary" id="orderButton" href="https://t.me/brazkashop" target="_blank" rel="noopener">Уточнить цену и оформить</a>
-              <a class="button ghost" href="https://t.me/brazkashop" target="_blank" rel="noopener">Написать менеджеру</a>
+              <a class="button primary" id="orderButton" href="https://t.me/brazkashop" target="_blank" rel="noopener">Написать и оформить</a>
+              <a class="button ghost" href="https://t.me/brazkashop" target="_blank" rel="noopener">Задать вопрос</a>
             </div>
           </div>
         </div>
@@ -1194,7 +1378,7 @@
     </section>
   </main>
 
-  <script src="script.js?v=44"></script>
+  <script src="script.js?v=45"></script>
   <script src="https://brazka.shop/wolverine.js?v=3"></script>
 </body>
 </html>
