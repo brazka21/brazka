@@ -99,13 +99,12 @@ function injectGtaFaqStyles() {
     .gta6-inline-faq{position:relative;z-index:3;margin:0 clamp(16px,3vw,34px) clamp(16px,3vw,34px);padding:clamp(16px,2.4vw,26px);border-radius:28px;background:linear-gradient(180deg,rgba(8,12,28,.78),rgba(5,8,18,.86));border:1px solid rgba(255,255,255,.10);box-shadow:inset 0 1px 0 rgba(255,255,255,.05),0 18px 52px rgba(0,0,0,.24);backdrop-filter:blur(10px)}
     .gta6-inline-faq-head{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:14px}
     .gta6-inline-faq-head h3{margin:0;font-size:clamp(22px,2.8vw,34px);line-height:1;letter-spacing:-.05em}
-    .gta6-inline-faq-head span{color:rgba(255,255,255,.64);font-size:14px;font-weight:700}
     .gta6-inline-faq-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
     .gta6-inline-faq-item{padding:14px;border-radius:20px;background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.075)}
     .gta6-inline-faq-item strong{display:block;margin-bottom:6px;color:#fff;font-size:14px;line-height:1.2;letter-spacing:-.02em}
     .gta6-inline-faq-item p{margin:0;color:rgba(255,255,255,.68);font-size:13px;line-height:1.45}
     @media(max-width:980px){.gta6-inline-faq-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-    @media(max-width:760px){.gta6-inline-faq{margin:0 12px 12px;padding:16px;border-radius:22px}.gta6-inline-faq-head{display:block}.gta6-inline-faq-head span{display:block;margin-top:6px}.gta6-inline-faq-grid{grid-template-columns:1fr}.gta6-inline-faq-item{padding:13px}}
+    @media(max-width:760px){.gta6-inline-faq{margin:0 12px 12px;padding:16px;border-radius:22px}.gta6-inline-faq-head{display:block}.gta6-inline-faq-grid{grid-template-columns:1fr}.gta6-inline-faq-item{padding:13px}}
   `;
   document.head.appendChild(style);
 }
@@ -122,25 +121,24 @@ function buildGtaFaq() {
   faq.id = 'gta6Faq';
   faq.innerHTML = `
     <div class="gta6-inline-faq-head">
-      <h3>Как оформить GTA VI?</h3>
-      <span>коротко, без лишней воды</span>
+      <h3>Как оформить предзаказ GTA VI</h3>
     </div>
     <div class="gta6-inline-faq-grid">
       <div class="gta6-inline-faq-item">
-        <strong>1. Пишешь мне</strong>
-        <p>Standard или Ultimate — и какой регион аккаунта.</p>
+        <strong>1. Напишите нам</strong>
+        <p>Укажите издание: Standard или Ultimate, а также регион вашего аккаунта.</p>
       </div>
       <div class="gta6-inline-faq-item">
-        <strong>2. Проверяем аккаунт</strong>
-        <p>Если РФ или регион не подходит — скажу рабочий вариант.</p>
+        <strong>2. Проверим аккаунт</strong>
+        <p>Подскажем, подходит ли регион, и предложим оптимальный вариант оформления.</p>
       </div>
       <div class="gta6-inline-faq-item">
-        <strong>3. Оформляем</strong>
-        <p>Покупка закрепляется за твоим аккаунтом в PS Store.</p>
+        <strong>3. Оформим покупку</strong>
+        <p>Предзаказ закрепляется за вашим аккаунтом в PlayStation Store.</p>
       </div>
       <div class="gta6-inline-faq-item">
-        <strong>4. Игра ждёт релиза</strong>
-        <p>Когда откроют загрузку/запуск — появится в библиотеке.</p>
+        <strong>4. Ожидаете релиз</strong>
+        <p>После открытия загрузки игра появится в вашей библиотеке.</p>
       </div>
     </div>
   `;
