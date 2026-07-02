@@ -229,7 +229,7 @@ function copyPromoMessage() {
 
 function renderPromoTimer() {
   if (!promoTimer) return;
-  const minutes = Math.floor(promoSecondsLeft / 30);
+  const minutes = Math.floor(promoSecondsLeft / 60);
   const seconds = promoSecondsLeft % 60;
   promoTimer.textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
 }
