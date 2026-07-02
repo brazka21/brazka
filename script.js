@@ -78,6 +78,8 @@ let selectedPlan = 'essential';
 let selectedMonths = '1';
 
 function routeButtonsToPersonalTelegram() {
+  document.querySelectorAll('a[href="#days"]').forEach((link) => link.remove());
+
   document.querySelectorAll('a[href*="t.me/brazkainfo_bot"], a[href*="t.me/brazkashop"], a[href*="telegram.me/brazkainfo_bot"]').forEach((link) => {
     link.href = PERSONAL_TELEGRAM_URL;
     link.target = '_blank';
