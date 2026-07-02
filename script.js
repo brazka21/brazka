@@ -19,7 +19,7 @@ const plans = {
   }
 };
 
-const PERSONAL_TELEGRAM_URL = 'https://t.me/razim954';
+const PERSONAL_TELEGRAM_URL = atob('aHR0cHM6Ly90Lm1lL20vTHlFS2psMGJPREZp');
 const PERSONAL_TELEGRAM_LABEL = 'Написать в Telegram';
 const GOTHIC_COVER = 'assets/new-gothic-1-remake.jpg.jpg';
 const HALO_COVER = 'assets/new-halo-campaign-evolved.jpg.jpg';
@@ -39,14 +39,14 @@ let selectedMonths = '1';
 function routeButtonsToPersonalTelegram() {
   document.querySelectorAll('a[href="#days"]').forEach((link) => link.remove());
 
-  document.querySelectorAll('a[href*="t.me/brazkainfo_bot"], a[href*="t.me/brazkashop"], a[href*="telegram.me/brazkainfo_bot"]').forEach((link) => {
+  document.querySelectorAll('a[href*="t.me/brazkainfo_bot"], a[href*="t.me/brazkashop"], a[href*="telegram.me/brazkainfo_bot"], a[href*="t.me/razim954"]').forEach((link) => {
     link.href = PERSONAL_TELEGRAM_URL;
     link.target = '_blank';
     link.rel = 'noopener';
   });
 
   document.querySelectorAll('.button.primary, .nav-cta, .messenger-button').forEach((button) => {
-    if (button.href && button.href.includes('t.me/razim954') && /бот|оформить|написать|уточнить|задать/i.test(button.textContent)) {
+    if (button.href && button.href.includes('t.me/') && /бот|оформить|написать|уточнить|задать|заявк/i.test(button.textContent)) {
       button.setAttribute('aria-label', PERSONAL_TELEGRAM_LABEL);
     }
   });
