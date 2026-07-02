@@ -96,73 +96,56 @@ function injectGtaFaqStyles() {
   const style = document.createElement('style');
   style.id = 'gta-faq-styles';
   style.textContent = `
-    .gta6-faq-section{margin-top:-2px}
-    .gta6-faq-card{padding:clamp(24px,4vw,42px);border-radius:34px;background:radial-gradient(circle at top right,rgba(94,107,255,.18),transparent 34%),linear-gradient(180deg,rgba(12,18,38,.86),rgba(7,10,20,.92));border:1px solid rgba(255,255,255,.09);box-shadow:0 22px 70px rgba(0,0,0,.28)}
-    .gta6-faq-head{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;margin-bottom:22px}
-    .gta6-faq-head h2{margin:0;font-size:clamp(32px,4vw,52px);line-height:.98;letter-spacing:-.055em}
-    .gta6-faq-head p{margin:0;max-width:460px;color:rgba(255,255,255,.72);line-height:1.55;font-size:16px}
-    .gta6-faq-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
-    .gta6-faq-item{padding:18px;border-radius:24px;background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.085)}
-    .gta6-faq-item h3{margin:0 0 8px;font-size:18px;letter-spacing:-.035em}
-    .gta6-faq-item p{margin:0;color:rgba(255,255,255,.72);line-height:1.55;font-size:14px}
-    .gta6-faq-cta{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:16px;padding:18px;border-radius:24px;background:linear-gradient(90deg,rgba(94,107,255,.18),rgba(34,184,255,.14));border:1px solid rgba(105,174,255,.20)}
-    .gta6-faq-cta span{color:rgba(255,255,255,.78);font-weight:700}
-    .gta6-faq-cta .button{min-height:48px}
-    @media(max-width:760px){.gta6-faq-head{display:block}.gta6-faq-head p{margin-top:10px}.gta6-faq-grid{grid-template-columns:1fr}.gta6-faq-cta{flex-direction:column;align-items:flex-start}.gta6-faq-cta .button{width:100%}}
+    .gta6-inline-faq{position:relative;z-index:3;margin:0 clamp(16px,3vw,34px) clamp(16px,3vw,34px);padding:clamp(16px,2.4vw,26px);border-radius:28px;background:linear-gradient(180deg,rgba(8,12,28,.78),rgba(5,8,18,.86));border:1px solid rgba(255,255,255,.10);box-shadow:inset 0 1px 0 rgba(255,255,255,.05),0 18px 52px rgba(0,0,0,.24);backdrop-filter:blur(10px)}
+    .gta6-inline-faq-head{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:14px}
+    .gta6-inline-faq-head h3{margin:0;font-size:clamp(22px,2.8vw,34px);line-height:1;letter-spacing:-.05em}
+    .gta6-inline-faq-head span{color:rgba(255,255,255,.64);font-size:14px;font-weight:700}
+    .gta6-inline-faq-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+    .gta6-inline-faq-item{padding:14px;border-radius:20px;background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.075)}
+    .gta6-inline-faq-item strong{display:block;margin-bottom:6px;color:#fff;font-size:14px;line-height:1.2;letter-spacing:-.02em}
+    .gta6-inline-faq-item p{margin:0;color:rgba(255,255,255,.68);font-size:13px;line-height:1.45}
+    @media(max-width:980px){.gta6-inline-faq-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:760px){.gta6-inline-faq{margin:0 12px 12px;padding:16px;border-radius:22px}.gta6-inline-faq-head{display:block}.gta6-inline-faq-head span{display:block;margin-top:6px}.gta6-inline-faq-grid{grid-template-columns:1fr}.gta6-inline-faq-item{padding:13px}}
   `;
   document.head.appendChild(style);
 }
 
 function buildGtaFaq() {
   if (document.getElementById('gta6Faq')) return;
-  const gtaSection = document.getElementById('gta6');
-  if (!gtaSection) return;
+  const gtaCard = document.querySelector('#gta6 .gta6-order-card');
+  if (!gtaCard) return;
 
   injectGtaFaqStyles();
 
-  const faq = document.createElement('section');
-  faq.className = 'section-block gta6-faq-section';
+  const faq = document.createElement('div');
+  faq.className = 'gta6-inline-faq reveal-card';
   faq.id = 'gta6Faq';
   faq.innerHTML = `
-    <div class="gta6-faq-card reveal-card">
-      <div class="gta6-faq-head">
-        <h2>FAQ по GTA VI</h2>
-        <p>Коротко и по делу: как оформить предзаказ, какой аккаунт нужен и что будет после оплаты.</p>
+    <div class="gta6-inline-faq-head">
+      <h3>Как оформить GTA VI?</h3>
+      <span>коротко, без лишней воды</span>
+    </div>
+    <div class="gta6-inline-faq-grid">
+      <div class="gta6-inline-faq-item">
+        <strong>1. Пишешь мне</strong>
+        <p>Standard или Ultimate — и какой регион аккаунта.</p>
       </div>
-      <div class="gta6-faq-grid">
-        <article class="gta6-faq-item">
-          <h3>На какой аккаунт можно оформить?</h3>
-          <p>Работаем с аккаунтами подходящего региона. Если у тебя РФ-аккаунт или не знаешь регион — сначала проверим и подскажем, как лучше сделать.</p>
-        </article>
-        <article class="gta6-faq-item">
-          <h3>Что нужно от меня?</h3>
-          <p>Напиши в Telegram, какое издание хочешь: Standard или Ultimate. Дальше проверим регион, цену и объясним порядок оформления.</p>
-        </article>
-        <article class="gta6-faq-item">
-          <h3>Когда игра появится?</h3>
-          <p>После оформления предзаказ будет закреплён за аккаунтом. Когда игра станет доступна к загрузке/запуску, она появится в библиотеке по правилам PS Store.</p>
-        </article>
-        <article class="gta6-faq-item">
-          <h3>Standard или Ultimate?</h3>
-          <p>Standard — сама игра. Ultimate — игра плюс дополнительный контент из апгрейда. Если сомневаешься, напиши — подберём без переплаты.</p>
-        </article>
-        <article class="gta6-faq-item">
-          <h3>Это безопасно?</h3>
-          <p>Перед оформлением объясняем каждый шаг и не гоним в оплату, пока не понятно, подходит ли твой аккаунт и регион.</p>
-        </article>
-        <article class="gta6-faq-item">
-          <h3>Сколько занимает оформление?</h3>
-          <p>Обычно быстро, но зависит от региона аккаунта и способа оплаты. Лучше сразу написать — проверим и скажем по факту.</p>
-        </article>
+      <div class="gta6-inline-faq-item">
+        <strong>2. Проверяем аккаунт</strong>
+        <p>Если РФ или регион не подходит — скажу рабочий вариант.</p>
       </div>
-      <div class="gta6-faq-cta">
-        <span>Хочешь GTA VI без возни с регионами и оплатой?</span>
-        <a class="button primary" href="${PERSONAL_TELEGRAM_URL}" target="_blank" rel="noopener">Написать лично</a>
+      <div class="gta6-inline-faq-item">
+        <strong>3. Оформляем</strong>
+        <p>Покупка закрепляется за твоим аккаунтом в PS Store.</p>
+      </div>
+      <div class="gta6-inline-faq-item">
+        <strong>4. Игра ждёт релиза</strong>
+        <p>Когда откроют загрузку/запуск — появится в библиотеке.</p>
       </div>
     </div>
   `;
 
-  gtaSection.insertAdjacentElement('afterend', faq);
+  gtaCard.appendChild(faq);
 }
 
 function updateMain() {
@@ -246,7 +229,7 @@ function copyPromoMessage() {
 
 function renderPromoTimer() {
   if (!promoTimer) return;
-  const minutes = Math.floor(promoSecondsLeft / 60);
+  const minutes = Math.floor(promoSecondsLeft / 30);
   const seconds = promoSecondsLeft % 60;
   promoTimer.textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
 }
