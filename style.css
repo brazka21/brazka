@@ -275,3 +275,6 @@ main{width:min(100% - 48px,1260px);margin:0 auto;padding-top:8px}
     height:22px;
   }
 }
+
+/* sale ended */
+#days{display:none!important;}
