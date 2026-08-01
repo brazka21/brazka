@@ -28,7 +28,9 @@ def load_env(path: Path) -> None:
         key, value = line.split("=", 1)
         key = key.strip()
         value = value.strip().strip('"').strip("'")
-        os.environ.setdefault(key, value)
+        # Значения из локального .env должны быть главными. Иначе старая
+        # переменная Windows может незаметно подменить токен другого бота.
+        os.environ[key] = value
 
 
 load_env(ENV_PATH)
