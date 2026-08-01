@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#070a14">
+  <title>BRAZKA — Telegram Mini App</title>
+  <meta name="description" content="Оформление игр, подписок и пополнений BRAZKA внутри Telegram.">
+  <link rel="icon" href="../assets/favicon.ico">
+  <link rel="stylesheet" href="style.css?v=1">
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="../" aria-label="BRAZKA">
+        <img src="../assets/brazka-logo.png" alt="BRAZKA">
+      </a>
+      <span class="status"><i></i> онлайн</span>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Магазин внутри Telegram</p>
+        <h1>Игры и подписки.<br><span>Без лишних движений.</span></h1>
+        <p>Выберите услугу, заполните пару полей — заявка сразу уйдёт менеджеру.</p>
+      </section>
+
+      <section class="section" aria-labelledby="service-title">
+        <div class="section-head">
+          <div>
+            <p class="step-label">Шаг 1 из 3</p>
+            <h2 id="service-title">Что оформляем?</h2>
+          </div>
+          <button class="text-button" id="resetButton" type="button">Сбросить</button>
+        </div>
+
+        <div class="service-grid" id="serviceGrid">
+          <button class="service-card is-active" type="button" data-service="Игра PlayStation" data-icon="△">
+            <span class="service-icon">△</span>
+            <span class="service-copy"><strong>Игра PlayStation</strong><small>PS5 и PS4</small></span>
+            <span class="check">✓</span>
+          </button>
+          <button class="service-card" type="button" data-service="PS Plus" data-icon="＋">
+            <span class="service-icon">＋</span>
+            <span class="service-copy"><strong>PS Plus</strong><small>Essential, Extra, Deluxe</small></span>
+            <span class="check">✓</span>
+          </button>
+          <button class="service-card" type="button" data-service="Пополнение Steam" data-icon="◉">
+            <span class="service-icon">◉</span>
+            <span class="service-copy"><strong>Пополнение Steam</strong><small>Баланс аккаунта</small></span>
+            <span class="check">✓</span>
+          </button>
+          <button class="service-card" type="button" data-service="Другое" data-icon="•••">
+            <span class="service-icon dots">•••</span>
+            <span class="service-copy"><strong>Другое</strong><small>Разберёмся вручную</small></span>
+            <span class="check">✓</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="section form-section" aria-labelledby="details-title">
+        <div class="section-head">
+          <div>
+            <p class="step-label">Шаг 2 из 3</p>
+            <h2 id="details-title">Детали заявки</h2>
+          </div>
+        </div>
+
+        <div class="segmented" id="regionSwitch" aria-label="Регион">
+          <button class="is-active" type="button" data-region="Турция">Турция</button>
+          <button type="button" data-region="Индия">Индия</button>
+          <button type="button" data-region="Другой">Другой</button>
+        </div>
+
+        <label class="field">
+          <span>Название игры или услуги</span>
+          <input id="productInput" type="text" placeholder="Например: FIFA 27 Ultimate Edition" autocomplete="off">
+        </label>
+
+        <div class="two-columns">
+          <label class="field">
+            <span>Ваше имя</span>
+            <input id="nameInput" type="text" placeholder="Как к вам обращаться" autocomplete="name">
+          </label>
+          <label class="field">
+            <span>Контакт</span>
+            <input id="contactInput" type="text" placeholder="@username или телефон" autocomplete="tel">
+          </label>
+        </div>
+
+        <label class="field">
+          <span>Комментарий <em>необязательно</em></span>
+          <textarea id="commentInput" rows="3" placeholder="Аккаунт уже есть, нужен новый регион, есть промокод и т. д."></textarea>
+        </label>
+      </section>
+
+      <section class="section summary-section" aria-labelledby="summary-title">
+        <div class="section-head">
+          <div>
+            <p class="step-label">Шаг 3 из 3</p>
+            <h2 id="summary-title">Проверяем</h2>
+          </div>
+        </div>
+
+        <div class="summary-card">
+          <div class="summary-icon" id="summaryIcon">△</div>
+          <div class="summary-main">
+            <strong id="summaryService">Игра PlayStation</strong>
+            <span id="summaryProduct">Название пока не указано</span>
+          </div>
+          <span class="region-chip" id="summaryRegion">Турция</span>
+        </div>
+
+        <button class="primary-button" id="submitButton" type="button">
+          <span>Отправить заявку</span>
+          <b>→</b>
+        </button>
+        <p class="privacy">Нажимая кнопку, вы передаёте данные менеджеру BRAZKA для обработки заявки.</p>
+      </section>
+    </main>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <div class="success-screen" id="successScreen" hidden>
+    <div class="success-mark">✓</div>
+    <p class="eyebrow">Заявка отправлена</p>
+    <h2>Приняли, брат 🤝</h2>
+    <p>Менеджер свяжется с вами и уточнит стоимость и способ оформления.</p>
+    <button class="primary-button" id="newRequestButton" type="button">Новая заявка</button>
+    <a class="secondary-link" href="https://t.me/brazkashop" target="_blank" rel="noopener">Открыть Telegram BRAZKA</a>
+  </div>
+
+  <script src="app.js?v=1"></script>
+</body>
+</html>
