@@ -49,7 +49,7 @@
     elements.toast.classList.add("is-visible");
     toastTimer = window.setTimeout(() => {
       elements.toast.classList.remove("is-visible");
-    }, 2600);
+    }, 3200);
   }
 
   function updateSummary() {
@@ -133,27 +133,52 @@
     };
   }
 
+  function restoreSubmitButton() {
+    elements.submitButton.disabled = false;
+    elements.submitButton.querySelector("span").textContent = "Отправить заявку";
+  }
+
   function submitRequest() {
     if (!validate()) {
       tg?.HapticFeedback?.notificationOccurred("error");
       return;
     }
 
+    if (!tg || tg.platform === "unknown") {
+      showToast("Откройте магазин через кнопку в Telegram-боте");
+      return;
+    }
+
+    // Для Keyboard Button Mini App Telegram передаёт пустой initData.
+    // Именно в этом режиме доступен WebApp.sendData().
+    if (tg.initData) {
+      showToast("Для отправки откройте магазин через большую кнопку после /start");
+      tg.HapticFeedback?.notificationOccurred("error");
+      return;
+    }
+
     const payload = buildPayload();
 
     try {
-      if (tg?.initData) {
-        tg.sendData(JSON.stringify(payload));
-      } else {
-        console.info("BRAZKA Mini App demo payload:", payload);
-      }
+      elements.submitButton.disabled = true;
+      elements.submitButton.querySelector("span").textContent = "Отправляем…";
+      tg.HapticFeedback?.notificationOccurred("success");
+      tg.sendData(JSON.stringify(payload));
 
-      tg?.HapticFeedback?.notificationOccurred("success");
-      elements.successScreen.hidden = false;
+      // При успешной отправке Telegram сам закрывает Mini App.
+      // Если окно осталось открытым, значит данные не ушли.
+      window.setTimeout(() => {
+        if (document.visibilityState === "visible") {
+          restoreSubmitButton();
+          showToast("Telegram не подтвердил отправку. Откройте через кнопку после /start");
+          tg.HapticFeedback?.notificationOccurred("error");
+        }
+      }, 1800);
     } catch (error) {
       console.error(error);
-      showToast("Не удалось отправить. Напишите менеджеру напрямую.");
-      tg?.HapticFeedback?.notificationOccurred("error");
+      restoreSubmitButton();
+      showToast("Не удалось отправить. Попробуйте открыть магазин заново.");
+      tg.HapticFeedback?.notificationOccurred("error");
     }
   }
 
