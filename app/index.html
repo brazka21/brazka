@@ -23,7 +23,7 @@
       <section class="hero">
         <p class="eyebrow">Магазин внутри Telegram</p>
         <h1>Игры и подписки.<br><span>Без лишних движений.</span></h1>
-        <p>Выберите услугу, заполните пару полей — заявка сразу уйдёт менеджеру.</p>
+        <p>Выберите услугу и укажите, что нужно. Имя и Telegram бот получит автоматически.</p>
       </section>
 
       <section class="section" aria-labelledby="service-title">
@@ -78,17 +78,6 @@
           <input id="productInput" type="text" placeholder="Например: FIFA 27 Ultimate Edition" autocomplete="off">
         </label>
 
-        <div class="two-columns">
-          <label class="field">
-            <span>Ваше имя</span>
-            <input id="nameInput" type="text" placeholder="Как к вам обращаться" autocomplete="name">
-          </label>
-          <label class="field">
-            <span>Контакт</span>
-            <input id="contactInput" type="text" placeholder="@username или телефон" autocomplete="tel">
-          </label>
-        </div>
-
         <label class="field">
           <span>Комментарий <em>необязательно</em></span>
           <textarea id="commentInput" rows="3" placeholder="Аккаунт уже есть, нужен новый регион, есть промокод и т. д."></textarea>
@@ -116,22 +105,13 @@
           <span>Отправить заявку</span>
           <b>→</b>
         </button>
-        <p class="privacy">Нажимая кнопку, вы передаёте данные менеджеру BRAZKA для обработки заявки.</p>
+        <p class="privacy">Имя, Telegram username и ID будут добавлены к заявке автоматически.</p>
       </section>
     </main>
   </div>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-  <div class="success-screen" id="successScreen" hidden>
-    <div class="success-mark">✓</div>
-    <p class="eyebrow">Заявка отправлена</p>
-    <h2>Приняли, брат 🤝</h2>
-    <p>Менеджер свяжется с вами и уточнит стоимость и способ оформления.</p>
-    <button class="primary-button" id="newRequestButton" type="button">Новая заявка</button>
-    <a class="secondary-link" href="https://t.me/brazkashop" target="_blank" rel="noopener">Открыть Telegram BRAZKA</a>
-  </div>
-
-  <script src="app.js?v=2"></script>
+  <script src="app.js?v=4"></script>
 </body>
 </html>
