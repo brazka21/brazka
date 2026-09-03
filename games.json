@@ -1,0 +1,47 @@
+{
+  "updated": "3 сентября 2026",
+  "games": [
+    {
+      "title": "GTA VI",
+      "platform": "Standard Edition • PS5",
+      "tag": "предзаказ",
+      "image": "assets/gta6-cover-art-main.jpg",
+      "prices": { "india": 8400, "turkey": 9100 }
+    },
+    {
+      "title": "007 First Light",
+      "platform": "Standard Edition • PS5",
+      "tag": "новинка",
+      "image": "assets/new-007-first-light.jpg",
+      "prices": { "india": 4900, "turkey": 7900 }
+    },
+    {
+      "title": "EA SPORTS UFC 6",
+      "platform": "Standard Edition • PS5",
+      "tag": "релиз",
+      "image": "assets/new-ufc-6-standard.jpg",
+      "prices": { "india": 6100, "turkey": 8500 }
+    },
+    {
+      "title": "Assassin’s Creed Black Flag",
+      "platform": "Resynced • PS5",
+      "tag": "предзаказ",
+      "image": "assets/new-assassins-creed-black-flag-resynced.jpg",
+      "prices": { "india": 6100, "turkey": 6600 }
+    },
+    {
+      "title": "LEGO Batman",
+      "platform": "Legacy of the Dark Knight • PS5",
+      "tag": "новинка",
+      "image": "assets/new-lego-batman-legacy-dark-knight.jpg",
+      "prices": { "india": 4900, "turkey": 7900 }
+    },
+    {
+      "title": "Saros",
+      "platform": "Standard Edition • PS5",
+      "tag": "новинка",
+      "image": "assets/new-saros.jpg",
+      "prices": { "india": 6100, "turkey": 8050 }
+    }
+  ]
+}
