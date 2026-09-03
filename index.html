@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>БРАЗКА — каталог игр PlayStation, цены Индии и Турции</title>
-  <meta name="description" content="Каталог цифровых игр PlayStation с ценами для Индии и Турции. PS Plus и помощь с оформлением через БРАЗКА.">
+  <meta name="description" content="Топовые новинки, предзаказы и скидки PlayStation с итоговыми ценами для Индии и Турции. PS Plus и помощь с оформлением через БРАЗКА.">
   <meta name="keywords" content="игры PlayStation Индия, игры PlayStation Турция, купить игры PS5, PS Plus, БРАЗКА, brazka">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <meta name="author" content="БРАЗКА">
@@ -28,7 +28,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=23">
+  <link rel="stylesheet" href="style.css?v=24">
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
@@ -68,7 +68,7 @@
         <div>
           <span class="eyebrow">ИГРЫ PLAYSTATION</span>
           <h1 id="catalog-title">Каталог игр</h1>
-          <p>Сравни цены для Индии и Турции. Поможем выбрать регион и оформить покупку.</p>
+          <p>Топовые новинки, предзаказы и скидки PlayStation. Сразу показываем итоговую цену для Индии и Турции.</p>
         </div>
         <div class="catalog-meta">
           <span class="live-dot" aria-hidden="true"></span>
@@ -76,7 +76,14 @@
         </div>
       </div>
 
-      <div class="catalog-grid" id="gamesCatalog" aria-live="polite">
+      <div class="catalog-toolbar reveal-card" aria-label="Фильтр каталога">
+        <button class="catalog-filter active" data-filter="all" aria-pressed="true">Всё <span id="allCount">14</span></button>
+        <button class="catalog-filter" data-filter="new" aria-pressed="false">Новинки <span id="newCount">10</span></button>
+        <button class="catalog-filter sale-filter" data-filter="sale" aria-pressed="false">Скидки <span id="saleCount">4</span></button>
+        <p>Цена уже включает нашу работу. Остаток с карты остаётся на вашем аккаунте.</p>
+      </div>
+
+      <div class="catalog-content" id="gamesCatalog" aria-live="polite">
         <div class="catalog-loading">Загружаем каталог…</div>
       </div>
     </section>
@@ -176,6 +183,6 @@
     </section>
   </main>
 
-  <script src="script.js?v=46"></script>
+  <script src="script.js?v=47"></script>
 </body>
 </html>

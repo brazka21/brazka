@@ -1,47 +1,37 @@
 {
   "updated": "3 сентября 2026",
-  "games": [
+  "margin": 1200,
+  "note": "Цены рассчитаны по стоимости кодов поставщика с наценкой 1 200 ₽ и округлением до 100 ₽.",
+  "groups": [
     {
-      "title": "GTA VI",
-      "platform": "Standard Edition • PS5",
-      "tag": "предзаказ",
-      "image": "assets/gta6-cover-art-main.jpg",
-      "prices": { "india": 8400, "turkey": 9100 }
+      "id": "new",
+      "eyebrow": "ГЛАВНЫЕ РЕЛИЗЫ 2026",
+      "title": "Новинки и предзаказы",
+      "description": "Самые заметные игры ближайших месяцев — без проходняка и бесконечного списка.",
+      "games": [
+        { "title": "Grand Theft Auto VI", "platform": "Standard Edition • PS5", "tag": "главный предзаказ", "release": "19 ноября", "image": "assets/catalog-gta6.jpg", "prices": { "india": 7500, "turkey": 8800 }, "storePrices": { "india": 5999, "turkey": 3999 } },
+        { "title": "Marvel’s Wolverine", "platform": "Standard Edition • PS5", "tag": "предзаказ", "release": "15 сентября", "image": "assets/catalog-wolverine.jpg", "prices": { "india": 6500, "turkey": 7900 }, "storePrices": { "india": 4999, "turkey": 3449 } },
+        { "title": "EA SPORTS FC 27", "platform": "Standard Edition • PS4 & PS5", "tag": "предзаказ", "release": "25 сентября", "image": "assets/catalog-fc27.jpg", "prices": { "india": 7500, "turkey": 8800 }, "storePrices": { "india": 5999, "turkey": 3999 } },
+        { "title": "NBA 2K27", "platform": "Standard Edition • PS5", "tag": "горячий релиз", "release": "4 сентября", "image": "assets/catalog-nba2k27.jpg", "prices": { "india": 6500, "turkey": 8800 }, "storePrices": { "india": 4999, "turkey": 3999 } },
+        { "title": "Call of Duty: Modern Warfare 4", "platform": "Standard Edition • PS5", "tag": "предзаказ", "release": "23 октября", "image": "assets/catalog-codmw4.jpg", "prices": { "india": 7500, "turkey": 7400 }, "storePrices": { "india": 5999, "turkey": 3199 } },
+        { "title": "Onimusha: Way of the Sword", "platform": "Standard Edition • PS5", "tag": "горячий релиз", "release": "4 сентября", "image": "assets/catalog-onimusha.jpg", "prices": { "india": 6500, "turkey": 7900 }, "storePrices": { "india": 4399, "turkey": 3449 } },
+        { "title": "CONTROL Resonant", "platform": "Standard Edition • PS5", "tag": "предзаказ", "release": "24 сентября", "image": "assets/catalog-control.jpg", "prices": { "india": 5400, "turkey": 6400 }, "storePrices": { "india": 3499, "turkey": 2579 } },
+        { "title": "SILENT HILL: Townfall", "platform": "Standard Edition • PS5", "tag": "предзаказ", "release": "24 сентября", "image": "assets/catalog-silent-hill.jpg", "prices": { "india": 4400, "turkey": 5500 }, "storePrices": { "india": 2999, "turkey": 2149 } },
+        { "title": "Phantom Blade Zero", "platform": "Standard Edition • PS5", "tag": "предзаказ", "release": "29 октября", "image": "assets/catalog-phantom-blade.jpg", "prices": { "india": 6500, "turkey": 6000 }, "storePrices": { "india": 4299, "turkey": 2379 } },
+        { "title": "The Blood of Dawnwalker", "platform": "Standard Edition • PS5", "tag": "новинка", "release": "уже вышла", "image": "assets/catalog-dawnwalker.jpg", "prices": { "india": 5400, "turkey": 6900 }, "storePrices": { "india": 3999, "turkey": 2999 } }
+      ]
     },
     {
-      "title": "007 First Light",
-      "platform": "Standard Edition • PS5",
-      "tag": "новинка",
-      "image": "assets/new-007-first-light.jpg",
-      "prices": { "india": 4900, "turkey": 7900 }
-    },
-    {
-      "title": "EA SPORTS UFC 6",
-      "platform": "Standard Edition • PS5",
-      "tag": "релиз",
-      "image": "assets/new-ufc-6-standard.jpg",
-      "prices": { "india": 6100, "turkey": 8500 }
-    },
-    {
-      "title": "Assassin’s Creed Black Flag",
-      "platform": "Resynced • PS5",
-      "tag": "предзаказ",
-      "image": "assets/new-assassins-creed-black-flag-resynced.jpg",
-      "prices": { "india": 6100, "turkey": 6600 }
-    },
-    {
-      "title": "LEGO Batman",
-      "platform": "Legacy of the Dark Knight • PS5",
-      "tag": "новинка",
-      "image": "assets/new-lego-batman-legacy-dark-knight.jpg",
-      "prices": { "india": 4900, "turkey": 7900 }
-    },
-    {
-      "title": "Saros",
-      "platform": "Standard Edition • PS5",
-      "tag": "новинка",
-      "image": "assets/new-saros.jpg",
-      "prices": { "india": 6100, "turkey": 8050 }
+      "id": "sale",
+      "eyebrow": "УСПЕТЬ ДО 9 СЕНТЯБРЯ",
+      "title": "Сейчас со скидкой",
+      "description": "Выбрали акции, на которых действительно можно сэкономить. После окончания скидки цена изменится.",
+      "games": [
+        { "title": "007 First Light", "platform": "Standard Edition • PS5", "tag": "−20% в PS Store", "release": "до 9 сентября", "image": "assets/catalog-007.jpg", "prices": { "india": 5400, "turkey": 6000 }, "oldPrices": { "india": null, "turkey": 6900 }, "storePrices": { "india": 3199, "turkey": 2399.2 } },
+        { "title": "Forza Horizon 5 Deluxe", "platform": "Deluxe Edition • PS5", "tag": "−60% в PS Store", "release": "до 9 сентября", "image": "assets/catalog-forza.jpg", "prices": { "india": 4400, "turkey": 3100 }, "oldPrices": { "india": 7500, "turkey": 5500 }, "storePrices": { "india": 2159, "turkey": 822 } },
+        { "title": "UFC 6", "platform": "Standard Edition • PS5", "tag": "−20% в PS Store", "release": "до 9 сентября", "image": "assets/catalog-ufc6.jpg", "prices": { "india": 5400, "turkey": 7400 }, "oldPrices": { "india": 6500, "turkey": 8800 }, "storePrices": { "india": 3999, "turkey": 3199.2 } },
+        { "title": "Crimson Desert Enhanced", "platform": "Standard Edition • PS5", "tag": "−20% в PS Store", "release": "до 9 сентября", "image": "assets/catalog-crimson-desert.jpg", "prices": { "india": 5400, "turkey": 6000 }, "oldPrices": { "india": 6500, "turkey": 6900 }, "storePrices": { "india": 3599, "turkey": 2399.2 } }
+      ]
     }
   ]
 }
