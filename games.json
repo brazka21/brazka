@@ -18,7 +18,10 @@
         { "title": "CONTROL Resonant", "platform": "Standard Edition • PS5", "tag": "предзаказ", "release": "24 сентября", "image": "assets/catalog-control.jpg", "prices": { "india": 5400, "turkey": 6400 }, "storePrices": { "india": 3499, "turkey": 2579 } },
         { "title": "SILENT HILL: Townfall", "platform": "Standard Edition • PS5", "tag": "предзаказ", "release": "24 сентября", "image": "assets/catalog-silent-hill.jpg", "prices": { "india": 4400, "turkey": 5500 }, "storePrices": { "india": 2999, "turkey": 2149 } },
         { "title": "Phantom Blade Zero", "platform": "Standard Edition • PS5", "tag": "предзаказ", "release": "29 октября", "image": "assets/catalog-phantom-blade.jpg", "prices": { "india": 6500, "turkey": 6000 }, "storePrices": { "india": 4299, "turkey": 2379 } },
-        { "title": "The Blood of Dawnwalker", "platform": "Standard Edition • PS5", "tag": "новинка", "release": "уже вышла", "image": "assets/catalog-dawnwalker.jpg", "prices": { "india": 5400, "turkey": 6900 }, "storePrices": { "india": 3999, "turkey": 2999 } }
+        { "title": "The Blood of Dawnwalker", "platform": "Standard Edition • PS5", "tag": "новинка", "release": "уже вышла", "image": "assets/catalog-dawnwalker.jpg", "prices": { "india": 5400, "turkey": 6900 }, "storePrices": { "india": 3999, "turkey": 2999 } },
+        { "title": "Assassin’s Creed Black Flag", "platform": "Resynced • PS5", "tag": "популярное", "release": "уже вышла", "image": "assets/new-assassins-creed-black-flag-resynced.jpg", "prices": { "india": 6500, "turkey": 6400 }, "storePrices": { "india": 4199, "turkey": 2579 } },
+        { "title": "LEGO Batman", "platform": "Legacy of the Dark Knight • PS5", "tag": "популярное", "release": "уже вышла", "image": "assets/new-lego-batman-legacy-dark-knight.jpg", "prices": { "india": 5400, "turkey": 6900 }, "storePrices": { "india": 3999, "turkey": 2999 } },
+        { "title": "SAROS", "platform": "Standard Edition • PS5", "tag": "популярное", "release": "уже вышла", "image": "assets/new-saros.jpg", "prices": { "india": 6500, "turkey": 7900 }, "storePrices": { "india": 4999, "turkey": 3449 } }
       ]
     },
     {
