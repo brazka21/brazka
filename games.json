@@ -1,252 +1,393 @@
 {
+  "schemaVersion": 2,
+  "updated": "2026-09-05",
+  "margin": 1200,
+  "priceUpdatePolicy": {
+    "alwaysApplyIncrease": true,
+    "compareAgainst": "publishedPrice",
+    "decreaseThresholdRub": 500,
+    "marginRub": 1200,
+    "maxCards": 3,
+    "roundUpRub": 100,
+    "comparisonBaseline": "Current published price for the same gameId, editionId and region"
+  },
+  "titles": {
+    "gta-vi": {
+      "title": "Grand Theft Auto VI",
+      "platform": "PS5",
+      "description": "Леонида, Вайс-Сити и новая история Джейсона и Люсии. Выбери своё издание следующей Grand Theft Auto.",
+      "aliases": [
+        "гта",
+        "гта6",
+        "gta6",
+        "gta 6",
+        "джи ти эй"
+      ],
+      "releaseDate": "2026-11-19",
+      "release": "19 ноября",
+      "priority": 1,
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1818/4a35c9a8490c69fe89af0f52d4ac0249b230b4fdb12e8469.jpg"
+    },
+    "fc-27": {
+      "title": "EA SPORTS FC 27",
+      "platform": "PS4 / PS5",
+      "description": "Новый футбольный сезон: собери команду и выходи на поле. Сравни Standard и Ultimate.",
+      "aliases": [
+        "фифа",
+        "футбол",
+        "fifa",
+        "fc27"
+      ],
+      "releaseDate": "2026-09-25",
+      "release": "25 сентября",
+      "priority": 2,
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2321/fa7db8b40ed671bce4046b335beb5a0ab327c33edbca8351.jpg"
+    },
+    "ufc-6": {
+      "title": "EA SPORTS UFC 6",
+      "platform": "PS5",
+      "description": "Выходи в октагон с бойцами UFC. Базовая игра и Ultimate с дополнительными наборами — в одной карточке.",
+      "aliases": [
+        "юфс",
+        "уфс",
+        "ufc6",
+        "мма",
+        "mma"
+      ],
+      "releaseDate": "",
+      "release": "Уже в продаже",
+      "priority": 3,
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202604/2216/d7dc9d18be2af5600b5bfe6bd47383d0890af0eb2c828751.jpg"
+    },
+    "wolverine": {
+      "title": "Marvel’s Wolverine",
+      "platform": "PS5",
+      "description": "История Росомахи для PlayStation 5. Сравни стандартное издание и Digital Deluxe с дополнительными костюмами и когтями.",
+      "aliases": [
+        "росомаха",
+        "марвел",
+        "вулверин"
+      ],
+      "releaseDate": "2026-09-15",
+      "release": "15 сентября",
+      "priority": 4,
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2221/5ba04b023e0b4c4aa7fbdbf2170262a52bc0384ee44efce0.jpg"
+    },
+    "nba-2k27": {
+      "title": "NBA 2K27",
+      "platform": "PS5",
+      "description": "Баскетбол, твоя карьера и команда. От базового издания до Ultra с VC и сезонными пропусками.",
+      "aliases": [
+        "нба",
+        "баскетбол",
+        "2к27",
+        "nba2k27"
+      ],
+      "releaseDate": "",
+      "release": "Уже в продаже",
+      "priority": 5,
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/2913/e306a983b0540fafe2421b92f7a1cbc77415416b1fffd8cc.jpg"
+    },
+    "cod-mw4": {
+      "title": "Call of Duty: Modern Warfare 4",
+      "platform": "PS5",
+      "description": "Новая Modern Warfare. Сравни Standard и Vault с наборами оперативников, оружием и BlackCell.",
+      "aliases": [
+        "колда",
+        "кал оф дьюти",
+        "call of duty",
+        "cod",
+        "mw4"
+      ],
+      "releaseDate": "2026-10-23",
+      "release": "23 октября",
+      "priority": 6,
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1419/63142285b9e04bc0ef3f6af46b665ecea4e47bfa311eb217.jpg"
+    },
+    "rdr2": {
+      "title": "Red Dead Redemption 2",
+      "platform": "PS4 / PS5",
+      "description": "Большой вестерн Rockstar: сюжетная история и Red Dead Online. Выбирай стандартное или Ultimate-издание. Версия PS4 работает на PS5 по обратной совместимости.",
+      "aliases": [
+        "рдр",
+        "рдр2",
+        "rdr",
+        "rdr 2"
+      ],
+      "releaseDate": "",
+      "release": "Уже в продаже",
+      "priority": 7,
+      "image": "https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/Hpl5MtwQgOVF9vJqlfui6SDB5Jl4oBSq.png"
+    },
+    "forza-horizon-5": {
+      "title": "Forza Horizon 5",
+      "platform": "PS5",
+      "description": "Фестиваль автомобилей и открытый мир Мексики. Сравни издания с Car Pass и дополнительными приключениями.",
+      "aliases": [
+        "форза",
+        "гонки",
+        "fh5"
+      ],
+      "releaseDate": "",
+      "release": "Уже в продаже",
+      "priority": 8,
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202502/1300/01248ef12bf2841c3b97bc1af344f922e5cbbf7a8870e0f8.jpg"
+    },
+    "007-first-light": {
+      "title": "007 First Light",
+      "platform": "PS5",
+      "description": "Знакомство с молодым Джеймсом Бондом. Базовая игра и Deluxe с дополнительными образами.",
+      "aliases": [
+        "бонд",
+        "джеймс бонд",
+        "007"
+      ],
+      "releaseDate": "",
+      "release": "Уже в продаже",
+      "priority": 9,
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2216/6d18d35a8bdbc6614a47b5e2d661e9f959afabb8af7011f9.jpg"
+    },
+    "crimson-desert": {
+      "title": "Crimson Desert",
+      "platform": "PS5",
+      "description": "Путешествие по Пайвелу: приключения, сражения и открытый мир. Сравни базовую игру и Deluxe.",
+      "aliases": [
+        "кримсон",
+        "кримсон дезерт"
+      ],
+      "releaseDate": "",
+      "release": "Уже в продаже",
+      "priority": 10,
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202608/2006/8bd2affb4939bf663b1bd7a78ad83345bfd1df3e961c2a72.jpg"
+    },
+    "onimusha": {
+      "title": "Onimusha: Way of the Sword",
+      "platform": "PS5",
+      "description": "Самурайский экшен с демонами и боями на мечах. Три издания — от Standard до Premium Deluxe.",
+      "aliases": [
+        "онимуша",
+        "самурай"
+      ],
+      "releaseDate": "",
+      "release": "Уже в продаже",
+      "priority": 11,
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1308/e0378f1a844ede8537afefe74bd255af144b2f43871adc75.jpg"
+    },
+    "dawnwalker": {
+      "title": "The Blood of Dawnwalker",
+      "platform": "PS5",
+      "description": "Мрачное ролевое приключение на границе человеческого и вампирского миров.",
+      "aliases": [
+        "даунвокер",
+        "давнвокер"
+      ],
+      "releaseDate": "",
+      "release": "Уже в продаже",
+      "priority": 12,
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202604/0909/388da653a7cc4e876dd2729bdc46fd2876bed0652b8b51e9.jpg"
+    },
+    "control-resonant": {
+      "title": "CONTROL Resonant",
+      "platform": "PS5",
+      "description": "Вернись в необычный мир CONTROL. Сравни Standard и Digital Deluxe с дополнительным цифровым контентом.",
+      "aliases": [
+        "контрол",
+        "control2",
+        "control 2"
+      ],
+      "releaseDate": "2026-09-24",
+      "release": "24 сентября",
+      "priority": 13,
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2811/e104ddf9aea2f76d5c198e5b0861eb086bbef105d6d47bee.jpg"
+    },
+    "silent-hill-townfall": {
+      "title": "SILENT HILL: Townfall",
+      "platform": "PS5",
+      "description": "Новая история Silent Hill. Выбери базовое издание или Deluxe с дополнительным контентом.",
+      "aliases": [
+        "сайлент хилл",
+        "сайлентхилл",
+        "хоррор"
+      ],
+      "releaseDate": "2026-09-24",
+      "release": "24 сентября",
+      "priority": 14,
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1407/0bc59ff9e7d7efc3e95b03ba3a1788556147dac61ef1c33d.jpg"
+    },
+    "phantom-blade-zero": {
+      "title": "Phantom Blade Zero",
+      "platform": "PS5",
+      "description": "Динамичный экшен с боевыми искусствами. Два издания для твоего путешествия.",
+      "aliases": [
+        "фантом блейд",
+        "фантом"
+      ],
+      "releaseDate": "2026-10-29",
+      "release": "29 октября",
+      "priority": 15,
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2810/5d34d0cd910fa48c730a1915b8cf112231c30e667e2169ea.jpg"
+    },
+    "black-flag": {
+      "title": "Assassin’s Creed Black Flag Resynced",
+      "platform": "PS5",
+      "description": "Пиратское приключение Assassin’s Creed: морские сражения и исследование Карибского моря.",
+      "aliases": [
+        "ассасин",
+        "ассассин",
+        "блэк флаг",
+        "черный флаг"
+      ],
+      "releaseDate": "",
+      "release": "Уже в продаже",
+      "priority": 16,
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202603/1215/30972495c4d1b567dcd015b80c0d3af9c946efc8822944d7.jpg"
+    },
+    "lego-batman": {
+      "title": "LEGO Batman: Legacy of the Dark Knight",
+      "platform": "PS5",
+      "description": "Приключение Бэтмена в мире LEGO. Сравни базовую игру и Deluxe с дополнительными наборами.",
+      "aliases": [
+        "лего",
+        "бэтмен",
+        "бетмен",
+        "лего бэтмен"
+      ],
+      "releaseDate": "",
+      "release": "Уже в продаже",
+      "priority": 17,
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202511/1118/f4e6951f2326e94a5f5d4bd4d54979f5421d6e34327849f2.jpg"
+    },
+    "saros": {
+      "title": "SAROS",
+      "platform": "PS5",
+      "description": "Научно-фантастический экшен от Housemarque. Сравни базовую игру и Digital Deluxe.",
+      "aliases": [
+        "сарос"
+      ],
+      "releaseDate": "",
+      "release": "Уже в продаже",
+      "priority": 18,
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202512/0120/29617d8e70b24ffa3f63508187fcc886f6696a69b413cdc5.jpg"
+    },
+    "atomic-heart": {
+      "title": "Atomic Heart",
+      "platform": "PS4 / PS5",
+      "description": "Роботы, необычное оружие и альтернативный мир. Сравни Standard, Gold и Ultimate с Atomic Pass.",
+      "aliases": [
+        "атомик",
+        "атомик харт",
+        "атомикхарт"
+      ],
+      "releaseDate": "",
+      "release": "Уже в продаже",
+      "priority": 19,
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202209/2815/ghdxLSLpUl24o2Q1eq3yTaji.jpg"
+    },
+    "borderlands-3": {
+      "title": "Borderlands 3",
+      "platform": "PS4 / PS5",
+      "description": "Кооперативный шутер с добычей, оружием и безумными героями. Четыре издания для старта и большого путешествия.",
+      "aliases": [
+        "бордерлендс",
+        "борда",
+        "borderlands3"
+      ],
+      "releaseDate": "",
+      "release": "Уже в продаже",
+      "priority": 20,
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202010/2323/XGcrEQxoas5EliwtvsjoOJUN.jpg"
+    },
+    "ac-origins": {
+      "title": "Assassin’s Creed Origins",
+      "platform": "PS4 / PS5",
+      "description": "Древний Египет и история Байека. Выбирай стандартную игру, Deluxe или Gold. Версия PS4 работает на PS5 по обратной совместимости.",
+      "aliases": [
+        "ассасин ориджинс",
+        "ассассин",
+        "ориджинс",
+        "египет"
+      ],
+      "releaseDate": "",
+      "release": "Уже в продаже",
+      "priority": 21,
+      "image": "https://image.api.playstation.com/gs2-sec/acpkgo/prod/CUSA05640_00/124/i_1d2832992a4c1a771ba04c00382ae7136dcb9eb217239e99778829d5f0b6cd26/i/icon0.png"
+    },
+    "just-cause-4": {
+      "title": "Just Cause 4",
+      "platform": "PS4 / PS5",
+      "description": "Открытый мир, трюки и взрывы вместе с Рико Родригесом. Три издания, включая Complete. Версия PS4 работает на PS5 по обратной совместимости.",
+      "aliases": [
+        "джаст коз",
+        "джаст кауз",
+        "justcause"
+      ],
+      "releaseDate": "",
+      "release": "Уже в продаже",
+      "priority": 22,
+      "image": "https://image.api.playstation.com/vulcan/img/cfn/11307jgamRT2Qu2NDMKh50hCl1zQM740IxpZSaRBAus0FBJ4medj17Iakid0pgX1fGrEY8nwVZTeOpQbgSOEy1y74XY3iuGk.png"
+    },
+    "jujutsu-kaisen": {
+      "title": "Jujutsu Kaisen Cursed Clash",
+      "platform": "PS4 / PS5",
+      "description": "Командные бои по «Магической битве». Сравни издания и дополнительный контент.",
+      "aliases": [
+        "магическая битва",
+        "дзюдзюцу",
+        "джуджутсу",
+        "аниме"
+      ],
+      "releaseDate": "",
+      "release": "Уже в продаже",
+      "priority": 23,
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202309/2817/62b0656877fca4fe095bda398e3c5f856b0ce8481e80365e.jpg"
+    },
+    "golf-with-your-friends": {
+      "title": "Golf With Your Friends",
+      "platform": "PS4 / PS5",
+      "description": "Мини-гольф для компании: необычные поля и препятствия. Выбирай базовую игру или издание с дополнительными полями. Версия PS4 работает на PS5 по обратной совместимости.",
+      "aliases": [
+        "гольф",
+        "голф",
+        "гольф с друзьями"
+      ],
+      "releaseDate": "",
+      "release": "Уже в продаже",
+      "priority": 24,
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202209/1414/rit1KAnxB1hlwgjlGmWUH1js.png"
+    }
+  },
   "groups": [
     {
-      "description": "Главные релизы, предзаказы и расширенные издания популярных игр.",
-      "eyebrow": "ГЛАВНЫЕ РЕЛИЗЫ 2026",
+      "id": "new",
+      "title": "Игры и предзаказы",
       "games": [
         {
-          "image": "assets/catalog-gta6.jpg",
-          "platform": "Standard Edition • PS5",
-          "prices": {
-            "india": 7600,
-            "turkey": 8800
-          },
+          "gameId": "gta-vi",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "Grand Theft Auto VI — Standard Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1818/4a35c9a8490c69fe89af0f52d4ac0249b230b4fdb12e8469.jpg",
+          "summary": "Игра и бонусы предзаказа",
+          "features": [
+            "Grand Theft Auto VI",
+            "Набор Vintage Vice City",
+            "Один месяц GTA+ — условия активации уточняем при заказе",
+            "Предзагрузка за 7 дней до выхода"
+          ],
           "release": "19 ноября",
-          "storePrices": {
-            "india": 5999,
-            "turkey": 3999
-          },
-          "tag": "главный предзаказ",
-          "title": "Grand Theft Auto VI"
-        },
-        {
-          "image": "assets/catalog-wolverine.jpg",
-          "platform": "Standard Edition • PS5",
-          "prices": {
-            "india": 6600,
-            "turkey": 7900
-          },
-          "release": "15 сентября",
-          "storePrices": {
-            "india": 4999,
-            "turkey": 3449
-          },
-          "tag": "предзаказ",
-          "title": "Marvel’s Wolverine"
-        },
-        {
-          "image": "assets/catalog-fc27.jpg",
-          "platform": "Standard Edition • PS4 & PS5",
           "prices": {
             "india": 7600,
             "turkey": 8800
           },
-          "release": "25 сентября",
           "storePrices": {
-            "india": 5999,
-            "turkey": 3999
-          },
-          "tag": "предзаказ",
-          "title": "EA SPORTS FC 27"
-        },
-        {
-          "image": "assets/catalog-nba2k27.jpg",
-          "platform": "Standard Edition • PS5",
-          "prices": {
-            "india": 6600,
-            "turkey": 8800
-          },
-          "release": "4 сентября",
-          "storePrices": {
-            "india": 4999,
-            "turkey": 3999
-          },
-          "tag": "горячий релиз",
-          "title": "NBA 2K27"
-        },
-        {
-          "image": "assets/catalog-codmw4.jpg",
-          "platform": "Standard Edition • PS5",
-          "prices": {
-            "india": 7600,
-            "turkey": 7400
-          },
-          "release": "23 октября",
-          "storePrices": {
-            "india": 5999,
-            "turkey": 3199
-          },
-          "tag": "предзаказ",
-          "title": "Call of Duty: Modern Warfare 4"
-        },
-        {
-          "image": "assets/catalog-onimusha.jpg",
-          "platform": "Standard Edition • PS5",
-          "prices": {
-            "india": 6600,
-            "turkey": 7900
-          },
-          "release": "4 сентября",
-          "storePrices": {
-            "india": 4399,
-            "turkey": 3449
-          },
-          "tag": "горячий релиз",
-          "title": "Onimusha: Way of the Sword"
-        },
-        {
-          "image": "assets/catalog-control.jpg",
-          "platform": "Standard Edition • PS5",
-          "prices": {
-            "india": 5500,
-            "turkey": 6400
-          },
-          "release": "24 сентября",
-          "storePrices": {
-            "india": 3499,
-            "turkey": 2579
-          },
-          "tag": "предзаказ",
-          "title": "CONTROL Resonant"
-        },
-        {
-          "image": "assets/catalog-silent-hill.jpg",
-          "platform": "Standard Edition • PS5",
-          "prices": {
-            "india": 4400,
-            "turkey": 5500
-          },
-          "release": "24 сентября",
-          "storePrices": {
-            "india": 2999,
-            "turkey": 2149
-          },
-          "tag": "предзаказ",
-          "title": "SILENT HILL: Townfall"
-        },
-        {
-          "image": "assets/catalog-phantom-blade.jpg",
-          "platform": "Standard Edition • PS5",
-          "prices": {
-            "india": 6600,
-            "turkey": 6000
-          },
-          "release": "29 октября",
-          "storePrices": {
-            "india": 4299,
-            "turkey": 2379
-          },
-          "tag": "предзаказ",
-          "title": "Phantom Blade Zero"
-        },
-        {
-          "image": "assets/catalog-dawnwalker.jpg",
-          "platform": "Standard Edition • PS5",
-          "prices": {
-            "india": 5500,
-            "turkey": 6900
-          },
-          "release": "уже вышла",
-          "storePrices": {
-            "india": 3999,
-            "turkey": 2999
-          },
-          "tag": "новинка",
-          "title": "The Blood of Dawnwalker"
-        },
-        {
-          "image": "assets/new-assassins-creed-black-flag-resynced.jpg",
-          "platform": "Resynced • PS5",
-          "prices": {
-            "india": 6600,
-            "turkey": 6400
-          },
-          "release": "уже вышла",
-          "storePrices": {
-            "india": 4199,
-            "turkey": 2579
-          },
-          "tag": "популярное",
-          "title": "Assassin’s Creed Black Flag"
-        },
-        {
-          "image": "assets/new-lego-batman-legacy-dark-knight.jpg",
-          "platform": "Legacy of the Dark Knight • PS5",
-          "prices": {
-            "india": 5500,
-            "turkey": 6900
-          },
-          "release": "уже вышла",
-          "storePrices": {
-            "india": 3999,
-            "turkey": 2999
-          },
-          "tag": "популярное",
-          "title": "LEGO Batman"
-        },
-        {
-          "image": "assets/new-saros.jpg",
-          "platform": "Standard Edition • PS5",
-          "prices": {
-            "india": 6600,
-            "turkey": 7900
-          },
-          "release": "уже вышла",
-          "storePrices": {
-            "india": 4999,
-            "turkey": 3449
-          },
-          "tag": "популярное",
-          "title": "SAROS"
-        },
-        {
-          "image": "assets/catalog-fc27.jpg",
-          "platform": "Ultimate Edition • PS4 & PS5",
-          "prices": {
-            "india": 10800,
-            "turkey": 11600
-          },
-          "pricingBasis": {
-            "india": {
-              "cards": [
-                3000,
-                3000,
-                3000
-              ],
-              "cost": 9564,
-              "price": 10800,
-              "wallet": 9000
-            },
-            "turkey": {
-              "cards": [
-                500,
-                1000,
-                4000
-              ],
-              "cost": 10381,
-              "price": 11600,
-              "wallet": 5500
-            }
-          },
-          "release": "ранний доступ с 18 сентября",
-          "storePrices": {
-            "india": 8999,
-            "turkey": 5499
+            "india": 5999.0,
+            "turkey": 3999.0
           },
           "storeUrls": {
-            "india": "https://store.playstation.com/en-in/product/UP0006-PPSA34015_00-27ULTIMATEBUNDLE",
-            "turkey": "https://store.playstation.com/tr-tr/product/UP0006-PPSA34015_00-27ULTIMATEBUNDLE"
-          },
-          "tag": "старшее издание",
-          "title": "EA SPORTS FC 27 Ultimate",
-          "verifiedAt": "2026-09-05"
-        },
-        {
-          "image": "assets/catalog-wolverine.jpg",
-          "platform": "Digital Deluxe Edition • PS5",
-          "prices": {
-            "india": 7600,
-            "turkey": 8800
+            "india": "https://store.playstation.com/en-in/product/EP1004-PPSA01547_00-GTAVISTANDARD001",
+            "turkey": "https://store.playstation.com/en-tr/product/EP1004-PPSA01547_00-GTAVISTANDARD001"
           },
           "pricingBasis": {
             "india": {
@@ -255,8 +396,8 @@
                 3000
               ],
               "cost": 6376,
-              "price": 7600,
-              "wallet": 6000
+              "wallet": 6000,
+              "price": 7600
             },
             "turkey": {
               "cards": [
@@ -265,71 +406,42 @@
                 2000
               ],
               "cost": 7532,
-              "price": 8800,
-              "wallet": 4000
+              "wallet": 4000,
+              "price": 8800
             }
           },
-          "release": "15 сентября",
-          "storePrices": {
-            "india": 5599,
-            "turkey": 3849
-          },
-          "storeUrls": {
-            "india": "https://store.playstation.com/en-in/product/UP9000-PPSA03671_00-WOLVERINEDELUXE0",
-            "turkey": "https://store.playstation.com/tr-tr/product/UP9000-PPSA03671_00-WOLVERINEDELUXE0"
-          },
-          "tag": "старшее издание",
-          "title": "Marvel’s Wolverine Deluxe",
-          "verifiedAt": "2026-09-05"
+          "discounts": {},
+          "verifiedAt": "2026-09-05",
+          "notice": "Для бонуса GTA+ действуют условия активации и автопродления подписки; уточним их перед оформлением."
         },
         {
-          "image": "assets/catalog-codmw4.jpg",
-          "platform": "Vault Edition • PS5",
-          "prices": {
-            "india": 10800,
-            "turkey": 9700
-          },
-          "pricingBasis": {
-            "india": {
-              "cards": [
-                3000,
-                3000,
-                3000
-              ],
-              "cost": 9564,
-              "price": 10800,
-              "wallet": 9000
-            },
-            "turkey": {
-              "cards": [
-                1000,
-                1000,
-                2500
-              ],
-              "cost": 8479,
-              "price": 9700,
-              "wallet": 4500
-            }
-          },
-          "release": "23 октября",
-          "storePrices": {
-            "india": 8249,
-            "turkey": 4399
-          },
-          "storeUrls": {
-            "india": "https://store.playstation.com/en-in/product/EP0002-PPSA07950_00-CODMW4VAULT00001",
-            "turkey": "https://store.playstation.com/tr-tr/product/EP0002-PPSA07950_00-CODMW4VAULT00001"
-          },
-          "tag": "старшее издание",
-          "title": "Call of Duty: Modern Warfare 4 Vault",
-          "verifiedAt": "2026-09-05"
-        },
-        {
-          "image": "https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/3zDubiWo2X5WU18FGiwlsf4lKWb8MwkE.png?w=620",
-          "platform": "Ultimate Edition • PS4",
+          "gameId": "gta-vi",
+          "editionId": "ultimate",
+          "edition": "Ultimate Edition",
+          "editionOrder": 5,
+          "title": "Grand Theft Auto VI — Ultimate Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1819/f3f45490aaf9b14352c53b5e80c5becc112a4b1fc2e878c0.jpg",
+          "summary": "Игра, контент Ultimate и бонусы предзаказа",
+          "features": [
+            "Grand Theft Auto VI",
+            "Контент Ultimate Edition",
+            "Набор Vintage Vice City",
+            "Один месяц GTA+ — условия активации уточняем при заказе",
+            "Предзагрузка за 7 дней до выхода"
+          ],
+          "release": "19 ноября",
           "prices": {
             "india": 9800,
-            "turkey": 7800
+            "turkey": 10700
+          },
+          "storePrices": {
+            "india": 7499.0,
+            "turkey": 4999.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP1004-PPSA01547_00-GTAVIULTIMATE001",
+            "turkey": "https://store.playstation.com/en-tr/product/EP1004-PPSA01547_00-GTAVIULTIMATE001"
           },
           "pricingBasis": {
             "india": {
@@ -339,8 +451,225 @@
                 3000
               ],
               "cost": 8506,
-              "price": 9800,
-              "wallet": 8000
+              "wallet": 8000,
+              "price": 9800
+            },
+            "turkey": {
+              "cards": [
+                1000,
+                1000,
+                3000
+              ],
+              "cost": 9426,
+              "wallet": 5000,
+              "price": 10700
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05",
+          "notice": "Для бонуса GTA+ действуют условия активации и автопродления подписки; уточним их перед оформлением."
+        },
+        {
+          "gameId": "fc-27",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "EA SPORTS FC 27 — Standard Edition",
+          "platform": "PS4 / PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2321/fa7db8b40ed671bce4046b335beb5a0ab327c33edbca8351.jpg",
+          "summary": "Игра и дополнительный контент",
+          "features": [
+            "EA SPORTS FC 27 PS4 & PS5",
+            "ICON с рейтингом 92+ для FC 26",
+            "Испытания карьеры за предзаказ",
+            "Три ICON/Hero в карьере менеджера",
+            "Тренер с пятью звёздами",
+            "Молодёжный скаут с пятью звёздами",
+            "Спортивный костюм The Grounds Signature",
+            "Дополнительный контент The Grounds"
+          ],
+          "release": "25 сентября",
+          "prices": {
+            "india": 7600,
+            "turkey": 8800
+          },
+          "storePrices": {
+            "india": 5999.0,
+            "turkey": 3999.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP0006-PPSA34015_00-27STANDARDBUNDLE",
+            "turkey": "https://store.playstation.com/en-tr/product/UP0006-PPSA34015_00-27STANDARDBUNDLE"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                3000,
+                3000
+              ],
+              "cost": 6376,
+              "wallet": 6000,
+              "price": 7600
+            },
+            "turkey": {
+              "cards": [
+                1000,
+                1000,
+                2000
+              ],
+              "cost": 7532,
+              "wallet": 4000,
+              "price": 8800
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "fc-27",
+          "editionId": "ultimate",
+          "edition": "Ultimate Edition",
+          "editionOrder": 5,
+          "title": "EA SPORTS FC 27 — Ultimate Edition",
+          "platform": "PS4 / PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2322/9f33e55301e668a0fc360d6a405eef5db2a1b8142ebd5099.jpg",
+          "summary": "Ранний доступ, 6 000 FC Points и Premium Pass",
+          "features": [
+            "EA SPORTS FC 27 PS4 & PS5",
+            "До 7 дней раннего доступа",
+            "6 000 FC Points в течение 3 месяцев",
+            "Премиальный пропуск первого сезона",
+            "Дополнительный слот эволюции игрока FC 27",
+            "Бонусный контент для FC 26",
+            "Контент для The Grounds",
+            "Контент для карьеры"
+          ],
+          "release": "25 сентября",
+          "prices": {
+            "india": 10800,
+            "turkey": 11600
+          },
+          "storePrices": {
+            "india": 8999.0,
+            "turkey": 5499.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP0006-PPSA34015_00-27ULTIMATEBUNDLE",
+            "turkey": "https://store.playstation.com/en-tr/product/UP0006-PPSA34015_00-27ULTIMATEBUNDLE"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                3000,
+                3000,
+                3000
+              ],
+              "cost": 9564,
+              "wallet": 9000,
+              "price": 10800
+            },
+            "turkey": {
+              "cards": [
+                500,
+                1000,
+                4000
+              ],
+              "cost": 10381,
+              "wallet": 5500,
+              "price": 11600
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "ufc-6",
+          "editionId": "ultimate",
+          "edition": "Ultimate Edition",
+          "editionOrder": 5,
+          "title": "EA SPORTS UFC 6 — Ultimate Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202604/2217/584d60763b88902e453e39c0d640ec951b627f1a1d214a91.jpg",
+          "summary": "Игра, Fighter Pass, Expansion Pass и VIP",
+          "features": [
+            "Полная версия UFC 6 для PS5",
+            "Fighter Pass: UFC Legends",
+            "Пропуск дополнений Expansion Pass",
+            "VIP Pass",
+            "Набор Rivalry"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 9800,
+            "turkey": 11600
+          },
+          "storePrices": {
+            "india": 7499.0,
+            "turkey": 5499.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP0006-PPSA23566_00-ULTIMATEEDITION0",
+            "turkey": "https://store.playstation.com/en-tr/product/EP0006-PPSA23566_00-ULTIMATEEDITION0"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                3000,
+                3000
+              ],
+              "cost": 8506,
+              "wallet": 8000,
+              "price": 9800
+            },
+            "turkey": {
+              "cards": [
+                500,
+                1000,
+                4000
+              ],
+              "cost": 10381,
+              "wallet": 5500,
+              "price": 11600
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "wolverine",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "Marvel’s Wolverine — Standard Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2221/5ba04b023e0b4c4aa7fbdbf2170262a52bc0384ee44efce0.jpg",
+          "summary": "Полная версия игры",
+          "features": [
+            "Marvel’s Wolverine"
+          ],
+          "release": "15 сентября",
+          "prices": {
+            "india": 6600,
+            "turkey": 7900
+          },
+          "storePrices": {
+            "india": 4999.0,
+            "turkey": 3449.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP9000-PPSA03671_00-MARVELSWOLVERINE",
+            "turkey": "https://store.playstation.com/en-tr/product/UP9000-PPSA03671_00-MARVELSWOLVERINE"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                3000
+              ],
+              "cost": 5318,
+              "wallet": 5000,
+              "price": 6600
             },
             "turkey": {
               "cards": [
@@ -349,113 +678,924 @@
                 1500
               ],
               "cost": 6586,
-              "price": 7800,
-              "wallet": 3500
+              "wallet": 3500,
+              "price": 7800
             }
           },
-          "release": "уже вышла",
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "wolverine",
+          "editionId": "digital-deluxe",
+          "edition": "Digital Deluxe Edition",
+          "editionOrder": 2,
+          "title": "Marvel’s Wolverine — Digital Deluxe Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2221/bc854cdd9ee7b344fd1ad343a9eff5911ae8c08cb0d284cb.jpg",
+          "summary": "Игра и дополнительный контент",
+          "features": [
+            "Marvel’s Wolverine",
+            "Пять эксклюзивных костюмов",
+            "Пять эксклюзивных вариантов когтей",
+            "Четыре очка техники",
+            "Раннее открытие классического коричневого костюма",
+            "Раннее открытие Reflective Claws",
+            "Четыре аватара PlayStation"
+          ],
+          "release": "15 сентября",
+          "prices": {
+            "india": 7600,
+            "turkey": 8800
+          },
           "storePrices": {
-            "india": 7699,
-            "turkey": 3499
+            "india": 5599.0,
+            "turkey": 3849.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP9000-PPSA03671_00-WOLVERINEDELUXE0",
+            "turkey": "https://store.playstation.com/en-tr/product/UP9000-PPSA03671_00-WOLVERINEDELUXE0"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                3000,
+                3000
+              ],
+              "cost": 6376,
+              "wallet": 6000,
+              "price": 7600
+            },
+            "turkey": {
+              "cards": [
+                1000,
+                1000,
+                2000
+              ],
+              "cost": 7532,
+              "wallet": 4000,
+              "price": 8800
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "nba-2k27",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "NBA 2K27 — Standard Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/2913/e306a983b0540fafe2421b92f7a1cbc77415416b1fffd8cc.jpg",
+          "summary": "Полная версия игры",
+          "features": [
+            "NBA 2K27"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 6600,
+            "turkey": 8800
+          },
+          "storePrices": {
+            "india": 4999.0,
+            "turkey": 3999.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP1001-PPSA35889_00-NBA2K27000000000",
+            "turkey": "https://store.playstation.com/en-tr/product/UP1001-PPSA35889_00-NBA2K27000000000"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                3000
+              ],
+              "cost": 5318,
+              "wallet": 5000,
+              "price": 6600
+            },
+            "turkey": {
+              "cards": [
+                1000,
+                1000,
+                2000
+              ],
+              "cost": 7532,
+              "wallet": 4000,
+              "price": 8800
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "nba-2k27",
+          "editionId": "deluxe",
+          "edition": "Deluxe Edition",
+          "editionOrder": 2,
+          "title": "NBA 2K27 — Deluxe Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/2914/972254d3cbe64a5c611c3775f59b5f9d142066e372a9606e.jpg",
+          "summary": "Игра, 100 000 VC и бонусный контент",
+          "features": [
+            "NBA 2K27",
+            "100 000 VC",
+            "Контент для MyTEAM",
+            "Контент для MyCAREER"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 9800,
+            "turkey": 11600
+          },
+          "storePrices": {
+            "india": 7499.0,
+            "turkey": 5499.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP1001-PPSA35889_00-NBA2K27SUPERED00",
+            "turkey": "https://store.playstation.com/en-tr/product/UP1001-PPSA35889_00-NBA2K27SUPERED00"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                3000,
+                3000
+              ],
+              "cost": 8506,
+              "wallet": 8000,
+              "price": 9800
+            },
+            "turkey": {
+              "cards": [
+                500,
+                1000,
+                4000
+              ],
+              "cost": 10381,
+              "wallet": 5500,
+              "price": 11600
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "nba-2k27",
+          "editionId": "ultra",
+          "edition": "Ultra Edition",
+          "editionOrder": 5,
+          "title": "NBA 2K27 — Ultra Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/2918/c268d3a945c3ffca446dc8e9814eca7a20733f2b11d6556b.jpg",
+          "summary": "Игра, 135 000 VC и сезонные пропуски",
+          "features": [
+            "NBA 2K27",
+            "135 000 VC",
+            "Контент для MyTEAM",
+            "Контент для MyCAREER",
+            "Pro Pass первого сезона",
+            "Summer Pass: Pro Pass сезонов 7–9"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 12000,
+            "turkey": 16400
+          },
+          "storePrices": {
+            "india": 9799.0,
+            "turkey": 7999.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP1001-PPSA35889_00-NBA2K27ULTRAED00",
+            "turkey": "https://store.playstation.com/en-tr/product/UP1001-PPSA35889_00-NBA2K27ULTRAED00"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                2000,
+                6000
+              ],
+              "cost": 10799,
+              "wallet": 10000,
+              "price": 12000
+            },
+            "turkey": {
+              "cards": [
+                1000,
+                2000,
+                5000
+              ],
+              "cost": 15122,
+              "wallet": 8000,
+              "price": 16400
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "cod-mw4",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "Call of Duty: Modern Warfare 4 — Standard Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1419/63142285b9e04bc0ef3f6af46b665ecea4e47bfa311eb217.jpg",
+          "summary": "Игра + 2 бонуса",
+          "features": [
+            "Modern Warfare 4 for PS5",
+            "Ранний доступ к кампании",
+            "Бонусные предметы для BO7 и Warzone"
+          ],
+          "release": "23 октября",
+          "prices": {
+            "india": 7600,
+            "turkey": 7400
+          },
+          "storePrices": {
+            "india": 5999.0,
+            "turkey": 3199.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP0002-PPSA07950_00-CODMW4STANDARD01",
+            "turkey": "https://store.playstation.com/en-tr/product/EP0002-PPSA07950_00-CODMW4STANDARD01"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                3000,
+                3000
+              ],
+              "cost": 6376,
+              "wallet": 6000,
+              "price": 7600
+            },
+            "turkey": {
+              "cards": [
+                750,
+                1000,
+                1500
+              ],
+              "cost": 6117,
+              "wallet": 3250,
+              "price": 7400
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "cod-mw4",
+          "editionId": "vault",
+          "edition": "Vault Edition",
+          "editionOrder": 4,
+          "title": "Call of Duty: Modern Warfare 4 — Vault Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2020/19acd9c137fe30432e5b556c09dd5332f54ba059db71520b.jpg",
+          "summary": "Игра и дополнительный контент",
+          "features": [
+            "Modern Warfare 4 for PS5",
+            "Ранний доступ к кампании",
+            "Бонусные предметы для BO7 и Warzone",
+            "Набор оперативников Hostile Alliance",
+            "Набор оперативников Special Forces",
+            "Коллекция Signature Weapon",
+            "BlackCell на один сезон",
+            "Бонус DMZ Deployment"
+          ],
+          "release": "23 октября",
+          "prices": {
+            "india": 10800,
+            "turkey": 9700
+          },
+          "storePrices": {
+            "india": 8249.0,
+            "turkey": 4399.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP0002-PPSA07950_00-CODMW4VAULT00001",
+            "turkey": "https://store.playstation.com/en-tr/product/EP0002-PPSA07950_00-CODMW4VAULT00001"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                3000,
+                3000,
+                3000
+              ],
+              "cost": 9564,
+              "wallet": 9000,
+              "price": 10800
+            },
+            "turkey": {
+              "cards": [
+                1000,
+                1000,
+                2500
+              ],
+              "cost": 8479,
+              "wallet": 4500,
+              "price": 9700
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "rdr2",
+          "editionId": "ultimate",
+          "edition": "Ultimate Edition",
+          "editionOrder": 5,
+          "title": "Red Dead Redemption 2 — Ultimate Edition",
+          "platform": "PS4 / PS5",
+          "image": "https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/3zDubiWo2X5WU18FGiwlsf4lKWb8MwkE.png",
+          "summary": "Сюжет, Online и бонусы Ultimate",
+          "features": [
+            "Red Dead Online",
+            "Сюжетная кампания Red Dead Redemption 2",
+            "Контент Special Edition",
+            "Контент Ultimate Edition"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 9800,
+            "turkey": 7800
+          },
+          "storePrices": {
+            "india": 7699.0,
+            "turkey": 3499.0
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/EP1004-CUSA08519_00-RDR2ULTMEDTNBUND",
-            "turkey": "https://store.playstation.com/tr-tr/product/EP1004-CUSA08519_00-RDR2ULTMEDTNBUND"
+            "turkey": "https://store.playstation.com/en-tr/product/EP1004-CUSA08519_00-RDR2ULTMEDTNBUND"
           },
-          "tag": "старшее издание",
-          "title": "Red Dead Redemption 2 Ultimate",
-          "verifiedAt": "2026-09-05"
-        }
-      ],
-      "id": "new",
-      "title": "Новинки и предзаказы"
-    },
-    {
-      "description": "Выбрали акции, на которых действительно можно сэкономить. После окончания скидки цена изменится.",
-      "eyebrow": "УСПЕТЬ ДО 9 СЕНТЯБРЯ",
-      "games": [
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                3000,
+                3000
+              ],
+              "cost": 8506,
+              "wallet": 8000,
+              "price": 9800
+            },
+            "turkey": {
+              "cards": [
+                1000,
+                1000,
+                1500
+              ],
+              "cost": 6586,
+              "wallet": 3500,
+              "price": 7800
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05",
+          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости."
+        },
         {
-          "image": "assets/catalog-007.jpg",
-          "oldPrices": {
-            "india": null,
-            "turkey": 6900
-          },
-          "platform": "Standard Edition • PS5",
+          "gameId": "forza-horizon-5",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "Forza Horizon 5 — Standard Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202502/1300/01248ef12bf2841c3b97bc1af344f922e5cbbf7a8870e0f8.jpg",
+          "summary": "Полная версия игры",
+          "features": [
+            "Полная версия Forza Horizon 5"
+          ],
+          "release": "Уже в продаже",
           "prices": {
             "india": 5500,
-            "turkey": 6000
+            "turkey": 4500
           },
-          "release": "до 9 сентября",
           "storePrices": {
-            "india": 3199,
-            "turkey": 2399.2
+            "india": 3999.0,
+            "turkey": 1541.0
           },
-          "tag": "−20% в PS Store",
-          "title": "007 First Light"
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP6312-PPSA22327_00-0629872585919347",
+            "turkey": "https://store.playstation.com/en-tr/product/UP6312-PPSA22327_00-0629872585919347"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                2000
+              ],
+              "cost": 4260,
+              "wallet": 4000,
+              "price": 5500
+            },
+            "turkey": {
+              "cards": [
+                500,
+                500,
+                750
+              ],
+              "cost": 3277,
+              "wallet": 1750,
+              "price": 4500
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
         },
         {
-          "image": "assets/catalog-forza.jpg",
-          "oldPrices": {
-            "india": 7500,
-            "turkey": 5500
-          },
-          "platform": "Deluxe Edition • PS5",
+          "gameId": "forza-horizon-5",
+          "editionId": "premium",
+          "edition": "Premium Edition",
+          "editionOrder": 4,
+          "title": "Forza Horizon 5 — Premium Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202502/1300/6b10b223febf1ccffd55ba6da645f9afad6b027ab5327fbd.jpg",
+          "summary": "Игра, Car Pass, два дополнения и VIP",
+          "features": [
+            "Полная версия Forza Horizon 5",
+            "Car Pass для Forza Horizon 5",
+            "Forza Horizon 5: Hot Wheels",
+            "Forza Horizon 5 Rally Adventure",
+            "Приветственный набор Forza Horizon 5",
+            "VIP-статус Forza Horizon 5"
+          ],
+          "release": "Уже в продаже",
           "prices": {
-            "india": 4400,
-            "turkey": 3100
+            "india": 8700,
+            "turkey": 6400
           },
-          "release": "до 9 сентября",
           "storePrices": {
-            "india": 2159,
-            "turkey": 822
+            "india": 6599.0,
+            "turkey": 2570.0
           },
-          "tag": "−60% в PS Store",
-          "title": "Forza Horizon 5 Deluxe"
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP6312-PPSA22327_00-0810100104879906",
+            "turkey": "https://store.playstation.com/en-tr/product/UP6312-PPSA22327_00-0810100104879906"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                2000,
+                3000
+              ],
+              "cost": 7448,
+              "wallet": 7000,
+              "price": 8700
+            },
+            "turkey": {
+              "cards": [
+                750,
+                1000,
+                1000
+              ],
+              "cost": 5153,
+              "wallet": 2750,
+              "price": 6400
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
         },
         {
-          "image": "assets/catalog-ufc6.jpg",
-          "oldPrices": {
-            "india": 6500,
+          "gameId": "007-first-light",
+          "editionId": "deluxe",
+          "edition": "Deluxe Edition",
+          "editionOrder": 2,
+          "title": "007 First Light — Deluxe Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2410/926fe207be2d7c356311e23604fa73d6d9d46ba9f12fad04.jpg",
+          "summary": "Игра + 3 бонуса",
+          "features": [
+            "007 First Light",
+            "Четыре эксклюзивных образа",
+            "Набор Gleaming",
+            "Один облик оружия"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 6600,
+            "turkey": 7800
+          },
+          "storePrices": {
+            "india": 4799.0,
+            "turkey": 3449.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP3969-PPSA11386_00-007FLDELUXE00000",
+            "turkey": "https://store.playstation.com/en-tr/product/EP3969-PPSA11386_00-007FLDELUXE00000"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                3000
+              ],
+              "cost": 5318,
+              "wallet": 5000,
+              "price": 6600
+            },
+            "turkey": {
+              "cards": [
+                1000,
+                1000,
+                1500
+              ],
+              "cost": 6586,
+              "wallet": 3500,
+              "price": 7800
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "onimusha",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "Onimusha: Way of the Sword — Standard Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1308/e0378f1a844ede8537afefe74bd255af144b2f43871adc75.jpg",
+          "summary": "Игра и дополнительный контент",
+          "features": [
+            "Onimusha: Way of the Sword",
+            "Два бонуса ранней покупки"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 6600,
+            "turkey": 7900
+          },
+          "storePrices": {
+            "india": 4399.0,
+            "turkey": 3449.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP0102-PPSA27836_00-0000000000000001",
+            "turkey": "https://store.playstation.com/en-tr/product/UP0102-PPSA27836_00-0000000000000001"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                3000
+              ],
+              "cost": 5318,
+              "wallet": 5000,
+              "price": 6600
+            },
+            "turkey": {
+              "cards": [
+                1000,
+                1000,
+                1500
+              ],
+              "cost": 6586,
+              "wallet": 3500,
+              "price": 7800
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "onimusha",
+          "editionId": "deluxe",
+          "edition": "Deluxe Edition",
+          "editionOrder": 2,
+          "title": "Onimusha: Way of the Sword — Deluxe Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1506/e5fbe90c88b01ff09d12bab098944090820f4d228e393535.jpg",
+          "summary": "Игра + 2 бонуса",
+          "features": [
+            "Onimusha: Way of the Sword",
+            "Набор Deluxe Kit",
+            "Четыре бонуса ранней покупки"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 6600,
             "turkey": 8800
           },
-          "platform": "Standard Edition • PS5",
-          "prices": {
-            "india": 5500,
-            "turkey": 7400
-          },
-          "release": "до 9 сентября",
           "storePrices": {
-            "india": 3999,
-            "turkey": 3199.2
+            "india": 4799.0,
+            "turkey": 3849.0
           },
-          "tag": "−20% в PS Store",
-          "title": "UFC 6"
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP0102-PPSA27836_00-0000000000000002",
+            "turkey": "https://store.playstation.com/en-tr/product/UP0102-PPSA27836_00-0000000000000002"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                3000
+              ],
+              "cost": 5318,
+              "wallet": 5000,
+              "price": 6600
+            },
+            "turkey": {
+              "cards": [
+                1000,
+                1000,
+                2000
+              ],
+              "cost": 7532,
+              "wallet": 4000,
+              "price": 8800
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
         },
         {
-          "image": "assets/catalog-crimson-desert.jpg",
-          "oldPrices": {
-            "india": 6500,
+          "gameId": "onimusha",
+          "editionId": "premium-deluxe",
+          "edition": "Premium Deluxe Edition",
+          "editionOrder": 4,
+          "title": "Onimusha: Way of the Sword — Premium Deluxe Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1506/bb075550c0d54c7c711b6ec1526502ed018c159fc58513de.jpg",
+          "summary": "Игра + 2 бонуса",
+          "features": [
+            "Onimusha: Way of the Sword",
+            "Набор Premium Deluxe Kit",
+            "Четыре бонуса ранней покупки"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 7600,
+            "turkey": 9700
+          },
+          "storePrices": {
+            "india": 5699.0,
+            "turkey": 4299.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP0102-PPSA27836_00-0000000000000003",
+            "turkey": "https://store.playstation.com/en-tr/product/UP0102-PPSA27836_00-0000000000000003"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                3000,
+                3000
+              ],
+              "cost": 6376,
+              "wallet": 6000,
+              "price": 7600
+            },
+            "turkey": {
+              "cards": [
+                1000,
+                1000,
+                2500
+              ],
+              "cost": 8479,
+              "wallet": 4500,
+              "price": 9700
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "dawnwalker",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "The Blood of Dawnwalker — Standard Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202604/0909/388da653a7cc4e876dd2729bdc46fd2876bed0652b8b51e9.jpg",
+          "summary": "Полная версия игры",
+          "features": [
+            "The Blood of Dawnwalker"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 5500,
             "turkey": 6900
           },
-          "platform": "Standard Edition • PS5",
-          "prices": {
-            "india": 5500,
-            "turkey": 6000
-          },
-          "release": "до 9 сентября",
           "storePrices": {
-            "india": 3599,
-            "turkey": 2399.2
+            "india": 3999.0,
+            "turkey": 2999.0
           },
-          "tag": "−20% в PS Store",
-          "title": "Crimson Desert Enhanced"
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP0700-PPSA28000_00-DAWNWALKER00GAME",
+            "turkey": "https://store.playstation.com/en-tr/product/EP0700-PPSA28000_00-DAWNWALKER00GAME"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                2000
+              ],
+              "cost": 4260,
+              "wallet": 4000,
+              "price": 5500
+            },
+            "turkey": {
+              "cards": [
+                1000,
+                1000,
+                1000
+              ],
+              "cost": 5622,
+              "wallet": 3000,
+              "price": 6900
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
         },
         {
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202604/0713/9b816e72a2f1e7c75c745176baeb612830a9659b947565fd.jpg?w=1920",
-          "platform": "Ultimate Edition • PS4 & PS5",
+          "gameId": "dawnwalker",
+          "editionId": "eclipse",
+          "edition": "Eclipse Edition",
+          "editionOrder": 4,
+          "title": "The Blood of Dawnwalker — Eclipse Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202608/1714/447a42c85fae1f55b70153b079f3d6d3cbfb79f52a6baa2c.jpg",
+          "summary": "Игра + 3 бонуса",
+          "features": [
+            "The Blood of Dawnwalker",
+            "Цифровой справочник по миру игры",
+            "Цифровой саундтрек",
+            "Цифровой комикс"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 6600,
+            "turkey": 7800
+          },
+          "storePrices": {
+            "india": 4799.0,
+            "turkey": 3449.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP0700-PPSA28000_00-DAWNWALKER000DLX",
+            "turkey": "https://store.playstation.com/en-tr/product/EP0700-PPSA28000_00-DAWNWALKER000DLX"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                3000
+              ],
+              "cost": 5318,
+              "wallet": 5000,
+              "price": 6600
+            },
+            "turkey": {
+              "cards": [
+                1000,
+                1000,
+                1500
+              ],
+              "cost": 6586,
+              "wallet": 3500,
+              "price": 7800
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "control-resonant",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "CONTROL Resonant — Standard Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2811/e104ddf9aea2f76d5c198e5b0861eb086bbef105d6d47bee.jpg",
+          "summary": "Полная версия игры",
+          "features": [
+            "CONTROL Resonant"
+          ],
+          "release": "24 сентября",
+          "prices": {
+            "india": 5500,
+            "turkey": 6400
+          },
+          "storePrices": {
+            "india": 3499.0,
+            "turkey": 2579.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP5291-PPSA34547_00-0210080241603648",
+            "turkey": "https://store.playstation.com/en-tr/product/EP5291-PPSA34547_00-0210080241603648"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                2000
+              ],
+              "cost": 4260,
+              "wallet": 4000,
+              "price": 5500
+            },
+            "turkey": {
+              "cards": [
+                750,
+                1000,
+                1000
+              ],
+              "cost": 5153,
+              "wallet": 2750,
+              "price": 6400
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "control-resonant",
+          "editionId": "digital-deluxe",
+          "edition": "Digital Deluxe Edition",
+          "editionOrder": 2,
+          "title": "CONTROL Resonant — Digital Deluxe Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2211/6f64d0abfc8f5cd76a60a61bfd2eca50c930bf04c7c5e607.jpg",
+          "summary": "Игра и дополнительный контент",
+          "features": [
+            "CONTROL Resonant",
+            "48 часов раннего доступа",
+            "Костюм AWE Mission",
+            "Артефакт Untapped Artifact (Wallet)",
+            "Стартовый набор ресурсов",
+            "Цифровой артбук",
+            "Оригинальный саундтрек"
+          ],
+          "release": "24 сентября",
+          "prices": {
+            "india": 5500,
+            "turkey": 6900
+          },
+          "storePrices": {
+            "india": 3999.0,
+            "turkey": 2999.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP5291-PPSA34547_00-0993602042148218",
+            "turkey": "https://store.playstation.com/en-tr/product/EP5291-PPSA34547_00-0993602042148218"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                2000
+              ],
+              "cost": 4260,
+              "wallet": 4000,
+              "price": 5500
+            },
+            "turkey": {
+              "cards": [
+                1000,
+                1000,
+                1000
+              ],
+              "cost": 5622,
+              "wallet": 3000,
+              "price": 6900
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "silent-hill-townfall",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "SILENT HILL: Townfall — Standard Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1407/0bc59ff9e7d7efc3e95b03ba3a1788556147dac61ef1c33d.jpg",
+          "summary": "Полная версия игры",
+          "features": [
+            "SILENT HILL: Townfall"
+          ],
+          "release": "24 сентября",
           "prices": {
             "india": 4400,
-            "turkey": 4100
+            "turkey": 5500
+          },
+          "storePrices": {
+            "india": 2999.0,
+            "turkey": 2149.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/JP0101-PPSA33286_00-TOWNFALLSIEJ0000",
+            "turkey": "https://store.playstation.com/en-tr/product/JP0101-PPSA33286_00-TOWNFALLSIEJ0000"
           },
           "pricingBasis": {
             "india": {
@@ -463,8 +1603,723 @@
                 3000
               ],
               "cost": 3188,
-              "price": 4400,
-              "wallet": 3000
+              "wallet": 3000,
+              "price": 4400
+            },
+            "turkey": {
+              "cards": [
+                500,
+                750,
+                1000
+              ],
+              "cost": 4215,
+              "wallet": 2250,
+              "price": 5500
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "silent-hill-townfall",
+          "editionId": "deluxe",
+          "edition": "Deluxe Edition",
+          "editionOrder": 2,
+          "title": "SILENT HILL: Townfall — Deluxe Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1504/dfad9130220d9f4615ea20cba988c76ee16e1a004b996faf.jpg",
+          "summary": "Игра + 2 бонуса",
+          "features": [
+            "SILENT HILL: Townfall",
+            "Бонусное приложение",
+            "Альтернативный костюм Саймона"
+          ],
+          "release": "24 сентября",
+          "prices": {
+            "india": 5500,
+            "turkey": 6400
+          },
+          "storePrices": {
+            "india": 3499.0,
+            "turkey": 2579.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/JP0101-PPSA33286_00-SHTOWNFALLDELUXE",
+            "turkey": "https://store.playstation.com/en-tr/product/JP0101-PPSA33286_00-SHTOWNFALLDELUXE"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                2000
+              ],
+              "cost": 4260,
+              "wallet": 4000,
+              "price": 5500
+            },
+            "turkey": {
+              "cards": [
+                750,
+                1000,
+                1000
+              ],
+              "cost": 5153,
+              "wallet": 2750,
+              "price": 6400
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "phantom-blade-zero",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "Phantom Blade Zero — Standard Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2810/5d34d0cd910fa48c730a1915b8cf112231c30e667e2169ea.jpg",
+          "summary": "Полная версия игры",
+          "features": [
+            "Полная версия игры"
+          ],
+          "release": "29 октября",
+          "prices": {
+            "india": 6600,
+            "turkey": 6000
+          },
+          "storePrices": {
+            "india": 4299.0,
+            "turkey": 2379.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UB2134-PPSA34579_00-0622032276386943",
+            "turkey": "https://store.playstation.com/en-tr/product/UB2134-PPSA34579_00-0622032276386943"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                3000
+              ],
+              "cost": 5318,
+              "wallet": 5000,
+              "price": 6600
+            },
+            "turkey": {
+              "cards": [
+                500,
+                1000,
+                1000
+              ],
+              "cost": 4684,
+              "wallet": 2500,
+              "price": 5900
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "phantom-blade-zero",
+          "editionId": "digital-deluxe",
+          "edition": "Digital Deluxe Edition",
+          "editionOrder": 2,
+          "title": "Phantom Blade Zero — Digital Deluxe Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2822/fcb63ebad3e8aa75b60e8a416e3daa5265dda7ca037eba6e.jpg",
+          "summary": "Игра + 4 бонуса",
+          "features": [
+            "Полная версия игры",
+            "Wulin Legend",
+            "Blood-Steel Form",
+            "Цифровой артбук",
+            "Цифровой саундтрек"
+          ],
+          "release": "29 октября",
+          "prices": {
+            "india": 7600,
+            "turkey": 6900
+          },
+          "storePrices": {
+            "india": 5199.0,
+            "turkey": 2849.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UB2134-PPSA34579_00-0679049422108833",
+            "turkey": "https://store.playstation.com/en-tr/product/UB2134-PPSA34579_00-0679049422108833"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                3000,
+                3000
+              ],
+              "cost": 6376,
+              "wallet": 6000,
+              "price": 7600
+            },
+            "turkey": {
+              "cards": [
+                1000,
+                1000,
+                1000
+              ],
+              "cost": 5622,
+              "wallet": 3000,
+              "price": 6900
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "black-flag",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "Assassin’s Creed Black Flag Resynced — Standard Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202603/1215/30972495c4d1b567dcd015b80c0d3af9c946efc8822944d7.jpg",
+          "summary": "Полная версия игры",
+          "features": [
+            "Assassin's Creed Black Flag Resynced"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 6600,
+            "turkey": 6400
+          },
+          "storePrices": {
+            "india": 4199.0,
+            "turkey": 2579.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP0001-PPSA28183_00-GAME000000000000",
+            "turkey": "https://store.playstation.com/en-tr/product/EP0001-PPSA28183_00-GAME000000000000"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                3000
+              ],
+              "cost": 5318,
+              "wallet": 5000,
+              "price": 6600
+            },
+            "turkey": {
+              "cards": [
+                750,
+                1000,
+                1000
+              ],
+              "cost": 5153,
+              "wallet": 2750,
+              "price": 6400
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "black-flag",
+          "editionId": "deluxe",
+          "edition": "Deluxe Edition",
+          "editionOrder": 2,
+          "title": "Assassin’s Creed Black Flag Resynced — Deluxe Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202603/1215/5f6f9949966716f0f2185bb60c2eeec67335135a838cdc89.jpg",
+          "summary": "Игра + 2 бонуса",
+          "features": [
+            "Assassin's Creed Black Flag Resynced",
+            "Набор персонажа Master Assassin",
+            "Морской набор Master Assassin"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 6600,
+            "turkey": 6900
+          },
+          "storePrices": {
+            "india": 4899.0,
+            "turkey": 2999.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP0001-PPSA28183_00-DELUXE0000000000",
+            "turkey": "https://store.playstation.com/en-tr/product/EP0001-PPSA28183_00-DELUXE0000000000"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                3000
+              ],
+              "cost": 5318,
+              "wallet": 5000,
+              "price": 6600
+            },
+            "turkey": {
+              "cards": [
+                1000,
+                1000,
+                1000
+              ],
+              "cost": 5622,
+              "wallet": 3000,
+              "price": 6900
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "lego-batman",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "LEGO Batman: Legacy of the Dark Knight — Standard Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202511/1118/f4e6951f2326e94a5f5d4bd4d54979f5421d6e34327849f2.jpg",
+          "summary": "Полная версия игры",
+          "features": [
+            "Полная версия игры"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 5500,
+            "turkey": 6900
+          },
+          "storePrices": {
+            "india": 3999.0,
+            "turkey": 2999.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP1018-PPSA16833_00-LEGOBATMAN000000",
+            "turkey": "https://store.playstation.com/en-tr/product/UP1018-PPSA16833_00-LEGOBATMAN000000"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                2000
+              ],
+              "cost": 4260,
+              "wallet": 4000,
+              "price": 5500
+            },
+            "turkey": {
+              "cards": [
+                1000,
+                1000,
+                1000
+              ],
+              "cost": 5622,
+              "wallet": 3000,
+              "price": 6900
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "lego-batman",
+          "editionId": "deluxe",
+          "edition": "Deluxe Edition",
+          "editionOrder": 2,
+          "title": "LEGO Batman: Legacy of the Dark Knight — Deluxe Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202511/1118/bd5505b5592be6c860e3cc371ba6ba7850d3a0b4808f4a86.jpg",
+          "summary": "Игра + 4 бонуса",
+          "features": [
+            "Полная версия игры",
+            "Набор Arkham Trilogy",
+            "Набор Batman Beyond",
+            "Набор Party Music",
+            "Коллекция Mayhem"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 7600,
+            "turkey": 8800
+          },
+          "storePrices": {
+            "india": 5699.0,
+            "turkey": 3849.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP1018-PPSA16833_00-LEGOBATMANDLXEDT",
+            "turkey": "https://store.playstation.com/en-tr/product/UP1018-PPSA16833_00-LEGOBATMANDLXEDT"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                3000,
+                3000
+              ],
+              "cost": 6376,
+              "wallet": 6000,
+              "price": 7600
+            },
+            "turkey": {
+              "cards": [
+                1000,
+                1000,
+                2000
+              ],
+              "cost": 7532,
+              "wallet": 4000,
+              "price": 8800
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "saros",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "SAROS — Standard Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202512/0120/29617d8e70b24ffa3f63508187fcc886f6696a69b413cdc5.jpg",
+          "summary": "Полная версия игры",
+          "features": [
+            "SAROS"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 6600,
+            "turkey": 7900
+          },
+          "storePrices": {
+            "india": 4999.0,
+            "turkey": 3449.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP9000-PPSA07631_00-SAROS00000000000",
+            "turkey": "https://store.playstation.com/en-tr/product/EP9000-PPSA07631_00-SAROS00000000000"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                3000
+              ],
+              "cost": 5318,
+              "wallet": 5000,
+              "price": 6600
+            },
+            "turkey": {
+              "cards": [
+                1000,
+                1000,
+                1500
+              ],
+              "cost": 6586,
+              "wallet": 3500,
+              "price": 7800
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "atomic-heart",
+          "editionId": "gold",
+          "edition": "Gold Edition",
+          "editionOrder": 3,
+          "title": "Atomic Heart — Gold Edition",
+          "platform": "PS4 / PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202209/2815/tMpGJJ9MVkwkhOrLBUTlxUEL.jpg",
+          "summary": "Игра и дополнительный контент",
+          "features": [
+            "Atomic Heart (PS4 & PS5)",
+            "Atomic Pass для PS4 и PS5"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 8700,
+            "turkey": 7800
+          },
+          "storePrices": {
+            "india": 6799.0,
+            "turkey": 3499.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP4133-PPSA10695_00-ATOMICHEARTGLDED",
+            "turkey": "https://store.playstation.com/en-tr/product/EP4133-PPSA10695_00-ATOMICHEARTGLDED"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                2000,
+                3000
+              ],
+              "cost": 7448,
+              "wallet": 7000,
+              "price": 8700
+            },
+            "turkey": {
+              "cards": [
+                1000,
+                1000,
+                1500
+              ],
+              "cost": 6586,
+              "wallet": 3500,
+              "price": 7800
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "borderlands-3",
+          "editionId": "next-level",
+          "edition": "Next Level Edition",
+          "editionOrder": 1,
+          "title": "Borderlands 3 — Next Level Edition",
+          "platform": "PS4 / PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202010/1720/JiBZGL2RDJrOhzaSSymMqinu.jpg",
+          "summary": "Игра + 4 бонуса",
+          "features": [
+            "Borderlands 3",
+            "Multiverse Final Form Zane",
+            "Multiverse Final Form Amara",
+            "Multiverse Final Form FL4K",
+            "Multiverse Final Form Moze"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 6600,
+            "turkey": 2700
+          },
+          "storePrices": {
+            "india": 4599.0,
+            "turkey": 507.46
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP1001-PPSA01463_00-000000OAKSIEENLB",
+            "turkey": "https://store.playstation.com/en-tr/product/EP1001-PPSA01463_00-000000OAKSIEENLB"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                3000
+              ],
+              "cost": 5318,
+              "wallet": 5000,
+              "price": 6600
+            },
+            "turkey": {
+              "cards": [
+                250,
+                500
+              ],
+              "cost": 1404,
+              "wallet": 750,
+              "price": 2700
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "borderlands-3",
+          "editionId": "ultimate",
+          "edition": "Ultimate Edition",
+          "editionOrder": 5,
+          "title": "Borderlands 3 — Ultimate Edition",
+          "platform": "PS4 / PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202010/1721/43wbgVdGGnLcNOMO4N2AsSv4.jpg",
+          "summary": "Игра, два Season Pass и бонусный контент",
+          "features": [
+            "Borderlands 3",
+            "Бонусы Borderlands 3 Deluxe",
+            "Borderlands 3 Season Pass",
+            "Borderlands 3: Season Pass 2",
+            "Multiverse Final Form Zane",
+            "Multiverse Final Form Amara",
+            "Multiverse Final Form FL4K",
+            "Multiverse Final Form Moze"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 8700,
+            "turkey": 7800
+          },
+          "storePrices": {
+            "india": 6899.0,
+            "turkey": 3499.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP1001-PPSA01463_00-000000OAKSIEEUEB",
+            "turkey": "https://store.playstation.com/en-tr/product/EP1001-PPSA01463_00-000000OAKSIEEUEB"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                2000,
+                3000
+              ],
+              "cost": 7448,
+              "wallet": 7000,
+              "price": 8700
+            },
+            "turkey": {
+              "cards": [
+                1000,
+                1000,
+                1500
+              ],
+              "cost": 6586,
+              "wallet": 3500,
+              "price": 7800
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "ac-origins",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "Assassin’s Creed Origins — Standard Edition",
+          "platform": "PS4 / PS5",
+          "image": "https://image.api.playstation.com/gs2-sec/acpkgo/prod/CUSA05640_00/124/i_1d2832992a4c1a771ba04c00382ae7136dcb9eb217239e99778829d5f0b6cd26/i/icon0.png",
+          "summary": "Полная версия игры",
+          "features": [
+            "Полная версия игры"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 5500,
+            "turkey": 7400
+          },
+          "storePrices": {
+            "india": 3999.0,
+            "turkey": 3149.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP0001-CUSA05625_00-GAMEACEMPIRE0000",
+            "turkey": "https://store.playstation.com/en-tr/product/EP0001-CUSA05625_00-GAMEACEMPIRE0000"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                2000
+              ],
+              "cost": 4260,
+              "wallet": 4000,
+              "price": 5500
+            },
+            "turkey": {
+              "cards": [
+                750,
+                1000,
+                1500
+              ],
+              "cost": 6117,
+              "wallet": 3250,
+              "price": 7400
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05",
+          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости."
+        },
+        {
+          "gameId": "ac-origins",
+          "editionId": "gold",
+          "edition": "Gold Edition",
+          "editionOrder": 3,
+          "title": "Assassin’s Creed Origins — Gold Edition",
+          "platform": "PS4 / PS5",
+          "image": "https://image.api.playstation.com/cdn/EP0001/CUSA05625_00/gAsKS4iMeeHiRKvzTW3fflL1MZ1Yp84l.png",
+          "summary": "Игра и дополнительный контент",
+          "features": [
+            "Полная версия Assassin’s Creed Origins",
+            "Набор Deluxe Pack",
+            "Season Pass с крупными дополнениями"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 7600,
+            "turkey": 2200
+          },
+          "storePrices": {
+            "india": 5999.0,
+            "turkey": 359.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP0001-CUSA05625_00-EDITIONGLDACE000",
+            "turkey": "https://store.playstation.com/en-tr/product/EP0001-CUSA05625_00-EDITIONGLDACE000"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                3000,
+                3000
+              ],
+              "cost": 6376,
+              "wallet": 6000,
+              "price": 7600
+            },
+            "turkey": {
+              "cards": [
+                500
+              ],
+              "cost": 936,
+              "wallet": 500,
+              "price": 2200
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05",
+          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости."
+        },
+        {
+          "gameId": "just-cause-4",
+          "editionId": "reloaded",
+          "edition": "Reloaded Edition",
+          "editionOrder": 0,
+          "title": "Just Cause 4 — Reloaded Edition",
+          "platform": "PS4 / PS5",
+          "image": "https://image.api.playstation.com/vulcan/img/cfn/11307jgamRT2Qu2NDMKh50hCl1zQM740IxpZSaRBAus0FBJ4medj17Iakid0pgX1fGrEY8nwVZTeOpQbgSOEy1y74XY3iuGk.png",
+          "summary": "Игра и дополнительный контент",
+          "features": [
+            "Полная версия Just Cause 4",
+            "Вооружённый вингсьют Skystriker",
+            "Самолёт Black Hand Stealth Micro Jet",
+            "Наборы Neon Racer, Deathstalker Scorpion и Renegade"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 4400,
+            "turkey": 4100
+          },
+          "storePrices": {
+            "india": 2499.0,
+            "turkey": 1399.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP0082-CUSA09264_00-JC4RELOADEDWW000",
+            "turkey": "https://store.playstation.com/en-tr/product/EP0082-CUSA09264_00-JC4RELOADEDWW000"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                3000
+              ],
+              "cost": 3188,
+              "wallet": 3000,
+              "price": 4400
             },
             "turkey": {
               "cards": [
@@ -473,148 +2328,265 @@
                 500
               ],
               "cost": 2808,
-              "price": 4100,
-              "wallet": 1500
+              "wallet": 1500,
+              "price": 4100
             }
           },
-          "release": "до 9 сентября",
-          "saleEndsAt": "2026-09-09T22:59:00Z",
-          "storePrices": {
-            "india": 2279,
-            "turkey": 1424.7
-          },
-          "storeUrls": {
-            "india": "https://store.playstation.com/en-in/product/EP4133-PPSA10695_00-ATOMICHEARTULTIM",
-            "turkey": "https://store.playstation.com/tr-tr/product/EP4133-PPSA10695_00-ATOMICHEARTULTIM"
-          },
-          "tag": "−70% в PS Store",
-          "title": "Atomic Heart Ultimate",
-          "verifiedAt": "2026-09-05"
+          "discounts": {},
+          "verifiedAt": "2026-09-05",
+          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости."
         },
         {
-          "image": "https://image.api.playstation.com/vulcan/img/rnd/202010/0921/XGzcxPsqVQNPdDyDiTyqOVtO.jpg?w=1920",
-          "platform": "Complete Edition • PS4",
+          "gameId": "just-cause-4",
+          "editionId": "gold",
+          "edition": "Gold Edition",
+          "editionOrder": 3,
+          "title": "Just Cause 4 — Gold Edition",
+          "platform": "PS4 / PS5",
+          "image": "https://image.api.playstation.com/vulcan/img/cfn/11307Vuztk4fGeT5sLmNAQ6nlrEN2Gf_d7EGoGCOE3uIj7-kcCjbMDzdrQWi90jKkTjuFirOLRK-lUnNcQMr2jGIWKwojVEC.png",
+          "summary": "Игра и дополнительный контент",
+          "features": [
+            "Полная версия Just Cause 4",
+            "Expansion Pass",
+            "Набор Golden Gear",
+            "Вооружённый вингсьют Skystriker",
+            "Самолёт Black Hand Stealth Micro Jet",
+            "Наборы Neon Racer, Deathstalker Scorpion и Renegade"
+          ],
+          "release": "Уже в продаже",
           "prices": {
-            "india": 2300,
-            "turkey": 2200
+            "india": 5500,
+            "turkey": 5500
+          },
+          "storePrices": {
+            "india": 3499.0,
+            "turkey": 2099.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP0082-CUSA09264_00-JC4GOLDNEWWW0000",
+            "turkey": "https://store.playstation.com/en-tr/product/EP0082-CUSA09264_00-JC4GOLDNEWWW0000"
           },
           "pricingBasis": {
             "india": {
               "cards": [
-                1000
+                2000,
+                2000
               ],
-              "cost": 1073,
-              "price": 2300,
-              "wallet": 1000
+              "cost": 4260,
+              "wallet": 4000,
+              "price": 5500
             },
             "turkey": {
               "cards": [
+                500,
+                750,
+                1000
+              ],
+              "cost": 4215,
+              "wallet": 2250,
+              "price": 5500
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05",
+          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости."
+        },
+        {
+          "gameId": "jujutsu-kaisen",
+          "editionId": "deluxe",
+          "edition": "Deluxe Edition",
+          "editionOrder": 2,
+          "title": "Jujutsu Kaisen Cursed Clash — Deluxe Edition",
+          "platform": "PS4 / PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202401/1917/2d22c660019e7607bb1105387f93c935e04665cd78f1f54d.jpg",
+          "summary": "Игра + 2 бонуса",
+          "features": [
+            "Jujutsu Kaisen Cursed Clash",
+            "Hidden Inventory/Premature Death",
+            "Jujusta 2024"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 6600,
+            "turkey": 6900
+          },
+          "storePrices": {
+            "india": 4799.0,
+            "turkey": 2799.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP0700-PPSA09535_00-JJTKCDLXEDITION0",
+            "turkey": "https://store.playstation.com/en-tr/product/EP0700-PPSA09535_00-JJTKCDLXEDITION0"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                3000
+              ],
+              "cost": 5318,
+              "wallet": 5000,
+              "price": 6600
+            },
+            "turkey": {
+              "cards": [
+                1000,
+                1000,
+                1000
+              ],
+              "cost": 5622,
+              "wallet": 3000,
+              "price": 6900
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "golf-with-your-friends",
+          "editionId": "starter",
+          "edition": "Starter Edition",
+          "editionOrder": 1,
+          "title": "Golf With Your Friends — Starter Edition",
+          "platform": "PS4 / PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202311/1414/596ecf73d77a5a2fadfb6310fe1c268455011a981895e2c7.jpg",
+          "summary": "Игра + 2 бонуса",
+          "features": [
+            "Golf With Your Friends",
+            "Поле Bouncy Castle",
+            "Набор Caddy"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 4400,
+            "turkey": 3100
+          },
+          "storePrices": {
+            "india": 2247.0,
+            "turkey": 799.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP4064-CUSA17676_00-GWYFSTARTER00000",
+            "turkey": "https://store.playstation.com/en-tr/product/EP4064-CUSA17676_00-GWYFSTARTER00000"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                3000
+              ],
+              "cost": 3188,
+              "wallet": 3000,
+              "price": 4400
+            },
+            "turkey": {
+              "cards": [
+                500,
                 500
               ],
-              "cost": 936,
-              "price": 2200,
-              "wallet": 500
+              "cost": 1872,
+              "wallet": 1000,
+              "price": 3100
             }
           },
-          "release": "до 9 сентября",
-          "saleEndsAt": "2026-09-09T22:59:00Z",
+          "discounts": {},
+          "verifiedAt": "2026-09-05",
+          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости."
+        }
+      ]
+    },
+    {
+      "id": "sale",
+      "title": "Акции PS Store",
+      "games": [
+        {
+          "gameId": "ufc-6",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "EA SPORTS UFC 6 — Standard Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202604/2216/d7dc9d18be2af5600b5bfe6bd47383d0890af0eb2c828751.jpg",
+          "summary": "Полная версия игры",
+          "features": [
+            "UFC 6 PS5"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 5500,
+            "turkey": 7400
+          },
           "storePrices": {
-            "india": 799,
-            "turkey": 499.8
+            "india": 3999.0,
+            "turkey": 3199.2
           },
           "storeUrls": {
-            "india": "https://store.playstation.com/en-in/product/EP0082-CUSA09264_00-JC4COMPLETEWWNEW",
-            "turkey": "https://store.playstation.com/tr-tr/product/EP0082-CUSA09264_00-JC4COMPLETEWWNEW"
-          },
-          "tag": "−80% в PS Store",
-          "title": "Just Cause 4 Complete",
-          "verifiedAt": "2026-09-05"
-        },
-        {
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202507/2908/8b0ee99ae1a1c537005ae18cdc6fe0363114119a4aa5dfa3.jpg?w=1920",
-          "platform": "Deluxe Edition • PS4",
-          "prices": {
-            "india": 2300,
-            "turkey": 2700
+            "india": "https://store.playstation.com/en-in/product/EP0006-PPSA23566_00-BASEUFC6GAME0000",
+            "turkey": "https://store.playstation.com/en-tr/product/EP0006-PPSA23566_00-BASEUFC6GAME0000"
           },
           "pricingBasis": {
             "india": {
               "cards": [
-                1000
+                2000,
+                2000
               ],
-              "cost": 1073,
-              "price": 2300,
-              "wallet": 1000
+              "cost": 4260,
+              "wallet": 4000,
+              "price": 5500
             },
             "turkey": {
               "cards": [
-                250,
-                500
+                750,
+                1000,
+                1500
               ],
-              "cost": 1404,
-              "price": 2700,
-              "wallet": 750
+              "cost": 6117,
+              "wallet": 3250,
+              "price": 7400
             }
           },
-          "release": "до 9 сентября",
-          "saleEndsAt": "2026-09-09T22:59:00Z",
-          "storePrices": {
-            "india": 719,
-            "turkey": 524.85
-          },
-          "storeUrls": {
-            "india": "https://store.playstation.com/en-in/product/EP0001-CUSA05625_00-EDITIONDLXACE000",
-            "turkey": "https://store.playstation.com/tr-tr/product/EP0001-CUSA05625_00-EDITIONDLXACE000"
-          },
-          "tag": "−85% в PS Store",
-          "title": "Assassin’s Creed Origins Deluxe",
-          "verifiedAt": "2026-09-05"
-        },
-        {
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202311/1414/d43a088d510ad856d56f4dd5dbecc78372563b72c5e26c80.jpg?w=1920",
-          "platform": "Ultimate Edition • PS4",
-          "prices": {
-            "india": 2300,
-            "turkey": 1700
-          },
-          "pricingBasis": {
+          "discounts": {
             "india": {
-              "cards": [
-                1000
-              ],
-              "cost": 1073,
-              "price": 2300,
-              "wallet": 1000
+              "percent": 20,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 4999.0
             },
             "turkey": {
-              "cards": [
-                250
-              ],
-              "cost": 468,
-              "price": 1700,
-              "wallet": 250
+              "percent": 20,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 3999.0
             }
           },
-          "release": "до 9 сентября",
-          "saleEndsAt": "2026-09-09T22:59:00Z",
-          "storePrices": {
-            "india": 457,
-            "turkey": 134.9
-          },
-          "storeUrls": {
-            "india": "https://store.playstation.com/en-in/product/EP4064-CUSA17676_00-GWYFULTIMATE0000",
-            "turkey": "https://store.playstation.com/tr-tr/product/EP4064-CUSA17676_00-GWYFULTIMATE0000"
-          },
-          "tag": "−90% в PS Store",
-          "title": "Golf With Your Friends Ultimate",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 6500,
+            "turkey": 8800
+          }
         },
         {
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202401/1917/52465e4a2bc49cf7d662a72459e5e79b357655ff00e0953f.jpg?w=1920",
-          "platform": "Ultimate Edition • PS4 & PS5",
+          "gameId": "rdr2",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "Red Dead Redemption 2 — Standard Edition",
+          "platform": "PS4 / PS5",
+          "image": "https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/Hpl5MtwQgOVF9vJqlfui6SDB5Jl4oBSq.png",
+          "summary": "Игра и дополнительный контент",
+          "features": [
+            "Red Dead Online",
+            "Сюжетная кампания Red Dead Redemption 2"
+          ],
+          "release": "Уже в продаже",
           "prices": {
             "india": 3400,
-            "turkey": 3600
+            "turkey": 2700
+          },
+          "storePrices": {
+            "india": 1149.0,
+            "turkey": 524.75
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP1004-CUSA08519_00-REDEMPTIONFULL02",
+            "turkey": "https://store.playstation.com/en-tr/product/EP1004-CUSA08519_00-REDEMPTIONFULL02"
           },
           "pricingBasis": {
             "india": {
@@ -622,8 +2594,815 @@
                 2000
               ],
               "cost": 2130,
-              "price": 3400,
-              "wallet": 2000
+              "wallet": 2000,
+              "price": 3400
+            },
+            "turkey": {
+              "cards": [
+                250,
+                500
+              ],
+              "cost": 1404,
+              "wallet": 750,
+              "price": 2700
+            }
+          },
+          "discounts": {
+            "india": {
+              "percent": 75,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 4599.0
+            },
+            "turkey": {
+              "percent": 75,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 2099.0
+            }
+          },
+          "verifiedAt": "2026-09-05",
+          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости."
+        },
+        {
+          "gameId": "forza-horizon-5",
+          "editionId": "deluxe",
+          "edition": "Deluxe Edition",
+          "editionOrder": 2,
+          "title": "Forza Horizon 5 — Deluxe Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202502/1300/b76acec852af7bc40931592a5a07d1bd23a5705a1b396508.jpg",
+          "summary": "Игра и Car Pass",
+          "features": [
+            "Полная версия Forza Horizon 5",
+            "Car Pass для Forza Horizon 5"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 4400,
+            "turkey": 3100
+          },
+          "storePrices": {
+            "india": 2159.0,
+            "turkey": 822.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP6312-PPSA22327_00-0547256477986893",
+            "turkey": "https://store.playstation.com/en-tr/product/UP6312-PPSA22327_00-0547256477986893"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                3000
+              ],
+              "cost": 3188,
+              "wallet": 3000,
+              "price": 4400
+            },
+            "turkey": {
+              "cards": [
+                500,
+                500
+              ],
+              "cost": 1872,
+              "wallet": 1000,
+              "price": 3100
+            }
+          },
+          "discounts": {
+            "india": {
+              "percent": 60,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 5399.0
+            },
+            "turkey": {
+              "percent": 60,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 2055.0
+            }
+          },
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 7500,
+            "turkey": 5500
+          }
+        },
+        {
+          "gameId": "007-first-light",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "007 First Light — Standard Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2216/6d18d35a8bdbc6614a47b5e2d661e9f959afabb8af7011f9.jpg",
+          "summary": "Полная версия игры",
+          "features": [
+            "007 First Light"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 5500,
+            "turkey": 6000
+          },
+          "storePrices": {
+            "india": 3199.0,
+            "turkey": 2399.2
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP3969-PPSA11386_00-007FIRSTLIGHT000",
+            "turkey": "https://store.playstation.com/en-tr/product/EP3969-PPSA11386_00-007FIRSTLIGHT000"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                2000
+              ],
+              "cost": 4260,
+              "wallet": 4000,
+              "price": 5500
+            },
+            "turkey": {
+              "cards": [
+                500,
+                1000,
+                1000
+              ],
+              "cost": 4684,
+              "wallet": 2500,
+              "price": 5900
+            }
+          },
+          "discounts": {
+            "india": {
+              "percent": 20,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 3999.0
+            },
+            "turkey": {
+              "percent": 20,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 2999.0
+            }
+          },
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "turkey": 6900
+          }
+        },
+        {
+          "gameId": "crimson-desert",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "Crimson Desert — Standard Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202608/2006/8bd2affb4939bf663b1bd7a78ad83345bfd1df3e961c2a72.jpg",
+          "summary": "Игра и дополнительный контент",
+          "features": [
+            "Crimson Desert (Main Game)",
+            "Бонус PS5: комплект Grotevant Plate"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 5500,
+            "turkey": 6000
+          },
+          "storePrices": {
+            "india": 3599.0,
+            "turkey": 2399.2
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP4162-PPSA25286_00-0653729629077452",
+            "turkey": "https://store.playstation.com/en-tr/product/UP4162-PPSA25286_00-0653729629077452"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                2000
+              ],
+              "cost": 4260,
+              "wallet": 4000,
+              "price": 5500
+            },
+            "turkey": {
+              "cards": [
+                500,
+                1000,
+                1000
+              ],
+              "cost": 4684,
+              "wallet": 2500,
+              "price": 5900
+            }
+          },
+          "discounts": {
+            "india": {
+              "percent": 20,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 4499.0
+            },
+            "turkey": {
+              "percent": 20,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 2999.0
+            }
+          },
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 6500,
+            "turkey": 6900
+          }
+        },
+        {
+          "gameId": "crimson-desert",
+          "editionId": "deluxe",
+          "edition": "Deluxe Edition",
+          "editionOrder": 2,
+          "title": "Crimson Desert — Deluxe Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202608/2008/9281831e5f590873adf6ae39462cd839ea121ca1519821eb.jpg",
+          "summary": "Игра + 4 бонуса",
+          "features": [
+            "Crimson Desert (Main Game)",
+            "Бонус PS5: комплект Grotevant Plate",
+            "Deluxe: комплект Kairos Plate",
+            "Deluxe: щит Balgran",
+            "Deluxe: конская экипировка Exclaire"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 6600,
+            "turkey": 6900
+          },
+          "storePrices": {
+            "india": 4103.0,
+            "turkey": 2759.2
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP4162-PPSA25286_00-0527386153670087",
+            "turkey": "https://store.playstation.com/en-tr/product/UP4162-PPSA25286_00-0527386153670087"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                3000
+              ],
+              "cost": 5318,
+              "wallet": 5000,
+              "price": 6600
+            },
+            "turkey": {
+              "cards": [
+                1000,
+                1000,
+                1000
+              ],
+              "cost": 5622,
+              "wallet": 3000,
+              "price": 6900
+            }
+          },
+          "discounts": {
+            "india": {
+              "percent": 20,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 5129.0
+            },
+            "turkey": {
+              "percent": 20,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 3449.0
+            }
+          },
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "saros",
+          "editionId": "digital-deluxe",
+          "edition": "Digital Deluxe Edition",
+          "editionOrder": 2,
+          "title": "SAROS — Digital Deluxe Edition",
+          "platform": "PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202512/0216/f454f914e2258dbaa2fd0607ad2590ebf3e016a975f1ce9f.jpg",
+          "summary": "Игра + 3 бонуса",
+          "features": [
+            "SAROS",
+            "Броня Astra",
+            "Броня Onryo",
+            "Броня Midgard"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 6600,
+            "turkey": 6900
+          },
+          "storePrices": {
+            "india": 4311.0,
+            "turkey": 2963.73
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP9000-PPSA07631_00-SAROSDELUXE00000",
+            "turkey": "https://store.playstation.com/en-tr/product/EP9000-PPSA07631_00-SAROSDELUXE00000"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                3000
+              ],
+              "cost": 5318,
+              "wallet": 5000,
+              "price": 6600
+            },
+            "turkey": {
+              "cards": [
+                1000,
+                1000,
+                1000
+              ],
+              "cost": 5622,
+              "wallet": 3000,
+              "price": 6900
+            }
+          },
+          "discounts": {
+            "india": {
+              "percent": 23,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 5599.0
+            },
+            "turkey": {
+              "percent": 23,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 3849.0
+            }
+          },
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "atomic-heart",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "Atomic Heart — Standard Edition",
+          "platform": "PS4 / PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202209/2815/ghdxLSLpUl24o2Q1eq3yTaji.jpg",
+          "summary": "Полная версия игры",
+          "features": [
+            "Atomic Heart (PS4 & PS5)"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 3400,
+            "turkey": 2700
+          },
+          "storePrices": {
+            "india": 1439.0,
+            "turkey": 749.7
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP4133-PPSA10695_00-ATOMICHEARTGAME0",
+            "turkey": "https://store.playstation.com/en-tr/product/EP4133-PPSA10695_00-ATOMICHEARTGAME0"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000
+              ],
+              "cost": 2130,
+              "wallet": 2000,
+              "price": 3400
+            },
+            "turkey": {
+              "cards": [
+                250,
+                500
+              ],
+              "cost": 1404,
+              "wallet": 750,
+              "price": 2700
+            }
+          },
+          "discounts": {
+            "india": {
+              "percent": 70,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 4799.0
+            },
+            "turkey": {
+              "percent": 70,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 2499.0
+            }
+          },
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "atomic-heart",
+          "editionId": "ultimate",
+          "edition": "Ultimate Edition",
+          "editionOrder": 5,
+          "title": "Atomic Heart — Ultimate Edition",
+          "platform": "PS4 / PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202604/0713/498077e73b81b9b3ef4f0379b800122607ac8f6a91e719db.jpg",
+          "summary": "Игра, Atomic Pass, облики оружия и артбук",
+          "features": [
+            "Atomic Heart (PS4 & PS5)",
+            "Atomic Pass для PS4 и PS5",
+            "Облик оружия Golden Age",
+            "Облик оружия Labor & Science",
+            "Цифровой артбук"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 4400,
+            "turkey": 4100
+          },
+          "storePrices": {
+            "india": 2279.0,
+            "turkey": 1424.7
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP4133-PPSA10695_00-ATOMICHEARTULTIM",
+            "turkey": "https://store.playstation.com/en-tr/product/EP4133-PPSA10695_00-ATOMICHEARTULTIM"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                3000
+              ],
+              "cost": 3188,
+              "wallet": 3000,
+              "price": 4400
+            },
+            "turkey": {
+              "cards": [
+                500,
+                500,
+                500
+              ],
+              "cost": 2808,
+              "wallet": 1500,
+              "price": 4100
+            }
+          },
+          "discounts": {
+            "india": {
+              "percent": 70,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 7599.0
+            },
+            "turkey": {
+              "percent": 70,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 4749.0
+            }
+          },
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "borderlands-3",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "Borderlands 3 — Standard Edition",
+          "platform": "PS4 / PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202010/2323/XGcrEQxoas5EliwtvsjoOJUN.jpg",
+          "summary": "Полная версия игры",
+          "features": [
+            "Borderlands 3"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 2300,
+            "turkey": 1700
+          },
+          "storePrices": {
+            "india": 399.0,
+            "turkey": 45.9
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP1001-PPSA01463_00-0000000OAKNGSIEE",
+            "turkey": "https://store.playstation.com/en-tr/product/EP1001-PPSA01463_00-0000000OAKNGSIEE"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                1000
+              ],
+              "cost": 1073,
+              "wallet": 1000,
+              "price": 2300
+            },
+            "turkey": {
+              "cards": [
+                250
+              ],
+              "cost": 468,
+              "wallet": 250,
+              "price": 1700
+            }
+          },
+          "discounts": {
+            "india": {
+              "percent": 90,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 3999.0
+            },
+            "turkey": {
+              "percent": 90,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 459.0
+            }
+          },
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "borderlands-3",
+          "editionId": "super-deluxe",
+          "edition": "Super Deluxe Edition",
+          "editionOrder": 3,
+          "title": "Borderlands 3 — Super Deluxe Edition",
+          "platform": "PS4 / PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202010/2322/VTb5T3WuWRIMuFaTIuJSkr8A.jpg",
+          "summary": "Игра, Season Pass и бонусы Deluxe",
+          "features": [
+            "Borderlands 3",
+            "Borderlands 3 Season Pass",
+            "Бонусы Borderlands 3 Deluxe",
+            "Косметический набор Butt Stallion",
+            "Multiverse Final Form Zane",
+            "Multiverse Final Form Amara",
+            "Multiverse Final Form FL4K",
+            "Multiverse Final Form Moze"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 2300,
+            "turkey": 2200
+          },
+          "storePrices": {
+            "india": 808.0,
+            "turkey": 419.85
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP1001-PPSA01463_00-000000OAKSIEESDD",
+            "turkey": "https://store.playstation.com/en-tr/product/EP1001-PPSA01463_00-000000OAKSIEESDD"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                1000
+              ],
+              "cost": 1073,
+              "wallet": 1000,
+              "price": 2300
+            },
+            "turkey": {
+              "cards": [
+                500
+              ],
+              "cost": 936,
+              "wallet": 500,
+              "price": 2200
+            }
+          },
+          "discounts": {
+            "india": {
+              "percent": 85,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 5390.0
+            },
+            "turkey": {
+              "percent": 85,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 2799.0
+            }
+          },
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "ac-origins",
+          "editionId": "deluxe",
+          "edition": "Deluxe Edition",
+          "editionOrder": 2,
+          "title": "Assassin’s Creed Origins — Deluxe Edition",
+          "platform": "PS4 / PS5",
+          "image": "https://image.api.playstation.com/cdn/JP0001/CUSA05640_00/cA59ncBqS6twiLeNgBLxMJ8Kc0elKZhR.png",
+          "summary": "Игра и дополнительный контент",
+          "features": [
+            "Полная версия Assassin’s Creed Origins",
+            "Миссия Ambush at Sea",
+            "Набор Desert Cobra: костюм, верховое животное, два оружия и щит",
+            "Три очка способностей"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 2300,
+            "turkey": 2700
+          },
+          "storePrices": {
+            "india": 719.0,
+            "turkey": 524.85
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP0001-CUSA05625_00-EDITIONDLXACE000",
+            "turkey": "https://store.playstation.com/en-tr/product/EP0001-CUSA05625_00-EDITIONDLXACE000"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                1000
+              ],
+              "cost": 1073,
+              "wallet": 1000,
+              "price": 2300
+            },
+            "turkey": {
+              "cards": [
+                250,
+                500
+              ],
+              "cost": 1404,
+              "wallet": 750,
+              "price": 2700
+            }
+          },
+          "discounts": {
+            "india": {
+              "percent": 85,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 4799.0
+            },
+            "turkey": {
+              "percent": 85,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 3499.0
+            }
+          },
+          "verifiedAt": "2026-09-05",
+          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости."
+        },
+        {
+          "gameId": "just-cause-4",
+          "editionId": "complete",
+          "edition": "Complete Edition",
+          "editionOrder": 5,
+          "title": "Just Cause 4 — Complete Edition",
+          "platform": "PS4 / PS5",
+          "image": "https://image.api.playstation.com/vulcan/img/cfn/11307FOmjfvGAUnNfQNsZfrlkXYzhgyj1JQuxsSwBYUsMnLc8FlbIhNWL8E4h9DUGO0NicqwHAmNErq-hf-AyVWhLeAJ1gS8.png",
+          "summary": "Игра и дополнительный контент",
+          "features": [
+            "Полная версия Just Cause 4",
+            "Black Market Bundle: контент Black Market и Premium",
+            "Дополнение Dare Devils of Destruction",
+            "Дополнение Los Demonios",
+            "Дополнение Danger Rising",
+            "Вооружённый вингсьют Skystriker",
+            "Самолёт Black Hand Stealth Micro Jet"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 2300,
+            "turkey": 2200
+          },
+          "storePrices": {
+            "india": 799.0,
+            "turkey": 499.8
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP0082-CUSA09264_00-JC4COMPLETEWWNEW",
+            "turkey": "https://store.playstation.com/en-tr/product/EP0082-CUSA09264_00-JC4COMPLETEWWNEW"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                1000
+              ],
+              "cost": 1073,
+              "wallet": 1000,
+              "price": 2300
+            },
+            "turkey": {
+              "cards": [
+                500
+              ],
+              "cost": 936,
+              "wallet": 500,
+              "price": 2200
+            }
+          },
+          "discounts": {
+            "india": {
+              "percent": 80,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 3999.0
+            },
+            "turkey": {
+              "percent": 80,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 2499.0
+            }
+          },
+          "verifiedAt": "2026-09-05",
+          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости."
+        },
+        {
+          "gameId": "jujutsu-kaisen",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "Jujutsu Kaisen Cursed Clash — Standard Edition",
+          "platform": "PS4 / PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202309/2817/62b0656877fca4fe095bda398e3c5f856b0ce8481e80365e.jpg",
+          "summary": "Полная версия игры",
+          "features": [
+            "Jujutsu Kaisen Cursed Clash"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 3400,
+            "turkey": 2700
+          },
+          "storePrices": {
+            "india": 1154.0,
+            "turkey": 692.67
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP0700-PPSA09535_00-JJKCVSX400000000",
+            "turkey": "https://store.playstation.com/en-tr/product/EP0700-PPSA09535_00-JJKCVSX400000000"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000
+              ],
+              "cost": 2130,
+              "wallet": 2000,
+              "price": 3400
+            },
+            "turkey": {
+              "cards": [
+                250,
+                500
+              ],
+              "cost": 1404,
+              "wallet": 750,
+              "price": 2700
+            }
+          },
+          "discounts": {
+            "india": {
+              "percent": 67,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 3499.0
+            },
+            "turkey": {
+              "percent": 67,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 2099.0
+            }
+          },
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "jujutsu-kaisen",
+          "editionId": "ultimate",
+          "edition": "Ultimate Edition",
+          "editionOrder": 5,
+          "title": "Jujutsu Kaisen Cursed Clash — Ultimate Edition",
+          "platform": "PS4 / PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202401/1917/928b38ca11753d0f2ab517e86ed1369c6404a8060352aa01.jpg",
+          "summary": "Игра + 4 бонуса",
+          "features": [
+            "Jujutsu Kaisen Cursed Clash",
+            "Hidden Inventory/Premature Death",
+            "Jujusta 2024",
+            "Цифровой артбук и саундтрек",
+            "Набор костюмов Anime Ending Theme 1"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 3400,
+            "turkey": 3600
+          },
+          "storePrices": {
+            "india": 1919.0,
+            "turkey": 1049.7
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP0700-PPSA09535_00-JJTKCULTEDITION0",
+            "turkey": "https://store.playstation.com/en-tr/product/EP0700-PPSA09535_00-JJTKCULTEDITION0"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000
+              ],
+              "cost": 2130,
+              "wallet": 2000,
+              "price": 3400
             },
             "turkey": {
               "cards": [
@@ -632,30 +3411,55 @@
                 500
               ],
               "cost": 2340,
-              "price": 3600,
-              "wallet": 1250
+              "wallet": 1250,
+              "price": 3600
             }
           },
-          "release": "до 9 сентября",
-          "saleEndsAt": "2026-09-09T22:59:00Z",
-          "storePrices": {
-            "india": 1919,
-            "turkey": 1049.7
+          "discounts": {
+            "india": {
+              "percent": 70,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 6399.0
+            },
+            "turkey": {
+              "percent": 70,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 3499.0
+            }
           },
-          "storeUrls": {
-            "india": "https://store.playstation.com/en-in/product/EP0700-PPSA09535_00-JJTKCULTEDITION0",
-            "turkey": "https://store.playstation.com/tr-tr/product/EP0700-PPSA09535_00-JJTKCULTEDITION0"
-          },
-          "tag": "−70% в PS Store",
-          "title": "Jujutsu Kaisen Cursed Clash Ultimate",
           "verifiedAt": "2026-09-05"
         },
         {
-          "image": "https://image.api.playstation.com/vulcan/img/rnd/202011/0702/nd2RLn0k0IU878m17HDzwK1K.jpg?w=1920",
-          "platform": "Super Deluxe Edition • PS4 & PS5",
+          "gameId": "golf-with-your-friends",
+          "editionId": "ultimate",
+          "edition": "Ultimate Edition",
+          "editionOrder": 5,
+          "title": "Golf With Your Friends — Ultimate Edition",
+          "platform": "PS4 / PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202311/1414/4a728adbf1d4bcd9c9d143679bef2234c97103026dbb5f7c.jpg",
+          "summary": "Игра и дополнительный контент",
+          "features": [
+            "Golf With Your Friends",
+            "Поле Bouncy Castle",
+            "Поле Corrupted Forest",
+            "Поле Peaceful Pines",
+            "Наборы Racing и Summer",
+            "Наборы Caddy и Pizza Party",
+            "Наборы Fairytale Fables и Sports",
+            "Набор Horrifying Headgear и командный режим"
+          ],
+          "release": "Уже в продаже",
           "prices": {
             "india": 2300,
-            "turkey": 2200
+            "turkey": 1700
+          },
+          "storePrices": {
+            "india": 457.0,
+            "turkey": 134.9
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP4064-CUSA17676_00-GWYFULTIMATE0000",
+            "turkey": "https://store.playstation.com/en-tr/product/EP4064-CUSA17676_00-GWYFULTIMATE0000"
           },
           "pricingBasis": {
             "india": {
@@ -663,46 +3467,92 @@
                 1000
               ],
               "cost": 1073,
-              "price": 2300,
-              "wallet": 1000
+              "wallet": 1000,
+              "price": 2300
             },
             "turkey": {
               "cards": [
-                500
+                250
               ],
-              "cost": 936,
-              "price": 2200,
-              "wallet": 500
+              "cost": 468,
+              "wallet": 250,
+              "price": 1700
             }
           },
-          "release": "до 9 сентября",
-          "saleEndsAt": "2026-09-09T22:59:00Z",
+          "discounts": {
+            "india": {
+              "percent": 90,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 4578.0
+            },
+            "turkey": {
+              "percent": 90,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 1349.0
+            }
+          },
+          "verifiedAt": "2026-09-05",
+          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости."
+        },
+        {
+          "gameId": "golf-with-your-friends",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "Golf With Your Friends — Standard Edition",
+          "platform": "PS4 / PS5",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202209/1414/rit1KAnxB1hlwgjlGmWUH1js.png",
+          "summary": "Полная версия игры",
+          "features": [
+            "Полная версия игры"
+          ],
+          "release": "Уже в продаже",
+          "prices": {
+            "india": 2300,
+            "turkey": 1700
+          },
           "storePrices": {
-            "india": 808,
-            "turkey": 419.85
+            "india": 149.0,
+            "turkey": 69.9
           },
           "storeUrls": {
-            "india": "https://store.playstation.com/en-in/product/EP1001-PPSA01463_00-000000OAKSIEESDD",
-            "turkey": "https://store.playstation.com/tr-tr/product/EP1001-PPSA01463_00-000000OAKSIEESDD"
+            "india": "https://store.playstation.com/en-in/product/EP4064-CUSA17676_00-GOLFWYFRIENDS000",
+            "turkey": "https://store.playstation.com/en-tr/product/EP4064-CUSA17676_00-GOLFWYFRIENDS000"
           },
-          "tag": "−85% в PS Store",
-          "title": "Borderlands 3 Super Deluxe",
-          "verifiedAt": "2026-09-05"
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                1000
+              ],
+              "cost": 1073,
+              "wallet": 1000,
+              "price": 2300
+            },
+            "turkey": {
+              "cards": [
+                250
+              ],
+              "cost": 468,
+              "wallet": 250,
+              "price": 1700
+            }
+          },
+          "discounts": {
+            "india": {
+              "percent": 90,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 1499.0
+            },
+            "turkey": {
+              "percent": 90,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 699.0
+            }
+          },
+          "verifiedAt": "2026-09-05",
+          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости."
         }
-      ],
-      "id": "sale",
-      "title": "Сейчас со скидкой"
+      ]
     }
-  ],
-  "margin": 1200,
-  "note": "Цены учитывают стоимость кодов и наценку 1 200 ₽ с округлением вверх до 100 ₽. Снижение расчётной цены менее чем на 500 ₽ не меняет цену на сайте.",
-  "priceUpdatePolicy": {
-    "alwaysApplyIncrease": true,
-    "compareAgainst": "publishedPrice",
-    "decreaseThresholdRub": 500,
-    "marginRub": 1200,
-    "maxCards": 3,
-    "roundUpRub": 100
-  },
-  "updated": "5 сентября 2026"
+  ]
 }

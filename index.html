@@ -8,7 +8,7 @@
   <meta name="keywords" content="игры PlayStation Индия, игры PlayStation Турция, купить игры PS5, PS Plus, БРАЗКА, brazka">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <meta name="author" content="БРАЗКА">
-  <meta name="theme-color" content="#05070d">
+  <meta name="theme-color" content="#100b1c">
   <link rel="canonical" href="https://brazka.shop/">
 
   <meta property="og:type" content="website">
@@ -28,7 +28,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=25">
+  <link rel="stylesheet" href="storefront.css?v=1">
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
@@ -47,142 +47,36 @@
   </script>
 </head>
 <body>
-  <div class="noise" aria-hidden="true"></div>
-  <div class="aurora aurora-a" aria-hidden="true"></div>
-  <div class="aurora aurora-b" aria-hidden="true"></div>
-  <div class="ps-particles" aria-hidden="true">
-    <span>△</span><span>○</span><span>□</span><span>✕</span>
-    <span>△</span><span>○</span><span>□</span><span>✕</span>
-  </div>
-
-  <header class="shell-nav">
-    <a class="brand" href="#top" aria-label="БРАЗКА">
-      <img src="assets/brazka-logo.png" alt="БРАЗКА">
-    </a>
-    <a class="nav-cta" data-telegram href="https://t.me/brazkashop" target="_blank" rel="noopener">Написать</a>
+  <a class="skip-link" href="#catalog">Перейти к каталогу</a>
+  <header class="store-header">
+    <div class="header-inner">
+      <a class="brand" href="./" aria-label="БРАЗКА — главная"><span class="logo-crop"><img src="assets/brazka-logo.png" alt="БРАЗКА" width="1254" height="1254"></span></a>
+      <a class="contact-link" data-contact href="https://t.me/m/LyEKjl0bODFi" target="_blank" rel="noopener">Написать <span aria-hidden="true">↗</span></a>
+    </div>
   </header>
-
-  <main id="top">
-    <section class="section-block catalog-section" aria-labelledby="catalog-title">
-      <div class="catalog-heading reveal-card">
-        <div>
-          <span class="eyebrow">ИГРЫ PLAYSTATION</span>
-          <h1 id="catalog-title">Каталог игр</h1>
-          <p>Топовые новинки, предзаказы и скидки PlayStation. Сразу показываем итоговую цену для Индии и Турции.</p>
-        </div>
-        <div class="catalog-meta">
-          <span class="live-dot" aria-hidden="true"></span>
-          <span id="catalogUpdated">Цены уточняются</span>
-        </div>
-      </div>
-
-      <div class="catalog-toolbar reveal-card" aria-label="Фильтр каталога">
-        <button class="catalog-filter active" data-filter="all" aria-pressed="true">Всё <span id="allCount">17</span></button>
-        <button class="catalog-filter" data-filter="new" aria-pressed="false">Новинки <span id="newCount">13</span></button>
-        <button class="catalog-filter sale-filter" data-filter="sale" aria-pressed="false">Скидки <span id="saleCount">4</span></button>
-        <p>Цена уже включает нашу работу. Остаток с карты остаётся на вашем аккаунте.</p>
-      </div>
-
-      <div class="catalog-content" id="gamesCatalog" aria-live="polite">
-        <div class="catalog-loading">Загружаем каталог…</div>
-      </div>
-    </section>
-
-    <section class="section-block" id="plus">
-      <div class="plus-title-center reveal-card" aria-label="PlayStation Plus">
-        <span class="plus-title-text">PlayStation Plus</span>
-        <img class="plus-title-mark" src="assets/psplus-icon.png" alt="">
-      </div>
-
-      <div class="psplus-offer-card glassline reveal-card">
-        <div class="psplus-offer-copy">
-          <span class="muted-label">ПОДПИСКА PS PLUS</span>
-          <h2>Подберём подписку под твой аккаунт</h2>
-          <p>Essential, Extra или Deluxe — подскажем срок, регион и актуальный способ оформления.</p>
-          <a class="button primary" data-telegram href="https://t.me/brazkashop" target="_blank" rel="noopener">Написать и оформить PS Plus</a>
-        </div>
-
-        <div class="psplus-offer-points">
-          <div class="psplus-point">
-            <strong>1 месяц</strong>
-            <span>если подписка нужна прямо сейчас</span>
-          </div>
-          <div class="psplus-point">
-            <strong>3 месяца</strong>
-            <span>чтобы попробовать без годовой оплаты</span>
-          </div>
-          <div class="psplus-point is-accent">
-            <strong>12 месяцев</strong>
-            <span>чтобы закрыть вопрос надолго</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="psplus-tariff-guide reveal-card">
-        <div><b>Essential</b><span>онлайн и игры месяца</span></div>
-        <div><b>Extra</b><span>каталог игр + онлайн</span></div>
-        <div><b>Deluxe</b><span>максимальный тариф</span></div>
-      </div>
-
-      <div class="ps-console" id="plus-prices">
-        <div class="plan-rail" role="tablist" aria-label="Выбор категории PS Plus">
-          <button class="plan-tile active" data-plan="essential" role="tab" aria-selected="true">
-            <img src="assets/ps-essential.png" alt="Essential">
-            <span class="tile-name">Essential</span>
-          </button>
-          <button class="plan-tile" data-plan="extra" role="tab" aria-selected="false">
-            <img src="assets/ps-extra.png" alt="Extra">
-            <span class="tile-name">Extra</span>
-          </button>
-          <button class="plan-tile" data-plan="deluxe" role="tab" aria-selected="false">
-            <img src="assets/ps-deluxe.png" alt="Deluxe">
-            <span class="tile-name">Deluxe</span>
-          </button>
-        </div>
-
-        <div class="price-stage">
-          <div class="price-card glassline compact reveal-card psplus-price-card">
-            <div class="price-head">
-              <div>
-                <span class="muted-label">АКТУАЛЬНЫЙ ПРАЙС</span>
-                <h2 id="selectedName">PS Plus Essential</h2>
-              </div>
-              <div class="service-badge">Турция 🇹🇷</div>
-            </div>
-
-            <div class="duration-grid" role="tablist" aria-label="Выбор срока подписки">
-              <button class="duration active" data-months="1" aria-selected="true"><span>1</span><small>месяц</small></button>
-              <button class="duration" data-months="3" aria-selected="false"><span>3</span><small>месяца</small></button>
-              <button class="duration" data-months="12" aria-selected="false"><span>12</span><small>месяцев</small></button>
-            </div>
-
-            <div class="price-big" id="selectedPrice">1 090 ₽</div>
-            <p class="selected-note" id="selectedNote">Онлайн-мультиплеер, игры месяца и базовые возможности PS Plus.</p>
-            <div class="feature-row" id="featureRow"><span>онлайн</span><span>игры месяца</span><span>облако</span></div>
-            <a class="button primary" id="orderButton" data-telegram href="https://t.me/brazkashop" target="_blank" rel="noopener">Уточнить цену и оформить</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-block contact" id="contact">
-      <div class="contact-card glassline reveal-card final-cta">
-        <div class="cta-copy">
-          <span class="muted-label">ОФОРМЛЕНИЕ</span>
-          <h2>Нашёл нужную игру?</h2>
-          <p>Напиши в Telegram — проверим актуальную цену, подберём регион и поможем с оформлением.</p>
-        </div>
-        <div class="contact-actions">
-          <img class="contact-logo" src="assets/brazka-logo.png" alt="БРАЗКА">
-          <a class="button primary messenger-button" data-telegram href="https://t.me/brazkashop" target="_blank" rel="noopener">
-            <img src="assets/telegram-logo.png" alt="" aria-hidden="true">Написать в Telegram
-          </a>
-        </div>
-      </div>
-      <p class="disclaimer">БРАЗКА не является официальным партнёром Sony или PlayStation. Перед заказом уточняйте регион аккаунта и актуальную цену.</p>
-    </section>
+  <main>
+    <div id="storeView">
+      <section class="intro shell">
+        <div class="intro-heading"><div><p class="eyebrow">PLAYSTATION · ИНДИЯ / ТУРЦИЯ</p><h1>Твоя следующая игра.</h1></div><p class="intro-note">Выбирай игру.<br>Сравнивай издания и регионы.</p></div>
+        <div class="feature-banner" id="featureBanner"></div>
+      </section>
+      <div class="offers-strip" id="offersStrip" hidden><div class="offers-label">В ФОКУСЕ</div><div class="ticker-window"><div class="ticker-track" id="tickerTrack"></div></div><button class="ticker-toggle" id="tickerToggle" aria-label="Приостановить ленту" aria-pressed="false">Ⅱ</button></div>
+      <section class="catalog-section shell" id="catalog" aria-labelledby="catalogHeading">
+        <div class="section-heading"><h2 id="catalogHeading">Каталог игр</h2><span id="catalogCount" class="muted"></span></div>
+        <div class="search-row"><label class="search-field"><span aria-hidden="true">⌕</span><span class="sr-only">Поиск игры</span><input id="gameSearch" type="search" placeholder="Поиск игры" autocomplete="off"></label><label class="sort-field"><span class="sr-only">Сортировка</span><select id="gameSort"><option value="featured">Сначала популярные</option><option value="price-asc">Сначала дешевле</option><option value="price-desc">Сначала дороже</option><option value="title">По названию</option></select></label></div>
+        <div class="catalog-filters" role="group" aria-label="Фильтр игр"><button class="filter active" data-filter="all" aria-pressed="true">Все игры</button><button class="filter" data-filter="sale" aria-pressed="false">Со скидкой <span id="saleCount"></span></button><button class="filter" data-filter="preorder" aria-pressed="false">Предзаказы</button><button class="filter" data-filter="premium" aria-pressed="false">Deluxe / Ultimate</button></div>
+        <p class="search-context" id="searchContext" hidden></p>
+        <div class="game-grid" id="gameGrid" aria-live="polite"><p class="loading">Загружаем игры…</p></div>
+        <div class="empty-state" id="emptyState" hidden><h3>Такой игры пока нет в каталоге</h3><p>Напиши название — уточним цену и доступные издания.</p><button class="button secondary" id="resetSearch">Сбросить поиск</button><a class="button primary" data-contact href="https://t.me/m/LyEKjl0bODFi" target="_blank" rel="noopener">Узнать цену игры ↗</a></div>
+      </section>
+      <section class="plus-section shell" id="plus" aria-labelledby="plusTitle"><div class="plus-heading"><img src="assets/psplus-icon.png" alt="" width="42" height="42"><div><p class="eyebrow">БОЛЬШЕ ВОЗМОЖНОСТЕЙ</p><h2 id="plusTitle">PlayStation Plus</h2></div></div><div class="plus-layout"><div class="plan-buttons" role="group" aria-label="Тариф подписки"><button class="plan-choice active" data-plan="essential" aria-pressed="true">Essential <span>Онлайн и игры месяца</span></button><button class="plan-choice" data-plan="extra" aria-pressed="false">Extra <span>Ещё и каталог игр</span></button><button class="plan-choice" data-plan="deluxe" aria-pressed="false">Deluxe <span>Классика и пробные версии</span></button></div><div class="subscription-choice"><div class="duration-buttons" role="group" aria-label="Срок подписки"><button class="duration-choice active" data-months="1" aria-pressed="true">1 месяц</button><button class="duration-choice" data-months="3" aria-pressed="false">3 месяца</button><button class="duration-choice" data-months="12" aria-pressed="false">12 месяцев</button></div><p id="planDescription">Онлайн, игры месяца и облачные сохранения.</p><div class="subscription-order"><div><small>Выбранный тариф</small><strong id="planPrice">1 090 ₽</strong></div><a class="button primary" id="planOrder" data-contact href="https://t.me/m/LyEKjl0bODFi" target="_blank" rel="noopener">Оформить подписку ↗</a></div></div></div></section>
+      <section class="final-cta shell"><div><p class="eyebrow">НА СВЯЗИ, КОГДА НУЖНО</p><h2>Не нашёл свою игру?</h2><p>Подберём регион, издание и поможем с покупкой.</p></div><a class="button primary" data-contact href="https://t.me/m/LyEKjl0bODFi" target="_blank" rel="noopener">Написать в Telegram ↗</a></section>
+    </div>
+    <section class="detail-view shell" id="detailView" hidden aria-label="Игра и издания"></section>
   </main>
-
-  <script src="script.js?v=47"></script>
+  <footer class="shell"><span>© БРАЗКА, 2026</span><span id="updatedDate"></span><p>БРАЗКА не является официальным партнёром Sony или PlayStation. Наличие и цену подтверждаем перед оплатой.</p></footer>
+  <div class="toast" role="status" id="toast" hidden></div>
+  <noscript><div class="shell">Для каталога включи JavaScript или <a href="https://t.me/m/LyEKjl0bODFi">напиши в Telegram</a>.</div></noscript>
+  <script src="storefront.js?v=1" defer></script>
 </body>
 </html>
