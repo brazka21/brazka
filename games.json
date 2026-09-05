@@ -26,7 +26,12 @@
       "releaseDate": "2026-11-19",
       "release": "19 ноября",
       "priority": 1,
-      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1818/4a35c9a8490c69fe89af0f52d4ac0249b230b4fdb12e8469.jpg"
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1818/9f51f0ccdb65bd29c36a0907a738c2902a712f03e2fd6470.png",
+      "imageRole": "MASTER",
+      "imageDimensions": {
+        "width": 1024,
+        "height": 1024
+      }
     },
     "fc-27": {
       "title": "EA SPORTS FC 27",
@@ -41,7 +46,12 @@
       "releaseDate": "2026-09-25",
       "release": "25 сентября",
       "priority": 2,
-      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2321/fa7db8b40ed671bce4046b335beb5a0ab327c33edbca8351.jpg"
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2321/c7c534e1e9b24ccf7ff11c429948f31494ccce402b452647.png",
+      "imageRole": "MASTER",
+      "imageDimensions": {
+        "width": 1024,
+        "height": 1024
+      }
     },
     "ufc-6": {
       "title": "EA SPORTS UFC 6",
@@ -57,7 +67,12 @@
       "releaseDate": "",
       "release": "Уже в продаже",
       "priority": 3,
-      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202604/2216/d7dc9d18be2af5600b5bfe6bd47383d0890af0eb2c828751.jpg"
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202604/2216/83baec5746075ec3e379c096dfe68111095c91cb7139a633.png",
+      "imageRole": "MASTER",
+      "imageDimensions": {
+        "width": 1024,
+        "height": 1024
+      }
     },
     "wolverine": {
       "title": "Marvel’s Wolverine",
@@ -71,7 +86,12 @@
       "releaseDate": "2026-09-15",
       "release": "15 сентября",
       "priority": 4,
-      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2221/5ba04b023e0b4c4aa7fbdbf2170262a52bc0384ee44efce0.jpg"
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2215/a69481c5fa50fe19f42896d84fb7cbf37ab8646801a93322.png",
+      "imageRole": "MASTER",
+      "imageDimensions": {
+        "width": 1024,
+        "height": 1024
+      }
     },
     "nba-2k27": {
       "title": "NBA 2K27",
@@ -86,7 +106,12 @@
       "releaseDate": "",
       "release": "Уже в продаже",
       "priority": 5,
-      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/2913/e306a983b0540fafe2421b92f7a1cbc77415416b1fffd8cc.jpg"
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/2913/4a31f711e2ff460cd44ad646983f36533278cea61f639be9.png",
+      "imageRole": "MASTER",
+      "imageDimensions": {
+        "width": 1024,
+        "height": 1024
+      }
     },
     "cod-mw4": {
       "title": "Call of Duty: Modern Warfare 4",
@@ -102,7 +127,12 @@
       "releaseDate": "2026-10-23",
       "release": "23 октября",
       "priority": 6,
-      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1419/63142285b9e04bc0ef3f6af46b665ecea4e47bfa311eb217.jpg"
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1419/39e532d5d5a31d9113c7fa8f3e4c332af9428613efe01037.png",
+      "imageRole": "MASTER",
+      "imageDimensions": {
+        "width": 1024,
+        "height": 1024
+      }
     },
     "rdr2": {
       "title": "Red Dead Redemption 2",
@@ -117,7 +147,12 @@
       "releaseDate": "",
       "release": "Уже в продаже",
       "priority": 7,
-      "image": "https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/Hpl5MtwQgOVF9vJqlfui6SDB5Jl4oBSq.png"
+      "image": "https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/Hpl5MtwQgOVF9vJqlfui6SDB5Jl4oBSq.png",
+      "imageRole": "MASTER",
+      "imageDimensions": {
+        "width": 1024,
+        "height": 1024
+      }
     },
     "forza-horizon-5": {
       "title": "Forza Horizon 5",
@@ -131,7 +166,12 @@
       "releaseDate": "",
       "release": "Уже в продаже",
       "priority": 8,
-      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202502/1300/01248ef12bf2841c3b97bc1af344f922e5cbbf7a8870e0f8.jpg"
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202501/2717/42b3ee6b1b2094212231b0b0a82824f687fc5c4dc9bde31c.png",
+      "imageRole": "MASTER",
+      "imageDimensions": {
+        "width": 1024,
+        "height": 1024
+      }
     },
     "007-first-light": {
       "title": "007 First Light",
@@ -145,7 +185,12 @@
       "releaseDate": "",
       "release": "Уже в продаже",
       "priority": 9,
-      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2216/6d18d35a8bdbc6614a47b5e2d661e9f959afabb8af7011f9.jpg"
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2312/ecb14ee33763d4dd295dbb4f4207f9961bf3dcd8ea3bba9f.png",
+      "imageRole": "MASTER",
+      "imageDimensions": {
+        "width": 1024,
+        "height": 1024
+      }
     },
     "crimson-desert": {
       "title": "Crimson Desert",
@@ -158,7 +203,12 @@
       "releaseDate": "",
       "release": "Уже в продаже",
       "priority": 10,
-      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202608/2006/8bd2affb4939bf663b1bd7a78ad83345bfd1df3e961c2a72.jpg"
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202608/2006/e8f306c89efa555a13e4d3910dafda994a14b2355f342802.png",
+      "imageRole": "MASTER",
+      "imageDimensions": {
+        "width": 1024,
+        "height": 1024
+      }
     },
     "onimusha": {
       "title": "Onimusha: Way of the Sword",
@@ -171,7 +221,12 @@
       "releaseDate": "",
       "release": "Уже в продаже",
       "priority": 11,
-      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1308/e0378f1a844ede8537afefe74bd255af144b2f43871adc75.jpg"
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1308/79a186e6a055909cfeb66264230ad3d76915587b0269cd0d.png",
+      "imageRole": "MASTER",
+      "imageDimensions": {
+        "width": 1024,
+        "height": 1024
+      }
     },
     "dawnwalker": {
       "title": "The Blood of Dawnwalker",
@@ -184,7 +239,12 @@
       "releaseDate": "",
       "release": "Уже в продаже",
       "priority": 12,
-      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202604/0909/388da653a7cc4e876dd2729bdc46fd2876bed0652b8b51e9.jpg"
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202603/3009/4bf61f8869f55ee0a930f3d1f00992559c1d4a2d52e00408.png",
+      "imageRole": "MASTER",
+      "imageDimensions": {
+        "width": 1024,
+        "height": 1024
+      }
     },
     "control-resonant": {
       "title": "CONTROL Resonant",
@@ -198,7 +258,12 @@
       "releaseDate": "2026-09-24",
       "release": "24 сентября",
       "priority": 13,
-      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2811/e104ddf9aea2f76d5c198e5b0861eb086bbef105d6d47bee.jpg"
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2212/9fedf57ea1649249a0e3ac24770ea9afa6f4bfa795b5fd05.png",
+      "imageRole": "MASTER",
+      "imageDimensions": {
+        "width": 1024,
+        "height": 1024
+      }
     },
     "silent-hill-townfall": {
       "title": "SILENT HILL: Townfall",
@@ -212,7 +277,12 @@
       "releaseDate": "2026-09-24",
       "release": "24 сентября",
       "priority": 14,
-      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1407/0bc59ff9e7d7efc3e95b03ba3a1788556147dac61ef1c33d.jpg"
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1407/420dcf45979ace1b7c97122a2dc0eb479428590ecab89c2b.png",
+      "imageRole": "MASTER",
+      "imageDimensions": {
+        "width": 1024,
+        "height": 1024
+      }
     },
     "phantom-blade-zero": {
       "title": "Phantom Blade Zero",
@@ -225,7 +295,12 @@
       "releaseDate": "2026-10-29",
       "release": "29 октября",
       "priority": 15,
-      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2810/5d34d0cd910fa48c730a1915b8cf112231c30e667e2169ea.jpg"
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2810/8ea15bce1b7336894aa364867c03a3ea32ecd2f1455a4333.png",
+      "imageRole": "MASTER",
+      "imageDimensions": {
+        "width": 1024,
+        "height": 1024
+      }
     },
     "black-flag": {
       "title": "Assassin’s Creed Black Flag Resynced",
@@ -240,7 +315,12 @@
       "releaseDate": "",
       "release": "Уже в продаже",
       "priority": 16,
-      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202603/1215/30972495c4d1b567dcd015b80c0d3af9c946efc8822944d7.jpg"
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202603/1215/0962bc91a4952e6433367fcfec38b7e0655c6bd29b431712.png",
+      "imageRole": "MASTER",
+      "imageDimensions": {
+        "width": 1024,
+        "height": 1024
+      }
     },
     "lego-batman": {
       "title": "LEGO Batman: Legacy of the Dark Knight",
@@ -255,7 +335,12 @@
       "releaseDate": "",
       "release": "Уже в продаже",
       "priority": 17,
-      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202511/1118/f4e6951f2326e94a5f5d4bd4d54979f5421d6e34327849f2.jpg"
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202508/1316/3302f35b66691aa405aee31624c0c95fe73081be8e0c75bb.png",
+      "imageRole": "MASTER",
+      "imageDimensions": {
+        "width": 1024,
+        "height": 1024
+      }
     },
     "saros": {
       "title": "SAROS",
@@ -267,7 +352,12 @@
       "releaseDate": "",
       "release": "Уже в продаже",
       "priority": 18,
-      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202512/0120/29617d8e70b24ffa3f63508187fcc886f6696a69b413cdc5.jpg"
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202509/2318/78549217df5077bea107700e077d04be6a9a4b0dfbcd821a.png",
+      "imageRole": "MASTER",
+      "imageDimensions": {
+        "width": 1024,
+        "height": 1024
+      }
     },
     "atomic-heart": {
       "title": "Atomic Heart",
@@ -281,7 +371,12 @@
       "releaseDate": "",
       "release": "Уже в продаже",
       "priority": 19,
-      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202209/2815/ghdxLSLpUl24o2Q1eq3yTaji.jpg"
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202209/2815/SSru3b0CYWviMXfW6bYgaWlX.png",
+      "imageRole": "MASTER",
+      "imageDimensions": {
+        "width": 1024,
+        "height": 1024
+      }
     },
     "borderlands-3": {
       "title": "Borderlands 3",
@@ -295,7 +390,12 @@
       "releaseDate": "",
       "release": "Уже в продаже",
       "priority": 20,
-      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202010/2323/XGcrEQxoas5EliwtvsjoOJUN.jpg"
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202010/2323/p50N4PBK9rNanGYKFecTvac5.png",
+      "imageRole": "MASTER",
+      "imageDimensions": {
+        "width": 1024,
+        "height": 1024
+      }
     },
     "ac-origins": {
       "title": "Assassin’s Creed Origins",
@@ -310,7 +410,12 @@
       "releaseDate": "",
       "release": "Уже в продаже",
       "priority": 21,
-      "image": "https://image.api.playstation.com/gs2-sec/acpkgo/prod/CUSA05640_00/124/i_1d2832992a4c1a771ba04c00382ae7136dcb9eb217239e99778829d5f0b6cd26/i/icon0.png"
+      "image": "https://image.api.playstation.com/gs2-sec/acpkgo/prod/CUSA05640_00/124/i_1d2832992a4c1a771ba04c00382ae7136dcb9eb217239e99778829d5f0b6cd26/i/icon0.png",
+      "imageRole": "MASTER",
+      "imageDimensions": {
+        "width": 512,
+        "height": 512
+      }
     },
     "just-cause-4": {
       "title": "Just Cause 4",
@@ -324,7 +429,12 @@
       "releaseDate": "",
       "release": "Уже в продаже",
       "priority": 22,
-      "image": "https://image.api.playstation.com/vulcan/img/cfn/11307jgamRT2Qu2NDMKh50hCl1zQM740IxpZSaRBAus0FBJ4medj17Iakid0pgX1fGrEY8nwVZTeOpQbgSOEy1y74XY3iuGk.png"
+      "image": "https://image.api.playstation.com/vulcan/img/cfn/11307jgamRT2Qu2NDMKh50hCl1zQM740IxpZSaRBAus0FBJ4medj17Iakid0pgX1fGrEY8nwVZTeOpQbgSOEy1y74XY3iuGk.png",
+      "imageRole": "MASTER",
+      "imageDimensions": {
+        "width": 2048,
+        "height": 2048
+      }
     },
     "jujutsu-kaisen": {
       "title": "Jujutsu Kaisen Cursed Clash",
@@ -339,7 +449,12 @@
       "releaseDate": "",
       "release": "Уже в продаже",
       "priority": 23,
-      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202309/2817/62b0656877fca4fe095bda398e3c5f856b0ce8481e80365e.jpg"
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202309/2817/001971fa2fc21d37b7c0d3e9cb45b2a651252d455e90a764.png",
+      "imageRole": "MASTER",
+      "imageDimensions": {
+        "width": 1024,
+        "height": 1024
+      }
     },
     "golf-with-your-friends": {
       "title": "Golf With Your Friends",
@@ -353,7 +468,12 @@
       "releaseDate": "",
       "release": "Уже в продаже",
       "priority": 24,
-      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202209/1414/rit1KAnxB1hlwgjlGmWUH1js.png"
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202209/1414/rit1KAnxB1hlwgjlGmWUH1js.png",
+      "imageRole": "MASTER",
+      "imageDimensions": {
+        "width": 1024,
+        "height": 1024
+      }
     }
   },
   "groups": [
@@ -368,7 +488,7 @@
           "editionOrder": 0,
           "title": "Grand Theft Auto VI — Standard Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1818/4a35c9a8490c69fe89af0f52d4ac0249b230b4fdb12e8469.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1818/9f51f0ccdb65bd29c36a0907a738c2902a712f03e2fd6470.png",
           "summary": "Игра и бонусы предзаказа",
           "features": [
             "Grand Theft Auto VI",
@@ -412,7 +532,12 @@
           },
           "discounts": {},
           "verifiedAt": "2026-09-05",
-          "notice": "Для бонуса GTA+ действуют условия активации и автопродления подписки; уточним их перед оформлением."
+          "notice": "Для бонуса GTA+ действуют условия активации и автопродления подписки; уточним их перед оформлением.",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "gta-vi",
@@ -421,7 +546,7 @@
           "editionOrder": 5,
           "title": "Grand Theft Auto VI — Ultimate Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1819/f3f45490aaf9b14352c53b5e80c5becc112a4b1fc2e878c0.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1819/f73cd287d6bbf6a95aa5a93f5a294a2614288a00af4dcdba.png",
           "summary": "Игра, контент Ultimate и бонусы предзаказа",
           "features": [
             "Grand Theft Auto VI",
@@ -467,7 +592,12 @@
           },
           "discounts": {},
           "verifiedAt": "2026-09-05",
-          "notice": "Для бонуса GTA+ действуют условия активации и автопродления подписки; уточним их перед оформлением."
+          "notice": "Для бонуса GTA+ действуют условия активации и автопродления подписки; уточним их перед оформлением.",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "fc-27",
@@ -476,7 +606,7 @@
           "editionOrder": 0,
           "title": "EA SPORTS FC 27 — Standard Edition",
           "platform": "PS4 / PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2321/fa7db8b40ed671bce4046b335beb5a0ab327c33edbca8351.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2321/c7c534e1e9b24ccf7ff11c429948f31494ccce402b452647.png",
           "summary": "Игра и дополнительный контент",
           "features": [
             "EA SPORTS FC 27 PS4 & PS5",
@@ -523,7 +653,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "fc-27",
@@ -532,7 +667,7 @@
           "editionOrder": 5,
           "title": "EA SPORTS FC 27 — Ultimate Edition",
           "platform": "PS4 / PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2322/9f33e55301e668a0fc360d6a405eef5db2a1b8142ebd5099.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2322/78e0ba12f88a79c454b6b17d1638f2ae0b2943f1dbc98a17.png",
           "summary": "Ранний доступ, 6 000 FC Points и Premium Pass",
           "features": [
             "EA SPORTS FC 27 PS4 & PS5",
@@ -580,7 +715,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "ufc-6",
@@ -589,7 +729,7 @@
           "editionOrder": 5,
           "title": "EA SPORTS UFC 6 — Ultimate Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202604/2217/584d60763b88902e453e39c0d640ec951b627f1a1d214a91.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202604/2217/981396baf68ab59a8d000a6bdfdd1bd7891e06332bc16d36.png",
           "summary": "Игра, Fighter Pass, Expansion Pass и VIP",
           "features": [
             "Полная версия UFC 6 для PS5",
@@ -634,7 +774,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "wolverine",
@@ -643,7 +788,7 @@
           "editionOrder": 0,
           "title": "Marvel’s Wolverine — Standard Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2221/5ba04b023e0b4c4aa7fbdbf2170262a52bc0384ee44efce0.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2215/a69481c5fa50fe19f42896d84fb7cbf37ab8646801a93322.png",
           "summary": "Полная версия игры",
           "features": [
             "Marvel’s Wolverine"
@@ -683,7 +828,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "wolverine",
@@ -692,7 +842,7 @@
           "editionOrder": 2,
           "title": "Marvel’s Wolverine — Digital Deluxe Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2221/bc854cdd9ee7b344fd1ad343a9eff5911ae8c08cb0d284cb.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2221/ed6fe87bbc1845f1ddba4e5bd95b55e76c4fe4a8b2e843da.png",
           "summary": "Игра и дополнительный контент",
           "features": [
             "Marvel’s Wolverine",
@@ -738,7 +888,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "nba-2k27",
@@ -747,7 +902,7 @@
           "editionOrder": 0,
           "title": "NBA 2K27 — Standard Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/2913/e306a983b0540fafe2421b92f7a1cbc77415416b1fffd8cc.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/2913/4a31f711e2ff460cd44ad646983f36533278cea61f639be9.png",
           "summary": "Полная версия игры",
           "features": [
             "NBA 2K27"
@@ -787,7 +942,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "nba-2k27",
@@ -796,7 +956,7 @@
           "editionOrder": 2,
           "title": "NBA 2K27 — Deluxe Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/2914/972254d3cbe64a5c611c3775f59b5f9d142066e372a9606e.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/2914/76cf4ba1f27e80ed95004bdac77385faa0c1d8ae686e0046.png",
           "summary": "Игра, 100 000 VC и бонусный контент",
           "features": [
             "NBA 2K27",
@@ -840,7 +1000,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "nba-2k27",
@@ -849,7 +1014,7 @@
           "editionOrder": 5,
           "title": "NBA 2K27 — Ultra Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/2918/c268d3a945c3ffca446dc8e9814eca7a20733f2b11d6556b.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/2918/051c550e0911aca1661b8f8df951de66a5e5fd28830e4594.png",
           "summary": "Игра, 135 000 VC и сезонные пропуски",
           "features": [
             "NBA 2K27",
@@ -895,7 +1060,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "cod-mw4",
@@ -904,7 +1074,7 @@
           "editionOrder": 0,
           "title": "Call of Duty: Modern Warfare 4 — Standard Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1419/63142285b9e04bc0ef3f6af46b665ecea4e47bfa311eb217.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1419/39e532d5d5a31d9113c7fa8f3e4c332af9428613efe01037.png",
           "summary": "Игра + 2 бонуса",
           "features": [
             "Modern Warfare 4 for PS5",
@@ -946,7 +1116,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "cod-mw4",
@@ -955,7 +1130,7 @@
           "editionOrder": 4,
           "title": "Call of Duty: Modern Warfare 4 — Vault Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2020/19acd9c137fe30432e5b556c09dd5332f54ba059db71520b.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2020/60be9c36b8646660dc80e99e50483eecb3f99df636adece1.png",
           "summary": "Игра и дополнительный контент",
           "features": [
             "Modern Warfare 4 for PS5",
@@ -1003,7 +1178,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "rdr2",
@@ -1057,7 +1237,12 @@
           },
           "discounts": {},
           "verifiedAt": "2026-09-05",
-          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости."
+          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "forza-horizon-5",
@@ -1066,7 +1251,7 @@
           "editionOrder": 0,
           "title": "Forza Horizon 5 — Standard Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202502/1300/01248ef12bf2841c3b97bc1af344f922e5cbbf7a8870e0f8.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202501/2717/42b3ee6b1b2094212231b0b0a82824f687fc5c4dc9bde31c.png",
           "summary": "Полная версия игры",
           "features": [
             "Полная версия Forza Horizon 5"
@@ -1106,7 +1291,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "forza-horizon-5",
@@ -1115,7 +1305,7 @@
           "editionOrder": 4,
           "title": "Forza Horizon 5 — Premium Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202502/1300/6b10b223febf1ccffd55ba6da645f9afad6b027ab5327fbd.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202502/0323/d808653f2c2453e79433628e31f673ef3976c6771d39228a.png",
           "summary": "Игра, Car Pass, два дополнения и VIP",
           "features": [
             "Полная версия Forza Horizon 5",
@@ -1161,7 +1351,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "007-first-light",
@@ -1170,7 +1365,7 @@
           "editionOrder": 2,
           "title": "007 First Light — Deluxe Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2410/926fe207be2d7c356311e23604fa73d6d9d46ba9f12fad04.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2312/57bcef36e09a82f7ecb62b054f26665f086799e8311b8a9e.png",
           "summary": "Игра + 3 бонуса",
           "features": [
             "007 First Light",
@@ -1213,7 +1408,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "onimusha",
@@ -1222,7 +1422,7 @@
           "editionOrder": 0,
           "title": "Onimusha: Way of the Sword — Standard Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1308/e0378f1a844ede8537afefe74bd255af144b2f43871adc75.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1308/79a186e6a055909cfeb66264230ad3d76915587b0269cd0d.png",
           "summary": "Игра и дополнительный контент",
           "features": [
             "Onimusha: Way of the Sword",
@@ -1263,7 +1463,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "onimusha",
@@ -1272,7 +1477,7 @@
           "editionOrder": 2,
           "title": "Onimusha: Way of the Sword — Deluxe Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1506/e5fbe90c88b01ff09d12bab098944090820f4d228e393535.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1506/e744ab1621033c0313ceaa214b54669115b5beb784d12330.png",
           "summary": "Игра + 2 бонуса",
           "features": [
             "Onimusha: Way of the Sword",
@@ -1314,7 +1519,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "onimusha",
@@ -1323,7 +1533,7 @@
           "editionOrder": 4,
           "title": "Onimusha: Way of the Sword — Premium Deluxe Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1506/bb075550c0d54c7c711b6ec1526502ed018c159fc58513de.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1506/c77b4ae6d2884cb4f7b87b2141d7611de3a4527c7d9f46a1.png",
           "summary": "Игра + 2 бонуса",
           "features": [
             "Onimusha: Way of the Sword",
@@ -1365,7 +1575,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "dawnwalker",
@@ -1374,7 +1589,7 @@
           "editionOrder": 0,
           "title": "The Blood of Dawnwalker — Standard Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202604/0909/388da653a7cc4e876dd2729bdc46fd2876bed0652b8b51e9.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202603/3009/4bf61f8869f55ee0a930f3d1f00992559c1d4a2d52e00408.png",
           "summary": "Полная версия игры",
           "features": [
             "The Blood of Dawnwalker"
@@ -1414,7 +1629,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "dawnwalker",
@@ -1423,7 +1643,7 @@
           "editionOrder": 4,
           "title": "The Blood of Dawnwalker — Eclipse Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202608/1714/447a42c85fae1f55b70153b079f3d6d3cbfb79f52a6baa2c.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202608/1714/62d86acfd94ff6d6039f186665a96c25f81e318b5bd53c5a.png",
           "summary": "Игра + 3 бонуса",
           "features": [
             "The Blood of Dawnwalker",
@@ -1466,7 +1686,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "control-resonant",
@@ -1475,7 +1700,7 @@
           "editionOrder": 0,
           "title": "CONTROL Resonant — Standard Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2811/e104ddf9aea2f76d5c198e5b0861eb086bbef105d6d47bee.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2212/9fedf57ea1649249a0e3ac24770ea9afa6f4bfa795b5fd05.png",
           "summary": "Полная версия игры",
           "features": [
             "CONTROL Resonant"
@@ -1515,7 +1740,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "control-resonant",
@@ -1524,7 +1754,7 @@
           "editionOrder": 2,
           "title": "CONTROL Resonant — Digital Deluxe Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2211/6f64d0abfc8f5cd76a60a61bfd2eca50c930bf04c7c5e607.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2211/b420f52607d5b83f1f44311eced28796d44c56f659e362c4.png",
           "summary": "Игра и дополнительный контент",
           "features": [
             "CONTROL Resonant",
@@ -1570,7 +1800,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "silent-hill-townfall",
@@ -1579,7 +1814,7 @@
           "editionOrder": 0,
           "title": "SILENT HILL: Townfall — Standard Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1407/0bc59ff9e7d7efc3e95b03ba3a1788556147dac61ef1c33d.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1407/420dcf45979ace1b7c97122a2dc0eb479428590ecab89c2b.png",
           "summary": "Полная версия игры",
           "features": [
             "SILENT HILL: Townfall"
@@ -1618,7 +1853,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "silent-hill-townfall",
@@ -1627,7 +1867,7 @@
           "editionOrder": 2,
           "title": "SILENT HILL: Townfall — Deluxe Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1504/dfad9130220d9f4615ea20cba988c76ee16e1a004b996faf.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1504/61c969e7cb0da1f6ca5809936ac3e56f23a6fe349da0592f.png",
           "summary": "Игра + 2 бонуса",
           "features": [
             "SILENT HILL: Townfall",
@@ -1669,7 +1909,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "phantom-blade-zero",
@@ -1678,7 +1923,7 @@
           "editionOrder": 0,
           "title": "Phantom Blade Zero — Standard Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2810/5d34d0cd910fa48c730a1915b8cf112231c30e667e2169ea.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2810/8ea15bce1b7336894aa364867c03a3ea32ecd2f1455a4333.png",
           "summary": "Полная версия игры",
           "features": [
             "Полная версия игры"
@@ -1718,7 +1963,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "phantom-blade-zero",
@@ -1727,7 +1977,7 @@
           "editionOrder": 2,
           "title": "Phantom Blade Zero — Digital Deluxe Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2822/fcb63ebad3e8aa75b60e8a416e3daa5265dda7ca037eba6e.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2809/0eb304f7e688453c5f242b77cafdc0843e2f2dadc9364add.png",
           "summary": "Игра + 4 бонуса",
           "features": [
             "Полная версия игры",
@@ -1771,7 +2021,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "black-flag",
@@ -1780,7 +2035,7 @@
           "editionOrder": 0,
           "title": "Assassin’s Creed Black Flag Resynced — Standard Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202603/1215/30972495c4d1b567dcd015b80c0d3af9c946efc8822944d7.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202603/1215/0962bc91a4952e6433367fcfec38b7e0655c6bd29b431712.png",
           "summary": "Полная версия игры",
           "features": [
             "Assassin's Creed Black Flag Resynced"
@@ -1820,7 +2075,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "black-flag",
@@ -1829,7 +2089,7 @@
           "editionOrder": 2,
           "title": "Assassin’s Creed Black Flag Resynced — Deluxe Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202603/1215/5f6f9949966716f0f2185bb60c2eeec67335135a838cdc89.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202603/1215/2a9a124fd03b1e72ea2f1916ccfdeff0424505836b660853.png",
           "summary": "Игра + 2 бонуса",
           "features": [
             "Assassin's Creed Black Flag Resynced",
@@ -1871,7 +2131,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "lego-batman",
@@ -1880,7 +2145,7 @@
           "editionOrder": 0,
           "title": "LEGO Batman: Legacy of the Dark Knight — Standard Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202511/1118/f4e6951f2326e94a5f5d4bd4d54979f5421d6e34327849f2.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202508/1316/3302f35b66691aa405aee31624c0c95fe73081be8e0c75bb.png",
           "summary": "Полная версия игры",
           "features": [
             "Полная версия игры"
@@ -1920,7 +2185,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "lego-batman",
@@ -1929,7 +2199,7 @@
           "editionOrder": 2,
           "title": "LEGO Batman: Legacy of the Dark Knight — Deluxe Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202511/1118/bd5505b5592be6c860e3cc371ba6ba7850d3a0b4808f4a86.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202511/1118/04a1dccd62834eabfac097824ab1c352ea2b39ca8a092228.png",
           "summary": "Игра + 4 бонуса",
           "features": [
             "Полная версия игры",
@@ -1973,7 +2243,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "saros",
@@ -1982,7 +2257,7 @@
           "editionOrder": 0,
           "title": "SAROS — Standard Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202512/0120/29617d8e70b24ffa3f63508187fcc886f6696a69b413cdc5.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202509/2318/78549217df5077bea107700e077d04be6a9a4b0dfbcd821a.png",
           "summary": "Полная версия игры",
           "features": [
             "SAROS"
@@ -2022,7 +2297,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "atomic-heart",
@@ -2031,7 +2311,7 @@
           "editionOrder": 3,
           "title": "Atomic Heart — Gold Edition",
           "platform": "PS4 / PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202209/2815/tMpGJJ9MVkwkhOrLBUTlxUEL.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202209/2815/OD6JfndvVxngn2CsysF9pdIN.png",
           "summary": "Игра и дополнительный контент",
           "features": [
             "Atomic Heart (PS4 & PS5)",
@@ -2073,7 +2353,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "borderlands-3",
@@ -2082,7 +2367,7 @@
           "editionOrder": 1,
           "title": "Borderlands 3 — Next Level Edition",
           "platform": "PS4 / PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202010/1720/JiBZGL2RDJrOhzaSSymMqinu.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202010/1720/uUTyRJprtjAyp46TonVTWBws.png",
           "summary": "Игра + 4 бонуса",
           "features": [
             "Borderlands 3",
@@ -2125,7 +2410,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "borderlands-3",
@@ -2134,7 +2424,7 @@
           "editionOrder": 5,
           "title": "Borderlands 3 — Ultimate Edition",
           "platform": "PS4 / PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202010/1721/43wbgVdGGnLcNOMO4N2AsSv4.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202010/1721/WuHNs99N58UdJIlM5vsUAuhj.png",
           "summary": "Игра, два Season Pass и бонусный контент",
           "features": [
             "Borderlands 3",
@@ -2182,7 +2472,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "ac-origins",
@@ -2232,7 +2527,12 @@
           },
           "discounts": {},
           "verifiedAt": "2026-09-05",
-          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости."
+          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 512,
+            "height": 512
+          }
         },
         {
           "gameId": "ac-origins",
@@ -2282,7 +2582,12 @@
           },
           "discounts": {},
           "verifiedAt": "2026-09-05",
-          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости."
+          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "just-cause-4",
@@ -2334,7 +2639,12 @@
           },
           "discounts": {},
           "verifiedAt": "2026-09-05",
-          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости."
+          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 2048,
+            "height": 2048
+          }
         },
         {
           "gameId": "just-cause-4",
@@ -2389,7 +2699,12 @@
           },
           "discounts": {},
           "verifiedAt": "2026-09-05",
-          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости."
+          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 2048,
+            "height": 2048
+          }
         },
         {
           "gameId": "jujutsu-kaisen",
@@ -2398,7 +2713,7 @@
           "editionOrder": 2,
           "title": "Jujutsu Kaisen Cursed Clash — Deluxe Edition",
           "platform": "PS4 / PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202401/1917/2d22c660019e7607bb1105387f93c935e04665cd78f1f54d.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202401/1917/89127ee4887e7d10e5357caf6e90133b2c525ae663b4de10.png",
           "summary": "Игра + 2 бонуса",
           "features": [
             "Jujutsu Kaisen Cursed Clash",
@@ -2440,7 +2755,12 @@
             }
           },
           "discounts": {},
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "golf-with-your-friends",
@@ -2449,7 +2769,7 @@
           "editionOrder": 1,
           "title": "Golf With Your Friends — Starter Edition",
           "platform": "PS4 / PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202311/1414/596ecf73d77a5a2fadfb6310fe1c268455011a981895e2c7.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202311/1414/349c844cf65b4181d2ff1d4bc51711079859304645b389af.png",
           "summary": "Игра + 2 бонуса",
           "features": [
             "Golf With Your Friends",
@@ -2490,7 +2810,12 @@
           },
           "discounts": {},
           "verifiedAt": "2026-09-05",
-          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости."
+          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "fc-27",
@@ -2548,7 +2873,7 @@
           "editionOrder": 0,
           "title": "EA SPORTS UFC 6 — Standard Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202604/2216/d7dc9d18be2af5600b5bfe6bd47383d0890af0eb2c828751.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202604/2216/83baec5746075ec3e379c096dfe68111095c91cb7139a633.png",
           "summary": "Полная версия игры",
           "features": [
             "UFC 6 PS5"
@@ -2603,6 +2928,11 @@
           "oldPrices": {
             "india": 6500,
             "turkey": 8800
+          },
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
           }
         },
         {
@@ -2663,7 +2993,12 @@
             }
           },
           "verifiedAt": "2026-09-05",
-          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости."
+          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "forza-horizon-5",
@@ -2672,7 +3007,7 @@
           "editionOrder": 2,
           "title": "Forza Horizon 5 — Deluxe Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202502/1300/b76acec852af7bc40931592a5a07d1bd23a5705a1b396508.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202502/0323/dd48c217bdc1f833c68a2b02a1df330372f664faa860d762.png",
           "summary": "Игра и Car Pass",
           "features": [
             "Полная версия Forza Horizon 5",
@@ -2726,6 +3061,11 @@
           "oldPrices": {
             "india": 7500,
             "turkey": 5500
+          },
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
           }
         },
         {
@@ -2735,7 +3075,7 @@
           "editionOrder": 0,
           "title": "007 First Light — Standard Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2216/6d18d35a8bdbc6614a47b5e2d661e9f959afabb8af7011f9.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2312/ecb14ee33763d4dd295dbb4f4207f9961bf3dcd8ea3bba9f.png",
           "summary": "Полная версия игры",
           "features": [
             "007 First Light"
@@ -2789,6 +3129,11 @@
           "verifiedAt": "2026-09-05",
           "oldPrices": {
             "turkey": 6900
+          },
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
           }
         },
         {
@@ -2798,7 +3143,7 @@
           "editionOrder": 0,
           "title": "Crimson Desert — Standard Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202608/2006/8bd2affb4939bf663b1bd7a78ad83345bfd1df3e961c2a72.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202608/2006/e8f306c89efa555a13e4d3910dafda994a14b2355f342802.png",
           "summary": "Игра и дополнительный контент",
           "features": [
             "Crimson Desert (Main Game)",
@@ -2854,6 +3199,11 @@
           "oldPrices": {
             "india": 6500,
             "turkey": 6900
+          },
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
           }
         },
         {
@@ -2863,7 +3213,7 @@
           "editionOrder": 2,
           "title": "Crimson Desert — Deluxe Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202608/2008/9281831e5f590873adf6ae39462cd839ea121ca1519821eb.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202608/2008/e0ff8f938e62f95d86d4e991cf0340a1d85b07d2bed848b1.png",
           "summary": "Игра + 4 бонуса",
           "features": [
             "Crimson Desert (Main Game)",
@@ -2918,7 +3268,12 @@
               "storeOriginal": 3449.0
             }
           },
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "saros",
@@ -2927,7 +3282,7 @@
           "editionOrder": 2,
           "title": "SAROS — Digital Deluxe Edition",
           "platform": "PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202512/0216/f454f914e2258dbaa2fd0607ad2590ebf3e016a975f1ce9f.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202512/0216/fc1861e7a2eb9784c43c52c51fd3d10621f04e545a0f42bd.png",
           "summary": "Игра + 3 бонуса",
           "features": [
             "SAROS",
@@ -2981,7 +3336,12 @@
               "storeOriginal": 3849.0
             }
           },
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "atomic-heart",
@@ -2990,7 +3350,7 @@
           "editionOrder": 0,
           "title": "Atomic Heart — Standard Edition",
           "platform": "PS4 / PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202209/2815/ghdxLSLpUl24o2Q1eq3yTaji.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202209/2815/SSru3b0CYWviMXfW6bYgaWlX.png",
           "summary": "Полная версия игры",
           "features": [
             "Atomic Heart (PS4 & PS5)"
@@ -3039,7 +3399,12 @@
               "storeOriginal": 2499.0
             }
           },
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "atomic-heart",
@@ -3048,7 +3413,7 @@
           "editionOrder": 5,
           "title": "Atomic Heart — Ultimate Edition",
           "platform": "PS4 / PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202604/0713/498077e73b81b9b3ef4f0379b800122607ac8f6a91e719db.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202604/0713/3c4732ba6bad2bc03e092fa09fa450ae405039fe8bf88ab5.png",
           "summary": "Игра, Atomic Pass, облики оружия и артбук",
           "features": [
             "Atomic Heart (PS4 & PS5)",
@@ -3102,7 +3467,12 @@
               "storeOriginal": 4749.0
             }
           },
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "borderlands-3",
@@ -3111,7 +3481,7 @@
           "editionOrder": 0,
           "title": "Borderlands 3 — Standard Edition",
           "platform": "PS4 / PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202010/2323/XGcrEQxoas5EliwtvsjoOJUN.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202010/2323/p50N4PBK9rNanGYKFecTvac5.png",
           "summary": "Полная версия игры",
           "features": [
             "Borderlands 3"
@@ -3159,7 +3529,12 @@
               "storeOriginal": 459.0
             }
           },
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "borderlands-3",
@@ -3168,7 +3543,7 @@
           "editionOrder": 3,
           "title": "Borderlands 3 — Super Deluxe Edition",
           "platform": "PS4 / PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202010/2322/VTb5T3WuWRIMuFaTIuJSkr8A.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202010/2322/4hbCDBET2tJsBEszKxO8o33c.png",
           "summary": "Игра, Season Pass и бонусы Deluxe",
           "features": [
             "Borderlands 3",
@@ -3223,7 +3598,12 @@
               "storeOriginal": 2799.0
             }
           },
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "ac-origins",
@@ -3285,7 +3665,12 @@
             }
           },
           "verifiedAt": "2026-09-05",
-          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости."
+          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "just-cause-4",
@@ -3349,7 +3734,12 @@
             }
           },
           "verifiedAt": "2026-09-05",
-          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости."
+          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 2048,
+            "height": 2048
+          }
         },
         {
           "gameId": "jujutsu-kaisen",
@@ -3358,7 +3748,7 @@
           "editionOrder": 0,
           "title": "Jujutsu Kaisen Cursed Clash — Standard Edition",
           "platform": "PS4 / PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202309/2817/62b0656877fca4fe095bda398e3c5f856b0ce8481e80365e.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202309/2817/001971fa2fc21d37b7c0d3e9cb45b2a651252d455e90a764.png",
           "summary": "Полная версия игры",
           "features": [
             "Jujutsu Kaisen Cursed Clash"
@@ -3407,7 +3797,12 @@
               "storeOriginal": 2099.0
             }
           },
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "jujutsu-kaisen",
@@ -3416,7 +3811,7 @@
           "editionOrder": 5,
           "title": "Jujutsu Kaisen Cursed Clash — Ultimate Edition",
           "platform": "PS4 / PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202401/1917/928b38ca11753d0f2ab517e86ed1369c6404a8060352aa01.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202401/1917/95343bd9ddba98a29531fdc23767415ed4487f842a055835.png",
           "summary": "Игра + 4 бонуса",
           "features": [
             "Jujutsu Kaisen Cursed Clash",
@@ -3470,7 +3865,12 @@
               "storeOriginal": 3499.0
             }
           },
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "golf-with-your-friends",
@@ -3479,7 +3879,7 @@
           "editionOrder": 5,
           "title": "Golf With Your Friends — Ultimate Edition",
           "platform": "PS4 / PS5",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202311/1414/4a728adbf1d4bcd9c9d143679bef2234c97103026dbb5f7c.jpg",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202311/1414/e44b46439d33a2147b35bdc8f0047db1c1ae53832d78cc91.png",
           "summary": "Игра и дополнительный контент",
           "features": [
             "Golf With Your Friends",
@@ -3535,7 +3935,12 @@
             }
           },
           "verifiedAt": "2026-09-05",
-          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости."
+          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         },
         {
           "gameId": "golf-with-your-friends",
@@ -3593,7 +3998,12 @@
             }
           },
           "verifiedAt": "2026-09-05",
-          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости."
+          "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         }
       ]
     }
