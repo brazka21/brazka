@@ -1,40 +1,708 @@
 {
-  "updated": "3 сентября 2026",
-  "margin": 1200,
-  "note": "Цены рассчитаны по стоимости кодов поставщика с наценкой 1 200 ₽ и округлением до 100 ₽.",
   "groups": [
     {
-      "id": "new",
+      "description": "Главные релизы, предзаказы и расширенные издания популярных игр.",
       "eyebrow": "ГЛАВНЫЕ РЕЛИЗЫ 2026",
-      "title": "Новинки и предзаказы",
-      "description": "Самые заметные игры ближайших месяцев — без проходняка и бесконечного списка.",
       "games": [
-        { "title": "Grand Theft Auto VI", "platform": "Standard Edition • PS5", "tag": "главный предзаказ", "release": "19 ноября", "image": "assets/catalog-gta6.jpg", "prices": { "india": 7500, "turkey": 8800 }, "storePrices": { "india": 5999, "turkey": 3999 } },
-        { "title": "Marvel’s Wolverine", "platform": "Standard Edition • PS5", "tag": "предзаказ", "release": "15 сентября", "image": "assets/catalog-wolverine.jpg", "prices": { "india": 6500, "turkey": 7900 }, "storePrices": { "india": 4999, "turkey": 3449 } },
-        { "title": "EA SPORTS FC 27", "platform": "Standard Edition • PS4 & PS5", "tag": "предзаказ", "release": "25 сентября", "image": "assets/catalog-fc27.jpg", "prices": { "india": 7500, "turkey": 8800 }, "storePrices": { "india": 5999, "turkey": 3999 } },
-        { "title": "NBA 2K27", "platform": "Standard Edition • PS5", "tag": "горячий релиз", "release": "4 сентября", "image": "assets/catalog-nba2k27.jpg", "prices": { "india": 6500, "turkey": 8800 }, "storePrices": { "india": 4999, "turkey": 3999 } },
-        { "title": "Call of Duty: Modern Warfare 4", "platform": "Standard Edition • PS5", "tag": "предзаказ", "release": "23 октября", "image": "assets/catalog-codmw4.jpg", "prices": { "india": 7500, "turkey": 7400 }, "storePrices": { "india": 5999, "turkey": 3199 } },
-        { "title": "Onimusha: Way of the Sword", "platform": "Standard Edition • PS5", "tag": "горячий релиз", "release": "4 сентября", "image": "assets/catalog-onimusha.jpg", "prices": { "india": 6500, "turkey": 7900 }, "storePrices": { "india": 4399, "turkey": 3449 } },
-        { "title": "CONTROL Resonant", "platform": "Standard Edition • PS5", "tag": "предзаказ", "release": "24 сентября", "image": "assets/catalog-control.jpg", "prices": { "india": 5400, "turkey": 6400 }, "storePrices": { "india": 3499, "turkey": 2579 } },
-        { "title": "SILENT HILL: Townfall", "platform": "Standard Edition • PS5", "tag": "предзаказ", "release": "24 сентября", "image": "assets/catalog-silent-hill.jpg", "prices": { "india": 4400, "turkey": 5500 }, "storePrices": { "india": 2999, "turkey": 2149 } },
-        { "title": "Phantom Blade Zero", "platform": "Standard Edition • PS5", "tag": "предзаказ", "release": "29 октября", "image": "assets/catalog-phantom-blade.jpg", "prices": { "india": 6500, "turkey": 6000 }, "storePrices": { "india": 4299, "turkey": 2379 } },
-        { "title": "The Blood of Dawnwalker", "platform": "Standard Edition • PS5", "tag": "новинка", "release": "уже вышла", "image": "assets/catalog-dawnwalker.jpg", "prices": { "india": 5400, "turkey": 6900 }, "storePrices": { "india": 3999, "turkey": 2999 } },
-        { "title": "Assassin’s Creed Black Flag", "platform": "Resynced • PS5", "tag": "популярное", "release": "уже вышла", "image": "assets/new-assassins-creed-black-flag-resynced.jpg", "prices": { "india": 6500, "turkey": 6400 }, "storePrices": { "india": 4199, "turkey": 2579 } },
-        { "title": "LEGO Batman", "platform": "Legacy of the Dark Knight • PS5", "tag": "популярное", "release": "уже вышла", "image": "assets/new-lego-batman-legacy-dark-knight.jpg", "prices": { "india": 5400, "turkey": 6900 }, "storePrices": { "india": 3999, "turkey": 2999 } },
-        { "title": "SAROS", "platform": "Standard Edition • PS5", "tag": "популярное", "release": "уже вышла", "image": "assets/new-saros.jpg", "prices": { "india": 6500, "turkey": 7900 }, "storePrices": { "india": 4999, "turkey": 3449 } }
-      ]
+        {
+          "image": "assets/catalog-gta6.jpg",
+          "platform": "Standard Edition • PS5",
+          "prices": {
+            "india": 7600,
+            "turkey": 8800
+          },
+          "release": "19 ноября",
+          "storePrices": {
+            "india": 5999,
+            "turkey": 3999
+          },
+          "tag": "главный предзаказ",
+          "title": "Grand Theft Auto VI"
+        },
+        {
+          "image": "assets/catalog-wolverine.jpg",
+          "platform": "Standard Edition • PS5",
+          "prices": {
+            "india": 6600,
+            "turkey": 7900
+          },
+          "release": "15 сентября",
+          "storePrices": {
+            "india": 4999,
+            "turkey": 3449
+          },
+          "tag": "предзаказ",
+          "title": "Marvel’s Wolverine"
+        },
+        {
+          "image": "assets/catalog-fc27.jpg",
+          "platform": "Standard Edition • PS4 & PS5",
+          "prices": {
+            "india": 7600,
+            "turkey": 8800
+          },
+          "release": "25 сентября",
+          "storePrices": {
+            "india": 5999,
+            "turkey": 3999
+          },
+          "tag": "предзаказ",
+          "title": "EA SPORTS FC 27"
+        },
+        {
+          "image": "assets/catalog-nba2k27.jpg",
+          "platform": "Standard Edition • PS5",
+          "prices": {
+            "india": 6600,
+            "turkey": 8800
+          },
+          "release": "4 сентября",
+          "storePrices": {
+            "india": 4999,
+            "turkey": 3999
+          },
+          "tag": "горячий релиз",
+          "title": "NBA 2K27"
+        },
+        {
+          "image": "assets/catalog-codmw4.jpg",
+          "platform": "Standard Edition • PS5",
+          "prices": {
+            "india": 7600,
+            "turkey": 7400
+          },
+          "release": "23 октября",
+          "storePrices": {
+            "india": 5999,
+            "turkey": 3199
+          },
+          "tag": "предзаказ",
+          "title": "Call of Duty: Modern Warfare 4"
+        },
+        {
+          "image": "assets/catalog-onimusha.jpg",
+          "platform": "Standard Edition • PS5",
+          "prices": {
+            "india": 6600,
+            "turkey": 7900
+          },
+          "release": "4 сентября",
+          "storePrices": {
+            "india": 4399,
+            "turkey": 3449
+          },
+          "tag": "горячий релиз",
+          "title": "Onimusha: Way of the Sword"
+        },
+        {
+          "image": "assets/catalog-control.jpg",
+          "platform": "Standard Edition • PS5",
+          "prices": {
+            "india": 5500,
+            "turkey": 6400
+          },
+          "release": "24 сентября",
+          "storePrices": {
+            "india": 3499,
+            "turkey": 2579
+          },
+          "tag": "предзаказ",
+          "title": "CONTROL Resonant"
+        },
+        {
+          "image": "assets/catalog-silent-hill.jpg",
+          "platform": "Standard Edition • PS5",
+          "prices": {
+            "india": 4400,
+            "turkey": 5500
+          },
+          "release": "24 сентября",
+          "storePrices": {
+            "india": 2999,
+            "turkey": 2149
+          },
+          "tag": "предзаказ",
+          "title": "SILENT HILL: Townfall"
+        },
+        {
+          "image": "assets/catalog-phantom-blade.jpg",
+          "platform": "Standard Edition • PS5",
+          "prices": {
+            "india": 6600,
+            "turkey": 6000
+          },
+          "release": "29 октября",
+          "storePrices": {
+            "india": 4299,
+            "turkey": 2379
+          },
+          "tag": "предзаказ",
+          "title": "Phantom Blade Zero"
+        },
+        {
+          "image": "assets/catalog-dawnwalker.jpg",
+          "platform": "Standard Edition • PS5",
+          "prices": {
+            "india": 5500,
+            "turkey": 6900
+          },
+          "release": "уже вышла",
+          "storePrices": {
+            "india": 3999,
+            "turkey": 2999
+          },
+          "tag": "новинка",
+          "title": "The Blood of Dawnwalker"
+        },
+        {
+          "image": "assets/new-assassins-creed-black-flag-resynced.jpg",
+          "platform": "Resynced • PS5",
+          "prices": {
+            "india": 6600,
+            "turkey": 6400
+          },
+          "release": "уже вышла",
+          "storePrices": {
+            "india": 4199,
+            "turkey": 2579
+          },
+          "tag": "популярное",
+          "title": "Assassin’s Creed Black Flag"
+        },
+        {
+          "image": "assets/new-lego-batman-legacy-dark-knight.jpg",
+          "platform": "Legacy of the Dark Knight • PS5",
+          "prices": {
+            "india": 5500,
+            "turkey": 6900
+          },
+          "release": "уже вышла",
+          "storePrices": {
+            "india": 3999,
+            "turkey": 2999
+          },
+          "tag": "популярное",
+          "title": "LEGO Batman"
+        },
+        {
+          "image": "assets/new-saros.jpg",
+          "platform": "Standard Edition • PS5",
+          "prices": {
+            "india": 6600,
+            "turkey": 7900
+          },
+          "release": "уже вышла",
+          "storePrices": {
+            "india": 4999,
+            "turkey": 3449
+          },
+          "tag": "популярное",
+          "title": "SAROS"
+        },
+        {
+          "image": "assets/catalog-fc27.jpg",
+          "platform": "Ultimate Edition • PS4 & PS5",
+          "prices": {
+            "india": 10800,
+            "turkey": 11600
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                3000,
+                3000,
+                3000
+              ],
+              "cost": 9564,
+              "price": 10800,
+              "wallet": 9000
+            },
+            "turkey": {
+              "cards": [
+                500,
+                1000,
+                4000
+              ],
+              "cost": 10381,
+              "price": 11600,
+              "wallet": 5500
+            }
+          },
+          "release": "ранний доступ с 18 сентября",
+          "storePrices": {
+            "india": 8999,
+            "turkey": 5499
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP0006-PPSA34015_00-27ULTIMATEBUNDLE",
+            "turkey": "https://store.playstation.com/tr-tr/product/UP0006-PPSA34015_00-27ULTIMATEBUNDLE"
+          },
+          "tag": "старшее издание",
+          "title": "EA SPORTS FC 27 Ultimate",
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "image": "assets/catalog-wolverine.jpg",
+          "platform": "Digital Deluxe Edition • PS5",
+          "prices": {
+            "india": 7600,
+            "turkey": 8800
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                3000,
+                3000
+              ],
+              "cost": 6376,
+              "price": 7600,
+              "wallet": 6000
+            },
+            "turkey": {
+              "cards": [
+                1000,
+                1000,
+                2000
+              ],
+              "cost": 7532,
+              "price": 8800,
+              "wallet": 4000
+            }
+          },
+          "release": "15 сентября",
+          "storePrices": {
+            "india": 5599,
+            "turkey": 3849
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP9000-PPSA03671_00-WOLVERINEDELUXE0",
+            "turkey": "https://store.playstation.com/tr-tr/product/UP9000-PPSA03671_00-WOLVERINEDELUXE0"
+          },
+          "tag": "старшее издание",
+          "title": "Marvel’s Wolverine Deluxe",
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "image": "assets/catalog-codmw4.jpg",
+          "platform": "Vault Edition • PS5",
+          "prices": {
+            "india": 10800,
+            "turkey": 9700
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                3000,
+                3000,
+                3000
+              ],
+              "cost": 9564,
+              "price": 10800,
+              "wallet": 9000
+            },
+            "turkey": {
+              "cards": [
+                1000,
+                1000,
+                2500
+              ],
+              "cost": 8479,
+              "price": 9700,
+              "wallet": 4500
+            }
+          },
+          "release": "23 октября",
+          "storePrices": {
+            "india": 8249,
+            "turkey": 4399
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP0002-PPSA07950_00-CODMW4VAULT00001",
+            "turkey": "https://store.playstation.com/tr-tr/product/EP0002-PPSA07950_00-CODMW4VAULT00001"
+          },
+          "tag": "старшее издание",
+          "title": "Call of Duty: Modern Warfare 4 Vault",
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "image": "https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/3zDubiWo2X5WU18FGiwlsf4lKWb8MwkE.png?w=620",
+          "platform": "Ultimate Edition • PS4",
+          "prices": {
+            "india": 9800,
+            "turkey": 7800
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000,
+                3000,
+                3000
+              ],
+              "cost": 8506,
+              "price": 9800,
+              "wallet": 8000
+            },
+            "turkey": {
+              "cards": [
+                1000,
+                1000,
+                1500
+              ],
+              "cost": 6586,
+              "price": 7800,
+              "wallet": 3500
+            }
+          },
+          "release": "уже вышла",
+          "storePrices": {
+            "india": 7699,
+            "turkey": 3499
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP1004-CUSA08519_00-RDR2ULTMEDTNBUND",
+            "turkey": "https://store.playstation.com/tr-tr/product/EP1004-CUSA08519_00-RDR2ULTMEDTNBUND"
+          },
+          "tag": "старшее издание",
+          "title": "Red Dead Redemption 2 Ultimate",
+          "verifiedAt": "2026-09-05"
+        }
+      ],
+      "id": "new",
+      "title": "Новинки и предзаказы"
     },
     {
-      "id": "sale",
-      "eyebrow": "УСПЕТЬ ДО 9 СЕНТЯБРЯ",
-      "title": "Сейчас со скидкой",
       "description": "Выбрали акции, на которых действительно можно сэкономить. После окончания скидки цена изменится.",
+      "eyebrow": "УСПЕТЬ ДО 9 СЕНТЯБРЯ",
       "games": [
-        { "title": "007 First Light", "platform": "Standard Edition • PS5", "tag": "−20% в PS Store", "release": "до 9 сентября", "image": "assets/catalog-007.jpg", "prices": { "india": 5400, "turkey": 6000 }, "oldPrices": { "india": null, "turkey": 6900 }, "storePrices": { "india": 3199, "turkey": 2399.2 } },
-        { "title": "Forza Horizon 5 Deluxe", "platform": "Deluxe Edition • PS5", "tag": "−60% в PS Store", "release": "до 9 сентября", "image": "assets/catalog-forza.jpg", "prices": { "india": 4400, "turkey": 3100 }, "oldPrices": { "india": 7500, "turkey": 5500 }, "storePrices": { "india": 2159, "turkey": 822 } },
-        { "title": "UFC 6", "platform": "Standard Edition • PS5", "tag": "−20% в PS Store", "release": "до 9 сентября", "image": "assets/catalog-ufc6.jpg", "prices": { "india": 5400, "turkey": 7400 }, "oldPrices": { "india": 6500, "turkey": 8800 }, "storePrices": { "india": 3999, "turkey": 3199.2 } },
-        { "title": "Crimson Desert Enhanced", "platform": "Standard Edition • PS5", "tag": "−20% в PS Store", "release": "до 9 сентября", "image": "assets/catalog-crimson-desert.jpg", "prices": { "india": 5400, "turkey": 6000 }, "oldPrices": { "india": 6500, "turkey": 6900 }, "storePrices": { "india": 3599, "turkey": 2399.2 } }
-      ]
+        {
+          "image": "assets/catalog-007.jpg",
+          "oldPrices": {
+            "india": null,
+            "turkey": 6900
+          },
+          "platform": "Standard Edition • PS5",
+          "prices": {
+            "india": 5500,
+            "turkey": 6000
+          },
+          "release": "до 9 сентября",
+          "storePrices": {
+            "india": 3199,
+            "turkey": 2399.2
+          },
+          "tag": "−20% в PS Store",
+          "title": "007 First Light"
+        },
+        {
+          "image": "assets/catalog-forza.jpg",
+          "oldPrices": {
+            "india": 7500,
+            "turkey": 5500
+          },
+          "platform": "Deluxe Edition • PS5",
+          "prices": {
+            "india": 4400,
+            "turkey": 3100
+          },
+          "release": "до 9 сентября",
+          "storePrices": {
+            "india": 2159,
+            "turkey": 822
+          },
+          "tag": "−60% в PS Store",
+          "title": "Forza Horizon 5 Deluxe"
+        },
+        {
+          "image": "assets/catalog-ufc6.jpg",
+          "oldPrices": {
+            "india": 6500,
+            "turkey": 8800
+          },
+          "platform": "Standard Edition • PS5",
+          "prices": {
+            "india": 5500,
+            "turkey": 7400
+          },
+          "release": "до 9 сентября",
+          "storePrices": {
+            "india": 3999,
+            "turkey": 3199.2
+          },
+          "tag": "−20% в PS Store",
+          "title": "UFC 6"
+        },
+        {
+          "image": "assets/catalog-crimson-desert.jpg",
+          "oldPrices": {
+            "india": 6500,
+            "turkey": 6900
+          },
+          "platform": "Standard Edition • PS5",
+          "prices": {
+            "india": 5500,
+            "turkey": 6000
+          },
+          "release": "до 9 сентября",
+          "storePrices": {
+            "india": 3599,
+            "turkey": 2399.2
+          },
+          "tag": "−20% в PS Store",
+          "title": "Crimson Desert Enhanced"
+        },
+        {
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202604/0713/9b816e72a2f1e7c75c745176baeb612830a9659b947565fd.jpg?w=1920",
+          "platform": "Ultimate Edition • PS4 & PS5",
+          "prices": {
+            "india": 4400,
+            "turkey": 4100
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                3000
+              ],
+              "cost": 3188,
+              "price": 4400,
+              "wallet": 3000
+            },
+            "turkey": {
+              "cards": [
+                500,
+                500,
+                500
+              ],
+              "cost": 2808,
+              "price": 4100,
+              "wallet": 1500
+            }
+          },
+          "release": "до 9 сентября",
+          "saleEndsAt": "2026-09-09T22:59:00Z",
+          "storePrices": {
+            "india": 2279,
+            "turkey": 1424.7
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP4133-PPSA10695_00-ATOMICHEARTULTIM",
+            "turkey": "https://store.playstation.com/tr-tr/product/EP4133-PPSA10695_00-ATOMICHEARTULTIM"
+          },
+          "tag": "−70% в PS Store",
+          "title": "Atomic Heart Ultimate",
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "image": "https://image.api.playstation.com/vulcan/img/rnd/202010/0921/XGzcxPsqVQNPdDyDiTyqOVtO.jpg?w=1920",
+          "platform": "Complete Edition • PS4",
+          "prices": {
+            "india": 2300,
+            "turkey": 2200
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                1000
+              ],
+              "cost": 1073,
+              "price": 2300,
+              "wallet": 1000
+            },
+            "turkey": {
+              "cards": [
+                500
+              ],
+              "cost": 936,
+              "price": 2200,
+              "wallet": 500
+            }
+          },
+          "release": "до 9 сентября",
+          "saleEndsAt": "2026-09-09T22:59:00Z",
+          "storePrices": {
+            "india": 799,
+            "turkey": 499.8
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP0082-CUSA09264_00-JC4COMPLETEWWNEW",
+            "turkey": "https://store.playstation.com/tr-tr/product/EP0082-CUSA09264_00-JC4COMPLETEWWNEW"
+          },
+          "tag": "−80% в PS Store",
+          "title": "Just Cause 4 Complete",
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202507/2908/8b0ee99ae1a1c537005ae18cdc6fe0363114119a4aa5dfa3.jpg?w=1920",
+          "platform": "Deluxe Edition • PS4",
+          "prices": {
+            "india": 2300,
+            "turkey": 2700
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                1000
+              ],
+              "cost": 1073,
+              "price": 2300,
+              "wallet": 1000
+            },
+            "turkey": {
+              "cards": [
+                250,
+                500
+              ],
+              "cost": 1404,
+              "price": 2700,
+              "wallet": 750
+            }
+          },
+          "release": "до 9 сентября",
+          "saleEndsAt": "2026-09-09T22:59:00Z",
+          "storePrices": {
+            "india": 719,
+            "turkey": 524.85
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP0001-CUSA05625_00-EDITIONDLXACE000",
+            "turkey": "https://store.playstation.com/tr-tr/product/EP0001-CUSA05625_00-EDITIONDLXACE000"
+          },
+          "tag": "−85% в PS Store",
+          "title": "Assassin’s Creed Origins Deluxe",
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202311/1414/d43a088d510ad856d56f4dd5dbecc78372563b72c5e26c80.jpg?w=1920",
+          "platform": "Ultimate Edition • PS4",
+          "prices": {
+            "india": 2300,
+            "turkey": 1700
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                1000
+              ],
+              "cost": 1073,
+              "price": 2300,
+              "wallet": 1000
+            },
+            "turkey": {
+              "cards": [
+                250
+              ],
+              "cost": 468,
+              "price": 1700,
+              "wallet": 250
+            }
+          },
+          "release": "до 9 сентября",
+          "saleEndsAt": "2026-09-09T22:59:00Z",
+          "storePrices": {
+            "india": 457,
+            "turkey": 134.9
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP4064-CUSA17676_00-GWYFULTIMATE0000",
+            "turkey": "https://store.playstation.com/tr-tr/product/EP4064-CUSA17676_00-GWYFULTIMATE0000"
+          },
+          "tag": "−90% в PS Store",
+          "title": "Golf With Your Friends Ultimate",
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202401/1917/52465e4a2bc49cf7d662a72459e5e79b357655ff00e0953f.jpg?w=1920",
+          "platform": "Ultimate Edition • PS4 & PS5",
+          "prices": {
+            "india": 3400,
+            "turkey": 3600
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000
+              ],
+              "cost": 2130,
+              "price": 3400,
+              "wallet": 2000
+            },
+            "turkey": {
+              "cards": [
+                250,
+                500,
+                500
+              ],
+              "cost": 2340,
+              "price": 3600,
+              "wallet": 1250
+            }
+          },
+          "release": "до 9 сентября",
+          "saleEndsAt": "2026-09-09T22:59:00Z",
+          "storePrices": {
+            "india": 1919,
+            "turkey": 1049.7
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP0700-PPSA09535_00-JJTKCULTEDITION0",
+            "turkey": "https://store.playstation.com/tr-tr/product/EP0700-PPSA09535_00-JJTKCULTEDITION0"
+          },
+          "tag": "−70% в PS Store",
+          "title": "Jujutsu Kaisen Cursed Clash Ultimate",
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "image": "https://image.api.playstation.com/vulcan/img/rnd/202011/0702/nd2RLn0k0IU878m17HDzwK1K.jpg?w=1920",
+          "platform": "Super Deluxe Edition • PS4 & PS5",
+          "prices": {
+            "india": 2300,
+            "turkey": 2200
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                1000
+              ],
+              "cost": 1073,
+              "price": 2300,
+              "wallet": 1000
+            },
+            "turkey": {
+              "cards": [
+                500
+              ],
+              "cost": 936,
+              "price": 2200,
+              "wallet": 500
+            }
+          },
+          "release": "до 9 сентября",
+          "saleEndsAt": "2026-09-09T22:59:00Z",
+          "storePrices": {
+            "india": 808,
+            "turkey": 419.85
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP1001-PPSA01463_00-000000OAKSIEESDD",
+            "turkey": "https://store.playstation.com/tr-tr/product/EP1001-PPSA01463_00-000000OAKSIEESDD"
+          },
+          "tag": "−85% в PS Store",
+          "title": "Borderlands 3 Super Deluxe",
+          "verifiedAt": "2026-09-05"
+        }
+      ],
+      "id": "sale",
+      "title": "Сейчас со скидкой"
     }
-  ]
+  ],
+  "margin": 1200,
+  "note": "Цены учитывают стоимость кодов и наценку 1 200 ₽ с округлением вверх до 100 ₽. Снижение расчётной цены менее чем на 500 ₽ не меняет цену на сайте.",
+  "priceUpdatePolicy": {
+    "alwaysApplyIncrease": true,
+    "compareAgainst": "publishedPrice",
+    "decreaseThresholdRub": 500,
+    "marginRub": 1200,
+    "maxCards": 3,
+    "roundUpRub": 100
+  },
+  "updated": "5 сентября 2026"
 }
