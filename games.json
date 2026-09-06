@@ -403,7 +403,7 @@
                 750,
                 2500
               ],
-              "cost": 6607,
+              "cost": 6606,
               "maxDeliveredCodes": 3,
               "price": 7900,
               "wallet": 3500,
@@ -888,7 +888,7 @@
                 750,
                 2500
               ],
-              "cost": 6607,
+              "cost": 6606,
               "maxDeliveredCodes": 3,
               "price": 7900,
               "wallet": 3500,
@@ -938,7 +938,7 @@
                 2000,
                 2000
               ],
-              "cost": 4234,
+              "cost": 4246,
               "maxDeliveredCodes": 2,
               "price": 5500,
               "wallet": 4000,
@@ -1092,7 +1092,7 @@
                 750,
                 2500
               ],
-              "cost": 6607,
+              "cost": 6606,
               "maxDeliveredCodes": 3,
               "price": 7900,
               "wallet": 3500,
@@ -1157,7 +1157,7 @@
                 750,
                 2500
               ],
-              "cost": 6607,
+              "cost": 6606,
               "maxDeliveredCodes": 3,
               "price": 7900,
               "wallet": 3500,
@@ -1341,7 +1341,7 @@
                 2000,
                 2000
               ],
-              "cost": 4234,
+              "cost": 4246,
               "maxDeliveredCodes": 2,
               "price": 5500,
               "wallet": 4000,
@@ -1358,7 +1358,7 @@
                 250,
                 2500
               ],
-              "cost": 5657,
+              "cost": 5656,
               "maxDeliveredCodes": 3,
               "price": 6900,
               "wallet": 3000,
@@ -1425,7 +1425,7 @@
                 750,
                 2500
               ],
-              "cost": 6607,
+              "cost": 6606,
               "maxDeliveredCodes": 3,
               "price": 7900,
               "wallet": 3500,
@@ -1475,7 +1475,7 @@
                 2000,
                 2000
               ],
-              "cost": 4234,
+              "cost": 4246,
               "maxDeliveredCodes": 2,
               "price": 5500,
               "wallet": 4000,
@@ -1548,7 +1548,7 @@
                 2000,
                 2000
               ],
-              "cost": 4234,
+              "cost": 4246,
               "maxDeliveredCodes": 2,
               "price": 5500,
               "wallet": 4000,
@@ -1565,7 +1565,7 @@
                 250,
                 2500
               ],
-              "cost": 5657,
+              "cost": 5656,
               "maxDeliveredCodes": 3,
               "price": 6900,
               "wallet": 3000,
@@ -1680,7 +1680,7 @@
                 2000,
                 2000
               ],
-              "cost": 4234,
+              "cost": 4246,
               "maxDeliveredCodes": 2,
               "price": 5500,
               "wallet": 4000,
@@ -1830,7 +1830,7 @@
                 250,
                 2500
               ],
-              "cost": 5657,
+              "cost": 5656,
               "maxDeliveredCodes": 3,
               "price": 6900,
               "wallet": 3000,
@@ -1960,7 +1960,7 @@
                 250,
                 2500
               ],
-              "cost": 5657,
+              "cost": 5656,
               "maxDeliveredCodes": 3,
               "price": 6900,
               "wallet": 3000,
@@ -2010,7 +2010,7 @@
                 2000,
                 2000
               ],
-              "cost": 4234,
+              "cost": 4246,
               "maxDeliveredCodes": 2,
               "price": 5500,
               "wallet": 4000,
@@ -2027,7 +2027,7 @@
                 250,
                 2500
               ],
-              "cost": 5657,
+              "cost": 5656,
               "maxDeliveredCodes": 3,
               "price": 6900,
               "wallet": 3000,
@@ -2161,7 +2161,7 @@
                 750,
                 2500
               ],
-              "cost": 6607,
+              "cost": 6606,
               "maxDeliveredCodes": 3,
               "price": 7900,
               "wallet": 3500,
@@ -2228,7 +2228,7 @@
                 750,
                 2500
               ],
-              "cost": 6607,
+              "cost": 6606,
               "maxDeliveredCodes": 3,
               "price": 7900,
               "wallet": 3500,
@@ -2369,7 +2369,7 @@
                 750,
                 2500
               ],
-              "cost": 6607,
+              "cost": 6606,
               "maxDeliveredCodes": 3,
               "price": 7900,
               "wallet": 3500,
@@ -2420,7 +2420,7 @@
                 2000,
                 2000
               ],
-              "cost": 4234,
+              "cost": 4246,
               "maxDeliveredCodes": 2,
               "price": 5500,
               "wallet": 4000,
@@ -2627,7 +2627,7 @@
                 2000,
                 2000
               ],
-              "cost": 4234,
+              "cost": 4246,
               "maxDeliveredCodes": 2,
               "price": 5500,
               "wallet": 4000,
@@ -2709,7 +2709,7 @@
                 250,
                 2500
               ],
-              "cost": 5657,
+              "cost": 5656,
               "maxDeliveredCodes": 3,
               "price": 6900,
               "wallet": 3000,
@@ -2887,7 +2887,7 @@
                 2000,
                 2000
               ],
-              "cost": 4234,
+              "cost": 4246,
               "maxDeliveredCodes": 2,
               "price": 5500,
               "wallet": 4000,
@@ -2965,7 +2965,7 @@
               "cards": [
                 2000
               ],
-              "cost": 2117,
+              "cost": 2123,
               "maxDeliveredCodes": 1,
               "price": 3400,
               "wallet": 2000,
@@ -3123,7 +3123,7 @@
                 2000,
                 2000
               ],
-              "cost": 4234,
+              "cost": 4246,
               "maxDeliveredCodes": 2,
               "price": 5500,
               "wallet": 4000,
@@ -3205,7 +3205,7 @@
                 2000,
                 2000
               ],
-              "cost": 4234,
+              "cost": 4246,
               "maxDeliveredCodes": 2,
               "price": 5500,
               "wallet": 4000,
@@ -3300,7 +3300,7 @@
                 250,
                 2500
               ],
-              "cost": 5657,
+              "cost": 5656,
               "maxDeliveredCodes": 3,
               "price": 6900,
               "wallet": 3000,
@@ -3378,7 +3378,7 @@
                 250,
                 2500
               ],
-              "cost": 5657,
+              "cost": 5656,
               "maxDeliveredCodes": 3,
               "price": 6900,
               "wallet": 3000,
@@ -3437,7 +3437,7 @@
               "cards": [
                 2000
               ],
-              "cost": 2117,
+              "cost": 2123,
               "maxDeliveredCodes": 1,
               "price": 3400,
               "wallet": 2000,
@@ -3885,7 +3885,7 @@
               "cards": [
                 2000
               ],
-              "cost": 2117,
+              "cost": 2123,
               "maxDeliveredCodes": 1,
               "price": 3400,
               "wallet": 2000,
@@ -3965,7 +3965,7 @@
               "cards": [
                 2000
               ],
-              "cost": 2117,
+              "cost": 2123,
               "maxDeliveredCodes": 1,
               "price": 3400,
               "wallet": 2000,
@@ -4408,7 +4408,7 @@
               "cards": [
                 2000
               ],
-              "cost": 2117,
+              "cost": 2123,
               "maxDeliveredCodes": 1,
               "price": 3400,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
@@ -4483,7 +4483,7 @@
                 750,
                 2500
               ],
-              "cost": 6607,
+              "cost": 6606,
               "maxDeliveredCodes": 3,
               "price": 7900,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
@@ -4816,7 +4816,7 @@
                 250,
                 2500
               ],
-              "cost": 5657,
+              "cost": 5656,
               "maxDeliveredCodes": 3,
               "price": 6900,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
