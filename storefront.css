@@ -8,3 +8,6 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.ticker-window{overflow:auto}.ticker-segment[aria-hidden]{display:none}.sale-pulse{opacity:1}}
 
 .edition-stock{display:block;max-width:125px;white-space:normal;font-size:12px;line-height:1.4;color:var(--muted)}.availability-note{margin-top:16px;color:var(--muted);font-size:14px}.region-option strong.unavailable-price{font-size:14px;white-space:normal;overflow-wrap:anywhere}
+
+/* Cooperative collections: retain the existing compact grid. */
+.collection-links{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}.collection-links a{text-decoration:none}.collection-description{max-width:760px;color:var(--muted,#bdb2cd);line-height:1.6}.coop-tile-label{font-size:12px;line-height:1.4;color:#c7b2e7;margin:6px 0}.coop-info{padding:16px;margin:16px 0;background:rgba(144,92,210,.09);border:1px solid rgba(177,139,224,.2);border-radius:12px}.coop-info h2{font-size:18px;margin:0 0 8px}.coop-info p{font-size:14px;line-height:1.6;margin:6px 0}#catalogHeading{font-size:clamp(22px,4vw,30px)}

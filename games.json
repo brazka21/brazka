@@ -4073,6 +4073,656 @@
       ],
       "id": "sale",
       "title": "Акции PS Store"
+    },
+    {
+      "id": "cooperative",
+      "title": "Игры на двоих",
+      "games": [
+        {
+          "gameId": "split-fiction",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "Split Fiction — Standard Edition",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202502/2109/0c582584b280e3bf8872316fd4626ec084efaeb9ba436c65.png",
+          "imageRole": "MASTER",
+          "platform": "PS5",
+          "release": "Уже в продаже",
+          "summary": "Полная игра",
+          "features": [
+            "Полная версия игры"
+          ],
+          "prices": {
+            "india": 4400,
+            "turkey": 3600
+          },
+          "oldPrices": {
+            "india": 5400,
+            "turkey": 5000
+          },
+          "storePrices": {
+            "india": 2599.0,
+            "turkey": 1170.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP0006-PPSA08560_00-SPLITSTANDARDED0",
+            "turkey": "https://store.playstation.com/en-tr/product/UP0006-PPSA08560_00-SPLITSTANDARDED0"
+          },
+          "pricingBasis": {
+            "india": {
+              "cost": 3189,
+              "cards": [
+                3000
+              ],
+              "wallet": 3000,
+              "price": 4400,
+              "maxDeliveredCodes": 3,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05"
+            },
+            "turkey": {
+              "cost": 2340,
+              "cards": [
+                250,
+                500,
+                500
+              ],
+              "wallet": 1250,
+              "price": 3600,
+              "maxDeliveredCodes": 3,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05"
+            }
+          },
+          "discounts": {
+            "india": {
+              "percent": 35,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 3999.0
+            },
+            "turkey": {
+              "percent": 35,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 1800.0
+            }
+          },
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "it-takes-two",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "It Takes Two — Standard Edition",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202012/0815/7CRynuLSAb0vysSC4TmZy5e4.png",
+          "imageRole": "MASTER",
+          "platform": "PS4 / PS5",
+          "release": "Уже в продаже",
+          "summary": "Полная игра",
+          "features": [
+            "Полная версия игры"
+          ],
+          "prices": {
+            "india": 3400,
+            "turkey": 2200
+          },
+          "oldPrices": {
+            "india": 4400,
+            "turkey": 4100
+          },
+          "storePrices": {
+            "india": 749.0,
+            "turkey": 449.99
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP0006-PPSA02343_00-ITTAKESTWORETAIL",
+            "turkey": "https://store.playstation.com/en-tr/product/EP0006-PPSA02343_00-ITTAKESTWORETAIL"
+          },
+          "pricingBasis": {
+            "india": {
+              "cost": 2123,
+              "cards": [
+                2000
+              ],
+              "wallet": 2000,
+              "price": 3400,
+              "maxDeliveredCodes": 3,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05"
+            },
+            "turkey": {
+              "cost": 936,
+              "cards": [
+                500
+              ],
+              "wallet": 500,
+              "price": 2200,
+              "maxDeliveredCodes": 3,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05"
+            }
+          },
+          "discounts": {
+            "india": {
+              "percent": 70,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 2499.0
+            },
+            "turkey": {
+              "percent": 70,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 1499.99
+            }
+          },
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "a-way-out",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "A Way Out — Standard Edition",
+          "image": "https://image.api.playstation.com/cdn/EP0006/CUSA08004_00/uYjNSTuC1lpCeOLL7M6Gye9tUH28W8F3.png",
+          "imageRole": "MASTER",
+          "platform": "PS4 / PS5 (обратная совместимость)",
+          "release": "Уже в продаже",
+          "summary": "Полная игра",
+          "features": [
+            "Полная версия игры"
+          ],
+          "prices": {
+            "india": 3400,
+            "turkey": 2200
+          },
+          "oldPrices": {
+            "india": 3400,
+            "turkey": 3600
+          },
+          "storePrices": {
+            "india": 449.0,
+            "turkey": 314.7
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP0006-CUSA08004_00-AWAYOUTEU0000000",
+            "turkey": "https://store.playstation.com/en-tr/product/EP0006-CUSA08004_00-AWAYOUTEU0000000"
+          },
+          "pricingBasis": {
+            "india": {
+              "cost": 2123,
+              "cards": [
+                2000
+              ],
+              "wallet": 2000,
+              "price": 3400,
+              "maxDeliveredCodes": 3,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05"
+            },
+            "turkey": {
+              "cost": 936,
+              "cards": [
+                500
+              ],
+              "wallet": 500,
+              "price": 2200,
+              "maxDeliveredCodes": 3,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05"
+            }
+          },
+          "discounts": {
+            "india": {
+              "percent": 70,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 1499.0
+            },
+            "turkey": {
+              "percent": 70,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 1049.0
+            }
+          },
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "sackboy",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "Sackboy: A Big Adventure — Standard Edition",
+          "image": "https://image.api.playstation.com/vulcan/img/rnd/202010/1614/TJiBEQMJ9qa93lWBu4sKScY9.png",
+          "imageRole": "MASTER",
+          "platform": "PS4 / PS5",
+          "release": "Уже в продаже",
+          "summary": "Полная игра",
+          "features": [
+            "Полная версия игры"
+          ],
+          "prices": {
+            "india": 3400,
+            "turkey": 3600
+          },
+          "oldPrices": {
+            "india": 5400,
+            "turkey": 7400
+          },
+          "storePrices": {
+            "india": 1319.0,
+            "turkey": 1072.17
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP9000-PPSA01288_00-SACKBOYADVENTURE",
+            "turkey": "https://store.playstation.com/en-tr/product/EP9000-PPSA01288_00-SACKBOYADVENTURE"
+          },
+          "pricingBasis": {
+            "india": {
+              "cost": 2123,
+              "cards": [
+                2000
+              ],
+              "wallet": 2000,
+              "price": 3400,
+              "maxDeliveredCodes": 3,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05"
+            },
+            "turkey": {
+              "cost": 2340,
+              "cards": [
+                250,
+                500,
+                500
+              ],
+              "wallet": 1250,
+              "price": 3600,
+              "maxDeliveredCodes": 3,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05"
+            }
+          },
+          "discounts": {
+            "india": {
+              "percent": 67,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 3999.0
+            },
+            "turkey": {
+              "percent": 67,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 3249.0
+            }
+          },
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "sackboy",
+          "editionId": "deluxe",
+          "edition": "Digital Deluxe Edition",
+          "editionOrder": 3,
+          "title": "Sackboy: A Big Adventure — Digital Deluxe Edition",
+          "image": "https://image.api.playstation.com/vulcan/img/rnd/202010/2912/22iZlOcD9QSCuGoq6Mt1mkel.png",
+          "imageRole": "MASTER",
+          "platform": "PS4 / PS5",
+          "release": "Уже в продаже",
+          "summary": "Игра и дополнительный контент",
+          "features": [
+            "Полная версия Sackboy: A Big Adventure",
+            "Цифровой артбук и саундтрек",
+            "Четыре костюма, четыре эмоции и 20 аватаров"
+          ],
+          "prices": {
+            "india": 6600,
+            "turkey": 7800
+          },
+          "oldPrices": {},
+          "storePrices": {
+            "india": 4999.0,
+            "turkey": 3449.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP9000-PPSA01288_00-DIGITALDELUXE001",
+            "turkey": "https://store.playstation.com/en-tr/product/EP9000-PPSA01288_00-DIGITALDELUXE001"
+          },
+          "pricingBasis": {
+            "india": {
+              "cost": 5312,
+              "cards": [
+                2000,
+                3000
+              ],
+              "wallet": 5000,
+              "price": 6600,
+              "maxDeliveredCodes": 3,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05"
+            },
+            "turkey": {
+              "cost": 6579,
+              "cards": [
+                1000,
+                1000,
+                1500
+              ],
+              "wallet": 3500,
+              "price": 7800,
+              "maxDeliveredCodes": 3,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05"
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "overcooked-all-you-can-eat",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "Overcooked! All You Can Eat — Standard Edition",
+          "image": "https://image.api.playstation.com/vulcan/img/rnd/202011/2700/hKBAhyUmI0fv5JrDxITp5rRJ.png",
+          "imageRole": "MASTER",
+          "platform": "PS4 / PS5",
+          "release": "Уже в продаже",
+          "summary": "Полная игра",
+          "features": [
+            "Полная версия игры"
+          ],
+          "prices": {
+            "india": 3400,
+            "turkey": 2200
+          },
+          "oldPrices": {
+            "india": 4400,
+            "turkey": 4100
+          },
+          "storePrices": {
+            "india": 749.0,
+            "turkey": 419.7
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP4064-PPSA01528_00-0538983162460184",
+            "turkey": "https://store.playstation.com/en-tr/product/EP4064-PPSA01528_00-0538983162460184"
+          },
+          "pricingBasis": {
+            "india": {
+              "cost": 2123,
+              "cards": [
+                2000
+              ],
+              "wallet": 2000,
+              "price": 3400,
+              "maxDeliveredCodes": 3,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05"
+            },
+            "turkey": {
+              "cost": 936,
+              "cards": [
+                500
+              ],
+              "wallet": 500,
+              "price": 2200,
+              "maxDeliveredCodes": 3,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05"
+            }
+          },
+          "discounts": {
+            "india": {
+              "percent": 70,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 2499.0
+            },
+            "turkey": {
+              "percent": 70,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 1399.0
+            }
+          },
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "unravel-two",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "Unravel Two — Standard Edition",
+          "image": "https://image.api.playstation.com/cdn/EP0006/CUSA10416_00/7OtAlABbzptPIcDGDueFSbuTT8OSaVZk.png",
+          "imageRole": "MASTER",
+          "platform": "PS4 / PS5 (обратная совместимость)",
+          "release": "Уже в продаже",
+          "summary": "Полная игра",
+          "features": [
+            "Полная версия игры"
+          ],
+          "prices": {
+            "india": 3400,
+            "turkey": 1700
+          },
+          "oldPrices": {
+            "india": 3400,
+            "turkey": 1700
+          },
+          "storePrices": {
+            "india": 416.0,
+            "turkey": 24.99
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP0006-CUSA10416_00-COLDWOODPIKE0000",
+            "turkey": "https://store.playstation.com/en-tr/product/EP0006-CUSA10416_00-COLDWOODPIKE0000"
+          },
+          "pricingBasis": {
+            "india": {
+              "cost": 2123,
+              "cards": [
+                2000
+              ],
+              "wallet": 2000,
+              "price": 3400,
+              "maxDeliveredCodes": 3,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05"
+            },
+            "turkey": {
+              "cost": 468,
+              "cards": [
+                250
+              ],
+              "wallet": 250,
+              "price": 1700,
+              "maxDeliveredCodes": 3,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05"
+            }
+          },
+          "discounts": {
+            "india": {
+              "percent": 75,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 1664.0
+            },
+            "turkey": {
+              "percent": 75,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 99.99
+            }
+          },
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "remnant-2",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "Remnant II — Standard Edition",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202402/1420/449bd276cdf2e237c35d7e76bedc1da2a532adcb65cedf69.png",
+          "imageRole": "MASTER",
+          "platform": "PS5",
+          "release": "Уже в продаже",
+          "summary": "Полная игра",
+          "features": [
+            "Полная версия игры"
+          ],
+          "prices": {
+            "india": 6600,
+            "turkey": 5500
+          },
+          "oldPrices": {},
+          "storePrices": {
+            "india": 4162.0,
+            "turkey": 2149.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP1965-PPSA06694_00-REM2STDPREORDER0",
+            "turkey": "https://store.playstation.com/en-tr/product/EP1965-PPSA06694_00-REM2STDPREORDER0"
+          },
+          "pricingBasis": {
+            "india": {
+              "cost": 5312,
+              "cards": [
+                2000,
+                3000
+              ],
+              "wallet": 5000,
+              "price": 6600,
+              "maxDeliveredCodes": 3,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05"
+            },
+            "turkey": {
+              "cost": 4215,
+              "cards": [
+                500,
+                1000,
+                750
+              ],
+              "wallet": 2250,
+              "price": 5500,
+              "maxDeliveredCodes": 3,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05"
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "remnant-2",
+          "editionId": "deluxe",
+          "edition": "Deluxe Edition",
+          "editionOrder": 3,
+          "title": "Remnant II — Deluxe Edition",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202402/1420/449bd276cdf2e237c35d7e76bedc1da2a532adcb65cedf69.png",
+          "imageRole": "MASTER",
+          "platform": "PS5",
+          "release": "Уже в продаже",
+          "summary": "Игра и дополнительный контент",
+          "features": [
+            "Полная версия Remnant II",
+            "Три комплекта брони из Remnant: From the Ashes"
+          ],
+          "prices": {
+            "india": 5400,
+            "turkey": 6400
+          },
+          "oldPrices": {},
+          "storePrices": {
+            "india": 3499.0,
+            "turkey": 2579.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP1965-PPSA06694_00-REM2DIGITALDELUX",
+            "turkey": "https://store.playstation.com/en-tr/product/EP1965-PPSA06694_00-REM2DIGITALDELUX"
+          },
+          "pricingBasis": {
+            "india": {
+              "cost": 4183,
+              "cards": [
+                4000
+              ],
+              "wallet": 4000,
+              "price": 5400,
+              "maxDeliveredCodes": 3,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05"
+            },
+            "turkey": {
+              "cost": 5153,
+              "cards": [
+                1000,
+                1000,
+                750
+              ],
+              "wallet": 2750,
+              "price": 6400,
+              "maxDeliveredCodes": 3,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05"
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "remnant-2",
+          "editionId": "ultimate",
+          "edition": "Ultimate Edition",
+          "editionOrder": 5,
+          "title": "Remnant II — Ultimate Edition",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202402/1420/449bd276cdf2e237c35d7e76bedc1da2a532adcb65cedf69.png",
+          "imageRole": "MASTER",
+          "platform": "PS5",
+          "release": "Уже в продаже",
+          "summary": "Игра и дополнительный контент",
+          "features": [
+            "Полная версия Remnant II",
+            "Три комплекта брони из Remnant: From the Ashes",
+            "Survival Pack",
+            "Три дополнения из DLC Bundle"
+          ],
+          "prices": {
+            "india": 5400,
+            "turkey": 6900
+          },
+          "oldPrices": {},
+          "storePrices": {
+            "india": 3999.0,
+            "turkey": 2999.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP1965-PPSA06694_00-REM2ULTIMATE0000",
+            "turkey": "https://store.playstation.com/en-tr/product/EP1965-PPSA06694_00-REM2ULTIMATE0000"
+          },
+          "pricingBasis": {
+            "india": {
+              "cost": 4183,
+              "cards": [
+                4000
+              ],
+              "wallet": 4000,
+              "price": 5400,
+              "maxDeliveredCodes": 3,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05"
+            },
+            "turkey": {
+              "cost": 5622,
+              "cards": [
+                1000,
+                1000,
+                1000
+              ],
+              "wallet": 3000,
+              "price": 6900,
+              "maxDeliveredCodes": 3,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05"
+            }
+          },
+          "discounts": {},
+          "verifiedAt": "2026-09-05"
+        }
+      ]
     }
   ],
   "margin": 1200,
@@ -4551,6 +5201,168 @@
       "release": "15 сентября",
       "releaseDate": "2026-09-15",
       "title": "Marvel’s Wolverine"
+    },
+    "split-fiction": {
+      "title": "Split Fiction",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202502/2109/0c582584b280e3bf8872316fd4626ec084efaeb9ba436c65.png",
+      "imageRole": "MASTER",
+      "platform": "PS5",
+      "priority": 25,
+      "release": "Уже в продаже",
+      "releaseDate": "",
+      "description": "Приключение на двоих в фантастических мирах: один игрок управляет Мио, другой — Зои.",
+      "aliases": [
+        "сплит фикшн",
+        "сплитфикшн"
+      ],
+      "multiplayer": {
+        "local": true,
+        "split": true,
+        "online": true,
+        "label": "2 игрока · сплит-скрин / по сети",
+        "note": "На одной PS5 нужны два DualSense. По сети друг может присоединиться через Friend’s Pass к владельцу полной игры; для онлайна нужен PS Plus.",
+        "source": "https://store.playstation.com/en-in/product/UP0006-PPSA08560_00-SPLITSTANDARDED0",
+        "verifiedAt": "2026-09-05"
+      }
+    },
+    "it-takes-two": {
+      "title": "It Takes Two",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202012/0815/7CRynuLSAb0vysSC4TmZy5e4.png",
+      "imageRole": "MASTER",
+      "platform": "PS4 / PS5",
+      "priority": 26,
+      "release": "Уже в продаже",
+      "releaseDate": "",
+      "description": "Кооперативное приключение Коди и Мэй: головоломки, платформинг и новые механики в каждой главе.",
+      "aliases": [
+        "ит тейкс ту",
+        "требуется двое"
+      ],
+      "multiplayer": {
+        "local": true,
+        "split": true,
+        "online": true,
+        "label": "2 игрока · сплит-скрин / по сети",
+        "note": "Только для двоих. На одной приставке нужны два контроллера; по сети доступен Friend’s Pass для второго игрока и требуется PS Plus.",
+        "source": "https://store.playstation.com/en-in/product/EP0006-PPSA02343_00-ITTAKESTWORETAIL",
+        "verifiedAt": "2026-09-05"
+      }
+    },
+    "a-way-out": {
+      "title": "A Way Out",
+      "image": "https://image.api.playstation.com/cdn/EP0006/CUSA08004_00/uYjNSTuC1lpCeOLL7M6Gye9tUH28W8F3.png",
+      "imageRole": "MASTER",
+      "platform": "PS4 / PS5 (обратная совместимость)",
+      "priority": 27,
+      "release": "Уже в продаже",
+      "releaseDate": "",
+      "description": "История совместного побега Лео и Винсента. Сюжетное приключение, рассчитанное на двух игроков.",
+      "aliases": [
+        "э вей аут",
+        "побег"
+      ],
+      "multiplayer": {
+        "local": true,
+        "split": true,
+        "online": true,
+        "label": "2 игрока · сплит-скрин / по сети",
+        "note": "Версия PS4 работает на PS5. Можно пройти вдвоём на разделённом экране или по сети с Friend’s Pass; для онлайна нужен PS Plus.",
+        "source": "https://store.playstation.com/en-in/product/EP0006-CUSA08004_00-AWAYOUTEU0000000",
+        "verifiedAt": "2026-09-05"
+      }
+    },
+    "sackboy": {
+      "title": "Sackboy: A Big Adventure",
+      "image": "https://image.api.playstation.com/vulcan/img/rnd/202010/1614/TJiBEQMJ9qa93lWBu4sKScY9.png",
+      "imageRole": "MASTER",
+      "platform": "PS4 / PS5",
+      "priority": 28,
+      "release": "Уже в продаже",
+      "releaseDate": "",
+      "description": "Красочный платформер: исследуйте уровни и проходите испытания вместе с друзьями.",
+      "aliases": [
+        "сэкбой",
+        "сакбой"
+      ],
+      "multiplayer": {
+        "local": true,
+        "split": false,
+        "online": true,
+        "label": "2–4 игрока · общий экран / по сети",
+        "note": "На одной приставке — общий экран, по контроллеру на игрока. По сети поддерживается до четырёх игроков и нужен PS Plus.",
+        "source": "https://store.playstation.com/en-in/product/EP9000-PPSA01288_00-SACKBOYADVENTURE",
+        "verifiedAt": "2026-09-05"
+      }
+    },
+    "overcooked-all-you-can-eat": {
+      "title": "Overcooked! All You Can Eat",
+      "image": "https://image.api.playstation.com/vulcan/img/rnd/202011/2700/hKBAhyUmI0fv5JrDxITp5rRJ.png",
+      "imageRole": "MASTER",
+      "platform": "PS4 / PS5",
+      "priority": 29,
+      "release": "Уже в продаже",
+      "releaseDate": "",
+      "description": "Кулинарный кооператив: готовьте, разносите заказы и договаривайтесь на хаотичных кухнях.",
+      "aliases": [
+        "оверкукед",
+        "оверк cooked",
+        "кухня"
+      ],
+      "multiplayer": {
+        "local": true,
+        "split": false,
+        "online": true,
+        "label": "2–4 игрока · общий экран / по сети",
+        "note": "Включает Overcooked!, Overcooked! 2 и дополнительный контент. Локально — общий экран; по сети — до четырёх игроков с PS Plus.",
+        "source": "https://store.playstation.com/en-in/product/EP4064-PPSA01528_00-0538983162460184",
+        "verifiedAt": "2026-09-05"
+      }
+    },
+    "unravel-two": {
+      "title": "Unravel Two",
+      "image": "https://image.api.playstation.com/cdn/EP0006/CUSA10416_00/7OtAlABbzptPIcDGDueFSbuTT8OSaVZk.png",
+      "imageRole": "MASTER",
+      "platform": "PS4 / PS5 (обратная совместимость)",
+      "priority": 30,
+      "release": "Уже в продаже",
+      "releaseDate": "",
+      "description": "Платформер о двух связанных нитью героях: помогайте друг другу преодолевать препятствия.",
+      "aliases": [
+        "анравел",
+        "анрейвел"
+      ],
+      "multiplayer": {
+        "local": true,
+        "split": false,
+        "online": false,
+        "label": "2 игрока · общий экран",
+        "note": "Кооператив только на одной приставке с общим экраном, без встроенного сетевого режима. Версия PS4 работает на PS5.",
+        "source": "https://store.playstation.com/en-in/product/EP0006-CUSA10416_00-COLDWOODPIKE0000",
+        "verifiedAt": "2026-09-05"
+      }
+    },
+    "remnant-2": {
+      "title": "Remnant II",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202402/1420/449bd276cdf2e237c35d7e76bedc1da2a532adcb65cedf69.png",
+      "imageRole": "MASTER",
+      "platform": "PS5",
+      "priority": 31,
+      "release": "Уже в продаже",
+      "releaseDate": "",
+      "description": "Кооперативный экшен с огнестрельным оружием, исследованием миров и сложными боссами.",
+      "aliases": [
+        "ремнант",
+        "ремнант 2"
+      ],
+      "multiplayer": {
+        "local": false,
+        "split": false,
+        "online": true,
+        "label": "2–3 игрока · только по сети",
+        "note": "Локального кооператива и сплит-скрина нет. Для совместной игры нужны отдельные приставки, доступ к игре и PS Plus.",
+        "source": "https://store.playstation.com/en-in/product/EP1965-PPSA06694_00-REM2STDPREORDER0",
+        "verifiedAt": "2026-09-05"
+      }
     }
   },
   "updated": "2026-09-05"
