@@ -93,23 +93,27 @@
           "notice": "Для бонуса GTA+ действуют условия активации и автопродления подписки; уточним их перед оформлением.",
           "platform": "PS5",
           "prices": {
-            "india": 9800,
+            "india": 10800,
             "turkey": 10700
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
                 "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
                 3000,
-                5000
+                3000,
+                3000
               ],
-              "cost": 8495,
+              "cost": 9567,
               "maxDeliveredCodes": 3,
-              "price": 9700,
-              "wallet": 8000
+              "price": 10800,
+              "wallet": 9000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -139,7 +143,10 @@
           },
           "summary": "Игра, контент Ultimate и бонусы предзаказа",
           "title": "Grand Theft Auto VI — Ultimate Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 9800
+          }
         },
         {
           "discounts": {},
@@ -308,23 +315,27 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 9800,
+            "india": 10800,
             "turkey": 11600
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
                 "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
                 3000,
-                5000
+                3000,
+                3000
               ],
-              "cost": 8495,
+              "cost": 9567,
               "maxDeliveredCodes": 3,
-              "price": 9700,
-              "wallet": 8000
+              "price": 10800,
+              "wallet": 9000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -354,7 +365,10 @@
           },
           "summary": "Игра, Fighter Pass, Expansion Pass и VIP",
           "title": "EA SPORTS UFC 6 — Ultimate Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 9800
+          }
         },
         {
           "discounts": {},
@@ -373,21 +387,25 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 6600,
+            "india": 7600,
             "turkey": 7900
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
-                5000
+                3000,
+                3000
               ],
-              "cost": 5307,
+              "cost": 6378,
               "maxDeliveredCodes": 2,
-              "price": 6600,
-              "wallet": 5000
+              "price": 7600,
+              "wallet": 6000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -417,7 +435,10 @@
           },
           "summary": "Полная версия игры",
           "title": "Marvel’s Wolverine — Standard Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 6600
+          }
         },
         {
           "discounts": {},
@@ -507,21 +528,25 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 6600,
+            "india": 7600,
             "turkey": 8800
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
-                5000
+                3000,
+                3000
               ],
-              "cost": 5307,
+              "cost": 6378,
               "maxDeliveredCodes": 2,
-              "price": 6600,
-              "wallet": 5000
+              "price": 7600,
+              "wallet": 6000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -551,7 +576,10 @@
           },
           "summary": "Полная версия игры",
           "title": "NBA 2K27 — Standard Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 6600
+          }
         },
         {
           "discounts": {},
@@ -573,23 +601,27 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 9800,
+            "india": 10800,
             "turkey": 11600
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
                 "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
                 3000,
-                5000
+                3000,
+                3000
               ],
-              "cost": 8495,
+              "cost": 9567,
               "maxDeliveredCodes": 3,
-              "price": 9700,
-              "wallet": 8000
+              "price": 10800,
+              "wallet": 9000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -619,7 +651,10 @@
           },
           "summary": "Игра, 100 000 VC и бонусный контент",
           "title": "NBA 2K27 — Deluxe Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 9800
+          }
         },
         {
           "discounts": {},
@@ -851,23 +886,27 @@
           "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 9800,
+            "india": 10800,
             "turkey": 7800
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
                 "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
                 3000,
-                5000
+                3000,
+                3000
               ],
-              "cost": 8495,
+              "cost": 9567,
               "maxDeliveredCodes": 3,
-              "price": 9700,
-              "wallet": 8000
+              "price": 10800,
+              "wallet": 9000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -897,7 +936,10 @@
           },
           "summary": "Сюжет, Online и бонусы Ultimate",
           "title": "Red Dead Redemption 2 — Ultimate Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 9800
+          }
         },
         {
           "discounts": {},
@@ -916,23 +958,25 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 5500,
+            "india": 7600,
             "turkey": 4500
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
-                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
-                2000,
-                2000
+                3000,
+                3000
               ],
-              "cost": 4246,
+              "cost": 6378,
               "maxDeliveredCodes": 2,
-              "price": 5500,
-              "wallet": 4000
+              "price": 7600,
+              "wallet": 6000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -962,7 +1006,10 @@
           },
           "summary": "Полная версия игры",
           "title": "Forza Horizon 5 — Standard Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 5500
+          }
         },
         {
           "discounts": {},
@@ -986,23 +1033,27 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 8700,
+            "india": 10800,
             "turkey": 6400
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
-                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
-                2000,
-                5000
+                3000,
+                3000,
+                3000
               ],
-              "cost": 7430,
+              "cost": 9567,
               "maxDeliveredCodes": 3,
-              "price": 8700,
-              "wallet": 7000
+              "price": 10800,
+              "wallet": 9000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -1032,7 +1083,10 @@
           },
           "summary": "Игра, Car Pass, два дополнения и VIP",
           "title": "Forza Horizon 5 — Premium Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 8700
+          }
         },
         {
           "discounts": {},
@@ -1054,21 +1108,25 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 6600,
+            "india": 7600,
             "turkey": 7800
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
-                5000
+                3000,
+                3000
               ],
-              "cost": 5307,
+              "cost": 6378,
               "maxDeliveredCodes": 2,
-              "price": 6600,
-              "wallet": 5000
+              "price": 7600,
+              "wallet": 6000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -1098,7 +1156,10 @@
           },
           "summary": "Игра + 3 бонуса",
           "title": "007 First Light — Deluxe Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 6600
+          }
         },
         {
           "discounts": {},
@@ -1118,21 +1179,25 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 6600,
+            "india": 7600,
             "turkey": 7900
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
-                5000
+                3000,
+                3000
               ],
-              "cost": 5307,
+              "cost": 6378,
               "maxDeliveredCodes": 2,
-              "price": 6600,
-              "wallet": 5000
+              "price": 7600,
+              "wallet": 6000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -1162,7 +1227,10 @@
           },
           "summary": "Игра и дополнительный контент",
           "title": "Onimusha: Way of the Sword — Standard Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 6600
+          }
         },
         {
           "discounts": {},
@@ -1183,21 +1251,25 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 6600,
+            "india": 7600,
             "turkey": 8800
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
-                5000
+                3000,
+                3000
               ],
-              "cost": 5307,
+              "cost": 6378,
               "maxDeliveredCodes": 2,
-              "price": 6600,
-              "wallet": 5000
+              "price": 7600,
+              "wallet": 6000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -1227,7 +1299,10 @@
           },
           "summary": "Игра + 2 бонуса",
           "title": "Onimusha: Way of the Sword — Deluxe Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 6600
+          }
         },
         {
           "discounts": {},
@@ -1313,23 +1388,25 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 5500,
+            "india": 7600,
             "turkey": 6900
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
-                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
-                2000,
-                2000
+                3000,
+                3000
               ],
-              "cost": 4246,
+              "cost": 6378,
               "maxDeliveredCodes": 2,
-              "price": 5500,
-              "wallet": 4000
+              "price": 7600,
+              "wallet": 6000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -1359,7 +1436,10 @@
           },
           "summary": "Полная версия игры",
           "title": "The Blood of Dawnwalker — Standard Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 5500
+          }
         },
         {
           "discounts": {},
@@ -1381,21 +1461,25 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 6600,
+            "india": 7600,
             "turkey": 7800
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
-                5000
+                3000,
+                3000
               ],
-              "cost": 5307,
+              "cost": 6378,
               "maxDeliveredCodes": 2,
-              "price": 6600,
-              "wallet": 5000
+              "price": 7600,
+              "wallet": 6000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -1425,7 +1509,10 @@
           },
           "summary": "Игра + 3 бонуса",
           "title": "The Blood of Dawnwalker — Eclipse Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 6600
+          }
         },
         {
           "discounts": {},
@@ -1444,23 +1531,25 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 5500,
+            "india": 7600,
             "turkey": 6400
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
-                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
-                2000,
-                2000
+                3000,
+                3000
               ],
-              "cost": 4246,
+              "cost": 6378,
               "maxDeliveredCodes": 2,
-              "price": 5500,
-              "wallet": 4000
+              "price": 7600,
+              "wallet": 6000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -1490,7 +1579,10 @@
           },
           "summary": "Полная версия игры",
           "title": "CONTROL Resonant — Standard Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 5500
+          }
         },
         {
           "discounts": {},
@@ -1515,23 +1607,25 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 5500,
+            "india": 7600,
             "turkey": 6900
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
-                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
-                2000,
-                2000
+                3000,
+                3000
               ],
-              "cost": 4246,
+              "cost": 6378,
               "maxDeliveredCodes": 2,
-              "price": 5500,
-              "wallet": 4000
+              "price": 7600,
+              "wallet": 6000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -1561,7 +1655,10 @@
           },
           "summary": "Игра и дополнительный контент",
           "title": "CONTROL Resonant — Digital Deluxe Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 5500
+          }
         },
         {
           "discounts": {},
@@ -1645,23 +1742,25 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 5500,
+            "india": 7600,
             "turkey": 6400
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
-                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
-                2000,
-                2000
+                3000,
+                3000
               ],
-              "cost": 4246,
+              "cost": 6378,
               "maxDeliveredCodes": 2,
-              "price": 5500,
-              "wallet": 4000
+              "price": 7600,
+              "wallet": 6000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -1691,7 +1790,10 @@
           },
           "summary": "Игра + 2 бонуса",
           "title": "SILENT HILL: Townfall — Deluxe Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 5500
+          }
         },
         {
           "discounts": {},
@@ -1710,21 +1812,25 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 6600,
+            "india": 7600,
             "turkey": 6000
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
-                5000
+                3000,
+                3000
               ],
-              "cost": 5307,
+              "cost": 6378,
               "maxDeliveredCodes": 2,
-              "price": 6600,
-              "wallet": 5000
+              "price": 7600,
+              "wallet": 6000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -1754,7 +1860,10 @@
           },
           "summary": "Полная версия игры",
           "title": "Phantom Blade Zero — Standard Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 6600
+          }
         },
         {
           "discounts": {},
@@ -1842,21 +1951,25 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 6600,
+            "india": 7600,
             "turkey": 6400
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
-                5000
+                3000,
+                3000
               ],
-              "cost": 5307,
+              "cost": 6378,
               "maxDeliveredCodes": 2,
-              "price": 6600,
-              "wallet": 5000
+              "price": 7600,
+              "wallet": 6000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -1886,7 +1999,10 @@
           },
           "summary": "Полная версия игры",
           "title": "Assassin’s Creed Black Flag Resynced — Standard Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 6600
+          }
         },
         {
           "discounts": {},
@@ -1907,21 +2023,25 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 6600,
+            "india": 7600,
             "turkey": 6900
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
-                5000
+                3000,
+                3000
               ],
-              "cost": 5307,
+              "cost": 6378,
               "maxDeliveredCodes": 2,
-              "price": 6600,
-              "wallet": 5000
+              "price": 7600,
+              "wallet": 6000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -1951,7 +2071,10 @@
           },
           "summary": "Игра + 2 бонуса",
           "title": "Assassin’s Creed Black Flag Resynced — Deluxe Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 6600
+          }
         },
         {
           "discounts": {},
@@ -2168,23 +2291,27 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 8700,
+            "india": 10800,
             "turkey": 7800
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
-                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
-                2000,
-                5000
+                3000,
+                3000,
+                3000
               ],
-              "cost": 7430,
+              "cost": 9567,
               "maxDeliveredCodes": 3,
-              "price": 8700,
-              "wallet": 7000
+              "price": 10800,
+              "wallet": 9000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -2214,7 +2341,10 @@
           },
           "summary": "Игра и дополнительный контент",
           "title": "Atomic Heart — Gold Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 8700
+          }
         },
         {
           "discounts": {},
@@ -2237,21 +2367,25 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 6600,
+            "india": 7600,
             "turkey": 2700
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
-                5000
+                3000,
+                3000
               ],
-              "cost": 5307,
+              "cost": 6378,
               "maxDeliveredCodes": 2,
-              "price": 6600,
-              "wallet": 5000
+              "price": 7600,
+              "wallet": 6000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -2279,7 +2413,10 @@
           },
           "summary": "Игра + 4 бонуса",
           "title": "Borderlands 3 — Next Level Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 6600
+          }
         },
         {
           "discounts": {},
@@ -2305,23 +2442,27 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 8700,
+            "india": 10800,
             "turkey": 7800
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
-                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
-                2000,
-                5000
+                3000,
+                3000,
+                3000
               ],
-              "cost": 7430,
+              "cost": 9567,
               "maxDeliveredCodes": 3,
-              "price": 8700,
-              "wallet": 7000
+              "price": 10800,
+              "wallet": 9000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -2351,7 +2492,10 @@
           },
           "summary": "Игра, два Season Pass и бонусный контент",
           "title": "Borderlands 3 — Ultimate Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 8700
+          }
         },
         {
           "discounts": {},
@@ -2573,23 +2717,25 @@
           "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 5500,
+            "india": 7600,
             "turkey": 5500
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
-                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
-                2000,
-                2000
+                3000,
+                3000
               ],
-              "cost": 4246,
+              "cost": 6378,
               "maxDeliveredCodes": 2,
-              "price": 5500,
-              "wallet": 4000
+              "price": 7600,
+              "wallet": 6000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -2619,7 +2765,10 @@
           },
           "summary": "Игра и дополнительный контент",
           "title": "Just Cause 4 — Gold Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 5500
+          }
         },
         {
           "discounts": {},
@@ -2640,21 +2789,25 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 6600,
+            "india": 7600,
             "turkey": 6900
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
-                5000
+                3000,
+                3000
               ],
-              "cost": 5307,
+              "cost": 6378,
               "maxDeliveredCodes": 2,
-              "price": 6600,
-              "wallet": 5000
+              "price": 7600,
+              "wallet": 6000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -2684,7 +2837,10 @@
           },
           "summary": "Игра + 2 бонуса",
           "title": "Jujutsu Kaisen Cursed Clash — Deluxe Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 6600
+          }
         },
         {
           "discounts": {},
@@ -2826,44 +2982,48 @@
           },
           "imageRole": "MASTER",
           "oldPrices": {
-            "india": 6500,
-            "turkey": 8800
+            "india": 5500,
+            "turkey": 7400
           },
           "platform": "PS5",
           "prices": {
-            "india": 5500,
-            "turkey": 7400
+            "india": 7600,
+            "turkey": 8800
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
-                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
-                2000,
-                2000
+                3000,
+                3000
               ],
-              "cost": 4246,
+              "cost": 6378,
               "maxDeliveredCodes": 2,
-              "price": 5500,
-              "wallet": 4000
+              "price": 7600,
+              "wallet": 6000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
                 "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
-                "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139"
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cards": [
                 1000,
-                750,
-                1500
+                1000,
+                2000
               ],
-              "cost": 6110,
+              "cost": 7532,
               "maxDeliveredCodes": 3,
-              "price": 7400,
-              "wallet": 3250
+              "price": 8800,
+              "wallet": 4000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -2981,40 +3141,48 @@
           },
           "imageRole": "MASTER",
           "oldPrices": {
-            "india": 7500,
-            "turkey": 5500
+            "india": 4400,
+            "turkey": 3100
           },
           "platform": "PS5",
           "prices": {
-            "india": 4400,
-            "turkey": 3100
+            "india": 7600,
+            "turkey": 5500
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
                 "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
+                3000,
                 3000
               ],
-              "cost": 3189,
-              "maxDeliveredCodes": 1,
-              "price": 4400,
-              "wallet": 3000
+              "cost": 6378,
+              "maxDeliveredCodes": 2,
+              "price": 7600,
+              "wallet": 6000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
                 "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
-                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543"
               ],
               "cards": [
                 500,
-                500
+                1000,
+                750
               ],
-              "cost": 1872,
-              "maxDeliveredCodes": 2,
-              "price": 3100,
-              "wallet": 1000
+              "cost": 4215,
+              "maxDeliveredCodes": 3,
+              "price": 5500,
+              "wallet": 2250,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -3057,43 +3225,48 @@
           },
           "imageRole": "MASTER",
           "oldPrices": {
-            "turkey": 6900
+            "turkey": 6000,
+            "india": 5500
           },
           "platform": "PS5",
           "prices": {
-            "india": 5500,
-            "turkey": 6000
+            "india": 7600,
+            "turkey": 6900
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
-                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
-                2000,
-                2000
+                3000,
+                3000
               ],
-              "cost": 4246,
+              "cost": 6378,
               "maxDeliveredCodes": 2,
-              "price": 5500,
-              "wallet": 4000
+              "price": 7600,
+              "wallet": 6000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
                 "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
                 "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
               ],
               "cards": [
-                500,
+                1000,
                 1000,
                 1000
               ],
-              "cost": 4684,
+              "cost": 5622,
               "maxDeliveredCodes": 3,
-              "price": 5900,
-              "wallet": 2500
+              "price": 6900,
+              "wallet": 3000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -3137,44 +3310,48 @@
           },
           "imageRole": "MASTER",
           "oldPrices": {
-            "india": 6500,
-            "turkey": 6900
+            "india": 5500,
+            "turkey": 6000
           },
           "platform": "PS5",
           "prices": {
-            "india": 5500,
-            "turkey": 6000
+            "india": 7600,
+            "turkey": 6900
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
-                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
-                2000,
-                2000
+                3000,
+                3000
               ],
-              "cost": 4246,
+              "cost": 6378,
               "maxDeliveredCodes": 2,
-              "price": 5500,
-              "wallet": 4000
+              "price": 7600,
+              "wallet": 6000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
                 "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
                 "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
               ],
               "cards": [
-                500,
+                1000,
                 1000,
                 1000
               ],
-              "cost": 4684,
+              "cost": 5622,
               "maxDeliveredCodes": 3,
-              "price": 5900,
-              "wallet": 2500
+              "price": 6900,
+              "wallet": 3000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -3222,37 +3399,43 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 6600,
-            "turkey": 6900
+            "india": 7600,
+            "turkey": 7800
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
-                5000
+                3000,
+                3000
               ],
-              "cost": 5307,
+              "cost": 6378,
               "maxDeliveredCodes": 2,
-              "price": 6600,
-              "wallet": 5000
+              "price": 7600,
+              "wallet": 6000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
                 "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
                 "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
+                "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139"
               ],
               "cards": [
                 1000,
                 1000,
-                1000
+                1500
               ],
-              "cost": 5622,
+              "cost": 6579,
               "maxDeliveredCodes": 3,
-              "price": 6900,
-              "wallet": 3000
+              "price": 7800,
+              "wallet": 3500,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -3266,7 +3449,11 @@
           },
           "summary": "Игра + 4 бонуса",
           "title": "Crimson Desert — Deluxe Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 6600,
+            "turkey": 6900
+          }
         },
         {
           "discounts": {
@@ -3299,37 +3486,43 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 6600,
-            "turkey": 6900
+            "india": 7600,
+            "turkey": 8800
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
-                5000
+                3000,
+                3000
               ],
-              "cost": 5307,
+              "cost": 6378,
               "maxDeliveredCodes": 2,
-              "price": 6600,
-              "wallet": 5000
+              "price": 7600,
+              "wallet": 6000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
                 "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
                 "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cards": [
                 1000,
                 1000,
-                1000
+                2000
               ],
-              "cost": 5622,
+              "cost": 7532,
               "maxDeliveredCodes": 3,
-              "price": 6900,
-              "wallet": 3000
+              "price": 8800,
+              "wallet": 4000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -3343,7 +3536,11 @@
           },
           "summary": "Игра + 3 бонуса",
           "title": "SAROS — Digital Deluxe Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 6600,
+            "turkey": 6900
+          }
         },
         {
           "discounts": {
@@ -3449,37 +3646,45 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 4400,
-            "turkey": 4100
+            "india": 10800,
+            "turkey": 10200
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
                 "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
+                3000,
+                3000,
                 3000
               ],
-              "cost": 3189,
-              "maxDeliveredCodes": 1,
-              "price": 4400,
-              "wallet": 3000
+              "cost": 9567,
+              "maxDeliveredCodes": 3,
+              "price": 10800,
+              "wallet": 9000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
-                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
-                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139",
+                "https://plati.market/itm/24-7-auto-playstation-2500-try-gift-card/5250604"
               ],
               "cards": [
-                500,
-                500,
-                500
+                750,
+                1500,
+                2500
               ],
-              "cost": 2808,
+              "cost": 8967,
               "maxDeliveredCodes": 3,
-              "price": 4100,
-              "wallet": 1500
+              "price": 10200,
+              "wallet": 4750,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -3493,7 +3698,11 @@
           },
           "summary": "Игра, Atomic Pass, облики оружия и артбук",
           "title": "Atomic Heart — Ultimate Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 4400,
+            "turkey": 4100
+          }
         },
         {
           "discounts": {
@@ -3523,29 +3732,39 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 2300,
-            "turkey": 1700
+            "india": 7600,
+            "turkey": 2200
           },
           "pricingBasis": {
             "india": {
-              "cards": [
-                1000
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
-              "cost": 1073,
-              "price": 2300,
-              "wallet": 1000
+              "cards": [
+                3000,
+                3000
+              ],
+              "cost": 6378,
+              "maxDeliveredCodes": 2,
+              "price": 7600,
+              "wallet": 6000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
               ],
               "cards": [
-                250
+                500
               ],
-              "cost": 468,
+              "cost": 936,
               "maxDeliveredCodes": 1,
-              "price": 1700,
-              "wallet": 250
+              "price": 2200,
+              "wallet": 500,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -3559,7 +3778,11 @@
           },
           "summary": "Полная версия игры",
           "title": "Borderlands 3 — Standard Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 2300,
+            "turkey": 1700
+          }
         },
         {
           "discounts": {
@@ -3596,29 +3819,43 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 2300,
-            "turkey": 2200
+            "india": 7600,
+            "turkey": 6900
           },
           "pricingBasis": {
             "india": {
-              "cards": [
-                1000
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
-              "cost": 1073,
-              "price": 2300,
-              "wallet": 1000
+              "cards": [
+                3000,
+                3000
+              ],
+              "cost": 6378,
+              "maxDeliveredCodes": 2,
+              "price": 7600,
+              "wallet": 6000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
               ],
               "cards": [
-                500
+                1000,
+                1000,
+                1000
               ],
-              "cost": 936,
-              "maxDeliveredCodes": 1,
-              "price": 2200,
-              "wallet": 500
+              "cost": 5622,
+              "maxDeliveredCodes": 3,
+              "price": 6900,
+              "wallet": 3000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -3632,7 +3869,11 @@
           },
           "summary": "Игра, Season Pass и бонусы Deluxe",
           "title": "Borderlands 3 — Super Deluxe Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 2300,
+            "turkey": 2200
+          }
         },
         {
           "discounts": {
@@ -3666,31 +3907,43 @@
           "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 2300,
-            "turkey": 2700
+            "india": 7600,
+            "turkey": 7800
           },
           "pricingBasis": {
             "india": {
-              "cards": [
-                1000
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
-              "cost": 1073,
-              "price": 2300,
-              "wallet": 1000
+              "cards": [
+                3000,
+                3000
+              ],
+              "cost": 6378,
+              "maxDeliveredCodes": 2,
+              "price": 7600,
+              "wallet": 6000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139"
               ],
               "cards": [
-                250,
-                500
+                1000,
+                1000,
+                1500
               ],
-              "cost": 1404,
-              "maxDeliveredCodes": 2,
-              "price": 2700,
-              "wallet": 750
+              "cost": 6579,
+              "maxDeliveredCodes": 3,
+              "price": 7800,
+              "wallet": 3500,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -3704,7 +3957,11 @@
           },
           "summary": "Игра и дополнительный контент",
           "title": "Assassin’s Creed Origins — Deluxe Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 2300,
+            "turkey": 2700
+          }
         },
         {
           "discounts": {
@@ -3741,29 +3998,43 @@
           "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 2300,
-            "turkey": 2200
+            "india": 7600,
+            "turkey": 5900
           },
           "pricingBasis": {
             "india": {
-              "cards": [
-                1000
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
-              "cost": 1073,
-              "price": 2300,
-              "wallet": 1000
+              "cards": [
+                3000,
+                3000
+              ],
+              "cost": 6378,
+              "maxDeliveredCodes": 2,
+              "price": 7600,
+              "wallet": 6000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
               ],
               "cards": [
-                500
+                500,
+                1000,
+                1000
               ],
-              "cost": 936,
-              "maxDeliveredCodes": 1,
-              "price": 2200,
-              "wallet": 500
+              "cost": 4684,
+              "maxDeliveredCodes": 3,
+              "price": 5900,
+              "wallet": 2500,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -3777,7 +4048,11 @@
           },
           "summary": "Игра и дополнительный контент",
           "title": "Just Cause 4 — Complete Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 2300,
+            "turkey": 2200
+          }
         },
         {
           "discounts": {
@@ -3807,35 +4082,43 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 3400,
-            "turkey": 2700
+            "india": 7600,
+            "turkey": 5500
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
-                2000
+                3000,
+                3000
               ],
-              "cost": 2123,
-              "maxDeliveredCodes": 1,
-              "price": 3400,
-              "wallet": 2000
+              "cost": 6378,
+              "maxDeliveredCodes": 2,
+              "price": 7600,
+              "wallet": 6000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543"
               ],
               "cards": [
-                250,
-                500
+                500,
+                1000,
+                750
               ],
-              "cost": 1404,
-              "maxDeliveredCodes": 2,
-              "price": 2700,
-              "wallet": 750
+              "cost": 4215,
+              "maxDeliveredCodes": 3,
+              "price": 5500,
+              "wallet": 2250,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -3849,7 +4132,11 @@
           },
           "summary": "Полная версия игры",
           "title": "Jujutsu Kaisen Cursed Clash — Standard Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 3400,
+            "turkey": 2700
+          }
         },
         {
           "discounts": {
@@ -3883,37 +4170,45 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 3400,
-            "turkey": 3600
+            "india": 10800,
+            "turkey": 7800
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
-                2000
+                3000,
+                3000,
+                3000
               ],
-              "cost": 2123,
-              "maxDeliveredCodes": 1,
-              "price": 3400,
-              "wallet": 2000
+              "cost": 9567,
+              "maxDeliveredCodes": 3,
+              "price": 10800,
+              "wallet": 9000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
-                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139"
               ],
               "cards": [
-                250,
-                500,
-                500
+                1000,
+                1000,
+                1500
               ],
-              "cost": 2340,
+              "cost": 6579,
               "maxDeliveredCodes": 3,
-              "price": 3600,
-              "wallet": 1250
+              "price": 7800,
+              "wallet": 3500,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -3927,7 +4222,11 @@
           },
           "summary": "Игра + 4 бонуса",
           "title": "Jujutsu Kaisen Cursed Clash — Ultimate Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 3400,
+            "turkey": 3600
+          }
         },
         {
           "discounts": {
@@ -3965,29 +4264,43 @@
           "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 2300,
-            "turkey": 1700
+            "india": 7600,
+            "turkey": 4100
           },
           "pricingBasis": {
             "india": {
-              "cards": [
-                1000
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
-              "cost": 1073,
-              "price": 2300,
-              "wallet": 1000
+              "cards": [
+                3000,
+                3000
+              ],
+              "cost": 6378,
+              "maxDeliveredCodes": 2,
+              "price": 7600,
+              "wallet": 6000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
               ],
               "cards": [
-                250
+                500,
+                500,
+                500
               ],
-              "cost": 468,
-              "maxDeliveredCodes": 1,
-              "price": 1700,
-              "wallet": 250
+              "cost": 2808,
+              "maxDeliveredCodes": 3,
+              "price": 4100,
+              "wallet": 1500,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -4001,7 +4314,11 @@
           },
           "summary": "Игра и дополнительный контент",
           "title": "Golf With Your Friends — Ultimate Edition",
-          "verifiedAt": "2026-09-05"
+          "verifiedAt": "2026-09-05",
+          "oldPrices": {
+            "india": 2300,
+            "turkey": 1700
+          }
         },
         {
           "discounts": {
@@ -5365,5 +5682,6 @@
       }
     }
   },
-  "updated": "2026-09-05"
+  "updated": "2026-09-06"
 }
+
