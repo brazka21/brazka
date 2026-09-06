@@ -93,27 +93,23 @@
           "notice": "Для бонуса GTA+ действуют условия активации и автопродления подписки; уточним их перед оформлением.",
           "platform": "PS5",
           "prices": {
-            "india": 10800,
+            "india": 9800,
             "turkey": 10700
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
                 "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
               ],
               "cards": [
                 3000,
-                3000,
-                3000
+                5000
               ],
-              "cost": 9567,
+              "cost": 8495,
               "maxDeliveredCodes": 3,
-              "price": 10800,
-              "wallet": 9000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 9700,
+              "wallet": 8000
             },
             "turkey": {
               "cardUrls": [
@@ -143,10 +139,7 @@
           },
           "summary": "Игра, контент Ultimate и бонусы предзаказа",
           "title": "Grand Theft Auto VI — Ultimate Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 9800
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {},
@@ -315,27 +308,23 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 10800,
+            "india": 9800,
             "turkey": 11600
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
                 "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
               ],
               "cards": [
                 3000,
-                3000,
-                3000
+                5000
               ],
-              "cost": 9567,
+              "cost": 8495,
               "maxDeliveredCodes": 3,
-              "price": 10800,
-              "wallet": 9000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 9700,
+              "wallet": 8000
             },
             "turkey": {
               "cardUrls": [
@@ -365,10 +354,7 @@
           },
           "summary": "Игра, Fighter Pass, Expansion Pass и VIP",
           "title": "EA SPORTS UFC 6 — Ultimate Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 9800
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {},
@@ -387,25 +373,21 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7600,
+            "india": 6600,
             "turkey": 7900
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
               ],
               "cards": [
-                3000,
-                3000
+                5000
               ],
-              "cost": 6378,
+              "cost": 5307,
               "maxDeliveredCodes": 2,
-              "price": 7600,
-              "wallet": 6000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 6600,
+              "wallet": 5000
             },
             "turkey": {
               "cardUrls": [
@@ -435,10 +417,7 @@
           },
           "summary": "Полная версия игры",
           "title": "Marvel’s Wolverine — Standard Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 6600
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {},
@@ -528,25 +507,21 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7600,
+            "india": 6600,
             "turkey": 8800
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
               ],
               "cards": [
-                3000,
-                3000
+                5000
               ],
-              "cost": 6378,
+              "cost": 5307,
               "maxDeliveredCodes": 2,
-              "price": 7600,
-              "wallet": 6000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 6600,
+              "wallet": 5000
             },
             "turkey": {
               "cardUrls": [
@@ -576,10 +551,7 @@
           },
           "summary": "Полная версия игры",
           "title": "NBA 2K27 — Standard Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 6600
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {},
@@ -601,27 +573,23 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 10800,
+            "india": 9800,
             "turkey": 11600
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
                 "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
               ],
               "cards": [
                 3000,
-                3000,
-                3000
+                5000
               ],
-              "cost": 9567,
+              "cost": 8495,
               "maxDeliveredCodes": 3,
-              "price": 10800,
-              "wallet": 9000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 9700,
+              "wallet": 8000
             },
             "turkey": {
               "cardUrls": [
@@ -651,10 +619,7 @@
           },
           "summary": "Игра, 100 000 VC и бонусный контент",
           "title": "NBA 2K27 — Deluxe Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 9800
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {},
@@ -886,27 +851,23 @@
           "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 10800,
+            "india": 9800,
             "turkey": 7800
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
                 "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
               ],
               "cards": [
                 3000,
-                3000,
-                3000
+                5000
               ],
-              "cost": 9567,
+              "cost": 8495,
               "maxDeliveredCodes": 3,
-              "price": 10800,
-              "wallet": 9000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 9700,
+              "wallet": 8000
             },
             "turkey": {
               "cardUrls": [
@@ -936,10 +897,7 @@
           },
           "summary": "Сюжет, Online и бонусы Ultimate",
           "title": "Red Dead Redemption 2 — Ultimate Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 9800
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {},
@@ -958,25 +916,23 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7600,
+            "india": 5500,
             "turkey": 4500
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
               ],
               "cards": [
-                3000,
-                3000
+                2000,
+                2000
               ],
-              "cost": 6378,
+              "cost": 4246,
               "maxDeliveredCodes": 2,
-              "price": 7600,
-              "wallet": 6000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 5500,
+              "wallet": 4000
             },
             "turkey": {
               "cardUrls": [
@@ -1006,10 +962,7 @@
           },
           "summary": "Полная версия игры",
           "title": "Forza Horizon 5 — Standard Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 5500
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {},
@@ -1033,27 +986,23 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 10800,
+            "india": 8700,
             "turkey": 6400
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
+                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
               ],
               "cards": [
-                3000,
-                3000,
-                3000
+                2000,
+                5000
               ],
-              "cost": 9567,
+              "cost": 7430,
               "maxDeliveredCodes": 3,
-              "price": 10800,
-              "wallet": 9000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 8700,
+              "wallet": 7000
             },
             "turkey": {
               "cardUrls": [
@@ -1083,10 +1032,7 @@
           },
           "summary": "Игра, Car Pass, два дополнения и VIP",
           "title": "Forza Horizon 5 — Premium Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 8700
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {},
@@ -1108,25 +1054,21 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7600,
+            "india": 6600,
             "turkey": 7800
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
               ],
               "cards": [
-                3000,
-                3000
+                5000
               ],
-              "cost": 6378,
+              "cost": 5307,
               "maxDeliveredCodes": 2,
-              "price": 7600,
-              "wallet": 6000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 6600,
+              "wallet": 5000
             },
             "turkey": {
               "cardUrls": [
@@ -1156,10 +1098,7 @@
           },
           "summary": "Игра + 3 бонуса",
           "title": "007 First Light — Deluxe Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 6600
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {},
@@ -1179,25 +1118,21 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7600,
+            "india": 6600,
             "turkey": 7900
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
               ],
               "cards": [
-                3000,
-                3000
+                5000
               ],
-              "cost": 6378,
+              "cost": 5307,
               "maxDeliveredCodes": 2,
-              "price": 7600,
-              "wallet": 6000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 6600,
+              "wallet": 5000
             },
             "turkey": {
               "cardUrls": [
@@ -1227,10 +1162,7 @@
           },
           "summary": "Игра и дополнительный контент",
           "title": "Onimusha: Way of the Sword — Standard Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 6600
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {},
@@ -1251,25 +1183,21 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7600,
+            "india": 6600,
             "turkey": 8800
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
               ],
               "cards": [
-                3000,
-                3000
+                5000
               ],
-              "cost": 6378,
+              "cost": 5307,
               "maxDeliveredCodes": 2,
-              "price": 7600,
-              "wallet": 6000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 6600,
+              "wallet": 5000
             },
             "turkey": {
               "cardUrls": [
@@ -1299,10 +1227,7 @@
           },
           "summary": "Игра + 2 бонуса",
           "title": "Onimusha: Way of the Sword — Deluxe Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 6600
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {},
@@ -1388,25 +1313,23 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7600,
+            "india": 5500,
             "turkey": 6900
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
               ],
               "cards": [
-                3000,
-                3000
+                2000,
+                2000
               ],
-              "cost": 6378,
+              "cost": 4246,
               "maxDeliveredCodes": 2,
-              "price": 7600,
-              "wallet": 6000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 5500,
+              "wallet": 4000
             },
             "turkey": {
               "cardUrls": [
@@ -1436,10 +1359,7 @@
           },
           "summary": "Полная версия игры",
           "title": "The Blood of Dawnwalker — Standard Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 5500
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {},
@@ -1461,25 +1381,21 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7600,
+            "india": 6600,
             "turkey": 7800
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
               ],
               "cards": [
-                3000,
-                3000
+                5000
               ],
-              "cost": 6378,
+              "cost": 5307,
               "maxDeliveredCodes": 2,
-              "price": 7600,
-              "wallet": 6000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 6600,
+              "wallet": 5000
             },
             "turkey": {
               "cardUrls": [
@@ -1509,10 +1425,7 @@
           },
           "summary": "Игра + 3 бонуса",
           "title": "The Blood of Dawnwalker — Eclipse Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 6600
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {},
@@ -1531,25 +1444,23 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7600,
+            "india": 5500,
             "turkey": 6400
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
               ],
               "cards": [
-                3000,
-                3000
+                2000,
+                2000
               ],
-              "cost": 6378,
+              "cost": 4246,
               "maxDeliveredCodes": 2,
-              "price": 7600,
-              "wallet": 6000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 5500,
+              "wallet": 4000
             },
             "turkey": {
               "cardUrls": [
@@ -1579,10 +1490,7 @@
           },
           "summary": "Полная версия игры",
           "title": "CONTROL Resonant — Standard Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 5500
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {},
@@ -1607,25 +1515,23 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7600,
+            "india": 5500,
             "turkey": 6900
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
               ],
               "cards": [
-                3000,
-                3000
+                2000,
+                2000
               ],
-              "cost": 6378,
+              "cost": 4246,
               "maxDeliveredCodes": 2,
-              "price": 7600,
-              "wallet": 6000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 5500,
+              "wallet": 4000
             },
             "turkey": {
               "cardUrls": [
@@ -1655,10 +1561,7 @@
           },
           "summary": "Игра и дополнительный контент",
           "title": "CONTROL Resonant — Digital Deluxe Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 5500
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {},
@@ -1742,25 +1645,23 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7600,
+            "india": 5500,
             "turkey": 6400
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
               ],
               "cards": [
-                3000,
-                3000
+                2000,
+                2000
               ],
-              "cost": 6378,
+              "cost": 4246,
               "maxDeliveredCodes": 2,
-              "price": 7600,
-              "wallet": 6000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 5500,
+              "wallet": 4000
             },
             "turkey": {
               "cardUrls": [
@@ -1790,10 +1691,7 @@
           },
           "summary": "Игра + 2 бонуса",
           "title": "SILENT HILL: Townfall — Deluxe Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 5500
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {},
@@ -1812,25 +1710,21 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7600,
+            "india": 6600,
             "turkey": 6000
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
               ],
               "cards": [
-                3000,
-                3000
+                5000
               ],
-              "cost": 6378,
+              "cost": 5307,
               "maxDeliveredCodes": 2,
-              "price": 7600,
-              "wallet": 6000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 6600,
+              "wallet": 5000
             },
             "turkey": {
               "cardUrls": [
@@ -1860,10 +1754,7 @@
           },
           "summary": "Полная версия игры",
           "title": "Phantom Blade Zero — Standard Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 6600
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {},
@@ -1951,25 +1842,21 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7600,
+            "india": 6600,
             "turkey": 6400
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
               ],
               "cards": [
-                3000,
-                3000
+                5000
               ],
-              "cost": 6378,
+              "cost": 5307,
               "maxDeliveredCodes": 2,
-              "price": 7600,
-              "wallet": 6000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 6600,
+              "wallet": 5000
             },
             "turkey": {
               "cardUrls": [
@@ -1999,10 +1886,7 @@
           },
           "summary": "Полная версия игры",
           "title": "Assassin’s Creed Black Flag Resynced — Standard Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 6600
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {},
@@ -2023,25 +1907,21 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7600,
+            "india": 6600,
             "turkey": 6900
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
               ],
               "cards": [
-                3000,
-                3000
+                5000
               ],
-              "cost": 6378,
+              "cost": 5307,
               "maxDeliveredCodes": 2,
-              "price": 7600,
-              "wallet": 6000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 6600,
+              "wallet": 5000
             },
             "turkey": {
               "cardUrls": [
@@ -2071,10 +1951,7 @@
           },
           "summary": "Игра + 2 бонуса",
           "title": "Assassin’s Creed Black Flag Resynced — Deluxe Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 6600
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {},
@@ -2291,27 +2168,23 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 10800,
+            "india": 8700,
             "turkey": 7800
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
+                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
               ],
               "cards": [
-                3000,
-                3000,
-                3000
+                2000,
+                5000
               ],
-              "cost": 9567,
+              "cost": 7430,
               "maxDeliveredCodes": 3,
-              "price": 10800,
-              "wallet": 9000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 8700,
+              "wallet": 7000
             },
             "turkey": {
               "cardUrls": [
@@ -2341,10 +2214,7 @@
           },
           "summary": "Игра и дополнительный контент",
           "title": "Atomic Heart — Gold Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 8700
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {},
@@ -2367,25 +2237,21 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 7600,
+            "india": 6600,
             "turkey": 2700
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
               ],
               "cards": [
-                3000,
-                3000
+                5000
               ],
-              "cost": 6378,
+              "cost": 5307,
               "maxDeliveredCodes": 2,
-              "price": 7600,
-              "wallet": 6000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 6600,
+              "wallet": 5000
             },
             "turkey": {
               "cardUrls": [
@@ -2413,10 +2279,7 @@
           },
           "summary": "Игра + 4 бонуса",
           "title": "Borderlands 3 — Next Level Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 6600
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {},
@@ -2442,27 +2305,23 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 10800,
+            "india": 8700,
             "turkey": 7800
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
+                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
               ],
               "cards": [
-                3000,
-                3000,
-                3000
+                2000,
+                5000
               ],
-              "cost": 9567,
+              "cost": 7430,
               "maxDeliveredCodes": 3,
-              "price": 10800,
-              "wallet": 9000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 8700,
+              "wallet": 7000
             },
             "turkey": {
               "cardUrls": [
@@ -2492,10 +2351,7 @@
           },
           "summary": "Игра, два Season Pass и бонусный контент",
           "title": "Borderlands 3 — Ultimate Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 8700
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {},
@@ -2717,25 +2573,23 @@
           "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 7600,
+            "india": 5500,
             "turkey": 5500
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
               ],
               "cards": [
-                3000,
-                3000
+                2000,
+                2000
               ],
-              "cost": 6378,
+              "cost": 4246,
               "maxDeliveredCodes": 2,
-              "price": 7600,
-              "wallet": 6000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 5500,
+              "wallet": 4000
             },
             "turkey": {
               "cardUrls": [
@@ -2765,10 +2619,7 @@
           },
           "summary": "Игра и дополнительный контент",
           "title": "Just Cause 4 — Gold Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 5500
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {},
@@ -2789,25 +2640,21 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 7600,
+            "india": 6600,
             "turkey": 6900
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
               ],
               "cards": [
-                3000,
-                3000
+                5000
               ],
-              "cost": 6378,
+              "cost": 5307,
               "maxDeliveredCodes": 2,
-              "price": 7600,
-              "wallet": 6000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 6600,
+              "wallet": 5000
             },
             "turkey": {
               "cardUrls": [
@@ -2837,10 +2684,7 @@
           },
           "summary": "Игра + 2 бонуса",
           "title": "Jujutsu Kaisen Cursed Clash — Deluxe Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 6600
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {},
@@ -2982,48 +2826,44 @@
           },
           "imageRole": "MASTER",
           "oldPrices": {
-            "india": 5500,
-            "turkey": 7400
+            "india": 6500,
+            "turkey": 8800
           },
           "platform": "PS5",
           "prices": {
-            "india": 7600,
-            "turkey": 8800
+            "india": 5500,
+            "turkey": 7400
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
               ],
               "cards": [
-                3000,
-                3000
+                2000,
+                2000
               ],
-              "cost": 6378,
+              "cost": 4246,
               "maxDeliveredCodes": 2,
-              "price": 7600,
-              "wallet": 6000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 5500,
+              "wallet": 4000
             },
             "turkey": {
               "cardUrls": [
                 "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139"
               ],
               "cards": [
                 1000,
-                1000,
-                2000
+                750,
+                1500
               ],
-              "cost": 7532,
+              "cost": 6110,
               "maxDeliveredCodes": 3,
-              "price": 8800,
-              "wallet": 4000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 7400,
+              "wallet": 3250
             }
           },
           "release": "Уже в продаже",
@@ -3141,48 +2981,40 @@
           },
           "imageRole": "MASTER",
           "oldPrices": {
-            "india": 4400,
-            "turkey": 3100
+            "india": 7500,
+            "turkey": 5500
           },
           "platform": "PS5",
           "prices": {
-            "india": 7600,
-            "turkey": 5500
+            "india": 4400,
+            "turkey": 3100
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
                 "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
-                3000,
                 3000
               ],
-              "cost": 6378,
-              "maxDeliveredCodes": 2,
-              "price": 7600,
-              "wallet": 6000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "cost": 3189,
+              "maxDeliveredCodes": 1,
+              "price": 4400,
+              "wallet": 3000
             },
             "turkey": {
               "cardUrls": [
                 "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
               ],
               "cards": [
                 500,
-                1000,
-                750
+                500
               ],
-              "cost": 4215,
-              "maxDeliveredCodes": 3,
-              "price": 5500,
-              "wallet": 2250,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "cost": 1872,
+              "maxDeliveredCodes": 2,
+              "price": 3100,
+              "wallet": 1000
             }
           },
           "release": "Уже в продаже",
@@ -3225,48 +3057,43 @@
           },
           "imageRole": "MASTER",
           "oldPrices": {
-            "turkey": 6000,
-            "india": 5500
+            "turkey": 6900
           },
           "platform": "PS5",
           "prices": {
-            "india": 7600,
-            "turkey": 6900
+            "india": 5500,
+            "turkey": 6000
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
               ],
               "cards": [
-                3000,
-                3000
+                2000,
+                2000
               ],
-              "cost": 6378,
+              "cost": 4246,
               "maxDeliveredCodes": 2,
-              "price": 7600,
-              "wallet": 6000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 5500,
+              "wallet": 4000
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
                 "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
                 "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
               ],
               "cards": [
-                1000,
+                500,
                 1000,
                 1000
               ],
-              "cost": 5622,
+              "cost": 4684,
               "maxDeliveredCodes": 3,
-              "price": 6900,
-              "wallet": 3000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 5900,
+              "wallet": 2500
             }
           },
           "release": "Уже в продаже",
@@ -3310,48 +3137,44 @@
           },
           "imageRole": "MASTER",
           "oldPrices": {
-            "india": 5500,
-            "turkey": 6000
+            "india": 6500,
+            "turkey": 6900
           },
           "platform": "PS5",
           "prices": {
-            "india": 7600,
-            "turkey": 6900
+            "india": 5500,
+            "turkey": 6000
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
               ],
               "cards": [
-                3000,
-                3000
+                2000,
+                2000
               ],
-              "cost": 6378,
+              "cost": 4246,
               "maxDeliveredCodes": 2,
-              "price": 7600,
-              "wallet": 6000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 5500,
+              "wallet": 4000
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
                 "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
                 "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
               ],
               "cards": [
-                1000,
+                500,
                 1000,
                 1000
               ],
-              "cost": 5622,
+              "cost": 4684,
               "maxDeliveredCodes": 3,
-              "price": 6900,
-              "wallet": 3000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 5900,
+              "wallet": 2500
             }
           },
           "release": "Уже в продаже",
@@ -3399,43 +3222,37 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7600,
-            "turkey": 7800
+            "india": 6600,
+            "turkey": 6900
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
               ],
               "cards": [
-                3000,
-                3000
+                5000
               ],
-              "cost": 6378,
+              "cost": 5307,
               "maxDeliveredCodes": 2,
-              "price": 7600,
-              "wallet": 6000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 6600,
+              "wallet": 5000
             },
             "turkey": {
               "cardUrls": [
                 "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
                 "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139"
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
               ],
               "cards": [
                 1000,
                 1000,
-                1500
+                1000
               ],
-              "cost": 6579,
+              "cost": 5622,
               "maxDeliveredCodes": 3,
-              "price": 7800,
-              "wallet": 3500,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 6900,
+              "wallet": 3000
             }
           },
           "release": "Уже в продаже",
@@ -3449,11 +3266,7 @@
           },
           "summary": "Игра + 4 бонуса",
           "title": "Crimson Desert — Deluxe Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 6600,
-            "turkey": 6900
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {
@@ -3486,43 +3299,37 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7600,
-            "turkey": 8800
+            "india": 6600,
+            "turkey": 6900
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
               ],
               "cards": [
-                3000,
-                3000
+                5000
               ],
-              "cost": 6378,
+              "cost": 5307,
               "maxDeliveredCodes": 2,
-              "price": 7600,
-              "wallet": 6000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 6600,
+              "wallet": 5000
             },
             "turkey": {
               "cardUrls": [
                 "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
                 "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
               ],
               "cards": [
                 1000,
                 1000,
-                2000
+                1000
               ],
-              "cost": 7532,
+              "cost": 5622,
               "maxDeliveredCodes": 3,
-              "price": 8800,
-              "wallet": 4000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 6900,
+              "wallet": 3000
             }
           },
           "release": "Уже в продаже",
@@ -3536,11 +3343,7 @@
           },
           "summary": "Игра + 3 бонуса",
           "title": "SAROS — Digital Deluxe Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 6600,
-            "turkey": 6900
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {
@@ -3646,45 +3449,37 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 10800,
-            "turkey": 10200
+            "india": 4400,
+            "turkey": 4100
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
                 "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
               ],
               "cards": [
-                3000,
-                3000,
                 3000
               ],
-              "cost": 9567,
-              "maxDeliveredCodes": 3,
-              "price": 10800,
-              "wallet": 9000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "cost": 3189,
+              "maxDeliveredCodes": 1,
+              "price": 4400,
+              "wallet": 3000
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
-                "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139",
-                "https://plati.market/itm/24-7-auto-playstation-2500-try-gift-card/5250604"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
               ],
               "cards": [
-                750,
-                1500,
-                2500
+                500,
+                500,
+                500
               ],
-              "cost": 8967,
+              "cost": 2808,
               "maxDeliveredCodes": 3,
-              "price": 10200,
-              "wallet": 4750,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 4100,
+              "wallet": 1500
             }
           },
           "release": "Уже в продаже",
@@ -3698,11 +3493,7 @@
           },
           "summary": "Игра, Atomic Pass, облики оружия и артбук",
           "title": "Atomic Heart — Ultimate Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 4400,
-            "turkey": 4100
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {
@@ -3732,39 +3523,29 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 7600,
-            "turkey": 2200
+            "india": 2300,
+            "turkey": 1700
           },
           "pricingBasis": {
             "india": {
-              "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
-              ],
               "cards": [
-                3000,
-                3000
+                1000
               ],
-              "cost": 6378,
-              "maxDeliveredCodes": 2,
-              "price": 7600,
-              "wallet": 6000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "cost": 1073,
+              "price": 2300,
+              "wallet": 1000
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
+                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
               ],
               "cards": [
-                500
+                250
               ],
-              "cost": 936,
+              "cost": 468,
               "maxDeliveredCodes": 1,
-              "price": 2200,
-              "wallet": 500,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 1700,
+              "wallet": 250
             }
           },
           "release": "Уже в продаже",
@@ -3778,11 +3559,7 @@
           },
           "summary": "Полная версия игры",
           "title": "Borderlands 3 — Standard Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 2300,
-            "turkey": 1700
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {
@@ -3819,43 +3596,29 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 7600,
-            "turkey": 6900
+            "india": 2300,
+            "turkey": 2200
           },
           "pricingBasis": {
             "india": {
-              "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
-              ],
               "cards": [
-                3000,
-                3000
+                1000
               ],
-              "cost": 6378,
-              "maxDeliveredCodes": 2,
-              "price": 7600,
-              "wallet": 6000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "cost": 1073,
+              "price": 2300,
+              "wallet": 1000
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
               ],
               "cards": [
-                1000,
-                1000,
-                1000
+                500
               ],
-              "cost": 5622,
-              "maxDeliveredCodes": 3,
-              "price": 6900,
-              "wallet": 3000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "cost": 936,
+              "maxDeliveredCodes": 1,
+              "price": 2200,
+              "wallet": 500
             }
           },
           "release": "Уже в продаже",
@@ -3869,11 +3632,7 @@
           },
           "summary": "Игра, Season Pass и бонусы Deluxe",
           "title": "Borderlands 3 — Super Deluxe Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 2300,
-            "turkey": 2200
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {
@@ -3907,43 +3666,31 @@
           "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 7600,
-            "turkey": 7800
+            "india": 2300,
+            "turkey": 2700
           },
           "pricingBasis": {
             "india": {
-              "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
-              ],
               "cards": [
-                3000,
-                3000
+                1000
               ],
-              "cost": 6378,
-              "maxDeliveredCodes": 2,
-              "price": 7600,
-              "wallet": 6000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "cost": 1073,
+              "price": 2300,
+              "wallet": 1000
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139"
+                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
               ],
               "cards": [
-                1000,
-                1000,
-                1500
+                250,
+                500
               ],
-              "cost": 6579,
-              "maxDeliveredCodes": 3,
-              "price": 7800,
-              "wallet": 3500,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "cost": 1404,
+              "maxDeliveredCodes": 2,
+              "price": 2700,
+              "wallet": 750
             }
           },
           "release": "Уже в продаже",
@@ -3957,11 +3704,7 @@
           },
           "summary": "Игра и дополнительный контент",
           "title": "Assassin’s Creed Origins — Deluxe Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 2300,
-            "turkey": 2700
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {
@@ -3998,43 +3741,29 @@
           "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 7600,
-            "turkey": 5900
+            "india": 2300,
+            "turkey": 2200
           },
           "pricingBasis": {
             "india": {
-              "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
-              ],
               "cards": [
-                3000,
-                3000
+                1000
               ],
-              "cost": 6378,
-              "maxDeliveredCodes": 2,
-              "price": 7600,
-              "wallet": 6000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "cost": 1073,
+              "price": 2300,
+              "wallet": 1000
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
               ],
               "cards": [
-                500,
-                1000,
-                1000
+                500
               ],
-              "cost": 4684,
-              "maxDeliveredCodes": 3,
-              "price": 5900,
-              "wallet": 2500,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "cost": 936,
+              "maxDeliveredCodes": 1,
+              "price": 2200,
+              "wallet": 500
             }
           },
           "release": "Уже в продаже",
@@ -4048,11 +3777,7 @@
           },
           "summary": "Игра и дополнительный контент",
           "title": "Just Cause 4 — Complete Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 2300,
-            "turkey": 2200
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {
@@ -4082,43 +3807,35 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 7600,
-            "turkey": 5500
+            "india": 3400,
+            "turkey": 2700
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
               ],
               "cards": [
-                3000,
-                3000
+                2000
               ],
-              "cost": 6378,
-              "maxDeliveredCodes": 2,
-              "price": 7600,
-              "wallet": 6000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "cost": 2123,
+              "maxDeliveredCodes": 1,
+              "price": 3400,
+              "wallet": 2000
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543"
+                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
               ],
               "cards": [
-                500,
-                1000,
-                750
+                250,
+                500
               ],
-              "cost": 4215,
-              "maxDeliveredCodes": 3,
-              "price": 5500,
-              "wallet": 2250,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "cost": 1404,
+              "maxDeliveredCodes": 2,
+              "price": 2700,
+              "wallet": 750
             }
           },
           "release": "Уже в продаже",
@@ -4132,11 +3849,7 @@
           },
           "summary": "Полная версия игры",
           "title": "Jujutsu Kaisen Cursed Clash — Standard Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 3400,
-            "turkey": 2700
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {
@@ -4170,45 +3883,37 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 10800,
-            "turkey": 7800
+            "india": 3400,
+            "turkey": 3600
           },
           "pricingBasis": {
             "india": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
               ],
               "cards": [
-                3000,
-                3000,
-                3000
+                2000
               ],
-              "cost": 9567,
-              "maxDeliveredCodes": 3,
-              "price": 10800,
-              "wallet": 9000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "cost": 2123,
+              "maxDeliveredCodes": 1,
+              "price": 3400,
+              "wallet": 2000
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139"
+                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
               ],
               "cards": [
-                1000,
-                1000,
-                1500
+                250,
+                500,
+                500
               ],
-              "cost": 6579,
+              "cost": 2340,
               "maxDeliveredCodes": 3,
-              "price": 7800,
-              "wallet": 3500,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "price": 3600,
+              "wallet": 1250
             }
           },
           "release": "Уже в продаже",
@@ -4222,11 +3927,7 @@
           },
           "summary": "Игра + 4 бонуса",
           "title": "Jujutsu Kaisen Cursed Clash — Ultimate Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 3400,
-            "turkey": 3600
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {
@@ -4264,43 +3965,29 @@
           "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 7600,
-            "turkey": 4100
+            "india": 2300,
+            "turkey": 1700
           },
           "pricingBasis": {
             "india": {
-              "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
-              ],
               "cards": [
-                3000,
-                3000
+                1000
               ],
-              "cost": 6378,
-              "maxDeliveredCodes": 2,
-              "price": 7600,
-              "wallet": 6000,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "cost": 1073,
+              "price": 2300,
+              "wallet": 1000
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
-                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
-                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
+                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
               ],
               "cards": [
-                500,
-                500,
-                500
+                250
               ],
-              "cost": 2808,
-              "maxDeliveredCodes": 3,
-              "price": 4100,
-              "wallet": 1500,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-06"
+              "cost": 468,
+              "maxDeliveredCodes": 1,
+              "price": 1700,
+              "wallet": 250
             }
           },
           "release": "Уже в продаже",
@@ -4314,11 +4001,7 @@
           },
           "summary": "Игра и дополнительный контент",
           "title": "Golf With Your Friends — Ultimate Edition",
-          "verifiedAt": "2026-09-05",
-          "oldPrices": {
-            "india": 2300,
-            "turkey": 1700
-          }
+          "verifiedAt": "2026-09-05"
         },
         {
           "discounts": {
@@ -4392,654 +4075,654 @@
       "title": "Акции PS Store"
     },
     {
-      "id": "cooperative",
-      "title": "Игры на двоих",
       "games": [
         {
-          "gameId": "split-fiction",
-          "editionId": "standard",
+          "discounts": {
+            "india": {
+              "endsAt": "2026-09-09T22:59:00Z",
+              "percent": 35,
+              "storeOriginal": 3999
+            },
+            "turkey": {
+              "endsAt": "2026-09-09T22:59:00Z",
+              "percent": 35,
+              "storeOriginal": 1800
+            }
+          },
           "edition": "Standard Edition",
+          "editionId": "standard",
           "editionOrder": 0,
-          "title": "Split Fiction — Standard Edition",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202502/2109/0c582584b280e3bf8872316fd4626ec084efaeb9ba436c65.png",
-          "imageRole": "MASTER",
-          "platform": "PS5",
-          "release": "Уже в продаже",
-          "summary": "Полная игра",
           "features": [
             "Полная версия игры"
           ],
-          "prices": {
-            "india": 4400,
-            "turkey": 3600
-          },
+          "gameId": "split-fiction",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202502/2109/0c582584b280e3bf8872316fd4626ec084efaeb9ba436c65.png",
+          "imageRole": "MASTER",
           "oldPrices": {
             "india": 5400,
             "turkey": 5000
           },
-          "storePrices": {
-            "india": 2599.0,
-            "turkey": 1170.0
-          },
-          "storeUrls": {
-            "india": "https://store.playstation.com/en-in/product/UP0006-PPSA08560_00-SPLITSTANDARDED0",
-            "turkey": "https://store.playstation.com/en-tr/product/UP0006-PPSA08560_00-SPLITSTANDARDED0"
+          "platform": "PS5",
+          "prices": {
+            "india": 4400,
+            "turkey": 3600
           },
           "pricingBasis": {
             "india": {
-              "cost": 3189,
               "cards": [
                 3000
               ],
-              "wallet": 3000,
-              "price": 4400,
+              "cost": 3189,
               "maxDeliveredCodes": 3,
+              "price": 4400,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05"
+              "verifiedAt": "2026-09-05",
+              "wallet": 3000
             },
             "turkey": {
-              "cost": 2340,
               "cards": [
                 250,
                 500,
                 500
               ],
-              "wallet": 1250,
-              "price": 3600,
+              "cost": 2340,
               "maxDeliveredCodes": 3,
+              "price": 3600,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05"
+              "verifiedAt": "2026-09-05",
+              "wallet": 1250
             }
           },
-          "discounts": {
-            "india": {
-              "percent": 35,
-              "endsAt": "2026-09-09T22:59:00Z",
-              "storeOriginal": 3999.0
-            },
-            "turkey": {
-              "percent": 35,
-              "endsAt": "2026-09-09T22:59:00Z",
-              "storeOriginal": 1800.0
-            }
+          "release": "Уже в продаже",
+          "storePrices": {
+            "india": 2599,
+            "turkey": 1170
           },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP0006-PPSA08560_00-SPLITSTANDARDED0",
+            "turkey": "https://store.playstation.com/en-tr/product/UP0006-PPSA08560_00-SPLITSTANDARDED0"
+          },
+          "summary": "Полная игра",
+          "title": "Split Fiction — Standard Edition",
           "verifiedAt": "2026-09-05"
         },
         {
-          "gameId": "it-takes-two",
-          "editionId": "standard",
+          "discounts": {
+            "india": {
+              "endsAt": "2026-09-09T22:59:00Z",
+              "percent": 70,
+              "storeOriginal": 2499
+            },
+            "turkey": {
+              "endsAt": "2026-09-09T22:59:00Z",
+              "percent": 70,
+              "storeOriginal": 1499.99
+            }
+          },
           "edition": "Standard Edition",
+          "editionId": "standard",
           "editionOrder": 0,
-          "title": "It Takes Two — Standard Edition",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202012/0815/7CRynuLSAb0vysSC4TmZy5e4.png",
-          "imageRole": "MASTER",
-          "platform": "PS4 / PS5",
-          "release": "Уже в продаже",
-          "summary": "Полная игра",
           "features": [
             "Полная версия игры"
           ],
-          "prices": {
-            "india": 3400,
-            "turkey": 2200
-          },
+          "gameId": "it-takes-two",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202012/0815/7CRynuLSAb0vysSC4TmZy5e4.png",
+          "imageRole": "MASTER",
           "oldPrices": {
             "india": 4400,
             "turkey": 4100
           },
+          "platform": "PS4 / PS5",
+          "prices": {
+            "india": 3400,
+            "turkey": 2200
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000
+              ],
+              "cost": 2123,
+              "maxDeliveredCodes": 3,
+              "price": 3400,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05",
+              "wallet": 2000
+            },
+            "turkey": {
+              "cards": [
+                500
+              ],
+              "cost": 936,
+              "maxDeliveredCodes": 3,
+              "price": 2200,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05",
+              "wallet": 500
+            }
+          },
+          "release": "Уже в продаже",
           "storePrices": {
-            "india": 749.0,
+            "india": 749,
             "turkey": 449.99
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/EP0006-PPSA02343_00-ITTAKESTWORETAIL",
             "turkey": "https://store.playstation.com/en-tr/product/EP0006-PPSA02343_00-ITTAKESTWORETAIL"
           },
-          "pricingBasis": {
-            "india": {
-              "cost": 2123,
-              "cards": [
-                2000
-              ],
-              "wallet": 2000,
-              "price": 3400,
-              "maxDeliveredCodes": 3,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05"
-            },
-            "turkey": {
-              "cost": 936,
-              "cards": [
-                500
-              ],
-              "wallet": 500,
-              "price": 2200,
-              "maxDeliveredCodes": 3,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05"
-            }
-          },
-          "discounts": {
-            "india": {
-              "percent": 70,
-              "endsAt": "2026-09-09T22:59:00Z",
-              "storeOriginal": 2499.0
-            },
-            "turkey": {
-              "percent": 70,
-              "endsAt": "2026-09-09T22:59:00Z",
-              "storeOriginal": 1499.99
-            }
-          },
+          "summary": "Полная игра",
+          "title": "It Takes Two — Standard Edition",
           "verifiedAt": "2026-09-05"
         },
         {
-          "gameId": "a-way-out",
-          "editionId": "standard",
+          "discounts": {
+            "india": {
+              "endsAt": "2026-09-09T22:59:00Z",
+              "percent": 70,
+              "storeOriginal": 1499
+            },
+            "turkey": {
+              "endsAt": "2026-09-09T22:59:00Z",
+              "percent": 70,
+              "storeOriginal": 1049
+            }
+          },
           "edition": "Standard Edition",
+          "editionId": "standard",
           "editionOrder": 0,
-          "title": "A Way Out — Standard Edition",
-          "image": "https://image.api.playstation.com/cdn/EP0006/CUSA08004_00/uYjNSTuC1lpCeOLL7M6Gye9tUH28W8F3.png",
-          "imageRole": "MASTER",
-          "platform": "PS4 / PS5 (обратная совместимость)",
-          "release": "Уже в продаже",
-          "summary": "Полная игра",
           "features": [
             "Полная версия игры"
           ],
-          "prices": {
-            "india": 3400,
-            "turkey": 2200
-          },
+          "gameId": "a-way-out",
+          "image": "https://image.api.playstation.com/cdn/EP0006/CUSA08004_00/uYjNSTuC1lpCeOLL7M6Gye9tUH28W8F3.png",
+          "imageRole": "MASTER",
           "oldPrices": {
             "india": 3400,
             "turkey": 3600
           },
+          "platform": "PS4 / PS5 (обратная совместимость)",
+          "prices": {
+            "india": 3400,
+            "turkey": 2200
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000
+              ],
+              "cost": 2123,
+              "maxDeliveredCodes": 3,
+              "price": 3400,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05",
+              "wallet": 2000
+            },
+            "turkey": {
+              "cards": [
+                500
+              ],
+              "cost": 936,
+              "maxDeliveredCodes": 3,
+              "price": 2200,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05",
+              "wallet": 500
+            }
+          },
+          "release": "Уже в продаже",
           "storePrices": {
-            "india": 449.0,
+            "india": 449,
             "turkey": 314.7
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/EP0006-CUSA08004_00-AWAYOUTEU0000000",
             "turkey": "https://store.playstation.com/en-tr/product/EP0006-CUSA08004_00-AWAYOUTEU0000000"
           },
-          "pricingBasis": {
-            "india": {
-              "cost": 2123,
-              "cards": [
-                2000
-              ],
-              "wallet": 2000,
-              "price": 3400,
-              "maxDeliveredCodes": 3,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05"
-            },
-            "turkey": {
-              "cost": 936,
-              "cards": [
-                500
-              ],
-              "wallet": 500,
-              "price": 2200,
-              "maxDeliveredCodes": 3,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05"
-            }
-          },
-          "discounts": {
-            "india": {
-              "percent": 70,
-              "endsAt": "2026-09-09T22:59:00Z",
-              "storeOriginal": 1499.0
-            },
-            "turkey": {
-              "percent": 70,
-              "endsAt": "2026-09-09T22:59:00Z",
-              "storeOriginal": 1049.0
-            }
-          },
+          "summary": "Полная игра",
+          "title": "A Way Out — Standard Edition",
           "verifiedAt": "2026-09-05"
         },
         {
-          "gameId": "sackboy",
-          "editionId": "standard",
+          "discounts": {
+            "india": {
+              "endsAt": "2026-09-09T22:59:00Z",
+              "percent": 67,
+              "storeOriginal": 3999
+            },
+            "turkey": {
+              "endsAt": "2026-09-09T22:59:00Z",
+              "percent": 67,
+              "storeOriginal": 3249
+            }
+          },
           "edition": "Standard Edition",
+          "editionId": "standard",
           "editionOrder": 0,
-          "title": "Sackboy: A Big Adventure — Standard Edition",
-          "image": "https://image.api.playstation.com/vulcan/img/rnd/202010/1614/TJiBEQMJ9qa93lWBu4sKScY9.png",
-          "imageRole": "MASTER",
-          "platform": "PS4 / PS5",
-          "release": "Уже в продаже",
-          "summary": "Полная игра",
           "features": [
             "Полная версия игры"
           ],
-          "prices": {
-            "india": 3400,
-            "turkey": 3600
-          },
+          "gameId": "sackboy",
+          "image": "https://image.api.playstation.com/vulcan/img/rnd/202010/1614/TJiBEQMJ9qa93lWBu4sKScY9.png",
+          "imageRole": "MASTER",
           "oldPrices": {
             "india": 5400,
             "turkey": 7400
           },
+          "platform": "PS4 / PS5",
+          "prices": {
+            "india": 3400,
+            "turkey": 3600
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000
+              ],
+              "cost": 2123,
+              "maxDeliveredCodes": 3,
+              "price": 3400,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05",
+              "wallet": 2000
+            },
+            "turkey": {
+              "cards": [
+                250,
+                500,
+                500
+              ],
+              "cost": 2340,
+              "maxDeliveredCodes": 3,
+              "price": 3600,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05",
+              "wallet": 1250
+            }
+          },
+          "release": "Уже в продаже",
           "storePrices": {
-            "india": 1319.0,
+            "india": 1319,
             "turkey": 1072.17
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/EP9000-PPSA01288_00-SACKBOYADVENTURE",
             "turkey": "https://store.playstation.com/en-tr/product/EP9000-PPSA01288_00-SACKBOYADVENTURE"
           },
-          "pricingBasis": {
-            "india": {
-              "cost": 2123,
-              "cards": [
-                2000
-              ],
-              "wallet": 2000,
-              "price": 3400,
-              "maxDeliveredCodes": 3,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05"
-            },
-            "turkey": {
-              "cost": 2340,
-              "cards": [
-                250,
-                500,
-                500
-              ],
-              "wallet": 1250,
-              "price": 3600,
-              "maxDeliveredCodes": 3,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05"
-            }
-          },
-          "discounts": {
-            "india": {
-              "percent": 67,
-              "endsAt": "2026-09-09T22:59:00Z",
-              "storeOriginal": 3999.0
-            },
-            "turkey": {
-              "percent": 67,
-              "endsAt": "2026-09-09T22:59:00Z",
-              "storeOriginal": 3249.0
-            }
-          },
+          "summary": "Полная игра",
+          "title": "Sackboy: A Big Adventure — Standard Edition",
           "verifiedAt": "2026-09-05"
         },
         {
-          "gameId": "sackboy",
-          "editionId": "deluxe",
+          "discounts": {},
           "edition": "Digital Deluxe Edition",
+          "editionId": "deluxe",
           "editionOrder": 3,
-          "title": "Sackboy: A Big Adventure — Digital Deluxe Edition",
-          "image": "https://image.api.playstation.com/vulcan/img/rnd/202010/2912/22iZlOcD9QSCuGoq6Mt1mkel.png",
-          "imageRole": "MASTER",
-          "platform": "PS4 / PS5",
-          "release": "Уже в продаже",
-          "summary": "Игра и дополнительный контент",
           "features": [
             "Полная версия Sackboy: A Big Adventure",
             "Цифровой артбук и саундтрек",
             "Четыре костюма, четыре эмоции и 20 аватаров"
           ],
+          "gameId": "sackboy",
+          "image": "https://image.api.playstation.com/vulcan/img/rnd/202010/2912/22iZlOcD9QSCuGoq6Mt1mkel.png",
+          "imageRole": "MASTER",
+          "oldPrices": {},
+          "platform": "PS4 / PS5",
           "prices": {
             "india": 6600,
             "turkey": 7800
           },
-          "oldPrices": {},
-          "storePrices": {
-            "india": 4999.0,
-            "turkey": 3449.0
-          },
-          "storeUrls": {
-            "india": "https://store.playstation.com/en-in/product/EP9000-PPSA01288_00-DIGITALDELUXE001",
-            "turkey": "https://store.playstation.com/en-tr/product/EP9000-PPSA01288_00-DIGITALDELUXE001"
-          },
           "pricingBasis": {
             "india": {
-              "cost": 5312,
               "cards": [
                 2000,
                 3000
               ],
-              "wallet": 5000,
-              "price": 6600,
+              "cost": 5312,
               "maxDeliveredCodes": 3,
+              "price": 6600,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05"
+              "verifiedAt": "2026-09-05",
+              "wallet": 5000
             },
             "turkey": {
-              "cost": 6579,
               "cards": [
                 1000,
                 1000,
                 1500
               ],
-              "wallet": 3500,
-              "price": 7800,
+              "cost": 6579,
               "maxDeliveredCodes": 3,
+              "price": 7800,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05"
+              "verifiedAt": "2026-09-05",
+              "wallet": 3500
             }
           },
-          "discounts": {},
+          "release": "Уже в продаже",
+          "storePrices": {
+            "india": 4999,
+            "turkey": 3449
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP9000-PPSA01288_00-DIGITALDELUXE001",
+            "turkey": "https://store.playstation.com/en-tr/product/EP9000-PPSA01288_00-DIGITALDELUXE001"
+          },
+          "summary": "Игра и дополнительный контент",
+          "title": "Sackboy: A Big Adventure — Digital Deluxe Edition",
           "verifiedAt": "2026-09-05"
         },
         {
-          "gameId": "overcooked-all-you-can-eat",
-          "editionId": "standard",
+          "discounts": {
+            "india": {
+              "endsAt": "2026-09-09T22:59:00Z",
+              "percent": 70,
+              "storeOriginal": 2499
+            },
+            "turkey": {
+              "endsAt": "2026-09-09T22:59:00Z",
+              "percent": 70,
+              "storeOriginal": 1399
+            }
+          },
           "edition": "Standard Edition",
+          "editionId": "standard",
           "editionOrder": 0,
-          "title": "Overcooked! All You Can Eat — Standard Edition",
-          "image": "https://image.api.playstation.com/vulcan/img/rnd/202011/2700/hKBAhyUmI0fv5JrDxITp5rRJ.png",
-          "imageRole": "MASTER",
-          "platform": "PS4 / PS5",
-          "release": "Уже в продаже",
-          "summary": "Полная игра",
           "features": [
             "Полная версия игры"
           ],
-          "prices": {
-            "india": 3400,
-            "turkey": 2200
-          },
+          "gameId": "overcooked-all-you-can-eat",
+          "image": "https://image.api.playstation.com/vulcan/img/rnd/202011/2700/hKBAhyUmI0fv5JrDxITp5rRJ.png",
+          "imageRole": "MASTER",
           "oldPrices": {
             "india": 4400,
             "turkey": 4100
           },
+          "platform": "PS4 / PS5",
+          "prices": {
+            "india": 3400,
+            "turkey": 2200
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000
+              ],
+              "cost": 2123,
+              "maxDeliveredCodes": 3,
+              "price": 3400,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05",
+              "wallet": 2000
+            },
+            "turkey": {
+              "cards": [
+                500
+              ],
+              "cost": 936,
+              "maxDeliveredCodes": 3,
+              "price": 2200,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05",
+              "wallet": 500
+            }
+          },
+          "release": "Уже в продаже",
           "storePrices": {
-            "india": 749.0,
+            "india": 749,
             "turkey": 419.7
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/EP4064-PPSA01528_00-0538983162460184",
             "turkey": "https://store.playstation.com/en-tr/product/EP4064-PPSA01528_00-0538983162460184"
           },
-          "pricingBasis": {
-            "india": {
-              "cost": 2123,
-              "cards": [
-                2000
-              ],
-              "wallet": 2000,
-              "price": 3400,
-              "maxDeliveredCodes": 3,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05"
-            },
-            "turkey": {
-              "cost": 936,
-              "cards": [
-                500
-              ],
-              "wallet": 500,
-              "price": 2200,
-              "maxDeliveredCodes": 3,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05"
-            }
-          },
-          "discounts": {
-            "india": {
-              "percent": 70,
-              "endsAt": "2026-09-09T22:59:00Z",
-              "storeOriginal": 2499.0
-            },
-            "turkey": {
-              "percent": 70,
-              "endsAt": "2026-09-09T22:59:00Z",
-              "storeOriginal": 1399.0
-            }
-          },
+          "summary": "Полная игра",
+          "title": "Overcooked! All You Can Eat — Standard Edition",
           "verifiedAt": "2026-09-05"
         },
         {
-          "gameId": "unravel-two",
-          "editionId": "standard",
+          "discounts": {
+            "india": {
+              "endsAt": "2026-09-09T22:59:00Z",
+              "percent": 75,
+              "storeOriginal": 1664
+            },
+            "turkey": {
+              "endsAt": "2026-09-09T22:59:00Z",
+              "percent": 75,
+              "storeOriginal": 99.99
+            }
+          },
           "edition": "Standard Edition",
+          "editionId": "standard",
           "editionOrder": 0,
-          "title": "Unravel Two — Standard Edition",
-          "image": "https://image.api.playstation.com/cdn/EP0006/CUSA10416_00/7OtAlABbzptPIcDGDueFSbuTT8OSaVZk.png",
-          "imageRole": "MASTER",
-          "platform": "PS4 / PS5 (обратная совместимость)",
-          "release": "Уже в продаже",
-          "summary": "Полная игра",
           "features": [
             "Полная версия игры"
           ],
-          "prices": {
-            "india": 3400,
-            "turkey": 1700
-          },
+          "gameId": "unravel-two",
+          "image": "https://image.api.playstation.com/cdn/EP0006/CUSA10416_00/7OtAlABbzptPIcDGDueFSbuTT8OSaVZk.png",
+          "imageRole": "MASTER",
           "oldPrices": {
             "india": 3400,
             "turkey": 1700
           },
+          "platform": "PS4 / PS5 (обратная совместимость)",
+          "prices": {
+            "india": 3400,
+            "turkey": 1700
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000
+              ],
+              "cost": 2123,
+              "maxDeliveredCodes": 3,
+              "price": 3400,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05",
+              "wallet": 2000
+            },
+            "turkey": {
+              "cards": [
+                250
+              ],
+              "cost": 468,
+              "maxDeliveredCodes": 3,
+              "price": 1700,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-05",
+              "wallet": 250
+            }
+          },
+          "release": "Уже в продаже",
           "storePrices": {
-            "india": 416.0,
+            "india": 416,
             "turkey": 24.99
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/EP0006-CUSA10416_00-COLDWOODPIKE0000",
             "turkey": "https://store.playstation.com/en-tr/product/EP0006-CUSA10416_00-COLDWOODPIKE0000"
           },
-          "pricingBasis": {
-            "india": {
-              "cost": 2123,
-              "cards": [
-                2000
-              ],
-              "wallet": 2000,
-              "price": 3400,
-              "maxDeliveredCodes": 3,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05"
-            },
-            "turkey": {
-              "cost": 468,
-              "cards": [
-                250
-              ],
-              "wallet": 250,
-              "price": 1700,
-              "maxDeliveredCodes": 3,
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05"
-            }
-          },
-          "discounts": {
-            "india": {
-              "percent": 75,
-              "endsAt": "2026-09-09T22:59:00Z",
-              "storeOriginal": 1664.0
-            },
-            "turkey": {
-              "percent": 75,
-              "endsAt": "2026-09-09T22:59:00Z",
-              "storeOriginal": 99.99
-            }
-          },
+          "summary": "Полная игра",
+          "title": "Unravel Two — Standard Edition",
           "verifiedAt": "2026-09-05"
         },
         {
-          "gameId": "remnant-2",
-          "editionId": "standard",
+          "discounts": {},
           "edition": "Standard Edition",
+          "editionId": "standard",
           "editionOrder": 0,
-          "title": "Remnant II — Standard Edition",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202402/1420/449bd276cdf2e237c35d7e76bedc1da2a532adcb65cedf69.png",
-          "imageRole": "MASTER",
-          "platform": "PS5",
-          "release": "Уже в продаже",
-          "summary": "Полная игра",
           "features": [
             "Полная версия игры"
           ],
+          "gameId": "remnant-2",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202402/1420/449bd276cdf2e237c35d7e76bedc1da2a532adcb65cedf69.png",
+          "imageRole": "MASTER",
+          "oldPrices": {},
+          "platform": "PS5",
           "prices": {
             "india": 6600,
             "turkey": 5500
           },
-          "oldPrices": {},
-          "storePrices": {
-            "india": 4162.0,
-            "turkey": 2149.0
-          },
-          "storeUrls": {
-            "india": "https://store.playstation.com/en-in/product/EP1965-PPSA06694_00-REM2STDPREORDER0",
-            "turkey": "https://store.playstation.com/en-tr/product/EP1965-PPSA06694_00-REM2STDPREORDER0"
-          },
           "pricingBasis": {
             "india": {
-              "cost": 5312,
               "cards": [
                 2000,
                 3000
               ],
-              "wallet": 5000,
-              "price": 6600,
+              "cost": 5312,
               "maxDeliveredCodes": 3,
+              "price": 6600,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05"
+              "verifiedAt": "2026-09-05",
+              "wallet": 5000
             },
             "turkey": {
-              "cost": 4215,
               "cards": [
                 500,
                 1000,
                 750
               ],
-              "wallet": 2250,
-              "price": 5500,
+              "cost": 4215,
               "maxDeliveredCodes": 3,
+              "price": 5500,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05"
+              "verifiedAt": "2026-09-05",
+              "wallet": 2250
             }
           },
-          "discounts": {},
+          "release": "Уже в продаже",
+          "storePrices": {
+            "india": 4162,
+            "turkey": 2149
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP1965-PPSA06694_00-REM2STDPREORDER0",
+            "turkey": "https://store.playstation.com/en-tr/product/EP1965-PPSA06694_00-REM2STDPREORDER0"
+          },
+          "summary": "Полная игра",
+          "title": "Remnant II — Standard Edition",
           "verifiedAt": "2026-09-05"
         },
         {
-          "gameId": "remnant-2",
-          "editionId": "deluxe",
+          "discounts": {},
           "edition": "Deluxe Edition",
+          "editionId": "deluxe",
           "editionOrder": 3,
-          "title": "Remnant II — Deluxe Edition",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202402/1420/449bd276cdf2e237c35d7e76bedc1da2a532adcb65cedf69.png",
-          "imageRole": "MASTER",
-          "platform": "PS5",
-          "release": "Уже в продаже",
-          "summary": "Игра и дополнительный контент",
           "features": [
             "Полная версия Remnant II",
             "Три комплекта брони из Remnant: From the Ashes"
           ],
+          "gameId": "remnant-2",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202402/1420/449bd276cdf2e237c35d7e76bedc1da2a532adcb65cedf69.png",
+          "imageRole": "MASTER",
+          "oldPrices": {},
+          "platform": "PS5",
           "prices": {
             "india": 5400,
             "turkey": 6400
           },
-          "oldPrices": {},
-          "storePrices": {
-            "india": 3499.0,
-            "turkey": 2579.0
-          },
-          "storeUrls": {
-            "india": "https://store.playstation.com/en-in/product/EP1965-PPSA06694_00-REM2DIGITALDELUX",
-            "turkey": "https://store.playstation.com/en-tr/product/EP1965-PPSA06694_00-REM2DIGITALDELUX"
-          },
           "pricingBasis": {
             "india": {
-              "cost": 4183,
               "cards": [
                 4000
               ],
-              "wallet": 4000,
-              "price": 5400,
+              "cost": 4183,
               "maxDeliveredCodes": 3,
+              "price": 5400,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05"
+              "verifiedAt": "2026-09-05",
+              "wallet": 4000
             },
             "turkey": {
-              "cost": 5153,
               "cards": [
                 1000,
                 1000,
                 750
               ],
-              "wallet": 2750,
-              "price": 6400,
+              "cost": 5153,
               "maxDeliveredCodes": 3,
+              "price": 6400,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05"
+              "verifiedAt": "2026-09-05",
+              "wallet": 2750
             }
           },
-          "discounts": {},
+          "release": "Уже в продаже",
+          "storePrices": {
+            "india": 3499,
+            "turkey": 2579
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP1965-PPSA06694_00-REM2DIGITALDELUX",
+            "turkey": "https://store.playstation.com/en-tr/product/EP1965-PPSA06694_00-REM2DIGITALDELUX"
+          },
+          "summary": "Игра и дополнительный контент",
+          "title": "Remnant II — Deluxe Edition",
           "verifiedAt": "2026-09-05"
         },
         {
-          "gameId": "remnant-2",
-          "editionId": "ultimate",
+          "discounts": {},
           "edition": "Ultimate Edition",
+          "editionId": "ultimate",
           "editionOrder": 5,
-          "title": "Remnant II — Ultimate Edition",
-          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202402/1420/449bd276cdf2e237c35d7e76bedc1da2a532adcb65cedf69.png",
-          "imageRole": "MASTER",
-          "platform": "PS5",
-          "release": "Уже в продаже",
-          "summary": "Игра и дополнительный контент",
           "features": [
             "Полная версия Remnant II",
             "Три комплекта брони из Remnant: From the Ashes",
             "Survival Pack",
             "Три дополнения из DLC Bundle"
           ],
+          "gameId": "remnant-2",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202402/1420/449bd276cdf2e237c35d7e76bedc1da2a532adcb65cedf69.png",
+          "imageRole": "MASTER",
+          "oldPrices": {},
+          "platform": "PS5",
           "prices": {
             "india": 5400,
             "turkey": 6900
           },
-          "oldPrices": {},
-          "storePrices": {
-            "india": 3999.0,
-            "turkey": 2999.0
-          },
-          "storeUrls": {
-            "india": "https://store.playstation.com/en-in/product/EP1965-PPSA06694_00-REM2ULTIMATE0000",
-            "turkey": "https://store.playstation.com/en-tr/product/EP1965-PPSA06694_00-REM2ULTIMATE0000"
-          },
           "pricingBasis": {
             "india": {
-              "cost": 4183,
               "cards": [
                 4000
               ],
-              "wallet": 4000,
-              "price": 5400,
+              "cost": 4183,
               "maxDeliveredCodes": 3,
+              "price": 5400,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05"
+              "verifiedAt": "2026-09-05",
+              "wallet": 4000
             },
             "turkey": {
-              "cost": 5622,
               "cards": [
                 1000,
                 1000,
                 1000
               ],
-              "wallet": 3000,
-              "price": 6900,
+              "cost": 5622,
               "maxDeliveredCodes": 3,
+              "price": 6900,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05"
+              "verifiedAt": "2026-09-05",
+              "wallet": 3000
             }
           },
-          "discounts": {},
+          "release": "Уже в продаже",
+          "storePrices": {
+            "india": 3999,
+            "turkey": 2999
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP1965-PPSA06694_00-REM2ULTIMATE0000",
+            "turkey": "https://store.playstation.com/en-tr/product/EP1965-PPSA06694_00-REM2ULTIMATE0000"
+          },
+          "summary": "Игра и дополнительный контент",
+          "title": "Remnant II — Ultimate Edition",
           "verifiedAt": "2026-09-05"
         }
-      ]
+      ],
+      "id": "cooperative",
+      "title": "Игры на двоих"
     }
   ],
   "margin": 1200,
@@ -5074,6 +4757,29 @@
       "release": "Уже в продаже",
       "releaseDate": "",
       "title": "007 First Light"
+    },
+    "a-way-out": {
+      "aliases": [
+        "э вей аут",
+        "побег"
+      ],
+      "description": "История совместного побега Лео и Винсента. Сюжетное приключение, рассчитанное на двух игроков.",
+      "image": "https://image.api.playstation.com/cdn/EP0006/CUSA08004_00/uYjNSTuC1lpCeOLL7M6Gye9tUH28W8F3.png",
+      "imageRole": "MASTER",
+      "multiplayer": {
+        "label": "2 игрока · сплит-скрин / по сети",
+        "local": true,
+        "note": "Версия PS4 работает на PS5. Можно пройти вдвоём на разделённом экране или по сети с Friend’s Pass; для онлайна нужен PS Plus.",
+        "online": true,
+        "source": "https://store.playstation.com/en-in/product/EP0006-CUSA08004_00-AWAYOUTEU0000000",
+        "split": true,
+        "verifiedAt": "2026-09-05"
+      },
+      "platform": "PS4 / PS5 (обратная совместимость)",
+      "priority": 27,
+      "release": "Уже в продаже",
+      "releaseDate": "",
+      "title": "A Way Out"
     },
     "ac-origins": {
       "aliases": [
@@ -5308,6 +5014,29 @@
       "releaseDate": "2026-11-19",
       "title": "Grand Theft Auto VI"
     },
+    "it-takes-two": {
+      "aliases": [
+        "ит тейкс ту",
+        "требуется двое"
+      ],
+      "description": "Кооперативное приключение Коди и Мэй: головоломки, платформинг и новые механики в каждой главе.",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202012/0815/7CRynuLSAb0vysSC4TmZy5e4.png",
+      "imageRole": "MASTER",
+      "multiplayer": {
+        "label": "2 игрока · сплит-скрин / по сети",
+        "local": true,
+        "note": "Только для двоих. На одной приставке нужны два контроллера; по сети доступен Friend’s Pass для второго игрока и требуется PS Plus.",
+        "online": true,
+        "source": "https://store.playstation.com/en-in/product/EP0006-PPSA02343_00-ITTAKESTWORETAIL",
+        "split": true,
+        "verifiedAt": "2026-09-05"
+      },
+      "platform": "PS4 / PS5",
+      "priority": 26,
+      "release": "Уже в продаже",
+      "releaseDate": "",
+      "title": "It Takes Two"
+    },
     "jujutsu-kaisen": {
       "aliases": [
         "магическая битва",
@@ -5405,6 +5134,30 @@
       "releaseDate": "",
       "title": "Onimusha: Way of the Sword"
     },
+    "overcooked-all-you-can-eat": {
+      "aliases": [
+        "оверкукед",
+        "оверк cooked",
+        "кухня"
+      ],
+      "description": "Кулинарный кооператив: готовьте, разносите заказы и договаривайтесь на хаотичных кухнях.",
+      "image": "https://image.api.playstation.com/vulcan/img/rnd/202011/2700/hKBAhyUmI0fv5JrDxITp5rRJ.png",
+      "imageRole": "MASTER",
+      "multiplayer": {
+        "label": "2–4 игрока · общий экран / по сети",
+        "local": true,
+        "note": "Включает Overcooked!, Overcooked! 2 и дополнительный контент. Локально — общий экран; по сети — до четырёх игроков с PS Plus.",
+        "online": true,
+        "source": "https://store.playstation.com/en-in/product/EP4064-PPSA01528_00-0538983162460184",
+        "split": false,
+        "verifiedAt": "2026-09-05"
+      },
+      "platform": "PS4 / PS5",
+      "priority": 29,
+      "release": "Уже в продаже",
+      "releaseDate": "",
+      "title": "Overcooked! All You Can Eat"
+    },
     "phantom-blade-zero": {
       "aliases": [
         "фантом блейд",
@@ -5443,6 +5196,52 @@
       "releaseDate": "",
       "title": "Red Dead Redemption 2"
     },
+    "remnant-2": {
+      "aliases": [
+        "ремнант",
+        "ремнант 2"
+      ],
+      "description": "Кооперативный экшен с огнестрельным оружием, исследованием миров и сложными боссами.",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202402/1420/449bd276cdf2e237c35d7e76bedc1da2a532adcb65cedf69.png",
+      "imageRole": "MASTER",
+      "multiplayer": {
+        "label": "2–3 игрока · только по сети",
+        "local": false,
+        "note": "Локального кооператива и сплит-скрина нет. Для совместной игры нужны отдельные приставки, доступ к игре и PS Plus.",
+        "online": true,
+        "source": "https://store.playstation.com/en-in/product/EP1965-PPSA06694_00-REM2STDPREORDER0",
+        "split": false,
+        "verifiedAt": "2026-09-05"
+      },
+      "platform": "PS5",
+      "priority": 31,
+      "release": "Уже в продаже",
+      "releaseDate": "",
+      "title": "Remnant II"
+    },
+    "sackboy": {
+      "aliases": [
+        "сэкбой",
+        "сакбой"
+      ],
+      "description": "Красочный платформер: исследуйте уровни и проходите испытания вместе с друзьями.",
+      "image": "https://image.api.playstation.com/vulcan/img/rnd/202010/1614/TJiBEQMJ9qa93lWBu4sKScY9.png",
+      "imageRole": "MASTER",
+      "multiplayer": {
+        "label": "2–4 игрока · общий экран / по сети",
+        "local": true,
+        "note": "На одной приставке — общий экран, по контроллеру на игрока. По сети поддерживается до четырёх игроков и нужен PS Plus.",
+        "online": true,
+        "source": "https://store.playstation.com/en-in/product/EP9000-PPSA01288_00-SACKBOYADVENTURE",
+        "split": false,
+        "verifiedAt": "2026-09-05"
+      },
+      "platform": "PS4 / PS5",
+      "priority": 28,
+      "release": "Уже в продаже",
+      "releaseDate": "",
+      "title": "Sackboy: A Big Adventure"
+    },
     "saros": {
       "aliases": [
         "сарос"
@@ -5479,6 +5278,29 @@
       "releaseDate": "2026-09-24",
       "title": "SILENT HILL: Townfall"
     },
+    "split-fiction": {
+      "aliases": [
+        "сплит фикшн",
+        "сплитфикшн"
+      ],
+      "description": "Приключение на двоих в фантастических мирах: один игрок управляет Мио, другой — Зои.",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202502/2109/0c582584b280e3bf8872316fd4626ec084efaeb9ba436c65.png",
+      "imageRole": "MASTER",
+      "multiplayer": {
+        "label": "2 игрока · сплит-скрин / по сети",
+        "local": true,
+        "note": "На одной PS5 нужны два DualSense. По сети друг может присоединиться через Friend’s Pass к владельцу полной игры; для онлайна нужен PS Plus.",
+        "online": true,
+        "source": "https://store.playstation.com/en-in/product/UP0006-PPSA08560_00-SPLITSTANDARDED0",
+        "split": true,
+        "verifiedAt": "2026-09-05"
+      },
+      "platform": "PS5",
+      "priority": 25,
+      "release": "Уже в продаже",
+      "releaseDate": "",
+      "title": "Split Fiction"
+    },
     "ufc-6": {
       "aliases": [
         "юфс",
@@ -5500,6 +5322,29 @@
       "releaseDate": "",
       "title": "EA SPORTS UFC 6"
     },
+    "unravel-two": {
+      "aliases": [
+        "анравел",
+        "анрейвел"
+      ],
+      "description": "Платформер о двух связанных нитью героях: помогайте друг другу преодолевать препятствия.",
+      "image": "https://image.api.playstation.com/cdn/EP0006/CUSA10416_00/7OtAlABbzptPIcDGDueFSbuTT8OSaVZk.png",
+      "imageRole": "MASTER",
+      "multiplayer": {
+        "label": "2 игрока · общий экран",
+        "local": true,
+        "note": "Кооператив только на одной приставке с общим экраном, без встроенного сетевого режима. Версия PS4 работает на PS5.",
+        "online": false,
+        "source": "https://store.playstation.com/en-in/product/EP0006-CUSA10416_00-COLDWOODPIKE0000",
+        "split": false,
+        "verifiedAt": "2026-09-05"
+      },
+      "platform": "PS4 / PS5 (обратная совместимость)",
+      "priority": 30,
+      "release": "Уже в продаже",
+      "releaseDate": "",
+      "title": "Unravel Two"
+    },
     "wolverine": {
       "aliases": [
         "росомаха",
@@ -5518,170 +5363,7 @@
       "release": "15 сентября",
       "releaseDate": "2026-09-15",
       "title": "Marvel’s Wolverine"
-    },
-    "split-fiction": {
-      "title": "Split Fiction",
-      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202502/2109/0c582584b280e3bf8872316fd4626ec084efaeb9ba436c65.png",
-      "imageRole": "MASTER",
-      "platform": "PS5",
-      "priority": 25,
-      "release": "Уже в продаже",
-      "releaseDate": "",
-      "description": "Приключение на двоих в фантастических мирах: один игрок управляет Мио, другой — Зои.",
-      "aliases": [
-        "сплит фикшн",
-        "сплитфикшн"
-      ],
-      "multiplayer": {
-        "local": true,
-        "split": true,
-        "online": true,
-        "label": "2 игрока · сплит-скрин / по сети",
-        "note": "На одной PS5 нужны два DualSense. По сети друг может присоединиться через Friend’s Pass к владельцу полной игры; для онлайна нужен PS Plus.",
-        "source": "https://store.playstation.com/en-in/product/UP0006-PPSA08560_00-SPLITSTANDARDED0",
-        "verifiedAt": "2026-09-05"
-      }
-    },
-    "it-takes-two": {
-      "title": "It Takes Two",
-      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202012/0815/7CRynuLSAb0vysSC4TmZy5e4.png",
-      "imageRole": "MASTER",
-      "platform": "PS4 / PS5",
-      "priority": 26,
-      "release": "Уже в продаже",
-      "releaseDate": "",
-      "description": "Кооперативное приключение Коди и Мэй: головоломки, платформинг и новые механики в каждой главе.",
-      "aliases": [
-        "ит тейкс ту",
-        "требуется двое"
-      ],
-      "multiplayer": {
-        "local": true,
-        "split": true,
-        "online": true,
-        "label": "2 игрока · сплит-скрин / по сети",
-        "note": "Только для двоих. На одной приставке нужны два контроллера; по сети доступен Friend’s Pass для второго игрока и требуется PS Plus.",
-        "source": "https://store.playstation.com/en-in/product/EP0006-PPSA02343_00-ITTAKESTWORETAIL",
-        "verifiedAt": "2026-09-05"
-      }
-    },
-    "a-way-out": {
-      "title": "A Way Out",
-      "image": "https://image.api.playstation.com/cdn/EP0006/CUSA08004_00/uYjNSTuC1lpCeOLL7M6Gye9tUH28W8F3.png",
-      "imageRole": "MASTER",
-      "platform": "PS4 / PS5 (обратная совместимость)",
-      "priority": 27,
-      "release": "Уже в продаже",
-      "releaseDate": "",
-      "description": "История совместного побега Лео и Винсента. Сюжетное приключение, рассчитанное на двух игроков.",
-      "aliases": [
-        "э вей аут",
-        "побег"
-      ],
-      "multiplayer": {
-        "local": true,
-        "split": true,
-        "online": true,
-        "label": "2 игрока · сплит-скрин / по сети",
-        "note": "Версия PS4 работает на PS5. Можно пройти вдвоём на разделённом экране или по сети с Friend’s Pass; для онлайна нужен PS Plus.",
-        "source": "https://store.playstation.com/en-in/product/EP0006-CUSA08004_00-AWAYOUTEU0000000",
-        "verifiedAt": "2026-09-05"
-      }
-    },
-    "sackboy": {
-      "title": "Sackboy: A Big Adventure",
-      "image": "https://image.api.playstation.com/vulcan/img/rnd/202010/1614/TJiBEQMJ9qa93lWBu4sKScY9.png",
-      "imageRole": "MASTER",
-      "platform": "PS4 / PS5",
-      "priority": 28,
-      "release": "Уже в продаже",
-      "releaseDate": "",
-      "description": "Красочный платформер: исследуйте уровни и проходите испытания вместе с друзьями.",
-      "aliases": [
-        "сэкбой",
-        "сакбой"
-      ],
-      "multiplayer": {
-        "local": true,
-        "split": false,
-        "online": true,
-        "label": "2–4 игрока · общий экран / по сети",
-        "note": "На одной приставке — общий экран, по контроллеру на игрока. По сети поддерживается до четырёх игроков и нужен PS Plus.",
-        "source": "https://store.playstation.com/en-in/product/EP9000-PPSA01288_00-SACKBOYADVENTURE",
-        "verifiedAt": "2026-09-05"
-      }
-    },
-    "overcooked-all-you-can-eat": {
-      "title": "Overcooked! All You Can Eat",
-      "image": "https://image.api.playstation.com/vulcan/img/rnd/202011/2700/hKBAhyUmI0fv5JrDxITp5rRJ.png",
-      "imageRole": "MASTER",
-      "platform": "PS4 / PS5",
-      "priority": 29,
-      "release": "Уже в продаже",
-      "releaseDate": "",
-      "description": "Кулинарный кооператив: готовьте, разносите заказы и договаривайтесь на хаотичных кухнях.",
-      "aliases": [
-        "оверкукед",
-        "оверк cooked",
-        "кухня"
-      ],
-      "multiplayer": {
-        "local": true,
-        "split": false,
-        "online": true,
-        "label": "2–4 игрока · общий экран / по сети",
-        "note": "Включает Overcooked!, Overcooked! 2 и дополнительный контент. Локально — общий экран; по сети — до четырёх игроков с PS Plus.",
-        "source": "https://store.playstation.com/en-in/product/EP4064-PPSA01528_00-0538983162460184",
-        "verifiedAt": "2026-09-05"
-      }
-    },
-    "unravel-two": {
-      "title": "Unravel Two",
-      "image": "https://image.api.playstation.com/cdn/EP0006/CUSA10416_00/7OtAlABbzptPIcDGDueFSbuTT8OSaVZk.png",
-      "imageRole": "MASTER",
-      "platform": "PS4 / PS5 (обратная совместимость)",
-      "priority": 30,
-      "release": "Уже в продаже",
-      "releaseDate": "",
-      "description": "Платформер о двух связанных нитью героях: помогайте друг другу преодолевать препятствия.",
-      "aliases": [
-        "анравел",
-        "анрейвел"
-      ],
-      "multiplayer": {
-        "local": true,
-        "split": false,
-        "online": false,
-        "label": "2 игрока · общий экран",
-        "note": "Кооператив только на одной приставке с общим экраном, без встроенного сетевого режима. Версия PS4 работает на PS5.",
-        "source": "https://store.playstation.com/en-in/product/EP0006-CUSA10416_00-COLDWOODPIKE0000",
-        "verifiedAt": "2026-09-05"
-      }
-    },
-    "remnant-2": {
-      "title": "Remnant II",
-      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202402/1420/449bd276cdf2e237c35d7e76bedc1da2a532adcb65cedf69.png",
-      "imageRole": "MASTER",
-      "platform": "PS5",
-      "priority": 31,
-      "release": "Уже в продаже",
-      "releaseDate": "",
-      "description": "Кооперативный экшен с огнестрельным оружием, исследованием миров и сложными боссами.",
-      "aliases": [
-        "ремнант",
-        "ремнант 2"
-      ],
-      "multiplayer": {
-        "local": false,
-        "split": false,
-        "online": true,
-        "label": "2–3 игрока · только по сети",
-        "note": "Локального кооператива и сплит-скрина нет. Для совместной игры нужны отдельные приставки, доступ к игре и PS Plus.",
-        "source": "https://store.playstation.com/en-in/product/EP1965-PPSA06694_00-REM2STDPREORDER0",
-        "verifiedAt": "2026-09-05"
-      }
     }
   },
   "updated": "2026-09-06"
 }
-
