@@ -52,10 +52,11 @@
                 1500,
                 1500
               ],
-              "cost": 7550,
+              "cost": 7551,
               "maxDeliveredCodes": 3,
               "price": 8800,
-              "wallet": 4000
+              "wallet": 4000,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "19 ноября",
@@ -113,19 +114,20 @@
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
-                "https://plati.market/itm/24-7-auto-playstation-4000-try-gift-card/5297646"
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601",
+                "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139",
+                "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139"
               ],
               "cards": [
-                250,
-                750,
-                4000
+                2000,
+                1500,
+                1500
               ],
-              "cost": 9439,
+              "cost": 9441,
               "maxDeliveredCodes": 3,
               "price": 10700,
-              "wallet": 5000
+              "wallet": 5000,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "19 ноября",
@@ -194,10 +196,11 @@
                 1500,
                 1500
               ],
-              "cost": 7550,
+              "cost": 7551,
               "maxDeliveredCodes": 3,
               "price": 8800,
-              "wallet": 4000
+              "wallet": 4000,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "25 сентября",
@@ -400,10 +403,11 @@
                 750,
                 2500
               ],
-              "cost": 6605,
+              "cost": 6607,
               "maxDeliveredCodes": 3,
               "price": 7900,
-              "wallet": 3500
+              "wallet": 3500,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "15 сентября",
@@ -471,10 +475,11 @@
                 1500,
                 1500
               ],
-              "cost": 7550,
+              "cost": 7551,
               "maxDeliveredCodes": 3,
               "price": 8800,
-              "wallet": 4000
+              "wallet": 4000,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "15 сентября",
@@ -534,10 +539,11 @@
                 1500,
                 1500
               ],
-              "cost": 7550,
+              "cost": 7551,
               "maxDeliveredCodes": 3,
               "price": 8800,
-              "wallet": 4000
+              "wallet": 4000,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -737,10 +743,11 @@
                 1500,
                 1500
               ],
-              "cost": 6130,
+              "cost": 6128,
               "maxDeliveredCodes": 3,
               "price": 7400,
-              "wallet": 3250
+              "wallet": 3250,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "23 октября",
@@ -811,10 +818,11 @@
                 250,
                 4000
               ],
-              "cost": 8492,
+              "cost": 8493,
               "maxDeliveredCodes": 3,
               "price": 9700,
-              "wallet": 4500
+              "wallet": 4500,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "23 октября",
@@ -880,10 +888,11 @@
                 750,
                 2500
               ],
-              "cost": 6605,
+              "cost": 6607,
               "maxDeliveredCodes": 3,
               "price": 7900,
-              "wallet": 3500
+              "wallet": 3500,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -929,10 +938,11 @@
                 2000,
                 2000
               ],
-              "cost": 4246,
+              "cost": 4234,
               "maxDeliveredCodes": 2,
               "price": 5500,
-              "wallet": 4000
+              "wallet": 4000,
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -1015,10 +1025,11 @@
                 1000,
                 1500
               ],
-              "cost": 5187,
+              "cost": 5186,
               "maxDeliveredCodes": 3,
               "price": 6400,
-              "wallet": 2750
+              "wallet": 2750,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -1081,10 +1092,11 @@
                 750,
                 2500
               ],
-              "cost": 6605,
+              "cost": 6607,
               "maxDeliveredCodes": 3,
               "price": 7900,
-              "wallet": 3500
+              "wallet": 3500,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -1145,10 +1157,11 @@
                 750,
                 2500
               ],
-              "cost": 6605,
+              "cost": 6607,
               "maxDeliveredCodes": 3,
               "price": 7900,
-              "wallet": 3500
+              "wallet": 3500,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -1210,10 +1223,11 @@
                 1500,
                 1500
               ],
-              "cost": 7550,
+              "cost": 7551,
               "maxDeliveredCodes": 3,
               "price": 8800,
-              "wallet": 4000
+              "wallet": 4000,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -1277,10 +1291,11 @@
                 250,
                 4000
               ],
-              "cost": 8492,
+              "cost": 8493,
               "maxDeliveredCodes": 3,
               "price": 9700,
-              "wallet": 4500
+              "wallet": 4500,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -1326,10 +1341,11 @@
                 2000,
                 2000
               ],
-              "cost": 4246,
+              "cost": 4234,
               "maxDeliveredCodes": 2,
               "price": 5500,
-              "wallet": 4000
+              "wallet": 4000,
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -1342,10 +1358,11 @@
                 250,
                 2500
               ],
-              "cost": 5658,
+              "cost": 5657,
               "maxDeliveredCodes": 3,
               "price": 6900,
-              "wallet": 3000
+              "wallet": 3000,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -1408,10 +1425,11 @@
                 750,
                 2500
               ],
-              "cost": 6605,
+              "cost": 6607,
               "maxDeliveredCodes": 3,
               "price": 7900,
-              "wallet": 3500
+              "wallet": 3500,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -1457,10 +1475,11 @@
                 2000,
                 2000
               ],
-              "cost": 4246,
+              "cost": 4234,
               "maxDeliveredCodes": 2,
               "price": 5500,
-              "wallet": 4000
+              "wallet": 4000,
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -1473,10 +1492,11 @@
                 1000,
                 1500
               ],
-              "cost": 5187,
+              "cost": 5186,
               "maxDeliveredCodes": 3,
               "price": 6400,
-              "wallet": 2750
+              "wallet": 2750,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "24 сентября",
@@ -1528,10 +1548,11 @@
                 2000,
                 2000
               ],
-              "cost": 4246,
+              "cost": 4234,
               "maxDeliveredCodes": 2,
               "price": 5500,
-              "wallet": 4000
+              "wallet": 4000,
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -1544,10 +1565,11 @@
                 250,
                 2500
               ],
-              "cost": 5658,
+              "cost": 5657,
               "maxDeliveredCodes": 3,
               "price": 6900,
-              "wallet": 3000
+              "wallet": 3000,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "24 сентября",
@@ -1658,10 +1680,11 @@
                 2000,
                 2000
               ],
-              "cost": 4246,
+              "cost": 4234,
               "maxDeliveredCodes": 2,
               "price": 5500,
-              "wallet": 4000
+              "wallet": 4000,
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -1674,10 +1697,11 @@
                 1000,
                 1500
               ],
-              "cost": 5187,
+              "cost": 5186,
               "maxDeliveredCodes": 3,
               "price": 6400,
-              "wallet": 2750
+              "wallet": 2750,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "24 сентября",
@@ -1806,10 +1830,11 @@
                 250,
                 2500
               ],
-              "cost": 5658,
+              "cost": 5657,
               "maxDeliveredCodes": 3,
               "price": 6900,
-              "wallet": 3000
+              "wallet": 3000,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "29 октября",
@@ -1869,10 +1894,11 @@
                 1000,
                 1500
               ],
-              "cost": 5187,
+              "cost": 5186,
               "maxDeliveredCodes": 3,
               "price": 6400,
-              "wallet": 2750
+              "wallet": 2750,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -1934,10 +1960,11 @@
                 250,
                 2500
               ],
-              "cost": 5658,
+              "cost": 5657,
               "maxDeliveredCodes": 3,
               "price": 6900,
-              "wallet": 3000
+              "wallet": 3000,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -1983,10 +2010,11 @@
                 2000,
                 2000
               ],
-              "cost": 4246,
+              "cost": 4234,
               "maxDeliveredCodes": 2,
               "price": 5500,
-              "wallet": 4000
+              "wallet": 4000,
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -1999,10 +2027,11 @@
                 250,
                 2500
               ],
-              "cost": 5658,
+              "cost": 5657,
               "maxDeliveredCodes": 3,
               "price": 6900,
-              "wallet": 3000
+              "wallet": 3000,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -2068,10 +2097,11 @@
                 1500,
                 1500
               ],
-              "cost": 7550,
+              "cost": 7551,
               "maxDeliveredCodes": 3,
               "price": 8800,
-              "wallet": 4000
+              "wallet": 4000,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -2131,10 +2161,11 @@
                 750,
                 2500
               ],
-              "cost": 6605,
+              "cost": 6607,
               "maxDeliveredCodes": 3,
               "price": 7900,
-              "wallet": 3500
+              "wallet": 3500,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -2197,10 +2228,11 @@
                 750,
                 2500
               ],
-              "cost": 6605,
+              "cost": 6607,
               "maxDeliveredCodes": 3,
               "price": 7900,
-              "wallet": 3500
+              "wallet": 3500,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -2264,10 +2296,11 @@
                 250,
                 250
               ],
-              "cost": 1404,
+              "cost": 1398,
               "maxDeliveredCodes": 3,
-              "price": 2700,
-              "wallet": 750
+              "price": 2600,
+              "wallet": 750,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -2336,10 +2369,11 @@
                 750,
                 2500
               ],
-              "cost": 6605,
+              "cost": 6607,
               "maxDeliveredCodes": 3,
               "price": 7900,
-              "wallet": 3500
+              "wallet": 3500,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -2386,10 +2420,11 @@
                 2000,
                 2000
               ],
-              "cost": 4246,
+              "cost": 4234,
               "maxDeliveredCodes": 2,
               "price": 5500,
-              "wallet": 4000
+              "wallet": 4000,
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -2402,10 +2437,11 @@
                 1500,
                 1500
               ],
-              "cost": 6130,
+              "cost": 6128,
               "maxDeliveredCodes": 3,
               "price": 7400,
-              "wallet": 3250
+              "wallet": 3250,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -2468,10 +2504,11 @@
                 250,
                 250
               ],
-              "cost": 936,
+              "cost": 932,
               "maxDeliveredCodes": 2,
               "price": 2200,
-              "wallet": 500
+              "wallet": 500,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -2590,10 +2627,11 @@
                 2000,
                 2000
               ],
-              "cost": 4246,
+              "cost": 4234,
               "maxDeliveredCodes": 2,
               "price": 5500,
-              "wallet": 4000
+              "wallet": 4000,
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -2671,10 +2709,11 @@
                 250,
                 2500
               ],
-              "cost": 5658,
+              "cost": 5657,
               "maxDeliveredCodes": 3,
               "price": 6900,
-              "wallet": 3000
+              "wallet": 3000,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -2848,10 +2887,11 @@
                 2000,
                 2000
               ],
-              "cost": 4246,
+              "cost": 4234,
               "maxDeliveredCodes": 2,
               "price": 5500,
-              "wallet": 4000
+              "wallet": 4000,
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -2864,10 +2904,11 @@
                 1500,
                 1500
               ],
-              "cost": 6130,
+              "cost": 6128,
               "maxDeliveredCodes": 3,
               "price": 7400,
-              "wallet": 3250
+              "wallet": 3250,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -2924,10 +2965,11 @@
               "cards": [
                 2000
               ],
-              "cost": 2123,
+              "cost": 2117,
               "maxDeliveredCodes": 1,
               "price": 3400,
-              "wallet": 2000
+              "wallet": 2000,
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -2940,10 +2982,11 @@
                 250,
                 250
               ],
-              "cost": 1404,
+              "cost": 1398,
               "maxDeliveredCodes": 3,
-              "price": 2700,
-              "wallet": 750
+              "price": 2600,
+              "wallet": 750,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -3080,10 +3123,11 @@
                 2000,
                 2000
               ],
-              "cost": 4246,
+              "cost": 4234,
               "maxDeliveredCodes": 2,
               "price": 5500,
-              "wallet": 4000
+              "wallet": 4000,
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -3161,10 +3205,11 @@
                 2000,
                 2000
               ],
-              "cost": 4246,
+              "cost": 4234,
               "maxDeliveredCodes": 2,
               "price": 5500,
-              "wallet": 4000
+              "wallet": 4000,
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -3255,10 +3300,11 @@
                 250,
                 2500
               ],
-              "cost": 5658,
+              "cost": 5657,
               "maxDeliveredCodes": 3,
               "price": 6900,
-              "wallet": 3000
+              "wallet": 3000,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -3332,10 +3378,11 @@
                 250,
                 2500
               ],
-              "cost": 5658,
+              "cost": 5657,
               "maxDeliveredCodes": 3,
               "price": 6900,
-              "wallet": 3000
+              "wallet": 3000,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -3390,10 +3437,11 @@
               "cards": [
                 2000
               ],
-              "cost": 2123,
+              "cost": 2117,
               "maxDeliveredCodes": 1,
               "price": 3400,
-              "wallet": 2000
+              "wallet": 2000,
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -3406,10 +3454,11 @@
                 250,
                 250
               ],
-              "cost": 1404,
+              "cost": 1398,
               "maxDeliveredCodes": 3,
-              "price": 2700,
-              "wallet": 750
+              "price": 2600,
+              "wallet": 750,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -3550,10 +3599,11 @@
               "cards": [
                 250
               ],
-              "cost": 468,
+              "cost": 466,
               "maxDeliveredCodes": 1,
               "price": 1700,
-              "wallet": 250
+              "wallet": 250,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -3625,10 +3675,11 @@
                 250,
                 250
               ],
-              "cost": 936,
+              "cost": 932,
               "maxDeliveredCodes": 2,
               "price": 2200,
-              "wallet": 500
+              "wallet": 500,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -3699,10 +3750,11 @@
                 250,
                 250
               ],
-              "cost": 1404,
+              "cost": 1398,
               "maxDeliveredCodes": 3,
-              "price": 2700,
-              "wallet": 750
+              "price": 2600,
+              "wallet": 750,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -3774,10 +3826,11 @@
                 250,
                 250
               ],
-              "cost": 936,
+              "cost": 932,
               "maxDeliveredCodes": 2,
               "price": 2200,
-              "wallet": 500
+              "wallet": 500,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -3832,10 +3885,11 @@
               "cards": [
                 2000
               ],
-              "cost": 2123,
+              "cost": 2117,
               "maxDeliveredCodes": 1,
               "price": 3400,
-              "wallet": 2000
+              "wallet": 2000,
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -3848,10 +3902,11 @@
                 250,
                 250
               ],
-              "cost": 1404,
+              "cost": 1398,
               "maxDeliveredCodes": 3,
-              "price": 2700,
-              "wallet": 750
+              "price": 2600,
+              "wallet": 750,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -3910,10 +3965,11 @@
               "cards": [
                 2000
               ],
-              "cost": 2123,
+              "cost": 2117,
               "maxDeliveredCodes": 1,
               "price": 3400,
-              "wallet": 2000
+              "wallet": 2000,
+              "verifiedAt": "2026-09-06"
             },
             "turkey": {
               "cardUrls": [
@@ -4000,10 +4056,11 @@
               "cards": [
                 250
               ],
-              "cost": 468,
+              "cost": 466,
               "maxDeliveredCodes": 1,
               "price": 1700,
-              "wallet": 250
+              "wallet": 250,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -4067,10 +4124,11 @@
               "cards": [
                 250
               ],
-              "cost": 468,
+              "cost": 466,
               "maxDeliveredCodes": 1,
               "price": 1700,
-              "wallet": 250
+              "wallet": 250,
+              "verifiedAt": "2026-09-06"
             }
           },
           "release": "Уже в продаже",
@@ -4185,36 +4243,44 @@
           "image": "https://image.api.playstation.com/vulcan/ap/rnd/202012/0815/7CRynuLSAb0vysSC4TmZy5e4.png",
           "imageRole": "MASTER",
           "oldPrices": {
-            "india": 4400,
+            "india": 3400,
             "turkey": 4100
           },
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 3400,
+            "india": 2300,
             "turkey": 2200
           },
           "pricingBasis": {
             "india": {
               "cards": [
-                2000
+                1000
               ],
-              "cost": 2123,
-              "maxDeliveredCodes": 3,
-              "price": 3400,
+              "cost": 1085,
+              "maxDeliveredCodes": 1,
+              "price": 2300,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05",
-              "wallet": 2000
+              "verifiedAt": "2026-09-06",
+              "wallet": 1000,
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-1000-inr-gift-card/5265469"
+              ]
             },
             "turkey": {
               "cards": [
-                500
+                250,
+                250
               ],
-              "cost": 936,
-              "maxDeliveredCodes": 3,
+              "cost": 932,
+              "maxDeliveredCodes": 2,
               "price": 2200,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05",
-              "wallet": 500
+              "verifiedAt": "2026-09-06",
+              "wallet": 500,
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
+                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
+              ]
             }
           },
           "release": "Уже в продаже",
@@ -4258,31 +4324,39 @@
           },
           "platform": "PS4 / PS5 (обратная совместимость)",
           "prices": {
-            "india": 3400,
+            "india": 2300,
             "turkey": 2200
           },
           "pricingBasis": {
             "india": {
               "cards": [
-                2000
+                1000
               ],
-              "cost": 2123,
-              "maxDeliveredCodes": 3,
-              "price": 3400,
+              "cost": 1085,
+              "maxDeliveredCodes": 1,
+              "price": 2300,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05",
-              "wallet": 2000
+              "verifiedAt": "2026-09-06",
+              "wallet": 1000,
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-1000-inr-gift-card/5265469"
+              ]
             },
             "turkey": {
               "cards": [
-                500
+                250,
+                250
               ],
-              "cost": 936,
-              "maxDeliveredCodes": 3,
+              "cost": 932,
+              "maxDeliveredCodes": 2,
               "price": 2200,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05",
-              "wallet": 500
+              "verifiedAt": "2026-09-06",
+              "wallet": 500,
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
+                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
+              ]
             }
           },
           "release": "Уже в продаже",
@@ -4334,12 +4408,15 @@
               "cards": [
                 2000
               ],
-              "cost": 2123,
-              "maxDeliveredCodes": 3,
+              "cost": 2117,
+              "maxDeliveredCodes": 1,
               "price": 3400,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05",
-              "wallet": 2000
+              "verifiedAt": "2026-09-06",
+              "wallet": 2000,
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
+              ]
             },
             "turkey": {
               "cards": [
@@ -4385,7 +4462,7 @@
           "platform": "PS4 / PS5",
           "prices": {
             "india": 6600,
-            "turkey": 7800
+            "turkey": 7900
           },
           "pricingBasis": {
             "india": {
@@ -4402,16 +4479,21 @@
             },
             "turkey": {
               "cards": [
-                1000,
-                1000,
-                1500
+                250,
+                750,
+                2500
               ],
-              "cost": 6579,
+              "cost": 6607,
               "maxDeliveredCodes": 3,
-              "price": 7800,
+              "price": 7900,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05",
-              "wallet": 3500
+              "verifiedAt": "2026-09-06",
+              "wallet": 3500,
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-2500-try-gift-card/5250604"
+              ]
             }
           },
           "release": "Уже в продаже",
@@ -4450,36 +4532,44 @@
           "image": "https://image.api.playstation.com/vulcan/img/rnd/202011/2700/hKBAhyUmI0fv5JrDxITp5rRJ.png",
           "imageRole": "MASTER",
           "oldPrices": {
-            "india": 4400,
+            "india": 3400,
             "turkey": 4100
           },
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 3400,
+            "india": 2300,
             "turkey": 2200
           },
           "pricingBasis": {
             "india": {
               "cards": [
-                2000
+                1000
               ],
-              "cost": 2123,
-              "maxDeliveredCodes": 3,
-              "price": 3400,
+              "cost": 1085,
+              "maxDeliveredCodes": 1,
+              "price": 2300,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05",
-              "wallet": 2000
+              "verifiedAt": "2026-09-06",
+              "wallet": 1000,
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-1000-inr-gift-card/5265469"
+              ]
             },
             "turkey": {
               "cards": [
-                500
+                250,
+                250
               ],
-              "cost": 936,
-              "maxDeliveredCodes": 3,
+              "cost": 932,
+              "maxDeliveredCodes": 2,
               "price": 2200,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05",
-              "wallet": 500
+              "verifiedAt": "2026-09-06",
+              "wallet": 500,
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
+                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
+              ]
             }
           },
           "release": "Уже в продаже",
@@ -4523,31 +4613,37 @@
           },
           "platform": "PS4 / PS5 (обратная совместимость)",
           "prices": {
-            "india": 3400,
+            "india": 2300,
             "turkey": 1700
           },
           "pricingBasis": {
             "india": {
               "cards": [
-                2000
+                1000
               ],
-              "cost": 2123,
-              "maxDeliveredCodes": 3,
-              "price": 3400,
+              "cost": 1085,
+              "maxDeliveredCodes": 1,
+              "price": 2300,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05",
-              "wallet": 2000
+              "verifiedAt": "2026-09-06",
+              "wallet": 1000,
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-1000-inr-gift-card/5265469"
+              ]
             },
             "turkey": {
               "cards": [
                 250
               ],
-              "cost": 468,
-              "maxDeliveredCodes": 3,
+              "cost": 466,
+              "maxDeliveredCodes": 1,
               "price": 1700,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05",
-              "wallet": 250
+              "verifiedAt": "2026-09-06",
+              "wallet": 250,
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
+              ]
             }
           },
           "release": "Уже в продаже",
@@ -4652,16 +4748,21 @@
             },
             "turkey": {
               "cards": [
+                250,
                 1000,
-                1000,
-                750
+                1500
               ],
-              "cost": 5153,
+              "cost": 5186,
               "maxDeliveredCodes": 3,
               "price": 6400,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05",
-              "wallet": 2750
+              "verifiedAt": "2026-09-06",
+              "wallet": 2750,
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139"
+              ]
             }
           },
           "release": "Уже в продаже",
@@ -4711,16 +4812,21 @@
             },
             "turkey": {
               "cards": [
-                1000,
-                1000,
-                1000
+                250,
+                250,
+                2500
               ],
-              "cost": 5622,
+              "cost": 5657,
               "maxDeliveredCodes": 3,
               "price": 6900,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
-              "verifiedAt": "2026-09-05",
-              "wallet": 3000
+              "verifiedAt": "2026-09-06",
+              "wallet": 3000,
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
+                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
+                "https://plati.market/itm/24-7-auto-playstation-2500-try-gift-card/5250604"
+              ]
             }
           },
           "release": "Уже в продаже",
