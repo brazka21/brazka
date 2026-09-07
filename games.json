@@ -46,16 +46,16 @@
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-2500-try-gift-card/5250604"
               ],
               "cards": [
-                1000,
-                1000,
-                2000
+                750,
+                750,
+                2500
               ],
-              "cost": 7507,
+              "cost": 7516,
               "maxDeliveredCodes": 3,
               "price": 8800,
               "wallet": 4000,
@@ -126,7 +126,7 @@
                 1500,
                 2500
               ],
-              "cost": 9405,
+              "cost": 9412,
               "maxDeliveredCodes": 3,
               "price": 10700,
               "wallet": 5000,
@@ -193,16 +193,16 @@
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-2500-try-gift-card/5250604"
               ],
               "cards": [
-                1000,
-                1000,
-                2000
+                750,
+                750,
+                2500
               ],
-              "cost": 7507,
+              "cost": 7516,
               "maxDeliveredCodes": 3,
               "price": 8800,
               "wallet": 4000,
@@ -410,7 +410,7 @@
                 1000,
                 1500
               ],
-              "cost": 6559,
+              "cost": 6573,
               "maxDeliveredCodes": 3,
               "price": 7800,
               "wallet": 3500,
@@ -476,16 +476,16 @@
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-2500-try-gift-card/5250604"
               ],
               "cards": [
-                1000,
-                1000,
-                2000
+                750,
+                750,
+                2500
               ],
-              "cost": 7507,
+              "cost": 7516,
               "maxDeliveredCodes": 3,
               "price": 8800,
               "wallet": 4000,
@@ -540,16 +540,16 @@
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-2500-try-gift-card/5250604"
               ],
               "cards": [
-                1000,
-                1000,
-                2000
+                750,
+                750,
+                2500
               ],
-              "cost": 7507,
+              "cost": 7516,
               "maxDeliveredCodes": 3,
               "price": 8800,
               "wallet": 4000,
@@ -756,9 +756,9 @@
                 750,
                 1500
               ],
-              "cost": 6095,
+              "cost": 6105,
               "maxDeliveredCodes": 3,
-              "price": 7300,
+              "price": 7400,
               "wallet": 3250,
               "verifiedAt": "2026-09-07"
             }
@@ -832,7 +832,7 @@
                 1000,
                 2500
               ],
-              "cost": 8438,
+              "cost": 8452,
               "maxDeliveredCodes": 3,
               "price": 9700,
               "wallet": 4500,
@@ -902,7 +902,7 @@
                 1000,
                 1500
               ],
-              "cost": 6559,
+              "cost": 6573,
               "maxDeliveredCodes": 3,
               "price": 7800,
               "wallet": 3500,
@@ -1039,7 +1039,7 @@
                 1000,
                 750
               ],
-              "cost": 5128,
+              "cost": 5145,
               "maxDeliveredCodes": 3,
               "price": 6400,
               "wallet": 2750,
@@ -1106,7 +1106,7 @@
                 1000,
                 1500
               ],
-              "cost": 6559,
+              "cost": 6573,
               "maxDeliveredCodes": 3,
               "price": 7800,
               "wallet": 3500,
@@ -1171,7 +1171,7 @@
                 1000,
                 1500
               ],
-              "cost": 6559,
+              "cost": 6573,
               "maxDeliveredCodes": 3,
               "price": 7800,
               "wallet": 3500,
@@ -1228,16 +1228,16 @@
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-2500-try-gift-card/5250604"
               ],
               "cards": [
-                1000,
-                1000,
-                2000
+                750,
+                750,
+                2500
               ],
-              "cost": 7507,
+              "cost": 7516,
               "maxDeliveredCodes": 3,
               "price": 8800,
               "wallet": 4000,
@@ -1308,7 +1308,7 @@
                 1000,
                 2500
               ],
-              "cost": 8438,
+              "cost": 8452,
               "maxDeliveredCodes": 3,
               "price": 9700,
               "wallet": 4500,
@@ -1375,9 +1375,9 @@
                 1000,
                 1000
               ],
-              "cost": 5592,
+              "cost": 5613,
               "maxDeliveredCodes": 3,
-              "price": 6800,
+              "price": 6900,
               "wallet": 3000,
               "verifiedAt": "2026-09-07"
             }
@@ -1442,7 +1442,7 @@
                 1000,
                 1500
               ],
-              "cost": 6559,
+              "cost": 6573,
               "maxDeliveredCodes": 3,
               "price": 7800,
               "wallet": 3500,
@@ -1509,7 +1509,7 @@
                 1000,
                 750
               ],
-              "cost": 5128,
+              "cost": 5145,
               "maxDeliveredCodes": 3,
               "price": 6400,
               "wallet": 2750,
@@ -1582,9 +1582,9 @@
                 1000,
                 1000
               ],
-              "cost": 5592,
+              "cost": 5613,
               "maxDeliveredCodes": 3,
-              "price": 6800,
+              "price": 6900,
               "wallet": 3000,
               "verifiedAt": "2026-09-07"
             }
@@ -1717,7 +1717,7 @@
                 1000,
                 750
               ],
-              "cost": 5128,
+              "cost": 5145,
               "maxDeliveredCodes": 3,
               "price": 6400,
               "wallet": 2750,
@@ -1853,9 +1853,9 @@
                 1000,
                 1000
               ],
-              "cost": 5592,
+              "cost": 5613,
               "maxDeliveredCodes": 3,
-              "price": 6800,
+              "price": 6900,
               "wallet": 3000,
               "verifiedAt": "2026-09-07"
             }
@@ -1917,7 +1917,7 @@
                 1000,
                 750
               ],
-              "cost": 5128,
+              "cost": 5145,
               "maxDeliveredCodes": 3,
               "price": 6400,
               "wallet": 2750,
@@ -1983,9 +1983,9 @@
                 1000,
                 1000
               ],
-              "cost": 5592,
+              "cost": 5613,
               "maxDeliveredCodes": 3,
-              "price": 6800,
+              "price": 6900,
               "wallet": 3000,
               "verifiedAt": "2026-09-07"
             }
@@ -2050,9 +2050,9 @@
                 1000,
                 1000
               ],
-              "cost": 5592,
+              "cost": 5613,
               "maxDeliveredCodes": 3,
-              "price": 6800,
+              "price": 6900,
               "wallet": 3000,
               "verifiedAt": "2026-09-07"
             }
@@ -2114,16 +2114,16 @@
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-2500-try-gift-card/5250604"
               ],
               "cards": [
-                1000,
-                1000,
-                2000
+                750,
+                750,
+                2500
               ],
-              "cost": 7507,
+              "cost": 7516,
               "maxDeliveredCodes": 3,
               "price": 8800,
               "wallet": 4000,
@@ -2187,7 +2187,7 @@
                 1000,
                 1500
               ],
-              "cost": 6559,
+              "cost": 6573,
               "maxDeliveredCodes": 3,
               "price": 7800,
               "wallet": 3500,
@@ -2254,7 +2254,7 @@
                 1000,
                 1500
               ],
-              "cost": 6559,
+              "cost": 6573,
               "maxDeliveredCodes": 3,
               "price": 7800,
               "wallet": 3500,
@@ -2313,18 +2313,14 @@
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543"
               ],
               "cards": [
-                250,
-                250,
-                250
+                750
               ],
-              "cost": 1398,
-              "maxDeliveredCodes": 3,
-              "price": 2600,
+              "cost": 1403,
+              "maxDeliveredCodes": 1,
+              "price": 2700,
               "wallet": 750,
               "verifiedAt": "2026-09-07"
             }
@@ -2395,7 +2391,7 @@
                 1000,
                 1500
               ],
-              "cost": 6559,
+              "cost": 6573,
               "maxDeliveredCodes": 3,
               "price": 7800,
               "wallet": 3500,
@@ -2463,9 +2459,9 @@
                 750,
                 1500
               ],
-              "cost": 6095,
+              "cost": 6105,
               "maxDeliveredCodes": 3,
-              "price": 7300,
+              "price": 7400,
               "wallet": 3250,
               "verifiedAt": "2026-09-07"
             }
@@ -2526,14 +2522,12 @@
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
               ],
               "cards": [
-                250,
-                250
+                500
               ],
-              "cost": 932,
+              "cost": 935,
               "maxDeliveredCodes": 2,
               "price": 2200,
               "wallet": 500,
@@ -2741,9 +2735,9 @@
                 1000,
                 1000
               ],
-              "cost": 5592,
+              "cost": 5613,
               "maxDeliveredCodes": 3,
-              "price": 6800,
+              "price": 6900,
               "wallet": 3000,
               "verifiedAt": "2026-09-07"
             }
@@ -2939,9 +2933,9 @@
                 750,
                 1500
               ],
-              "cost": 6095,
+              "cost": 6105,
               "maxDeliveredCodes": 3,
-              "price": 7300,
+              "price": 7400,
               "wallet": 3250,
               "verifiedAt": "2026-09-07"
             }
@@ -3008,18 +3002,14 @@
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543"
               ],
               "cards": [
-                250,
-                250,
-                250
+                750
               ],
-              "cost": 1398,
-              "maxDeliveredCodes": 3,
-              "price": 2600,
+              "cost": 1403,
+              "maxDeliveredCodes": 1,
+              "price": 2700,
               "wallet": 750,
               "verifiedAt": "2026-09-07"
             }
@@ -3338,9 +3328,9 @@
                 1000,
                 1000
               ],
-              "cost": 5592,
+              "cost": 5613,
               "maxDeliveredCodes": 3,
-              "price": 6800,
+              "price": 6900,
               "wallet": 3000,
               "verifiedAt": "2026-09-07"
             }
@@ -3416,9 +3406,9 @@
                 1000,
                 1000
               ],
-              "cost": 5592,
+              "cost": 5613,
               "maxDeliveredCodes": 3,
-              "price": 6800,
+              "price": 6900,
               "wallet": 3000,
               "verifiedAt": "2026-09-07"
             }
@@ -3483,18 +3473,14 @@
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543"
               ],
               "cards": [
-                250,
-                250,
-                250
+                750
               ],
-              "cost": 1398,
-              "maxDeliveredCodes": 3,
-              "price": 2600,
+              "cost": 1403,
+              "maxDeliveredCodes": 1,
+              "price": 2700,
               "wallet": 750,
               "verifiedAt": "2026-09-07"
             }
@@ -3640,7 +3626,7 @@
               "cards": [
                 250
               ],
-              "cost": 466,
+              "cost": 468,
               "maxDeliveredCodes": 1,
               "price": 1700,
               "wallet": 250,
@@ -3709,14 +3695,12 @@
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
               ],
               "cards": [
-                250,
-                250
+                500
               ],
-              "cost": 932,
+              "cost": 935,
               "maxDeliveredCodes": 2,
               "price": 2200,
               "wallet": 500,
@@ -3782,18 +3766,14 @@
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543"
               ],
               "cards": [
-                250,
-                250,
-                250
+                750
               ],
-              "cost": 1398,
-              "maxDeliveredCodes": 3,
-              "price": 2600,
+              "cost": 1403,
+              "maxDeliveredCodes": 1,
+              "price": 2700,
               "wallet": 750,
               "verifiedAt": "2026-09-07"
             }
@@ -3860,14 +3840,12 @@
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
               ],
               "cards": [
-                250,
-                250
+                500
               ],
-              "cost": 932,
+              "cost": 935,
               "maxDeliveredCodes": 2,
               "price": 2200,
               "wallet": 500,
@@ -3934,18 +3912,14 @@
             },
             "turkey": {
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543"
               ],
               "cards": [
-                250,
-                250,
-                250
+                750
               ],
-              "cost": 1398,
-              "maxDeliveredCodes": 3,
-              "price": 2600,
+              "cost": 1403,
+              "maxDeliveredCodes": 1,
+              "price": 2700,
               "wallet": 750,
               "verifiedAt": "2026-09-07"
             }
@@ -4097,7 +4071,7 @@
               "cards": [
                 250
               ],
-              "cost": 466,
+              "cost": 468,
               "maxDeliveredCodes": 1,
               "price": 1700,
               "wallet": 250,
@@ -4165,7 +4139,7 @@
               "cards": [
                 250
               ],
-              "cost": 466,
+              "cost": 468,
               "maxDeliveredCodes": 1,
               "price": 1700,
               "wallet": 250,
@@ -4314,18 +4288,16 @@
             },
             "turkey": {
               "cards": [
-                250,
-                250
+                500
               ],
-              "cost": 932,
+              "cost": 935,
               "maxDeliveredCodes": 2,
               "price": 2200,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
               "verifiedAt": "2026-09-07",
               "wallet": 500,
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
               ]
             }
           },
@@ -4390,18 +4362,16 @@
             },
             "turkey": {
               "cards": [
-                250,
-                250
+                500
               ],
-              "cost": 932,
+              "cost": 935,
               "maxDeliveredCodes": 2,
               "price": 2200,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
               "verifiedAt": "2026-09-07",
               "wallet": 500,
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
               ]
             }
           },
@@ -4535,7 +4505,7 @@
                 1000,
                 1500
               ],
-              "cost": 6559,
+              "cost": 6573,
               "maxDeliveredCodes": 3,
               "price": 7800,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
@@ -4609,18 +4579,16 @@
             },
             "turkey": {
               "cards": [
-                250,
-                250
+                500
               ],
-              "cost": 932,
+              "cost": 935,
               "maxDeliveredCodes": 2,
               "price": 2200,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
               "verifiedAt": "2026-09-07",
               "wallet": 500,
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
               ]
             }
           },
@@ -4687,7 +4655,7 @@
               "cards": [
                 250
               ],
-              "cost": 466,
+              "cost": 468,
               "maxDeliveredCodes": 1,
               "price": 1700,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
@@ -4810,7 +4778,7 @@
                 1000,
                 750
               ],
-              "cost": 5128,
+              "cost": 5145,
               "maxDeliveredCodes": 3,
               "price": 6400,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
@@ -4874,9 +4842,9 @@
                 1000,
                 1000
               ],
-              "cost": 5592,
+              "cost": 5613,
               "maxDeliveredCodes": 3,
-              "price": 6800,
+              "price": 6900,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
               "verifiedAt": "2026-09-07",
               "wallet": 3000,
