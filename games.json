@@ -4887,7 +4887,7 @@
             "turkey": 2600
           },
           "storePrices": {
-            "india": 1690.0,
+            "india": 1690,
             "turkey": 710.5
           },
           "storeUrls": {
@@ -4903,9 +4903,9 @@
                 "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
               ],
               "cardCosts": [
-                2123.0
+                2123
               ],
-              "cost": 2123.0,
+              "cost": 2123,
               "wallet": 2000,
               "maxDeliveredCodes": 1,
               "price": 3400,
@@ -4924,11 +4924,11 @@
                 "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
               ],
               "cardCosts": [
-                466.0,
-                466.0,
-                466.0
+                466,
+                466,
+                466
               ],
-              "cost": 1398.0,
+              "cost": 1398,
               "wallet": 750,
               "maxDeliveredCodes": 3,
               "price": 2600,
@@ -4940,12 +4940,12 @@
             "india": {
               "percent": 30,
               "endsAt": "2026-09-09T22:59:00Z",
-              "storeOriginal": 2415.0
+              "storeOriginal": 2415
             },
             "turkey": {
               "percent": 30,
               "endsAt": "2026-09-09T22:59:00Z",
-              "storeOriginal": 1015.0
+              "storeOriginal": 1015
             }
           },
           "availability": {
@@ -4959,6 +4959,89 @@
             "width": 1024,
             "height": 1024
           }
+        },
+        {
+          "availability": {
+            "india": "available",
+            "turkey": "available"
+          },
+          "discounts": {},
+          "edition": "Deluxe Collection",
+          "editionId": "deluxe-collection",
+          "editionOrder": 1,
+          "features": [
+            "Полная версия Minecraft для PS5",
+            "Дополнения Celebration Food, Rescue Dogs и Plenty O’ Blocks",
+            "3 эксклюзивных предмета для создания персонажа",
+            "700 Tokens для внутриигрового магазина Minecraft",
+            "Русский текст"
+          ],
+          "gameId": "minecraft",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202407/0401/165b1afdf14c26321af90746e4a42e23416bb74eafd34b0c.png",
+          "imageDimensions": {
+            "height": 1024,
+            "width": 1024
+          },
+          "imageRole": "MASTER",
+          "platform": "PS5",
+          "prices": {
+            "india": 4400,
+            "turkey": 4000
+          },
+          "pricingBasis": {
+            "india": {
+              "cardCosts": [
+                1068,
+                2123
+              ],
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-1000-inr-gift-card/5265469",
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
+              ],
+              "cards": [
+                1000,
+                2000
+              ],
+              "cost": 3191,
+              "maxDeliveredCodes": 2,
+              "price": 4400,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-08T11:04:35Z",
+              "wallet": 3000
+            },
+            "turkey": {
+              "cardCosts": [
+                1399,
+                1399
+              ],
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543"
+              ],
+              "cards": [
+                750,
+                750
+              ],
+              "cost": 2798,
+              "maxDeliveredCodes": 2,
+              "price": 4000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-08T11:04:35Z",
+              "wallet": 1500
+            }
+          },
+          "release": "Уже в продаже",
+          "storePrices": {
+            "india": 2497,
+            "turkey": 1299
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP4433-PPSA19639_00-MINECRAFTDLXCOL2",
+            "turkey": "https://store.playstation.com/en-tr/product/UP4433-PPSA19639_00-MINECRAFTDLXCOL2"
+          },
+          "summary": "Полная игра для PS5, три дополнения, три предмета для персонажа и 700 Tokens.",
+          "title": "Minecraft — Deluxe Collection",
+          "verifiedAt": "2026-09-08T11:04:35Z"
         }
       ],
       "id": "cooperative",
@@ -5638,6 +5721,41 @@
         "rankUSCanada": 9,
         "rankEU": 10
       }
+    },
+    "minecraft": {
+      "aliases": [
+        "майнкрафт",
+        "майн"
+      ],
+      "demandEvidence": {
+        "metric": "PS5 downloads chart rank, not search volume",
+        "period": "2026-08",
+        "publishedAt": "2026-09-04",
+        "rankEU": 2,
+        "rankUSCanada": 7,
+        "source": "https://blog.playstation.com/2026/09/04/playstation-store-august-2026s-top-downloads/"
+      },
+      "description": "Строй, исследуй и выживай в открытом мире — один или с друзьями. В каталоге — полное Deluxe Collection для PS5 с дополнительным контентом.",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202407/0401/165b1afdf14c26321af90746e4a42e23416bb74eafd34b0c.png",
+      "imageDimensions": {
+        "height": 1024,
+        "width": 1024
+      },
+      "imageRole": "MASTER",
+      "multiplayer": {
+        "label": "До 4 на одной приставке · до 8 по сети",
+        "local": true,
+        "note": "Локально — разделённый экран, по контроллеру на игрока. Для игры по сети нужны PS Plus и учётная запись Microsoft. Realms Plus продаётся отдельно.",
+        "online": true,
+        "source": "https://store.playstation.com/en-in/product/UP4433-PPSA19639_00-MINECRAFTDLXCOL2",
+        "split": true,
+        "verifiedAt": "2026-09-08T11:04:35Z"
+      },
+      "platform": "PS5",
+      "priority": 33,
+      "release": "Уже в продаже",
+      "releaseDate": "",
+      "title": "Minecraft"
     }
   },
   "updated": "2026-09-06"
