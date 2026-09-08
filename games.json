@@ -2964,6 +2964,94 @@
           "summary": "Полная игра, 10 костюмов, предметы фоторежима и 5 очков навыков.",
           "title": "Marvel’s Spider-Man 2 — Digital Deluxe Edition",
           "verifiedAt": "2026-09-08T17:05:26Z"
+        },
+        {
+          "availability": {
+            "india": "available",
+            "turkey": "available"
+          },
+          "discounts": {
+            "india": {
+              "percent": 50,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 3799
+            },
+            "turkey": {
+              "percent": 50,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 1749
+            }
+          },
+          "edition": "Great White Shark Card Bundle",
+          "editionId": "great-white-shark-bundle",
+          "editionOrder": 0,
+          "features": [
+            "Grand Theft Auto V: Story Mode для PS5",
+            "GTA Online для PS5",
+            "Карта Great White Shark на 1 500 000 GTA$",
+            "GTA Online — до 30 игроков по сети с PS Plus",
+            "Русский текст; английская озвучка"
+          ],
+          "gameId": "gta-v",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/0815/f89463273ffb99f1c4030315c4fdddcdc01535223a80721c.png",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          },
+          "imageRole": "MASTER",
+          "platform": "PS5",
+          "prices": {
+            "india": 3400,
+            "turkey": 3100
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000
+              ],
+              "cardCosts": [
+                2123
+              ],
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
+              ],
+              "wallet": 2000,
+              "cost": 2123,
+              "maxDeliveredCodes": 1,
+              "price": 3400,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-08T20:01:08Z"
+            },
+            "turkey": {
+              "cards": [
+                1000
+              ],
+              "cardCosts": [
+                1861
+              ],
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
+              ],
+              "wallet": 1000,
+              "cost": 1861,
+              "maxDeliveredCodes": 1,
+              "price": 3100,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-08T20:01:08Z"
+            }
+          },
+          "release": "Уже в продаже",
+          "storePrices": {
+            "india": 1899,
+            "turkey": 874.5
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP1004-PPSA01721_00-GTAVANDGWSBUNDLE",
+            "turkey": "https://store.playstation.com/en-tr/product/EP1004-PPSA01721_00-GTAVANDGWSBUNDLE"
+          },
+          "summary": "Полная сюжетная игра, GTA Online и 1 500 000 GTA$.",
+          "title": "Grand Theft Auto V — Great White Shark Card Bundle",
+          "verifiedAt": "2026-09-08T20:01:08Z"
         }
       ],
       "id": "new",
@@ -5886,6 +5974,45 @@
       "release": "Уже в продаже",
       "releaseDate": "2023-10-20",
       "title": "Marvel’s Spider-Man 2"
+    },
+    "gta-v": {
+      "title": "Grand Theft Auto V",
+      "aliases": [
+        "гта 5",
+        "гта v",
+        "gta 5",
+        "gta v"
+      ],
+      "description": "Сюжет Grand Theft Auto V и GTA Online в комплекте для PS5. Исследуй Лос-Сантос, проходи ограбления и играй по сети; в комплект также входит карта Great White Shark на 1 500 000 GTA$.",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/0815/f89463273ffb99f1c4030315c4fdddcdc01535223a80721c.png",
+      "imageRole": "MASTER",
+      "imageDimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "platform": "PS5",
+      "release": "Уже в продаже",
+      "releaseDate": "2026-06-18",
+      "priority": 35,
+      "multiplayer": {
+        "local": false,
+        "split": false,
+        "online": true,
+        "label": "До 30 игроков · по сети",
+        "note": "GTA Online поддерживает до 30 игроков по сети; для сетевой игры нужен PS Plus. Сюжетная кампания входит в комплект.",
+        "source": "https://store.playstation.com/en-in/product/EP1004-PPSA01721_00-GTAVANDGWSBUNDLE",
+        "verifiedAt": "2026-09-08T20:01:08Z"
+      },
+      "demandEvidence": {
+        "source": "https://blog.playstation.com/2026/09/04/playstation-store-august-2026s-top-downloads/",
+        "publishedAt": "2026-09-04",
+        "period": "2026-08",
+        "metric": "PS5 downloads chart rank, not search volume",
+        "rankUSCanada": 14,
+        "rankEU": 6,
+        "limitation": "Дополнительный сигнал Европы и США/Канады, не российский покупательский спрос. Доступная подтверждённая российская поисковая частотность не получена.",
+        "verifiedAt": "2026-09-08T20:01:08Z"
+      }
     }
   },
   "updated": "2026-09-06"
