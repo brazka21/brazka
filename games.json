@@ -4867,6 +4867,98 @@
           "summary": "Игра и дополнительный контент",
           "title": "Remnant II — Ultimate Edition",
           "verifiedAt": "2026-09-05"
+        },
+        {
+          "gameId": "palworld",
+          "editionId": "standard",
+          "edition": "Standard Edition",
+          "editionOrder": 0,
+          "title": "Palworld — Standard Edition",
+          "platform": "PS5",
+          "release": "Уже в продаже",
+          "summary": "Полная игра: выживание, строительство и приключения с палами.",
+          "features": [
+            "Полная версия Palworld для PS5",
+            "Одиночная игра и совместная игра по сети до 4 игроков",
+            "Русский текст; английская озвучка"
+          ],
+          "prices": {
+            "india": 3400,
+            "turkey": 2600
+          },
+          "storePrices": {
+            "india": 1690.0,
+            "turkey": 710.5
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP6360-PPSA23126_00-0112788005082769",
+            "turkey": "https://store.playstation.com/en-tr/product/UP6360-PPSA23126_00-0112788005082769"
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000
+              ],
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
+              ],
+              "cardCosts": [
+                2123.0
+              ],
+              "cost": 2123.0,
+              "wallet": 2000,
+              "maxDeliveredCodes": 1,
+              "price": 3400,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-08T05:09:00.016978Z"
+            },
+            "turkey": {
+              "cards": [
+                250,
+                250,
+                250
+              ],
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
+                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
+                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
+              ],
+              "cardCosts": [
+                466.0,
+                466.0,
+                466.0
+              ],
+              "cost": 1398.0,
+              "wallet": 750,
+              "maxDeliveredCodes": 3,
+              "price": 2600,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/",
+              "verifiedAt": "2026-09-08T05:09:00.016978Z"
+            }
+          },
+          "discounts": {
+            "india": {
+              "percent": 30,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 2415.0
+            },
+            "turkey": {
+              "percent": 30,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 1015.0
+            }
+          },
+          "availability": {
+            "india": "available",
+            "turkey": "available"
+          },
+          "verifiedAt": "2026-09-08T05:09:00.016978Z",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/1002/585fa2ede4c88fa20a773ec44b110e0c84c4a5baeb51ed5b.png",
+          "imageRole": "MASTER",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          }
         }
       ],
       "id": "cooperative",
@@ -5511,6 +5603,41 @@
       "release": "15 сентября",
       "releaseDate": "2026-09-15",
       "title": "Marvel’s Wolverine"
+    },
+    "palworld": {
+      "title": "Palworld",
+      "aliases": [
+        "палворлд",
+        "палворлд 1.0"
+      ],
+      "description": "Исследуй открытый мир, собирай палов и строй базу — один или с друзьями по сети. Палы помогают в сражениях, строительстве и на ферме.",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/1002/585fa2ede4c88fa20a773ec44b110e0c84c4a5baeb51ed5b.png",
+      "imageRole": "MASTER",
+      "imageDimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "platform": "PS5",
+      "release": "Уже в продаже",
+      "releaseDate": "2024-09-24",
+      "priority": 32,
+      "multiplayer": {
+        "local": false,
+        "split": false,
+        "online": true,
+        "label": "До 4 игроков · по сети",
+        "note": "На одной приставке — один игрок. Для совместной игры по сети нужны отдельные приставки, доступ к игре и PS Plus.",
+        "source": "https://store.playstation.com/en-in/product/UP6360-PPSA23126_00-0112788005082769",
+        "verifiedAt": "2026-09-08T05:09:00.016978Z"
+      },
+      "demandEvidence": {
+        "source": "https://blog.playstation.com/2026/09/04/playstation-store-august-2026s-top-downloads/",
+        "publishedAt": "2026-09-04",
+        "period": "2026-08",
+        "metric": "PS5 downloads chart rank, not search volume",
+        "rankUSCanada": 9,
+        "rankEU": 10
+      }
     }
   },
   "updated": "2026-09-06"
