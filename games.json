@@ -3379,6 +3379,100 @@
           "summary": "Полная сюжетная игра, GTA Online и 1 500 000 GTA$.",
           "title": "Grand Theft Auto V — Great White Shark Card Bundle",
           "verifiedAt": "2026-09-08T20:01:08Z"
+        },
+        {
+          "availability": {
+            "india": "available",
+            "turkey": "available"
+          },
+          "discounts": {
+            "india": {
+              "percent": 50,
+              "endsAt": "2026-09-23T22:59:00Z",
+              "storeOriginal": 2999
+            },
+            "turkey": {
+              "percent": 50,
+              "endsAt": "2026-09-23T22:59:00Z",
+              "storeOriginal": 1600
+            }
+          },
+          "edition": "Standard Edition",
+          "editionId": "standard",
+          "editionOrder": 0,
+          "features": [
+            "Полная версия Call of Duty: Black Ops II для PS4 и PS5",
+            "Сюжетная кампания, мультиплеер и режим Zombies",
+            "1–2 игрока на одной приставке; до 18 игроков по сети с PS Plus",
+            "Совместная игра между PS4 и PS5",
+            "Русские текст и озвучка"
+          ],
+          "gameId": "black-ops-2",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/2619/c4ce7fe379aa05dd3f6ecc11e8fa38dfea03d4b4a8bad73a.png",
+          "imageDimensions": {
+            "width": 1024,
+            "height": 1024
+          },
+          "imageRole": "MASTER",
+          "platform": "PS4 / PS5",
+          "prices": {
+            "india": 3400,
+            "turkey": 3100
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                2000
+              ],
+              "cardCosts": [
+                2123
+              ],
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
+              ],
+              "wallet": 2000,
+              "cost": 2123,
+              "maxDeliveredCodes": 1,
+              "price": 3400,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-08T23:04:14Z"
+            },
+            "turkey": {
+              "cards": [
+                250,
+                250,
+                500
+              ],
+              "cardCosts": [
+                465,
+                465,
+                940
+              ],
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
+                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
+              ],
+              "wallet": 1000,
+              "cost": 1870,
+              "maxDeliveredCodes": 3,
+              "price": 3100,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-08T23:04:14Z"
+            }
+          },
+          "release": "Уже в продаже",
+          "storePrices": {
+            "india": 1499,
+            "turkey": 800
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP0002-PPSA34502_00-CODBO2GAME000001",
+            "turkey": "https://store.playstation.com/en-tr/product/UP0002-PPSA34502_00-CODBO2GAME000001"
+          },
+          "summary": "Полная игра: кампания, мультиплеер и Zombies.",
+          "title": "Call of Duty: Black Ops II — Standard Edition",
+          "verifiedAt": "2026-09-08T23:04:14Z"
         }
       ],
       "id": "new",
@@ -6603,6 +6697,46 @@
         "rankEU": 6,
         "limitation": "Дополнительный сигнал Европы и США/Канады, не российский покупательский спрос. Доступная подтверждённая российская поисковая частотность не получена.",
         "verifiedAt": "2026-09-08T20:01:08Z"
+      }
+    },
+    "black-ops-2": {
+      "title": "Call of Duty: Black Ops II",
+      "aliases": [
+        "кол оф дьюти блэк опс 2",
+        "колда блэк опс 2",
+        "блэк опс 2",
+        "black ops 2",
+        "bo2"
+      ],
+      "description": "Классическая кампания Call of Duty о холодной войне XXI века, соревновательный мультиплеер и режим Zombies. Версия 2026 года доступна на PS4 и PS5.",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/2619/c4ce7fe379aa05dd3f6ecc11e8fa38dfea03d4b4a8bad73a.png",
+      "imageRole": "MASTER",
+      "imageDimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "platform": "PS4 / PS5",
+      "release": "Уже в продаже",
+      "releaseDate": "2026-07-09",
+      "priority": 36,
+      "multiplayer": {
+        "local": true,
+        "split": true,
+        "online": true,
+        "label": "1–2 игрока на одной приставке · до 18 по сети",
+        "note": "PS Store указывает 1–2 игроков локально и до 18 игроков по сети. Поддерживается совместная игра между PS4 и PS5; для онлайна нужен PS Plus. Кроссплея с другими платформами нет.",
+        "source": "https://store.playstation.com/en-in/product/UP0002-PPSA34502_00-CODBO2GAME000001",
+        "verifiedAt": "2026-09-08T23:04:14Z"
+      },
+      "demandEvidence": {
+        "source": "https://blog.playstation.com/2026/09/04/playstation-store-august-2026s-top-downloads/",
+        "publishedAt": "2026-09-04",
+        "period": "2026-08",
+        "metric": "PS5 downloads chart rank, not search volume",
+        "rankUSCanada": 3,
+        "rankEU": 1,
+        "limitation": "Дополнительный сигнал Европы и США/Канады, не российский покупательский спрос. Доступная подтверждённая российская поисковая частотность не получена.",
+        "verifiedAt": "2026-09-08T23:04:14Z"
       }
     }
   },
