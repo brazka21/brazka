@@ -6256,6 +6256,93 @@
           "summary": "Полная базовая игра: одиночная кампания и кооператив по сети.",
           "title": "Tom Clancy’s Ghost Recon Wildlands — Standard Edition",
           "verifiedAt": "2026-09-09T05:06:13Z"
+        },
+        {
+          "availability": {
+            "india": "available",
+            "turkey": "available"
+          },
+          "discounts": {
+            "india": {
+              "percent": 89,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 2999
+            },
+            "turkey": {
+              "percent": 89,
+              "endsAt": "2026-09-09T22:59:00Z",
+              "storeOriginal": 1749
+            }
+          },
+          "edition": "Premium Edition",
+          "editionId": "premium",
+          "editionOrder": 0,
+          "features": [
+            "Полная версия Batman: Arkham Knight для PS4",
+            "Сезонный пропуск с сюжетными заданиями, суперзлодеями, Бэтмобилями, испытаниями, обликами и трассами",
+            "Игра на PS5 по обратной совместимости",
+            "Русские субтитры и интерфейс; русская озвучка не заявлена"
+          ],
+          "gameId": "batman-arkham-knight",
+          "image": "https://image.api.playstation.com/cdn/EP1018/CUSA00135_00/e1lbaSUnmBzv5cqMyM9DjbcrG0mpMrHi.png",
+          "imageDimensions": {
+            "height": 1024,
+            "width": 1024
+          },
+          "imageRole": "MASTER",
+          "platform": "PS4 / PS5 (обратная совместимость)",
+          "prices": {
+            "india": 2300,
+            "turkey": 1700
+          },
+          "pricingBasis": {
+            "india": {
+              "cards": [
+                1000
+              ],
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-1000-inr-gift-card/5265469"
+              ],
+              "cardCosts": [
+                1076
+              ],
+              "cost": 1076,
+              "wallet": 1000,
+              "maxDeliveredCodes": 1,
+              "price": 2300,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-09T17:06:40Z"
+            },
+            "turkey": {
+              "cards": [
+                250
+              ],
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
+              ],
+              "cardCosts": [
+                466
+              ],
+              "cost": 466,
+              "wallet": 250,
+              "maxDeliveredCodes": 1,
+              "price": 1700,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-09T17:06:40Z"
+            }
+          },
+          "release": "Уже в продаже",
+          "storePrices": {
+            "india": 329,
+            "turkey": 192.39
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP1018-CUSA00135_00-BAKPREMIUMED0000",
+            "turkey": "https://store.playstation.com/tr-tr/product/EP1018-CUSA00135_00-BAKPREMIUMED0000"
+          },
+          "summary": "Полная игра и сезонный пропуск.",
+          "title": "Batman: Arkham Knight — Premium Edition",
+          "verifiedAt": "2026-09-09T17:06:40Z"
         }
       ],
       "id": "cooperative",
@@ -7155,6 +7242,36 @@
       "release": "Уже в продаже",
       "releaseDate": "",
       "title": "Tom Clancy’s Ghost Recon Wildlands"
+    },
+    "batman-arkham-knight": {
+      "aliases": [
+        "бэтмен аркхэм найт",
+        "бетмен аркхем найт",
+        "бэтмен рыцарь аркхэма",
+        "arkham knight"
+      ],
+      "demandEvidence": {
+        "limitation": "Дополнительный сигнал США/Канады и Европы, не российский покупательский спрос. Wordstat и Google Trends не предоставили доступную российскую статистику, а Keyword Planner требует доступ к кабинету.",
+        "metric": "PS4 downloads chart rank, not search volume",
+        "period": "2026-08",
+        "publishedAt": "2026-09-04",
+        "rankEU": 4,
+        "rankUSCanada": 4,
+        "source": "https://blog.playstation.com/2026/09/04/playstation-store-august-2026s-top-downloads/",
+        "verifiedAt": "2026-09-09T17:06:40Z"
+      },
+      "description": "Финал трилогии Arkham: Бэтмен защищает Готэм от Пугала и объединённых суперзлодеев. Premium Edition включает полную игру и сезонный пропуск.",
+      "image": "https://image.api.playstation.com/cdn/EP1018/CUSA00135_00/e1lbaSUnmBzv5cqMyM9DjbcrG0mpMrHi.png",
+      "imageDimensions": {
+        "height": 1024,
+        "width": 1024
+      },
+      "imageRole": "MASTER",
+      "platform": "PS4 / PS5 (обратная совместимость)",
+      "priority": 39,
+      "release": "Уже в продаже",
+      "releaseDate": "",
+      "title": "Batman: Arkham Knight"
     }
   },
   "updated": "2026-09-06"
