@@ -5915,6 +5915,195 @@
           "summary": "Полная игра для PS5, три дополнения, три предмета для персонажа и 700 Tokens.",
           "title": "Minecraft — Deluxe Collection",
           "verifiedAt": "2026-09-08T11:04:35Z"
+        },
+        {
+          "availability": {
+            "india": "available",
+            "turkey": "available"
+          },
+          "discounts": {},
+          "edition": "Standard Edition",
+          "editionId": "standard",
+          "editionOrder": 0,
+          "features": [
+            "Полная версия Gang Beasts для PS4",
+            "Игра на PS5 по обратной совместимости",
+            "До 4 игроков на одной приставке; до 8 игроков по сети",
+            "Для сетевой игры требуется PS Plus",
+            "Русский язык в PS Store Индии и Турции не заявлен"
+          ],
+          "gameId": "gang-beasts",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202012/0912/DaMDXP75LV9pti5nA2IALzhO.png",
+          "imageDimensions": {
+            "height": 1024,
+            "width": 1024
+          },
+          "imageRole": "MASTER",
+          "platform": "PS4 / PS5 (обратная совместимость)",
+          "prices": {
+            "india": 3400,
+            "turkey": 2700
+          },
+          "pricingBasis": {
+            "india": {
+              "cardCosts": [
+                2123
+              ],
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
+              ],
+              "cards": [
+                2000
+              ],
+              "consideredLots": [
+                {
+                  "face": 1000,
+                  "cost": 1076,
+                  "url": "https://plati.market/itm/24-7-auto-playstation-1000-inr-gift-card/5265469"
+                },
+                {
+                  "face": 2000,
+                  "cost": 2123,
+                  "url": "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
+                },
+                {
+                  "face": 3000,
+                  "cost": 3239,
+                  "url": "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                },
+                {
+                  "face": 4000,
+                  "cost": 4318,
+                  "url": "https://plati.market/itm/24-7-auto-playstation-4000-inr-gift-card/5265755"
+                },
+                {
+                  "face": 5000,
+                  "cost": 5398,
+                  "url": "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
+                },
+                {
+                  "face": 6000,
+                  "cost": 6698,
+                  "url": "https://plati.market/itm/24-7-auto-playstation-6000-inr-gift-card/5552385"
+                },
+                {
+                  "face": 7000,
+                  "cost": 7597,
+                  "url": "https://plati.market/itm/24-7-auto-playstation-7000-inr-gift-card/5551234"
+                },
+                {
+                  "face": 8000,
+                  "cost": 8969,
+                  "url": "https://plati.market/itm/24-7-auto-playstation-8000-inr-gift-card/5551254"
+                },
+                {
+                  "face": 9000,
+                  "cost": 9669,
+                  "url": "https://plati.market/itm/24-7-auto-playstation-9000-inr-gift-card/5551258"
+                }
+              ],
+              "cost": 2123,
+              "deliveredCodes": [
+                2000
+              ],
+              "maxDeliveredCodes": 1,
+              "price": 3400,
+              "selectionNote": "Minimum among the surveyed available CNLJayCee lots: one confirmed 2000 INR code. More expensive lots cannot reduce this cost.",
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-09T02:09:58Z",
+              "wallet": 2000
+            },
+            "turkey": {
+              "cardCosts": [
+                465,
+                940
+              ],
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
+              ],
+              "cards": [
+                250,
+                500
+              ],
+              "consideredLots": [
+                {
+                  "face": 250,
+                  "cost": 465,
+                  "url": "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
+                },
+                {
+                  "face": 500,
+                  "cost": 940,
+                  "url": "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
+                },
+                {
+                  "face": 750,
+                  "cost": 1410,
+                  "url": "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543"
+                },
+                {
+                  "face": 1000,
+                  "cost": 1880,
+                  "url": "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
+                },
+                {
+                  "face": 1500,
+                  "cost": 2825,
+                  "url": "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139"
+                },
+                {
+                  "face": 2000,
+                  "cost": 3788,
+                  "url": "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
+                },
+                {
+                  "face": 2500,
+                  "cost": 4734,
+                  "url": "https://plati.market/itm/24-7-auto-playstation-2500-try-gift-card/5250604"
+                },
+                {
+                  "face": 3000,
+                  "cost": 5649,
+                  "url": "https://plati.market/itm/24-7-auto-playstation-3000-try-gift-card/5297640"
+                },
+                {
+                  "face": 4000,
+                  "cost": 7577,
+                  "url": "https://plati.market/itm/24-7-auto-playstation-4000-try-gift-card/5297646"
+                },
+                {
+                  "face": 5000,
+                  "cost": 9476,
+                  "url": "https://plati.market/itm/24-7-auto-playstation-5000-try-gift-card/5297652"
+                }
+              ],
+              "cost": 1405,
+              "deliveredCodes": [
+                250,
+                250,
+                250
+              ],
+              "maxDeliveredCodes": 3,
+              "price": 2700,
+              "selectionNote": "Minimum among confirmed available lots with at most 3 delivered codes. Each listed lot used at most once: the quantity=3 price request for 250 TRY returned cnt=1, not confirmation of three available lots. The 500 TRY lot explicitly delivers 2 x 250 TRY.",
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-09T02:09:58Z",
+              "wallet": 750
+            }
+          },
+          "release": "Уже в продаже",
+          "storePrices": {
+            "india": 1664,
+            "turkey": 699
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP2154-CUSA04865_00-GANGBEASTSPS04EU",
+            "turkey": "https://store.playstation.com/tr-tr/product/EP2154-CUSA04865_00-GANGBEASTSPS04EU"
+          },
+          "summary": "Полная игра с локальными и сетевыми сражениями, включая совместные бои против банд.",
+          "title": "Gang Beasts — Standard Edition",
+          "verifiedAt": "2026-09-09T02:09:58Z"
         }
       ],
       "id": "cooperative",
@@ -6738,6 +6927,43 @@
         "limitation": "Дополнительный сигнал Европы и США/Канады, не российский покупательский спрос. Доступная подтверждённая российская поисковая частотность не получена.",
         "verifiedAt": "2026-09-08T23:04:14Z"
       }
+    },
+    "gang-beasts": {
+      "aliases": [
+        "гэнг бистс",
+        "ганг бистс",
+        "ганг бист"
+      ],
+      "demandEvidence": {
+        "limitation": "Дополнительный сигнал Европы и США/Канады, не российский покупательский спрос. Wordstat и Trends не предоставили российскую статистику; Keyword Planner не предоставил значения. Турецкая витрина популярных игр и распродаж не загрузила список. Для точного продукта активная публичная скидка отсутствует в обоих регионах.",
+        "metric": "PS4 downloads chart rank, not search volume",
+        "period": "2026-08",
+        "publishedAt": "2026-09-04",
+        "rankEU": 5,
+        "rankUSCanada": 3,
+        "source": "https://blog.playstation.com/2026/09/04/playstation-store-august-2026s-top-downloads/",
+        "verifiedAt": "2026-09-09T02:09:58Z"
+      },
+      "description": "Комичные потасовки желеобразных бойцов: сражайся с друзьями или объединяйся с ними против банд Beef City.",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202012/0912/DaMDXP75LV9pti5nA2IALzhO.png",
+      "imageDimensions": {
+        "height": 1024,
+        "width": 1024
+      },
+      "imageRole": "MASTER",
+      "multiplayer": {
+        "label": "До 4 на одной приставке · до 8 по сети",
+        "local": true,
+        "note": "Версия PS4 работает на PS5 по обратной совместимости. Для сетевой игры требуется PS Plus. Русский язык в региональных карточках не заявлен.",
+        "online": true,
+        "source": "https://store.playstation.com/tr-tr/product/EP2154-CUSA04865_00-GANGBEASTSPS04EU",
+        "verifiedAt": "2026-09-09T02:09:58Z"
+      },
+      "platform": "PS4 / PS5 (обратная совместимость)",
+      "priority": 37,
+      "release": "Уже в продаже",
+      "releaseDate": "",
+      "title": "Gang Beasts"
     }
   },
   "updated": "2026-09-06"
