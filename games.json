@@ -971,7 +971,7 @@
             "turkey": {
               "percent": 80,
               "endsAt": "2026-09-23T22:59:00Z",
-              "storeOriginal": 3499.0
+              "storeOriginal": 3499
             }
           },
           "edition": "Ultimate Edition",
@@ -1059,7 +1059,7 @@
             "turkey": {
               "percent": 60,
               "endsAt": "2026-09-23T22:59:00Z",
-              "storeOriginal": 1541.0
+              "storeOriginal": 1541
             }
           },
           "edition": "Standard Edition",
@@ -1143,7 +1143,7 @@
             "turkey": {
               "percent": 60,
               "endsAt": "2026-09-23T22:59:00Z",
-              "storeOriginal": 2570.0
+              "storeOriginal": 2570
             }
           },
           "edition": "Premium Edition",
@@ -1214,7 +1214,7 @@
           "release": "Уже в продаже",
           "storePrices": {
             "india": 2639,
-            "turkey": 1028.0
+            "turkey": 1028
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/UP6312-PPSA22327_00-0810100104879906",
@@ -1238,7 +1238,7 @@
             "turkey": {
               "percent": 20,
               "endsAt": "2026-09-23T22:59:00Z",
-              "storeOriginal": 3449.0
+              "storeOriginal": 3449
             }
           },
           "edition": "Deluxe Edition",
@@ -2565,7 +2565,7 @@
             "turkey": {
               "percent": 70,
               "endsAt": "2026-09-23T22:59:00Z",
-              "storeOriginal": 3499.0
+              "storeOriginal": 3499
             }
           },
           "edition": "Gold Edition",
@@ -2744,7 +2744,7 @@
             "turkey": {
               "percent": 80,
               "endsAt": "2026-09-23T22:59:00Z",
-              "storeOriginal": 3499.0
+              "storeOriginal": 3499
             }
           },
           "edition": "Ultimate Edition",
@@ -2981,7 +2981,7 @@
             "turkey": {
               "percent": 85,
               "endsAt": "2026-09-23T22:59:00Z",
-              "storeOriginal": 1399.0
+              "storeOriginal": 1399
             }
           },
           "edition": "Reloaded Edition",
@@ -3069,7 +3069,7 @@
             "turkey": {
               "percent": 85,
               "endsAt": "2026-09-23T22:59:00Z",
-              "storeOriginal": 2099.0
+              "storeOriginal": 2099
             }
           },
           "edition": "Gold Edition",
@@ -5676,7 +5676,7 @@
             "turkey": {
               "percent": 70,
               "endsAt": "2026-09-23T22:59:00Z",
-              "storeOriginal": 2149.0
+              "storeOriginal": 2149
             }
           },
           "edition": "Standard Edition",
@@ -5756,7 +5756,7 @@
             "turkey": {
               "percent": 70,
               "endsAt": "2026-09-23T22:59:00Z",
-              "storeOriginal": 2579.0
+              "storeOriginal": 2579
             }
           },
           "edition": "Deluxe Edition",
@@ -5840,7 +5840,7 @@
             "turkey": {
               "percent": 70,
               "endsAt": "2026-09-23T22:59:00Z",
-              "storeOriginal": 2999.0
+              "storeOriginal": 2999
             }
           },
           "edition": "Ultimate Edition",
@@ -6164,6 +6164,98 @@
           "summary": "Полная игра с локальными и сетевыми сражениями, включая совместные бои против банд.",
           "title": "Gang Beasts — Standard Edition",
           "verifiedAt": "2026-09-09T02:09:58Z"
+        },
+        {
+          "availability": {
+            "india": "available",
+            "turkey": "available"
+          },
+          "discounts": {},
+          "edition": "Standard Edition",
+          "editionId": "standard",
+          "editionOrder": 0,
+          "features": [
+            "Полная версия Tom Clancy’s Ghost Recon Wildlands для PS4",
+            "Игра на PS5 по обратной совместимости",
+            "До 4 игроков по сети; для онлайна требуется PS Plus",
+            "Русский язык в PS Store Индии и Турции не заявлен"
+          ],
+          "gameId": "ghost-recon-wildlands",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/0808/a0b12dbede049aedfb7650056f4eda03b924ac524482388b.png",
+          "imageDimensions": {
+            "height": 1024,
+            "width": 1024
+          },
+          "imageRole": "MASTER",
+          "platform": "PS4 / PS5 (обратная совместимость)",
+          "prices": {
+            "india": 5500,
+            "turkey": 5400
+          },
+          "pricingBasis": {
+            "india": {
+              "cardCosts": [
+                2123,
+                2123
+              ],
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
+              ],
+              "cards": [
+                2000,
+                2000
+              ],
+              "cost": 4246,
+              "excludedCards": [
+                {
+                  "id": "5265755",
+                  "reason": "Число выдаваемых кодов для 4000 INR не определено продавцом."
+                }
+              ],
+              "maxDeliveredCodes": 2,
+              "price": 5500,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-09T05:06:13Z",
+              "wallet": 4000
+            },
+            "turkey": {
+              "cardCosts": [
+                1394,
+                1394,
+                1394
+              ],
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543"
+              ],
+              "cards": [
+                750,
+                750,
+                750
+              ],
+              "cost": 4182,
+              "excludedCards": [],
+              "maxDeliveredCodes": 3,
+              "price": 5400,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-09T05:06:13Z",
+              "wallet": 2250
+            }
+          },
+          "release": "Уже в продаже",
+          "storePrices": {
+            "india": 3499,
+            "turkey": 2149
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP0001-CUSA02819_00-GRWEMEANORMAL000",
+            "turkey": "https://store.playstation.com/tr-tr/product/EP0001-CUSA02819_00-GRWEMEANORMAL000"
+          },
+          "summary": "Полная базовая игра: одиночная кампания и кооператив по сети.",
+          "title": "Tom Clancy’s Ghost Recon Wildlands — Standard Edition",
+          "verifiedAt": "2026-09-09T05:06:13Z"
         }
       ],
       "id": "cooperative",
@@ -7024,6 +7116,45 @@
       "release": "Уже в продаже",
       "releaseDate": "",
       "title": "Gang Beasts"
+    },
+    "ghost-recon-wildlands": {
+      "aliases": [
+        "гост рекон вайлдлендс",
+        "гост рекон",
+        "вайдлендс",
+        "wildlands"
+      ],
+      "demandEvidence": {
+        "limitation": "Дополнительный сигнал США/Канады и Европы, не российский покупательский спрос. Wordstat/Trends не предоставили статистику, Keyword Planner требует доступ к кабинету. Региональная витрина популярных игр и акций не предоставила список. Для точного продукта активной публичной скидки нет.",
+        "metric": "PS4 downloads chart rank, not search volume",
+        "period": "2026-08",
+        "publishedAt": "2026-09-04",
+        "rankEU": 3,
+        "rankUSCanada": 1,
+        "source": "https://blog.playstation.com/2026/09/04/playstation-store-august-2026s-top-downloads/",
+        "verifiedAt": "2026-09-09T05:06:13Z"
+      },
+      "description": "Тактический шутер в открытом мире Боливии: выполняй задания один или вместе с друзьями по сети.",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/0808/a0b12dbede049aedfb7650056f4eda03b924ac524482388b.png",
+      "imageDimensions": {
+        "height": 1024,
+        "width": 1024
+      },
+      "imageRole": "MASTER",
+      "multiplayer": {
+        "label": "До 4 игроков · по сети",
+        "local": false,
+        "note": "Локального кооператива нет. Для сетевой игры требуется PS Plus. Версия PS4 работает на PS5; русский язык в проверенных изданиях Индии и Турции не заявлен.",
+        "online": true,
+        "source": "https://store.playstation.com/en-in/product/EP0001-CUSA02819_00-GRWEMEANORMAL000",
+        "split": false,
+        "verifiedAt": "2026-09-09T05:06:13Z"
+      },
+      "platform": "PS4 / PS5 (обратная совместимость)",
+      "priority": 38,
+      "release": "Уже в продаже",
+      "releaseDate": "",
+      "title": "Tom Clancy’s Ghost Recon Wildlands"
     }
   },
   "updated": "2026-09-06"
