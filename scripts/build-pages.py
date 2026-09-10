@@ -24,7 +24,7 @@ base=base.replace('href="./"','href="/"')
 base=re.sub(r'(href|src)="(assets/|storefront\.)',r'\1="/\2',base)
 base=base.replace('storefront.js?v=2','storefront.js?v=coop1').replace('storefront.css?v=2','storefront.css?v=coop1')
 (R/'index.html').write_text(base)
-paths=['/','/gta-6-ps5/']
+paths=['/']
 def page(path,title,desc,content=None,subset=None,image=None):
  s=base
  s=re.sub(r'<title>.*?</title>','<title>'+esc(title)+' | БРАЗКА</title>',s)
