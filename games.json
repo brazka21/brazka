@@ -4422,6 +4422,299 @@
           "summary": "Полная игра и комплект Deluxe Edition.",
           "title": "NHL 27 — Deluxe Edition",
           "verifiedAt": "2026-09-12T17:03:00Z"
+        },
+        {
+          "availability": {
+            "india": "available",
+            "turkey": "available"
+          },
+          "discounts": {},
+          "edition": "Standard Edition",
+          "editionId": "standard",
+          "editionOrder": 0,
+          "features": [
+            "Полная игра Until Dawn 2 для PS5",
+            "Бонусы предзаказа: два костюма доктора Хилла и два коллекционных болванчика"
+          ],
+          "gameId": "until-dawn-2",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202608/2808/6779640b51ca4b98c8185f677cb10e13792de40fe06614fa.png",
+          "imageDimensions": {
+            "height": 1024,
+            "width": 1024
+          },
+          "imageRole": "MASTER",
+          "platform": "PS5",
+          "prices": {
+            "india": 4400,
+            "turkey": 5400
+          },
+          "pricingBasis": {
+            "india": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-1000-inr-gift-card/5265469",
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
+              ],
+              "cards": [1000, 2000],
+              "cardCosts": [1058, 2064],
+              "cost": 3122,
+              "maxDeliveredCodes": 2,
+              "price": 4400,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T20:00:57Z",
+              "wallet": 3000
+            },
+            "turkey": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
+              ],
+              "cards": [250, 2000],
+              "cardCosts": [459, 3704],
+              "cost": 4163,
+              "maxDeliveredCodes": 2,
+              "price": 5400,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T20:00:57Z",
+              "wallet": 2250
+            }
+          },
+          "release": "28 января",
+          "storePriceVerifiedAt": {
+            "india": "2026-09-12T20:00:57Z",
+            "turkey": "2026-09-12T20:00:57Z"
+          },
+          "storePrices": {
+            "india": 2999.0,
+            "turkey": 2149.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP9000-PPSA05719_00-UNTILDAWN2000001",
+            "turkey": "https://store.playstation.com/en-tr/product/EP9000-PPSA05719_00-UNTILDAWN2000001"
+          },
+          "summary": "Полная игра и бонусы предзаказа.",
+          "title": "Until Dawn 2 — Standard Edition",
+          "verifiedAt": "2026-09-12T20:00:57Z"
+        },
+        {
+          "availability": {
+            "india": "available",
+            "turkey": "available"
+          },
+          "discounts": {},
+          "edition": "Digital Deluxe Edition",
+          "editionId": "digital-deluxe",
+          "editionOrder": 2,
+          "features": [
+            "Полная игра Until Dawn 2 для PS5",
+            "Y2K Neon Vibes Pack: тематические костюмы для восьми игровых персонажей",
+            "Dioramas of Death: галерея сцен гибели",
+            "Бонусы предзаказа: два костюма доктора Хилла и два коллекционных болванчика"
+          ],
+          "gameId": "until-dawn-2",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202608/2808/112a73baba92725b773b1c2163901d883897c6e98846f3b4.png",
+          "imageDimensions": {
+            "height": 1024,
+            "width": 1024
+          },
+          "imageRole": "MASTER",
+          "platform": "PS5",
+          "prices": {
+            "india": 5400,
+            "turkey": 6300
+          },
+          "pricingBasis": {
+            "india": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
+              ],
+              "cards": [2000, 2000],
+              "cardCosts": [2064, 2064],
+              "cost": 4128,
+              "maxDeliveredCodes": 2,
+              "price": 5400,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T20:00:57Z",
+              "wallet": 4000
+            },
+            "turkey": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
+              ],
+              "cards": [750, 2000],
+              "cardCosts": [1391, 3704],
+              "cost": 5095,
+              "maxDeliveredCodes": 2,
+              "price": 6300,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T20:00:57Z",
+              "wallet": 2750
+            }
+          },
+          "release": "28 января",
+          "storePriceVerifiedAt": {
+            "india": "2026-09-12T20:00:57Z",
+            "turkey": "2026-09-12T20:00:57Z"
+          },
+          "storePrices": {
+            "india": 3499.0,
+            "turkey": 2579.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP9000-PPSA05719_00-UNTILDAWN2DDE001",
+            "turkey": "https://store.playstation.com/en-tr/product/EP9000-PPSA05719_00-UNTILDAWN2DDE001"
+          },
+          "summary": "Полная игра, Y2K Neon Vibes Pack и Dioramas of Death.",
+          "title": "Until Dawn 2 — Digital Deluxe Edition",
+          "verifiedAt": "2026-09-12T20:00:57Z"
+        },
+        {
+          "availability": {
+            "india": "available",
+            "turkey": "available"
+          },
+          "discounts": {},
+          "edition": "Standard Edition",
+          "editionId": "standard",
+          "editionOrder": 0,
+          "features": [
+            "Полная игра Tomb Raider: Legacy of Atlantis для PS5",
+            "Survivor Outfit — ранняя разблокировка за предзаказ"
+          ],
+          "gameId": "tomb-raider-legacy-of-atlantis",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/0623/b52e42feb9fec0e498cbc97ba8781a90b4521c0feb633ccb.png",
+          "imageDimensions": {
+            "height": 1024,
+            "width": 1024
+          },
+          "imageRole": "MASTER",
+          "platform": "PS5",
+          "prices": {
+            "india": 5400,
+            "turkey": 6300
+          },
+          "pricingBasis": {
+            "india": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
+              ],
+              "cards": [2000, 2000],
+              "cardCosts": [2064, 2064],
+              "cost": 4128,
+              "maxDeliveredCodes": 2,
+              "price": 5400,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T20:00:57Z",
+              "wallet": 4000
+            },
+            "turkey": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
+              ],
+              "cards": [750, 2000],
+              "cardCosts": [1391, 3704],
+              "cost": 5095,
+              "maxDeliveredCodes": 2,
+              "price": 6300,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T20:00:57Z",
+              "wallet": 2750
+            }
+          },
+          "release": "12 февраля",
+          "storePriceVerifiedAt": {
+            "india": "2026-09-12T20:00:57Z",
+            "turkey": "2026-09-12T20:00:57Z"
+          },
+          "storePrices": {
+            "india": 3499.0,
+            "turkey": 2579.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP5267-PPSA29000_00-TRLOASTND0000000",
+            "turkey": "https://store.playstation.com/en-tr/product/UP5267-PPSA29000_00-TRLOASTND0000000"
+          },
+          "summary": "Полная игра и бонус предзаказа Survivor Outfit.",
+          "title": "Tomb Raider: Legacy of Atlantis — Standard Edition",
+          "verifiedAt": "2026-09-12T20:00:57Z"
+        },
+        {
+          "availability": {
+            "india": "available",
+            "turkey": "available"
+          },
+          "discounts": {},
+          "edition": "Deluxe Edition",
+          "editionId": "deluxe",
+          "editionOrder": 2,
+          "features": [
+            "Полная игра Tomb Raider: Legacy of Atlantis для PS5",
+            "Parisian Fugitive Outfit",
+            "Сюжетное дополнение после релиза",
+            "Ранний доступ за 48 часов",
+            "Survivor Outfit — ранняя разблокировка за предзаказ"
+          ],
+          "gameId": "tomb-raider-legacy-of-atlantis",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1817/40a1d51b14ae891699a8c0ec4e197a0932981f9c3dd57b5b.png",
+          "imageDimensions": {
+            "height": 1024,
+            "width": 1024
+          },
+          "imageRole": "MASTER",
+          "platform": "PS5",
+          "prices": {
+            "india": 5400,
+            "turkey": 6800
+          },
+          "pricingBasis": {
+            "india": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
+              ],
+              "cards": [2000, 2000],
+              "cardCosts": [2064, 2064],
+              "cost": 4128,
+              "maxDeliveredCodes": 2,
+              "price": 5400,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T20:00:57Z",
+              "wallet": 4000
+            },
+            "turkey": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
+              ],
+              "cards": [1000, 2000],
+              "cardCosts": [1853, 3704],
+              "cost": 5557,
+              "maxDeliveredCodes": 2,
+              "price": 6800,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T20:00:57Z",
+              "wallet": 3000
+            }
+          },
+          "release": "12 февраля",
+          "storePriceVerifiedAt": {
+            "india": "2026-09-12T20:00:57Z",
+            "turkey": "2026-09-12T20:00:57Z"
+          },
+          "storePrices": {
+            "india": 3999.0,
+            "turkey": 2999.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP5267-PPSA29000_00-TRLOADELX0000000",
+            "turkey": "https://store.playstation.com/en-tr/product/UP5267-PPSA29000_00-TRLOADELX0000000"
+          },
+          "summary": "Полная игра, ранний доступ, образ и сюжетное дополнение.",
+          "title": "Tomb Raider: Legacy of Atlantis — Deluxe Edition",
+          "verifiedAt": "2026-09-12T20:00:57Z"
         }
       ],
       "id": "new",
@@ -8118,6 +8411,82 @@
       "release": "Уже в продаже",
       "releaseDate": "2026-09-04",
       "title": "NHL 27"
+    },
+    "until-dawn-2": {
+      "aliases": [
+        "антил даун 2",
+        "унтил даун 2",
+        "дожить до рассвета 2",
+        "until dawn 2"
+      ],
+      "demandEvidence": {
+        "limitation": "Просмотры официального глобального трейлера PlayStation — дополнительный сигнал интереса, не российская поисковая частотность и не число предзаказов. Wordstat и Keyword Planner требуют входа; Google Trends для России вернул ошибку 429 при проверке.",
+        "metric": "просмотры официального трейлера PlayStation на YouTube, не поисковые запросы и не продажи",
+        "period": "3–12 сентября 2026",
+        "publishedAt": "2026-09-03",
+        "source": "https://www.youtube.com/watch?v=-wjhso38sAY",
+        "value": 1180359,
+        "verifiedAt": "2026-09-12T20:00:57Z"
+      },
+      "description": "Интерактивный хоррор о группе охотников за привидениями на заброшенном островном курорте, где решения определяют, кто переживёт ночь.",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202608/2808/6779640b51ca4b98c8185f677cb10e13792de40fe06614fa.png",
+      "imageDimensions": {
+        "height": 1024,
+        "width": 1024
+      },
+      "imageRole": "MASTER",
+      "multiplayer": {
+        "label": "1 игрок · без сетевого режима",
+        "local": false,
+        "note": "Until Dawn 2 — одиночная игра. Русский язык в проверенных карточках PS Store Индии и Турции не заявлен.",
+        "online": false,
+        "source": "https://store.playstation.com/en-in/product/EP9000-PPSA05719_00-UNTILDAWN2000001",
+        "split": false,
+        "verifiedAt": "2026-09-12T20:00:57Z"
+      },
+      "platform": "PS5",
+      "priority": 43,
+      "release": "28 января",
+      "releaseDate": "2027-01-28",
+      "title": "Until Dawn 2"
+    },
+    "tomb-raider-legacy-of-atlantis": {
+      "aliases": [
+        "томб райдер атлантида",
+        "томб райдер legacy of atlantis",
+        "лара крофт атлантида",
+        "tomb raider legacy of atlantis"
+      ],
+      "demandEvidence": {
+        "limitation": "Просмотры официального глобального трейлера PlayStation — дополнительный сигнал интереса, не российская поисковая частотность и не число предзаказов. Wordstat и Keyword Planner требуют входа; Google Trends для России вернул ошибку 429 при проверке.",
+        "metric": "просмотры официального трейлера PlayStation на YouTube, не поисковые запросы и не продажи",
+        "period": "2 июня – 12 сентября 2026",
+        "publishedAt": "2026-06-02",
+        "source": "https://www.youtube.com/watch?v=0wEjbSYNUM8",
+        "value": 2200085,
+        "verifiedAt": "2026-09-12T20:00:57Z"
+      },
+      "description": "Современное переосмысление первого приключения Лары Крофт: исследование древних руин, головоломки, ловушки и сражения в поисках частей артефакта Scion.",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/0623/b52e42feb9fec0e498cbc97ba8781a90b4521c0feb633ccb.png",
+      "imageDimensions": {
+        "height": 1024,
+        "width": 1024
+      },
+      "imageRole": "MASTER",
+      "multiplayer": {
+        "label": "1 игрок · без сетевого режима",
+        "local": false,
+        "note": "Игра рассчитана на одного игрока. Официальный список локализаций не содержит русского языка.",
+        "online": false,
+        "source": "https://www.playtombraider.com/en-us",
+        "split": false,
+        "verifiedAt": "2026-09-12T20:00:57Z"
+      },
+      "platform": "PS5",
+      "priority": 44,
+      "release": "12 февраля",
+      "releaseDate": "2027-02-12",
+      "title": "Tomb Raider: Legacy of Atlantis"
     }
   },
   "updated": "2026-09-06"
