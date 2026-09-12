@@ -4065,6 +4065,363 @@
           "summary": "Полная игра, четыре DLC и все бонусы Ultimate Edition.",
           "title": "Dune: Awakening — Ultimate Edition",
           "verifiedAt": "2026-09-12T14:20:07Z"
+        },
+        {
+          "availability": {
+            "india": "available",
+            "turkey": "available"
+          },
+          "discounts": {},
+          "edition": "Standard Edition",
+          "editionId": "standard",
+          "editionOrder": 0,
+          "features": [
+            "Полная игра Halloween: The Game для PS5"
+          ],
+          "gameId": "halloween-the-game",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/0218/c79d2df71166c94b212ec45d070938ded570acb357b00d8f.png",
+          "imageDimensions": {
+            "height": 1024,
+            "width": 1024
+          },
+          "imageRole": "MASTER",
+          "platform": "PS5",
+          "prices": {
+            "india": 4400,
+            "turkey": 4500
+          },
+          "pricingBasis": {
+            "india": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-1000-inr-gift-card/5265469",
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
+              ],
+              "cards": [
+                1000,
+                2000
+              ],
+              "cardCosts": [
+                1049,
+                2073
+              ],
+              "cost": 3122,
+              "maxDeliveredCodes": 2,
+              "price": 4400,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T17:03:00Z",
+              "wallet": 3000
+            },
+            "turkey": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
+              ],
+              "cards": [
+                250,
+                500,
+                1000
+              ],
+              "cardCosts": [
+                459,
+                923,
+                1853
+              ],
+              "cost": 3235,
+              "maxDeliveredCodes": 3,
+              "price": 4500,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T17:03:00Z",
+              "wallet": 1750
+            }
+          },
+          "release": "Уже в продаже",
+          "storePriceVerifiedAt": {
+            "india": "2026-09-12T17:03:00Z",
+            "turkey": "2026-09-12T17:03:00Z"
+          },
+          "storePrices": {
+            "india": 2499.0,
+            "turkey": 1749.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP3095-PPSA29340_00-RAVAGEGAME100000",
+            "turkey": "https://store.playstation.com/en-tr/product/UP3095-PPSA29340_00-RAVAGEGAME100000"
+          },
+          "summary": "Полная версия игры.",
+          "title": "Halloween: The Game — Standard Edition",
+          "verifiedAt": "2026-09-12T17:03:00Z"
+        },
+        {
+          "availability": {
+            "india": "available",
+            "turkey": "available"
+          },
+          "discounts": {},
+          "edition": "Digital Deluxe Edition",
+          "editionId": "digital-deluxe",
+          "editionOrder": 2,
+          "features": [
+            "Полная игра Halloween: The Game для PS5",
+            "Эксклюзивный образ заключённого Майкла Майерса",
+            "Два эксклюзивных персонажа: Алексис и Ричард",
+            "Ранний доступ к косметике Лори Строуд",
+            "Цифровой комикс"
+          ],
+          "gameId": "halloween-the-game",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/0218/c44121b2644f3f3dcfb2d1ea2fb1e1444d78f1284d96914b.png",
+          "imageDimensions": {
+            "height": 1024,
+            "width": 1024
+          },
+          "imageRole": "MASTER",
+          "platform": "PS5",
+          "prices": {
+            "india": 5400,
+            "turkey": 6300
+          },
+          "pricingBasis": {
+            "india": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
+              ],
+              "cards": [
+                2000,
+                2000
+              ],
+              "cardCosts": [
+                2073,
+                2073
+              ],
+              "cost": 4146,
+              "maxDeliveredCodes": 2,
+              "price": 5400,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T17:03:00Z",
+              "wallet": 4000
+            },
+            "turkey": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
+              ],
+              "cards": [
+                250,
+                500,
+                2000
+              ],
+              "cardCosts": [
+                459,
+                923,
+                3704
+              ],
+              "cost": 5086,
+              "maxDeliveredCodes": 3,
+              "price": 6300,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T17:03:00Z",
+              "wallet": 2750
+            }
+          },
+          "release": "Уже в продаже",
+          "storePriceVerifiedAt": {
+            "india": "2026-09-12T17:03:00Z",
+            "turkey": "2026-09-12T17:03:00Z"
+          },
+          "storePrices": {
+            "india": 3499.0,
+            "turkey": 2579.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP3095-PPSA29340_00-HALLOWEENDELUXED",
+            "turkey": "https://store.playstation.com/en-tr/product/UP3095-PPSA29340_00-HALLOWEENDELUXED"
+          },
+          "summary": "Полная игра и комплект Digital Deluxe.",
+          "title": "Halloween: The Game — Digital Deluxe Edition",
+          "verifiedAt": "2026-09-12T17:03:00Z"
+        },
+        {
+          "availability": {
+            "india": "available",
+            "turkey": "available"
+          },
+          "discounts": {},
+          "edition": "Standard Edition",
+          "editionId": "standard",
+          "editionOrder": 0,
+          "features": [
+            "Полная игра NHL 27 для PS5",
+            "250 NHL Points"
+          ],
+          "gameId": "nhl-27",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/0714/6e3afa15d13867fd4e3e3667ce1220a59008c1bbb9cd704b.png",
+          "imageDimensions": {
+            "height": 1024,
+            "width": 1024
+          },
+          "imageRole": "MASTER",
+          "platform": "PS5",
+          "prices": {
+            "india": 7500,
+            "turkey": 8700
+          },
+          "pricingBasis": {
+            "india": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
+              ],
+              "cards": [
+                2000,
+                2000,
+                2000
+              ],
+              "cardCosts": [
+                2073,
+                2073,
+                2073
+              ],
+              "cost": 6219,
+              "maxDeliveredCodes": 3,
+              "price": 7500,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T17:03:00Z",
+              "wallet": 6000
+            },
+            "turkey": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
+              ],
+              "cards": [
+                2000,
+                2000
+              ],
+              "cardCosts": [
+                3704,
+                3704
+              ],
+              "cost": 7408,
+              "maxDeliveredCodes": 2,
+              "price": 8700,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T17:03:00Z",
+              "wallet": 4000
+            }
+          },
+          "release": "Уже в продаже",
+          "storePriceVerifiedAt": {
+            "india": "2026-09-12T17:03:00Z",
+            "turkey": "2026-09-12T17:03:00Z"
+          },
+          "storePrices": {
+            "india": 5999.0,
+            "turkey": 3999.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP0006-PPSA34063_00-NHL27STANDEDITON",
+            "turkey": "https://store.playstation.com/en-tr/product/UP0006-PPSA34063_00-NHL27STANDEDITON"
+          },
+          "summary": "Полная версия игры и 250 NHL Points.",
+          "title": "NHL 27 — Standard Edition",
+          "verifiedAt": "2026-09-12T17:03:00Z"
+        },
+        {
+          "availability": {
+            "india": "available",
+            "turkey": "available"
+          },
+          "discounts": {},
+          "edition": "Deluxe Edition",
+          "editionId": "deluxe",
+          "editionOrder": 2,
+          "features": [
+            "Полная игра NHL 27 для PS5",
+            "4600 NHL Points",
+            "Набор выбора HUT Icons",
+            "Набор выбора HUT Heroes",
+            "Наборы HUT NHL Player и HUT Fan Choice",
+            "Два жетона двойного опыта WOC"
+          ],
+          "gameId": "nhl-27",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/0715/cbd58aea51135a55e92fa8d5eaea376ee7550ef1c5fb6328.png",
+          "imageDimensions": {
+            "height": 1024,
+            "width": 1024
+          },
+          "imageRole": "MASTER",
+          "platform": "PS5",
+          "prices": {
+            "india": 10700,
+            "turkey": 11400
+          },
+          "pricingBasis": {
+            "india": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
+                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
+              ],
+              "cards": [
+                2000,
+                2000,
+                5000
+              ],
+              "cardCosts": [
+                2073,
+                2073,
+                5265
+              ],
+              "cost": 9411,
+              "maxDeliveredCodes": 3,
+              "price": 10700,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T17:03:00Z",
+              "wallet": 9000
+            },
+            "turkey": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-4000-try-gift-card/5297646"
+              ],
+              "cards": [
+                500,
+                1000,
+                4000
+              ],
+              "cardCosts": [
+                923,
+                1853,
+                7409
+              ],
+              "cost": 10185,
+              "maxDeliveredCodes": 3,
+              "price": 11400,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T17:03:00Z",
+              "wallet": 5500
+            }
+          },
+          "release": "Уже в продаже",
+          "storePriceVerifiedAt": {
+            "india": "2026-09-12T17:03:00Z",
+            "turkey": "2026-09-12T17:03:00Z"
+          },
+          "storePrices": {
+            "india": 8999.0,
+            "turkey": 5499.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP0006-PPSA34063_00-NHL27DELUXEDITON",
+            "turkey": "https://store.playstation.com/en-tr/product/UP0006-PPSA34063_00-NHL27DELUXEDITON"
+          },
+          "summary": "Полная игра и комплект Deluxe Edition.",
+          "title": "NHL 27 — Deluxe Edition",
+          "verifiedAt": "2026-09-12T17:03:00Z"
         }
       ],
       "id": "new",
@@ -7687,6 +8044,80 @@
       "release": "22 сентября",
       "releaseDate": "2026-09-22",
       "title": "Dune: Awakening"
+    },
+    "halloween-the-game": {
+      "aliases": [
+        "хэллоуин",
+        "хеллоуин",
+        "майкл майерс",
+        "halloween game"
+      ],
+      "demandEvidence": {
+        "limitation": "Глобальные оценки владельцев PS Store — дополнительный сигнал интереса, не российская поисковая частотность и не число продаж. Wordstat и Keyword Planner требуют входа; Google Trends не отдал статистику при проверке.",
+        "metric": "число глобальных оценок владельцев в PS Store, не поисковые запросы и не продажи",
+        "period": "8–13 сентября 2026",
+        "source": "https://store.playstation.com/en-in/product/UP3095-PPSA29340_00-RAVAGEGAME100000",
+        "value": 4775,
+        "verifiedAt": "2026-09-12T17:03:00Z"
+      },
+      "description": "Асимметричный хоррор по фильму «Хэллоуин»: одиночная история за Майкла Майерса и сетевые матчи 1 против 4.",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/0218/c79d2df71166c94b212ec45d070938ded570acb357b00d8f.png",
+      "imageDimensions": {
+        "height": 1024,
+        "width": 1024
+      },
+      "imageRole": "MASTER",
+      "multiplayer": {
+        "label": "1 игрок на приставке · до 5 игроков по сети",
+        "local": false,
+        "note": "Сетевые матчи рассчитаны на пять игроков; для онлайна требуется PS Plus. Локального кооператива нет. В Индии и Турции подтверждён русский текст, озвучка — английская.",
+        "online": true,
+        "source": "https://store.playstation.com/en-in/product/UP3095-PPSA29340_00-RAVAGEGAME100000",
+        "split": false,
+        "verifiedAt": "2026-09-12T17:03:00Z"
+      },
+      "platform": "PS5",
+      "priority": 41,
+      "release": "Уже в продаже",
+      "releaseDate": "2026-09-08",
+      "title": "Halloween: The Game"
+    },
+    "nhl-27": {
+      "aliases": [
+        "нхл 27",
+        "нхл27",
+        "nhl27",
+        "хоккей ps5"
+      ],
+      "demandEvidence": {
+        "limitation": "Глобальные оценки владельцев PS Store — дополнительный сигнал интереса, не российская поисковая частотность и не число продаж. Wordstat и Keyword Planner требуют входа; Google Trends не отдал статистику при проверке.",
+        "metric": "число глобальных оценок владельцев в PS Store, не поисковые запросы и не продажи",
+        "period": "4–13 сентября 2026",
+        "source": "https://store.playstation.com/en-tr/product/UP0006-PPSA34063_00-NHL27STANDEDITON",
+        "value": 357,
+        "verifiedAt": "2026-09-12T17:03:00Z"
+      },
+      "description": "Хоккейный симулятор EA SPORTS с локальными матчами до четырёх игроков и сетевыми режимами до 12 участников.",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/0714/6e3afa15d13867fd4e3e3667ce1220a59008c1bbb9cd704b.png",
+      "imageDimensions": {
+        "height": 1024,
+        "width": 1024
+      },
+      "imageRole": "MASTER",
+      "multiplayer": {
+        "label": "До 4 игроков на приставке · до 12 игроков по сети",
+        "local": true,
+        "note": "Локальная игра поддерживает до четырёх игроков на одной PS5; для сетевых режимов требуется PS Plus. Русский язык в проверенных карточках Индии и Турции не заявлен.",
+        "online": true,
+        "source": "https://store.playstation.com/en-in/product/UP0006-PPSA34063_00-NHL27STANDEDITON",
+        "split": false,
+        "verifiedAt": "2026-09-12T17:03:00Z"
+      },
+      "platform": "PS5",
+      "priority": 42,
+      "release": "Уже в продаже",
+      "releaseDate": "2026-09-04",
+      "title": "NHL 27"
     }
   },
   "updated": "2026-09-06"
