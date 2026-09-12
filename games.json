@@ -4757,6 +4757,351 @@
           "summary": "Полная игра, ранний доступ, образ и сюжетное дополнение.",
           "title": "Tomb Raider: Legacy of Atlantis — Deluxe Edition",
           "verifiedAt": "2026-09-12T20:00:57Z"
+        },
+        {
+          "availability": {
+            "india": "available",
+            "turkey": "available"
+          },
+          "discounts": {},
+          "edition": "Standard Edition",
+          "editionId": "standard",
+          "editionOrder": 0,
+          "features": [
+            "Полная игра Fable для PS5",
+            "Бонусы предзаказа: костюм цыплёнка и набор внутриигровых подарков"
+          ],
+          "gameId": "fable",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2823/060ce25afffaa1990656ab1ee50a648539772fa99f039e13.png",
+          "imageDimensions": {
+            "height": 1024,
+            "width": 1024
+          },
+          "imageRole": "MASTER",
+          "platform": "PS5",
+          "prices": {
+            "india": 7600,
+            "turkey": 6800
+          },
+          "pricingBasis": {
+            "india": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+              ],
+              "cards": [
+                3000,
+                3000
+              ],
+              "cardCosts": [
+                3159,
+                3159
+              ],
+              "cost": 6318,
+              "maxDeliveredCodes": 2,
+              "price": 7600,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T23:10:47Z",
+              "wallet": 6000
+            },
+            "turkey": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
+              ],
+              "cards": [
+                1000,
+                2000
+              ],
+              "cardCosts": [
+                1853,
+                3704
+              ],
+              "cost": 5557,
+              "maxDeliveredCodes": 2,
+              "price": 6800,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T23:10:47Z",
+              "wallet": 3000
+            }
+          },
+          "release": "23 февраля",
+          "storePriceVerifiedAt": {
+            "india": "2026-09-12T23:10:47Z",
+            "turkey": "2026-09-12T23:10:47Z"
+          },
+          "storePrices": {
+            "india": 5499.0,
+            "turkey": 2999.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP6312-PPSA31381_00-0202050640964065",
+            "turkey": "https://store.playstation.com/en-tr/product/UP6312-PPSA31381_00-0202050640964065"
+          },
+          "summary": "Полная игра и бонусы предзаказа.",
+          "title": "Fable — Standard Edition",
+          "verifiedAt": "2026-09-12T23:10:47Z"
+        },
+        {
+          "availability": {
+            "india": "available",
+            "turkey": "available"
+          },
+          "discounts": {},
+          "edition": "Premium Edition",
+          "editionId": "premium",
+          "editionOrder": 3,
+          "features": [
+            "Полная игра Fable для PS5",
+            "Ранний доступ до пяти дней",
+            "Premium Edition Content Pack",
+            "Цифровой артбук и саундтрек",
+            "Дополнение Fable: Order of the Hero после релиза",
+            "Бонусы предзаказа: костюм цыплёнка и набор внутриигровых подарков"
+          ],
+          "gameId": "fable",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/0719/278412ee721de567fe21266728da5d88c01f1bd50768fcee.png",
+          "imageDimensions": {
+            "height": 1024,
+            "width": 1024
+          },
+          "imageRole": "MASTER",
+          "platform": "PS5",
+          "prices": {
+            "india": 9700,
+            "turkey": 9100
+          },
+          "pricingBasis": {
+            "india": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
+              ],
+              "cards": [
+                3000,
+                5000
+              ],
+              "cardCosts": [
+                3159,
+                5265
+              ],
+              "cost": 8424,
+              "maxDeliveredCodes": 3,
+              "price": 9700,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T23:10:47Z",
+              "wallet": 8000
+            },
+            "turkey": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
+                "https://plati.market/itm/24-7-auto-playstation-4000-try-gift-card/5297646"
+              ],
+              "cards": [
+                250,
+                4000
+              ],
+              "cardCosts": [
+                459,
+                7409
+              ],
+              "cost": 7868,
+              "maxDeliveredCodes": 2,
+              "price": 9100,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T23:10:47Z",
+              "wallet": 4250
+            }
+          },
+          "release": "18 февраля — ранний доступ",
+          "storePriceVerifiedAt": {
+            "india": "2026-09-12T23:10:47Z",
+            "turkey": "2026-09-12T23:10:47Z"
+          },
+          "storePrices": {
+            "india": 7999.0,
+            "turkey": 4299.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP6312-PPSA31381_00-0730774904492744",
+            "turkey": "https://store.playstation.com/en-tr/product/UP6312-PPSA31381_00-0730774904492744"
+          },
+          "summary": "Полная игра, ранний доступ, Premium Content Pack, артбук, саундтрек и дополнение.",
+          "title": "Fable — Premium Edition",
+          "verifiedAt": "2026-09-12T23:10:47Z"
+        },
+        {
+          "availability": {
+            "india": "available",
+            "turkey": "available"
+          },
+          "discounts": {},
+          "edition": "Standard Edition",
+          "editionId": "standard",
+          "editionOrder": 0,
+          "features": [
+            "Полная игра ACE COMBAT 8: WINGS OF THEVE для PS5",
+            "Самолёт F-14A — бонус предзаказа",
+            "ACE COMBAT ZERO: THE BELKAN WAR для PS5 — бонус предзаказа"
+          ],
+          "gameId": "ace-combat-8",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1502/5d51d6e19f4a3f5d41936b32e8e7e9425d40c4ae6be6e83d.png",
+          "imageDimensions": {
+            "height": 1024,
+            "width": 1024
+          },
+          "imageRole": "MASTER",
+          "platform": "PS5",
+          "prices": {
+            "india": 6500,
+            "turkey": 7700
+          },
+          "pricingBasis": {
+            "india": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
+              ],
+              "cards": [
+                5000
+              ],
+              "cardCosts": [
+                5265
+              ],
+              "cost": 5265,
+              "maxDeliveredCodes": 2,
+              "price": 6500,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T23:10:47Z",
+              "wallet": 5000
+            },
+            "turkey": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2500-try-gift-card/5250604"
+              ],
+              "cards": [
+                1000,
+                2500
+              ],
+              "cardCosts": [
+                1853,
+                4634
+              ],
+              "cost": 6487,
+              "maxDeliveredCodes": 2,
+              "price": 7700,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T23:10:47Z",
+              "wallet": 3500
+            }
+          },
+          "release": "2 октября",
+          "storePriceVerifiedAt": {
+            "india": "2026-09-12T23:10:47Z",
+            "turkey": "2026-09-12T23:10:47Z"
+          },
+          "storePrices": {
+            "india": 4799.0,
+            "turkey": 3449.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/JP0700-PPSA24913_00-MAINGAME00000000",
+            "turkey": "https://store.playstation.com/en-tr/product/JP0700-PPSA24913_00-MAINGAME00000000"
+          },
+          "summary": "Полная игра и бонусы предзаказа.",
+          "title": "ACE COMBAT 8: WINGS OF THEVE — Standard Edition",
+          "verifiedAt": "2026-09-12T23:10:47Z"
+        },
+        {
+          "availability": {
+            "india": "available",
+            "turkey": "available"
+          },
+          "discounts": {},
+          "edition": "Deluxe Edition",
+          "editionId": "deluxe",
+          "editionOrder": 2,
+          "features": [
+            "Полная игра ACE COMBAT 8: WINGS OF THEVE для PS5",
+            "Ранний доступ на три дня",
+            "Набор косметических предметов",
+            "PREMIUM ACE PASS PLUS Voucher",
+            "Самолёт F-14A — бонус предзаказа",
+            "ACE COMBAT ZERO: THE BELKAN WAR для PS5 — бонус предзаказа"
+          ],
+          "gameId": "ace-combat-8",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1505/6e61369bf60cd2809a68919013b24d98598b85a58baf7591.png",
+          "imageDimensions": {
+            "height": 1024,
+            "width": 1024
+          },
+          "imageRole": "MASTER",
+          "platform": "PS5",
+          "prices": {
+            "india": 8600,
+            "turkey": 9100
+          },
+          "pricingBasis": {
+            "india": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-1000-inr-gift-card/5265469",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
+                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+              ],
+              "cards": [
+                1000,
+                3000,
+                3000
+              ],
+              "cardCosts": [
+                1058,
+                3159,
+                3159
+              ],
+              "cost": 7376,
+              "maxDeliveredCodes": 3,
+              "price": 8600,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T23:10:47Z",
+              "wallet": 7000
+            },
+            "turkey": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
+                "https://plati.market/itm/24-7-auto-playstation-4000-try-gift-card/5297646"
+              ],
+              "cards": [
+                250,
+                4000
+              ],
+              "cardCosts": [
+                459,
+                7409
+              ],
+              "cost": 7868,
+              "maxDeliveredCodes": 2,
+              "price": 9100,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T23:10:47Z",
+              "wallet": 4250
+            }
+          },
+          "release": "29 сентября — ранний доступ",
+          "storePriceVerifiedAt": {
+            "india": "2026-09-12T23:10:47Z",
+            "turkey": "2026-09-12T23:10:47Z"
+          },
+          "storePrices": {
+            "india": 6399.0,
+            "turkey": 4299.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/JP0700-PPSA24913_00-ACEC8DLXEDITION0",
+            "turkey": "https://store.playstation.com/en-tr/product/JP0700-PPSA24913_00-ACEC8DLXEDITION0"
+          },
+          "summary": "Полная игра, ранний доступ, косметический набор и PREMIUM ACE PASS PLUS.",
+          "title": "ACE COMBAT 8: WINGS OF THEVE — Deluxe Edition",
+          "verifiedAt": "2026-09-12T23:10:47Z"
         }
       ],
       "id": "new",
@@ -8529,6 +8874,82 @@
       "release": "12 февраля",
       "releaseDate": "2027-02-12",
       "title": "Tomb Raider: Legacy of Atlantis"
+    },
+    "fable": {
+      "aliases": [
+        "фейбл",
+        "фейбл ps5",
+        "fable ps5",
+        "fable купить"
+      ],
+      "demandEvidence": {
+        "limitation": "Округлённое число просмотров официального глобального ролика PlayStation — дополнительный сигнал интереса, не российская поисковая частотность и не число предзаказов. Wordstat и Keyword Planner требуют входа; Google Trends для России не отдал статистику при проверке.",
+        "metric": "публично округлённые просмотры официального ролика PlayStation на YouTube, не поисковые запросы и не продажи",
+        "period": "28 августа – 13 сентября 2026",
+        "publishedAt": "2026-08-28",
+        "source": "https://www.youtube.com/watch?v=nf08TspeB6U",
+        "valueText": "около 211 тыс.",
+        "verifiedAt": "2026-09-12T23:10:47Z"
+      },
+      "description": "Перезапуск знаменитой ролевой серии: открытый мир Альбиона, ближний и дальний бой, магия и решения, которые меняют отношение жителей к герою.",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2823/060ce25afffaa1990656ab1ee50a648539772fa99f039e13.png",
+      "imageDimensions": {
+        "height": 1024,
+        "width": 1024
+      },
+      "imageRole": "MASTER",
+      "multiplayer": {
+        "label": "1 игрок · без сетевого режима",
+        "local": false,
+        "note": "В проверенных карточках PS Store заявлен один игрок. Сетевой и локальный кооператив не заявлены; список языков, включая русский, магазин пока не опубликовал.",
+        "online": false,
+        "source": "https://store.playstation.com/en-in/product/UP6312-PPSA31381_00-0202050640964065",
+        "split": false,
+        "verifiedAt": "2026-09-12T23:10:47Z"
+      },
+      "platform": "PS5",
+      "priority": 45,
+      "release": "23 февраля",
+      "releaseDate": "2027-02-23",
+      "title": "Fable"
+    },
+    "ace-combat-8": {
+      "aliases": [
+        "эйс комбат 8",
+        "эйс комбат",
+        "ace combat 8",
+        "ace combat 8 купить"
+      ],
+      "demandEvidence": {
+        "limitation": "Округлённое число просмотров официального глобального трейлера PlayStation — дополнительный сигнал интереса, не российская поисковая частотность и не число предзаказов. Wordstat и Keyword Planner требуют входа; Google Trends для России не отдал статистику при проверке.",
+        "metric": "публично округлённые просмотры официального трейлера PlayStation на YouTube, не поисковые запросы и не продажи",
+        "period": "2 июня – 13 сентября 2026",
+        "publishedAt": "2026-06-02",
+        "source": "https://www.youtube.com/watch?v=c2bgoQhlzqE",
+        "valueText": "около 422 тыс.",
+        "verifiedAt": "2026-09-12T23:10:47Z"
+      },
+      "description": "Аркадный авиасимулятор с сюжетной кампанией, воздушными боями, совместными сетевыми заданиями и кроссплатформенной игрой.",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1502/5d51d6e19f4a3f5d41936b32e8e7e9425d40c4ae6be6e83d.png",
+      "imageDimensions": {
+        "height": 1024,
+        "width": 1024
+      },
+      "imageRole": "MASTER",
+      "multiplayer": {
+        "label": "1 игрок на приставке · до 8 игроков по сети",
+        "local": false,
+        "note": "Сетевые режимы поддерживают до восьми игроков и включают кооператив; для онлайна требуется PS Plus. Локального кооператива нет. Русский язык в проверенных карточках Индии и Турции не заявлен.",
+        "online": true,
+        "source": "https://store.playstation.com/en-in/product/JP0700-PPSA24913_00-MAINGAME00000000",
+        "split": false,
+        "verifiedAt": "2026-09-12T23:10:47Z"
+      },
+      "platform": "PS5",
+      "priority": 46,
+      "release": "2 октября",
+      "releaseDate": "2026-10-02",
+      "title": "ACE COMBAT 8: WINGS OF THEVE"
     }
   },
   "updated": "2026-09-06"
