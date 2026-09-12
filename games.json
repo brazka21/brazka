@@ -3800,6 +3800,271 @@
             "india": "2026-09-12T04:18:35Z",
             "turkey": "2026-09-12T04:18:35Z"
           }
+        },
+        {
+          "availability": {
+            "india": "available",
+            "turkey": "available"
+          },
+          "discounts": {},
+          "edition": "Standard Edition",
+          "editionId": "standard",
+          "editionOrder": 0,
+          "features": [
+            "Полная игра Dune: Awakening для PS5",
+            "Бонус предзаказа: Terrarium of Muad'Dib",
+            "Бонус предзаказа: Global Color Swatch"
+          ],
+          "gameId": "dune-awakening",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1512/7df691ae8f391856c7df6a8ce1554c7f800239d3986064ce.png",
+          "imageDimensions": {
+            "height": 1024,
+            "width": 1024
+          },
+          "imageRole": "MASTER",
+          "platform": "PS5",
+          "prices": {
+            "india": 6500,
+            "turkey": 5400
+          },
+          "pricingBasis": {
+            "india": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-1000-inr-gift-card/5265469",
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
+              ],
+              "cards": [
+                1000,
+                2000,
+                2000
+              ],
+              "cardCosts": [
+                1059,
+                2083,
+                2083
+              ],
+              "cost": 5225,
+              "maxDeliveredCodes": 3,
+              "price": 6500,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T14:20:07Z",
+              "wallet": 5000
+            },
+            "turkey": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
+              ],
+              "cards": [
+                250,
+                2000
+              ],
+              "cardCosts": [
+                459,
+                3704
+              ],
+              "cost": 4163,
+              "maxDeliveredCodes": 2,
+              "price": 5400,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T14:20:07Z",
+              "wallet": 2250
+            }
+          },
+          "release": "22 сентября",
+          "storePriceVerifiedAt": {
+            "india": "2026-09-12T14:20:07Z",
+            "turkey": "2026-09-12T14:20:07Z"
+          },
+          "storePrices": {
+            "india": 4162.0,
+            "turkey": 2149.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP1833-PPSA02391_00-DUNEAWAKENING000",
+            "turkey": "https://store.playstation.com/en-tr/product/EP1833-PPSA02391_00-DUNEAWAKENING000"
+          },
+          "summary": "Полная игра и бонусы предзаказа.",
+          "title": "Dune: Awakening — Standard Edition",
+          "verifiedAt": "2026-09-12T14:20:07Z"
+        },
+        {
+          "availability": {
+            "india": "available",
+            "turkey": "available"
+          },
+          "discounts": {},
+          "edition": "Deluxe Edition",
+          "editionId": "deluxe",
+          "editionOrder": 2,
+          "features": [
+            "Полная игра Dune: Awakening и четыре DLC",
+            "Ранний доступ за пять дней",
+            "Terrarium of Muad'Dib и Global Color Swatch",
+            "Комплект брони Sardaukar"
+          ],
+          "gameId": "dune-awakening",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1512/a06c8165b2e244ed66358b145992bda9e54840bb7baa4e94.png",
+          "imageDimensions": {
+            "height": 1024,
+            "width": 1024
+          },
+          "imageRole": "MASTER",
+          "platform": "PS5",
+          "prices": {
+            "india": 7500,
+            "turkey": 6800
+          },
+          "pricingBasis": {
+            "india": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509",
+                "https://plati.market/itm/24-7-auto-playstation-2000-inr-gift-card/5265509"
+              ],
+              "cards": [
+                2000,
+                2000,
+                2000
+              ],
+              "cardCosts": [
+                2083,
+                2083,
+                2083
+              ],
+              "cost": 6249,
+              "maxDeliveredCodes": 3,
+              "price": 7500,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T14:20:07Z",
+              "wallet": 6000
+            },
+            "turkey": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
+              ],
+              "cards": [
+                500,
+                500,
+                2000
+              ],
+              "cardCosts": [
+                923,
+                923,
+                3704
+              ],
+              "cost": 5550,
+              "maxDeliveredCodes": 3,
+              "price": 6800,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T14:20:07Z",
+              "wallet": 3000
+            }
+          },
+          "release": "22 сентября",
+          "storePriceVerifiedAt": {
+            "india": "2026-09-12T14:20:07Z",
+            "turkey": "2026-09-12T14:20:07Z"
+          },
+          "storePrices": {
+            "india": 5827.0,
+            "turkey": 2999.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP1833-PPSA02391_00-DADELUXEEDITION0",
+            "turkey": "https://store.playstation.com/en-tr/product/EP1833-PPSA02391_00-DADELUXEEDITION0"
+          },
+          "summary": "Полная игра, четыре DLC и бонусы предзаказа.",
+          "title": "Dune: Awakening — Deluxe Edition",
+          "verifiedAt": "2026-09-12T14:20:07Z"
+        },
+        {
+          "availability": {
+            "india": "available",
+            "turkey": "available"
+          },
+          "discounts": {},
+          "edition": "Ultimate Edition",
+          "editionId": "ultimate",
+          "editionOrder": 5,
+          "features": [
+            "Полная игра Dune: Awakening и четыре DLC",
+            "Ранний доступ за пять дней",
+            "Terrarium of Muad'Dib и Global Color Swatch",
+            "Stillsuit из фильма 2021 года и броня Sardaukar",
+            "Набор для строительства дворца Каладана и эксклюзивные расцветки",
+            "Цифровой артбук и саундтрек"
+          ],
+          "gameId": "dune-awakening",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1512/554818a7590b18ee3ec964b95cef1272ce54a9f4dc96588b.png",
+          "imageDimensions": {
+            "height": 1024,
+            "width": 1024
+          },
+          "imageRole": "MASTER",
+          "platform": "PS5",
+          "prices": {
+            "india": 10000,
+            "turkey": 8700
+          },
+          "pricingBasis": {
+            "india": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-8000-inr-gift-card/5551254"
+              ],
+              "cards": [
+                8000
+              ],
+              "cardCosts": [
+                8778
+              ],
+              "cost": 8778,
+              "maxDeliveredCodes": 1,
+              "price": 10000,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T14:20:07Z",
+              "wallet": 8000
+            },
+            "turkey": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
+              ],
+              "cards": [
+                2000,
+                2000
+              ],
+              "cardCosts": [
+                3704,
+                3704
+              ],
+              "cost": 7408,
+              "maxDeliveredCodes": 2,
+              "price": 8700,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-12T14:20:07Z",
+              "wallet": 4000
+            }
+          },
+          "release": "22 сентября",
+          "storePriceVerifiedAt": {
+            "india": "2026-09-12T14:20:07Z",
+            "turkey": "2026-09-12T14:20:07Z"
+          },
+          "storePrices": {
+            "india": 7493.0,
+            "turkey": 3849.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP1833-PPSA02391_00-DAULTEDITION0000",
+            "turkey": "https://store.playstation.com/en-tr/product/EP1833-PPSA02391_00-DAULTEDITION0000"
+          },
+          "summary": "Полная игра, четыре DLC и все бонусы Ultimate Edition.",
+          "title": "Dune: Awakening — Ultimate Edition",
+          "verifiedAt": "2026-09-12T14:20:07Z"
         }
       ],
       "id": "new",
@@ -7371,6 +7636,42 @@
       "release": "Уже в продаже",
       "releaseDate": "",
       "title": "Batman: Arkham Knight"
+    },
+    "dune-awakening": {
+      "aliases": [
+        "дюна",
+        "дюна пробуждение",
+        "dune awakening"
+      ],
+      "demandEvidence": {
+        "limitation": "Мировой коммерческий сигнал для версии PC, не российская поисковая статистика и не количество продаж PlayStation. Wordstat и Google Ads Keyword Planner недоступны без входа; Google Trends не отдал статистику при проверке.",
+        "metric": "официально объявленное число игроков, не поисковая частотность",
+        "period": "10–23 июня 2025; предзаказ PlayStation проверен 12 сентября 2026",
+        "source": "https://duneawakening.com/es/news/1000000-players-awakened/",
+        "value": 1000000,
+        "verifiedAt": "2026-09-12T14:20:07Z"
+      },
+      "description": "Выживание в открытом мире Арракиса: исследуй пустыню один или играй по сети в общем мире.",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1512/7df691ae8f391856c7df6a8ce1554c7f800239d3986064ce.png",
+      "imageDimensions": {
+        "height": 1024,
+        "width": 1024
+      },
+      "imageRole": "MASTER",
+      "multiplayer": {
+        "label": "1 игрок на приставке · до 60 игроков по сети",
+        "local": false,
+        "note": "Игра по сети обязательна; для сетевой игры требуется PS Plus. Локальный кооператив и русский язык в проверенных карточках Индии и Турции не заявлены.",
+        "online": true,
+        "source": "https://store.playstation.com/en-in/product/EP1833-PPSA02391_00-DUNEAWAKENING000",
+        "split": false,
+        "verifiedAt": "2026-09-12T14:20:07Z"
+      },
+      "platform": "PS5",
+      "priority": 40,
+      "release": "22 сентября",
+      "releaseDate": "2026-09-22",
+      "title": "Dune: Awakening"
     }
   },
   "updated": "2026-09-06"
