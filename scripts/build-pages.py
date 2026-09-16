@@ -68,7 +68,7 @@ for g in games.values():
  for e in g['editions']:
   details+=f'<section class="coop-info"><h3>{esc(e["edition"])}</h3><ul>'+''.join('<li>'+esc(f)+'</li>' for f in e.get('features',[]))+'</ul><a class="button primary" href="https://t.me/m/LyEKjl0bODFi">Уточнить цену и заказать</a></section>'
  details+='</div>'+nav
- page(url(g),g['title']+' — купить для PlayStation, издания',g.get('description','')+' Издания для Индии и Турции, оформление через Telegram.',details,image=g['image'])
+ page(url(g),g['title']+' — купить для PlayStation, издания',g.get('description','')+' Издания для Индии и Турции. Заказ через Telegram.',details,image=g['image'])
 for mode,(slug,title,desc) in collections.items():page('/collections/'+slug+'/',title,desc,subset=[g for g in games.values() if g.get('multiplayer',{}).get(mode)])
 (R/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'  <url><loc>https://brazka.shop{p}</loc></url>\n' for p in paths)+'</urlset>\n')
 print(f'Built {len(games)} game pages, 3 collections, {len(paths)} sitemap URLs')
