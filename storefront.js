@@ -1,4 +1,13 @@
 'use strict';
+// Yandex.Metrika — BRAZKA
+(function(m,e,t,r,i,k,a){
+  m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+  m[i].l=1*new Date();
+  for (let j=0;j<document.scripts.length;j++){if(document.scripts[j].src===r)return;}
+  k=e.createElement(t);a=e.getElementsByTagName(t)[0];k.async=1;k.src=r;a.parentNode.insertBefore(k,a);
+})(window,document,'script','https://mc.yandex.ru/metrika/tag.js?id=112697107','ym');
+ym(112697107,'init',{ssr:true,webvisor:true,clickmap:true,ecommerce:'dataLayer',referrer:document.referrer,url:location.href,accurateTrackBounce:true,trackLinks:true});
+
 const CONTACT_URL = 'https://t.me/m/LyEKjl0bODFi';
 const REGIONS = ['india', 'turkey'];
 const REGION_LABELS = {india:'🇮🇳 Индия',turkey:'🇹🇷 Турция'};
@@ -108,7 +117,7 @@ if(typeof document!=='undefined'){
     const choice=event.target.closest('[data-select-edition]');if(choice){selectedEdition=selectedGame.editions.find(e=>e.editionId===choice.dataset.selectEdition);history.replaceState({game:selectedGame.id},'',gameUrl(selectedGame,selectedEdition));renderEdition();$('editionList').querySelector(`[data-select-edition="${selectedEdition.editionId}"]`)?.focus({preventScroll:true});return;}
     const region=event.target.closest('[data-region]');if(region){selectedRegion=region.dataset.region;renderPurchase();$('purchasePanel').querySelector(`[data-region="${selectedRegion}"]`)?.focus({preventScroll:true});return;}
     if(event.target.closest('#copyOrder')){if(!navigator.clipboard){toast('Копирование недоступно. Напиши название игры и издание в чате.');return;}navigator.clipboard.writeText(orderText()).then(()=>toast('Заказ скопирован')).catch(()=>toast('Не удалось скопировать — выбери название игры и издание в чате.'));return;}
-    if(event.target.closest('#gameOrder')){navigator.clipboard?.writeText(orderText()).catch(()=>{});return;}
+    if(event.target.closest('#gameOrder')){if(typeof ym==='function')ym(112697107,'reachGoal','game_order_click');navigator.clipboard?.writeText(orderText()).catch(()=>{});return;}
   });
   $('gameSearch').addEventListener('input',e=>{query=e.target.value;renderGrid();});
   $('gameSort').addEventListener('change',e=>{sort=e.target.value;renderGrid();});
@@ -117,7 +126,7 @@ if(typeof document!=='undefined'){
   $('tickerToggle').addEventListener('click',()=>{const paused=$('tickerTrack').classList.toggle('paused');$('tickerToggle').textContent=paused?'▶':'Ⅱ';$('tickerToggle').setAttribute('aria-pressed',String(paused));$('tickerToggle').setAttribute('aria-label',paused?'Запустить ленту':'Приостановить ленту');});
   function renderPlan(){const p=planData[plan];$('planPrice').textContent=money(p.prices[months]);$('planDescription').textContent=p.note;document.querySelectorAll('[data-plan]').forEach(b=>{b.classList.toggle('active',b.dataset.plan===plan);b.setAttribute('aria-pressed',String(b.dataset.plan===plan));});document.querySelectorAll('[data-months]').forEach(b=>{b.classList.toggle('active',Number(b.dataset.months)===months);b.setAttribute('aria-pressed',String(Number(b.dataset.months)===months));});}
   document.querySelectorAll('[data-plan]').forEach(b=>b.addEventListener('click',()=>{plan=b.dataset.plan;renderPlan();}));document.querySelectorAll('[data-months]').forEach(b=>b.addEventListener('click',()=>{months=Number(b.dataset.months);renderPlan();}));
-  $('planOrder').addEventListener('click',()=>navigator.clipboard?.writeText(`Привет! Нужна PS Plus ${planData[plan].name}, ${months} мес. На сайте ${money(planData[plan].prices[months])}.`).catch(()=>{}));
+  $('planOrder').addEventListener('click',()=>{if(typeof ym==='function')ym(112697107,'reachGoal','psplus_order_click');navigator.clipboard?.writeText(`Привет! Нужна PS Plus ${planData[plan].name}, ${months} мес. На сайте ${money(planData[plan].prices[months])}.`).catch(()=>{});});
   window.addEventListener('popstate',()=>selectRoute());
   function scheduleExpiryRefresh(){
     clearTimeout(scheduleExpiryRefresh.timer);
