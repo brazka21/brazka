@@ -7835,6 +7835,166 @@
         "fifa",
         "fc27"
       ],
+      "fcPoints": {
+        "title": "FC Points для FC 27",
+        "note": "Пополнение для EA SPORTS FC 27. Регион Points должен совпадать с регионом аккаунта PlayStation.",
+        "verifiedAt": "2026-09-17",
+        "packs": [
+          {
+            "id": "50",
+            "label": "50 FC Points",
+            "points": 50,
+            "prices": {
+              "india": 350,
+              "turkey": 400
+            },
+            "storePrices": {
+              "india": 75,
+              "turkey": 45
+            },
+            "storeUrls": {
+              "india": "https://store.playstation.com/en-in/product/UP0006-CUSA57220_00-FP06130000000000",
+              "turkey": "https://store.playstation.com/en-tr/product/UP0006-CUSA57220_00-FP06130000000000"
+            }
+          },
+          {
+            "id": "100",
+            "label": "100 FC Points",
+            "points": 100,
+            "prices": {
+              "india": 450,
+              "turkey": 500
+            },
+            "storePrices": {
+              "india": 90,
+              "turkey": 60
+            },
+            "storeUrls": {
+              "india": "https://store.playstation.com/en-in/product/UP0006-CUSA57220_00-FP06000000000000",
+              "turkey": "https://store.playstation.com/en-tr/product/UP0006-CUSA57220_00-FP06000000000000"
+            }
+          },
+          {
+            "id": "500",
+            "label": "500 FC Points",
+            "points": 500,
+            "prices": {
+              "india": 750,
+              "turkey": 900
+            },
+            "storePrices": {
+              "india": 415,
+              "turkey": 290
+            },
+            "storeUrls": {
+              "india": "https://store.playstation.com/en-in/product/UP0006-CUSA57220_00-FP06010000000000",
+              "turkey": "https://store.playstation.com/en-tr/product/UP0006-CUSA57220_00-FP06010000000000"
+            }
+          },
+          {
+            "id": "1050",
+            "label": "1 050 FC Points",
+            "points": 1050,
+            "prices": {
+              "india": 1300,
+              "turkey": 1500
+            },
+            "storePrices": {
+              "india": 832,
+              "turkey": 580
+            },
+            "storeUrls": {
+              "india": "https://store.playstation.com/en-in/product/UP0006-CUSA57220_00-FP06020000000000",
+              "turkey": "https://store.playstation.com/en-tr/product/UP0006-CUSA57220_00-FP06020000000000"
+            }
+          },
+          {
+            "id": "1600",
+            "label": "1 600 FC Points",
+            "points": 1600,
+            "prices": {
+              "india": 1800,
+              "turkey": 2100
+            },
+            "storePrices": {
+              "india": 1248,
+              "turkey": 880
+            },
+            "storeUrls": {
+              "india": "https://store.playstation.com/en-in/product/UP0006-CUSA57220_00-FP06030000000000",
+              "turkey": "https://store.playstation.com/en-tr/product/UP0006-CUSA57220_00-FP06030000000000"
+            }
+          },
+          {
+            "id": "2800",
+            "label": "2 800 FC Points",
+            "points": 2800,
+            "prices": {
+              "india": 2800,
+              "turkey": 3300
+            },
+            "storePrices": {
+              "india": 2081,
+              "turkey": 1450
+            },
+            "storeUrls": {
+              "india": "https://store.playstation.com/en-in/product/UP0006-CUSA57220_00-FP06040000000000",
+              "turkey": "https://store.playstation.com/en-tr/product/UP0006-CUSA57220_00-FP06040000000000"
+            }
+          },
+          {
+            "id": "5900",
+            "label": "5 900 FC Points",
+            "points": 5900,
+            "prices": {
+              "india": 5200,
+              "turkey": 6200
+            },
+            "storePrices": {
+              "india": 4162,
+              "turkey": 2900
+            },
+            "storeUrls": {
+              "india": "https://store.playstation.com/en-in/product/UP0006-CUSA57220_00-FP06050000000000",
+              "turkey": "https://store.playstation.com/en-tr/product/UP0006-CUSA57220_00-FP06050000000000"
+            }
+          },
+          {
+            "id": "12000",
+            "label": "12 000 FC Points",
+            "points": 12000,
+            "prices": {
+              "india": 9900,
+              "turkey": 11800
+            },
+            "storePrices": {
+              "india": 8325,
+              "turkey": 5800
+            },
+            "storeUrls": {
+              "india": "https://store.playstation.com/en-in/product/UP0006-CUSA57220_00-FP06060000000000",
+              "turkey": "https://store.playstation.com/en-tr/product/UP0006-CUSA57220_00-FP06060000000000"
+            }
+          },
+          {
+            "id": "18500",
+            "label": "18 500 FC Points",
+            "points": 18500,
+            "prices": {
+              "india": 15200,
+              "turkey": 17600
+            },
+            "storePrices": {
+              "india": 12499,
+              "turkey": 8800
+            },
+            "storeUrls": {
+              "india": "https://store.playstation.com/en-in/product/UP0006-CUSA57220_00-FP06070000000000",
+              "turkey": "https://store.playstation.com/en-tr/product/UP0006-CUSA57220_00-FP06070000000000"
+            }
+          }
+        ]
+      },
       "description": "Новый футбольный сезон: собери команду и выходи на поле. Сравни Standard, Ultimate и Ultimate Plus.",
       "image": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2321/c7c534e1e9b24ccf7ff11c429948f31494ccce402b452647.png",
       "imageDimensions": {
