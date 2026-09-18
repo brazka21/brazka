@@ -194,7 +194,8 @@ if(typeof document!=='undefined'){
         product: text(panel, '.purchase-kicker', text(document, '#detailView h1', 'Игра PlayStation')),
         edition: text(panel, 'h3', 'Полная версия'),
         region: selectedText(panel, '.region-option.selected', '.region-label', 'Уточнить'),
-        price: selectedText(panel, '.region-option.selected', 'strong', 'Уточнить')
+        price: selectedText(panel, '.region-option.selected', 'strong', 'Уточнить'),
+        image: document.getElementById('detailCover')?.currentSrc || document.getElementById('detailCover')?.src || ''
       };
     }
 
@@ -205,7 +206,8 @@ if(typeof document!=='undefined'){
         product: 'EA SPORTS FC 27',
         edition: `${text(panel, 'h3', 'FC Points')} · FC Points`,
         region: selectedText(panel, '.region-option.selected', '.region-label', 'Уточнить'),
-        price: selectedText(panel, '.region-option.selected', 'strong', 'Уточнить')
+        price: selectedText(panel, '.region-option.selected', 'strong', 'Уточнить'),
+        image: document.getElementById('detailCover')?.currentSrc || document.getElementById('detailCover')?.src || ''
       };
     }
 
@@ -249,12 +251,12 @@ if(typeof document!=='undefined'){
       .order-dialog{position:relative;width:min(100%,540px);max-height:min(92vh,760px);overflow:auto;padding:26px;border:1px solid rgba(255,255,255,.12);border-radius:24px;background:#11151f;color:#fff;box-shadow:0 28px 90px rgba(0,0,0,.55)}
       .order-close{position:absolute;top:14px;right:14px;width:38px;height:38px;border:1px solid rgba(255,255,255,.14);border-radius:50%;background:#1b2130;color:#fff;font-size:24px;line-height:1;cursor:pointer}
       .order-eyebrow{margin:0 44px 6px 0;color:#8ba4ff;font-size:12px;font-weight:800;letter-spacing:.11em;text-transform:uppercase}.order-dialog h2{margin:0 44px 18px 0;font-size:clamp(24px,5vw,34px)}
-      .order-summary{display:grid;gap:8px;margin:0 0 20px;padding:15px 17px;border:1px solid rgba(255,255,255,.1);border-radius:16px;background:#171c28}.order-summary strong{font-size:17px}.order-summary span{color:#b9c1d1;font-size:14px}.order-summary b{color:#fff}
+      .order-summary{display:grid;gap:8px;margin:0 0 20px;padding:15px 17px;border:1px solid rgba(255,255,255,.1);border-radius:16px;background:#171c28}.order-summary.has-cover{grid-template-columns:92px minmax(0,1fr);align-items:center}.order-summary-cover{display:block;width:92px;aspect-ratio:1;object-fit:cover;border-radius:13px;background:#0c1018;box-shadow:0 8px 24px rgba(0,0,0,.3)}.order-summary-copy{display:grid;gap:8px;min-width:0}.order-summary strong{font-size:17px}.order-summary span{color:#b9c1d1;font-size:14px}.order-summary b{color:#fff}
       .order-fields{display:grid;gap:14px}.order-label{display:grid;gap:7px;color:#e9edf5;font-size:14px;font-weight:700}.order-label input{width:100%;box-sizing:border-box;padding:13px 14px;border:1px solid rgba(255,255,255,.15);border-radius:12px;background:#0c1018;color:#fff;font:inherit;outline:none}.order-label input:focus{border-color:#6687ff;box-shadow:0 0 0 3px rgba(102,135,255,.18)}
       .order-hint{margin:-5px 0 0;color:#929caf;font-size:12px}.order-consent{display:flex;align-items:flex-start;gap:9px;color:#aeb7c7;font-size:12px;line-height:1.4}.order-consent input{margin-top:2px;accent-color:#5878ff}.order-honeypot{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;opacity:0!important}
       .order-submit{width:100%;min-height:50px;border:0;border-radius:13px;background:linear-gradient(135deg,#5272ff,#7657ff);color:#fff;font:inherit;font-weight:800;cursor:pointer}.order-submit:disabled{opacity:.6;cursor:wait}.order-direct{display:block;margin-top:12px;color:#aebfff;text-align:center;text-decoration:none;font-size:13px}.order-status{min-height:20px;margin:2px 0 0;color:#ff9c9c;font-size:13px}.order-status.success{color:#79e2a0}
       .order-success{text-align:center;padding:18px 0 4px}.order-success-mark{display:grid;place-items:center;width:62px;height:62px;margin:0 auto 14px;border-radius:50%;background:#173c2b;color:#72e5a0;font-size:32px}.order-success h3{margin:0 0 8px;font-size:25px}.order-success p{margin:0 0 18px;color:#b9c1d1}.order-success .order-submit{display:block;line-height:50px;text-decoration:none}
-      @media(max-width:560px){.order-modal{align-items:end;padding:0}.order-dialog{width:100%;max-height:94vh;box-sizing:border-box;border-radius:24px 24px 0 0;padding:24px 18px calc(22px + env(safe-area-inset-bottom))}}
+      @media(max-width:560px){.order-modal{align-items:end;padding:0}.order-dialog{width:100%;max-height:94vh;box-sizing:border-box;border-radius:24px 24px 0 0;padding:24px 18px calc(22px + env(safe-area-inset-bottom))}.order-summary.has-cover{grid-template-columns:78px minmax(0,1fr)}.order-summary-cover{width:78px;border-radius:11px}}
     `;
     document.head.appendChild(style);
 
@@ -302,10 +304,15 @@ if(typeof document!=='undefined'){
     document.getElementById('orderLeadForm').reset();
     document.getElementById('orderStatus').textContent = '';
     document.getElementById('orderStatus').className = 'order-status';
-    document.getElementById('orderSummary').innerHTML = `
-      <strong>${escapeHtml(order.product)}</strong>
-      <span>${escapeHtml(order.edition)}</span>
-      <span>${escapeHtml(order.region)} · <b>${escapeHtml(order.price)}</b></span>`;
+    const summary = document.getElementById('orderSummary');
+    summary.className = `order-summary${order.image ? ' has-cover' : ''}`;
+    summary.innerHTML = `
+      ${order.image ? `<img class="order-summary-cover" src="${escapeHtml(order.image)}" alt="${escapeHtml(order.product)}" width="92" height="92" decoding="async">` : ''}
+      <div class="order-summary-copy">
+        <strong>${escapeHtml(order.product)}</strong>
+        <span>${escapeHtml(order.edition)}</span>
+        <span>${escapeHtml(order.region)} · <b>${escapeHtml(order.price)}</b></span>
+      </div>`;
     modal.hidden = false;
     document.body.style.overflow = 'hidden';
     requestAnimationFrame(() => document.getElementById('orderTelegram').focus());
