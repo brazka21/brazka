@@ -147,3 +147,289 @@ if(typeof document!=='undefined'){
   async function load(){try{const r=await fetch('/games.json',{cache:'no-store'});if(!r.ok)throw new Error('catalog');catalogData=await r.json();games=normalizeCatalog(catalogData);if(!games.length)throw new Error('empty');renderGrid();renderFeature();renderPlan();scheduleExpiryRefresh();$('updatedDate').textContent=`Цены обновлены ${catalogData.updated}`;selectRoute({scroll:false});}catch{ $('gameGrid').innerHTML=`<div class="loading">Каталог сейчас не загрузился. <button class="button secondary" id="retryCatalog">Попробовать ещё раз</button> <a class="button primary" href="${CONTACT_URL}" target="_blank" rel="noopener">Узнать цену в Telegram ↗</a></div>`;$('retryCatalog').addEventListener('click',load);}}
   load();
 }
+
+// BRAZKA order form -> Cloudflare Worker -> Telegram
+(() => {
+  'use strict';
+
+  if (typeof document === 'undefined' || window.__brazkaOrderFormLoaded) return;
+  window.__brazkaOrderFormLoaded = true;
+
+  const ENDPOINT = 'https://brazka-orders.rrddturk.workers.dev/order';
+  const DIRECT_TELEGRAM = 'https://t.me/m/LyEKjl0bODFi';
+  const STORAGE_KEY = 'brazka-attribution';
+  let currentOrder = null;
+  let opener = null;
+
+  const cleanText = value => String(value || '').replace(/\s+/g, ' ').trim();
+  const text = (root, selector, fallback = '') => cleanText(root?.querySelector(selector)?.textContent) || fallback;
+  const selectedText = (root, selector, childSelector, fallback = '') => {
+    const selected = root?.querySelector(selector);
+    return text(selected, childSelector, fallback);
+  };
+
+  function rememberAttribution() {
+    const params = new URLSearchParams(location.search);
+    let saved = {};
+    try { saved = JSON.parse(sessionStorage.getItem(STORAGE_KEY) || '{}'); } catch {}
+    const yclid = params.get('yclid');
+    const next = {
+      utmSource: saved.utmSource || params.get('utm_source') || (yclid ? 'yandex-direct' : ''),
+      utmCampaign: saved.utmCampaign || params.get('utm_campaign') || '',
+      utmContent: saved.utmContent || params.get('utm_content') || (yclid ? `yclid:${yclid}` : '')
+    };
+    try { sessionStorage.setItem(STORAGE_KEY, JSON.stringify(next)); } catch {}
+    return next;
+  }
+
+  function attribution() {
+    try { return JSON.parse(sessionStorage.getItem(STORAGE_KEY) || '{}'); } catch { return {}; }
+  }
+
+  function orderFromTrigger(trigger) {
+    if (trigger.id === 'gameOrder') {
+      const panel = trigger.closest('#purchasePanel');
+      return {
+        kind: 'game',
+        product: text(panel, '.purchase-kicker', text(document, '#detailView h1', 'Игра PlayStation')),
+        edition: text(panel, 'h3', 'Полная версия'),
+        region: selectedText(panel, '.region-option.selected', '.region-label', 'Уточнить'),
+        price: selectedText(panel, '.region-option.selected', 'strong', 'Уточнить')
+      };
+    }
+
+    if (trigger.id === 'pointsOrder') {
+      const panel = trigger.closest('.points-panel');
+      return {
+        kind: 'points',
+        product: 'EA SPORTS FC 27',
+        edition: `${text(panel, 'h3', 'FC Points')} · FC Points`,
+        region: selectedText(panel, '.region-option.selected', '.region-label', 'Уточнить'),
+        price: selectedText(panel, '.region-option.selected', 'strong', 'Уточнить')
+      };
+    }
+
+    if (trigger.id === 'planOrder') {
+      const activePlan = document.querySelector('[data-plan].active');
+      const activeMonths = document.querySelector('[data-months].active');
+      const planName = cleanText(activePlan?.firstChild?.textContent) || 'PS Plus';
+      return {
+        kind: 'plus',
+        product: 'PlayStation Plus',
+        edition: `${planName} · ${cleanText(activeMonths?.textContent) || 'срок уточнить'}`,
+        region: 'Уточнить',
+        price: text(document, '#planPrice', 'Уточнить')
+      };
+    }
+
+    const subscription = trigger.closest('.subscription-order');
+    if (trigger.closest('#ea-play')) {
+      return {
+        kind: 'ea-play',
+        product: 'EA Play',
+        edition: text(subscription, 'h3', 'Срок уточнить'),
+        region: 'Индия / Турция',
+        price: 'Уточнить'
+      };
+    }
+
+    return {
+      kind: 'request',
+      product: text(document, '#detailView h1', 'Подбор игры PlayStation'),
+      edition: 'Консультация',
+      region: 'Уточнить',
+      price: 'Уточнить'
+    };
+  }
+
+  function injectUi() {
+    const style = document.createElement('style');
+    style.textContent = `
+      .order-modal[hidden]{display:none}.order-modal{position:fixed;inset:0;z-index:10000;display:grid;place-items:center;padding:18px;background:rgba(5,7,12,.76);backdrop-filter:blur(8px)}
+      .order-dialog{position:relative;width:min(100%,540px);max-height:min(92vh,760px);overflow:auto;padding:26px;border:1px solid rgba(255,255,255,.12);border-radius:24px;background:#11151f;color:#fff;box-shadow:0 28px 90px rgba(0,0,0,.55)}
+      .order-close{position:absolute;top:14px;right:14px;width:38px;height:38px;border:1px solid rgba(255,255,255,.14);border-radius:50%;background:#1b2130;color:#fff;font-size:24px;line-height:1;cursor:pointer}
+      .order-eyebrow{margin:0 44px 6px 0;color:#8ba4ff;font-size:12px;font-weight:800;letter-spacing:.11em;text-transform:uppercase}.order-dialog h2{margin:0 44px 18px 0;font-size:clamp(24px,5vw,34px)}
+      .order-summary{display:grid;gap:8px;margin:0 0 20px;padding:15px 17px;border:1px solid rgba(255,255,255,.1);border-radius:16px;background:#171c28}.order-summary strong{font-size:17px}.order-summary span{color:#b9c1d1;font-size:14px}.order-summary b{color:#fff}
+      .order-fields{display:grid;gap:14px}.order-label{display:grid;gap:7px;color:#e9edf5;font-size:14px;font-weight:700}.order-label input{width:100%;box-sizing:border-box;padding:13px 14px;border:1px solid rgba(255,255,255,.15);border-radius:12px;background:#0c1018;color:#fff;font:inherit;outline:none}.order-label input:focus{border-color:#6687ff;box-shadow:0 0 0 3px rgba(102,135,255,.18)}
+      .order-hint{margin:-5px 0 0;color:#929caf;font-size:12px}.order-consent{display:flex;align-items:flex-start;gap:9px;color:#aeb7c7;font-size:12px;line-height:1.4}.order-consent input{margin-top:2px;accent-color:#5878ff}.order-honeypot{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;opacity:0!important}
+      .order-submit{width:100%;min-height:50px;border:0;border-radius:13px;background:linear-gradient(135deg,#5272ff,#7657ff);color:#fff;font:inherit;font-weight:800;cursor:pointer}.order-submit:disabled{opacity:.6;cursor:wait}.order-direct{display:block;margin-top:12px;color:#aebfff;text-align:center;text-decoration:none;font-size:13px}.order-status{min-height:20px;margin:2px 0 0;color:#ff9c9c;font-size:13px}.order-status.success{color:#79e2a0}
+      .order-success{text-align:center;padding:18px 0 4px}.order-success-mark{display:grid;place-items:center;width:62px;height:62px;margin:0 auto 14px;border-radius:50%;background:#173c2b;color:#72e5a0;font-size:32px}.order-success h3{margin:0 0 8px;font-size:25px}.order-success p{margin:0 0 18px;color:#b9c1d1}.order-success .order-submit{display:block;line-height:50px;text-decoration:none}
+      @media(max-width:560px){.order-modal{align-items:end;padding:0}.order-dialog{width:100%;max-height:94vh;box-sizing:border-box;border-radius:24px 24px 0 0;padding:24px 18px calc(22px + env(safe-area-inset-bottom))}}
+    `;
+    document.head.appendChild(style);
+
+    const modal = document.createElement('div');
+    modal.id = 'orderModal';
+    modal.className = 'order-modal';
+    modal.hidden = true;
+    modal.innerHTML = `
+      <section class="order-dialog" role="dialog" aria-modal="true" aria-labelledby="orderTitle">
+        <button class="order-close" type="button" aria-label="Закрыть форму">×</button>
+        <div id="orderFormView">
+          <p class="order-eyebrow">ЗАЯВКА БЕЗ ПЕРЕХОДА В ЧАТ</p>
+          <h2 id="orderTitle">Оформить заказ</h2>
+          <div class="order-summary" id="orderSummary"></div>
+          <form class="order-fields" id="orderLeadForm" novalidate>
+            <label class="order-label">Telegram
+              <input id="orderTelegram" name="telegram" type="text" inputmode="text" autocomplete="username" placeholder="@username">
+            </label>
+            <label class="order-label">Телефон
+              <input id="orderPhone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+7 999 000-00-00">
+            </label>
+            <p class="order-hint">Оставь Telegram или телефон — свяжемся для подтверждения цены и наличия.</p>
+            <label class="order-consent"><input id="orderConsent" type="checkbox" required><span>Согласен на обработку указанного контакта только для связи по заказу.</span></label>
+            <label class="order-honeypot" aria-hidden="true">Сайт<input name="website" type="text" tabindex="-1" autocomplete="off"></label>
+            <p class="order-status" id="orderStatus" role="status" aria-live="polite"></p>
+            <button class="order-submit" type="submit">Отправить заявку</button>
+          </form>
+          <a class="order-direct" href="${DIRECT_TELEGRAM}" target="_blank" rel="noopener">Или написать напрямую в Telegram ↗</a>
+        </div>
+        <div class="order-success" id="orderSuccess" hidden></div>
+      </section>`;
+    document.body.appendChild(modal);
+  }
+
+  function goal(name, params = {}) {
+    if (typeof window.ym === 'function') window.ym(112697107, 'reachGoal', name, params);
+  }
+
+  function openModal(order, trigger) {
+    currentOrder = order;
+    opener = trigger;
+    const modal = document.getElementById('orderModal');
+    document.getElementById('orderFormView').hidden = false;
+    document.getElementById('orderSuccess').hidden = true;
+    document.getElementById('orderLeadForm').reset();
+    document.getElementById('orderStatus').textContent = '';
+    document.getElementById('orderStatus').className = 'order-status';
+    document.getElementById('orderSummary').innerHTML = `
+      <strong>${escapeHtml(order.product)}</strong>
+      <span>${escapeHtml(order.edition)}</span>
+      <span>${escapeHtml(order.region)} · <b>${escapeHtml(order.price)}</b></span>`;
+    modal.hidden = false;
+    document.body.style.overflow = 'hidden';
+    requestAnimationFrame(() => document.getElementById('orderTelegram').focus());
+    goal('order_form_open', { product: order.product, kind: order.kind });
+    if (order.kind === 'game') goal('game_order_click');
+    if (order.kind === 'points') goal('fc_points_order_click');
+    if (order.kind === 'plus') goal('psplus_order_click');
+  }
+
+  function closeModal() {
+    const modal = document.getElementById('orderModal');
+    if (modal.hidden) return;
+    modal.hidden = true;
+    document.body.style.overflow = '';
+    opener?.focus?.({ preventScroll: true });
+    opener = null;
+  }
+
+  function normalizeTelegram(value) {
+    return cleanText(value).replace(/^https?:\/\/(?:www\.)?t\.me\//i, '').replace(/^@/, '').replace(/\/$/, '');
+  }
+
+  async function submitOrder(event) {
+    event.preventDefault();
+    if (!currentOrder) return;
+    const form = event.currentTarget;
+    const telegram = normalizeTelegram(form.telegram.value);
+    const phone = cleanText(form.phone.value);
+    const status = document.getElementById('orderStatus');
+    const button = form.querySelector('[type="submit"]');
+
+    status.className = 'order-status';
+    if (!telegram && !phone) {
+      status.textContent = 'Укажи Telegram или телефон для связи.';
+      form.telegram.focus();
+      return;
+    }
+    if (telegram && !/^[a-zA-Z0-9_]{5,32}$/.test(telegram)) {
+      status.textContent = 'Проверь username Telegram: от 5 символов, латиница, цифры или _.';
+      form.telegram.focus();
+      return;
+    }
+    if (phone && (phone.replace(/\D/g, '').length < 7 || phone.replace(/\D/g, '').length > 15)) {
+      status.textContent = 'Проверь номер телефона.';
+      form.phone.focus();
+      return;
+    }
+    if (!document.getElementById('orderConsent').checked) {
+      status.textContent = 'Нужно согласие, чтобы мы могли связаться по заявке.';
+      document.getElementById('orderConsent').focus();
+      return;
+    }
+
+    button.disabled = true;
+    button.textContent = 'Отправляем…';
+    status.textContent = '';
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 15000);
+
+    try {
+      const source = attribution();
+      const response = await fetch(ENDPOINT, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        signal: controller.signal,
+        body: JSON.stringify({
+          telegram: telegram ? `@${telegram}` : '',
+          phone,
+          website: form.website.value,
+          product: currentOrder.product,
+          edition: currentOrder.edition,
+          region: currentOrder.region,
+          price: currentOrder.price,
+          pageUrl: location.href,
+          utmSource: source.utmSource || '',
+          utmCampaign: source.utmCampaign || '',
+          utmContent: source.utmContent || ''
+        })
+      });
+      const data = await response.json().catch(() => ({}));
+      if (!response.ok || !data.ok) throw new Error(data.error || 'Request failed');
+
+      goal('lead_submit_success', { product: currentOrder.product, kind: currentOrder.kind, orderId: data.orderId });
+      document.getElementById('orderFormView').hidden = true;
+      const success = document.getElementById('orderSuccess');
+      success.hidden = false;
+      success.innerHTML = `<div class="order-success-mark">✓</div><h3>Заявка отправлена</h3><p>Номер ${escapeHtml(data.orderId || '')}. Скоро напишем и подтвердим заказ.</p><button class="order-submit" type="button" data-order-close>Готово</button>`;
+      success.querySelector('[data-order-close]').focus();
+    } catch (error) {
+      status.textContent = error?.name === 'AbortError'
+        ? 'Сервер отвечает слишком долго. Попробуй ещё раз или напиши напрямую в Telegram.'
+        : 'Не удалось отправить заявку. Попробуй ещё раз или напиши напрямую в Telegram.';
+      goal('lead_submit_error', { product: currentOrder.product, kind: currentOrder.kind });
+    } finally {
+      clearTimeout(timeout);
+      button.disabled = false;
+      button.textContent = 'Отправить заявку';
+    }
+  }
+
+  function shouldHandle(trigger) {
+    if (!trigger) return false;
+    return Boolean(
+      trigger.matches('#gameOrder, #pointsOrder, #planOrder') ||
+      trigger.closest('#ea-play, #emptyState, .final-cta')
+    );
+  }
+
+  rememberAttribution();
+  injectUi();
+
+  document.addEventListener('click', event => {
+    const trigger = event.target.closest('a, button');
+    if (shouldHandle(trigger) && !event.ctrlKey && !event.metaKey && !event.shiftKey && !event.altKey) {
+      event.preventDefault();
+      event.stopPropagation();
+      openModal(orderFromTrigger(trigger), trigger);
+      return;
+    }
+    if (event.target.closest('.order-close, [data-order-close]') || event.target.id === 'orderModal') closeModal();
+  }, true);
+
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape') closeModal();
+  });
+  document.getElementById('orderLeadForm').addEventListener('submit', submitOrder);
+})();
