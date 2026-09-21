@@ -23,7 +23,7 @@ base=base.replace('Для каталога включи JavaScript или','Чт
 base=base.replace('href="./"','href="/"')
 base=re.sub(r'(href|src)="(assets/|storefront\.)',r'\1="/\2',base)
 base=re.sub(r'storefront\.js\?v=[^"\']+','storefront.js?v=conversion3',base)
-base=re.sub(r'storefront\.css\?v=[^"\']+','storefront.css?v=conversion3',base)
+base=re.sub(r'storefront\.css\?v=[^"\']+','storefront.css?v=reviews1',base)
 if 'mc.yandex.ru/metrika/tag.js?id=112697107' not in base:
  base=base.replace('</head>', '''<!-- Yandex.Metrika counter -->
 <script>
