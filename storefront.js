@@ -120,7 +120,10 @@ if(typeof document!=='undefined'){
     selectedGame=game;
     const match=game.editions.find(e=>e.editionId===params.get('edition'));
     selectedEdition=match||game.editions.filter(e=>REGIONS.some(r=>currentPrice(e,r))).sort((a,b)=>Math.min(...REGIONS.map(r=>currentPrice(a,r)??Infinity))-Math.min(...REGIONS.map(r=>currentPrice(b,r)??Infinity)))[0]||game.editions[0];
-    selectedRegion=REGIONS.reduce((a,b)=>(currentPrice(selectedEdition,a)??Infinity)<=(currentPrice(selectedEdition,b)??Infinity)?a:b);
+    const requestedRegion=params.get('region');
+    selectedRegion=REGIONS.includes(requestedRegion)&&currentPrice(selectedEdition,requestedRegion)
+      ?requestedRegion
+      :REGIONS.reduce((a,b)=>(currentPrice(selectedEdition,a)??Infinity)<=(currentPrice(selectedEdition,b)??Infinity)?a:b);
     document.title=`${game.title} — издания и цены | БРАЗКА`;detailShell(game);if(scroll)window.scrollTo(0,0);
   }
   function navigateGame(id,edition){if(!$('storeView').hidden)catalogScroll=window.scrollY;const g=games.find(g=>g.id===id);if(!g)return;history.pushState({game:id},'',gameUrl(g,g.editions.find(e=>e.editionId===edition)));selectRoute();$('detailView').querySelector('h1')?.focus({preventScroll:true});}
