@@ -22,7 +22,8 @@ base=re.sub(r'<div class="game-grid" id="gameGrid" aria-live="polite">.*?</div>\
 base=base.replace('Для каталога включи JavaScript или','Чтобы оформить заказ,')
 base=base.replace('href="./"','href="/"')
 base=re.sub(r'(href|src)="(assets/|storefront\.)',r'\1="/\2',base)
-base=base.replace('storefront.js?v=2','storefront.js?v=coop1').replace('storefront.css?v=2','storefront.css?v=coop1')
+base=re.sub(r'storefront\.js\?v=[^"\']+','storefront.js?v=conversion1',base)
+base=re.sub(r'storefront\.css\?v=[^"\']+','storefront.css?v=conversion1',base)
 if 'mc.yandex.ru/metrika/tag.js?id=112697107' not in base:
  base=base.replace('</head>', '''<!-- Yandex.Metrika counter -->
 <script>

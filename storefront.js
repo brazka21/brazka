@@ -78,7 +78,7 @@ if(typeof document!=='undefined'){
     $('tickerTrack').innerHTML=`<div class="ticker-segment">${seg}</div><div class="ticker-segment" aria-hidden="true">${seg.replaceAll('<a ','<a tabindex="-1" ')}</div>`;$('offersStrip').hidden=false;
   }
   function detailShell(game){
-    $('detailView').innerHTML=`<a class="back-link" href="/" data-back>← Все игры</a><div class="detail-hero"><img id="detailCover" class="detail-cover" src="${escapeHtml(selectedEdition.image||game.image)}" alt="${escapeHtml(game.title)} — ${escapeHtml(selectedEdition.edition)}" width="400" height="400"><div class="detail-info"><p class="eyebrow">PLAYSTATION · ВЫБЕРИ СВОЁ ИЗДАНИЕ</p><h1 tabindex="-1">${escapeHtml(game.title)}</h1><p class="detail-description">${escapeHtml(game.description||'Сравни издания и выбери регион своего аккаунта.')}</p>${game.multiplayer?`<section class="coop-info"><h2>Как играть вместе</h2><p>${escapeHtml(game.multiplayer.label)}</p><p>${escapeHtml(game.multiplayer.note)}</p></section>`:''}<div class="detail-meta"><span>${escapeHtml(game.platform||'PS5')}</span><span>${escapeHtml(game.release||'Уже в продаже')}</span><span>Изданий: ${game.editions.length}</span></div><p class="detail-intro-prices">от ${money(lowestPrice(game))}</p></div><p class="detail-description">${escapeHtml(game.description||'Сравни издания и выбери регион своего аккаунта.')}</p></div><div class="editions-heading"><h2>Выбери издание</h2><span class="muted">Полные версии игры</span></div><div class="edition-layout"><div class="edition-list" id="editionList" role="group" aria-label="Издания игры"></div><aside class="purchase-panel" id="purchasePanel" aria-label="Выбранное издание и заказ"></aside></div>${game.fcPoints?`<section class="points-section" id="fcPoints"><div class="points-heading"><div><p class="eyebrow">ULTIMATE TEAM</p><h2>${escapeHtml(game.fcPoints.title)}</h2><p>${escapeHtml(game.fcPoints.note)}</p></div><span class="points-badge">Только для FC 27</span></div><div id="pointsContent"></div></section>`:''}<section class="related-section"><div class="section-heading"><h2>Ещё в каталоге</h2></div><div class="game-grid">${games.filter(g=>g.id!==game.id).sort((a,b)=>(a.priority??99)-(b.priority??99)).slice(0,6).map(tile).join('')}</div></section>`;
+    $('detailView').innerHTML=`<a class="back-link" href="/" data-back>← Все игры</a><div class="detail-hero"><img id="detailCover" class="detail-cover" src="${escapeHtml(selectedEdition.image||game.image)}" alt="${escapeHtml(game.title)} — ${escapeHtml(selectedEdition.edition)}" width="400" height="400"><div class="detail-info"><p class="eyebrow">PLAYSTATION · ВЫБЕРИ СВОЁ ИЗДАНИЕ</p><h1 tabindex="-1">${escapeHtml(game.title)}</h1><p class="detail-description">${escapeHtml(game.description||'Сравни издания и выбери регион своего аккаунта.')}</p>${game.multiplayer?`<section class="coop-info"><h2>Как играть вместе</h2><p>${escapeHtml(game.multiplayer.label)}</p><p>${escapeHtml(game.multiplayer.note)}</p></section>`:''}<div class="detail-meta"><span>${escapeHtml(game.platform||'PS5')}</span><span>${escapeHtml(game.release||'Уже в продаже')}</span><span>Изданий: ${game.editions.length}</span></div><p class="detail-intro-prices">от ${money(lowestPrice(game))}</p></div><p class="detail-description">${escapeHtml(game.description||'Сравни издания и выбери регион своего аккаунта.')}</p></div><div class="editions-heading"><h2>Выбери издание</h2><span class="muted">Полные версии игры</span></div><div class="edition-layout"><div class="edition-list" id="editionList" role="group" aria-label="Издания игры"></div><aside class="purchase-panel" id="purchasePanel" aria-label="Выбранное издание и заказ"></aside></div><section class="buy-steps" aria-labelledby="buyStepsTitle"><div><p class="eyebrow">БЕЗ ЛИШНИХ ПЕРЕХОДОВ</p><h2 id="buyStepsTitle">Как проходит покупка</h2></div><ol><li><span>1</span><div><strong>Выбери товар</strong><p>Издание и регион аккаунта.</p></div></li><li><span>2</span><div><strong>Оставь контакт</strong><p>Telegram или телефон для связи.</p></div></li><li><span>3</span><div><strong>Подтвердим заказ</strong><p>Проверим цену и наличие до оплаты.</p></div></li></ol></section>${game.fcPoints?`<section class="points-section" id="fcPoints"><div class="points-heading"><div><p class="eyebrow">ULTIMATE TEAM</p><h2>${escapeHtml(game.fcPoints.title)}</h2><p>${escapeHtml(game.fcPoints.note)}</p></div><span class="points-badge">Только для FC 27</span></div><div id="pointsContent"></div></section>`:''}<section class="related-section"><div class="section-heading"><h2>Ещё в каталоге</h2></div><div class="game-grid">${games.filter(g=>g.id!==game.id).sort((a,b)=>(a.priority??99)-(b.priority??99)).slice(0,6).map(tile).join('')}</div></section><div class="mobile-order-bar" id="mobileOrderBar" aria-label="Быстрое оформление заказа"></div>`;
     renderEdition();
     if(game.fcPoints){selectedPoints=game.fcPoints.packs.find(p=>p.id==='500')||game.fcPoints.packs[0];selectedPointsRegion='india';renderPoints();}
   }
@@ -92,6 +92,12 @@ if(typeof document!=='undefined'){
     const game=selectedGame,e=selectedEdition;
     const sale=activeDiscount(e,selectedRegion),price=currentPrice(e,selectedRegion),unavailable=e.availability?.[selectedRegion]==='unavailable';
     $('purchasePanel').innerHTML=`<p class="purchase-kicker">${escapeHtml(game.title)}</p><h3>${escapeHtml(e.edition)}</h3><div class="region-options" role="group" aria-label="Регион аккаунта">${REGIONS.map(r=>{const p=currentPrice(e,r),discount=activeDiscount(e,r),old=e.oldPrices?.[r];return `<button class="region-option ${r===selectedRegion?'selected':''}" data-region="${r}" aria-pressed="${r===selectedRegion}"><span class="region-label">${REGION_LABELS[r]}</span><strong class="${e.availability?.[r]==='unavailable'?'unavailable-price':''}">${e.availability?.[r]==='unavailable'?'Недоступно':money(p)}</strong>${discount&&old>p?`<del>${money(old)}</del>`:''}${discount?`<span class="sale-badge">−${discount.percent}% в PS Store</span>`:''}</button>`}).join('')}</div>${sale?`<p class="sale-timing">Скидка в PS Store до ${new Intl.DateTimeFormat('ru-RU',{day:'numeric',month:'long',timeZone:'UTC'}).format(new Date(sale.endsAt))}</p>`:''}${unavailable?`<p class="availability-note">${escapeHtml(e.availabilityLabel||'Сейчас недоступно')}</p>`:''}<a class="button primary order-cta" href="${CONTACT_URL}" target="_blank" rel="noopener" id="gameOrder">${price?'Заказать за '+money(price):unavailable?'Уточнить варианты в Telegram':'Уточнить цену в Telegram'} ↗</a><p class="order-context">${REGION_LABELS[selectedRegion]} · ${escapeHtml(e.edition)}<br>Детали заказа скопируем для отправки в чат.</p><div class="edition-includes"><h4>Что входит</h4><ul>${(e.features?.length?e.features:['Полная версия игры']).map(f=>`<li>${escapeHtml(f)}</li>`).join('')}</ul></div>${e.notice?`<p class="edition-notice">${escapeHtml(e.notice)}</p>`:''}<button class="order-copy" id="copyOrder">Скопировать заказ</button>`;
+    renderMobileOrder();
+  }
+  function renderMobileOrder(){
+    const bar=$('mobileOrderBar');if(!bar||!selectedGame||!selectedEdition)return;
+    const price=currentPrice(selectedEdition,selectedRegion),unavailable=selectedEdition.availability?.[selectedRegion]==='unavailable';
+    bar.innerHTML=`<div><small>${escapeHtml(selectedEdition.edition)} · ${REGION_LABELS[selectedRegion]}</small><strong>${unavailable?'Недоступно':money(price)}</strong></div><button class="button primary" type="button" id="mobileGameOrder">${price?'Оформить':'Уточнить'}</button>`;
   }
   function renderPoints(){
     const section=$('pointsContent'),points=selectedGame.fcPoints;
@@ -158,6 +164,11 @@ if(typeof document!=='undefined'){
   const ENDPOINT = 'https://brazka-orders.rrddturk.workers.dev/order';
   const DIRECT_TELEGRAM = 'https://t.me/m/LyEKjl0bODFi';
   const STORAGE_KEY = 'brazka-attribution';
+  const PLUS_PRICES = {
+    essential: { name: 'Essential', prices: { 1: 1090, 3: 2990, 12: 7900 } },
+    extra: { name: 'Extra', prices: { 1: 1590, 3: 4290, 12: 11990 } },
+    deluxe: { name: 'Deluxe', prices: { 1: 1790, 3: 4790, 12: 13990 } }
+  };
   let currentOrder = null;
   let opener = null;
 
@@ -167,6 +178,8 @@ if(typeof document!=='undefined'){
     const selected = root?.querySelector(selector);
     return text(selected, childSelector, fallback);
   };
+  const numericPrice = value => Number(String(value || '').replace(/\D/g, '')) || 0;
+  const formatPrice = value => new Intl.NumberFormat('ru-RU').format(value) + ' ₽';
 
   function rememberAttribution() {
     const params = new URLSearchParams(location.search);
@@ -187,8 +200,8 @@ if(typeof document!=='undefined'){
   }
 
   function orderFromTrigger(trigger) {
-    if (trigger.id === 'gameOrder') {
-      const panel = trigger.closest('#purchasePanel');
+    if (trigger.id === 'gameOrder' || trigger.id === 'mobileGameOrder') {
+      const panel = document.getElementById('purchasePanel');
       return {
         kind: 'game',
         product: text(panel, '.purchase-kicker', text(document, '#detailView h1', 'Игра PlayStation')),
@@ -252,11 +265,12 @@ if(typeof document!=='undefined'){
       .order-close{position:absolute;top:14px;right:14px;width:38px;height:38px;border:1px solid rgba(255,255,255,.14);border-radius:50%;background:#1b2130;color:#fff;font-size:24px;line-height:1;cursor:pointer}
       .order-eyebrow{margin:0 44px 6px 0;color:#8ba4ff;font-size:12px;font-weight:800;letter-spacing:.11em;text-transform:uppercase}.order-dialog h2{margin:0 44px 18px 0;font-size:clamp(24px,5vw,34px)}
       .order-summary{display:grid;gap:8px;margin:0 0 20px;padding:15px 17px;border:1px solid rgba(255,255,255,.1);border-radius:16px;background:#171c28}.order-summary.has-cover{grid-template-columns:92px minmax(0,1fr);align-items:center}.order-summary-cover{display:block;width:92px;aspect-ratio:1;object-fit:cover;border-radius:13px;background:#0c1018;box-shadow:0 8px 24px rgba(0,0,0,.3)}.order-summary-copy{display:grid;gap:8px;min-width:0}.order-summary strong{font-size:17px}.order-summary span{color:#b9c1d1;font-size:14px}.order-summary b{color:#fff}
+      .order-addon{margin:-6px 0 20px;padding:15px 17px;border:1px solid rgba(139,164,255,.22);border-radius:16px;background:#121a2a}.order-addon-toggle{display:flex;align-items:center;gap:10px;color:#fff;font-size:14px;font-weight:800;cursor:pointer}.order-addon-toggle input{width:18px;height:18px;margin:0;accent-color:#6687ff}.order-addon-copy{display:block;color:#929caf;font-size:12px;font-weight:500;margin-top:3px}.order-addon-options{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:14px}.order-addon-options select{min-width:0;width:100%;padding:10px;border:1px solid rgba(255,255,255,.14);border-radius:10px;background:#0c1018;color:#fff;font:inherit}.order-addon-total{display:flex;justify-content:space-between;gap:12px;margin:12px 0 0;color:#b9c1d1;font-size:13px}.order-addon-total strong{color:#fff;font-size:14px}
       .order-fields{display:grid;gap:14px}.order-label{display:grid;gap:7px;color:#e9edf5;font-size:14px;font-weight:700}.order-label input{width:100%;box-sizing:border-box;padding:13px 14px;border:1px solid rgba(255,255,255,.15);border-radius:12px;background:#0c1018;color:#fff;font:inherit;outline:none}.order-label input:focus{border-color:#6687ff;box-shadow:0 0 0 3px rgba(102,135,255,.18)}
       .order-hint{margin:-5px 0 0;color:#929caf;font-size:12px}.order-consent{display:flex;align-items:flex-start;gap:9px;color:#aeb7c7;font-size:12px;line-height:1.4}.order-consent input{margin-top:2px;accent-color:#5878ff}.order-honeypot{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;opacity:0!important}
       .order-submit{width:100%;min-height:50px;border:0;border-radius:13px;background:linear-gradient(135deg,#5272ff,#7657ff);color:#fff;font:inherit;font-weight:800;cursor:pointer}.order-submit:disabled{opacity:.6;cursor:wait}.order-direct{display:block;margin-top:12px;color:#aebfff;text-align:center;text-decoration:none;font-size:13px}.order-status{min-height:20px;margin:2px 0 0;color:#ff9c9c;font-size:13px}.order-status.success{color:#79e2a0}
       .order-success{text-align:center;padding:18px 0 4px}.order-success-mark{display:grid;place-items:center;width:62px;height:62px;margin:0 auto 14px;border-radius:50%;background:#173c2b;color:#72e5a0;font-size:32px}.order-success h3{margin:0 0 8px;font-size:25px}.order-success p{margin:0 0 18px;color:#b9c1d1}.order-success .order-submit{display:block;line-height:50px;text-decoration:none}
-      @media(max-width:560px){.order-modal{align-items:end;padding:0}.order-dialog{width:100%;max-height:94vh;box-sizing:border-box;border-radius:24px 24px 0 0;padding:24px 18px calc(22px + env(safe-area-inset-bottom))}.order-summary.has-cover{grid-template-columns:78px minmax(0,1fr)}.order-summary-cover{width:78px;border-radius:11px}}
+      @media(max-width:560px){.order-modal{align-items:end;padding:0}.order-dialog{width:100%;max-height:94vh;box-sizing:border-box;border-radius:24px 24px 0 0;padding:24px 18px calc(22px + env(safe-area-inset-bottom))}.order-summary.has-cover{grid-template-columns:78px minmax(0,1fr)}.order-summary-cover{width:78px;border-radius:11px}.order-addon-options{grid-template-columns:1fr}}
     `;
     document.head.appendChild(style);
 
@@ -271,6 +285,16 @@ if(typeof document!=='undefined'){
           <p class="order-eyebrow">ЗАЯВКА БЕЗ ПЕРЕХОДА В ЧАТ</p>
           <h2 id="orderTitle">Оформить заказ</h2>
           <div class="order-summary" id="orderSummary"></div>
+          <section class="order-addon" id="orderPlusAddon" hidden aria-label="Добавить PlayStation Plus">
+            <label class="order-addon-toggle"><input id="orderPlusEnabled" type="checkbox"><span>Добавить PS Plus к заказу<span class="order-addon-copy">Оформим игру и подписку одной заявкой.</span></span></label>
+            <div class="order-addon-options" id="orderPlusOptions" hidden>
+              <label class="sr-only" for="orderPlusPlan">Тариф PS Plus</label>
+              <select id="orderPlusPlan"><option value="essential">Essential</option><option value="extra">Extra</option><option value="deluxe">Deluxe</option></select>
+              <label class="sr-only" for="orderPlusMonths">Срок PS Plus</label>
+              <select id="orderPlusMonths"><option value="1">1 месяц</option><option value="3" selected>3 месяца</option><option value="12">12 месяцев</option></select>
+            </div>
+            <p class="order-addon-total" id="orderPlusTotal" hidden><span id="orderPlusPrice"></span><strong id="orderBundleTotal"></strong></p>
+          </section>
           <form class="order-fields" id="orderLeadForm" novalidate>
             <label class="order-label">Telegram
               <input id="orderTelegram" name="telegram" type="text" inputmode="text" autocomplete="username" placeholder="@username">
@@ -295,6 +319,27 @@ if(typeof document!=='undefined'){
     if (typeof window.ym === 'function') window.ym(112697107, 'reachGoal', name, params);
   }
 
+  function plusSelection() {
+    const enabled = document.getElementById('orderPlusEnabled')?.checked;
+    const planId = document.getElementById('orderPlusPlan')?.value || 'essential';
+    const months = Number(document.getElementById('orderPlusMonths')?.value || 3);
+    const plan = PLUS_PRICES[planId] || PLUS_PRICES.essential;
+    return { enabled, planId, plan: plan.name, months, price: plan.prices[months] };
+  }
+
+  function renderPlusAddon() {
+    const selection = plusSelection();
+    const options = document.getElementById('orderPlusOptions');
+    const total = document.getElementById('orderPlusTotal');
+    if (!options || !total) return;
+    options.hidden = !selection.enabled;
+    total.hidden = !selection.enabled;
+    if (!selection.enabled) return;
+    document.getElementById('orderPlusPrice').textContent = `PS Plus ${selection.plan} · ${selection.months} мес. — ${formatPrice(selection.price)}`;
+    const gamePrice = numericPrice(currentOrder?.price);
+    document.getElementById('orderBundleTotal').textContent = gamePrice ? `Итого ${formatPrice(gamePrice + selection.price)}` : 'Итог подтвердим';
+  }
+
   function openModal(order, trigger) {
     currentOrder = order;
     opener = trigger;
@@ -302,6 +347,12 @@ if(typeof document!=='undefined'){
     document.getElementById('orderFormView').hidden = false;
     document.getElementById('orderSuccess').hidden = true;
     document.getElementById('orderLeadForm').reset();
+    const plusAddon = document.getElementById('orderPlusAddon');
+    plusAddon.hidden = order.kind !== 'game';
+    document.getElementById('orderPlusEnabled').checked = false;
+    document.getElementById('orderPlusPlan').value = 'essential';
+    document.getElementById('orderPlusMonths').value = '3';
+    renderPlusAddon();
     document.getElementById('orderStatus').textContent = '';
     document.getElementById('orderStatus').className = 'order-status';
     const summary = document.getElementById('orderSummary');
@@ -366,6 +417,15 @@ if(typeof document!=='undefined'){
       return;
     }
 
+    const plus = plusSelection();
+    const gamePrice = numericPrice(currentOrder.price);
+    const orderEdition = plus.enabled
+      ? `${currentOrder.edition} + PS Plus ${plus.plan} · ${plus.months} мес.`
+      : currentOrder.edition;
+    const orderPrice = plus.enabled
+      ? `${currentOrder.price} + ${formatPrice(plus.price)}${gamePrice ? ` = ${formatPrice(gamePrice + plus.price)}` : ''}`
+      : currentOrder.price;
+
     button.disabled = true;
     button.textContent = 'Отправляем…';
     status.textContent = '';
@@ -383,9 +443,9 @@ if(typeof document!=='undefined'){
           phone,
           website: form.website.value,
           product: currentOrder.product,
-          edition: currentOrder.edition,
+          edition: orderEdition,
           region: currentOrder.region,
-          price: currentOrder.price,
+          price: orderPrice,
           pageUrl: location.href,
           utmSource: source.utmSource || '',
           utmCampaign: source.utmCampaign || '',
@@ -395,7 +455,7 @@ if(typeof document!=='undefined'){
       const data = await response.json().catch(() => ({}));
       if (!response.ok || !data.ok) throw new Error(data.error || 'Request failed');
 
-      goal('lead_submit_success', { product: currentOrder.product, kind: currentOrder.kind, orderId: data.orderId });
+      goal('lead_submit_success', { product: currentOrder.product, kind: currentOrder.kind, orderId: data.orderId, psPlus: plus.enabled ? `${plus.plan}-${plus.months}` : 'no' });
       document.getElementById('orderFormView').hidden = true;
       const success = document.getElementById('orderSuccess');
       success.hidden = false;
@@ -416,7 +476,7 @@ if(typeof document!=='undefined'){
   function shouldHandle(trigger) {
     if (!trigger) return false;
     return Boolean(
-      trigger.matches('#gameOrder, #pointsOrder, #planOrder') ||
+      trigger.matches('#gameOrder, #mobileGameOrder, #pointsOrder, #planOrder') ||
       trigger.closest('#ea-play, #emptyState, .final-cta')
     );
   }
@@ -438,5 +498,11 @@ if(typeof document!=='undefined'){
   document.addEventListener('keydown', event => {
     if (event.key === 'Escape') closeModal();
   });
+  document.getElementById('orderPlusEnabled').addEventListener('change', () => {
+    renderPlusAddon();
+    if (document.getElementById('orderPlusEnabled').checked) goal('psplus_offer_selected', { product: currentOrder?.product || '' });
+  });
+  document.getElementById('orderPlusPlan').addEventListener('change', renderPlusAddon);
+  document.getElementById('orderPlusMonths').addEventListener('change', renderPlusAddon);
   document.getElementById('orderLeadForm').addEventListener('submit', submitOrder);
 })();
