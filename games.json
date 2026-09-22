@@ -5128,13 +5128,29 @@
             "width": 1024
           },
           "imageRole": "MASTER",
-          "notice": "Игра доступна в PS Store Индии и Турции. Цена Индии временно уточняется: доступные карты CNLJayCee не подтверждены.",
           "platform": "PS5",
           "prices": {
-            "india": null,
+            "india": 4700,
             "turkey": 5400
           },
           "pricingBasis": {
+            "india": {
+              "cardUrls": [
+                "https://plati.market/itm/playstation-psn-top-up-card-3000-inr-india/4824720"
+              ],
+              "cards": [
+                3000
+              ],
+              "cardCosts": [
+                3499
+              ],
+              "cost": 3499,
+              "maxDeliveredCodes": 1,
+              "price": 4700,
+              "supplierUrl": "https://plati.market/seller/nomorefarm/1079090/",
+              "verifiedAt": "2026-09-22T12:34:47Z",
+              "wallet": 3000
+            },
             "turkey": {
               "cardUrls": [
                 "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
@@ -5197,13 +5213,29 @@
             "width": 1024
           },
           "imageRole": "MASTER",
-          "notice": "Игра доступна в PS Store Индии и Турции. Цена Индии временно уточняется: доступные карты CNLJayCee не подтверждены.",
           "platform": "PS5",
           "prices": {
-            "india": null,
+            "india": 5800,
             "turkey": 7200
           },
           "pricingBasis": {
+            "india": {
+              "cardUrls": [
+                "https://plati.market/itm/playstation-psn-top-up-card-4000-inr-india/4824724"
+              ],
+              "cards": [
+                4000
+              ],
+              "cardCosts": [
+                4599
+              ],
+              "cost": 4599,
+              "maxDeliveredCodes": 1,
+              "price": 5800,
+              "supplierUrl": "https://plati.market/seller/nomorefarm/1079090/",
+              "verifiedAt": "2026-09-22T12:34:47Z",
+              "wallet": 4000
+            },
             "turkey": {
               "cardUrls": [
                 "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
