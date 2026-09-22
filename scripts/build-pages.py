@@ -4,6 +4,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 R=Path(__file__).resolve().parent.parent
 D=json.loads((R/'games.json').read_text()); esc=html.escape
+def clean_output(text):
+ ending='\n' if text.endswith('\n') else ''
+ return '\n'.join(line.rstrip() for line in text.splitlines())+ending
 collections={
  'local':('na-odnoy-ps5','Игры на двоих на одной PS5','Играйте рядом на одном телевизоре. В подборке есть игры с общим экраном и сплит-скрином; режим указан в каждой карточке.'),
  'split':('split-screen','Игры со сплит-скрином на PS5','Разделённый экран: у каждого игрока своя часть изображения. Нужны два совместимых контроллера.'),
@@ -36,7 +39,7 @@ def tile(g):
  return f'<a class="game-tile" href="{url(g)}" data-game="{g["id"]}"><div class="cover-wrap"><img src="{esc(g["image"])}" alt="{esc(g["title"])}" width="400" height="400" loading="lazy"></div><p class="tile-platform">{esc(g.get("platform","PS5"))}</p><h3 class="tile-title">{esc(g["title"])}</h3>'+ (f'<p class="coop-tile-label">{esc(modes)}</p>' if modes else '') +regions+'</a>'
 nav='<nav class="collection-links" aria-label="Игры на двоих"><a class="filter" href="/#catalog">Все игры</a>'+''.join(f'<a class="filter" href="/collections/{slug}/">{esc(title.replace("Игры на двоих ","").replace("Игры со ","").replace(" на PS5", ""))}</a>' for slug,title,desc in collections.values())+'</nav>'
 base=(R/'index.html').read_text()
-base=re.sub(r'<!-- COLLECTIONS START -->.*?<!-- COLLECTIONS END -->','',base,flags=re.S)
+base=re.sub(r'[ \t]*<!-- COLLECTIONS START -->.*?<!-- COLLECTIONS END -->[ \t]*\n?', '', base, flags=re.S)
 base=base.replace('<div class="search-row">','<!-- COLLECTIONS START -->'+nav+'<!-- COLLECTIONS END -->\n        <div class="search-row">',1)
 base=re.sub(r'<div class="game-grid" id="gameGrid" aria-live="polite">.*?</div>\s*<div class="empty-state"', '<div class="game-grid" id="gameGrid" aria-live="polite">'+''.join(tile(g) for g in games.values())+'</div>\n        <div class="empty-state"',base,flags=re.S)
 base=base.replace('Для каталога включи JavaScript или','Чтобы оформить заказ,')
@@ -57,6 +60,7 @@ ym(112697107,'init',{ssr:true,webvisor:true,clickmap:true,ecommerce:'dataLayer',
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/112697107" style="position:absolute;left:-9999px" alt=""></div></noscript>
 <!-- /Yandex.Metrika counter -->\n</head>''')
+base=clean_output(base)
 (R/'index.html').write_text(base)
 paths=['/']
 def page(path,title,desc,content=None,subset=None,image=None,schemas=None):
@@ -83,7 +87,7 @@ def page(path,title,desc,content=None,subset=None,image=None,schemas=None):
  structured=[schema]+(schemas or [])
  scripts=''.join('<script type="application/ld+json">'+json.dumps(item,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')+'</script>' for item in structured)
  s=s.replace('</head>',scripts+'</head>')
- target=R/path.strip('/')/'index.html';target.parent.mkdir(parents=True,exist_ok=True);target.write_text(s);paths.append(path)
+ target=R/path.strip('/')/'index.html';target.parent.mkdir(parents=True,exist_ok=True);target.write_text(clean_output(s));paths.append(path)
 for g in games.values():
  m=g.get('multiplayer',{});lowest=[current_price(e,r) for e in g['editions'] for r in REGIONS];lowest=[p for p in lowest if p]
  details=f'<a class="back-link" href="/" data-back>← Все игры</a><div class="detail-hero"><img class="detail-cover" src="{esc(g["image"])}" alt="{esc(g["title"])}" width="400" height="400"><div class="detail-info"><h1>{esc(g["title"])}</h1><p class="detail-description">{esc(g.get("description",""))}</p><p>{esc(g.get("platform","PS5"))}</p>'
