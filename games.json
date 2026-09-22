@@ -5108,6 +5108,142 @@
           "summary": "Полная игра, ранний доступ, косметический набор и PREMIUM ACE PASS PLUS.",
           "title": "ACE COMBAT 8: WINGS OF THEVE — Deluxe Edition",
           "verifiedAt": "2026-09-12T23:10:47Z"
+        },
+        {
+          "availability": {
+            "india": "available",
+            "turkey": "available"
+          },
+          "discounts": {},
+          "edition": "Standard Edition",
+          "editionId": "standard",
+          "editionOrder": 0,
+          "features": [
+            "Полная игра ARC Raiders для PS5"
+          ],
+          "gameId": "arc-raiders",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202504/1515/3ef1ea90a64952c060b797fde8602ee745c2e7c73277c4a5.png",
+          "imageDimensions": {
+            "height": 1024,
+            "width": 1024
+          },
+          "imageRole": "MASTER",
+          "notice": "Игра доступна в PS Store Индии и Турции. Цена Индии временно уточняется: доступные карты CNLJayCee не подтверждены.",
+          "platform": "PS5",
+          "prices": {
+            "india": null,
+            "turkey": 5400
+          },
+          "pricingBasis": {
+            "turkey": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139"
+              ],
+              "cards": [
+                750,
+                1500
+              ],
+              "cardCosts": [
+                1373,
+                2783
+              ],
+              "cost": 4156,
+              "maxDeliveredCodes": 2,
+              "price": 5400,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-22T12:19:15Z",
+              "wallet": 2250
+            }
+          },
+          "release": "Уже в продаже",
+          "storePriceVerifiedAt": {
+            "india": "2026-09-22T12:19:15Z",
+            "turkey": "2026-09-22T12:19:15Z"
+          },
+          "storePrices": {
+            "india": 2590.0,
+            "turkey": 2090.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP6848-PPSA04998_00-4085881659726287",
+            "turkey": "https://store.playstation.com/en-tr/product/EP6848-PPSA04998_00-4085881659726287"
+          },
+          "summary": "Полная версия игры.",
+          "title": "ARC Raiders — Standard Edition",
+          "verifiedAt": "2026-09-22T12:19:15Z"
+        },
+        {
+          "availability": {
+            "india": "available",
+            "turkey": "available"
+          },
+          "discounts": {},
+          "edition": "Deluxe Edition",
+          "editionId": "deluxe",
+          "editionOrder": 2,
+          "features": [
+            "Полная игра ARC Raiders для PS5",
+            "Набор The Wanderer",
+            "Косметический предмет Lip Scar",
+            "Эмоция Finger Gun Rapid Fire",
+            "Облик и тип тела Cowboy Scrappy",
+            "2 400 Raider Tokens"
+          ],
+          "gameId": "arc-raiders",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202508/2709/407a8cf5215e4cc05c9829e30e76758a1e6d8edfec0c65a6.png",
+          "imageDimensions": {
+            "height": 1024,
+            "width": 1024
+          },
+          "imageRole": "MASTER",
+          "notice": "Игра доступна в PS Store Индии и Турции. Цена Индии временно уточняется: доступные карты CNLJayCee не подтверждены.",
+          "platform": "PS5",
+          "prices": {
+            "india": null,
+            "turkey": 7200
+          },
+          "pricingBasis": {
+            "turkey": {
+              "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139"
+              ],
+              "cards": [
+                750,
+                1000,
+                1500
+              ],
+              "cardCosts": [
+                1373,
+                1831,
+                2783
+              ],
+              "cost": 5987,
+              "maxDeliveredCodes": 3,
+              "price": 7200,
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+              "verifiedAt": "2026-09-22T12:19:15Z",
+              "wallet": 3250
+            }
+          },
+          "release": "Уже в продаже",
+          "storePriceVerifiedAt": {
+            "india": "2026-09-22T12:19:15Z",
+            "turkey": "2026-09-22T12:19:15Z"
+          },
+          "storePrices": {
+            "india": 3890.0,
+            "turkey": 3090.0
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/EP6848-PPSA04998_00-0848816902205797",
+            "turkey": "https://store.playstation.com/en-tr/product/EP6848-PPSA04998_00-0848816902205797"
+          },
+          "summary": "Полная игра и комплект Deluxe Edition.",
+          "title": "ARC Raiders — Deluxe Edition",
+          "verifiedAt": "2026-09-22T12:19:15Z"
         }
       ],
       "id": "new",
@@ -9089,6 +9225,35 @@
       "release": "2 октября",
       "releaseDate": "2026-10-02",
       "title": "ACE COMBAT 8: WINGS OF THEVE"
+    },
+    "arc-raiders": {
+      "aliases": [
+        "арк рейдерс",
+        "арка рейдерс",
+        "arc raiders",
+        "arc raiders купить"
+      ],
+      "description": "Многопользовательский extraction-шутер: выходи на поверхность в одиночку или отрядом до трёх, собирай добычу и выживай среди машин ARC и других рейдеров.",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202504/1515/3ef1ea90a64952c060b797fde8602ee745c2e7c73277c4a5.png",
+      "imageDimensions": {
+        "height": 1024,
+        "width": 1024
+      },
+      "imageRole": "MASTER",
+      "multiplayer": {
+        "label": "1–3 игрока в отряде · только по сети",
+        "local": false,
+        "note": "Только онлайн; можно играть одному или отрядом до трёх. Для игры требуется PS Plus; в матче поддерживается до 21 игрока. Подтверждён русский текст.",
+        "online": true,
+        "source": "https://store.playstation.com/en-in/product/EP6848-PPSA04998_00-4085881659726287",
+        "split": false,
+        "verifiedAt": "2026-09-22T12:19:15Z"
+      },
+      "platform": "PS5",
+      "priority": 47,
+      "release": "Уже в продаже",
+      "releaseDate": "2025-10-30",
+      "title": "ARC Raiders"
     }
   },
   "updated": "2026-09-06"
