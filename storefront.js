@@ -51,11 +51,81 @@ const collectionTitles={local:'Игры на двоих на одной PS5',spl
 if(typeof module!=='undefined'&&module.exports)module.exports={normalizeCatalog,filterGames,activeDiscount,currentPrice,minPrice,money,cleanSearch};
 if(typeof document!=='undefined'){
   let games=[],catalogData,query='',filter='all',sort='featured',selectedGame,selectedEdition,selectedRegion='india',selectedPoints,selectedPointsRegion='india',catalogScroll=0;
+  const CART_KEY='brazka-cart-v1';
+  let cart=[],cartOpener=null,sharedCartLoaded=false;
   const $=id=>document.getElementById(id);
   const rootTitle='БРАЗКА — каталог игр PlayStation, цены Индии и Турции';
   const planData={essential:{name:'Essential',note:'Онлайн, игры месяца и облачные сохранения.',prices:{1:1090,3:2990,12:7900}},extra:{name:'Extra',note:'Каталог игр и все возможности Essential.',prices:{1:1590,3:4290,12:11990}},deluxe:{name:'Deluxe',note:'Классика, пробные версии и все возможности Extra.',prices:{1:1790,3:4790,12:13990}}};
   let plan='essential',months=1;
   function toast(text){$('toast').textContent=text;$('toast').hidden=false;clearTimeout(toast.timer);toast.timer=setTimeout(()=>$('toast').hidden=true,5000);}
+  function cartId(item){return [item.type,item.gameId||'',item.editionId||'',item.packId||'',item.planId||'',item.months||'',item.region||''].join(':');}
+  function validCartItem(item){
+    if(!item||typeof item!=='object')return null;
+    if(item.type==='game'&&typeof item.gameId==='string'&&typeof item.editionId==='string'&&REGIONS.includes(item.region))return {type:'game',gameId:item.gameId,editionId:item.editionId,region:item.region};
+    if(item.type==='points'&&typeof item.gameId==='string'&&typeof item.packId==='string'&&REGIONS.includes(item.region))return {type:'points',gameId:item.gameId,packId:item.packId,region:item.region};
+    if(item.type==='plus'&&PLUS_PLAN_IDS.includes(item.planId)&&[1,3,12].includes(Number(item.months)))return {type:'plus',planId:item.planId,months:Number(item.months)};
+    return null;
+  }
+  const PLUS_PLAN_IDS=['essential','extra','deluxe'];
+  function loadSavedCart(){try{const value=JSON.parse(localStorage.getItem(CART_KEY)||'[]');cart=Array.isArray(value)?value.map(validCartItem).filter(Boolean).slice(0,12):[];}catch{cart=[];}}
+  function saveCart(){try{localStorage.setItem(CART_KEY,JSON.stringify(cart));}catch{}renderCart();}
+  function resolveCartItem(item){
+    if(item.type==='game'){
+      const game=games.find(g=>g.id===item.gameId),edition=game?.editions.find(e=>e.editionId===item.editionId);if(!game||!edition)return null;
+      const price=currentPrice(edition,item.region);
+      return {...item,product:game.title,edition:edition.edition,regionLabel:REGION_LABELS[item.region],price,image:edition.image||game.image};
+    }
+    if(item.type==='points'){
+      const game=games.find(g=>g.id===item.gameId),pack=game?.fcPoints?.packs.find(p=>p.id===item.packId);if(!game||!pack)return null;
+      return {...item,product:'EA SPORTS FC 27',edition:`${pack.label} · FC Points`,regionLabel:REGION_LABELS[item.region],price:pack.prices?.[item.region]||null,image:game.image};
+    }
+    if(item.type==='plus'){
+      const data=planData[item.planId];if(!data)return null;
+      return {...item,product:'PlayStation Plus',edition:`${data.name} · ${item.months} мес.`,regionLabel:'Регион уточним',price:data.prices[item.months]||null,image:'/assets/psplus-icon.png'};
+    }
+    return null;
+  }
+  function resolvedCart(){return cart.map(resolveCartItem).filter(Boolean);}
+  function cartTotal(items=resolvedCart()){return items.reduce((sum,item)=>sum+(Number(item.price)||0),0);}
+  function cartPayload(){return {v:1,i:cart};}
+  function encodeCart(){return btoa(JSON.stringify(cartPayload())).replaceAll('+','-').replaceAll('/','_').replace(/=+$/,'');}
+  function decodeCart(value){
+    try{const base=value.replaceAll('-','+').replaceAll('_','/');const parsed=JSON.parse(atob(base+'='.repeat((4-base.length%4)%4)));if(parsed?.v!==1||!Array.isArray(parsed.i))return [];return parsed.i.map(validCartItem).filter(Boolean).slice(0,12);}catch{return [];}
+  }
+  function shareUrl(){const url=new URL('/',location.origin);url.searchParams.set('cart',encodeCart());return url.toString();}
+  function cartText(items=resolvedCart()){
+    const total=cartTotal(items),lines=items.map((item,index)=>`${index+1}. ${item.product} — ${item.edition} — ${item.regionLabel} — ${money(item.price)}`);
+    return `Корзина BRAZKA\n${lines.join('\n')}\n\nИтого: ${total?money(total):'уточнить'}\nПеред оплатой подтвердим наличие и актуальную цену.\n${shareUrl()}`;
+  }
+  function renderCart(){
+    const items=resolvedCart(),count=$('cartCount'),button=$('cartButton'),list=$('cartItems'),empty=$('cartEmpty'),footer=$('cartFooter');
+    if(count)count.textContent=String(cart.length);if(button)button.classList.toggle('has-items',cart.length>0);if(!list)return;
+    list.innerHTML=items.map(item=>`<article class="cart-item"><img class="cart-item-image" src="${escapeHtml(item.image)}" alt="" width="76" height="76"><div class="cart-item-copy"><strong>${escapeHtml(item.product)}</strong><span>${escapeHtml(item.edition)}</span><span>${escapeHtml(item.regionLabel)}</span></div><div class="cart-item-price"><strong>${money(item.price)}</strong><button class="cart-remove" type="button" data-cart-remove="${escapeHtml(cartId(item))}">Убрать</button></div></article>`).join('');
+    const hasItems=items.length>0;empty.hidden=hasItems;footer.hidden=!hasItems;$('cartTotal').textContent=cartTotal(items)?money(cartTotal(items)):'Уточнить';
+  }
+  function addToCart(item){
+    const normalized=validCartItem(item);if(!normalized)return;
+    const id=cartId(normalized),existing=cart.findIndex(value=>cartId(value)===id);
+    if(existing>=0){toast('Этот товар уже в корзине');openCart();return;}
+    cart.push(normalized);saveCart();toast('Добавлено в корзину');
+    if(typeof ym==='function')ym(112697107,'reachGoal','cart_add',{kind:normalized.type});
+  }
+  function openCart(opener){cartOpener=opener||document.activeElement;renderCart();$('cartModal').hidden=false;document.body.style.overflow='hidden';requestAnimationFrame(()=>document.querySelector('[data-cart-close]')?.focus());if(typeof ym==='function')ym(112697107,'reachGoal','cart_open',{items:cart.length});}
+  function closeCart(){$('cartModal').hidden=true;document.body.style.overflow='';cartOpener?.focus?.({preventScroll:true});cartOpener=null;}
+  function cartOrder(){
+    const items=resolvedCart(),total=cartTotal(items);
+    return {kind:'cart',product:`Корзина BRAZKA · ${items.length} поз.`,edition:items.map((item,index)=>`${index+1}) ${item.product} / ${item.edition}`).join(' · '),region:items.map(item=>item.regionLabel).join(' · '),price:total?`Итого ${money(total)}`:'Итог уточнить',image:items[0]?.image||''};
+  }
+  function installCartButtons(){
+    const planOrder=$('planOrder');
+    if(planOrder&&!$('addPlanToCart')){const actions=document.createElement('div');actions.className='subscription-actions';const add=document.createElement('button');add.className='button secondary';add.id='addPlanToCart';add.type='button';add.textContent='+ В корзину';planOrder.parentNode.insertBefore(actions,planOrder);actions.append(add,planOrder);}
+  }
+  function hydrateSharedCart(){
+    if(sharedCartLoaded)return;sharedCartLoaded=true;const value=new URLSearchParams(location.search).get('cart');if(!value)return;
+    const shared=decodeCart(value);if(!shared.length){toast('Не удалось открыть корзину по ссылке');return;}cart=shared;saveCart();openCart();toast('Готовая корзина открыта — цены обновлены с сайта');
+  }
+  async function copyValue(value,success){try{await navigator.clipboard.writeText(value);toast(success);}catch{toast('Не удалось скопировать. Открой ссылку в обычном браузере.');}}
+  function initCart(){loadSavedCart();installCartButtons();renderCart();}
   function tile(game){
     const sale=maxDiscount(game),ind=minPrice(game,'india'),tr=minPrice(game,'turkey'),best=Math.min(ind??Infinity,tr??Infinity);
     return `<a class="game-tile" href="${gameUrl(game)}" data-game="${escapeHtml(game.id)}" aria-label="${escapeHtml(game.title)} — выбрать издание"><div class="cover-wrap"><img src="${escapeHtml(game.image)}" alt="${escapeHtml(game.title)}" loading="lazy" decoding="async" width="400" height="400"><div class="tile-badges">${sale?`<span class="sale-badge">−${sale}% PS Store</span>`:''}<span class="edition-count">${game.editions.length} изд.</span></div></div><p class="tile-platform">${escapeHtml(game.platform||'PS5')}${Date.parse(game.releaseDate)>Date.now()?' · ПРЕДЗАКАЗ':''}</p><h3 class="tile-title">${escapeHtml(game.title)}</h3>${game.multiplayer?`<p class="coop-tile-label">${escapeHtml(game.multiplayer.label)}</p>`:''}<div class="tile-regions">${REGIONS.map(r=>{const p=r==='india'?ind:tr;return `<div class="tile-region ${p===best?'best':''}"><span>${REGION_LABELS[r]}</span><strong class="${sale?'sale-pulse':''}">${p&&game.editions.length>1?'<small>от</small>':''}${money(p)}</strong></div>`}).join('')}</div></a>`;
@@ -93,17 +163,19 @@ if(typeof document!=='undefined'){
     const game=selectedGame,e=selectedEdition;
     const sale=activeDiscount(e,selectedRegion),price=currentPrice(e,selectedRegion),unavailable=e.availability?.[selectedRegion]==='unavailable';
     $('purchasePanel').innerHTML=`<p class="purchase-kicker">${escapeHtml(game.title)}</p><h3>${escapeHtml(e.edition)}</h3><div class="region-options" role="group" aria-label="Регион аккаунта">${REGIONS.map(r=>{const p=currentPrice(e,r),discount=activeDiscount(e,r),old=e.oldPrices?.[r];return `<button class="region-option ${r===selectedRegion?'selected':''}" data-region="${r}" aria-pressed="${r===selectedRegion}"><span class="region-label">${REGION_LABELS[r]}</span><strong class="${e.availability?.[r]==='unavailable'?'unavailable-price':''}">${e.availability?.[r]==='unavailable'?'Недоступно':money(p)}</strong>${discount&&old>p?`<del>${money(old)}</del>`:''}${discount?`<span class="sale-badge">−${discount.percent}% в PS Store</span>`:''}</button>`}).join('')}</div>${sale?`<p class="sale-timing">Скидка в PS Store до ${new Intl.DateTimeFormat('ru-RU',{day:'numeric',month:'long',timeZone:'UTC'}).format(new Date(sale.endsAt))}</p>`:''}${unavailable?`<p class="availability-note">${escapeHtml(e.availabilityLabel||'Сейчас недоступно')}</p>`:''}<a class="button primary order-cta" href="${CONTACT_URL}" target="_blank" rel="noopener" id="gameOrder">${price?'Заказать за '+money(price):unavailable?'Уточнить варианты в Telegram':'Уточнить цену в Telegram'} ↗</a><p class="order-context">${REGION_LABELS[selectedRegion]} · ${escapeHtml(e.edition)}<br>Детали заказа скопируем для отправки в чат.</p><div class="edition-includes"><h4>Что входит</h4><ul>${(e.features?.length?e.features:['Полная версия игры']).map(f=>`<li>${escapeHtml(f)}</li>`).join('')}</ul></div>${e.notice?`<p class="edition-notice">${escapeHtml(e.notice)}</p>`:''}<button class="order-copy" id="copyOrder">Скопировать заказ</button>`;
+    const orderButton=$('gameOrder');
+    if(orderButton){const actions=document.createElement('div');actions.className='purchase-actions';const add=document.createElement('button');add.className='button secondary';add.id='addGameToCart';add.type='button';add.textContent='+ В корзину';orderButton.parentNode.insertBefore(actions,orderButton);actions.append(add,orderButton);}
     renderMobileOrder();
   }
   function renderMobileOrder(){
     const bar=$('mobileOrderBar');if(!bar||!selectedGame||!selectedEdition)return;
     const price=currentPrice(selectedEdition,selectedRegion),unavailable=selectedEdition.availability?.[selectedRegion]==='unavailable';
-    bar.innerHTML=`<div><small>${escapeHtml(selectedEdition.edition)} · ${REGION_LABELS[selectedRegion]}</small><strong>${unavailable?'Недоступно':money(price)}</strong></div><button class="button primary" type="button" id="mobileGameOrder">${price?'Оформить':'Уточнить'}</button>`;
+    bar.innerHTML=`<div><small>${escapeHtml(selectedEdition.edition)} · ${REGION_LABELS[selectedRegion]}</small><strong>${unavailable?'Недоступно':money(price)}</strong></div><div class="mobile-order-actions"><button class="button secondary mobile-cart-add" type="button" id="mobileAddGameToCart" aria-label="Добавить в корзину">+</button><button class="button primary" type="button" id="mobileGameOrder">${price?'Оформить':'Уточнить'}</button></div>`;
   }
   function renderPoints(){
     const section=$('pointsContent'),points=selectedGame.fcPoints;
     if(!section||!points||!selectedPoints)return;
-    section.innerHTML=`<div class="points-layout"><div class="points-grid" role="group" aria-label="Номиналы FC Points">${points.packs.map(p=>`<button class="point-choice ${p.id===selectedPoints.id?'selected':''}" data-select-points="${escapeHtml(p.id)}" aria-pressed="${p.id===selectedPoints.id}"><strong>${escapeHtml(p.label)}</strong><span><i>🇮🇳 Индия</i><b>${money(p.prices.india)}</b></span><span><i>🇹🇷 Турция</i><b>${money(p.prices.turkey)}</b></span></button>`).join('')}</div><aside class="points-panel"><p class="purchase-kicker">EA SPORTS FC 27</p><h3>${escapeHtml(selectedPoints.label)}</h3><div class="region-options" role="group" aria-label="Регион аккаунта для FC Points">${REGIONS.map(r=>`<button class="region-option ${r===selectedPointsRegion?'selected':''}" data-points-region="${r}" aria-pressed="${r===selectedPointsRegion}"><span class="region-label">${REGION_LABELS[r]}</span><strong>${money(selectedPoints.prices[r])}</strong></button>`).join('')}</div><a class="button primary order-cta" href="${CONTACT_URL}" target="_blank" rel="noopener" id="pointsOrder">Заказать за ${money(selectedPoints.prices[selectedPointsRegion])} ↗</a><p class="order-context">${REGION_LABELS[selectedPointsRegion]} · ${escapeHtml(selectedPoints.label)}<br>Выбранный номинал скопируем для отправки в чат.</p><button class="order-copy" id="copyPointsOrder">Скопировать заказ</button></aside></div>`;
+    section.innerHTML=`<div class="points-layout"><div class="points-grid" role="group" aria-label="Номиналы FC Points">${points.packs.map(p=>`<button class="point-choice ${p.id===selectedPoints.id?'selected':''}" data-select-points="${escapeHtml(p.id)}" aria-pressed="${p.id===selectedPoints.id}"><strong>${escapeHtml(p.label)}</strong><span><i>🇮🇳 Индия</i><b>${money(p.prices.india)}</b></span><span><i>🇹🇷 Турция</i><b>${money(p.prices.turkey)}</b></span></button>`).join('')}</div><aside class="points-panel"><p class="purchase-kicker">EA SPORTS FC 27</p><h3>${escapeHtml(selectedPoints.label)}</h3><div class="region-options" role="group" aria-label="Регион аккаунта для FC Points">${REGIONS.map(r=>`<button class="region-option ${r===selectedPointsRegion?'selected':''}" data-points-region="${r}" aria-pressed="${r===selectedPointsRegion}"><span class="region-label">${REGION_LABELS[r]}</span><strong>${money(selectedPoints.prices[r])}</strong></button>`).join('')}</div><div class="purchase-actions"><button class="button secondary" type="button" id="addPointsToCart">+ В корзину</button><a class="button primary order-cta" href="${CONTACT_URL}" target="_blank" rel="noopener" id="pointsOrder">Заказать ↗</a></div><p class="order-context">${REGION_LABELS[selectedPointsRegion]} · ${escapeHtml(selectedPoints.label)} · ${money(selectedPoints.prices[selectedPointsRegion])}<br>Выбранный номинал скопируем для отправки в чат.</p><button class="order-copy" id="copyPointsOrder">Скопировать заказ</button></aside></div>`;
   }
   function orderText(){return `Привет! Хочу заказать ${selectedGame.title}, ${selectedEdition.edition}. Регион: ${selectedRegion==='india'?'Индия':'Турция'}. Цена на сайте: ${money(currentPrice(selectedEdition,selectedRegion))}. ${location.origin}${gameUrl(selectedGame,selectedEdition)}`;}
   function pointsOrderText(){return `Привет! Хочу заказать ${selectedPoints.label} для EA SPORTS FC 27. Регион аккаунта: ${selectedPointsRegion==='india'?'Индия':'Турция'}. Цена на сайте: ${money(selectedPoints.prices[selectedPointsRegion])}. ${location.origin}${gameUrl(selectedGame)}#fcPoints`;}
@@ -128,6 +200,16 @@ if(typeof document!=='undefined'){
   }
   function navigateGame(id,edition){if(!$('storeView').hidden)catalogScroll=window.scrollY;const g=games.find(g=>g.id===id);if(!g)return;history.pushState({game:id},'',gameUrl(g,g.editions.find(e=>e.editionId===edition)));selectRoute();$('detailView').querySelector('h1')?.focus({preventScroll:true});}
   document.addEventListener('click',event=>{
+    if(event.target.closest('#cartButton')){openCart(event.target.closest('#cartButton'));return;}
+    if(event.target.closest('[data-cart-close]')||event.target.id==='cartModal'){closeCart();return;}
+    const remove=event.target.closest('[data-cart-remove]');if(remove){cart=cart.filter(item=>cartId(item)!==remove.dataset.cartRemove);saveCart();toast('Убрано из корзины');return;}
+    if(event.target.closest('#cartClear')){cart=[];saveCart();toast('Корзина очищена');return;}
+    if(event.target.closest('#addGameToCart, #mobileAddGameToCart')){if(currentPrice(selectedEdition,selectedRegion))addToCart({type:'game',gameId:selectedGame.id,editionId:selectedEdition.editionId,region:selectedRegion});else toast('Сначала выбери доступный регион');return;}
+    if(event.target.closest('#addPointsToCart')){addToCart({type:'points',gameId:selectedGame.id,packId:selectedPoints.id,region:selectedPointsRegion});return;}
+    if(event.target.closest('#addPlanToCart')){addToCart({type:'plus',planId:plan,months});return;}
+    if(event.target.closest('#cartCopyText')){copyValue(cartText(),'Состав корзины скопирован');return;}
+    if(event.target.closest('#cartShare')){const url=shareUrl();if(navigator.share)navigator.share({title:'Корзина BRAZKA',text:'Подобрал для тебя игры и подписки в BRAZKA',url}).catch(error=>{if(error?.name!=='AbortError')copyValue(url,'Ссылка на корзину скопирована');});else copyValue(url,'Ссылка на корзину скопирована');if(typeof ym==='function')ym(112697107,'reachGoal','cart_share',{items:cart.length});return;}
+    if(event.target.closest('#cartCheckout')){const order=cartOrder();closeCart();window.dispatchEvent(new CustomEvent('brazka:order',{detail:{order,trigger:event.target.closest('#cartCheckout')}}));if(typeof ym==='function')ym(112697107,'reachGoal','cart_checkout',{items:cart.length,total:cartTotal()});return;}
     const gameLink=event.target.closest('[data-game]');
     if(gameLink&&!event.ctrlKey&&!event.metaKey&&!event.shiftKey&&!event.altKey&&event.button===0){event.preventDefault();navigateGame(gameLink.dataset.game,gameLink.dataset.edition);return;}
     const back=event.target.closest('[data-back]');if(back){event.preventDefault();history.pushState({},'','/');selectRoute();return;}
@@ -140,6 +222,7 @@ if(typeof document!=='undefined'){
     if(event.target.closest('#gameOrder')){if(typeof ym==='function')ym(112697107,'reachGoal','game_order_click');navigator.clipboard?.writeText(orderText()).catch(()=>{});return;}
     if(event.target.closest('#pointsOrder')){if(typeof ym==='function')ym(112697107,'reachGoal','fc_points_order_click');navigator.clipboard?.writeText(pointsOrderText()).catch(()=>{});return;}
   });
+  document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!$('cartModal')?.hidden)closeCart();});
   $('gameSearch').addEventListener('input',e=>{query=e.target.value;renderGrid();});
   $('gameSort').addEventListener('change',e=>{sort=e.target.value;renderGrid();});
   document.querySelectorAll('[data-filter]').forEach(b=>b.addEventListener('click',()=>{query='';$('gameSearch').value='';filter=b.dataset.filter;history.pushState({},'','/#catalog');$('catalogHeading').textContent='Каталог игр';$('collectionDescription')?.remove();document.querySelector('link[rel=canonical]').href='https://brazka.shop/';document.title=rootTitle;renderGrid();}));
@@ -155,7 +238,8 @@ if(typeof document!=='undefined'){
     const next=games.flatMap(g=>g.editions.flatMap(e=>REGIONS.map(r=>Date.parse(e.discounts?.[r]?.endsAt)))).filter(t=>t>Date.now()).sort((a,b)=>a-b)[0];
     if(next)scheduleExpiryRefresh.timer=setTimeout(()=>{renderGrid();renderFeature();if(selectedGame)renderEdition();scheduleExpiryRefresh();},Math.min(next-Date.now()+1000,2147483647));
   }
-  async function load(){try{const r=await fetch('/games.json',{cache:'no-store'});if(!r.ok)throw new Error('catalog');catalogData=await r.json();games=normalizeCatalog(catalogData);if(!games.length)throw new Error('empty');renderGrid();renderFeature();renderPlan();scheduleExpiryRefresh();$('updatedDate').textContent=`Цены обновлены ${catalogData.updated}`;selectRoute({scroll:false});}catch{ $('gameGrid').innerHTML=`<div class="loading">Каталог сейчас не загрузился. <button class="button secondary" id="retryCatalog">Попробовать ещё раз</button> <a class="button primary" href="${CONTACT_URL}" target="_blank" rel="noopener">Узнать цену в Telegram ↗</a></div>`;$('retryCatalog').addEventListener('click',load);}}
+  async function load(){try{const r=await fetch('/games.json',{cache:'no-store'});if(!r.ok)throw new Error('catalog');catalogData=await r.json();games=normalizeCatalog(catalogData);if(!games.length)throw new Error('empty');renderGrid();renderFeature();renderPlan();scheduleExpiryRefresh();$('updatedDate').textContent=`Цены обновлены ${catalogData.updated}`;selectRoute({scroll:false});renderCart();hydrateSharedCart();}catch{ $('gameGrid').innerHTML=`<div class="loading">Каталог сейчас не загрузился. <button class="button secondary" id="retryCatalog">Попробовать ещё раз</button> <a class="button primary" href="${CONTACT_URL}" target="_blank" rel="noopener">Узнать цену в Telegram ↗</a></div>`;$('retryCatalog').addEventListener('click',load);}}
+  initCart();
   load();
 }
 
@@ -487,6 +571,11 @@ if(typeof document!=='undefined'){
 
   rememberAttribution();
   injectUi();
+
+  window.addEventListener('brazka:order', event => {
+    const order = event.detail?.order;
+    if (order) openModal(order, event.detail?.trigger || null);
+  });
 
   document.addEventListener('click', event => {
     const trigger = event.target.closest('a, button');

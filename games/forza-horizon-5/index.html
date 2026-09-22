@@ -67,7 +67,10 @@ ym(112697107,'init',{ssr:true,webvisor:true,clickmap:true,ecommerce:'dataLayer',
   <header class="store-header">
     <div class="header-inner">
       <a class="brand" href="/" aria-label="БРАЗКА — главная"><span class="logo-crop"><img src="/assets/brazka-logo.png" alt="БРАЗКА" width="1254" height="1254"></span></a>
-      <a class="contact-link" data-contact href="https://t.me/m/LyEKjl0bODFi" target="_blank" rel="noopener">Написать <span aria-hidden="true">↗</span></a>
+      <div class="header-actions">
+        <button class="cart-button" id="cartButton" type="button" aria-haspopup="dialog" aria-controls="cartModal">Корзина <span id="cartCount">0</span></button>
+        <a class="contact-link" data-contact href="https://t.me/m/LyEKjl0bODFi" target="_blank" rel="noopener">Написать <span aria-hidden="true">↗</span></a>
+      </div>
     </div>
   </header>
   <main>
@@ -79,6 +82,9 @@ ym(112697107,'init',{ssr:true,webvisor:true,clickmap:true,ecommerce:'dataLayer',
       <div class="offers-strip" id="offersStrip" hidden><div class="offers-label">В ФОКУСЕ</div><div class="ticker-window"><div class="ticker-track" id="tickerTrack"></div></div><button class="ticker-toggle" id="tickerToggle" aria-label="Приостановить ленту" aria-pressed="false">Ⅱ</button></div>
       <section class="catalog-section shell" id="catalog" aria-labelledby="catalogHeading">
         <div class="section-heading catalog-heading"><h2 id="catalogHeading">Каталог игр</h2><div class="catalog-heading-actions"><span id="catalogCount" class="muted"></span><a class="catalog-plus-link" href="#plus">PS Plus <span aria-hidden="true">↓</span></a></div></div>
+
+
+
 
 
 
@@ -126,8 +132,22 @@ ym(112697107,'init',{ssr:true,webvisor:true,clickmap:true,ecommerce:'dataLayer',
     <section class="detail-view shell" id="detailView" aria-label="Игра и издания"><a class="back-link" href="/" data-back>← Все игры</a><div class="detail-hero"><img class="detail-cover" src="https://image.api.playstation.com/vulcan/ap/rnd/202501/2717/42b3ee6b1b2094212231b0b0a82824f687fc5c4dc9bde31c.png" alt="Forza Horizon 5" width="400" height="400"><div class="detail-info"><h1>Forza Horizon 5</h1><p class="detail-description">Фестиваль автомобилей и открытый мир Мексики. Сравни издания с Car Pass и дополнительными приключениями.</p><p>PS5</p><p class="detail-intro-prices">от 2 600 ₽</p></div></div><h2>Издания</h2><div class="edition-list"><section class="coop-info server-edition"><h3>Standard Edition</h3><div class="tile-regions" aria-label="Цены по регионам"><div class="tile-region"><span>🇮🇳 Индия</span><strong>3 400 ₽</strong></div><div class="tile-region"><span>🇹🇷 Турция</span><strong>2 600 ₽</strong></div></div><ul><li>Полная версия Forza Horizon 5</li></ul><a class="button primary" href="https://t.me/m/LyEKjl0bODFi">Выбрать и заказать</a></section><section class="coop-info server-edition"><h3>Premium Edition</h3><div class="tile-regions" aria-label="Цены по регионам"><div class="tile-region"><span>🇮🇳 Индия</span><strong>4 400 ₽</strong></div><div class="tile-region"><span>🇹🇷 Турция</span><strong>3 600 ₽</strong></div></div><ul><li>Полная версия Forza Horizon 5</li><li>Car Pass для Forza Horizon 5</li><li>Forza Horizon 5: Hot Wheels</li><li>Forza Horizon 5 Rally Adventure</li><li>Приветственный набор Forza Horizon 5</li><li>VIP-статус Forza Horizon 5</li></ul><a class="button primary" href="https://t.me/m/LyEKjl0bODFi">Выбрать и заказать</a></section><section class="coop-info server-edition"><h3>Deluxe Edition</h3><div class="tile-regions" aria-label="Цены по регионам"><div class="tile-region"><span>🇮🇳 Индия</span><strong>7 600 ₽</strong></div><div class="tile-region"><span>🇹🇷 Турция</span><strong>5 400 ₽</strong></div></div><ul><li>Полная версия Forza Horizon 5</li><li>Car Pass для Forza Horizon 5</li></ul><a class="button primary" href="https://t.me/m/LyEKjl0bODFi">Выбрать и заказать</a></section></div><nav class="collection-links" aria-label="Игры на двоих"><a class="filter" href="/#catalog">Все игры</a><a class="filter" href="/collections/na-odnoy-ps5/">на одной PS5</a><a class="filter" href="/collections/split-screen/">сплит-скрином</a><a class="filter" href="/collections/po-seti/">по сети</a></nav></section>
   </main>
   <footer class="shell"><span>© БРАЗКА, 2026</span><span id="updatedDate"></span><p>БРАЗКА не является официальным партнёром Sony или PlayStation. Наличие и цену подтверждаем перед оплатой.</p></footer>
+  <div class="cart-modal" id="cartModal" hidden>
+    <section class="cart-dialog" role="dialog" aria-modal="true" aria-labelledby="cartTitle">
+      <header class="cart-dialog-header"><div><p class="eyebrow">ГОТОВЫЙ КОМПЛЕКТ</p><h2 id="cartTitle">Корзина BRAZKA</h2></div><button class="cart-close" type="button" data-cart-close aria-label="Закрыть корзину">×</button></header>
+      <div class="cart-items" id="cartItems"></div>
+      <div class="cart-empty" id="cartEmpty" hidden><strong>Корзина пока пустая</strong><p>Добавь игру, подписку или FC Points — всё соберём в одну заявку.</p></div>
+      <footer class="cart-footer" id="cartFooter">
+        <div class="cart-total"><span>Итого</span><strong id="cartTotal">0 ₽</strong></div>
+        <p class="cart-note">Перед оплатой подтвердим наличие и актуальную цену.</p>
+        <div class="cart-share-actions"><button class="button secondary" id="cartCopyText" type="button">Скопировать состав</button><button class="button secondary" id="cartShare" type="button">Поделиться ссылкой</button></div>
+        <button class="button primary cart-checkout" id="cartCheckout" type="button">Отправить заявку</button>
+        <button class="cart-clear" id="cartClear" type="button">Очистить корзину</button>
+      </footer>
+    </section>
+  </div>
   <div class="toast" role="status" id="toast" hidden></div>
   <noscript><div class="shell">Чтобы оформить заказ, <a href="https://t.me/m/LyEKjl0bODFi">напиши в Telegram</a>.</div></noscript>
-  <script src="/storefront.js?v=prices1" defer></script>
+  <script src="/storefront.js?v=cart1" defer></script>
 </body>
 </html>

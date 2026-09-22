@@ -67,7 +67,10 @@ ym(112697107,'init',{ssr:true,webvisor:true,clickmap:true,ecommerce:'dataLayer',
   <header class="store-header">
     <div class="header-inner">
       <a class="brand" href="/" aria-label="БРАЗКА — главная"><span class="logo-crop"><img src="/assets/brazka-logo.png" alt="БРАЗКА" width="1254" height="1254"></span></a>
-      <a class="contact-link" data-contact href="https://t.me/m/LyEKjl0bODFi" target="_blank" rel="noopener">Написать <span aria-hidden="true">↗</span></a>
+      <div class="header-actions">
+        <button class="cart-button" id="cartButton" type="button" aria-haspopup="dialog" aria-controls="cartModal">Корзина <span id="cartCount">0</span></button>
+        <a class="contact-link" data-contact href="https://t.me/m/LyEKjl0bODFi" target="_blank" rel="noopener">Написать <span aria-hidden="true">↗</span></a>
+      </div>
     </div>
   </header>
   <main>
@@ -79,6 +82,9 @@ ym(112697107,'init',{ssr:true,webvisor:true,clickmap:true,ecommerce:'dataLayer',
       <div class="offers-strip" id="offersStrip" hidden><div class="offers-label">В ФОКУСЕ</div><div class="ticker-window"><div class="ticker-track" id="tickerTrack"></div></div><button class="ticker-toggle" id="tickerToggle" aria-label="Приостановить ленту" aria-pressed="false">Ⅱ</button></div>
       <section class="catalog-section shell" id="catalog" aria-labelledby="catalogHeading">
         <div class="section-heading catalog-heading"><h2 id="catalogHeading">Каталог игр</h2><div class="catalog-heading-actions"><span id="catalogCount" class="muted"></span><a class="catalog-plus-link" href="#plus">PS Plus <span aria-hidden="true">↓</span></a></div></div>
+
+
+
 
 
 
@@ -126,8 +132,22 @@ ym(112697107,'init',{ssr:true,webvisor:true,clickmap:true,ecommerce:'dataLayer',
     <section class="detail-view shell" id="detailView" hidden aria-label="Игра и издания"></section>
   </main>
   <footer class="shell"><span>© БРАЗКА, 2026</span><span id="updatedDate"></span><p>БРАЗКА не является официальным партнёром Sony или PlayStation. Наличие и цену подтверждаем перед оплатой.</p></footer>
+  <div class="cart-modal" id="cartModal" hidden>
+    <section class="cart-dialog" role="dialog" aria-modal="true" aria-labelledby="cartTitle">
+      <header class="cart-dialog-header"><div><p class="eyebrow">ГОТОВЫЙ КОМПЛЕКТ</p><h2 id="cartTitle">Корзина BRAZKA</h2></div><button class="cart-close" type="button" data-cart-close aria-label="Закрыть корзину">×</button></header>
+      <div class="cart-items" id="cartItems"></div>
+      <div class="cart-empty" id="cartEmpty" hidden><strong>Корзина пока пустая</strong><p>Добавь игру, подписку или FC Points — всё соберём в одну заявку.</p></div>
+      <footer class="cart-footer" id="cartFooter">
+        <div class="cart-total"><span>Итого</span><strong id="cartTotal">0 ₽</strong></div>
+        <p class="cart-note">Перед оплатой подтвердим наличие и актуальную цену.</p>
+        <div class="cart-share-actions"><button class="button secondary" id="cartCopyText" type="button">Скопировать состав</button><button class="button secondary" id="cartShare" type="button">Поделиться ссылкой</button></div>
+        <button class="button primary cart-checkout" id="cartCheckout" type="button">Отправить заявку</button>
+        <button class="cart-clear" id="cartClear" type="button">Очистить корзину</button>
+      </footer>
+    </section>
+  </div>
   <div class="toast" role="status" id="toast" hidden></div>
   <noscript><div class="shell">Чтобы оформить заказ, <a href="https://t.me/m/LyEKjl0bODFi">напиши в Telegram</a>.</div></noscript>
-  <script src="/storefront.js?v=prices1" defer></script>
+  <script src="/storefront.js?v=cart1" defer></script>
 </body>
 </html>
