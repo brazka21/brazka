@@ -349,7 +349,18 @@
           }
         },
         {
-          "discounts": {},
+          "discounts": {
+            "india": {
+              "percent": 20,
+              "endsAt": "2026-10-07T22:59:00Z",
+              "storeOriginal": 7499.0
+            },
+            "turkey": {
+              "percent": 20,
+              "endsAt": "2026-10-07T22:59:00Z",
+              "storeOriginal": 5499.0
+            }
+          },
           "edition": "Ultimate Edition",
           "editionId": "ultimate",
           "editionOrder": 5,
@@ -369,58 +380,52 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 9800,
-            "turkey": 11600
+            "india": 7900,
+            "turkey": 9600
           },
           "pricingBasis": {
             "india": {
-              "cards": [
-                3000,
-                5000
-              ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547",
-                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269"
+                "https://plati.market/itm/24-7-auto-playstation-6000-inr-gift-card/5552385"
+              ],
+              "cards": [
+                6000
               ],
               "cardCosts": [
-                3157,
-                5265
+                6660
               ],
-              "cost": 8422,
-              "wallet": 8000,
-              "maxDeliveredCodes": 3,
-              "price": 9700,
+              "cost": 6660,
+              "maxDeliveredCodes": 2,
+              "price": 7900,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
-              "verifiedAt": "2026-09-18T01:19:11Z"
+              "verifiedAt": "2026-09-23T01:19:11Z",
+              "wallet": 6000
             },
             "turkey": {
-              "cards": [
-                1000,
-                2000,
-                2500
-              ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601",
-                "https://plati.market/itm/24-7-auto-playstation-2500-try-gift-card/5250604"
+                "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139",
+                "https://plati.market/itm/24-7-auto-playstation-3000-try-gift-card/5297640"
+              ],
+              "cards": [
+                1500,
+                3000
               ],
               "cardCosts": [
-                1858,
-                3704,
-                4634
+                2783,
+                5564
               ],
-              "cost": 10196,
-              "wallet": 5500,
+              "cost": 8347,
               "maxDeliveredCodes": 3,
-              "price": 11400,
+              "price": 9600,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
-              "verifiedAt": "2026-09-21T01:14:20Z"
+              "verifiedAt": "2026-09-23T01:19:11Z",
+              "wallet": 4500
             }
           },
           "release": "Уже в продаже",
           "storePrices": {
-            "india": 7499.0,
-            "turkey": 5499.0
+            "india": 5999.0,
+            "turkey": 4399.2
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/EP0006-PPSA23566_00-ULTIMATEEDITION0",
@@ -430,8 +435,12 @@
           "title": "EA SPORTS UFC 6 — Ultimate Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T04:18:35Z",
-            "turkey": "2026-09-12T04:18:35Z"
+            "india": "2026-09-23T01:19:11Z",
+            "turkey": "2026-09-23T01:19:11Z"
+          },
+          "oldPrices": {
+            "india": 9800,
+            "turkey": 11600
           }
         },
         {
@@ -2287,7 +2296,18 @@
           }
         },
         {
-          "discounts": {},
+          "discounts": {
+            "india": {
+              "percent": 10,
+              "endsAt": "2026-10-07T22:59:00Z",
+              "storeOriginal": 4199.0
+            },
+            "turkey": {
+              "percent": 10,
+              "endsAt": "2026-10-07T22:59:00Z",
+              "storeOriginal": 2579.0
+            }
+          },
           "edition": "Standard Edition",
           "editionId": "standard",
           "editionOrder": 0,
@@ -2350,8 +2370,8 @@
           },
           "release": "Уже в продаже",
           "storePrices": {
-            "india": 4199.0,
-            "turkey": 2579.0
+            "india": 3779.0,
+            "turkey": 2321.1
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/EP0001-PPSA28183_00-GAME000000000000",
@@ -2361,12 +2381,23 @@
           "title": "Assassin’s Creed Black Flag Resynced — Standard Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T04:18:35Z",
-            "turkey": "2026-09-12T04:18:35Z"
+            "india": "2026-09-23T01:19:11Z",
+            "turkey": "2026-09-23T01:19:11Z"
           }
         },
         {
-          "discounts": {},
+          "discounts": {
+            "india": {
+              "percent": 15,
+              "endsAt": "2026-10-07T22:59:00Z",
+              "storeOriginal": 4899.0
+            },
+            "turkey": {
+              "percent": 15,
+              "endsAt": "2026-10-07T22:59:00Z",
+              "storeOriginal": 2999.0
+            }
+          },
           "edition": "Deluxe Edition",
           "editionId": "deluxe",
           "editionOrder": 2,
@@ -2385,7 +2416,7 @@
           "platform": "PS5",
           "prices": {
             "india": 6600,
-            "turkey": 6900
+            "turkey": 6800
           },
           "pricingBasis": {
             "india": {
@@ -2409,33 +2440,27 @@
               "verifiedAt": "2026-09-19T01:14:00Z"
             },
             "turkey": {
-              "cards": [
-                250,
-                750,
-                2000
-              ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
-                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
+                "https://plati.market/itm/24-7-auto-playstation-3000-try-gift-card/5297640"
+              ],
+              "cards": [
+                3000
               ],
               "cardCosts": [
-                459,
-                1389,
-                3704
+                5564
               ],
-              "cost": 5552,
-              "wallet": 3000,
-              "maxDeliveredCodes": 3,
+              "cost": 5564,
+              "maxDeliveredCodes": 2,
               "price": 6800,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
-              "verifiedAt": "2026-09-20T01:16:33Z"
+              "verifiedAt": "2026-09-23T01:19:11Z",
+              "wallet": 3000
             }
           },
           "release": "Уже в продаже",
           "storePrices": {
-            "india": 4899.0,
-            "turkey": 2999.0
+            "india": 4164.0,
+            "turkey": 2549.15
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/EP0001-PPSA28183_00-DELUXE0000000000",
@@ -2445,8 +2470,11 @@
           "title": "Assassin’s Creed Black Flag Resynced — Deluxe Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T04:18:35Z",
-            "turkey": "2026-09-12T04:18:35Z"
+            "india": "2026-09-23T01:19:11Z",
+            "turkey": "2026-09-23T01:19:11Z"
+          },
+          "oldPrices": {
+            "turkey": 6900
           }
         },
         {
@@ -2977,7 +3005,18 @@
           }
         },
         {
-          "discounts": {},
+          "discounts": {
+            "india": {
+              "percent": 85,
+              "endsAt": "2026-10-07T22:59:00Z",
+              "storeOriginal": 3999.0
+            },
+            "turkey": {
+              "percent": 85,
+              "endsAt": "2026-10-07T22:59:00Z",
+              "storeOriginal": 3149.0
+            }
+          },
           "edition": "Standard Edition",
           "editionId": "standard",
           "editionOrder": 0,
@@ -2995,7 +3034,7 @@
           "platform": "PS4 / PS5",
           "prices": {
             "india": 5500,
-            "turkey": 7400
+            "turkey": 4000
           },
           "pricingBasis": {
             "india": {
@@ -3018,33 +3057,27 @@
               ]
             },
             "turkey": {
-              "cards": [
-                250,
-                1000,
-                2000
-              ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
-                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
+                "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139"
+              ],
+              "cards": [
+                1500
               ],
               "cardCosts": [
-                459,
-                1858,
-                3704
+                2783
               ],
-              "cost": 6021,
-              "wallet": 3250,
-              "maxDeliveredCodes": 3,
-              "price": 7300,
+              "cost": 2783,
+              "maxDeliveredCodes": 1,
+              "price": 4000,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
-              "verifiedAt": "2026-09-20T01:16:33Z"
+              "verifiedAt": "2026-09-23T01:19:11Z",
+              "wallet": 1500
             }
           },
           "release": "Уже в продаже",
           "storePrices": {
-            "india": 3999.0,
-            "turkey": 3149.0
+            "india": 599.0,
+            "turkey": 472.35
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/EP0001-CUSA05625_00-GAMEACEMPIRE0000",
@@ -3054,12 +3087,26 @@
           "title": "Assassin’s Creed Origins — Standard Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T04:18:35Z",
-            "turkey": "2026-09-12T04:18:35Z"
+            "india": "2026-09-23T01:19:11Z",
+            "turkey": "2026-09-23T01:19:11Z"
+          },
+          "oldPrices": {
+            "turkey": 7400
           }
         },
         {
-          "discounts": {},
+          "discounts": {
+            "india": {
+              "percent": 85,
+              "endsAt": "2026-10-07T22:59:00Z",
+              "storeOriginal": 5999.0
+            },
+            "turkey": {
+              "percent": 85,
+              "endsAt": "2026-10-07T22:59:00Z",
+              "storeOriginal": 359.0
+            }
+          },
           "edition": "Gold Edition",
           "editionId": "gold",
           "editionOrder": 3,
@@ -3124,8 +3171,8 @@
           },
           "release": "Уже в продаже",
           "storePrices": {
-            "india": 5999.0,
-            "turkey": 359.0
+            "india": 899.0,
+            "turkey": 53.85
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/EP0001-CUSA05625_00-EDITIONGLDACE000",
@@ -3135,8 +3182,8 @@
           "title": "Assassin’s Creed Origins — Gold Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T04:18:35Z",
-            "turkey": "2026-09-12T04:18:35Z"
+            "india": "2026-09-23T01:19:11Z",
+            "turkey": "2026-09-23T01:19:11Z"
           }
         },
         {
@@ -3326,7 +3373,18 @@
           }
         },
         {
-          "discounts": {},
+          "discounts": {
+            "india": {
+              "percent": 69,
+              "endsAt": "2026-10-07T22:59:00Z",
+              "storeOriginal": 4799.0
+            },
+            "turkey": {
+              "percent": 69,
+              "endsAt": "2026-10-07T22:59:00Z",
+              "storeOriginal": 2799.0
+            }
+          },
           "edition": "Deluxe Edition",
           "editionId": "deluxe",
           "editionOrder": 2,
@@ -3345,7 +3403,7 @@
           "platform": "PS4 / PS5",
           "prices": {
             "india": 6600,
-            "turkey": 6900
+            "turkey": 4000
           },
           "pricingBasis": {
             "india": {
@@ -3369,33 +3427,27 @@
               "verifiedAt": "2026-09-19T01:14:00Z"
             },
             "turkey": {
-              "cards": [
-                250,
-                750,
-                2000
-              ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
-                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
+                "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139"
+              ],
+              "cards": [
+                1500
               ],
               "cardCosts": [
-                459,
-                1389,
-                3704
+                2783
               ],
-              "cost": 5552,
-              "wallet": 3000,
-              "maxDeliveredCodes": 3,
-              "price": 6800,
+              "cost": 2783,
+              "maxDeliveredCodes": 1,
+              "price": 4000,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
-              "verifiedAt": "2026-09-20T01:16:33Z"
+              "verifiedAt": "2026-09-23T01:19:11Z",
+              "wallet": 1500
             }
           },
           "release": "Уже в продаже",
           "storePrices": {
-            "india": 4799.0,
-            "turkey": 2799.0
+            "india": 1487.0,
+            "turkey": 867.69
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/EP0700-PPSA09535_00-JJTKCDLXEDITION0",
@@ -3405,12 +3457,26 @@
           "title": "Jujutsu Kaisen Cursed Clash — Deluxe Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T04:18:35Z",
-            "turkey": "2026-09-12T04:18:35Z"
+            "india": "2026-09-23T01:19:11Z",
+            "turkey": "2026-09-23T01:19:11Z"
+          },
+          "oldPrices": {
+            "turkey": 6900
           }
         },
         {
-          "discounts": {},
+          "discounts": {
+            "india": {
+              "percent": 90,
+              "endsAt": "2026-10-07T22:59:00Z",
+              "storeOriginal": 2247.0
+            },
+            "turkey": {
+              "percent": 90,
+              "endsAt": "2026-10-07T22:59:00Z",
+              "storeOriginal": 799.0
+            }
+          },
           "edition": "Starter Edition",
           "editionId": "starter",
           "editionOrder": 1,
@@ -3473,8 +3539,8 @@
           },
           "release": "Уже в продаже",
           "storePrices": {
-            "india": 2247.0,
-            "turkey": 799.0
+            "india": 224.0,
+            "turkey": 79.9
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/EP4064-CUSA17676_00-GWYFSTARTER00000",
@@ -3484,8 +3550,8 @@
           "title": "Golf With Your Friends — Starter Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T04:18:35Z",
-            "turkey": "2026-09-12T04:18:35Z"
+            "india": "2026-09-23T01:19:11Z",
+            "turkey": "2026-09-23T01:19:11Z"
           }
         },
         {
@@ -6996,7 +7062,18 @@
           }
         },
         {
-          "discounts": {},
+          "discounts": {
+            "india": {
+              "percent": 67,
+              "endsAt": "2026-10-07T22:59:00Z",
+              "storeOriginal": 4999.0
+            },
+            "turkey": {
+              "percent": 67,
+              "endsAt": "2026-10-07T22:59:00Z",
+              "storeOriginal": 3449.0
+            }
+          },
           "edition": "Digital Deluxe Edition",
           "editionId": "deluxe",
           "editionOrder": 3,
@@ -7008,11 +7085,13 @@
           "gameId": "sackboy",
           "image": "https://image.api.playstation.com/vulcan/img/rnd/202010/2912/22iZlOcD9QSCuGoq6Mt1mkel.png",
           "imageRole": "MASTER",
-          "oldPrices": {},
+          "oldPrices": {
+            "turkey": 7900
+          },
           "platform": "PS4 / PS5",
           "prices": {
             "india": 6600,
-            "turkey": 7900
+            "turkey": 4000
           },
           "pricingBasis": {
             "india": {
@@ -7036,30 +7115,27 @@
               "verifiedAt": "2026-09-19T01:14:00Z"
             },
             "turkey": {
-              "cards": [
-                2000,
-                1500
-              ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601",
                 "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139"
               ],
+              "cards": [
+                1500
+              ],
               "cardCosts": [
-                3704,
                 2783
               ],
-              "cost": 6487,
-              "wallet": 3500,
-              "maxDeliveredCodes": 2,
-              "price": 7700,
+              "cost": 2783,
+              "maxDeliveredCodes": 1,
+              "price": 4000,
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
-              "verifiedAt": "2026-09-21T01:14:20Z"
+              "verifiedAt": "2026-09-23T01:19:11Z",
+              "wallet": 1500
             }
           },
           "release": "Уже в продаже",
           "storePrices": {
-            "india": 4999.0,
-            "turkey": 3449.0
+            "india": 1649.0,
+            "turkey": 1138.17
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/EP9000-PPSA01288_00-DIGITALDELUXE001",
@@ -7069,8 +7145,8 @@
           "title": "Sackboy: A Big Adventure — Digital Deluxe Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T04:18:35Z",
-            "turkey": "2026-09-12T04:18:35Z"
+            "india": "2026-09-23T01:19:11Z",
+            "turkey": "2026-09-23T01:19:11Z"
           }
         },
         {
@@ -7652,7 +7728,18 @@
             "india": "available",
             "turkey": "available"
           },
-          "discounts": {},
+          "discounts": {
+            "india": {
+              "percent": 60,
+              "endsAt": "2026-10-07T22:59:00Z",
+              "storeOriginal": 1664.0
+            },
+            "turkey": {
+              "percent": 60,
+              "endsAt": "2026-10-07T22:59:00Z",
+              "storeOriginal": 699.0
+            }
+          },
           "edition": "Standard Edition",
           "editionId": "standard",
           "editionOrder": 0,
@@ -7716,8 +7803,8 @@
           },
           "release": "Уже в продаже",
           "storePrices": {
-            "india": 1664.0,
-            "turkey": 699.0
+            "india": 665.0,
+            "turkey": 279.6
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/EP2154-CUSA04865_00-GANGBEASTSPS04EU",
@@ -7727,8 +7814,8 @@
           "title": "Gang Beasts — Standard Edition",
           "verifiedAt": "2026-09-09T02:09:58Z",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T04:18:35Z",
-            "turkey": "2026-09-12T04:18:35Z"
+            "india": "2026-09-23T01:19:11Z",
+            "turkey": "2026-09-23T01:19:11Z"
           }
         },
         {
