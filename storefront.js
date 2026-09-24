@@ -56,7 +56,7 @@ if(typeof document!=='undefined'){
   const $=id=>document.getElementById(id);
   const rootTitle='БРАЗКА — каталог игр PlayStation, цены Индии и Турции';
   const PLUS_SALE_END=Date.parse('2026-10-01T00:00:00+03:00');
-  const planData={essential:{name:'Essential',note:'Онлайн, игры месяца и облачные сохранения.',prices:{1:1090,3:2990,12:7900},salePrices:{12:5900}},extra:{name:'Extra',note:'Каталог игр и все возможности Essential.',prices:{1:1590,3:4290,12:11990},salePrices:{12:8990}},deluxe:{name:'Deluxe',note:'Классика, пробные версии и все возможности Extra.',prices:{1:1790,3:4790,12:13990},salePrices:{12:10490}}};
+  const planData={essential:{name:'Essential',image:'/assets/ps-essential.png',note:'Онлайн, игры месяца и облачные сохранения.',prices:{1:1090,3:2990,12:7900},salePrices:{12:5900}},extra:{name:'Extra',image:'/assets/ps-extra.png',note:'Каталог игр и все возможности Essential.',prices:{1:1590,3:4290,12:11990},salePrices:{12:8990}},deluxe:{name:'Deluxe',image:'/assets/ps-deluxe.png',note:'Классика, пробные версии и все возможности Extra.',prices:{1:1790,3:4790,12:13990},salePrices:{12:10490}}};
   const planPrice=(data,term,now=Date.now())=>now<PLUS_SALE_END&&data.salePrices?.[term]||data.prices[term];
   let plan='essential',months=12;
   function toast(text){$('toast').textContent=text;$('toast').hidden=false;clearTimeout(toast.timer);toast.timer=setTimeout(()=>$('toast').hidden=true,5000);}
@@ -83,7 +83,7 @@ if(typeof document!=='undefined'){
     }
     if(item.type==='plus'){
       const data=planData[item.planId];if(!data)return null;
-      return {...item,product:'PlayStation Plus',edition:`${data.name} · ${item.months} мес.`,regionLabel:'🇹🇷 Турция',price:planPrice(data,item.months)||null,image:'/assets/psplus-icon.png'};
+      return {...item,product:'PlayStation Plus',edition:`${data.name} · ${item.months} мес.`,regionLabel:'🇹🇷 Турция',price:planPrice(data,item.months)||null,image:data.image};
     }
     return null;
   }
@@ -318,7 +318,7 @@ if(typeof document!=='undefined'){
     if (trigger.id === 'planOrder') {
       const activePlan = document.querySelector('[data-plan].active');
       const activeMonths = document.querySelector('[data-months].active');
-      const planName = cleanText(activePlan?.firstChild?.textContent) || 'PS Plus';
+      const planName = cleanText(activePlan?.querySelector('.plan-choice-copy strong')?.textContent) || 'PS Plus';
       return {
         kind: 'plus',
         product: 'PlayStation Plus',
