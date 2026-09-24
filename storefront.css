@@ -38,7 +38,7 @@
 
 /* Individual covers for each PS Plus tier. */
 .plan-choice{display:grid;align-content:start;justify-content:stretch;gap:10px;min-width:0;padding:9px;border-radius:10px;overflow:hidden;font-size:inherit}
-.plan-choice-cover{width:100%;aspect-ratio:1.04;object-fit:cover;border:1px solid #ffffff1c;border-radius:7px;background:#0f0d14}
+.plan-choice-cover{width:100%;height:auto;aspect-ratio:1.04;object-fit:cover;border:1px solid #ffffff1c;border-radius:7px;background:#0f0d14}
 .plan-choice .plan-choice-copy{display:grid;gap:4px;margin-top:0;padding:0 4px 5px;color:inherit;font-size:inherit;font-weight:inherit;line-height:normal}
 .plan-choice-copy strong{font-size:17px;line-height:1.2}
 .plan-choice-copy small{color:var(--muted);font-size:12px;font-weight:500;line-height:1.4}
