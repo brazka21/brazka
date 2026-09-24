@@ -55,8 +55,10 @@ if(typeof document!=='undefined'){
   let cart=[],cartOpener=null,sharedCartLoaded=false;
   const $=id=>document.getElementById(id);
   const rootTitle='БРАЗКА — каталог игр PlayStation, цены Индии и Турции';
-  const planData={essential:{name:'Essential',note:'Онлайн, игры месяца и облачные сохранения.',prices:{1:1090,3:2990,12:7900}},extra:{name:'Extra',note:'Каталог игр и все возможности Essential.',prices:{1:1590,3:4290,12:11990}},deluxe:{name:'Deluxe',note:'Классика, пробные версии и все возможности Extra.',prices:{1:1790,3:4790,12:13990}}};
-  let plan='essential',months=1;
+  const PLUS_SALE_END=Date.parse('2026-10-01T00:00:00+03:00');
+  const planData={essential:{name:'Essential',note:'Онлайн, игры месяца и облачные сохранения.',prices:{1:1090,3:2990,12:7900},salePrices:{12:5900}},extra:{name:'Extra',note:'Каталог игр и все возможности Essential.',prices:{1:1590,3:4290,12:11990},salePrices:{12:8990}},deluxe:{name:'Deluxe',note:'Классика, пробные версии и все возможности Extra.',prices:{1:1790,3:4790,12:13990},salePrices:{12:10490}}};
+  const planPrice=(data,term,now=Date.now())=>now<PLUS_SALE_END&&data.salePrices?.[term]||data.prices[term];
+  let plan='essential',months=12;
   function toast(text){$('toast').textContent=text;$('toast').hidden=false;clearTimeout(toast.timer);toast.timer=setTimeout(()=>$('toast').hidden=true,5000);}
   function cartId(item){return [item.type,item.gameId||'',item.editionId||'',item.packId||'',item.planId||'',item.months||'',item.region||''].join(':');}
   function validCartItem(item){
@@ -81,7 +83,7 @@ if(typeof document!=='undefined'){
     }
     if(item.type==='plus'){
       const data=planData[item.planId];if(!data)return null;
-      return {...item,product:'PlayStation Plus',edition:`${data.name} · ${item.months} мес.`,regionLabel:'Регион уточним',price:data.prices[item.months]||null,image:'/assets/psplus-icon.png'};
+      return {...item,product:'PlayStation Plus',edition:`${data.name} · ${item.months} мес.`,regionLabel:'🇹🇷 Турция',price:planPrice(data,item.months)||null,image:'/assets/psplus-icon.png'};
     }
     return null;
   }
@@ -229,9 +231,9 @@ if(typeof document!=='undefined'){
   $('resetSearch').addEventListener('click',()=>{query='';filter='all';history.pushState({},'','/#catalog');$('catalogHeading').textContent='Каталог игр';$('collectionDescription')?.remove();$('gameSearch').value='';renderGrid();$('gameSearch').focus();});
   document.querySelectorAll('.catalog-plus-link').forEach(link=>link.addEventListener('click',event=>{event.preventDefault();history.replaceState({},'','#plus');$('plus').scrollIntoView({behavior:'smooth',block:'start'});}));
   $('tickerToggle').addEventListener('click',()=>{const paused=$('tickerTrack').classList.toggle('paused');$('tickerToggle').textContent=paused?'▶':'Ⅱ';$('tickerToggle').setAttribute('aria-pressed',String(paused));$('tickerToggle').setAttribute('aria-label',paused?'Запустить ленту':'Приостановить ленту');});
-  function renderPlan(){const p=planData[plan];$('planPrice').textContent=money(p.prices[months]);$('planDescription').textContent=p.note;document.querySelectorAll('[data-plan]').forEach(b=>{b.classList.toggle('active',b.dataset.plan===plan);b.setAttribute('aria-pressed',String(b.dataset.plan===plan));});document.querySelectorAll('[data-months]').forEach(b=>{b.classList.toggle('active',Number(b.dataset.months)===months);b.setAttribute('aria-pressed',String(Number(b.dataset.months)===months));});}
+  function renderPlan(){const p=planData[plan],sale=months===12&&Date.now()<PLUS_SALE_END,oldPrice=$('planOldPrice'),saleBadge=$('planSale'),saleNote=$('planSaleNote');$('planPrice').textContent=money(planPrice(p,months));if(oldPrice){oldPrice.textContent=sale?money(p.prices[months]):'';oldPrice.hidden=!sale;}if(saleBadge)saleBadge.hidden=!sale;if(saleNote)saleNote.hidden=!sale;$('planDescription').textContent=p.note;document.querySelectorAll('[data-plan]').forEach(b=>{b.classList.toggle('active',b.dataset.plan===plan);b.setAttribute('aria-pressed',String(b.dataset.plan===plan));});document.querySelectorAll('[data-months]').forEach(b=>{b.classList.toggle('active',Number(b.dataset.months)===months);b.setAttribute('aria-pressed',String(Number(b.dataset.months)===months));});}
   document.querySelectorAll('[data-plan]').forEach(b=>b.addEventListener('click',()=>{plan=b.dataset.plan;renderPlan();}));document.querySelectorAll('[data-months]').forEach(b=>b.addEventListener('click',()=>{months=Number(b.dataset.months);renderPlan();}));
-  $('planOrder').addEventListener('click',()=>{if(typeof ym==='function')ym(112697107,'reachGoal','psplus_order_click');navigator.clipboard?.writeText(`Привет! Нужна PS Plus ${planData[plan].name}, ${months} мес. На сайте ${money(planData[plan].prices[months])}.`).catch(()=>{});});
+  $('planOrder').addEventListener('click',()=>{if(typeof ym==='function')ym(112697107,'reachGoal','psplus_order_click');navigator.clipboard?.writeText(`Привет! Нужна PS Plus ${planData[plan].name}, ${months} мес., регион Турция. На сайте ${money(planPrice(planData[plan],months))}.`).catch(()=>{});});
   window.addEventListener('popstate',()=>selectRoute());
   function scheduleExpiryRefresh(){
     clearTimeout(scheduleExpiryRefresh.timer);
@@ -254,9 +256,9 @@ if(typeof document!=='undefined'){
   const DIRECT_TELEGRAM = 'https://t.me/m/LyEKjl0bODFi';
   const STORAGE_KEY = 'brazka-attribution';
   const PLUS_PRICES = {
-    essential: { name: 'Essential', prices: { 1: 1090, 3: 2990, 12: 7900 } },
-    extra: { name: 'Extra', prices: { 1: 1590, 3: 4290, 12: 11990 } },
-    deluxe: { name: 'Deluxe', prices: { 1: 1790, 3: 4790, 12: 13990 } }
+    essential: { name: 'Essential', prices: { 1: 1090, 3: 2990, 12: Date.now() < Date.parse('2026-10-01T00:00:00+03:00') ? 5900 : 7900 } },
+    extra: { name: 'Extra', prices: { 1: 1590, 3: 4290, 12: Date.now() < Date.parse('2026-10-01T00:00:00+03:00') ? 8990 : 11990 } },
+    deluxe: { name: 'Deluxe', prices: { 1: 1790, 3: 4790, 12: Date.now() < Date.parse('2026-10-01T00:00:00+03:00') ? 10490 : 13990 } }
   };
   let currentOrder = null;
   let opener = null;
