@@ -23,7 +23,7 @@
           "notice": "Для бонуса GTA+ действуют условия активации и автопродления подписки; уточним их перед оформлением.",
           "platform": "PS5",
           "prices": {
-            "india": 7600,
+            "india": null,
             "turkey": 8800
           },
           "pricingBasis": {
@@ -109,7 +109,7 @@
           "notice": "Для бонуса GTA+ действуют условия активации и автопродления подписки; уточним их перед оформлением.",
           "platform": "PS5",
           "prices": {
-            "india": 9800,
+            "india": null,
             "turkey": 10700
           },
           "pricingBasis": {
@@ -195,7 +195,7 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 8000,
+            "india": null,
             "turkey": 8800
           },
           "pricingBasis": {
@@ -283,7 +283,7 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 11500,
+            "india": null,
             "turkey": 11600
           },
           "pricingBasis": {
@@ -380,7 +380,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7900,
+            "india": null,
             "turkey": 9600
           },
           "pricingBasis": {
@@ -460,7 +460,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 6600,
+            "india": null,
             "turkey": 7900
           },
           "pricingBasis": {
@@ -545,7 +545,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7600,
+            "india": null,
             "turkey": 8800
           },
           "pricingBasis": {
@@ -626,7 +626,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 6600,
+            "india": null,
             "turkey": 8800
           },
           "pricingBasis": {
@@ -719,7 +719,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 8600,
+            "india": null,
             "turkey": 8200
           },
           "pricingBasis": {
@@ -877,7 +877,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7600,
+            "india": null,
             "turkey": 7400
           },
           "pricingBasis": {
@@ -968,7 +968,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 10900,
+            "india": null,
             "turkey": 9700
           },
           "pricingBasis": {
@@ -1051,7 +1051,7 @@
           "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 11200,
+            "india": null,
             "turkey": 7700
           },
           "pricingBasis": {
@@ -1130,7 +1130,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 5900,
+            "india": null,
             "turkey": 4500
           },
           "pricingBasis": {
@@ -1211,7 +1211,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 9700,
+            "india": null,
             "turkey": 6300
           },
           "pricingBasis": {
@@ -1296,7 +1296,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7000,
+            "india": null,
             "turkey": 7700
           },
           "pricingBasis": {
@@ -1376,7 +1376,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 6600,
+            "india": null,
             "turkey": 7900
           },
           "pricingBasis": {
@@ -1457,7 +1457,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 6600,
+            "india": null,
             "turkey": 8800
           },
           "pricingBasis": {
@@ -1538,7 +1538,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7600,
+            "india": null,
             "turkey": 9700
           },
           "pricingBasis": {
@@ -1619,7 +1619,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 5500,
+            "india": null,
             "turkey": 6900
           },
           "pricingBasis": {
@@ -1703,7 +1703,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 6600,
+            "india": null,
             "turkey": 7900
           },
           "pricingBasis": {
@@ -1782,7 +1782,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 5500,
+            "india": null,
             "turkey": 6400
           },
           "pricingBasis": {
@@ -1866,7 +1866,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 5500,
+            "india": null,
             "turkey": 6900
           },
           "pricingBasis": {
@@ -1947,7 +1947,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 4500,
+            "india": null,
             "turkey": 5500
           },
           "pricingBasis": {
@@ -2025,7 +2025,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 5500,
+            "india": null,
             "turkey": 6400
           },
           "pricingBasis": {
@@ -2103,7 +2103,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 6600,
+            "india": null,
             "turkey": 6000
           },
           "pricingBasis": {
@@ -2186,7 +2186,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7600,
+            "india": null,
             "turkey": 6900
           },
           "pricingBasis": {
@@ -2281,7 +2281,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 6600,
+            "india": null,
             "turkey": 6400
           },
           "pricingBasis": {
@@ -2373,7 +2373,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 6600,
+            "india": null,
             "turkey": 6800
           },
           "pricingBasis": {
@@ -2452,7 +2452,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 5500,
+            "india": null,
             "turkey": 6900
           },
           "pricingBasis": {
@@ -2537,7 +2537,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7600,
+            "india": null,
             "turkey": 8800
           },
           "pricingBasis": {
@@ -2618,7 +2618,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 6600,
+            "india": null,
             "turkey": 7900
           },
           "pricingBasis": {
@@ -2698,7 +2698,7 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 9700,
+            "india": null,
             "turkey": 7700
           },
           "pricingBasis": {
@@ -2784,7 +2784,7 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 7000,
+            "india": null,
             "turkey": 2600
           },
           "pricingBasis": {
@@ -2864,7 +2864,7 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 9700,
+            "india": null,
             "turkey": 7700
           },
           "pricingBasis": {
@@ -2958,7 +2958,7 @@
           "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 5500,
+            "india": null,
             "turkey": 4000
           },
           "pricingBasis": {
@@ -3050,7 +3050,7 @@
           "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 7600,
+            "india": null,
             "turkey": 2200
           },
           "pricingBasis": {
@@ -3132,7 +3132,7 @@
           "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 5000,
+            "india": null,
             "turkey": 4000
           },
           "pricingBasis": {
@@ -3217,7 +3217,7 @@
           "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 5900,
+            "india": null,
             "turkey": 5400
           },
           "pricingBasis": {
@@ -3309,7 +3309,7 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 6600,
+            "india": null,
             "turkey": 4000
           },
           "pricingBasis": {
@@ -3402,7 +3402,7 @@
           "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 4500,
+            "india": null,
             "turkey": 3100
           },
           "pricingBasis": {
@@ -3530,7 +3530,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7600,
+            "india": null,
             "turkey": 8800
           },
           "pricingBasis": {
@@ -3620,7 +3620,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 5500,
+            "india": null,
             "turkey": 4500
           },
           "pricingBasis": {
@@ -3707,7 +3707,7 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 5000,
+            "india": null,
             "turkey": 4500
           },
           "pricingBasis": {
@@ -3789,7 +3789,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 6500,
+            "india": null,
             "turkey": 5400
           },
           "pricingBasis": {
@@ -3875,7 +3875,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7600,
+            "india": null,
             "turkey": 6800
           },
           "pricingBasis": {
@@ -3969,7 +3969,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 10000,
+            "india": null,
             "turkey": 8700
           },
           "pricingBasis": {
@@ -4052,7 +4052,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 4400,
+            "india": null,
             "turkey": 4500
           },
           "pricingBasis": {
@@ -4136,7 +4136,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 5400,
+            "india": null,
             "turkey": 6300
           },
           "pricingBasis": {
@@ -4220,7 +4220,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7600,
+            "india": null,
             "turkey": 8700
           },
           "pricingBasis": {
@@ -4311,7 +4311,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 10700,
+            "india": null,
             "turkey": 11400
           },
           "pricingBasis": {
@@ -4401,7 +4401,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 4400,
+            "india": null,
             "turkey": 5400
           },
           "pricingBasis": {
@@ -4484,7 +4484,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 5400,
+            "india": null,
             "turkey": 6300
           },
           "pricingBasis": {
@@ -4568,7 +4568,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 5400,
+            "india": null,
             "turkey": 6300
           },
           "pricingBasis": {
@@ -4655,7 +4655,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 5400,
+            "india": null,
             "turkey": 6800
           },
           "pricingBasis": {
@@ -4742,7 +4742,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7600,
+            "india": null,
             "turkey": 6800
           },
           "pricingBasis": {
@@ -4836,7 +4836,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 9700,
+            "india": null,
             "turkey": 9100
           },
           "pricingBasis": {
@@ -4921,7 +4921,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 6500,
+            "india": null,
             "turkey": 7700
           },
           "pricingBasis": {
@@ -5009,7 +5009,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 8600,
+            "india": null,
             "turkey": 9100
           },
           "pricingBasis": {
@@ -5092,7 +5092,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 4700,
+            "india": null,
             "turkey": 5400
           },
           "pricingBasis": {
@@ -5177,7 +5177,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 5800,
+            "india": null,
             "turkey": 7200
           },
           "pricingBasis": {
@@ -5262,7 +5262,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 6500,
+            "india": null,
             "turkey": 8700
           },
           "pricingBasis": {
@@ -5342,7 +5342,7 @@
           "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 6500,
+            "india": null,
             "turkey": 5400
           },
           "pricingBasis": {
@@ -5422,7 +5422,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7600,
+            "india": null,
             "turkey": 5400
           },
           "pricingBasis": {
@@ -5504,7 +5504,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 5500,
+            "india": null,
             "turkey": 6800
           },
           "pricingBasis": {
@@ -5586,7 +5586,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 6500,
+            "india": null,
             "turkey": 6800
           },
           "pricingBasis": {
@@ -5671,7 +5671,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7600,
+            "india": null,
             "turkey": 7700
           },
           "pricingBasis": {
@@ -5756,7 +5756,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7600,
+            "india": null,
             "turkey": 8700
           },
           "pricingBasis": {
@@ -5838,7 +5838,7 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 6500,
+            "india": null,
             "turkey": 5900
           },
           "pricingBasis": {
@@ -5921,7 +5921,7 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 9900,
+            "india": null,
             "turkey": 10100
           },
           "pricingBasis": {
@@ -6003,7 +6003,7 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 5500,
+            "india": null,
             "turkey": 2200
           },
           "pricingBasis": {
@@ -6086,7 +6086,7 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 7600,
+            "india": null,
             "turkey": 6800
           },
           "pricingBasis": {
@@ -6175,7 +6175,7 @@
           "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 6500,
+            "india": null,
             "turkey": 7700
           },
           "pricingBasis": {
@@ -6261,7 +6261,7 @@
           "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 5500,
+            "india": null,
             "turkey": 5900
           },
           "pricingBasis": {
@@ -6340,7 +6340,7 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 5500,
+            "india": null,
             "turkey": 5400
           },
           "pricingBasis": {
@@ -6423,7 +6423,7 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 8900,
+            "india": null,
             "turkey": 7700
           },
           "pricingBasis": {
@@ -6510,7 +6510,7 @@
           "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 6500,
+            "india": null,
             "turkey": 4000
           },
           "pricingBasis": {
@@ -6590,7 +6590,7 @@
           "notice": "Версия PS4. Доступна на PS5 по обратной совместимости.",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 3400,
+            "india": null,
             "turkey": 2600
           },
           "pricingBasis": {
@@ -6668,7 +6668,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 5500,
+            "india": null,
             "turkey": 5000
           },
           "pricingBasis": {
@@ -6740,7 +6740,7 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 4400,
+            "india": null,
             "turkey": 4000
           },
           "pricingBasis": {
@@ -6812,7 +6812,7 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5 (обратная совместимость)",
           "prices": {
-            "india": 3400,
+            "india": null,
             "turkey": 3600
           },
           "pricingBasis": {
@@ -6884,7 +6884,7 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 5500,
+            "india": null,
             "turkey": 7300
           },
           "pricingBasis": {
@@ -6978,7 +6978,7 @@
           },
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 6600,
+            "india": null,
             "turkey": 4000
           },
           "pricingBasis": {
@@ -7050,7 +7050,7 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5",
           "prices": {
-            "india": 4400,
+            "india": null,
             "turkey": 4000
           },
           "pricingBasis": {
@@ -7122,7 +7122,7 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5 (обратная совместимость)",
           "prices": {
-            "india": 3400,
+            "india": null,
             "turkey": 1700
           },
           "pricingBasis": {
@@ -7191,7 +7191,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 7000,
+            "india": null,
             "turkey": 5400
           },
           "pricingBasis": {
@@ -7267,7 +7267,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 5900,
+            "india": null,
             "turkey": 6300
           },
           "pricingBasis": {
@@ -7345,7 +7345,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 5900,
+            "india": null,
             "turkey": 6800
           },
           "pricingBasis": {
@@ -7422,7 +7422,7 @@
             "Русский текст; английская озвучка"
           ],
           "prices": {
-            "india": 4400,
+            "india": null,
             "turkey": 3600
           },
           "storePrices": {
@@ -7514,7 +7514,7 @@
           "imageRole": "MASTER",
           "platform": "PS5",
           "prices": {
-            "india": 4400,
+            "india": null,
             "turkey": 4000
           },
           "pricingBasis": {
@@ -7609,7 +7609,7 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5 (обратная совместимость)",
           "prices": {
-            "india": 3400,
+            "india": null,
             "turkey": 2700
           },
           "pricingBasis": {
@@ -7692,7 +7692,7 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5 (обратная совместимость)",
           "prices": {
-            "india": 5500,
+            "india": null,
             "turkey": 5400
           },
           "pricingBasis": {
@@ -7785,7 +7785,7 @@
           "imageRole": "MASTER",
           "platform": "PS4 / PS5 (обратная совместимость)",
           "prices": {
-            "india": 4400,
+            "india": null,
             "turkey": 4500
           },
           "pricingBasis": {
@@ -8076,7 +8076,7 @@
             "label": "50 FC Points",
             "points": 50,
             "prices": {
-              "india": 350,
+              "india": null,
               "turkey": 400
             },
             "storePrices": {
@@ -8093,7 +8093,7 @@
             "label": "100 FC Points",
             "points": 100,
             "prices": {
-              "india": 450,
+              "india": null,
               "turkey": 500
             },
             "storePrices": {
@@ -8110,7 +8110,7 @@
             "label": "500 FC Points",
             "points": 500,
             "prices": {
-              "india": 750,
+              "india": null,
               "turkey": 900
             },
             "storePrices": {
@@ -8127,7 +8127,7 @@
             "label": "1 050 FC Points",
             "points": 1050,
             "prices": {
-              "india": 1300,
+              "india": null,
               "turkey": 1500
             },
             "storePrices": {
@@ -8144,7 +8144,7 @@
             "label": "1 600 FC Points",
             "points": 1600,
             "prices": {
-              "india": 1800,
+              "india": null,
               "turkey": 2100
             },
             "storePrices": {
@@ -8161,7 +8161,7 @@
             "label": "2 800 FC Points",
             "points": 2800,
             "prices": {
-              "india": 2800,
+              "india": null,
               "turkey": 3300
             },
             "storePrices": {
@@ -8178,7 +8178,7 @@
             "label": "5 900 FC Points",
             "points": 5900,
             "prices": {
-              "india": 5200,
+              "india": null,
               "turkey": 6200
             },
             "storePrices": {
@@ -8195,7 +8195,7 @@
             "label": "12 000 FC Points",
             "points": 12000,
             "prices": {
-              "india": 9900,
+              "india": null,
               "turkey": 11800
             },
             "storePrices": {
@@ -8212,7 +8212,7 @@
             "label": "18 500 FC Points",
             "points": 18500,
             "prices": {
-              "india": 15200,
+              "india": null,
               "turkey": 17600
             },
             "storePrices": {
@@ -9225,5 +9225,5 @@
       "title": "ARC Raiders"
     }
   },
-  "updated": "2026-09-25T22:07:25Z"
+  "updated": "27.09.2026"
 }
