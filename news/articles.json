@@ -77,24 +77,6 @@
     "source": "https://gameinformer.com/feature/2026/09/29/grand-theft-auto-vi-welcome-to-leonida",
     "sourceName": "Game Informer · Welcome to Leonida",
     "product": "gta-vi",
-    "extraSources": [
-      {
-        "url": "https://gameinformer.com/exclusive/2026/09/29/exclusive-grand-theft-auto-vi-features-tropical-storms-and-hurricanes",
-        "name": "Game Informer · тропические штормы и ураганы"
-      },
-      {
-        "url": "https://gameinformer.com/exclusive/2026/09/29/exclusive-grand-theft-auto-vi-includes-over-170-animal-species",
-        "name": "Game Informer · более 170 видов животных"
-      },
-      {
-        "url": "https://gameinformer.com/cover-reveal/2026/09/25/cover-reveal-grand-theft-auto-vi",
-        "name": "Game Informer · 12 эксклюзивных скриншотов"
-      },
-      {
-        "url": "https://rozetked.me/news/48601-novye-skrinshoty-i-podrobnosti-gta-vi",
-        "name": "Rozetked · размер карты и интерьеры"
-      }
-    ],
     "sections": [
       {
         "heading": "Леонида становится ближе",
@@ -104,10 +86,6 @@
         "callout": {
           "title": "Главное из нового материала",
           "text": "Тропические штормы и ураганы · более 170 видов животных · выслеживание редких существ. О размере карты и интерьерах — ниже."
-        },
-        "source": {
-          "url": "https://gameinformer.com/cover-reveal/2026/09/25/cover-reveal-grand-theft-auto-vi",
-          "name": "Game Informer · анонс эксклюзива"
         }
       },
       {
@@ -126,11 +104,7 @@
             "alt": "GTA VI — кадр из материала Game Informer о погоде",
             "caption": "Эксклюзивный скриншот из публикации о погоде · Rockstar Games / Game Informer"
           }
-        ],
-        "source": {
-          "url": "https://gameinformer.com/exclusive/2026/09/29/exclusive-grand-theft-auto-vi-features-tropical-storms-and-hurricanes",
-          "name": "Game Informer · погода"
-        }
+        ]
       },
       {
         "heading": "Более 170 видов животных — и их можно выслеживать",
@@ -148,57 +122,40 @@
             "alt": "GTA VI — кадр из материала Game Informer о животных",
             "caption": "Эксклюзивный скриншот из публикации о фауне · Rockstar Games / Game Informer"
           }
-        ],
-        "source": {
-          "url": "https://gameinformer.com/exclusive/2026/09/29/exclusive-grand-theft-auto-vi-includes-over-170-animal-species",
-          "name": "Game Informer · животные"
-        }
+        ]
       },
       {
         "heading": "Масштаб карты: важна точная формулировка",
         "paragraphs": [
-          "По пересказу Rozetked, игровая карта примерно вдвое больше Лос-Сантоса из GTA V. Речь именно о таком сравнении: из него нельзя автоматически сделать вывод о площади всей карты GTA V, включая округ Блейн.",
-          "Тот же пересказ описывает шесть заметно отличающихся районов, ещё не показанный центральный регион и сюжетные задания, которые будут отправлять героев в разные места. Полное интервью Game Informer доступно по подписке; эти сведения приводим с атрибуцией Rozetked."
-        ],
-        "source": {
-          "url": "https://rozetked.me/news/48601-novye-skrinshoty-i-podrobnosti-gta-vi",
-          "name": "Rozetked · пересказ интервью"
-        }
+          "В опубликованном пересказе интервью игровую карту сравнивают с Лос-Сантосом из GTA V: она примерно вдвое больше. Это сравнение с городом, а не подтверждённый расчёт площади всей карты GTA V, включая округ Блейн.",
+          "В том же пересказе говорится о шести разных районах, ещё не показанном центральном регионе и сюжетных заданиях, которые отправляют героев в новые места. Полный текст интервью доступен по подписке; эти детали не удалось отдельно сверить с оригиналом."
+        ]
       },
       {
         "heading": "Мир, который хочется рассматривать",
         "paragraphs": [
-          "По Rozetked, Rockstar уделяет внимание крышам, переулкам и интерьерам. Аарон Гарбат описывает Леониду как связный, тщательно проработанный мир."
+          "В пересказе интервью также подчёркивается внимание Rockstar к крышам, переулкам и интерьерам. Аарон Гарбат описывает Леониду как связный, тщательно проработанный мир."
         ],
         "quote": {
           "text": "Этот мир представляет собой единое целое.",
-          "by": "Аарон Гарбат · цитата из интервью Game Informer в переводе Rozetked"
+          "by": "Аарон Гарбат · цитата из пересказа интервью Game Informer"
         },
-        "paragraphsExtra": [],
         "images": [
           {
             "src": "https://gameinformer.com/sites/default/files/styles/body_default/public/2026/09/24/fd541e46/382_gtavi_giexclusive09.jpg.webp",
             "alt": "Персонажи GTA VI — эксклюзивный скриншот Game Informer",
             "caption": "В открытой части интервью отмечено разнообразие телосложения и внешности NPC · Rockstar Games / Game Informer"
           }
-        ],
-        "source": {
-          "url": "https://rozetked.me/news/48601-novye-skrinshoty-i-podrobnosti-gta-vi",
-          "name": "Rozetked · детали окружения"
-        }
+        ]
       },
       {
         "heading": "Когда можно будет отправиться в Леониду",
         "paragraphs": [
           "Выход GTA VI запланирован на 19 ноября 2026 года для PS5 и Xbox Series X|S. В BRAZKA можно сравнить издания для PlayStation и выбрать вариант для своего аккаунта."
-        ],
-        "source": {
-          "url": "https://gameinformer.com/exclusive/2026/09/29/exclusive-grand-theft-auto-vi-features-tropical-storms-and-hurricanes",
-          "name": "Game Informer · дата и платформы"
-        }
+        ]
       }
     ],
-    "modified": "2026-10-01T17:22:50+10:00",
+    "modified": "2026-10-01T17:29:55+10:00",
     "readingMinutes": 3
   },
   {
