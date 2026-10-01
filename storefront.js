@@ -1,4 +1,8 @@
 'use strict';
+if (!document.querySelector('.site-nav')) {
+  document.querySelector('.store-header')?.insertAdjacentHTML('afterend', '<nav class="site-nav shell" aria-label="Разделы сайта"><a href="/#catalog">Каталог</a><a href="/#plus">PS Plus</a><a href="/news/">Новости</a></nav>');
+}
+
 // Yandex.Metrika — BRAZKA
 (function(m,e,t,r,i,k,a){
   m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -241,7 +245,7 @@ if(typeof document!=='undefined'){
     const next=games.flatMap(g=>g.editions.flatMap(e=>REGIONS.map(r=>Date.parse(e.discounts?.[r]?.endsAt)))).filter(t=>t>Date.now()).sort((a,b)=>a-b)[0];
     if(next)scheduleExpiryRefresh.timer=setTimeout(()=>{renderGrid();renderFeature();if(selectedGame)renderEdition();scheduleExpiryRefresh();},Math.min(next-Date.now()+1000,2147483647));
   }
-  async function load(){try{const r=await fetch('/games.json',{cache:'no-store'});if(!r.ok)throw new Error('catalog');catalogData=await r.json();games=normalizeCatalog(catalogData);if(!games.length)throw new Error('empty');renderGrid();renderFeature();renderPlan();scheduleExpiryRefresh();$('updatedDate').textContent=`Цены обновлены ${catalogData.updated}`;selectRoute({scroll:false});renderCart();hydrateSharedCart();}catch{ $('gameGrid').innerHTML=`<div class="loading">Каталог сейчас не загрузился. <button class="button secondary" id="retryCatalog">Попробовать ещё раз</button> <a class="button primary" href="${CONTACT_URL}" target="_blank" rel="noopener">Узнать цену в Telegram ↗</a></div>`;$('retryCatalog').addEventListener('click',load);}}
+  async function load(){try{const r=await fetch('/games.json',{cache:'no-store'});if(!r.ok)throw new Error('catalog');catalogData=await r.json();games=normalizeCatalog(catalogData);if(!games.length)throw new Error('empty');renderGrid();renderFeature();renderPlan();scheduleExpiryRefresh();$('updatedDate').textContent=`Цены обновлены ${catalogData.updated}`;selectRoute({scroll:false});renderCart();hydrateSharedCart();if(new URLSearchParams(location.search).get("openCart")==="1")openCart($("cartButton"));}catch{ $('gameGrid').innerHTML=`<div class="loading">Каталог сейчас не загрузился. <button class="button secondary" id="retryCatalog">Попробовать ещё раз</button> <a class="button primary" href="${CONTACT_URL}" target="_blank" rel="noopener">Узнать цену в Telegram ↗</a></div>`;$('retryCatalog').addEventListener('click',load);}}
   initCart();
   load();
 }
@@ -602,3 +606,6 @@ if(typeof document!=='undefined'){
   document.getElementById('orderPlusMonths').addEventListener('change', renderPlusAddon);
   document.getElementById('orderLeadForm').addEventListener('submit', submitOrder);
 })();
+
+// Measure entry to editorial content without intercepting navigation.
+document.addEventListener("click", event => { const link = event.target.closest("a[href^='/news/']"); if(link && typeof window.ym === "function") window.ym(112697107,"reachGoal","news_article_click",{destination:link.getAttribute("href")}); });

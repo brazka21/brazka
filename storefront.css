@@ -49,3 +49,6 @@
 @media(max-width:1200px){.plan-choice{padding:8px}.plan-choice-copy strong{font-size:15px}}
 @media(max-width:900px){.plan-choice{min-height:0}}
 @media(max-width:620px){.plan-buttons{gap:6px}.plan-choice{gap:6px;min-height:0;padding:5px;border-radius:7px}.plan-choice-cover{border-radius:4px}.plan-choice .plan-choice-copy{margin-top:0;padding:0 2px 3px;text-align:center}.plan-choice-copy strong{font-size:12px}.plan-choice-copy small{display:none}}
+
+/* Shared navigation for editorial and catalog pages. */
+.site-nav{display:flex;gap:28px;align-items:center;padding-block:15px;border-bottom:1px solid var(--line);font-size:14px;font-weight:700}.site-nav a{color:var(--muted);padding:4px 0}.site-nav a:hover,.site-nav a[aria-current]{color:var(--text)}.site-nav a[aria-current]{box-shadow:0 3px var(--purple)}@media(max-width:620px){.site-nav{gap:24px;font-size:13px;padding-block:12px}}

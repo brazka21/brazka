@@ -113,3 +113,7 @@ for g in games.values():
 for mode,(slug,title,desc) in collections.items():page('/collections/'+slug+'/',title,desc,subset=[g for g in games.values() if g.get('multiplayer',{}).get(mode)])
 (R/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'  <url><loc>https://brazka.shop{p}</loc></url>\n' for p in paths)+'</urlset>\n')
 print(f'Built {len(games)} game pages, 3 collections, {len(paths)} sitemap URLs')
+
+# Refresh editorial product prices and preserve the news sitemap after catalog builds.
+import runpy
+runpy.run_path(str(R/"scripts/build-news.py"))
