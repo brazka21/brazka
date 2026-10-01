@@ -45,23 +45,46 @@
           "pricingBasis": {
             "turkey": {
               "cards": [
-                2500,
-                1000
+                500,
+                1000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/5250604",
-                "https://plati.market/itm/5254478"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                4539.0,
-                1814.0
+                904.0,
+                1813.0,
+                3629.0
               ],
-              "cost": 6353.0,
+              "cost": 6346.0,
               "wallet": 3500,
               "maxDeliveredCodes": 3,
               "price": 7600,
-              "verifiedAt": "2026-10-01T07:45:57Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
+            },
+            "india": {
+              "cards": [
+                2000,
+                3000
+              ],
+              "cardUrls": [
+                "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191",
+                "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
+              ],
+              "cardCosts": [
+                2388.0,
+                3753.0
+              ],
+              "cost": 6141.0,
+              "wallet": 5000,
+              "maxDeliveredCodes": 2,
+              "price": 7400,
+              "verifiedAt": "2026-10-01T22:21:25Z",
+              "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             }
           }
         },
@@ -113,20 +136,49 @@
           "pricingBasis": {
             "turkey": {
               "cards": [
-                4000
+                1000,
+                1000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/5297646"
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                7259.0
+                1813.0,
+                1813.0,
+                3629.0
               ],
-              "cost": 7259.0,
+              "cost": 7255.0,
               "wallet": 4000,
               "maxDeliveredCodes": 3,
               "price": 8500,
-              "verifiedAt": "2026-10-01T07:45:57Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
+            },
+            "india": {
+              "cards": [
+                2000,
+                2000,
+                2000
+              ],
+              "cardUrls": [
+                "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191",
+                "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191",
+                "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
+              ],
+              "cardCosts": [
+                2388.0,
+                2388.0,
+                2388.0
+              ],
+              "cost": 7164.0,
+              "wallet": 6000,
+              "maxDeliveredCodes": 3,
+              "price": 8400,
+              "verifiedAt": "2026-10-01T22:21:25Z",
+              "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             }
           }
         },
@@ -167,38 +219,38 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                2388
+                2388.0,
+                2388.0,
+                2388.0
               ],
-              "cost": 7164,
+              "cost": 7164.0,
               "wallet": 6000,
               "maxDeliveredCodes": 3,
               "price": 8400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                750,
-                3000
+                1000,
+                1000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
-                "https://plati.market/itm/24-7-auto-playstation-3000-try-gift-card/5297640"
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                1359,
-                5449
+                1813.0,
+                1813.0,
+                3629.0
               ],
-              "cost": 7257,
+              "cost": 7255.0,
               "wallet": 4000,
               "maxDeliveredCodes": 3,
               "price": 8500,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -257,38 +309,38 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-4000-inr/5231236"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                4972
+                2388.0,
+                2388.0,
+                4972.0
               ],
-              "cost": 9748,
+              "cost": 9748.0,
               "wallet": 8000,
               "maxDeliveredCodes": 3,
               "price": 11000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                750,
+                500,
+                500,
                 4000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
                 "https://plati.market/itm/24-7-auto-playstation-4000-try-gift-card/5297646"
               ],
               "cardCosts": [
-                449,
-                1359,
-                7259
+                904.0,
+                904.0,
+                7259.0
               ],
-              "cost": 9067,
+              "cost": 9067.0,
               "wallet": 5000,
               "maxDeliveredCodes": 3,
               "price": 10300,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -349,38 +401,38 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                2388
+                2388.0,
+                2388.0,
+                2388.0
               ],
-              "cost": 7164,
+              "cost": 7164.0,
               "wallet": 6000,
               "maxDeliveredCodes": 3,
               "price": 8400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                750,
-                3000
+                1000,
+                1000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
-                "https://plati.market/itm/24-7-auto-playstation-3000-try-gift-card/5297640"
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                1359,
-                5449
+                1813.0,
+                1813.0,
+                3629.0
               ],
-              "cost": 7257,
+              "cost": 7255.0,
               "wallet": 4000,
               "maxDeliveredCodes": 3,
               "price": 8500,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -431,48 +483,56 @@
           "pricingBasis": {
             "india": {
               "cards": [
+                5000,
                 2000,
-                2000,
-                5000
+                2000
               ],
               "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269",
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191",
-                "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191",
-                "https://plati.market/itm/e-gift-cards-playstation-store-india-5000-inr/5231264"
+                "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                6327
+                6309.0,
+                2388.0,
+                2388.0
               ],
-              "cost": 11103,
+              "cost": 11085.0,
               "wallet": 9000,
               "maxDeliveredCodes": 3,
-              "price": 12400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
-              "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
+              "price": 12300,
+              "verifiedAt": "2026-10-01T22:21:25Z",
+              "cardSuppliers": [
+                "CNLJayCee",
+                "India Play",
+                "India Play"
+              ],
+              "supplierUrls": [
+                "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+                "https://plati.market/seller/india-play/1370411/?id_r=23800"
+              ]
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                5000
+                500,
+                1000,
+                4000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-5000-try-gift-card/5297652"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-4000-try-gift-card/5297646"
               ],
               "cardCosts": [
-                449,
-                449,
-                9078
+                904.0,
+                1813.0,
+                7259.0
               ],
-              "cost": 9976,
+              "cost": 9976.0,
               "wallet": 5500,
               "maxDeliveredCodes": 3,
               "price": 11200,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -541,38 +601,38 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                2388
+                2388.0,
+                2388.0,
+                2388.0
               ],
-              "cost": 7164,
+              "cost": 7164.0,
               "wallet": 6000,
               "maxDeliveredCodes": 3,
               "price": 8400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                4000
+                500,
+                2000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-4000-try-gift-card/5297646"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                449,
-                7259
+                904.0,
+                3629.0,
+                3629.0
               ],
-              "cost": 8157,
+              "cost": 8162.0,
               "wallet": 4500,
               "maxDeliveredCodes": 3,
               "price": 9400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -628,37 +688,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                2388,
-                3753
+                2388.0,
+                3753.0
               ],
-              "cost": 6141,
+              "cost": 6141.0,
               "wallet": 5000,
               "maxDeliveredCodes": 2,
               "price": 7400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                3000
+                500,
+                1000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-3000-try-gift-card/5297640"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                449,
-                5449
+                904.0,
+                1813.0,
+                3629.0
               ],
-              "cost": 6347,
+              "cost": 6346.0,
               "wallet": 3500,
               "maxDeliveredCodes": 3,
               "price": 7600,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -718,38 +778,38 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                2388
+                2388.0,
+                2388.0,
+                2388.0
               ],
-              "cost": 7164,
+              "cost": 7164.0,
               "wallet": 6000,
               "maxDeliveredCodes": 3,
               "price": 8400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                750,
-                3000
+                1000,
+                1000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
-                "https://plati.market/itm/24-7-auto-playstation-3000-try-gift-card/5297640"
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                1359,
-                5449
+                1813.0,
+                1813.0,
+                3629.0
               ],
-              "cost": 7257,
+              "cost": 7255.0,
               "wallet": 4000,
               "maxDeliveredCodes": 3,
               "price": 8500,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -801,37 +861,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                2388,
-                3753
+                2388.0,
+                3753.0
               ],
-              "cost": 6141,
+              "cost": 6141.0,
               "wallet": 5000,
               "maxDeliveredCodes": 2,
               "price": 7400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                750,
-                3000
+                1000,
+                1000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
-                "https://plati.market/itm/24-7-auto-playstation-3000-try-gift-card/5297640"
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                1359,
-                5449
+                1813.0,
+                1813.0,
+                3629.0
               ],
-              "cost": 7257,
+              "cost": 7255.0,
               "wallet": 4000,
               "maxDeliveredCodes": 3,
               "price": 8500,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -899,38 +959,38 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                2388
+                2388.0,
+                2388.0,
+                2388.0
               ],
-              "cost": 7164,
+              "cost": 7164.0,
               "wallet": 6000,
               "maxDeliveredCodes": 3,
               "price": 8400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                500,
-                3000
+                750,
+                1000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
-                "https://plati.market/itm/24-7-auto-playstation-3000-try-gift-card/5297640"
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                904,
-                5449
+                1359.0,
+                1813.0,
+                3629.0
               ],
-              "cost": 6802,
+              "cost": 6801.0,
               "wallet": 3750,
               "maxDeliveredCodes": 3,
               "price": 8100,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -1063,38 +1123,38 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                2388
+                2388.0,
+                2388.0,
+                2388.0
               ],
-              "cost": 7164,
+              "cost": 7164.0,
               "wallet": 6000,
               "maxDeliveredCodes": 3,
               "price": 8400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
                 500,
-                2500
+                750,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
                 "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
-                "https://plati.market/itm/24-7-auto-playstation-2500-try-gift-card/5250604"
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                904,
-                4539
+                904.0,
+                1359.0,
+                3629.0
               ],
-              "cost": 5892,
+              "cost": 5892.0,
               "wallet": 3250,
               "maxDeliveredCodes": 3,
               "price": 7100,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -1145,48 +1205,56 @@
           "pricingBasis": {
             "india": {
               "cards": [
+                5000,
                 2000,
-                2000,
-                5000
+                2000
               ],
               "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269",
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191",
-                "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191",
-                "https://plati.market/itm/e-gift-cards-playstation-store-india-5000-inr/5231264"
+                "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                6327
+                6309.0,
+                2388.0,
+                2388.0
               ],
-              "cost": 11103,
+              "cost": 11085.0,
               "wallet": 9000,
               "maxDeliveredCodes": 3,
-              "price": 12400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
-              "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
+              "price": 12300,
+              "verifiedAt": "2026-10-01T22:21:25Z",
+              "cardSuppliers": [
+                "CNLJayCee",
+                "India Play",
+                "India Play"
+              ],
+              "supplierUrls": [
+                "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+                "https://plati.market/seller/india-play/1370411/?id_r=23800"
+              ]
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                4000
+                500,
+                2000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-4000-try-gift-card/5297646"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                449,
-                7259
+                904.0,
+                3629.0,
+                3629.0
               ],
-              "cost": 8157,
+              "cost": 8162.0,
               "wallet": 4500,
               "maxDeliveredCodes": 3,
               "price": 9400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -1244,38 +1312,38 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-4000-inr/5231236"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                4972
+                2388.0,
+                2388.0,
+                4972.0
               ],
-              "cost": 9748,
+              "cost": 9748.0,
               "wallet": 8000,
               "maxDeliveredCodes": 3,
               "price": 11000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                3000
+                500,
+                1000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-3000-try-gift-card/5297640"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                449,
-                5449
+                904.0,
+                1813.0,
+                3629.0
               ],
-              "cost": 6347,
+              "cost": 6346.0,
               "wallet": 3500,
               "maxDeliveredCodes": 3,
               "price": 7600,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -1327,37 +1395,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388
+                2388.0,
+                2388.0
               ],
-              "cost": 4776,
+              "cost": 4776.0,
               "wallet": 4000,
               "maxDeliveredCodes": 2,
               "price": 6000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
                 500,
-                1000
+                500,
+                750
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
                 "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543"
               ],
               "cardCosts": [
-                449,
-                904,
-                1814
+                904.0,
+                904.0,
+                1359.0
               ],
-              "cost": 3167,
+              "cost": 3167.0,
               "wallet": 1750,
               "maxDeliveredCodes": 3,
               "price": 4400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -1416,15 +1484,15 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                3753
+                2388.0,
+                2388.0,
+                3753.0
               ],
-              "cost": 8529,
+              "cost": 8529.0,
               "wallet": 7000,
               "maxDeliveredCodes": 3,
               "price": 9800,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
@@ -1439,15 +1507,15 @@
                 "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                904,
-                3629
+                452.0,
+                904.0,
+                3629.0
               ],
-              "cost": 4982,
+              "cost": 4985.0,
               "wallet": 2750,
               "maxDeliveredCodes": 3,
               "price": 6200,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -1502,37 +1570,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                2388,
-                3753
+                2388.0,
+                3753.0
               ],
-              "cost": 6141,
+              "cost": 6141.0,
               "wallet": 5000,
               "maxDeliveredCodes": 2,
               "price": 7400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                3000
+                500,
+                1000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-3000-try-gift-card/5297640"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                449,
-                5449
+                904.0,
+                1813.0,
+                3629.0
               ],
-              "cost": 6347,
+              "cost": 6346.0,
               "wallet": 3500,
               "maxDeliveredCodes": 3,
               "price": 7600,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -1585,37 +1653,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                2388,
-                3753
+                2388.0,
+                3753.0
               ],
-              "cost": 6141,
+              "cost": 6141.0,
               "wallet": 5000,
               "maxDeliveredCodes": 2,
               "price": 7400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                3000
+                500,
+                1000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-3000-try-gift-card/5297640"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                449,
-                5449
+                904.0,
+                1813.0,
+                3629.0
               ],
-              "cost": 6347,
+              "cost": 6346.0,
               "wallet": 3500,
               "maxDeliveredCodes": 3,
               "price": 7600,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -1669,37 +1737,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                2388,
-                3753
+                2388.0,
+                3753.0
               ],
-              "cost": 6141,
+              "cost": 6141.0,
               "wallet": 5000,
               "maxDeliveredCodes": 2,
               "price": 7400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                750,
-                3000
+                1000,
+                1000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
-                "https://plati.market/itm/24-7-auto-playstation-3000-try-gift-card/5297640"
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                1359,
-                5449
+                1813.0,
+                1813.0,
+                3629.0
               ],
-              "cost": 7257,
+              "cost": 7255.0,
               "wallet": 4000,
               "maxDeliveredCodes": 3,
               "price": 8500,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -1755,38 +1823,38 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                2388
+                2388.0,
+                2388.0,
+                2388.0
               ],
-              "cost": 7164,
+              "cost": 7164.0,
               "wallet": 6000,
               "maxDeliveredCodes": 3,
               "price": 8400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                4000
+                500,
+                2000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-4000-try-gift-card/5297646"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                449,
-                7259
+                904.0,
+                3629.0,
+                3629.0
               ],
-              "cost": 8157,
+              "cost": 8162.0,
               "wallet": 4500,
               "maxDeliveredCodes": 3,
               "price": 9400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -1838,37 +1906,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388
+                2388.0,
+                2388.0
               ],
-              "cost": 4776,
+              "cost": 4776.0,
               "wallet": 4000,
               "maxDeliveredCodes": 2,
               "price": 6000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                2500
+                500,
+                500,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-2500-try-gift-card/5250604"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                449,
-                4539
+                904.0,
+                904.0,
+                3629.0
               ],
-              "cost": 5437,
+              "cost": 5437.0,
               "wallet": 3000,
               "maxDeliveredCodes": 3,
               "price": 6700,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -1923,37 +1991,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                2388,
-                3753
+                2388.0,
+                3753.0
               ],
-              "cost": 6141,
+              "cost": 6141.0,
               "wallet": 5000,
               "maxDeliveredCodes": 2,
               "price": 7400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                3000
+                500,
+                1000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-3000-try-gift-card/5297640"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                449,
-                5449
+                904.0,
+                1813.0,
+                3629.0
               ],
-              "cost": 6347,
+              "cost": 6346.0,
               "wallet": 3500,
               "maxDeliveredCodes": 3,
               "price": 7600,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -2005,14 +2073,14 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388
+                2388.0,
+                2388.0
               ],
-              "cost": 4776,
+              "cost": 4776.0,
               "wallet": 4000,
               "maxDeliveredCodes": 2,
               "price": 6000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
@@ -2027,15 +2095,15 @@
                 "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                904,
-                3629
+                452.0,
+                904.0,
+                3629.0
               ],
-              "cost": 4982,
+              "cost": 4985.0,
               "wallet": 2750,
               "maxDeliveredCodes": 3,
               "price": 6200,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -2093,37 +2161,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388
+                2388.0,
+                2388.0
               ],
-              "cost": 4776,
+              "cost": 4776.0,
               "wallet": 4000,
               "maxDeliveredCodes": 2,
               "price": 6000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                2500
+                500,
+                500,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-2500-try-gift-card/5250604"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                449,
-                4539
+                904.0,
+                904.0,
+                3629.0
               ],
-              "cost": 5437,
+              "cost": 5437.0,
               "wallet": 3000,
               "maxDeliveredCodes": 3,
               "price": 6700,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -2170,39 +2238,39 @@
                 3000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                3748
+                3753.0
               ],
-              "cost": 3748,
+              "cost": 3753.0,
               "wallet": 3000,
               "maxDeliveredCodes": 1,
               "price": 5000,
-              "verifiedAt": "2026-09-29T22:07:51Z",
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
+              "verifiedAt": "2026-10-01T22:21:25Z",
+              "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
                 500,
-                1500
+                750,
+                1000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
                 "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
-                "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139"
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
               ],
               "cardCosts": [
-                449,
-                904,
-                2724
+                904.0,
+                1359.0,
+                1813.0
               ],
-              "cost": 4077,
+              "cost": 4076.0,
               "wallet": 2250,
               "maxDeliveredCodes": 3,
               "price": 5300,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -2256,14 +2324,14 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388
+                2388.0,
+                2388.0
               ],
-              "cost": 4776,
+              "cost": 4776.0,
               "wallet": 4000,
               "maxDeliveredCodes": 2,
               "price": 6000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
@@ -2278,15 +2346,15 @@
                 "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                904,
-                3629
+                452.0,
+                904.0,
+                3629.0
               ],
-              "cost": 4982,
+              "cost": 4985.0,
               "wallet": 2750,
               "maxDeliveredCodes": 3,
               "price": 6200,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -2338,37 +2406,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                2388,
-                3753
+                2388.0,
+                3753.0
               ],
-              "cost": 6141,
+              "cost": 6141.0,
               "wallet": 5000,
               "maxDeliveredCodes": 2,
               "price": 7400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                2000
+                500,
+                1000,
+                1000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
               ],
               "cardCosts": [
-                449,
-                449,
-                3629
+                904.0,
+                1813.0,
+                1813.0
               ],
-              "cost": 4527,
+              "cost": 4530.0,
               "wallet": 2500,
               "maxDeliveredCodes": 3,
               "price": 5800,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -2426,38 +2494,38 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                2388
+                2388.0,
+                2388.0,
+                2388.0
               ],
-              "cost": 7164,
+              "cost": 7164.0,
               "wallet": 6000,
               "maxDeliveredCodes": 3,
               "price": 8400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                2500
+                500,
+                500,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-2500-try-gift-card/5250604"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                449,
-                4539
+                904.0,
+                904.0,
+                3629.0
               ],
-              "cost": 5437,
+              "cost": 5437.0,
               "wallet": 3000,
               "maxDeliveredCodes": 3,
               "price": 6700,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -2520,37 +2588,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388
+                2388.0,
+                2388.0
               ],
-              "cost": 4776,
+              "cost": 4776.0,
               "wallet": 4000,
               "maxDeliveredCodes": 2,
               "price": 6000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                2000
+                500,
+                1000,
+                1000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
               ],
               "cardCosts": [
-                449,
-                449,
-                3629
+                904.0,
+                1813.0,
+                1813.0
               ],
-              "cost": 4527,
+              "cost": 4530.0,
               "wallet": 2500,
               "maxDeliveredCodes": 3,
               "price": 5800,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -2618,14 +2686,14 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                2388,
-                3753
+                2388.0,
+                3753.0
               ],
-              "cost": 6141,
+              "cost": 6141.0,
               "wallet": 5000,
               "maxDeliveredCodes": 2,
               "price": 7400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
@@ -2640,15 +2708,15 @@
                 "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                904,
-                3629
+                452.0,
+                904.0,
+                3629.0
               ],
-              "cost": 4982,
+              "cost": 4985.0,
               "wallet": 2750,
               "maxDeliveredCodes": 3,
               "price": 6200,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -2703,37 +2771,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388
+                2388.0,
+                2388.0
               ],
-              "cost": 4776,
+              "cost": 4776.0,
               "wallet": 4000,
               "maxDeliveredCodes": 2,
               "price": 6000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                2500
+                500,
+                500,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-2500-try-gift-card/5250604"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                449,
-                4539
+                904.0,
+                904.0,
+                3629.0
               ],
-              "cost": 5437,
+              "cost": 5437.0,
               "wallet": 3000,
               "maxDeliveredCodes": 3,
               "price": 6700,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -2791,38 +2859,38 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                2388
+                2388.0,
+                2388.0,
+                2388.0
               ],
-              "cost": 7164,
+              "cost": 7164.0,
               "wallet": 6000,
               "maxDeliveredCodes": 3,
               "price": 8400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                750,
-                3000
+                1000,
+                1000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
-                "https://plati.market/itm/24-7-auto-playstation-3000-try-gift-card/5297640"
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                1359,
-                5449
+                1813.0,
+                1813.0,
+                3629.0
               ],
-              "cost": 7257,
+              "cost": 7255.0,
               "wallet": 4000,
               "maxDeliveredCodes": 3,
               "price": 8500,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -2874,37 +2942,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                2388,
-                3753
+                2388.0,
+                3753.0
               ],
-              "cost": 6141,
+              "cost": 6141.0,
               "wallet": 5000,
               "maxDeliveredCodes": 2,
               "price": 7400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                3000
+                500,
+                1000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-3000-try-gift-card/5297640"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                449,
-                5449
+                904.0,
+                1813.0,
+                3629.0
               ],
-              "cost": 6347,
+              "cost": 6346.0,
               "wallet": 3500,
               "maxDeliveredCodes": 3,
               "price": 7600,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -2959,38 +3027,38 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                3753
+                2388.0,
+                2388.0,
+                3753.0
               ],
-              "cost": 8529,
+              "cost": 8529.0,
               "wallet": 7000,
               "maxDeliveredCodes": 3,
               "price": 9800,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                3000
+                500,
+                1000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-3000-try-gift-card/5297640"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                449,
-                5449
+                904.0,
+                1813.0,
+                3629.0
               ],
-              "cost": 6347,
+              "cost": 6346.0,
               "wallet": 3500,
               "maxDeliveredCodes": 3,
               "price": 7600,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -3046,37 +3114,34 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                2388,
-                3753
+                2388.0,
+                3753.0
               ],
-              "cost": 6141,
+              "cost": 6141.0,
               "wallet": 5000,
               "maxDeliveredCodes": 2,
               "price": 7400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
                 250,
-                250,
-                250
+                500
               ],
               "cardUrls": [
                 "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
               ],
               "cardCosts": [
-                449,
-                449,
-                449
+                452.0,
+                904.0
               ],
-              "cost": 1347,
+              "cost": 1356.0,
               "wallet": 750,
-              "maxDeliveredCodes": 3,
+              "maxDeliveredCodes": 2,
               "price": 2600,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -3137,38 +3202,38 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                3753
+                2388.0,
+                2388.0,
+                3753.0
               ],
-              "cost": 8529,
+              "cost": 8529.0,
               "wallet": 7000,
               "maxDeliveredCodes": 3,
               "price": 9800,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                3000
+                500,
+                1000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-3000-try-gift-card/5297640"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                449,
-                5449
+                904.0,
+                1813.0,
+                3629.0
               ],
-              "cost": 6347,
+              "cost": 6346.0,
               "wallet": 3500,
               "maxDeliveredCodes": 3,
               "price": 7600,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -3241,22 +3306,19 @@
             },
             "turkey": {
               "cards": [
-                250,
-                250
+                500
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
               ],
               "cardCosts": [
-                449,
-                449
+                904.0
               ],
-              "cost": 898,
+              "cost": 904.0,
               "wallet": 500,
-              "maxDeliveredCodes": 2,
-              "price": 2100,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "maxDeliveredCodes": 1,
+              "price": 2200,
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -3340,13 +3402,13 @@
                 "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
               ],
               "cardCosts": [
-                449
+                452.0
               ],
-              "cost": 449,
+              "cost": 452.0,
               "wallet": 250,
               "maxDeliveredCodes": 1,
               "price": 1700,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -3400,39 +3462,39 @@
                 3000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                3748
+                3753.0
               ],
-              "cost": 3748,
+              "cost": 3753.0,
               "wallet": 3000,
               "maxDeliveredCodes": 1,
               "price": 5000,
-              "verifiedAt": "2026-09-29T22:07:51Z",
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
+              "verifiedAt": "2026-10-01T22:21:25Z",
+              "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                1000
+                500,
+                500,
+                500
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
               ],
               "cardCosts": [
-                449,
-                449,
-                1814
+                904.0,
+                904.0,
+                904.0
               ],
-              "cost": 2712,
+              "cost": 2712.0,
               "wallet": 1500,
               "maxDeliveredCodes": 3,
               "price": 4000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -3490,37 +3552,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388
+                2388.0,
+                2388.0
               ],
-              "cost": 4776,
+              "cost": 4776.0,
               "wallet": 4000,
               "maxDeliveredCodes": 2,
               "price": 6000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
                 500,
-                1500
+                750,
+                1000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
                 "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
-                "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139"
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
               ],
               "cardCosts": [
-                449,
-                904,
-                2724
+                904.0,
+                1359.0,
+                1813.0
               ],
-              "cost": 4077,
+              "cost": 4076.0,
               "wallet": 2250,
               "maxDeliveredCodes": 3,
               "price": 5300,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -3583,36 +3645,33 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388
+                2388.0
               ],
-              "cost": 2388,
+              "cost": 2388.0,
               "wallet": 2000,
               "maxDeliveredCodes": 1,
               "price": 3600,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
+                500,
                 500
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
                 "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
               ],
               "cardCosts": [
-                449,
-                449,
-                904
+                904.0,
+                904.0
               ],
-              "cost": 1802,
+              "cost": 1808.0,
               "wallet": 1000,
-              "maxDeliveredCodes": 3,
+              "maxDeliveredCodes": 2,
               "price": 3100,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -3696,13 +3755,13 @@
                 "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
               ],
               "cardCosts": [
-                449
+                452.0
               ],
-              "cost": 449,
+              "cost": 452.0,
               "wallet": 250,
               "maxDeliveredCodes": 1,
               "price": 1700,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -3811,38 +3870,38 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                2388
+                2388.0,
+                2388.0,
+                2388.0
               ],
-              "cost": 7164,
+              "cost": 7164.0,
               "wallet": 6000,
               "maxDeliveredCodes": 3,
               "price": 8400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                750,
-                3000
+                1000,
+                1000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
-                "https://plati.market/itm/24-7-auto-playstation-3000-try-gift-card/5297640"
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                1359,
-                5449
+                1813.0,
+                1813.0,
+                3629.0
               ],
-              "cost": 7257,
+              "cost": 7255.0,
               "wallet": 4000,
               "maxDeliveredCodes": 3,
               "price": 8500,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -3902,37 +3961,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388
+                2388.0,
+                2388.0
               ],
-              "cost": 4776,
+              "cost": 4776.0,
               "wallet": 4000,
               "maxDeliveredCodes": 2,
               "price": 6000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
                 500,
-                1000
+                500,
+                750
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
                 "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543"
               ],
               "cardCosts": [
-                449,
-                904,
-                1814
+                904.0,
+                904.0,
+                1359.0
               ],
-              "cost": 3167,
+              "cost": 3167.0,
               "wallet": 1750,
               "maxDeliveredCodes": 3,
               "price": 4400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -3987,39 +4046,39 @@
                 3000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                3748
+                3753.0
               ],
-              "cost": 3748,
+              "cost": 3753.0,
               "wallet": 3000,
               "maxDeliveredCodes": 1,
               "price": 5000,
-              "verifiedAt": "2026-09-29T22:07:51Z",
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
+              "verifiedAt": "2026-10-01T22:21:25Z",
+              "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
                 500,
-                1000
+                500,
+                750
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
                 "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543"
               ],
               "cardCosts": [
-                449,
-                904,
-                1814
+                904.0,
+                904.0,
+                1359.0
               ],
-              "cost": 3167,
+              "cost": 3167.0,
               "wallet": 1750,
               "maxDeliveredCodes": 3,
               "price": 4400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -4077,37 +4136,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                2388,
-                3753
+                2388.0,
+                3753.0
               ],
-              "cost": 6141,
+              "cost": 6141.0,
               "wallet": 5000,
               "maxDeliveredCodes": 2,
               "price": 7400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
                 500,
-                1500
+                750,
+                1000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
                 "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
-                "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139"
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
               ],
               "cardCosts": [
-                449,
-                904,
-                2724
+                904.0,
+                1359.0,
+                1813.0
               ],
-              "cost": 4077,
+              "cost": 4076.0,
               "wallet": 2250,
               "maxDeliveredCodes": 3,
               "price": 5300,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -4168,38 +4227,38 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                2388
+                2388.0,
+                2388.0,
+                2388.0
               ],
-              "cost": 7164,
+              "cost": 7164.0,
               "wallet": 6000,
               "maxDeliveredCodes": 3,
               "price": 8400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                2500
+                500,
+                500,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-2500-try-gift-card/5250604"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                449,
-                4539
+                904.0,
+                904.0,
+                3629.0
               ],
-              "cost": 5437,
+              "cost": 5437.0,
               "wallet": 3000,
               "maxDeliveredCodes": 3,
               "price": 6700,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -4262,38 +4321,38 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-4000-inr/5231236"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                4972
+                2388.0,
+                2388.0,
+                4972.0
               ],
-              "cost": 9748,
+              "cost": 9748.0,
               "wallet": 8000,
               "maxDeliveredCodes": 3,
               "price": 11000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                750,
-                3000
+                1000,
+                1000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
-                "https://plati.market/itm/24-7-auto-playstation-3000-try-gift-card/5297640"
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                1359,
-                5449
+                1813.0,
+                1813.0,
+                3629.0
               ],
-              "cost": 7257,
+              "cost": 7255.0,
               "wallet": 4000,
               "maxDeliveredCodes": 3,
               "price": 8500,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -4344,39 +4403,39 @@
                 3000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                3748
+                3753.0
               ],
-              "cost": 3748,
+              "cost": 3753.0,
               "wallet": 3000,
               "maxDeliveredCodes": 1,
               "price": 5000,
-              "verifiedAt": "2026-09-29T22:07:51Z",
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
+              "verifiedAt": "2026-10-01T22:21:25Z",
+              "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
                 500,
-                1000
+                500,
+                750
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
                 "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543"
               ],
               "cardCosts": [
-                449,
-                904,
-                1814
+                904.0,
+                904.0,
+                1359.0
               ],
-              "cost": 3167,
+              "cost": 3167.0,
               "wallet": 1750,
               "maxDeliveredCodes": 3,
               "price": 4400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -4436,14 +4495,14 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388
+                2388.0,
+                2388.0
               ],
-              "cost": 4776,
+              "cost": 4776.0,
               "wallet": 4000,
               "maxDeliveredCodes": 2,
               "price": 6000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
@@ -4458,15 +4517,15 @@
                 "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                904,
-                3629
+                452.0,
+                904.0,
+                3629.0
               ],
-              "cost": 4982,
+              "cost": 4985.0,
               "wallet": 2750,
               "maxDeliveredCodes": 3,
               "price": 6200,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -4525,38 +4584,38 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                2388
+                2388.0,
+                2388.0,
+                2388.0
               ],
-              "cost": 7164,
+              "cost": 7164.0,
               "wallet": 6000,
               "maxDeliveredCodes": 3,
               "price": 8400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                750,
-                3000
+                1000,
+                1000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
-                "https://plati.market/itm/24-7-auto-playstation-3000-try-gift-card/5297640"
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                1359,
-                5449
+                1813.0,
+                1813.0,
+                3629.0
               ],
-              "cost": 7257,
+              "cost": 7255.0,
               "wallet": 4000,
               "maxDeliveredCodes": 3,
               "price": 8500,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -4609,48 +4668,56 @@
           "pricingBasis": {
             "india": {
               "cards": [
+                5000,
                 2000,
-                2000,
-                5000
+                2000
               ],
               "cardUrls": [
+                "https://plati.market/itm/24-7-auto-playstation-5000-inr-gift-card/5533269",
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191",
-                "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191",
-                "https://plati.market/itm/e-gift-cards-playstation-store-india-5000-inr/5231264"
+                "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                6327
+                6309.0,
+                2388.0,
+                2388.0
               ],
-              "cost": 11103,
+              "cost": 11085.0,
               "wallet": 9000,
               "maxDeliveredCodes": 3,
-              "price": 12400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
-              "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
+              "price": 12300,
+              "verifiedAt": "2026-10-01T22:21:25Z",
+              "cardSuppliers": [
+                "CNLJayCee",
+                "India Play",
+                "India Play"
+              ],
+              "supplierUrls": [
+                "https://plati.market/seller/cnljaycee/1091690/?id_r=23800",
+                "https://plati.market/seller/india-play/1370411/?id_r=23800"
+              ]
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                5000
+                500,
+                1000,
+                4000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-5000-try-gift-card/5297652"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-4000-try-gift-card/5297646"
               ],
               "cardCosts": [
-                449,
-                449,
-                9078
+                904.0,
+                1813.0,
+                7259.0
               ],
-              "cost": 9976,
+              "cost": 9976.0,
               "wallet": 5500,
               "maxDeliveredCodes": 3,
               "price": 11200,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -4702,39 +4769,39 @@
                 3000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                3748
+                3753.0
               ],
-              "cost": 3748,
+              "cost": 3753.0,
               "wallet": 3000,
               "maxDeliveredCodes": 1,
               "price": 5000,
-              "verifiedAt": "2026-09-29T22:07:51Z",
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
+              "verifiedAt": "2026-10-01T22:21:25Z",
+              "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
                 500,
-                1500
+                750,
+                1000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
                 "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
-                "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139"
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
               ],
               "cardCosts": [
-                449,
-                904,
-                2724
+                904.0,
+                1359.0,
+                1813.0
               ],
-              "cost": 4077,
+              "cost": 4076.0,
               "wallet": 2250,
               "maxDeliveredCodes": 3,
               "price": 5300,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -4793,14 +4860,14 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388
+                2388.0,
+                2388.0
               ],
-              "cost": 4776,
+              "cost": 4776.0,
               "wallet": 4000,
               "maxDeliveredCodes": 2,
               "price": 6000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
@@ -4815,15 +4882,15 @@
                 "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                904,
-                3629
+                452.0,
+                904.0,
+                3629.0
               ],
-              "cost": 4982,
+              "cost": 4985.0,
               "wallet": 2750,
               "maxDeliveredCodes": 3,
               "price": 6200,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -4880,14 +4947,14 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388
+                2388.0,
+                2388.0
               ],
-              "cost": 4776,
+              "cost": 4776.0,
               "wallet": 4000,
               "maxDeliveredCodes": 2,
               "price": 6000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
@@ -4902,15 +4969,15 @@
                 "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                904,
-                3629
+                452.0,
+                904.0,
+                3629.0
               ],
-              "cost": 4982,
+              "cost": 4985.0,
               "wallet": 2750,
               "maxDeliveredCodes": 3,
               "price": 6200,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -4970,37 +5037,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388
+                2388.0,
+                2388.0
               ],
-              "cost": 4776,
+              "cost": 4776.0,
               "wallet": 4000,
               "maxDeliveredCodes": 2,
               "price": 6000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                2500
+                500,
+                500,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-2500-try-gift-card/5250604"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                449,
-                4539
+                904.0,
+                904.0,
+                3629.0
               ],
-              "cost": 5437,
+              "cost": 5437.0,
               "wallet": 3000,
               "maxDeliveredCodes": 3,
               "price": 6700,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -5059,38 +5126,38 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                2388
+                2388.0,
+                2388.0,
+                2388.0
               ],
-              "cost": 7164,
+              "cost": 7164.0,
               "wallet": 6000,
               "maxDeliveredCodes": 3,
               "price": 8400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                2500
+                500,
+                500,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-2500-try-gift-card/5250604"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                449,
-                4539
+                904.0,
+                904.0,
+                3629.0
               ],
-              "cost": 5437,
+              "cost": 5437.0,
               "wallet": 3000,
               "maxDeliveredCodes": 3,
               "price": 6700,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -5153,38 +5220,38 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-4000-inr/5231236"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                4972
+                2388.0,
+                2388.0,
+                4972.0
               ],
-              "cost": 9748,
+              "cost": 9748.0,
               "wallet": 8000,
               "maxDeliveredCodes": 3,
               "price": 11000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                4000
+                500,
+                2000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-4000-try-gift-card/5297646"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                449,
-                7259
+                904.0,
+                3629.0,
+                3629.0
               ],
-              "cost": 8157,
+              "cost": 8162.0,
               "wallet": 4500,
               "maxDeliveredCodes": 3,
               "price": 9400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -5242,37 +5309,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                2388,
-                3753
+                2388.0,
+                3753.0
               ],
-              "cost": 6141,
+              "cost": 6141.0,
               "wallet": 5000,
               "maxDeliveredCodes": 2,
               "price": 7400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                3000
+                500,
+                1000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-3000-try-gift-card/5297640"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                449,
-                5449
+                904.0,
+                1813.0,
+                3629.0
               ],
-              "cost": 6347,
+              "cost": 6346.0,
               "wallet": 3500,
               "maxDeliveredCodes": 3,
               "price": 7600,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -5335,38 +5402,38 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                3753
+                2388.0,
+                2388.0,
+                3753.0
               ],
-              "cost": 8529,
+              "cost": 8529.0,
               "wallet": 7000,
               "maxDeliveredCodes": 3,
               "price": 9800,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                4000
+                500,
+                2000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-4000-try-gift-card/5297646"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                449,
-                7259
+                904.0,
+                3629.0,
+                3629.0
               ],
-              "cost": 8157,
+              "cost": 8162.0,
               "wallet": 4500,
               "maxDeliveredCodes": 3,
               "price": 9400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -5417,39 +5484,39 @@
                 3000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                3748
+                3753.0
               ],
-              "cost": 3748,
+              "cost": 3753.0,
               "wallet": 3000,
               "maxDeliveredCodes": 1,
               "price": 5000,
-              "verifiedAt": "2026-09-29T22:07:51Z",
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
+              "verifiedAt": "2026-10-01T22:21:25Z",
+              "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
                 500,
-                1500
+                750,
+                1000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
                 "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
-                "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139"
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
               ],
               "cardCosts": [
-                449,
-                904,
-                2724
+                904.0,
+                1359.0,
+                1813.0
               ],
-              "cost": 4077,
+              "cost": 4076.0,
               "wallet": 2250,
               "maxDeliveredCodes": 3,
               "price": 5300,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -5510,37 +5577,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388
+                2388.0,
+                2388.0
               ],
-              "cost": 4776,
+              "cost": 4776.0,
               "wallet": 4000,
               "maxDeliveredCodes": 2,
               "price": 6000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
                 500,
-                2500
+                750,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
                 "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
-                "https://plati.market/itm/24-7-auto-playstation-2500-try-gift-card/5250604"
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                904,
-                4539
+                904.0,
+                1359.0,
+                3629.0
               ],
-              "cost": 5892,
+              "cost": 5892.0,
               "wallet": 3250,
               "maxDeliveredCodes": 3,
               "price": 7100,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -5598,37 +5665,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                2388,
-                3753
+                2388.0,
+                3753.0
               ],
-              "cost": 6141,
+              "cost": 6141.0,
               "wallet": 5000,
               "maxDeliveredCodes": 2,
               "price": 7400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                750,
-                3000
+                1000,
+                1000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
-                "https://plati.market/itm/24-7-auto-playstation-3000-try-gift-card/5297640"
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                1359,
-                5449
+                1813.0,
+                1813.0,
+                3629.0
               ],
-              "cost": 7257,
+              "cost": 7255.0,
               "wallet": 4000,
               "maxDeliveredCodes": 3,
               "price": 8500,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -5682,37 +5749,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                2388,
-                3753
+                2388.0,
+                3753.0
               ],
-              "cost": 6141,
+              "cost": 6141.0,
               "wallet": 5000,
               "maxDeliveredCodes": 2,
               "price": 7400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
                 500,
-                1500
+                750,
+                1000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
                 "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
-                "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139"
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
               ],
               "cardCosts": [
-                449,
-                904,
-                2724
+                904.0,
+                1359.0,
+                1813.0
               ],
-              "cost": 4077,
+              "cost": 4076.0,
               "wallet": 2250,
               "maxDeliveredCodes": 3,
               "price": 5300,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -5767,38 +5834,38 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                2388
+                2388.0,
+                2388.0,
+                2388.0
               ],
-              "cost": 7164,
+              "cost": 7164.0,
               "wallet": 6000,
               "maxDeliveredCodes": 3,
               "price": 8400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
                 500,
-                1500
+                750,
+                1000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
                 "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
-                "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139"
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
               ],
               "cardCosts": [
-                449,
-                904,
-                2724
+                904.0,
+                1359.0,
+                1813.0
               ],
-              "cost": 4077,
+              "cost": 4076.0,
               "wallet": 2250,
               "maxDeliveredCodes": 3,
               "price": 5300,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -5850,37 +5917,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388
+                2388.0,
+                2388.0
               ],
-              "cost": 4776,
+              "cost": 4776.0,
               "wallet": 4000,
               "maxDeliveredCodes": 2,
               "price": 6000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                2500
+                500,
+                500,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-2500-try-gift-card/5250604"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                449,
-                4539
+                904.0,
+                904.0,
+                3629.0
               ],
-              "cost": 5437,
+              "cost": 5437.0,
               "wallet": 3000,
               "maxDeliveredCodes": 3,
               "price": 6700,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -5933,37 +6000,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                2388,
-                3753
+                2388.0,
+                3753.0
               ],
-              "cost": 6141,
+              "cost": 6141.0,
               "wallet": 5000,
               "maxDeliveredCodes": 2,
               "price": 7400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                2500
+                500,
+                500,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-2500-try-gift-card/5250604"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                449,
-                4539
+                904.0,
+                904.0,
+                3629.0
               ],
-              "cost": 5437,
+              "cost": 5437.0,
               "wallet": 3000,
               "maxDeliveredCodes": 3,
               "price": 6700,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -6021,38 +6088,38 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                2388
+                2388.0,
+                2388.0,
+                2388.0
               ],
-              "cost": 7164,
+              "cost": 7164.0,
               "wallet": 6000,
               "maxDeliveredCodes": 3,
               "price": 8400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                3000
+                500,
+                1000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-3000-try-gift-card/5297640"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                449,
-                5449
+                904.0,
+                1813.0,
+                3629.0
               ],
-              "cost": 6347,
+              "cost": 6346.0,
               "wallet": 3500,
               "maxDeliveredCodes": 3,
               "price": 7600,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -6109,38 +6176,38 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                2388
+                2388.0,
+                2388.0,
+                2388.0
               ],
-              "cost": 7164,
+              "cost": 7164.0,
               "wallet": 6000,
               "maxDeliveredCodes": 3,
               "price": 8400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                750,
-                3000
+                1000,
+                1000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
-                "https://plati.market/itm/24-7-auto-playstation-3000-try-gift-card/5297640"
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                1359,
-                5449
+                1813.0,
+                1813.0,
+                3629.0
               ],
-              "cost": 7257,
+              "cost": 7255.0,
               "wallet": 4000,
               "maxDeliveredCodes": 3,
               "price": 8500,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -6192,37 +6259,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                2388,
-                3753
+                2388.0,
+                3753.0
               ],
-              "cost": 6141,
+              "cost": 6141.0,
               "wallet": 5000,
               "maxDeliveredCodes": 2,
               "price": 7400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                2000
+                500,
+                1000,
+                1000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
               ],
               "cardCosts": [
-                449,
-                449,
-                3629
+                904.0,
+                1813.0,
+                1813.0
               ],
-              "cost": 4527,
+              "cost": 4530.0,
               "wallet": 2500,
               "maxDeliveredCodes": 3,
               "price": 5800,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -6280,15 +6347,15 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-4000-inr/5231236"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                4972
+                2388.0,
+                2388.0,
+                4972.0
               ],
-              "cost": 9748,
+              "cost": 9748.0,
               "wallet": 8000,
               "maxDeliveredCodes": 3,
               "price": 11000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
@@ -6303,15 +6370,15 @@
                 "https://plati.market/itm/24-7-auto-playstation-4000-try-gift-card/5297646"
               ],
               "cardCosts": [
-                449,
-                904,
-                7259
+                452.0,
+                904.0,
+                7259.0
               ],
-              "cost": 8612,
+              "cost": 8615.0,
               "wallet": 4750,
               "maxDeliveredCodes": 3,
               "price": 9900,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -6363,34 +6430,31 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388
+                2388.0,
+                2388.0
               ],
-              "cost": 4776,
+              "cost": 4776.0,
               "wallet": 4000,
               "maxDeliveredCodes": 2,
               "price": 6000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250
+                500
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
               ],
               "cardCosts": [
-                449,
-                449
+                904.0
               ],
-              "cost": 898,
+              "cost": 904.0,
               "wallet": 500,
-              "maxDeliveredCodes": 2,
-              "price": 2100,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "maxDeliveredCodes": 1,
+              "price": 2200,
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -6451,38 +6515,38 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                2388
+                2388.0,
+                2388.0,
+                2388.0
               ],
-              "cost": 7164,
+              "cost": 7164.0,
               "wallet": 6000,
               "maxDeliveredCodes": 3,
               "price": 8400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                2500
+                500,
+                500,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-2500-try-gift-card/5250604"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                449,
-                4539
+                904.0,
+                904.0,
+                3629.0
               ],
-              "cost": 5437,
+              "cost": 5437.0,
               "wallet": 3000,
               "maxDeliveredCodes": 3,
               "price": 6700,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -6538,37 +6602,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                2388,
-                3753
+                2388.0,
+                3753.0
               ],
-              "cost": 6141,
+              "cost": 6141.0,
               "wallet": 5000,
               "maxDeliveredCodes": 2,
               "price": 7400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                3000
+                500,
+                1000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-3000-try-gift-card/5297640"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                449,
-                5449
+                904.0,
+                1813.0,
+                3629.0
               ],
-              "cost": 6347,
+              "cost": 6346.0,
               "wallet": 3500,
               "maxDeliveredCodes": 3,
               "price": 7600,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -6627,37 +6691,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388
+                2388.0,
+                2388.0
               ],
-              "cost": 4776,
+              "cost": 4776.0,
               "wallet": 4000,
               "maxDeliveredCodes": 2,
               "price": 6000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                2000
+                500,
+                1000,
+                1000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
               ],
               "cardCosts": [
-                449,
-                449,
-                3629
+                904.0,
+                1813.0,
+                1813.0
               ],
-              "cost": 4527,
+              "cost": 4530.0,
               "wallet": 2500,
               "maxDeliveredCodes": 3,
               "price": 5800,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -6709,37 +6773,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388
+                2388.0,
+                2388.0
               ],
-              "cost": 4776,
+              "cost": 4776.0,
               "wallet": 4000,
               "maxDeliveredCodes": 2,
               "price": 6000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
                 500,
-                1500
+                750,
+                1000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
                 "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
-                "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139"
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
               ],
               "cardCosts": [
-                449,
-                904,
-                2724
+                904.0,
+                1359.0,
+                1813.0
               ],
-              "cost": 4077,
+              "cost": 4076.0,
               "wallet": 2250,
               "maxDeliveredCodes": 3,
               "price": 5300,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -6797,38 +6861,38 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                2388,
-                2388,
-                3753
+                2388.0,
+                2388.0,
+                3753.0
               ],
-              "cost": 8529,
+              "cost": 8529.0,
               "wallet": 7000,
               "maxDeliveredCodes": 3,
               "price": 9800,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                3000
+                500,
+                1000,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-3000-try-gift-card/5297640"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                449,
-                5449
+                904.0,
+                1813.0,
+                3629.0
               ],
-              "cost": 6347,
+              "cost": 6346.0,
               "wallet": 3500,
               "maxDeliveredCodes": 3,
               "price": 7600,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -6888,37 +6952,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                2388,
-                3753
+                2388.0,
+                3753.0
               ],
-              "cost": 6141,
+              "cost": 6141.0,
               "wallet": 5000,
               "maxDeliveredCodes": 2,
               "price": 7400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                1000
+                500,
+                500,
+                500
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
               ],
               "cardCosts": [
-                449,
-                449,
-                1814
+                904.0,
+                904.0,
+                904.0
               ],
-              "cost": 2712,
+              "cost": 2712.0,
               "wallet": 1500,
               "maxDeliveredCodes": 3,
               "price": 4000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -6969,36 +7033,33 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388
+                2388.0
               ],
-              "cost": 2388,
+              "cost": 2388.0,
               "wallet": 2000,
               "maxDeliveredCodes": 1,
               "price": 3600,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
                 250,
-                250,
-                250
+                500
               ],
               "cardUrls": [
                 "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
               ],
               "cardCosts": [
-                449,
-                449,
-                449
+                452.0,
+                904.0
               ],
-              "cost": 1347,
+              "cost": 1356.0,
               "wallet": 750,
-              "maxDeliveredCodes": 3,
+              "maxDeliveredCodes": 2,
               "price": 2600,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -7052,37 +7113,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388
+                2388.0,
+                2388.0
               ],
-              "cost": 4776,
+              "cost": 4776.0,
               "wallet": 4000,
               "maxDeliveredCodes": 2,
               "price": 6000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                1500
+                500,
+                500,
+                1000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
               ],
               "cardCosts": [
-                449,
-                449,
-                2724
+                904.0,
+                904.0,
+                1813.0
               ],
-              "cost": 3622,
+              "cost": 3621.0,
               "wallet": 2000,
               "maxDeliveredCodes": 3,
               "price": 4900,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -7125,39 +7186,39 @@
                 3000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                3748
+                3753.0
               ],
-              "cost": 3748,
+              "cost": 3753.0,
               "wallet": 3000,
               "maxDeliveredCodes": 1,
               "price": 5000,
-              "verifiedAt": "2026-09-29T22:07:51Z",
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
+              "verifiedAt": "2026-10-01T22:21:25Z",
+              "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                1000
+                500,
+                500,
+                500
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
               ],
               "cardCosts": [
-                449,
-                449,
-                1814
+                904.0,
+                904.0,
+                904.0
               ],
-              "cost": 2712,
+              "cost": 2712.0,
               "wallet": 1500,
               "maxDeliveredCodes": 3,
               "price": 4000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -7203,36 +7264,36 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388
+                2388.0
               ],
-              "cost": 2388,
+              "cost": 2388.0,
               "wallet": 2000,
               "maxDeliveredCodes": 1,
               "price": 3600,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
                 250,
-                250,
-                750
+                500,
+                500
               ],
               "cardUrls": [
                 "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
               ],
               "cardCosts": [
-                449,
-                449,
-                1359
+                452.0,
+                904.0,
+                904.0
               ],
-              "cost": 2257,
+              "cost": 2260.0,
               "wallet": 1250,
               "maxDeliveredCodes": 3,
               "price": 3500,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -7280,37 +7341,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388
+                2388.0,
+                2388.0
               ],
-              "cost": 4776,
+              "cost": 4776.0,
               "wallet": 4000,
               "maxDeliveredCodes": 2,
               "price": 6000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
                 500,
-                2500
+                750,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
                 "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
-                "https://plati.market/itm/24-7-auto-playstation-2500-try-gift-card/5250604"
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                904,
-                4539
+                904.0,
+                1359.0,
+                3629.0
               ],
-              "cost": 5892,
+              "cost": 5892.0,
               "wallet": 3250,
               "maxDeliveredCodes": 3,
               "price": 7100,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -7372,36 +7433,36 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388
+                2388.0
               ],
-              "cost": 2388,
+              "cost": 2388.0,
               "wallet": 2000,
               "maxDeliveredCodes": 1,
               "price": 3600,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
                 250,
-                250,
-                750
+                500,
+                500
               ],
               "cardUrls": [
                 "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
               ],
               "cardCosts": [
-                449,
-                449,
-                1359
+                452.0,
+                904.0,
+                904.0
               ],
-              "cost": 2257,
+              "cost": 2260.0,
               "wallet": 1250,
               "maxDeliveredCodes": 3,
               "price": 3500,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -7444,39 +7505,39 @@
                 3000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                3748
+                3753.0
               ],
-              "cost": 3748,
+              "cost": 3753.0,
               "wallet": 3000,
               "maxDeliveredCodes": 1,
               "price": 5000,
-              "verifiedAt": "2026-09-29T22:07:51Z",
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
+              "verifiedAt": "2026-10-01T22:21:25Z",
+              "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                1000
+                500,
+                500,
+                500
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
               ],
               "cardCosts": [
-                449,
-                449,
-                1814
+                904.0,
+                904.0,
+                904.0
               ],
-              "cost": 2712,
+              "cost": 2712.0,
               "wallet": 1500,
               "maxDeliveredCodes": 3,
               "price": 4000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -7522,13 +7583,13 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388
+                2388.0
               ],
-              "cost": 2388,
+              "cost": 2388.0,
               "wallet": 2000,
               "maxDeliveredCodes": 1,
               "price": 3600,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
@@ -7539,13 +7600,13 @@
                 "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
               ],
               "cardCosts": [
-                449
+                452.0
               ],
-              "cost": 449,
+              "cost": 452.0,
               "wallet": 250,
               "maxDeliveredCodes": 1,
               "price": 1700,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -7593,37 +7654,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                2388,
-                3753
+                2388.0,
+                3753.0
               ],
-              "cost": 6141,
+              "cost": 6141.0,
               "wallet": 5000,
               "maxDeliveredCodes": 2,
               "price": 7400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
                 500,
-                1500
+                750,
+                1000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
                 "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
-                "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139"
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
               ],
               "cardCosts": [
-                449,
-                904,
-                2724
+                904.0,
+                1359.0,
+                1813.0
               ],
-              "cost": 4077,
+              "cost": 4076.0,
               "wallet": 2250,
               "maxDeliveredCodes": 3,
               "price": 5300,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -7672,14 +7733,14 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388
+                2388.0,
+                2388.0
               ],
-              "cost": 4776,
+              "cost": 4776.0,
               "wallet": 4000,
               "maxDeliveredCodes": 2,
               "price": 6000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
@@ -7694,15 +7755,15 @@
                 "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                904,
-                3629
+                452.0,
+                904.0,
+                3629.0
               ],
-              "cost": 4982,
+              "cost": 4985.0,
               "wallet": 2750,
               "maxDeliveredCodes": 3,
               "price": 6200,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -7753,37 +7814,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388
+                2388.0,
+                2388.0
               ],
-              "cost": 4776,
+              "cost": 4776.0,
               "wallet": 4000,
               "maxDeliveredCodes": 2,
               "price": 6000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                2500
+                500,
+                500,
+                2000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-2500-try-gift-card/5250604"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-2000-try-gift-card/5250601"
               ],
               "cardCosts": [
-                449,
-                449,
-                4539
+                904.0,
+                904.0,
+                3629.0
               ],
-              "cost": 5437,
+              "cost": 5437.0,
               "wallet": 3000,
               "maxDeliveredCodes": 3,
               "price": 6700,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -7836,39 +7897,39 @@
                 3000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                3748
+                3753.0
               ],
-              "cost": 3748,
+              "cost": 3753.0,
               "wallet": 3000,
               "maxDeliveredCodes": 1,
               "price": 5000,
-              "verifiedAt": "2026-09-29T22:07:51Z",
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
+              "verifiedAt": "2026-10-01T22:21:25Z",
+              "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
                 250,
-                250,
-                750
+                500,
+                500
               ],
               "cardUrls": [
                 "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
               ],
               "cardCosts": [
-                449,
-                449,
-                1359
+                452.0,
+                904.0,
+                904.0
               ],
-              "cost": 2257,
+              "cost": 2260.0,
               "wallet": 1250,
               "maxDeliveredCodes": 3,
               "price": 3500,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -7923,39 +7984,39 @@
                 3000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                3748
+                3753.0
               ],
-              "cost": 3748,
+              "cost": 3753.0,
               "wallet": 3000,
               "maxDeliveredCodes": 1,
               "price": 5000,
-              "verifiedAt": "2026-09-29T22:07:51Z",
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
+              "verifiedAt": "2026-10-01T22:21:25Z",
+              "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
-                250,
-                1000
+                500,
+                500,
+                500
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
               ],
               "cardCosts": [
-                449,
-                449,
-                1814
+                904.0,
+                904.0,
+                904.0
               ],
-              "cost": 2712,
+              "cost": 2712.0,
               "wallet": 1500,
               "maxDeliveredCodes": 3,
               "price": 4000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -8035,22 +8096,19 @@
             },
             "turkey": {
               "cards": [
-                250,
-                250
+                500
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439"
               ],
               "cardCosts": [
-                449,
-                449
+                904.0
               ],
-              "cost": 898,
+              "cost": 904.0,
               "wallet": 500,
-              "maxDeliveredCodes": 2,
-              "price": 2100,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "maxDeliveredCodes": 1,
+              "price": 2200,
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -8112,37 +8170,37 @@
                 "https://plati.market/itm/e-gift-cards-playstation-store-india-2000-inr/5231191"
               ],
               "cardCosts": [
-                2388,
-                2388
+                2388.0,
+                2388.0
               ],
-              "cost": 4776,
+              "cost": 4776.0,
               "wallet": 4000,
               "maxDeliveredCodes": 2,
               "price": 6000,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
                 500,
-                1500
+                750,
+                1000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
                 "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
-                "https://plati.market/itm/24-7-auto-playstation-1500-try-gift-card/5304139"
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543",
+                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
               ],
               "cardCosts": [
-                449,
-                904,
-                2724
+                904.0,
+                1359.0,
+                1813.0
               ],
-              "cost": 4077,
+              "cost": 4076.0,
               "wallet": 2250,
               "maxDeliveredCodes": 3,
               "price": 5300,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
@@ -8196,39 +8254,39 @@
                 3000
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-3000-inr-gift-card/5265547"
+                "https://plati.market/itm/e-gift-cards-playstation-store-india-3000-inr/5231207"
               ],
               "cardCosts": [
-                3748
+                3753.0
               ],
-              "cost": 3748,
+              "cost": 3753.0,
               "wallet": 3000,
               "maxDeliveredCodes": 1,
               "price": 5000,
-              "verifiedAt": "2026-09-29T22:07:51Z",
-              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
+              "verifiedAt": "2026-10-01T22:21:25Z",
+              "supplierUrl": "https://plati.market/seller/india-play/1370411/?id_r=23800"
             },
             "turkey": {
               "cards": [
-                250,
                 500,
-                1000
+                500,
+                750
               ],
               "cardUrls": [
-                "https://plati.market/itm/24-7-auto-playstation-250-try-gift-card/5261862",
                 "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
-                "https://plati.market/itm/24-7-auto-playstation-1000-try-gift-card/5254478"
+                "https://plati.market/itm/24-7-auto-playstation-500-try-gift-card/5250439",
+                "https://plati.market/itm/24-7-auto-playstation-750-try-gift-card/5250543"
               ],
               "cardCosts": [
-                449,
-                904,
-                1814
+                904.0,
+                904.0,
+                1359.0
               ],
-              "cost": 3167,
+              "cost": 3167.0,
               "wallet": 1750,
               "maxDeliveredCodes": 3,
               "price": 4400,
-              "verifiedAt": "2026-09-30T22:23:19Z",
+              "verifiedAt": "2026-10-01T22:21:25Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
           },
