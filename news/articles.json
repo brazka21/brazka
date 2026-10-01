@@ -1,5 +1,62 @@
 [
   {
+    "slug": "control-resonant-gravity-manhattan-dualsense",
+    "title": "Control Resonant: бои на потолке и Манхэттен, который отвечает на каждый удар",
+    "category": "Игры",
+    "published": "2026-10-01T19:05:18+10:00",
+    "sourceDate": "29 сентября 2026",
+    "description": "Remedy раскрыла детали Control Resonant: смена гравитации превращает стены в поле боя, ударные волны разрушают городское окружение, а DualSense передаёт усилие способностей Дилана.",
+    "image": "https://blog.playstation.com/tachyon/2028/09/f17f57630200a7c14c2a49cf3044c4ab36a758fa-scaled.png?resize=1088%2C612&crop_strategy=smart",
+    "imageAlt": "Control Resonant — официальная иллюстрация Remedy Entertainment / PlayStation Blog",
+    "source": "https://blog.playstation.com/2026/09/29/how-control-resonants-art-design-and-tech-shaped-its-bosses-paranaturally-twisted-manhattan-and-more/",
+    "sourceName": "PlayStation Blog · интервью Remedy Entertainment",
+    "product": "control-resonant",
+    "sections": [
+      {
+        "heading": "Стены и потолки становятся дорогой",
+        "paragraphs": [
+          "В миссии Sinkhole Дилан сражается внутри многоквартирного здания с искажённой гравитацией. Бои проходят на полу, стенах и потолке: любая поверхность, которая выглядит пригодной для ходьбы, должна быть доступна герою."
+        ],
+        "callout": {
+          "title": "Гравитация меняет маршрут",
+          "text": "Смена гравитации определяет и перемещение, и расположение боевых столкновений."
+        },
+        "images": [
+          {
+            "src": "https://gmedia.playstation.com/is/image/SIEPDC/control-resonant-screenshot-04-ps5-en-17dec25?$1600px$",
+            "alt": "Искажённые железнодорожные пути в Control Resonant",
+            "caption": "Официальный скриншот из галереи игры · Remedy Entertainment / PlayStation"
+          }
+        ]
+      },
+      {
+        "heading": "Город реагирует на удар",
+        "paragraphs": [
+          "Удар по земле или ударная волна поднимают листья с улицы, вскрывают пожарные гидранты и разбрасывают мусор. Центральная зона The Central сохраняет привычный облик Нью-Йорка, усиливая контраст с аномальными районами."
+        ],
+        "images": [
+          {
+            "src": "https://gmedia.playstation.com/is/image/SIEPDC/control-resonant-screenshot-01-ps5-en-17dec25?$1600px$",
+            "alt": "Дилан атакует огромного противника среди городских обломков",
+            "caption": "Официальный скриншот из галереи игры · Remedy Entertainment / PlayStation"
+          }
+        ]
+      },
+      {
+        "heading": "Боссы проверяют навыки",
+        "paragraphs": [
+          "Боссы Resonants построены вокруг отдельных тем — например, управления людьми по принципу грибницы или коллективного разума. Для Deserter создана специальная арена в преобразованной фабрике."
+        ]
+      },
+      {
+        "heading": "Силу способностей передают курки",
+        "paragraphs": [
+          "Радиопереговоры звучат через динамик DualSense. Адаптивные курки передают сопротивление и дополнительный щелчок при использовании способностей. Control Resonant уже доступна на PS5."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "god-of-war-laufey-editions-combat",
     "title": "God of War Laufey: Фэй выходит на первый план",
     "category": "Игры",
