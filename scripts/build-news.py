@@ -41,14 +41,14 @@ def product(a):
         g=data['titles'][a['product']];title=g['title'];image=g['image'];target='/games/'+a['product']+'/';cost=price(a['product']);button='Выбрать издание';meta=g.get('platform','PS5')+' · Турция'
     return f'<aside class="article-sidebar"><section class="news-product" data-product="{esc(a["product"])}"><p class="eyebrow">В КАТАЛОГЕ BRAZKA</p><img src="{esc(image)}" alt="{esc(title)}" width="400" height="400" loading="lazy"><h2>{esc(title)}</h2><p>{esc(meta)}</p><strong data-news-price>{esc(cost)}</strong><a class="button primary" href="{target}" data-news-product>{button} →</a><small>Наличие и цену подтвердим перед оплатой.</small></section><section class="news-related"><h2>Ещё по теме</h2>'+''.join(f'<a href="{url(b)}">{esc(b["title"])} →</a>' for b in [b for b in articles if b!=a][:3])+'</section></aside>'
 def write(path,title,desc,image,body,schema=None):
-    h=re.sub(r'/news.css\?v=\d+', '/news.css?v=2', head)
+    h=re.sub(r'/news.css\?v=\d+', '/news.css?v=3', head)
     h=re.sub(r'<title>.*?</title>', '<title>'+esc(title)+' | BRAZKA</title>',h)
     h=re.sub(r'(<meta name="description" content=")[^"]*',lambda m:m[1]+esc(desc,quote=True),h)
     h=re.sub(r'(<link rel="canonical" href=")[^"]*',lambda m:m[1]+'https://brazka.shop'+path,h)
     for key,value in [('title',title),('description',desc),('url','https://brazka.shop'+path),('image',image if image.startswith('https:') else 'https://brazka.shop'+image),('type','article' if schema else 'website')]:
         h=re.sub(r'(<meta property="og:'+key+r'" content=")[^"]*',lambda m:m[1]+esc(value,quote=True),h)
     h=re.sub(r'<meta (?:name|property)="(?:twitter:[^"]+|og:image:[^"]+)"[^>]*>','',h)
-    if '/news.css' not in h: h += '<link rel="stylesheet" href="/news.css?v=2">'
+    if '/news.css' not in h: h += '<link rel="stylesheet" href="/news.css?v=3">'
     if schema:h+='<script type="application/ld+json">'+json.dumps(schema,ensure_ascii=False).replace('</','<\\/')+'</script>'
     content=h+'</head><body><a class="skip-link" href="#news-content">Перейти к материалу</a>'+header+nav+'<main class="news-main shell" id="news-content">'+body+'</main><footer class="shell news-footer"><span>© BRAZKA, 2026</span><a href="https://t.me/brazkagames" target="_blank" rel="noopener">Наш Telegram ↗</a><p>БРАЗКА не является официальным партнёром Sony или PlayStation.</p></footer><script src="/news.js?v=2" defer></script></body></html>'
     dest=R/path.strip('/')/'index.html';dest.parent.mkdir(parents=True,exist_ok=True);dest.write_text(content+'\n')
@@ -61,18 +61,19 @@ for a in articles:
         if s.get('callout'): sections+='<div class="article-callout"><strong>'+esc(s['callout'].get('title','Главное'))+'</strong><p>'+esc(s['callout']['text'])+'</p></div>'
         if s.get('quote'): sections+='<blockquote class="article-quote"><p>«'+esc(s['quote']['text'])+'»</p><cite>'+esc(s['quote']['by'])+'</cite></blockquote>'
         if s.get('images'): sections+='<div class="article-gallery">'+''.join(figure(f) for f in s['images'])+'</div>'
+        if s.get('source'): sections+='<p class="section-source">Источник: <a href="'+esc(s['source']['url'],quote=True)+'" target="_blank" rel="noopener">'+esc(s['source']['name'])+' ↗</a></p>'
         sections+='</section>' 
     body='<a class="news-back" href="/news/">← Все новости</a><div class="article-layout"><article><p class="eyebrow">'+esc(a['category'])+'</p><h1>'+esc(a['title'])+'</h1><p class="article-meta">Редакция BRAZKA · <time datetime="'+a['published']+'">'+date_label(a)+'</time> · '+str(reading(a))+' мин чтения</p><img class="article-hero" src="'+esc(a['image'])+'" alt="'+esc(a['imageAlt'])+'" width="1088" height="612"><p class="article-lead">'+esc(a['description'])+'</p><div class="article-body">'+sections+'</div><p class="article-source">Источник: <a href="'+esc(a['source'])+'" target="_blank" rel="noopener">'+esc(a['sourceName'])+' ↗</a> · '+esc(a['sourceDate'])+'</p>'+''.join('<p class="article-source article-source-extra">Дополнительно: <a href="'+esc(x['url'],quote=True)+'" target="_blank" rel="noopener">'+esc(x['name'])+' ↗</a></p>' for x in a.get('extraSources',[]))+'</article>'+product(a)+'</div>'
-    schema={'@context':'https://schema.org','@type':'NewsArticle','headline':a['title'],'description':a['description'],'datePublished':a['published'],'dateModified':a['published'],'image':[a['image'] if a['image'].startswith('https:') else 'https://brazka.shop'+a['image']],'author':{'@type':'Organization','name':'Редакция BRAZKA','url':'https://brazka.shop/news/'},'publisher':{'@type':'Organization','name':'BRAZKA','url':'https://brazka.shop/'},'mainEntityOfPage':'https://brazka.shop'+url(a),'citation':a['source']}
+    schema={'@context':'https://schema.org','@type':'NewsArticle','headline':a['title'],'description':a['description'],'datePublished':a['published'],'dateModified':a.get('modified',a['published']),'image':[a['image'] if a['image'].startswith('https:') else 'https://brazka.shop'+a['image']],'author':{'@type':'Organization','name':'Редакция BRAZKA','url':'https://brazka.shop/news/'},'publisher':{'@type':'Organization','name':'BRAZKA','url':'https://brazka.shop/'},'mainEntityOfPage':'https://brazka.shop'+url(a),'citation':a['source']}
     write(url(a),a['title'],a['description'],a['image'],body,schema)
 # The static links and preview are present without JavaScript.
 nav_home=nav.replace(' aria-current="page"','')
 if 'class="site-nav' not in base:base=base.replace('  </header>','  </header>\n  '+nav_home,1)
-if '/news.css' not in base:base=base.replace('</head>','<link rel="stylesheet" href="/news.css?v=2"></head>')
+if '/news.css' not in base:base=base.replace('</head>','<link rel="stylesheet" href="/news.css?v=3"></head>')
 preview='<!-- NEWS PREVIEW START --><section class="news-preview shell" aria-labelledby="newsPreviewTitle"><div class="news-preview-heading"><div><p class="eyebrow">НОВОСТИ PLAYSTATION</p><h2 id="newsPreviewTitle">Что нового в мире игр</h2></div><a href="/news/">Все новости →</a></div><div class="news-preview-grid">'+''.join(card(a) for a in articles[:3])+'</div></section><!-- NEWS PREVIEW END -->'
 if '<!-- NEWS PREVIEW START -->' in base:base=re.sub(r'<!-- NEWS PREVIEW START -->.*?<!-- NEWS PREVIEW END -->',preview,base,flags=re.S)
 else:base=base.replace('      <section class="reviews-section',preview+'\n      <section class="reviews-section',1)
-base=re.sub(r'/news.css\?v=\d+', '/news.css?v=2',base)
+base=re.sub(r'/news.css\?v=\d+', '/news.css?v=3',base)
 (R/'index.html').write_text(base)
 sitemap=(R/'sitemap.xml').read_text();sitemap=re.sub(r'\s*<url><loc>https://brazka.shop/news/.*?</url>','',sitemap)
 sitemap=sitemap.replace('</urlset>',''.join('<url><loc>https://brazka.shop'+p+'</loc><lastmod>2026-10-01</lastmod></url>\n' for p in ['/news/']+[url(a) for a in articles])+'</urlset>')
