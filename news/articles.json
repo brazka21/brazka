@@ -10,7 +10,7 @@
     "imageAlt": "God of War Laufey — официальный арт",
     "source": "https://blog.playstation.com/2026/09/28/god-of-war-laufey-pre-orders-available-starting-september-29-editions-detailed/",
     "sourceName": "PlayStation Blog · Santa Monica Studio",
-    "product": "catalog",
+    "product": "god-of-war-laufey",
     "sections": [
       {
         "heading": "Когда встречаемся с Фэй",
@@ -63,7 +63,8 @@
           }
         ]
       }
-    ]
+    ],
+    "modified": "2026-10-01T17:44:49+10:00"
   },
   {
     "slug": "gta-vi-screenshots-leonida-details",

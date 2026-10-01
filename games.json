@@ -8,6 +8,134 @@
           "editionId": "standard",
           "editionOrder": 0,
           "features": [
+            "Полная игра God of War Laufey",
+            "Бонус предзаказа: комплект брони Last Wish",
+            "Бонус предзаказа: облик Golden Leaves для Phranque",
+            "Бонус предзаказа: набор внутриигровых ресурсов"
+          ],
+          "gameId": "god-of-war-laufey",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202609/1800/e1e187126032636435888915f17e26c3645661746a38362d.png",
+          "imageDimensions": {
+            "height": 1024,
+            "width": 1024
+          },
+          "imageRole": "MASTER",
+          "notice": "Предзаказ. Выход — 16 февраля 2027. Внутриигровые предметы открываются по мере прохождения сюжета.",
+          "platform": "PS5",
+          "prices": {
+            "india": null,
+            "turkey": 7600
+          },
+          "release": "16 февраля 2027",
+          "storePrices": {
+            "india": 4999,
+            "turkey": 3449
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP9000-PPSA19249_00-LAUFEY0000000000",
+            "turkey": "https://store.playstation.com/tr-tr/product/UP9000-PPSA19249_00-LAUFEY0000000000"
+          },
+          "summary": "Полная игра и бонусы предзаказа",
+          "title": "God of War Laufey — Standard Edition",
+          "verifiedAt": "2026-10-01",
+          "storePriceVerifiedAt": {
+            "india": "2026-10-01T07:45:57Z",
+            "turkey": "2026-10-01T07:45:57Z"
+          },
+          "pricingBasis": {
+            "turkey": {
+              "cards": [
+                2500,
+                1000
+              ],
+              "cardUrls": [
+                "https://plati.market/itm/5250604",
+                "https://plati.market/itm/5254478"
+              ],
+              "cardCosts": [
+                4539.0,
+                1814.0
+              ],
+              "cost": 6353.0,
+              "wallet": 3500,
+              "maxDeliveredCodes": 3,
+              "price": 7600,
+              "verifiedAt": "2026-10-01T07:45:57Z",
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
+            }
+          }
+        },
+        {
+          "discounts": {},
+          "edition": "Digital Deluxe Edition",
+          "editionId": "digital-deluxe",
+          "editionOrder": 1,
+          "features": [
+            "Полная игра God of War Laufey",
+            "Комплект брони Dark Alchemy",
+            "Клинок, Serpent Bow Scales и Catalyst из комплекта Dark Alchemy",
+            "Набор внутриигровых ресурсов",
+            "Цифровой мини-артбук",
+            "Официальный саундтрек",
+            "Бонус предзаказа: комплект брони Last Wish",
+            "Бонус предзаказа: облик Golden Leaves для Phranque",
+            "Бонус предзаказа: набор внутриигровых ресурсов"
+          ],
+          "gameId": "god-of-war-laufey",
+          "image": "https://image.api.playstation.com/vulcan/ap/rnd/202609/1800/5125c0852858cd35cebf53c083bd8bd429c49aa29e7809d1.png",
+          "imageDimensions": {
+            "height": 1024,
+            "width": 1024
+          },
+          "imageRole": "MASTER",
+          "notice": "Предзаказ. Выход — 16 февраля 2027. Внутриигровые предметы открываются по мере прохождения сюжета.",
+          "platform": "PS5",
+          "prices": {
+            "india": null,
+            "turkey": 8500
+          },
+          "release": "16 февраля 2027",
+          "storePrices": {
+            "india": 5599,
+            "turkey": 3849
+          },
+          "storeUrls": {
+            "india": "https://store.playstation.com/en-in/product/UP9000-PPSA19249_00-LAUFEYDDE0000000",
+            "turkey": "https://store.playstation.com/tr-tr/product/UP9000-PPSA19249_00-LAUFEYDDE0000000"
+          },
+          "summary": "Игра, комплект Dark Alchemy, артбук и саундтрек",
+          "title": "God of War Laufey — Digital Deluxe Edition",
+          "verifiedAt": "2026-10-01",
+          "storePriceVerifiedAt": {
+            "india": "2026-10-01T07:45:57Z",
+            "turkey": "2026-10-01T07:45:57Z"
+          },
+          "pricingBasis": {
+            "turkey": {
+              "cards": [
+                4000
+              ],
+              "cardUrls": [
+                "https://plati.market/itm/5297646"
+              ],
+              "cardCosts": [
+                7259.0
+              ],
+              "cost": 7259.0,
+              "wallet": 4000,
+              "maxDeliveredCodes": 3,
+              "price": 8500,
+              "verifiedAt": "2026-10-01T07:45:57Z",
+              "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
+            }
+          }
+        },
+        {
+          "discounts": {},
+          "edition": "Standard Edition",
+          "editionId": "standard",
+          "editionOrder": 0,
+          "features": [
             "Grand Theft Auto VI",
             "Набор Vintage Vice City",
             "Один месяц GTA+ — условия активации уточняем при заказе",
@@ -8140,6 +8268,28 @@
   },
   "schemaVersion": 2,
   "titles": {
+    "god-of-war-laufey": {
+      "aliases": [
+        "god of war",
+        "god of war laufey",
+        "лауфей",
+        "лафей",
+        "фэй",
+        "бог войны"
+      ],
+      "description": "Новая история God of War: играй за Фэй, исследуй загробный мир богов и сражайся, чтобы защитить Кратоса и Атрея. Предзаказ для PS5.",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202609/1800/e1e187126032636435888915f17e26c3645661746a38362d.png",
+      "imageDimensions": {
+        "height": 1024,
+        "width": 1024
+      },
+      "imageRole": "MASTER",
+      "platform": "PS5",
+      "priority": 2,
+      "release": "16 февраля 2027",
+      "releaseDate": "2027-02-16",
+      "title": "God of War Laufey"
+    },
     "007-first-light": {
       "aliases": [
         "бонд",
