@@ -12,7 +12,7 @@
     try { const items = JSON.parse(localStorage.getItem('brazka-cart-v1') || '[]'); const count = Array.isArray(items) ? Math.min(items.length, 12) : 0; document.getElementById('cartCount').textContent = count; document.querySelector('.cart-button')?.classList.toggle('has-items', count > 0); } catch {}
   }
   cartCount(); window.addEventListener('storage', cartCount);
-  const products = [...document.querySelectorAll('[data-product]')].filter(p => p.dataset.product !== 'plus');
+  const products = [...document.querySelectorAll('[data-product]')].filter(p => !['plus', 'catalog'].includes(p.dataset.product));
   if (!products.length) return;
   const money = p => p == null ? 'Уточнить цену' : 'от ' + new Intl.NumberFormat('ru-RU').format(p) + ' ₽';
   fetch('/games.json', {cache:'no-store'}).then(r => { if (!r.ok) throw new Error('catalog'); return r.json(); }).then(data => {
