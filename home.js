@@ -1,6 +1,7 @@
 'use strict';
 (() => {
   const dock=document.getElementById('homePlusDock'),plus=document.getElementById('plus'),hero=document.querySelector('.home-hero');
+  dock.querySelector('a').addEventListener('click',event=>{event.preventDefault();history.replaceState({},'','#plus');plus.scrollIntoView({behavior:'smooth',block:'start'});});
   let plusVisible=false;
   const update=()=>{dock.hidden=plusVisible||window.scrollY<hero.offsetHeight/2||!document.getElementById('detailView').hidden||!document.getElementById('cartModal').hidden;};
   new IntersectionObserver(entries=>{plusVisible=entries[0].isIntersecting;update();},{threshold:0}).observe(plus);

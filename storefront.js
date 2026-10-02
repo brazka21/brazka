@@ -193,7 +193,7 @@ if(typeof document!=='undefined'){
     const canonical='https://brazka.shop'+(id?'/games/'+encodeURIComponent(id)+'/':collection?location.pathname:location.pathname.startsWith('/catalog')?'/catalog/':'/');
     document.querySelector('link[rel=canonical]').href=canonical;document.querySelector('meta[property="og:url"]').content=canonical;
     const game=games.find(g=>g.id===id);
-    if(!id){$('storeView').hidden=false;$('detailView').hidden=true;document.title=collectionTitles[filter]?collectionTitles[filter]+' | БРАЗКА':rootTitle;selectedGame=null;if(scroll)requestAnimationFrame(()=>window.scrollTo(0,catalogScroll));return;}
+    if(!id){$('storeView').hidden=false;$('detailView').hidden=true;document.title=collectionTitles[filter]?collectionTitles[filter]+' | БРАЗКА':rootTitle;selectedGame=null;if(scroll)requestAnimationFrame(()=>{if(location.hash==='#plus')$('plus').scrollIntoView({behavior:'smooth',block:'start'});else window.scrollTo(0,catalogScroll);});return;}
     $('storeView').hidden=true;$('detailView').hidden=false;
     if(!game){$('detailView').innerHTML='<a class="back-link" href="/catalog/" data-back>← Все игры</a><div class="empty-state"><h1>Игра не найдена</h1><p>Вернись в каталог или напиши нам — найдём нужное издание.</p><a class="button primary" href="'+CONTACT_URL+'" target="_blank" rel="noopener">Написать ↗</a></div>';return;}
     selectedGame=game;
@@ -245,7 +245,7 @@ if(typeof document!=='undefined'){
     const next=games.flatMap(g=>g.editions.flatMap(e=>REGIONS.map(r=>Date.parse(e.discounts?.[r]?.endsAt)))).filter(t=>t>Date.now()).sort((a,b)=>a-b)[0];
     if(next)scheduleExpiryRefresh.timer=setTimeout(()=>{renderGrid();renderFeature();if(selectedGame)renderEdition();scheduleExpiryRefresh();},Math.min(next-Date.now()+1000,2147483647));
   }
-  async function load(){try{const r=await fetch('/games.json',{cache:'no-store'});if(!r.ok)throw new Error('catalog');catalogData=await r.json();games=normalizeCatalog(catalogData);if(!games.length)throw new Error('empty');renderGrid();renderFeature();renderPlan();scheduleExpiryRefresh();$('updatedDate').textContent=`Цены обновлены ${catalogData.updated}`;selectRoute({scroll:false});renderCart();hydrateSharedCart();if(new URLSearchParams(location.search).get("openCart")==="1")openCart($("cartButton"));}catch{ $('gameGrid').innerHTML=`<div class="loading">Каталог сейчас не загрузился. <button class="button secondary" id="retryCatalog">Попробовать ещё раз</button> <a class="button primary" href="${CONTACT_URL}" target="_blank" rel="noopener">Узнать цену в Telegram ↗</a></div>`;$('retryCatalog').addEventListener('click',load);}}
+  async function load(){try{const r=await fetch('/games.json',{cache:'no-store'});if(!r.ok)throw new Error('catalog');catalogData=await r.json();games=normalizeCatalog(catalogData);if(!games.length)throw new Error('empty');renderGrid();renderFeature();renderPlan();scheduleExpiryRefresh();selectRoute({scroll:false});renderCart();hydrateSharedCart();if(new URLSearchParams(location.search).get("openCart")==="1")openCart($("cartButton"));}catch{ $('gameGrid').innerHTML=`<div class="loading">Каталог сейчас не загрузился. <button class="button secondary" id="retryCatalog">Попробовать ещё раз</button> <a class="button primary" href="${CONTACT_URL}" target="_blank" rel="noopener">Узнать цену в Telegram ↗</a></div>`;$('retryCatalog').addEventListener('click',load);}}
   initCart();
   load();
 }
