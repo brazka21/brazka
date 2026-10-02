@@ -40,15 +40,15 @@ def tile(g):
  best=min(available) if available else None
  regions='<div class="tile-regions">'+''.join(region_tile(label,prices[r],best,len(g['editions'])>1) for r,label in REGIONS.items())+'</div>'
  return f'<a class="game-tile" href="{url(g)}" data-game="{g["id"]}"><div class="cover-wrap"><img src="{esc(g["image"])}" alt="{esc(g["title"])}" width="400" height="400" loading="lazy"></div><p class="tile-platform">{esc(g.get("platform","PS5"))}</p><h3 class="tile-title">{esc(g["title"])}</h3>'+ (f'<p class="coop-tile-label">{esc(modes)}</p>' if modes else '') +regions+'</a>'
-nav='<nav class="collection-links" aria-label="Игры на двоих"><a class="filter" href="/#catalog">Все игры</a>'+''.join(f'<a class="filter" href="/collections/{slug}/">{esc(title.replace("Игры на двоих ","").replace("Игры со ","").replace(" на PS5", ""))}</a>' for slug,title,desc in collections.values())+'</nav>'
-base=(R/'index.html').read_text()
+nav='<nav class="collection-links" aria-label="Игры на двоих"><a class="filter" href="/catalog/">Все игры</a>'+''.join(f'<a class="filter" href="/collections/{slug}/">{esc(title.replace("Игры на двоих ","").replace("Игры со ","").replace(" на PS5", ""))}</a>' for slug,title,desc in collections.values())+'</nav>'
+base=(R/'catalog/index.html').read_text()
 base=re.sub(r'<!-- COLLECTIONS START -->.*?<!-- COLLECTIONS END -->','',base,flags=re.S)
 base=base.replace('<div class="search-row">','<!-- COLLECTIONS START -->'+nav+'<!-- COLLECTIONS END -->\n        <div class="search-row">',1)
 base=re.sub(r'<div class="game-grid" id="gameGrid" aria-live="polite">.*?</div>\s*<div class="empty-state"', '<div class="game-grid" id="gameGrid" aria-live="polite">'+''.join(tile(g) for g in games.values())+'</div>\n        <div class="empty-state"',base,flags=re.S)
 base=base.replace('Для каталога включи JavaScript или','Чтобы оформить заказ,')
 base=base.replace('href="./"','href="/"')
 base=re.sub(r'(href|src)="(assets/|storefront\.)',r'\1="/\2',base)
-base=re.sub(r'storefront\.js\?v=[^"\']+','storefront.js?v=india-on-request1',base)
+base=re.sub(r'storefront\.js\?v=[^"\']+','storefront.js?v=home1',base)
 base=re.sub(r'storefront\.css\?v=[^"\']+','storefront.css?v=india-on-request1',base)
 if 'mc.yandex.ru/metrika/tag.js?id=112697107' not in base:
  base=base.replace('</head>', '''<!-- Yandex.Metrika counter -->
@@ -63,8 +63,8 @@ ym(112697107,'init',{ssr:true,webvisor:true,clickmap:true,ecommerce:'dataLayer',
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/112697107" style="position:absolute;left:-9999px" alt=""></div></noscript>
 <!-- /Yandex.Metrika counter -->\n</head>''')
-write_clean(R/'index.html',base)
-paths=['/']
+write_clean(R/'catalog/index.html',base)
+paths=['/','/catalog/']
 def page(path,title,desc,content=None,subset=None,image=None,schemas=None):
  s=base
  s=re.sub(r'<title>.*?</title>','<title>'+esc(title)+' | БРАЗКА</title>',s)
@@ -80,19 +80,19 @@ def page(path,title,desc,content=None,subset=None,image=None,schemas=None):
   s=s.replace('<div id="storeView">','<div id="storeView" hidden>')
   s=s.replace('<section class="detail-view shell" id="detailView" hidden aria-label="Игра и издания"></section>',f'<section class="detail-view shell" id="detailView" aria-label="Игра и издания">{content}</section>')
  if subset is not None:
-  s=re.sub(r'<section class="intro shell">.*?</section>','',s,flags=re.S)
+  s=re.sub(r'<section class="(?:intro|catalog-intro) shell">.*?</section>','',s,flags=re.S)
   s=s.replace('<h2 id="catalogHeading">Каталог игр</h2>',f'<h1 id="catalogHeading">{esc(title)}</h1>')
   s=s.replace('<!-- COLLECTIONS START -->',f'<p id="collectionDescription" class="collection-description">{esc(desc)}</p><!-- COLLECTIONS START -->')
   start=s.index('<div class="game-grid" id="gameGrid"');end=s.index('<div class="empty-state"',start)
   s=s[:start]+'<div class="game-grid" id="gameGrid" aria-live="polite">'+''.join(tile(g) for g in subset)+'</div>'+s[end:]
- schema={'@context':'https://schema.org','@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':1,'name':'Каталог игр','item':'https://brazka.shop/'},{'@type':'ListItem','position':2,'name':title,'item':'https://brazka.shop'+path}]}
+ schema={'@context':'https://schema.org','@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':1,'name':'Каталог игр','item':'https://brazka.shop/catalog/'},{'@type':'ListItem','position':2,'name':title,'item':'https://brazka.shop'+path}]}
  structured=[schema]+(schemas or [])
  scripts=''.join('<script type="application/ld+json">'+json.dumps(item,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')+'</script>' for item in structured)
  s=s.replace('</head>',scripts+'</head>')
  target=R/path.strip('/')/'index.html';target.parent.mkdir(parents=True,exist_ok=True);write_clean(target,s);paths.append(path)
 for g in games.values():
  m=g.get('multiplayer',{});lowest=[current_price(e,r) for e in g['editions'] for r in REGIONS];lowest=[p for p in lowest if p]
- details=f'<a class="back-link" href="/" data-back>← Все игры</a><div class="detail-hero"><img class="detail-cover" src="{esc(g["image"])}" alt="{esc(g["title"])}" width="400" height="400"><div class="detail-info"><h1>{esc(g["title"])}</h1><p class="detail-description">{esc(g.get("description",""))}</p><p>{esc(g.get("platform","PS5"))}</p>'
+ details=f'<a class="back-link" href="/catalog/" data-back>← Все игры</a><div class="detail-hero"><img class="detail-cover" src="{esc(g["image"])}" alt="{esc(g["title"])}" width="400" height="400"><div class="detail-info"><h1>{esc(g["title"])}</h1><p class="detail-description">{esc(g.get("description",""))}</p><p>{esc(g.get("platform","PS5"))}</p>'
  if lowest:details+=f'<p class="detail-intro-prices">от {money(min(lowest))}</p>'
  if m:details+=f'<section class="coop-info"><h2>Как играть вместе</h2><p>{esc(m["label"])}</p><p>{esc(m["note"])}</p></section>'
  details+='</div></div><h2>Издания</h2><div class="edition-list">'
@@ -117,3 +117,4 @@ print(f'Built {len(games)} game pages, 3 collections, {len(paths)} sitemap URLs'
 # Refresh editorial product prices and preserve the news sitemap after catalog builds.
 import runpy
 runpy.run_path(str(R/"scripts/build-news.py"))
+
