@@ -1,5 +1,60 @@
 [
   {
+    "slug": "ps5-qssr-ai-upscaling-wolverine-yotei",
+    "title": "Обычная PS5 получила ИИ-апскейлинг QSSR",
+    "category": "Игры",
+    "published": "2026-10-02T10:57:31+10:00",
+    "sourceDate": "1 октября 2026",
+    "description": "Sony выпустила QSSR для обычной PS5. Новая технология повышает чёткость и стабильность изображения, а первыми её получили Marvel’s Wolverine и Ghost of Yōtei.",
+    "image": "https://blog.playstation.com/tachyon/2026/10/5f2b04388e41b48507f4c8d57ce8f53bd059f03a.jpg?crop_strategy=smart&resize=1088%2C612",
+    "imageAlt": "Консоль PlayStation 5 на официальной иллюстрации Sony к анонсу QSSR",
+    "source": "https://blog.playstation.com/2026/10/01/ai-upscaling-is-coming-to-ps5/",
+    "sourceName": "PlayStation Blog · Sony Interactive Entertainment",
+    "product": "wolverine",
+    "sections": [
+      {
+        "heading": "QSSR работает на обычной PS5",
+        "paragraphs": [
+          "Sony выпустила Quick Spectral Super Resolution — новую технологию ИИ-апскейлинга для стандартной PlayStation 5. Она анализирует изображение и повышает его детализацию и стабильность при выводе на экран.",
+          "QSSR создана в рамках Project Amethyst — совместной работы Sony и AMD над графическими технологиями. В основе лежат облегчённая архитектура нейросети и реализация, настроенная специально под производительность обычной PS5."
+        ],
+        "callout": {
+          "title": "Главное",
+          "text": "QSSR уже доступна на обычной PS5. PSSR остаётся основной технологией ИИ-апскейлинга для PS5 Pro."
+        }
+      },
+      {
+        "heading": "Первые игры — Wolverine и Ghost of Yōtei",
+        "paragraphs": [
+          "Marvel’s Wolverine и Ghost of Yōtei получили обновления 1 октября. В обеих играх QSSR добавлена как отдельный графический режим на PS5.",
+          "Insomniac Games отмечает более чёткое и стабильное изображение в насыщенных деталями районах Мадрипура и Синдзюку. Sucker Punch выделяет проработку мелких деталей персонажей и окружения, а также временную стабильность картинки."
+        ],
+        "images": [
+          {
+            "src": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2215/a69481c5fa50fe19f42896d84fb7cbf37ab8646801a93322.png",
+            "alt": "Marvel’s Wolverine — официальная обложка игры",
+            "caption": "Marvel’s Wolverine · Insomniac Games / Sony Interactive Entertainment"
+          },
+          {
+            "src": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2723/890df32c227f619c5bd80e9f34ba2be53d0fea4b1615adee.png",
+            "alt": "Ghost of Yōtei Complete Edition — официальная обложка игры",
+            "caption": "Ghost of Yōtei Complete Edition · Sucker Punch Productions / Sony Interactive Entertainment"
+          }
+        ]
+      },
+      {
+        "heading": "Технологию откроют всем разработчикам",
+        "paragraphs": [
+          "Sony предоставит библиотеку QSSR всем разработчикам игр для PlayStation. Это позволит добавлять ИИ-апскейлинг и в другие проекты для стандартной PS5."
+        ],
+        "callout": {
+          "title": "Старт QSSR",
+          "text": "1 октября 2026 · Marvel’s Wolverine и Ghost of Yōtei · дополнительный графический режим на PS5."
+        }
+      }
+    ]
+  },
+  {
     "slug": "control-resonant-gravity-manhattan-dualsense",
     "title": "Control Resonant: бои на потолке и Манхэттен, который отвечает на каждый удар",
     "category": "Игры",
