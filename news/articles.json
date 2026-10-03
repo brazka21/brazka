@@ -1,5 +1,71 @@
 [
   {
+    "slug": "ghost-of-yotei-complete-edition-echoes-most-wanted",
+    "title": "Ghost of Yōtei Complete Edition вышла на PS5 — Ацу возвращается в двух новых приключениях",
+    "category": "Игры",
+    "published": "2026-10-03T11:02:07+10:00",
+    "sourceDate": "2 октября 2026",
+    "description": "Ghost of Yōtei Complete Edition уже доступна на PS5. Издание добавляет сюжетное продолжение Echoes of Sekigahara и боевой режим Most Wanted с новыми репликами Ацу и Дзина Сакаи.",
+    "image": "https://blog.playstation.com/tachyon/2026/10/c0e2a40891fac5cc9ac526e690031f2263dbde59-scaled.jpg?crop_strategy=smart&resize=1088%2C612",
+    "imageAlt": "Ацу на фоне горы Ётэй в Ghost of Yōtei Complete Edition",
+    "source": "https://blog.playstation.com/2026/10/02/ghost-of-yotei-complete-edition-erika-ishii-interview/",
+    "sourceName": "PlayStation Blog · интервью Эрики Исии",
+    "product": "catalog",
+    "readingMinutes": 3,
+    "sections": [
+      {
+        "heading": "Complete Edition уже доступна на PS5",
+        "paragraphs": [
+          "Sony выпустила Ghost of Yōtei Complete Edition на PlayStation 5. В состав входят основная сюжетная кампания, кооперативный режим Legends, сюжетное дополнение Echoes of Sekigahara и боевой режим Most Wanted.",
+          "Владельцы оригинальной Ghost of Yōtei могут получить новый контент через Complete Edition Upgrade. Для загрузки требуется интернет и учётная запись PlayStation; сетевой режим Legends требует подписку PS Plus."
+        ],
+        "callout": {
+          "title": "Что добавили",
+          "text": "Echoes of Sekigahara — новая история Ацу · Most Wanted — боевой режим на выживание · платформа — только PS5."
+        }
+      },
+      {
+        "heading": "Echoes of Sekigahara показывает два периода жизни Ацу",
+        "paragraphs": [
+          "Сюжет дополнения разделён между настоящим временем и воспоминаниями Ацу о битве при Сэкигахаре. В центре истории — важный человек из её прошлого и события, которые повлияли на героиню задолго до основной игры.",
+          "Дополнение открывает новую область Эдзо с ранее не встречавшимися противниками. В арсенале появляется новый тип оружия, а среди наград — дополнительные комплекты брони и косметические предметы.",
+          "Эрика Исии вернулась к роли Ацу спустя несколько месяцев после завершения основной записи. По словам актрисы, готовая игра помогла ей сразу восстановить характер и внутреннее состояние героини перед работой над дополнением."
+        ],
+        "images": [
+          {
+            "src": "https://gmedia.playstation.com/is/image/SIEPDC/ghost-of-yotei-new-game-plus-image-block-01-en-03sep26?$1600px$",
+            "alt": "Ацу и Нагато наблюдают закат в Echoes of Sekigahara",
+            "caption": "Echoes of Sekigahara · официальный скриншот Sucker Punch Productions / Sony Interactive Entertainment"
+          },
+          {
+            "src": "https://gmedia.playstation.com/is/image/SIEPDC/ghost-of-yotei-screenshot-01-en-04sep26?$1600px$",
+            "alt": "Сражение воинов в Ghost of Yōtei Complete Edition",
+            "caption": "Воспоминания о битве при Сэкигахаре · официальный скриншот Sucker Punch Productions / Sony Interactive Entertainment"
+          }
+        ]
+      },
+      {
+        "heading": "Most Wanted возвращает Дзина Сакаи",
+        "paragraphs": [
+          "Most Wanted построен вокруг повторяемых боевых заходов: игрок отражает волны противников, сражается с новыми боссами и получает оружие, косметику и дополнительных героев.",
+          "Для режима записаны новые реплики Ацу. Его события не входят в основной канон и поданы в более мистическом стиле, близком к Legends.",
+          "Одним из открываемых персонажей стал Дзин Сакаи. Дайсукэ Цудзи записал для героя новые реплики — это отдельное возвращение персонажа Ghost of Tsushima, а не появление Дзина в основной истории Ацу."
+        ],
+        "images": [
+          {
+            "src": "https://gmedia.playstation.com/is/image/SIEPDC/ghost-of-yotei-new-game-plus-image-block-02-en-03sep26?$1600px$",
+            "alt": "Доска целей в режиме Most Wanted",
+            "caption": "Most Wanted · официальный скриншот Sucker Punch Productions / Sony Interactive Entertainment"
+          }
+        ],
+        "callout": {
+          "title": "Новые записи актёров",
+          "text": "Эрика Исии озвучила дополнительные реплики Ацу, а Дайсукэ Цудзи — новые реплики Дзина Сакаи."
+        }
+      }
+    ]
+  },
+  {
     "slug": "kena-scars-of-kosmora-2027-island-temples",
     "title": "Kena: Scars of Kosmora перенесли на 2027 год — раскрыты остров, храмы и новый спутник",
     "category": "Игры",
