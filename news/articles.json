@@ -1,5 +1,63 @@
 [
   {
+    "slug": "gran-turismo-7-xiaomi-vision-gt-october-spec-iv",
+    "title": "Гиперкар Xiaomi появится в Gran Turismo 7 в октябре — показаны новые кадры",
+    "category": "Игры",
+    "published": "2026-10-04T19:02:27+10:00",
+    "sourceDate": "3 октября 2026",
+    "description": "Xiaomi Vision Gran Turismo добавят в Gran Turismo 7 с октябрьским обновлением Spec IV. В Сингапуре показали новые кадры электрического гиперкара с аэродинамическими каналами и салоном Sofa Racer.",
+    "image": "https://www.gran-turismo.com/images/c/i1mSvuT4PoMkNb.jpg",
+    "imageAlt": "Xiaomi Vision Gran Turismo на трассе — официальный кадр Polyphony Digital / Sony Interactive Entertainment",
+    "source": "https://www.gran-turismo.com/us/news/00_1324113.html",
+    "sourceName": "Gran Turismo · Polyphony Digital",
+    "product": "catalog",
+    "readingMinutes": 2,
+    "sections": [
+      {
+        "heading": "Xiaomi Vision GT приедет с Spec IV",
+        "paragraphs": [
+          "3 октября на третьем этапе Gran Turismo World Series в Сингапуре показали новое видео Xiaomi Vision Gran Turismo. Электрический концептуальный гиперкар появится в Gran Turismo 7 вместе с крупным обновлением Spec IV в октябре 2026 года."
+        ],
+        "callout": {
+          "title": "Когда появится машина",
+          "text": "Октябрь 2026 · Gran Turismo 7 · обновление Spec IV."
+        }
+      },
+      {
+        "heading": "Кузов направляет воздушные потоки",
+        "paragraphs": [
+          "Каплевидная кабина встроена в кузов с глубокими вырезами и воздуховодами. Они образуют аэродинамические каналы по всей машине. Кольцевой задний фонарь одновременно служит узнаваемой деталью дизайна и большим выходом для воздуха."
+        ],
+        "images": [
+          {
+            "src": "https://www.gran-turismo.com/images/c/i1a5FIikUcxbz.jpg",
+            "alt": "Задняя часть Xiaomi Vision Gran Turismo с кольцевым фонарём",
+            "caption": "Официальный кадр Gran Turismo 7 · Xiaomi / Polyphony Digital / Sony Interactive Entertainment"
+          },
+          {
+            "src": "https://www.gran-turismo.com/images/c/i1Brzb93JsnlpSB.jpg",
+            "alt": "Колесо и аэродинамический канал Xiaomi Vision Gran Turismo",
+            "caption": "Официальный кадр Gran Turismo 7 · Xiaomi / Polyphony Digital / Sony Interactive Entertainment"
+          }
+        ]
+      },
+      {
+        "heading": "Sofa Racer — салон с идеей дивана",
+        "paragraphs": [
+          "Для интерьера Xiaomi выбрала концепцию Sofa Racer: ощущение от посадки и вождения описано как гонка на диване. Новые официальные кадры показывают широкие сиденья, компактный руль и подсветку вокруг кокпита.",
+          "Сотрудничество Xiaomi и Gran Turismo объявили в июне 2025 года. Полноразмерный макет концепта представили в марте 2026-го на Mobile World Congress в Барселоне; теперь машину показали внутри Gran Turismo 7."
+        ],
+        "images": [
+          {
+            "src": "https://www.gran-turismo.com/images/c/i1IIuK8dAamCVG.jpg",
+            "alt": "Сиденье и руль в салоне Sofa Racer гиперкара Xiaomi",
+            "caption": "Официальный кадр Gran Turismo 7 · Xiaomi / Polyphony Digital / Sony Interactive Entertainment"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "slug": "ghost-of-yotei-complete-edition-echoes-most-wanted",
     "title": "Ghost of Yōtei Complete Edition вышла на PS5 — Ацу возвращается в двух новых приключениях",
     "category": "Игры",
