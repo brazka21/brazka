@@ -1,5 +1,58 @@
 [
   {
+    "slug": "warhammer-survivors-ps5-november-10-heroes",
+    "title": "Warhammer Survivors выйдет на PS5 10 ноября — раскрыты два героя и их оружие",
+    "category": "Игры",
+    "published": "2026-10-07T11:08:02+10:00",
+    "sourceDate": "6 октября 2026",
+    "description": "Auroch Digital назначила релиз Warhammer Survivors на PS5 на 10 ноября. Морвенн Вал уничтожает врагов болтером и ракетами, а Лисса Ревенья использует крюки и призрачный туман.",
+    "image": "https://blog.playstation.com/tachyon/2048/10/c052d06b89ccf8f100f2fa769006330e163a89fc.jpg?resize=1088%2C612&crop_strategy=smart&zoom=0.99",
+    "imageAlt": "Официальный арт Warhammer Survivors · Auroch Digital / Games Workshop",
+    "source": "https://blog.playstation.com/2026/10/06/warhammer-survivors-launches-november-10-new-characters-revealed/",
+    "sourceName": "PlayStation Blog · Auroch Digital",
+    "product": "catalog",
+    "sections": [
+      {
+        "heading": "Две вселенные и больше 40 героев",
+        "paragraphs": [
+          "Warhammer Survivors объединяет Warhammer 40,000 и Age of Sigmar в игре на выживание против орд врагов. В ростере больше 40 персонажей; оружие можно развивать и сочетать с усилениями."
+        ],
+        "callout": {
+          "title": "Релиз и предзаказ",
+          "text": "PS5 · 10 ноября 2026 · предзаказ открыт с 6 октября. Участникам PS Plus доступна скидка 10% на предзаказ."
+        },
+        "images": [
+          {
+            "src": "https://image.api.playstation.com/vulcan/ap/rnd/202610/0108/855c43de2423bcfa236d920ba7127def679f809e2e47f49d.jpg",
+            "alt": "Пиксельное сражение с ордами врагов в Warhammer Survivors",
+            "caption": "Официальный скриншот из PS Store · Auroch Digital / Games Workshop"
+          }
+        ]
+      },
+      {
+        "heading": "Морвенн Вал: болтер превращается в ракетный залп",
+        "paragraphs": [
+          "Морвенн Вал выходит на поле боя в Paragon Warsuit. Её тяжёлый болтер Fidelis стреляет по дуге и может активировать чудо, повышающее скорострельность.",
+          "Развитие до Purgator Mirabilis добавляет ракетную установку костюма: взрывы дополняют поток болтерных снарядов."
+        ]
+      },
+      {
+        "heading": "Лисса Ревенья: крюки и призрак наставницы",
+        "paragraphs": [
+          "Лисса из Age of Sigmar превращает инструменты взломщицы в оружие. Крюки летят от случайных краёв экрана, наносят урон и утаскивают выживших противников.",
+          "После развития оружия появляется дух Реи — бывшей союзницы и наставницы. Банши пересекает поле боя и взрывается облаком призрачного тумана, наносящего урон."
+        ],
+        "images": [
+          {
+            "src": "https://image.api.playstation.com/vulcan/ap/rnd/202610/0108/f01b8ba701658098a15b23d3d21fe03a99cc63ded9ddbf5c.jpg",
+            "alt": "Игровой кадр Warhammer Survivors",
+            "caption": "Официальный скриншот из PS Store · Auroch Digital / Games Workshop"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "slug": "modern-warfare-4-dmz-base-progression",
     "title": "DMZ в Modern Warfare 4: своя база, три типа вылазок и 70 уровней",
     "category": "Игры",
