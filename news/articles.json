@@ -1,5 +1,71 @@
 [
   {
+    "slug": "marvel-tokon-phoenix-cyclops-ps-plus-trial",
+    "title": "Феникс-Циклоп придёт в MARVEL Tōkon 2 ноября — для PS Plus открыли пробную версию",
+    "category": "Игры",
+    "published": "2026-10-08T10:58:16+10:00",
+    "sourceDate": "7 октября 2026",
+    "description": "Феникс-Циклоп станет первым бойцом Year 1 Pass для MARVEL Tōkon: Fighting Souls. Он накапливает Солнечные осколки, превращается в Тёмного Феникса и выйдет 2 ноября, а подписчики PS Plus уже могут запустить трёхчасовую пробную версию игры.",
+    "image": "https://blog.playstation.com/tachyon/2026/10/e9592b0a1fa25ebc78f92e5dea79e4266953d980-scaled.jpg?resize=1088%2C612&crop_strategy=smart",
+    "imageAlt": "Феникс-Циклоп в MARVEL Tōkon: Fighting Souls — официальный арт Arc System Works / Marvel Games",
+    "source": "https://blog.playstation.com/2026/10/07/phoenix-cyclops-joins-marvel-tokon-fighting-souls-on-november-2/",
+    "sourceName": "PlayStation Blog · Arc System Works",
+    "product": "plus",
+    "readingMinutes": 3,
+    "sections": [
+      {
+        "heading": "Первый боец Year 1 Pass выйдет 2 ноября",
+        "paragraphs": [
+          "Феникс-Циклоп станет первым дополнительным персонажем MARVEL Tōkon: Fighting Souls. Вместе с бойцом 2 ноября появятся два дополнительных костюма — Classic и Legacy, возвращающие более привычные образы Циклопа.",
+          "Arc System Works выбрала версию героя с силой Феникса, чтобы по-новому соединить его оптические атаки с огнём и показать переход от лидера-идеалиста к разрушительной форме Тёмного Феникса."
+        ],
+        "callout": {
+          "title": "Главные даты",
+          "text": "Феникс-Циклоп и костюмы Classic и Legacy — 2 ноября 2026 года. Ранний показ бойца пройдёт на EVO France с 9 по 11 октября."
+        },
+        "images": [
+          {
+            "src": "https://live.staticflickr.com/65535/55571563259_9552c2d890_4k.jpg",
+            "alt": "Дизайн Феникс-Циклопа для MARVEL Tōkon: Fighting Souls",
+            "caption": "Феникс-Циклоп · официальный кадр Arc System Works / Marvel Games"
+          }
+        ]
+      },
+      {
+        "heading": "Четыре Солнечных осколка открывают Тёмного Феникса",
+        "paragraphs": [
+          "Циклоп задуман как универсальный боец: оптические лучи работают на дальней дистанции, а быстрые выпады, броски и приёмы для подготовки комбинаций поддерживают ближний бой. Сила Феникса добавляет огненные атаки по большой области экрана.",
+          "Использование оптических атак накапливает энергию Феникса — Солнечные осколки. После четырёх осколков Циклоп превращается в Тёмного Феникса и временно становится значительно сильнее, но усиление постепенно отнимает здоровье."
+        ],
+        "callout": {
+          "title": "Ключевая механика",
+          "text": "4 Солнечных осколка → форма Тёмного Феникса → временное усиление ценой запаса здоровья."
+        },
+        "images": [
+          {
+            "src": "https://live.staticflickr.com/65535/55571403656_b79f23e540_4k.jpg",
+            "alt": "Феникс-Циклоп использует оптическую атаку в MARVEL Tōkon: Fighting Souls",
+            "caption": "Боевая механика Феникс-Циклопа · официальный кадр Arc System Works / Marvel Games"
+          }
+        ]
+      },
+      {
+        "heading": "Подписчикам PS Plus доступна трёхчасовая пробная версия",
+        "paragraphs": [
+          "С 7 октября участники PlayStation Plus могут бесплатно попробовать MARVEL Tōkon: Fighting Souls в течение трёх часов. В PlayStation Store одновременно началась первая распродажа игры; Ultimate Edition временно предлагается со скидкой.",
+          "Пробный доступ позволяет оценить основную игру до появления Феникс-Циклопа. Сам дополнительный персонаж входит в Year 1 Pass."
+        ],
+        "images": [
+          {
+            "src": "https://live.staticflickr.com/65535/55570366262_d14fb19f4b_4k.jpg",
+            "alt": "Костюмы Classic и Legacy для Циклопа в MARVEL Tōkon: Fighting Souls",
+            "caption": "Костюмы Classic и Legacy · официальный кадр Arc System Works / Marvel Games"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "slug": "warhammer-survivors-ps5-november-10-heroes",
     "title": "Warhammer Survivors выйдет на PS5 10 ноября — раскрыты два героя и их оружие",
     "category": "Игры",
