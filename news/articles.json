@@ -1,5 +1,64 @@
 [
   {
+    "slug": "gta-vi-xbox-cloud-streaming-rights-no-pc",
+    "title": "GTA VI получит облачный запуск на Xbox — договор не эксклюзивный, на ПК стриминга не будет",
+    "category": "Игры",
+    "published": "2026-10-08T19:05:19+10:00",
+    "sourceDate": "6 октября 2026",
+    "description": "Xbox получила права на облачный запуск GTA VI одновременно с релизом. Microsoft уточнила, что договор не эксклюзивный, а через ПК игру транслировать не будут; версии для PS5 и Xbox Series X|S выходят 19 ноября.",
+    "image": "https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_07.0ca326xbl~oyh.jpg?akim=1&imdensity=1&imwidth=3840",
+    "imageAlt": "Джейсон Дюваль в GTA VI — официальный кадр Rockstar Games",
+    "source": "https://www.theverge.com/report/1005859/microsoft-xbox-gta-6-streaming-rights",
+    "sourceName": "The Verge · Том Уоррен",
+    "product": "gta-vi",
+    "readingMinutes": 2,
+    "sections": [
+      {
+        "heading": "Облачный запуск запланирован на день релиза",
+        "paragraphs": [
+          "Xbox получила права на облачный запуск Grand Theft Auto VI через Xbox Cloud Gaming. Доступ должен открыться одновременно с релизом игры 19 ноября 2026 года.",
+          "Соглашение касается трансляции через Xbox Cloud Gaming. Это отдельный способ запуска, а не новая версия GTA VI для другой платформы."
+        ],
+        "callout": {
+          "title": "Что подтверждено",
+          "text": "19 ноября 2026 · GTA VI выходит на PS5 и Xbox Series X|S · облачный запуск Xbox запланирован на тот же день."
+        }
+      },
+      {
+        "heading": "Договор не эксклюзивный, но ПК исключён",
+        "paragraphs": [
+          "После первоначальной публикации Microsoft уточнила два важных условия: соглашение не даёт Xbox эксклюзивных прав на облачную трансляцию GTA VI, а запуск через Xbox Cloud Gaming на ПК не предусмотрен.",
+          "Для владельцев PlayStation условия релиза не изменились: GTA VI выходит на PS5 19 ноября одновременно с версией для Xbox Series X|S."
+        ],
+        "images": [
+          {
+            "src": "https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_09.0pd.ppokmi8-n.jpg?akim=1&imdensity=1&imwidth=3840",
+            "alt": "Люсия Каминос в GTA VI",
+            "caption": "Люсия Каминос · официальный кадр Rockstar Games"
+          }
+        ]
+      },
+      {
+        "heading": "В ноябре Xbox меняет правила облачного сервиса",
+        "paragraphs": [
+          "Облачный запуск GTA VI совпадёт с изменениями Xbox Cloud Gaming. С ноября Microsoft ограничит включённое время трансляции: 15 часов для Game Pass Ultimate, 10 часов для Premium и 5 часов для Essential.",
+          "Одновременно Microsoft откроет оплату облачного времени без обязательной подписки: пользователи смогут покупать пакеты часов отдельно."
+        ],
+        "callout": {
+          "title": "Лимиты Xbox Cloud Gaming",
+          "text": "Ultimate — 15 часов · Premium — 10 часов · Essential — 5 часов. Дополнительное время можно будет покупать отдельно."
+        },
+        "images": [
+          {
+            "src": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_11.09paum3g942sc.jpg?akim=1&imdensity=1&imwidth=3840",
+            "alt": "Вайс-Сити в GTA VI",
+            "caption": "Вайс-Сити · официальный кадр Rockstar Games"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "slug": "marvel-tokon-phoenix-cyclops-ps-plus-trial",
     "title": "Феникс-Циклоп придёт в MARVEL Tōkon 2 ноября — для PS Plus открыли пробную версию",
     "category": "Игры",
