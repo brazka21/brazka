@@ -558,13 +558,7 @@
           }
         },
         {
-          "discounts": {
-            "india": {
-              "percent": 20,
-              "endsAt": "2026-10-07T22:59:00Z",
-              "storeOriginal": 7499.0
-            }
-          },
+          "discounts": {},
           "edition": "Ultimate Edition",
           "editionId": "ultimate",
           "editionOrder": 5,
@@ -637,7 +631,7 @@
           },
           "release": "Уже в продаже",
           "storePrices": {
-            "india": 5999.0,
+            "india": 7499.0,
             "turkey": 5499.0
           },
           "storeUrls": {
@@ -648,11 +642,8 @@
           "title": "EA SPORTS UFC 6 — Ultimate Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-23T01:19:11Z",
-            "turkey": "2026-10-08T11:10:43.223429+00:00"
-          },
-          "oldPrices": {
-            "india": 9800
+            "india": "2026-10-08T22:04:00Z",
+            "turkey": "2026-10-08T22:08:00Z"
           }
         },
         {
@@ -928,13 +919,7 @@
           }
         },
         {
-          "discounts": {
-            "india": {
-              "percent": 33,
-              "endsAt": "2026-10-07T22:59:00Z",
-              "storeOriginal": 7499.0
-            }
-          },
+          "discounts": {},
           "edition": "Deluxe Edition",
           "editionId": "deluxe",
           "editionOrder": 2,
@@ -1006,7 +991,7 @@
           },
           "release": "Уже в продаже",
           "storePrices": {
-            "india": 5024,
+            "india": 7499.0,
             "turkey": 5499.0
           },
           "storeUrls": {
@@ -1017,11 +1002,8 @@
           "title": "NBA 2K27 — Deluxe Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-26T22:12:29Z",
-            "turkey": "2026-10-08T11:12:10.451277+00:00"
-          },
-          "oldPrices": {
-            "india": 9800
+            "india": "2026-10-08T22:04:00Z",
+            "turkey": "2026-10-08T22:08:00Z"
           }
         },
         {
@@ -2563,13 +2545,7 @@
           }
         },
         {
-          "discounts": {
-            "india": {
-              "percent": 10,
-              "endsAt": "2026-10-07T22:59:00Z",
-              "storeOriginal": 4199.0
-            }
-          },
+          "discounts": {},
           "edition": "Standard Edition",
           "editionId": "standard",
           "editionOrder": 0,
@@ -2635,7 +2611,7 @@
           },
           "release": "Уже в продаже",
           "storePrices": {
-            "india": 3779.0,
+            "india": 4199.0,
             "turkey": 2579.0
           },
           "storeUrls": {
@@ -2646,18 +2622,12 @@
           "title": "Assassin’s Creed Black Flag Resynced — Standard Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-23T01:19:11Z",
-            "turkey": "2026-10-08T11:10:35.423332+00:00"
+            "india": "2026-10-08T22:04:00Z",
+            "turkey": "2026-10-08T22:08:00Z"
           }
         },
         {
-          "discounts": {
-            "india": {
-              "percent": 15,
-              "endsAt": "2026-10-07T22:59:00Z",
-              "storeOriginal": 4899.0
-            }
-          },
+          "discounts": {},
           "edition": "Deluxe Edition",
           "editionId": "deluxe",
           "editionOrder": 2,
@@ -2728,7 +2698,7 @@
           },
           "release": "Уже в продаже",
           "storePrices": {
-            "india": 4164.0,
+            "india": 4899.0,
             "turkey": 2999.0
           },
           "storeUrls": {
@@ -2739,8 +2709,8 @@
           "title": "Assassin’s Creed Black Flag Resynced — Deluxe Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-23T01:19:11Z",
-            "turkey": "2026-10-08T11:10:35.413174+00:00"
+            "india": "2026-10-08T22:04:00Z",
+            "turkey": "2026-10-08T22:08:00Z"
           }
         },
         {
@@ -3280,13 +3250,7 @@
           }
         },
         {
-          "discounts": {
-            "india": {
-              "percent": 85,
-              "endsAt": "2026-10-07T22:59:00Z",
-              "storeOriginal": 3999.0
-            }
-          },
+          "discounts": {},
           "edition": "Standard Edition",
           "editionId": "standard",
           "editionOrder": 0,
@@ -3350,7 +3314,7 @@
           },
           "release": "Уже в продаже",
           "storePrices": {
-            "india": 599.0,
+            "india": 3999.0,
             "turkey": 3149.0
           },
           "storeUrls": {
@@ -3361,18 +3325,12 @@
           "title": "Assassin’s Creed Origins — Standard Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-23T01:19:11Z",
-            "turkey": "2026-10-08T11:10:35.342854+00:00"
+            "india": "2026-10-08T22:04:00Z",
+            "turkey": "2026-10-08T22:08:00Z"
           }
         },
         {
-          "discounts": {
-            "india": {
-              "percent": 85,
-              "endsAt": "2026-10-07T22:59:00Z",
-              "storeOriginal": 5999.0
-            }
-          },
+          "discounts": {},
           "edition": "Gold Edition",
           "editionId": "gold",
           "editionOrder": 3,
@@ -3435,7 +3393,7 @@
           },
           "release": "Уже в продаже",
           "storePrices": {
-            "india": 899.0,
+            "india": 5999.0,
             "turkey": 359.0
           },
           "storeUrls": {
@@ -3446,8 +3404,8 @@
           "title": "Assassin’s Creed Origins — Gold Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-23T01:19:11Z",
-            "turkey": "2026-10-08T11:10:35.434271+00:00"
+            "india": "2026-10-08T22:04:00Z",
+            "turkey": "2026-10-08T22:08:00Z"
           }
         },
         {
@@ -3625,13 +3583,7 @@
           }
         },
         {
-          "discounts": {
-            "india": {
-              "percent": 69,
-              "endsAt": "2026-10-07T22:59:00Z",
-              "storeOriginal": 4799.0
-            }
-          },
+          "discounts": {},
           "edition": "Deluxe Edition",
           "editionId": "deluxe",
           "editionOrder": 2,
@@ -3696,7 +3648,7 @@
           },
           "release": "Уже в продаже",
           "storePrices": {
-            "india": 1487.0,
+            "india": 4799.0,
             "turkey": 2799.0
           },
           "storeUrls": {
@@ -3707,18 +3659,12 @@
           "title": "Jujutsu Kaisen Cursed Clash — Deluxe Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-23T01:19:11Z",
-            "turkey": "2026-10-08T11:10:52.016334+00:00"
+            "india": "2026-10-08T22:04:00Z",
+            "turkey": "2026-10-08T22:08:00Z"
           }
         },
         {
-          "discounts": {
-            "india": {
-              "percent": 90,
-              "endsAt": "2026-10-07T22:59:00Z",
-              "storeOriginal": 2247.0
-            }
-          },
+          "discounts": {},
           "edition": "Starter Edition",
           "editionId": "starter",
           "editionOrder": 1,
@@ -3784,7 +3730,7 @@
           },
           "release": "Уже в продаже",
           "storePrices": {
-            "india": 224.0,
+            "india": 2247.0,
             "turkey": 799.0
           },
           "storeUrls": {
@@ -3795,8 +3741,8 @@
           "title": "Golf With Your Friends — Starter Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-23T01:19:11Z",
-            "turkey": "2026-10-08T11:11:21.625637+00:00"
+            "india": "2026-10-08T22:04:00Z",
+            "turkey": "2026-10-08T22:08:00Z"
           }
         },
         {
@@ -8275,13 +8221,7 @@
           }
         },
         {
-          "discounts": {
-            "india": {
-              "percent": 67,
-              "endsAt": "2026-10-07T22:59:00Z",
-              "storeOriginal": 4999.0
-            }
-          },
+          "discounts": {},
           "edition": "Digital Deluxe Edition",
           "editionId": "deluxe",
           "editionOrder": 3,
@@ -8342,7 +8282,7 @@
           },
           "release": "Уже в продаже",
           "storePrices": {
-            "india": 1649.0,
+            "india": 4999.0,
             "turkey": 3449.0
           },
           "storeUrls": {
@@ -8353,8 +8293,8 @@
           "title": "Sackboy: A Big Adventure — Digital Deluxe Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-23T01:19:11Z",
-            "turkey": "2026-10-08T11:11:35.388834+00:00"
+            "india": "2026-10-08T22:04:00Z",
+            "turkey": "2026-10-08T22:08:00Z"
           }
         },
         {
@@ -8946,13 +8886,7 @@
             "india": "available",
             "turkey": "available"
           },
-          "discounts": {
-            "india": {
-              "percent": 60,
-              "endsAt": "2026-10-07T22:59:00Z",
-              "storeOriginal": 1664.0
-            }
-          },
+          "discounts": {},
           "edition": "Standard Edition",
           "editionId": "standard",
           "editionOrder": 0,
@@ -9019,7 +8953,7 @@
           },
           "release": "Уже в продаже",
           "storePrices": {
-            "india": 665.0,
+            "india": 1664.0,
             "turkey": 699.0
           },
           "storeUrls": {
@@ -9030,8 +8964,8 @@
           "title": "Gang Beasts — Standard Edition",
           "verifiedAt": "2026-09-09T02:09:58Z",
           "storePriceVerifiedAt": {
-            "india": "2026-09-23T01:19:11Z",
-            "turkey": "2026-10-08T11:11:10.937345+00:00"
+            "india": "2026-10-08T22:04:00Z",
+            "turkey": "2026-10-08T22:08:00Z"
           }
         },
         {
