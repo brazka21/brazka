@@ -1,5 +1,74 @@
 [
   {
+    "slug": "rockbeasts-ps5-january-2027-critical-role-cast",
+    "title": "Rockbeasts выйдет на PS5 в январе 2027 года — к актёрскому составу присоединились звёзды Critical Role",
+    "category": "Игры",
+    "published": "2026-10-09T18:57:00+10:00",
+    "sourceDate": "8 октября 2026",
+    "description": "Музыкальная RPG Rockbeasts выйдет на PS5 в январе 2027 года. Мэттью Мерсер и Сэм Ригел из Critical Role озвучат персонажей, а игроку предстоит провести рок-группу из гаража к большим сценам.",
+    "image": "https://blog.playstation.com/tachyon/2026/10/9ac56453f29c11768e1b92ab6c216562dccf2e85.png?crop_strategy=smart&resize=1088%2C612",
+    "imageAlt": "Музыканты Rockbeasts и логотип Critical Role — официальный арт Lichthund",
+    "source": "https://blog.playstation.com/2026/10/08/critical-role-joins-rockbeasts-launching-january-2027/",
+    "sourceName": "PlayStation Blog · Lichthund",
+    "product": "catalog",
+    "readingMinutes": 3,
+    "sections": [
+      {
+        "heading": "Релиз на PS5 назначен на январь 2027 года",
+        "paragraphs": [
+          "Lichthund выпустит Rockbeasts на PlayStation 5 в январе 2027 года. Точный день релиза объявят позднее, а игру уже можно добавить в список желаемого PlayStation Store.",
+          "Rockbeasts — сюжетная ролевая игра об управлении рок-группой. Игрок занимает место менеджера и ведёт команду от первых репетиций в гараже до выступлений на крупных сценах."
+        ],
+        "callout": {
+          "title": "Главное",
+          "text": "PS5 · январь 2027 года · одиночная игра · сюжетная RPG о менеджере рок-группы."
+        }
+      },
+      {
+        "heading": "Мэттью Мерсер и Сэм Ригел озвучат персонажей",
+        "paragraphs": [
+          "К актёрскому составу присоединились Мэттью Мерсер и Сэм Ригел — участники Critical Role, известные по настольным ролевым шоу и озвучке видеоигр. Каких именно персонажей они сыграют, пока не раскрыто.",
+          "Critical Role также стала творческим и издательским партнёром проекта. Lichthund продолжит работу над игрой вместе с командой, специализирующейся на историях и персонажах."
+        ],
+        "images": [
+          {
+            "src": "https://blog.playstation.com/tachyon/2026/10/3afafe5f96446c04f33df46c59faab7a52743ece.jpg?fit=40%2C40",
+            "alt": "Мэттью Мерсер и Сэм Ригел из Critical Role",
+            "caption": "Мэттью Мерсер и Сэм Ригел · официальный кадр Critical Role / Lichthund"
+          }
+        ]
+      },
+      {
+        "heading": "Решения менеджера изменят путь группы",
+        "paragraphs": [
+          "Действие разворачивается в музыкальной индустрии США 1990-х. Менеджеру придётся распределять ресурсы, улаживать конфликты между участниками, готовить сет-листы и концерты, выбирать площадки и справляться с непредвиденными проблемами.",
+          "Выборы влияют на отношения внутри коллектива и развитие истории. Разработчики подготовили больше 100 персонажей и 90 локаций, а актёрский состав включает исполнителей из Baldur’s Gate 3, Cyberpunk 2077, Horizon Zero Dawn, Metaphor: ReFantazio и Alan Wake II."
+        ],
+        "callout": {
+          "title": "Роль игрока",
+          "text": "Собирать группу · следить за ресурсами · готовить выступления · решать конфликты · определять, останутся музыканты бунтарями или пойдут на компромисс ради успеха."
+        },
+        "images": [
+          {
+            "src": "https://image.api.playstation.com/vulcan/ap/rnd/202502/1911/5c2aecb88d73bc92c68720e1fe34430f89d6b71f9047a411.jpg",
+            "alt": "Рок-группа выступает на сцене в Rockbeasts",
+            "caption": "Концерт в Rockbeasts · официальный кадр Lichthund / PlayStation Store"
+          },
+          {
+            "src": "https://image.api.playstation.com/vulcan/ap/rnd/202502/1911/d4970629441788a9211f7901d88c4ee25f1f33252ac1a276.jpg",
+            "alt": "Диалог менеджера с участником группы в Rockbeasts",
+            "caption": "Работа с участниками группы · официальный кадр Lichthund / PlayStation Store"
+          },
+          {
+            "src": "https://image.api.playstation.com/vulcan/ap/rnd/202502/1911/e0285299bc4df5ee54aac4606834ce84038dcfda13e676a1.jpg",
+            "alt": "Подготовка музыкального выступления в Rockbeasts",
+            "caption": "Подготовка к выступлению · официальный кадр Lichthund / PlayStation Store"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "slug": "gta-vi-radio-stations-podcasts-headphones",
     "title": "GTA VI раскрыла шесть радиостанций — музыку можно слушать пешком через наушники",
     "category": "Игры",
