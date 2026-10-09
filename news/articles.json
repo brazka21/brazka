@@ -1,5 +1,83 @@
 [
   {
+    "slug": "gta-vi-radio-stations-podcasts-headphones",
+    "title": "GTA VI раскрыла шесть радиостанций — музыку можно слушать пешком через наушники",
+    "category": "Игры",
+    "published": "2026-10-09T10:58:52+10:00",
+    "sourceDate": "8 октября 2026",
+    "description": "Rockstar представила шесть радиостанций GTA VI — от Flash FM и латиноамериканской Cocoteo FM до металла и южного хип-хопа. Впервые в серии радио и подкасты будут доступны не только в машине, но и пешком через наушники персонажей.",
+    "image": "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/o3982oa93a23k4/365fb2f8af9e4263284a4dc2c6671e36a2480ba4.jpg",
+    "imageAlt": "Автомобили на шоссе Леониды на фоне Вайс-Сити — официальный кадр GTA VI",
+    "source": "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations",
+    "sourceName": "Rockstar Games",
+    "product": "gta-vi",
+    "readingMinutes": 3,
+    "sections": [
+      {
+        "heading": "Радио теперь работает и вне машины",
+        "paragraphs": [
+          "Grand Theft Auto VI получит самый большой и разнообразный набор внутриигровых радиостанций в истории серии. Rockstar начала знакомство с эфиром Леониды с шести каналов — каждый со своими ведущими, жанрами и оформлением.",
+          "Главное изменение касается способа прослушивания. Джейсон и Люсия смогут включать радио не только в транспорте, но и во время прогулок: для этого появятся наушники и вкладыши, подключённые к смартфонам персонажей."
+        ],
+        "callout": {
+          "title": "Главное",
+          "text": "Шесть раскрытых станций · радио доступно в машине и пешком · впервые появятся подкасты по запросу · в альбом GTA VI войдут 34 оригинальных трека."
+        }
+      },
+      {
+        "heading": "Cocoteo FM и Back Country Radio",
+        "paragraphs": [
+          "Cocoteo FM отвечает за современную латиноамериканскую музыку. Ведущие El Martillo и La Gata будут ставить бачату, меренге, дембоу и реггетон.",
+          "Back Country Radio посвящена бунтарскому кантри. Эфир ведут MW и Delta Dawne, а к ним присоединяются выездной репортёр, болотный метеоролог и Mud Dog Mike, выходящий на связь прямо со своего аэроглиссера в Грассриверс."
+        ],
+        "images": [
+          {
+            "src": "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/o3982oa93a23k4/7ff9f9118130d6fcf9cd052fae3338f10b398ef1.jpg",
+            "alt": "Оформление Cocoteo FM в GTA VI",
+            "caption": "Cocoteo FM · официальный арт Rockstar Games"
+          },
+          {
+            "src": "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/o3982oa93a23k4/31eb656fc0c1a639ace98c6427abecb7d771b6c1.jpg",
+            "alt": "Оформление Back Country Radio в GTA VI",
+            "caption": "Back Country Radio · официальный арт Rockstar Games"
+          }
+        ]
+      },
+      {
+        "heading": "Африканская музыка, металл и возвращение Flash FM",
+        "paragraphs": [
+          "AfroBank FM объединяет африканскую музыку разных эпох: от классики XX века и малоизвестных записей до амапиано и 3-step. Подборкой занимаются ведущие Burna и Palmsy.",
+          "The Chamber 106.6 отдана металлу разных десятилетий, а за пультом находятся DJ Kerry и DJ Tom. Flash FM возвращается как поп-станция Вайс-Сити: её ведут Robyn и Alex.",
+          "Шестая раскрытая станция — Dirty South Classics. Ведущие Trick и Trina ставят классику южного рэпа и хип-хопа Леониды."
+        ],
+        "images": [
+          {
+            "src": "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/o3982oa93a23k4/696cf4278d5c13498c4d94b25987a7384823ced2.jpg",
+            "alt": "Оформление AfroBank FM в GTA VI",
+            "caption": "AfroBank FM · официальный арт Rockstar Games"
+          },
+          {
+            "src": "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/o3982oa93a23k4/8850fd9b2849e0a4c1295949cea7a6dfa201a46d.jpg",
+            "alt": "Логотип Flash FM в GTA VI",
+            "caption": "Flash FM · официальный арт Rockstar Games"
+          }
+        ]
+      },
+      {
+        "heading": "Подкасты по запросу и альбом из 34 треков",
+        "paragraphs": [
+          "В GTA VI впервые для серии появятся подкасты по запросу. Их, как и радио, можно слушать в транспорте и пешком — через смартфон и наушники персонажа.",
+          "Rockstar также готовит отдельный альбом GTA VI с 34 оригинальными композициями разных жанров. Предпрослушивание шести раскрытых станций уже доступно в музыкальном разделе официального сайта; детали динамического саундтрека и новые синглы объявят отдельно.",
+          "Grand Theft Auto VI выходит 19 ноября 2026 года на PS5 и Xbox Series X|S."
+        ],
+        "callout": {
+          "title": "Что слушать в Леониде",
+          "text": "Cocoteo FM — латино · Back Country Radio — кантри · AfroBank FM — африканская музыка · The Chamber 106.6 — металл · Flash FM — поп · Dirty South Classics — южный рэп и хип-хоп."
+        }
+      }
+    ]
+  },
+  {
     "slug": "gta-vi-xbox-cloud-streaming-rights-no-pc",
     "title": "GTA VI получит облачный запуск на Xbox — договор не эксклюзивный, на ПК стриминга не будет",
     "category": "Игры",
