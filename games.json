@@ -24,12 +24,12 @@
           "platform": "PS5",
           "prices": {
             "india": null,
-            "turkey": 7700
+            "turkey": null
           },
           "release": "16 февраля 2027",
           "storePrices": {
-            "india": 4999,
-            "turkey": 3449
+            "india": null,
+            "turkey": null
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/UP9000-PPSA19249_00-LAUFEY0000000000",
@@ -39,8 +39,8 @@
           "title": "God of War Laufey — Standard Edition",
           "verifiedAt": "2026-10-01",
           "storePriceVerifiedAt": {
-            "india": "2026-10-01T07:45:57Z",
-            "turkey": "2026-10-01T07:45:57Z"
+            "india": "2026-10-09T22:19:50Z",
+            "turkey": "2026-10-09T22:19:50Z"
           },
           "pricingBasis": {
             "turkey": {
@@ -89,7 +89,12 @@
               "verifiedAt": "2026-10-07T22:10:16Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
-          }
+          },
+          "availability": {
+            "india": "unavailable",
+            "turkey": "unavailable"
+          },
+          "availabilityLabel": "Сейчас недоступно"
         },
         {
           "discounts": {},
@@ -118,12 +123,12 @@
           "platform": "PS5",
           "prices": {
             "india": null,
-            "turkey": 8600
+            "turkey": null
           },
           "release": "16 февраля 2027",
           "storePrices": {
-            "india": 5599,
-            "turkey": 3849
+            "india": null,
+            "turkey": null
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/UP9000-PPSA19249_00-LAUFEYDDE0000000",
@@ -133,8 +138,8 @@
           "title": "God of War Laufey — Digital Deluxe Edition",
           "verifiedAt": "2026-10-01",
           "storePriceVerifiedAt": {
-            "india": "2026-10-01T07:45:57Z",
-            "turkey": "2026-10-01T07:45:57Z"
+            "india": "2026-10-09T22:19:50Z",
+            "turkey": "2026-10-09T22:19:50Z"
           },
           "pricingBasis": {
             "turkey": {
@@ -183,7 +188,12 @@
               "verifiedAt": "2026-10-07T22:10:16Z",
               "supplierUrl": "https://plati.market/seller/cnljaycee/1091690/?id_r=23800"
             }
-          }
+          },
+          "availability": {
+            "india": "unavailable",
+            "turkey": "unavailable"
+          },
+          "availabilityLabel": "Сейчас недоступно"
         },
         {
           "discounts": {},
@@ -207,7 +217,7 @@
           "platform": "PS5",
           "prices": {
             "india": null,
-            "turkey": 8800
+            "turkey": null
           },
           "pricingBasis": {
             "india": {
@@ -263,8 +273,8 @@
           },
           "release": "19 ноября",
           "storePrices": {
-            "india": 5999.0,
-            "turkey": 3999.0
+            "india": null,
+            "turkey": null
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/EP1004-PPSA01547_00-GTAVISTANDARD001",
@@ -274,9 +284,14 @@
           "title": "Grand Theft Auto VI — Standard Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T04:18:35Z",
-            "turkey": "2026-09-12T04:18:35Z"
-          }
+            "india": "2026-10-09T22:19:50Z",
+            "turkey": "2026-10-09T22:19:50Z"
+          },
+          "availability": {
+            "india": "unavailable",
+            "turkey": "unavailable"
+          },
+          "availabilityLabel": "Сейчас недоступно"
         },
         {
           "discounts": {},
@@ -301,7 +316,7 @@
           "platform": "PS5",
           "prices": {
             "india": null,
-            "turkey": 10700
+            "turkey": null
           },
           "pricingBasis": {
             "india": {
@@ -358,8 +373,8 @@
           },
           "release": "19 ноября",
           "storePrices": {
-            "india": 7499.0,
-            "turkey": 4999.0
+            "india": null,
+            "turkey": null
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/EP1004-PPSA01547_00-GTAVIULTIMATE001",
@@ -369,9 +384,14 @@
           "title": "Grand Theft Auto VI — Ultimate Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T04:18:35Z",
-            "turkey": "2026-09-12T04:18:35Z"
-          }
+            "india": "2026-10-09T22:19:50Z",
+            "turkey": "2026-10-09T22:19:50Z"
+          },
+          "availability": {
+            "india": "unavailable",
+            "turkey": "unavailable"
+          },
+          "availabilityLabel": "Сейчас недоступно"
         },
         {
           "discounts": {},
@@ -398,7 +418,7 @@
           "platform": "PS4 / PS5",
           "prices": {
             "india": null,
-            "turkey": 8800
+            "turkey": null
           },
           "pricingBasis": {
             "india": {
@@ -451,7 +471,7 @@
           "release": "25 сентября",
           "storePrices": {
             "india": 5999.0,
-            "turkey": 3999.0
+            "turkey": null
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/UP0006-PPSA34015_00-27STANDARDBUNDLE",
@@ -462,8 +482,12 @@
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
             "india": "2026-09-12T04:18:35Z",
-            "turkey": "2026-10-08T11:12:10.360163+00:00"
-          }
+            "turkey": "2026-10-09T22:19:50Z"
+          },
+          "availability": {
+            "turkey": "unavailable"
+          },
+          "availabilityLabel": "Сейчас недоступно"
         },
         {
           "discounts": {},
@@ -1099,7 +1123,7 @@
           "platform": "PS5",
           "prices": {
             "india": null,
-            "turkey": 7400
+            "turkey": null
           },
           "pricingBasis": {
             "india": {
@@ -1151,8 +1175,8 @@
           },
           "release": "23 октября",
           "storePrices": {
-            "india": 5999.0,
-            "turkey": 3199.0
+            "india": null,
+            "turkey": null
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/EP0002-PPSA07950_00-CODMW4STANDARD01",
@@ -1162,9 +1186,14 @@
           "title": "Call of Duty: Modern Warfare 4 — Standard Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T04:18:35Z",
-            "turkey": "2026-09-12T04:18:35Z"
-          }
+            "india": "2026-10-09T22:19:50Z",
+            "turkey": "2026-10-09T22:19:50Z"
+          },
+          "availability": {
+            "india": "unavailable",
+            "turkey": "unavailable"
+          },
+          "availabilityLabel": "Сейчас недоступно"
         },
         {
           "discounts": {},
@@ -1191,7 +1220,7 @@
           "platform": "PS5",
           "prices": {
             "india": null,
-            "turkey": 9700
+            "turkey": null
           },
           "pricingBasis": {
             "india": {
@@ -1243,8 +1272,8 @@
           },
           "release": "23 октября",
           "storePrices": {
-            "india": 8249.0,
-            "turkey": 4399.0
+            "india": null,
+            "turkey": null
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/EP0002-PPSA07950_00-CODMW4VAULT00001",
@@ -1254,9 +1283,14 @@
           "title": "Call of Duty: Modern Warfare 4 — Vault Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T04:18:35Z",
-            "turkey": "2026-09-12T04:18:35Z"
-          }
+            "india": "2026-10-09T22:19:50Z",
+            "turkey": "2026-10-09T22:19:50Z"
+          },
+          "availability": {
+            "india": "unavailable",
+            "turkey": "unavailable"
+          },
+          "availabilityLabel": "Сейчас недоступно"
         },
         {
           "discounts": {},
@@ -2388,7 +2422,7 @@
           "platform": "PS5",
           "prices": {
             "india": null,
-            "turkey": 6000
+            "turkey": null
           },
           "pricingBasis": {
             "india": {
@@ -2440,8 +2474,8 @@
           },
           "release": "29 октября",
           "storePrices": {
-            "india": 4299.0,
-            "turkey": 2379.0
+            "india": null,
+            "turkey": null
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/UB2134-PPSA34579_00-0622032276386943",
@@ -2451,9 +2485,14 @@
           "title": "Phantom Blade Zero — Standard Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T04:18:35Z",
-            "turkey": "2026-09-12T04:18:35Z"
-          }
+            "india": "2026-10-09T22:19:50Z",
+            "turkey": "2026-10-09T22:19:50Z"
+          },
+          "availability": {
+            "india": "unavailable",
+            "turkey": "unavailable"
+          },
+          "availabilityLabel": "Сейчас недоступно"
         },
         {
           "discounts": {},
@@ -2477,7 +2516,7 @@
           "platform": "PS5",
           "prices": {
             "india": null,
-            "turkey": 6900
+            "turkey": null
           },
           "pricingBasis": {
             "india": {
@@ -2529,8 +2568,8 @@
           },
           "release": "29 октября",
           "storePrices": {
-            "india": 5199.0,
-            "turkey": 2849.0
+            "india": null,
+            "turkey": null
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/UB2134-PPSA34579_00-0679049422108833",
@@ -2540,9 +2579,14 @@
           "title": "Phantom Blade Zero — Digital Deluxe Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T04:18:35Z",
-            "turkey": "2026-09-12T04:18:35Z"
-          }
+            "india": "2026-10-09T22:19:50Z",
+            "turkey": "2026-10-09T22:19:50Z"
+          },
+          "availability": {
+            "india": "unavailable",
+            "turkey": "unavailable"
+          },
+          "availabilityLabel": "Сейчас недоступно"
         },
         {
           "discounts": {},
@@ -2910,7 +2954,18 @@
           }
         },
         {
-          "discounts": {},
+          "discounts": {
+            "india": {
+              "percent": 25,
+              "endsAt": "2026-10-21T22:59:00Z",
+              "storeOriginal": 4999
+            },
+            "turkey": {
+              "percent": 25,
+              "endsAt": "2026-10-21T22:59:00Z",
+              "storeOriginal": 3449
+            }
+          },
           "edition": "Standard Edition",
           "editionId": "standard",
           "editionOrder": 0,
@@ -2973,8 +3028,8 @@
           },
           "release": "Уже в продаже",
           "storePrices": {
-            "india": 4999.0,
-            "turkey": 3449.0
+            "india": 3749,
+            "turkey": 2586.75
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/EP9000-PPSA07631_00-SAROS00000000000",
@@ -2984,8 +3039,8 @@
           "title": "SAROS — Standard Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T04:18:35Z",
-            "turkey": "2026-09-12T04:18:35Z"
+            "india": "2026-10-09T22:19:50Z",
+            "turkey": "2026-10-09T22:19:50Z"
           }
         },
         {
@@ -3602,7 +3657,7 @@
           "platform": "PS4 / PS5",
           "prices": {
             "india": null,
-            "turkey": 6700
+            "turkey": null
           },
           "pricingBasis": {
             "india": {
@@ -3649,7 +3704,7 @@
           "release": "Уже в продаже",
           "storePrices": {
             "india": 4799.0,
-            "turkey": 2799.0
+            "turkey": null
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/EP0700-PPSA09535_00-JJTKCDLXEDITION0",
@@ -3660,8 +3715,12 @@
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
             "india": "2026-10-08T22:04:00Z",
-            "turkey": "2026-10-08T22:08:00Z"
-          }
+            "turkey": "2026-10-09T22:19:50Z"
+          },
+          "availability": {
+            "turkey": "unavailable"
+          },
+          "availabilityLabel": "Сейчас недоступно"
         },
         {
           "discounts": {},
@@ -4352,7 +4411,7 @@
         },
         {
           "availability": {
-            "india": "available",
+            "india": "unavailable",
             "turkey": "available"
           },
           "discounts": {},
@@ -4421,11 +4480,11 @@
           },
           "release": "Уже в продаже",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T17:03:00Z",
+            "india": "2026-10-09T22:19:50Z",
             "turkey": "2026-10-08T11:12:22.632921+00:00"
           },
           "storePrices": {
-            "india": 2499.0,
+            "india": null,
             "turkey": 1749.0
           },
           "storeUrls": {
@@ -4434,7 +4493,8 @@
           },
           "summary": "Полная версия игры.",
           "title": "Halloween: The Game — Standard Edition",
-          "verifiedAt": "2026-09-12T17:03:00Z"
+          "verifiedAt": "2026-09-12T17:03:00Z",
+          "availabilityLabel": "Сейчас недоступно"
         },
         {
           "availability": {
@@ -4601,8 +4661,8 @@
           },
           "release": "Уже в продаже",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T17:03:00Z",
-            "turkey": "2026-10-08T11:12:10.619595+00:00"
+            "india": "2026-10-09T22:19:50Z",
+            "turkey": "2026-10-09T22:19:50Z"
           },
           "storePrices": {
             "india": 5999.0,
@@ -4723,8 +4783,8 @@
         },
         {
           "availability": {
-            "india": "available",
-            "turkey": "available"
+            "india": "unavailable",
+            "turkey": "unavailable"
           },
           "discounts": {},
           "edition": "Standard Edition",
@@ -4744,7 +4804,7 @@
           "platform": "PS5",
           "prices": {
             "india": null,
-            "turkey": 5400
+            "turkey": null
           },
           "pricingBasis": {
             "india": {
@@ -4793,12 +4853,12 @@
           },
           "release": "28 января",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T20:00:57Z",
-            "turkey": "2026-09-12T20:00:57Z"
+            "india": "2026-10-09T22:19:50Z",
+            "turkey": "2026-10-09T22:19:50Z"
           },
           "storePrices": {
-            "india": 2999.0,
-            "turkey": 2149.0
+            "india": null,
+            "turkey": null
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/EP9000-PPSA05719_00-UNTILDAWN2000001",
@@ -4806,12 +4866,13 @@
           },
           "summary": "Полная игра и бонусы предзаказа.",
           "title": "Until Dawn 2 — Standard Edition",
-          "verifiedAt": "2026-09-12T20:00:57Z"
+          "verifiedAt": "2026-09-12T20:00:57Z",
+          "availabilityLabel": "Сейчас недоступно"
         },
         {
           "availability": {
-            "india": "available",
-            "turkey": "available"
+            "india": "unavailable",
+            "turkey": "unavailable"
           },
           "discounts": {},
           "edition": "Digital Deluxe Edition",
@@ -4833,7 +4894,7 @@
           "platform": "PS5",
           "prices": {
             "india": null,
-            "turkey": 6300
+            "turkey": null
           },
           "pricingBasis": {
             "india": {
@@ -4882,12 +4943,12 @@
           },
           "release": "28 января",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T20:00:57Z",
-            "turkey": "2026-09-12T20:00:57Z"
+            "india": "2026-10-09T22:19:50Z",
+            "turkey": "2026-10-09T22:19:50Z"
           },
           "storePrices": {
-            "india": 3499.0,
-            "turkey": 2579.0
+            "india": null,
+            "turkey": null
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/EP9000-PPSA05719_00-UNTILDAWN2DDE001",
@@ -4895,12 +4956,13 @@
           },
           "summary": "Полная игра, Y2K Neon Vibes Pack и Dioramas of Death.",
           "title": "Until Dawn 2 — Digital Deluxe Edition",
-          "verifiedAt": "2026-09-12T20:00:57Z"
+          "verifiedAt": "2026-09-12T20:00:57Z",
+          "availabilityLabel": "Сейчас недоступно"
         },
         {
           "availability": {
-            "india": "available",
-            "turkey": "available"
+            "india": "unavailable",
+            "turkey": "unavailable"
           },
           "discounts": {},
           "edition": "Standard Edition",
@@ -4920,7 +4982,7 @@
           "platform": "PS5",
           "prices": {
             "india": null,
-            "turkey": 6300
+            "turkey": null
           },
           "pricingBasis": {
             "india": {
@@ -4969,12 +5031,12 @@
           },
           "release": "12 февраля",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T20:00:57Z",
-            "turkey": "2026-09-12T20:00:57Z"
+            "india": "2026-10-09T22:19:50Z",
+            "turkey": "2026-10-09T22:19:50Z"
           },
           "storePrices": {
-            "india": 3499.0,
-            "turkey": 2579.0
+            "india": null,
+            "turkey": null
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/UP5267-PPSA29000_00-TRLOASTND0000000",
@@ -4982,12 +5044,13 @@
           },
           "summary": "Полная игра и бонус предзаказа Survivor Outfit.",
           "title": "Tomb Raider: Legacy of Atlantis — Standard Edition",
-          "verifiedAt": "2026-09-12T20:00:57Z"
+          "verifiedAt": "2026-09-12T20:00:57Z",
+          "availabilityLabel": "Сейчас недоступно"
         },
         {
           "availability": {
-            "india": "available",
-            "turkey": "available"
+            "india": "unavailable",
+            "turkey": "unavailable"
           },
           "discounts": {},
           "edition": "Deluxe Edition",
@@ -5010,7 +5073,7 @@
           "platform": "PS5",
           "prices": {
             "india": null,
-            "turkey": 6800
+            "turkey": null
           },
           "pricingBasis": {
             "india": {
@@ -5059,12 +5122,12 @@
           },
           "release": "12 февраля",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T20:00:57Z",
-            "turkey": "2026-09-12T20:00:57Z"
+            "india": "2026-10-09T22:19:50Z",
+            "turkey": "2026-10-09T22:19:50Z"
           },
           "storePrices": {
-            "india": 3999.0,
-            "turkey": 2999.0
+            "india": null,
+            "turkey": null
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/UP5267-PPSA29000_00-TRLOADELX0000000",
@@ -5072,12 +5135,13 @@
           },
           "summary": "Полная игра, ранний доступ, образ и сюжетное дополнение.",
           "title": "Tomb Raider: Legacy of Atlantis — Deluxe Edition",
-          "verifiedAt": "2026-09-12T20:00:57Z"
+          "verifiedAt": "2026-09-12T20:00:57Z",
+          "availabilityLabel": "Сейчас недоступно"
         },
         {
           "availability": {
-            "india": "available",
-            "turkey": "available"
+            "india": "unavailable",
+            "turkey": "unavailable"
           },
           "discounts": {},
           "edition": "Standard Edition",
@@ -5097,7 +5161,7 @@
           "platform": "PS5",
           "prices": {
             "india": null,
-            "turkey": 6800
+            "turkey": null
           },
           "pricingBasis": {
             "india": {
@@ -5149,12 +5213,12 @@
           },
           "release": "23 февраля",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T23:10:47Z",
-            "turkey": "2026-09-12T23:10:47Z"
+            "india": "2026-10-09T22:19:50Z",
+            "turkey": "2026-10-09T22:19:50Z"
           },
           "storePrices": {
-            "india": 5499.0,
-            "turkey": 2999.0
+            "india": null,
+            "turkey": null
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/UP6312-PPSA31381_00-0202050640964065",
@@ -5162,12 +5226,13 @@
           },
           "summary": "Полная игра и бонусы предзаказа.",
           "title": "Fable — Standard Edition",
-          "verifiedAt": "2026-09-12T23:10:47Z"
+          "verifiedAt": "2026-09-12T23:10:47Z",
+          "availabilityLabel": "Сейчас недоступно"
         },
         {
           "availability": {
-            "india": "available",
-            "turkey": "available"
+            "india": "unavailable",
+            "turkey": "unavailable"
           },
           "discounts": {},
           "edition": "Premium Edition",
@@ -5191,7 +5256,7 @@
           "platform": "PS5",
           "prices": {
             "india": null,
-            "turkey": 9600
+            "turkey": null
           },
           "pricingBasis": {
             "india": {
@@ -5243,12 +5308,12 @@
           },
           "release": "18 февраля — ранний доступ",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T23:10:47Z",
-            "turkey": "2026-09-12T23:10:47Z"
+            "india": "2026-10-09T22:19:50Z",
+            "turkey": "2026-10-09T22:19:50Z"
           },
           "storePrices": {
-            "india": 7999.0,
-            "turkey": 4299.0
+            "india": null,
+            "turkey": null
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/UP6312-PPSA31381_00-0730774904492744",
@@ -5256,7 +5321,8 @@
           },
           "summary": "Полная игра, ранний доступ, Premium Content Pack, артбук, саундтрек и дополнение.",
           "title": "Fable — Premium Edition",
-          "verifiedAt": "2026-09-12T23:10:47Z"
+          "verifiedAt": "2026-09-12T23:10:47Z",
+          "availabilityLabel": "Сейчас недоступно"
         },
         {
           "availability": {
@@ -6423,7 +6489,18 @@
           }
         },
         {
-          "discounts": {},
+          "discounts": {
+            "india": {
+              "percent": 75,
+              "endsAt": "2026-10-21T22:59:00Z",
+              "storeOriginal": 4599
+            },
+            "turkey": {
+              "percent": 75,
+              "endsAt": "2026-10-21T22:59:00Z",
+              "storeOriginal": 2099
+            }
+          },
           "edition": "Standard Edition",
           "editionId": "standard",
           "editionOrder": 0,
@@ -6488,8 +6565,8 @@
           },
           "release": "Уже в продаже",
           "storePrices": {
-            "india": 4599.0,
-            "turkey": 2099.0
+            "india": 1149,
+            "turkey": 524.75
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/EP1004-CUSA08519_00-REDEMPTIONFULL02",
@@ -6499,8 +6576,8 @@
           "title": "Red Dead Redemption 2 — Standard Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T04:18:35Z",
-            "turkey": "2026-09-12T04:18:35Z"
+            "india": "2026-10-09T22:19:50Z",
+            "turkey": "2026-10-09T22:19:50Z"
           }
         },
         {
@@ -6960,7 +7037,18 @@
           }
         },
         {
-          "discounts": {},
+          "discounts": {
+            "india": {
+              "percent": 70,
+              "endsAt": "2026-10-21T22:59:00Z",
+              "storeOriginal": 4799
+            },
+            "turkey": {
+              "percent": 70,
+              "endsAt": "2026-10-21T22:59:00Z",
+              "storeOriginal": 2499
+            }
+          },
           "edition": "Standard Edition",
           "editionId": "standard",
           "editionOrder": 0,
@@ -7023,8 +7111,8 @@
           },
           "release": "Уже в продаже",
           "storePrices": {
-            "india": 4799.0,
-            "turkey": 2499.0
+            "india": 1439,
+            "turkey": 749.7
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/EP4133-PPSA10695_00-ATOMICHEARTGAME0",
@@ -7034,8 +7122,8 @@
           "title": "Atomic Heart — Standard Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T04:18:35Z",
-            "turkey": "2026-09-12T04:18:35Z"
+            "india": "2026-10-09T22:19:50Z",
+            "turkey": "2026-10-09T22:19:50Z"
           }
         },
         {
@@ -7983,7 +8071,18 @@
           }
         },
         {
-          "discounts": {},
+          "discounts": {
+            "india": {
+              "percent": 70,
+              "endsAt": "2026-10-21T22:59:00Z",
+              "storeOriginal": 2499
+            },
+            "turkey": {
+              "percent": 70,
+              "endsAt": "2026-10-21T22:59:00Z",
+              "storeOriginal": 1499.99
+            }
+          },
           "edition": "Standard Edition",
           "editionId": "standard",
           "editionOrder": 0,
@@ -8052,8 +8151,8 @@
           },
           "release": "Уже в продаже",
           "storePrices": {
-            "india": 2499.0,
-            "turkey": 1499.99
+            "india": 749,
+            "turkey": 449.99
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/EP0006-PPSA02343_00-ITTAKESTWORETAIL",
@@ -8063,12 +8162,23 @@
           "title": "It Takes Two — Standard Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T04:18:35Z",
-            "turkey": "2026-09-12T04:18:35Z"
+            "india": "2026-10-09T22:19:50Z",
+            "turkey": "2026-10-09T22:19:50Z"
           }
         },
         {
-          "discounts": {},
+          "discounts": {
+            "india": {
+              "percent": 70,
+              "endsAt": "2026-10-21T22:59:00Z",
+              "storeOriginal": 1499
+            },
+            "turkey": {
+              "percent": 70,
+              "endsAt": "2026-10-21T22:59:00Z",
+              "storeOriginal": 1049
+            }
+          },
           "edition": "Standard Edition",
           "editionId": "standard",
           "editionOrder": 0,
@@ -8127,8 +8237,8 @@
           },
           "release": "Уже в продаже",
           "storePrices": {
-            "india": 1499.0,
-            "turkey": 1049.0
+            "india": 449,
+            "turkey": 314.7
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/EP0006-CUSA08004_00-AWAYOUTEU0000000",
@@ -8138,8 +8248,8 @@
           "title": "A Way Out — Standard Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T04:18:35Z",
-            "turkey": "2026-09-12T04:18:35Z"
+            "india": "2026-10-09T22:19:50Z",
+            "turkey": "2026-10-09T22:19:50Z"
           }
         },
         {
@@ -8298,7 +8408,18 @@
           }
         },
         {
-          "discounts": {},
+          "discounts": {
+            "india": {
+              "percent": 70,
+              "endsAt": "2026-10-21T22:59:00Z",
+              "storeOriginal": 2499
+            },
+            "turkey": {
+              "percent": 70,
+              "endsAt": "2026-10-21T22:59:00Z",
+              "storeOriginal": 1399
+            }
+          },
           "edition": "Standard Edition",
           "editionId": "standard",
           "editionOrder": 0,
@@ -8367,8 +8488,8 @@
           },
           "release": "Уже в продаже",
           "storePrices": {
-            "india": 2499.0,
-            "turkey": 1399.0
+            "india": 749,
+            "turkey": 419.7
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/EP4064-PPSA01528_00-0538983162460184",
@@ -8378,12 +8499,18 @@
           "title": "Overcooked! All You Can Eat — Standard Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T04:18:35Z",
-            "turkey": "2026-09-12T04:18:35Z"
+            "india": "2026-10-09T22:19:50Z",
+            "turkey": "2026-10-09T22:19:50Z"
           }
         },
         {
-          "discounts": {},
+          "discounts": {
+            "india": {
+              "percent": 75,
+              "endsAt": "2026-10-21T22:59:00Z",
+              "storeOriginal": 1664
+            }
+          },
           "edition": "Standard Edition",
           "editionId": "standard",
           "editionOrder": 0,
@@ -8396,7 +8523,7 @@
           "platform": "PS4 / PS5 (обратная совместимость)",
           "prices": {
             "india": null,
-            "turkey": 1700
+            "turkey": null
           },
           "pricingBasis": {
             "india": {
@@ -8436,8 +8563,8 @@
           },
           "release": "Уже в продаже",
           "storePrices": {
-            "india": 1664.0,
-            "turkey": 99.99
+            "india": 416,
+            "turkey": null
           },
           "storeUrls": {
             "india": "https://store.playstation.com/en-in/product/EP0006-CUSA10416_00-COLDWOODPIKE0000",
@@ -8447,9 +8574,13 @@
           "title": "Unravel Two — Standard Edition",
           "verifiedAt": "2026-09-05",
           "storePriceVerifiedAt": {
-            "india": "2026-09-12T04:18:35Z",
-            "turkey": "2026-09-12T04:18:35Z"
-          }
+            "india": "2026-10-09T22:19:50Z",
+            "turkey": "2026-10-09T22:19:50Z"
+          },
+          "availability": {
+            "turkey": "unavailable"
+          },
+          "availabilityLabel": "Сейчас недоступно"
         },
         {
           "discounts": {},
