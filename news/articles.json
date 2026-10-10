@@ -1,5 +1,81 @@
 [
   {
+    "slug": "forza-horizon-6-ps5-january-26-cross-save",
+    "title": "Forza Horizon 6 выйдет на PS5 26 января — с кросс-сейвами и режимом 60 FPS",
+    "category": "Игры",
+    "published": "2026-10-10T19:02:42+10:00",
+    "sourceDate": "8 октября 2026",
+    "description": "Forza Horizon 6 выйдет на PS5 26 января 2027 года. Версия для консоли Sony получит режим 60 FPS, кроссплей, перенос сохранений между PS5, Xbox и Steam, а также общий пользовательский контент.",
+    "image": "https://cdn.forza.net/strapi-uploads/assets/large_FH_6_Play_Station_Announce_02_Tokyo_Neon_16x9_e33ad41b53.jpg",
+    "imageAlt": "Спорткары едут по ночному Токио в Forza Horizon 6 — официальный кадр Playground Games",
+    "source": "https://forza.net/news/forza-horizon-6-pre-order-ps5",
+    "sourceName": "Forza · Playground Games",
+    "product": "catalog",
+    "readingMinutes": 3,
+    "sections": [
+      {
+        "heading": "Обычный релиз — 26 января, ранний доступ — 21 января",
+        "paragraphs": [
+          "Forza Horizon 6 выйдет на PlayStation 5 26 января 2027 года. В этот день станут доступны Standard и Deluxe Edition, а владельцы Premium Edition смогут начать играть на пять дней раньше — 21 января.",
+          "PS5-версию разрабатывает Panic Button вместе с Playground Games и Turn 10 Studios. Эта же студия переносила на консоль Sony Forza Horizon 5. Помимо цифрового издания, игру выпустят на диске у поддерживающих релиз ретейлеров."
+        ],
+        "callout": {
+          "title": "Главные даты",
+          "text": "21 января 2027 — ранний доступ Premium Edition и первое дополнение · 26 января — Standard и Deluxe Edition на PS5."
+        },
+        "images": [
+          {
+            "src": "https://cdn.forza.net/strapi-uploads/assets/large_FH_6_PS_Announce_Pre_Order_Static_Box_Art_3840x2160_4e1a78a199.jpg",
+            "alt": "Издания Forza Horizon 6 для PlayStation 5",
+            "caption": "Издания Forza Horizon 6 для PS5 · официальный арт Playground Games / Xbox Game Studios"
+          }
+        ]
+      },
+      {
+        "heading": "На PS5 будут режимы 4K 30 FPS и 60 FPS",
+        "paragraphs": [
+          "Трейлер предзаказа записан на базовой PlayStation 5 в режиме качества с разрешением 4K и частотой 30 кадров в секунду. Для игроков, которым важнее плавность, разработчики подготовили отдельный режим производительности с 60 FPS.",
+          "Предзаказ любого издания даёт настроенную Ferrari J50. Автомобиль появится в гараже после прохождения пролога."
+        ],
+        "callout": {
+          "title": "Два режима изображения",
+          "text": "Quality — 4K и 30 FPS · Performance — 60 FPS. Подтверждение относится и к базовой PS5."
+        },
+        "images": [
+          {
+            "src": "https://cdn.forza.net/strapi-uploads/assets/large_FH_6_Play_Station_Announce_01_Spring_Cherry_Blossoms_16x9_WM_8573f07327.jpg",
+            "alt": "Автомобили на японской дороге среди цветущей сакуры в Forza Horizon 6",
+            "caption": "Весенняя Япония в Forza Horizon 6 · официальный кадр Playground Games / Xbox Game Studios"
+          }
+        ]
+      },
+      {
+        "heading": "Прогресс переносится между PS5, Xbox и Steam",
+        "paragraphs": [
+          "Версия для PS5 поддерживает кроссплей и кросс-сейвы с Xbox и Steam. Игроки смогут продолжить прохождение на другой платформе и участвовать в общих заездах.",
+          "Пользовательский контент тоже станет общим: на PS5 с первого дня будут доступны созданные сообществом гонки EventLab, заготовки, гаражи, поместья, ливреи и настройки автомобилей.",
+          "Первое платное дополнение выйдет на всех платформах 21 января. Оно включено в Premium Edition, Premium Upgrade и Expansions Bundle, а также будет продаваться отдельно. В январе игра дополнительно получит бесплатное контентное обновление для всех платформ."
+        ],
+        "callout": {
+          "title": "Что объединят между платформами",
+          "text": "Сетевые заезды · сохранения · EventLab · Prefabs · Garages · Estates · ливреи · настройки автомобилей."
+        },
+        "images": [
+          {
+            "src": "https://cdn.forza.net/strapi-uploads/assets/large_FH_6_Play_Station_Announce_03_Winter_Offroad_16x9_WM_b1bb6c227f.jpg",
+            "alt": "Внедорожники едут по снежной японской трассе в Forza Horizon 6",
+            "caption": "Зимний заезд в Forza Horizon 6 · официальный кадр Playground Games / Xbox Game Studios"
+          },
+          {
+            "src": "https://cdn.forza.net/strapi-uploads/assets/large_FH_6_Play_Station_Announce_04_Summer_House_16x9_WM_d0bc04afda.jpg",
+            "alt": "Автомобили у японского дома летом в Forza Horizon 6",
+            "caption": "Летняя локация Forza Horizon 6 · официальный кадр Playground Games / Xbox Game Studios"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "slug": "rockbeasts-ps5-january-2027-critical-role-cast",
     "title": "Rockbeasts выйдет на PS5 в январе 2027 года — к актёрскому составу присоединились звёзды Critical Role",
     "category": "Игры",
