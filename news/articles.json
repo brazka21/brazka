@@ -1,5 +1,78 @@
 [
   {
+    "slug": "tales-of-eternia-remastered-ps5-release",
+    "title": "Tales of Eternia Remastered вышла на PS5 — с двумя режимами графики и ускорением боёв",
+    "category": "Игры",
+    "published": "2026-10-17T19:06:00+10:00",
+    "sourceDate": "16 октября 2026",
+    "description": "Bandai Namco выпустила Tales of Eternia Remastered на PS5. Переиздание классической RPG позволяет переключать оригинальную и обновлённую графику и звук, настраивать темп прокачки и ускорять автоматические бои.",
+    "image": "https://us-east-1-bandai.graphassets.com/AXzioIclSWilEjFtsMJPwz/cmq05j8r2cja907lfmq5f1sbr",
+    "imageAlt": "Рид, Фара, Киль и Мереди на официальной иллюстрации Tales of Eternia Remastered",
+    "source": "https://www.bandainamcoent.com/news/tales-of-eternia-remastered-available-now",
+    "sourceName": "Bandai Namco Entertainment",
+    "product": "catalog",
+    "readingMinutes": 4,
+    "sections": [
+      {
+        "heading": "Ремастер уже доступен на PS5 и PS4",
+        "paragraphs": [
+          "Bandai Namco выпустила Tales of Eternia Remastered 16 октября. Обновлённая версия классической ролевой игры доступна на PlayStation 5, PlayStation 4, Xbox Series X|S, Nintendo Switch, Nintendo Switch 2 и ПК.",
+          "Оригинальная Tales of Eternia вышла в 2001 году и была известна в Северной Америке под названием Tales of Destiny II. Ремастер сохраняет двухмерную боевую систему в реальном времени и дополняет её современными настройками удобства."
+        ],
+        "callout": {
+          "title": "Главное",
+          "text": "Релиз состоялся 16 октября · версии для PS5 и PS4 · одиночная RPG · обновлённая графика и звук · расширенные настройки сложности."
+        },
+        "images": [
+          {
+            "src": "https://us-east-1-bandai.graphassets.com/AXzioIclSWilEjFtsMJPwz/cmr9b6lkr1mk707ljprs2c5zw",
+            "alt": "Рид Хершел улыбается на официальном кадре Tales of Eternia Remastered",
+            "caption": "Рид Хершел возглавляет путешествие между двумя мирами · официальный материал Bandai Namco Entertainment"
+          }
+        ]
+      },
+      {
+        "heading": "Графику и звуковые эффекты можно вернуть к оригиналу",
+        "paragraphs": [
+          "В Graphics Mode игрок свободно переключается между обновлённым изображением и визуальным оформлением оригинальной версии. Отдельный SFX Mode таким же образом меняет переработанные звуковые эффекты на классические.",
+          "Такой подход позволяет пройти игру с современными улучшениями или сохранить её исходное аудиовизуальное оформление без отдельного запуска другой версии."
+        ],
+        "images": [
+          {
+            "src": "https://us-east-1-bandai.graphassets.com/AXzioIclSWilEjFtsMJPwz/cmv8bqnjg1suy07le2s2scmo5",
+            "alt": "Рид смотрит на пейзаж в официальном релизном трейлере Tales of Eternia Remastered",
+            "caption": "Ремастер сохраняет рисованную стилистику оригинальной RPG · кадр официального релизного трейлера Bandai Namco Entertainment"
+          }
+        ]
+      },
+      {
+        "heading": "Темп прокачки и частоту встреч разрешили настраивать",
+        "paragraphs": [
+          "Функция Boost регулирует количество получаемого опыта и частоту случайных встреч. На карте можно включить указатели цели, а автоматическое управление персонажами в бою поддерживает ускоренный режим.",
+          "В число дополнительных улучшений входят повтор сражения после поражения и быстрое восстановление. Сложность Extreme открыта с самого начала, а новый уровень Unknown становится доступен после завершения игры."
+        ],
+        "callout": {
+          "title": "Новые настройки",
+          "text": "Изменение опыта и частоты встреч · указатели цели · ускорение Auto-mode · повтор боя · быстрое восстановление · Extreme сразу и Unknown после прохождения."
+        }
+      },
+      {
+        "heading": "Четыре героя должны остановить столкновение двух миров",
+        "paragraphs": [
+          "История объединяет Рида Хершела, Фару, Киля и загадочную Мереди. Герои путешествуют по Инферии и Селестии — двум мирам, которые видят друг друга в небе.",
+          "Их цель — предотвратить катастрофу Grand Fall, способную уничтожить оба мира. Для этого группе предстоит найти Greater Craymels и заручиться силой элементальных духов."
+        ],
+        "images": [
+          {
+            "src": "https://us-east-1-bandai.graphassets.com/AXzioIclSWilEjFtsMJPwz/cmur909s5rp2607lcjowr9qai",
+            "alt": "Состав цифрового Deluxe Edition Tales of Eternia Remastered",
+            "caption": "Цифровое Deluxe Edition включает игру, артбук, саундтрек и дополнительные наборы · официальный материал Bandai Namco Entertainment"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "slug": "squad-ps5-alpha-october-16-25-console-2027",
     "title": "Squad анонсировали для PS5 — бесплатная альфа идёт до 25 октября",
     "category": "Игры",
