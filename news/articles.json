@@ -1,5 +1,87 @@
 [
   {
+    "slug": "modern-warfare-4-campaign-early-access-ps5",
+    "title": "Кампания Modern Warfare 4 уже доступна на PS5 — 16 миссий до общего релиза",
+    "category": "Игры",
+    "published": "2026-10-18T19:00:22+10:00",
+    "sourceDate": "16 октября 2026",
+    "description": "Владельцы цифрового предзаказа Modern Warfare 4 на PS5 уже могут пройти всю кампанию из 16 миссий. События охватят Корею, Париж, Нью-Йорк и Мумбаи, а полученные награды откроются в мультиплеере и DMZ.",
+    "image": "https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/campaign-live/MW4-CAMPAIGNLIVE-TOUT.jpg",
+    "imageAlt": "Два бойца Modern Warfare 4 на официальной обложке раннего доступа к кампании",
+    "source": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-campaign-early-access-live-now",
+    "sourceName": "Call of Duty",
+    "product": "cod-mw4",
+    "readingMinutes": 3,
+    "sections": [
+      {
+        "heading": "В раннем доступе открыта вся кампания",
+        "paragraphs": [
+          "Activision открыла ранний доступ ко всей сюжетной кампании Call of Duty: Modern Warfare 4. На PS5 он доступен владельцам цифрового предзаказа Standard Edition и Vault Edition и продлится до общего релиза 23 октября.",
+          "Кампания состоит из 16 миссий. Условие касается именно цифрового предзаказа или предварительной покупки — физическое издание в программу раннего доступа не входит."
+        ],
+        "callout": {
+          "title": "Как начать на PS5",
+          "text": "Цифровой предзаказ Standard или Vault Edition · вся кампания из 16 миссий · ранний доступ до релиза 23 октября."
+        },
+        "images": [
+          {
+            "src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/campaign-live/MW4-CAMPAIGNLIVE-001.webp",
+            "alt": "Солдат Республики Корея внутри военного транспорта в Modern Warfare 4",
+            "caption": "Кампания начинается на фоне полномасштабного вторжения на Корейский полуостров · официальный кадр Activision / Infinity Ward"
+          }
+        ]
+      },
+      {
+        "heading": "Пак Хён Джун отражает вторжение, Прайс ищет организатора",
+        "paragraphs": [
+          "Игрок принимает роль рядового Пак Хён Джуна: он вместе со своим отрядом противостоит полномасштабному вторжению на Корейский полуостров. Параллельно ставший вне закона Джон Прайс разыскивает человека, который управляет событиями из-за кулис.",
+          "Сюжетные операции проходят не только в Корее. В официальный список локаций также входят Париж, Нью-Йорк и Мумбаи."
+        ],
+        "images": [
+          {
+            "src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/campaign-live/MW4-CAMPAIGNLIVE-003.webp",
+            "alt": "Отряд южнокорейских солдат у автомобиля в дыму в Modern Warfare 4",
+            "caption": "Пак Хён Джун и его отряд становятся одной из центральных линий кампании · официальный кадр Activision / Infinity Ward"
+          },
+          {
+            "src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/campaign-live/MW4-CAMPAIGNLIVE-004.webp",
+            "alt": "Капитан Прайс в сюжетной кампании Modern Warfare 4",
+            "caption": "Джон Прайс ведёт собственную охоту на организатора конфликта · официальный кадр Activision / Infinity Ward"
+          }
+        ]
+      },
+      {
+        "heading": "За прохождение дадут восемь оперативников и жетоны опыта",
+        "paragraphs": [
+          "Награды выдаются последовательно по мере прохождения миссий. После полного запуска игры их можно будет использовать в мультиплеере и DMZ."
+        ],
+        "items": [
+          "Восемь базовых оперативников: Cho, Dallas, Luca, Oh-Ji, Kal, Dunn, West и Park.",
+          "Три жетона двойного опыта и два жетона двойного опыта оружия.",
+          "Визитная карточка No More Rules, экран загрузки Ready Line и эмблема Gone Dark."
+        ],
+        "images": [
+          {
+            "src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/campaign-live/MW4-CAMPAIGNLIVE-002.webp",
+            "alt": "Награды за прохождение кампании Modern Warfare 4",
+            "caption": "Награды кампании перейдут в мультиплеер и DMZ после полного запуска · официальный материал Activision / Infinity Ward"
+          }
+        ]
+      },
+      {
+        "heading": "DMZ откроется 20 октября, полный релиз — 23 октября",
+        "paragraphs": [
+          "Следующий этап раннего доступа начнётся 20 октября: владельцам цифрового предзаказа откроют весь режим DMZ. Полный запуск Modern Warfare 4 на PS5 состоится 23 октября.",
+          "К этому дню станут доступны мультиплеер и заработанные в кампании награды. Для сетевых режимов на PS5 потребуется PlayStation Plus."
+        ],
+        "callout": {
+          "title": "Ближайшие даты",
+          "text": "Кампания уже доступна · ранний доступ к DMZ — 20 октября · полный релиз — 23 октября."
+        }
+      }
+    ]
+  },
+  {
     "slug": "tales-of-eternia-remastered-ps5-release",
     "title": "Tales of Eternia Remastered вышла на PS5 — с двумя режимами графики и ускорением боёв",
     "category": "Игры",
