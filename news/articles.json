@@ -1,5 +1,92 @@
 [
   {
+    "slug": "modern-warfare-4-weapon-camos-prestige",
+    "title": "Modern Warfare 4 объединит камуфляжи между мультиплеером и DMZ — оружие получит свой Prestige",
+    "category": "Игры",
+    "published": "2026-10-20T19:02:14+10:00",
+    "sourceDate": "19 октября 2026",
+    "description": "В Modern Warfare 4 прогресс оружейных камуфляжей будет общим для мультиплеера и DMZ. После максимального уровня оружие можно отправить в Prestige, сбросив уровень и большинство модулей ради развивающегося камуфляжа Pyroclast.",
+    "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/rfl-progression/MW4-RFL-PROGRESSION-022.webp",
+    "imageAlt": "Четыре завершающих камуфляжа оружия Modern Warfare 4: Gold, Platinum, Harmonic Break и Divergence",
+    "source": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-ready-for-launch-progression-prestige",
+    "sourceName": "Call of Duty",
+    "product": "cod-mw4",
+    "readingMinutes": 4,
+    "sections": [
+      {
+        "heading": "Одна шкала камуфляжей для мультиплеера и DMZ",
+        "paragraphs": [
+          "Прогресс оружейных камуфляжей в Modern Warfare 4 будет общим для мультиплеера и DMZ. Задания автоматически меняют требования под выбранный режим: в DMZ учитываются неигровые противники, поэтому нужное число устранений обычно выше.",
+          "У каждого оружия есть восемь Military Camo. Они открываются последовательно за уровни конкретного ствола и не переносятся на другие модели. Ещё три Special Camo уникальны для каждого оружия, но после выполнения задания становятся доступны всему арсеналу."
+        ],
+        "callout": {
+          "title": "Главное",
+          "text": "8 Military Camo и 3 Special Camo на каждое оружие · прогресс общий для мультиплеера и DMZ · открытый Special Camo можно использовать на других стволах."
+        },
+        "images": [
+          {
+            "src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/rfl-progression/MW4-RFL-PROGRESSION-019.webp",
+            "alt": "Восемь базовых Military Camo на штурмовой винтовке HAN 86 в Modern Warfare 4",
+            "caption": "Military Camo привязаны к уровню каждого отдельного оружия · официальный материал Activision / Infinity Ward"
+          }
+        ]
+      },
+      {
+        "heading": "Special Camo пополняют общий набор",
+        "paragraphs": [
+          "Задания Special Camo включают серии убийств, выстрелы в голову, дальние устранения и другие боевые условия. Для HAN 86, например, одно из испытаний требует 20 убийств из положения с упором в мультиплеере или 75 убийств в DMZ.",
+          "Следующее испытание той же винтовки засчитывает 50 убийств с глушителем в мультиплеере либо 125 устранений противников в DMZ. Достаточно выполнить условие в одном режиме — камуфляж откроется во всех."
+        ],
+        "images": [
+          {
+            "src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/rfl-progression/MW4-RFL-PROGRESSION-020.webp",
+            "alt": "Восемь ярких Special Camo на винтовке HAN 86 в Modern Warfare 4",
+            "caption": "Три уникальных Special Camo каждого ствола после разблокировки входят в общий набор · официальный материал Activision / Infinity Ward"
+          }
+        ]
+      },
+      {
+        "heading": "Финальная цепочка ведёт к Divergence и мастерским расцветкам",
+        "paragraphs": [
+          "После восьми Military Camo и трёх Special Camo открывается цепочка Completionist. Она начинается с Gold, затем продолжается Platinum и Harmonic Break. Для получения Divergence нужно завершить 33 испытания Harmonic Break.",
+          "Дальше прогресс разделяется по режимам. В мультиплеере предусмотрены три Mastery Camo — Mercurial Drift, Polyatomic Reforged и Orion Reforged. В DMZ им соответствуют Chiral, Ripple Tide и Helio. Ещё три мастерских камуфляжа Warzone появятся с первым сезоном."
+        ],
+        "callout": {
+          "title": "Четыре Completionist Camo",
+          "text": "Gold → Platinum → Harmonic Break → Divergence. Для Divergence требуется завершить 33 испытания Harmonic Break."
+        }
+      },
+      {
+        "heading": "Weapon Prestige сбрасывает уровень и снова закрывает модули",
+        "paragraphs": [
+          "Достигнув максимального уровня оружия, игрок сможет добровольно отправить его в Weapon Prestige. Уровень вернётся к первому, а большинство модулей снова окажутся закрыты. Исключение составят Apex Attachments и модули из оружейных чертежей.",
+          "Уже открытые камуфляжи, прицелы, аксессуары, наклейки и чертежи сохранятся. Общие модули на других стволах также не будут закрыты повторно. Взамен игрок получит новый значок Prestige и доступ к развивающемуся камуфляжу Pyroclast."
+        ],
+        "images": [
+          {
+            "src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/rfl-progression/MW4-RFL-PROGRESSION-042.webp",
+            "alt": "Экран Weapon Prestige для винтовки HAN 86 с предупреждением о сбросе уровня и модулей",
+            "caption": "Weapon Prestige возвращает ствол на первый уровень, но не стирает косметику · официальный материал Activision / Infinity Ward"
+          }
+        ]
+      },
+      {
+        "heading": "На Master Prestige оружие дойдёт до 250-го уровня",
+        "paragraphs": [
+          "После повторного достижения максимального уровня оружие автоматически перейдёт в Master Prestige. Второго сброса не будет: все заработанные модули сохранятся, а дальнейшая прокачка откроет ещё две стадии Pyroclast.",
+          "Pyroclast Scatter выдаётся на 150-м уровне Master Prestige, Pyroclast Cascade — на 250-м. Владельцы цифрового предзаказа могут начать общую прокачку оружия в раннем доступе к DMZ с 20 октября; полный релиз Modern Warfare 4 на PS5 состоится 23 октября."
+        ],
+        "images": [
+          {
+            "src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/rfl-progression/MW4-RFL-PROGRESSION-047.webp",
+            "alt": "Анимированный камуфляж Pyroclast Cascade на винтовке HAN 86 в Modern Warfare 4",
+            "caption": "Pyroclast Cascade — награда за 250-й уровень Weapon Prestige Master · официальный материал Activision / Infinity Ward"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "slug": "saros-zenith-update-new-game-plus-overlord-rush",
     "title": "Saros получила бесплатное обновление Zenith — New Game+ и забег по восьми боссам",
     "category": "Игры",
