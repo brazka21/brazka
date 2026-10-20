@@ -1,5 +1,78 @@
 [
   {
+    "slug": "saros-zenith-update-new-game-plus-overlord-rush",
+    "title": "Saros получила бесплатное обновление Zenith — New Game+ и забег по восьми боссам",
+    "category": "Игры",
+    "published": "2026-10-20T11:07:28+10:00",
+    "sourceDate": "19 октября 2026",
+    "description": "Housemarque выпустила бесплатное обновление Zenith для Saros на PS5. Оно добавляет New Game+ с изменяемыми правилами, режим Overlord Rush со всеми восемью боссами и новые настройки доступности.",
+    "image": "https://blog.playstation.com/tachyon/2026/10/9aa3044b4b1785651b3dfe461fc0dcc1ce503a67-scaled.jpg?crop_strategy=smart&resize=1088%2C612",
+    "imageAlt": "Арджун в золотой броне в обновлении Saros: Zenith",
+    "source": "https://blog.playstation.com/2026/10/19/the-saros-zenith-update-out-today-brings-more-ways-to-play-for-newcomers-and-veterans-alike/",
+    "sourceName": "PlayStation Blog",
+    "product": "saros",
+    "readingMinutes": 4,
+    "sections": [
+      {
+        "heading": "Обновление Zenith уже доступно всем владельцам Saros",
+        "paragraphs": [
+          "Housemarque выпустила обновление Zenith для Saros на PlayStation 5. Оно доступно с 19 октября всем владельцам игры без дополнительной платы.",
+          "Главные дополнения рассчитаны на повторное прохождение: режим Eclipse Layers меняет правила после финала, а Overlord Rush собирает боссов основной игры в отдельные скоростные испытания."
+        ],
+        "callout": {
+          "title": "Главное",
+          "text": "Бесплатно для владельцев Saros · New Game+ Eclipse Layers · Overlord Rush с восемью боссами · 20 новых модификаторов · замедление игры и автоматический огонь."
+        }
+      },
+      {
+        "heading": "Eclipse Layers меняет правила после прохождения",
+        "paragraphs": [
+          "После завершения Saros в Матрице брони на базе Passage появляются новые узлы, открывающие следующий Eclipse Layer. Перед началом игрок собирает набор модификаторов Каркосы и должен набрать установленный порог сложности.",
+          "Zenith добавляет десять защитных модификаторов, смягчающих испытание, и десять новых модификаторов Trials для его усложнения. Всего в Eclipse Layers доступно 25 Trials, которые разрешено сочетать между собой.",
+          "Чем больше испытаний активно, тем крупнее становится корона Арджуна и тем ярче золотое свечение его брони. Корона также открывает дополнительные фрагменты текста в 12 новых коллекционных Visions, спрятанных по Каркосе."
+        ],
+        "images": [
+          {
+            "src": "https://blog.playstation.com/uploads/2026/10/33d33930abdf1c11cdf37d5c3f30d60261eaedb3.jpg",
+            "alt": "Арджун с золотой короной сражается с противниками в Saros: Zenith",
+            "caption": "Размер короны и золотое свечение брони зависят от набора активных Trials · официальный кадр Housemarque / Sony Interactive Entertainment"
+          }
+        ]
+      },
+      {
+        "heading": "Overlord Rush объединяет всех восьмерых боссов",
+        "paragraphs": [
+          "Режим Overlord Rush запускается через Primary Unit на базе Passage. Это серия скоростных боёв с Overlords из основной игры и таблицей результатов.",
+          "Наборы Incursion и Ascension включают по три босса и рассчитаны примерно на десять минут каждый. Финальный набор Totality выстраивает всех восьмерых Overlords в одну непрерывную цепочку.",
+          "Результаты можно сравнивать с друзьями и игроками со всего мира, а глобальную таблицу — фильтровать по основному оружию. Для сетевых функций нужны интернет и учётная запись PlayStation."
+        ],
+        "callout": {
+          "title": "Три варианта забега",
+          "text": "Incursion — три босса · Ascension — три босса · Totality — все восемь Overlords подряд."
+        },
+        "images": [
+          {
+            "src": "https://blog.playstation.com/uploads/2026/10/82ca8188b5a63d9c0d1590043959bcddf9b607bc.jpg",
+            "alt": "Арджун уклоняется от атаки крупного Overlord в Saros: Zenith",
+            "caption": "Overlord Rush превращает сражения с боссами в отдельные скоростные испытания · официальный кадр Housemarque / Sony Interactive Entertainment"
+          },
+          {
+            "src": "https://blog.playstation.com/uploads/2026/10/c4bf7fc011141902d418b70006619b7ec8bbc439.jpg",
+            "alt": "Экран выбора набора Overlord Rush в Saros: Zenith",
+            "caption": "В меню режима доступны Incursion, Ascension и финальный набор Totality · официальный кадр Housemarque / Sony Interactive Entertainment"
+          }
+        ]
+      },
+      {
+        "heading": "Скорость боя можно снизить, стрельбу — автоматизировать",
+        "paragraphs": [
+          "Настройка Slow Game Speed замедляет игру, не сокращая число снарядов и не меняя атаки противников. Степень замедления регулируется; функцию можно включать вручную либо настроить автоматическое срабатывание во время боя.",
+          "Auto-fire открывает огонь, когда прицел наведён на врага. Перезарядка при этом остаётся ручной, включая точное нажатие для идеальной перезарядки. В обновлении также появилось прицеливание с помощью датчиков движения контроллера."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "modern-warfare-4-campaign-early-access-ps5",
     "title": "Кампания Modern Warfare 4 уже доступна на PS5 — 16 миссий до общего релиза",
     "category": "Игры",
