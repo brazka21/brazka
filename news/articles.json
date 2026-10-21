@@ -1,5 +1,78 @@
 [
   {
+    "slug": "final-fantasy-resonance-26-visions-ps5",
+    "title": "Final Fantasy Resonance получит 26 героев-Visions — среди них Cloud, Sephiroth и Lightning",
+    "category": "Игры",
+    "published": "2026-10-21T11:08:46+10:00",
+    "sourceDate": "20 октября 2026",
+    "description": "В Final Fantasy Resonance можно найти 26 героев-Visions из разных частей серии. Они усиливают характеристики отряда, открывают магию и приёмы, а после ошеломления всех врагов проводят кинематографические атаки Resonance.",
+    "image": "https://blog.playstation.com/tachyon/2048/10/b2c7ca25d91b7dd6592fe89b4e9f59d9b914eb00.jpg?resize=1088%2C612&crop_strategy=smart",
+    "imageAlt": "Cloud и другие герои Final Fantasy появляются в роли Visions в Final Fantasy Resonance",
+    "source": "https://blog.playstation.com/2026/10/20/how-final-fantasy-resonance-uses-visions-to-change-how-we-see-the-series/",
+    "sourceName": "PlayStation Blog",
+    "product": "catalog",
+    "readingMinutes": 4,
+    "sections": [
+      {
+        "heading": "В игре спрятаны 26 Visions из всей серии Final Fantasy",
+        "paragraphs": [
+          "Final Fantasy Resonance объединит 26 героев-Visions из всех 16 номерных частей серии и Final Fantasy Brave Exvius. В список входят Cloud, Sephiroth, Terra, Warrior of Light, Lightning, Noctis и Zidane, а также оригинальные персонажи вроде чёрного мага Tronn.",
+          "Visions находятся в кристальных святилищах мира Lapis. Каждая встреча начинается с короткой истории о герое и вопросов с вариантами ответа, после чего нового компаньона можно экипировать одному из участников отряда."
+        ],
+        "callout": {
+          "title": "26 героев из 16 номерных игр",
+          "text": "Cloud, Sephiroth, Terra, Warrior of Light, Lightning, Noctis, Zidane и персонажи Final Fantasy Brave Exvius."
+        },
+        "images": [
+          {
+            "src": "/assets/news/final-fantasy-resonance-visions/vision-awakening.webp",
+            "alt": "Пробуждение одного из Visions в Final Fantasy Resonance",
+            "caption": "Найденные в святилищах Visions становятся боевыми компаньонами · кадр официального геймплея Square Enix / PlayStation Blog"
+          }
+        ]
+      },
+      {
+        "heading": "Visions дают магию, атаки и постоянные прибавки к характеристикам",
+        "paragraphs": [
+          "Экипированный Vision открывает физические приёмы, заклинания и пассивные эффекты, а также навсегда повышает базовые показатели персонажа — в том числе здоровье и скорость. Победы приносят очки мастерства и постепенно открывают новые способности.",
+          "Noctis на стартовом уровне повышает силу атак носителя на 20% и позволяет применять Thunder или Blizzard. Один из его ранних бонусов мастерства после каждого побеждённого врага увеличивает шкалу Limit Burst экипированного героя на 40%. Zidane со временем открывает Steal, а затем Mug, добавляющий урон к попытке кражи."
+        ],
+        "callout": {
+          "title": "Как растёт Vision",
+          "text": "Победы дают очки мастерства · использование повышает связь с персонажем · magicite и Moogle of Light увеличивают базовый ранг."
+        }
+      },
+      {
+        "heading": "Resonance становится наградой за ошеломление всей группы врагов",
+        "paragraphs": [
+          "Кинематографическую атаку Resonance можно выбрать после того, как отряд найдёт слабости противников и опустошит шкалу ошеломления у каждого врага. Финальный приём зависит от экипированного Vision: Cloud, например, использует Ascension Resonance.",
+          "У Visions есть собственные роли. Их можно комбинировать с классами основных героев, собирая узких специалистов или универсальный отряд. Breaker Lasswell вместе с целительницей Leah получает лечение и возможность передать свой ход союзнику, а Cloud усиливает его наступательные возможности."
+        ],
+        "images": [
+          {
+            "src": "/assets/news/final-fantasy-resonance-visions/cloud-resonance.webp",
+            "alt": "Cloud во время кинематографической атаки Resonance в Final Fantasy Resonance",
+            "caption": "Cloud проводит Ascension Resonance после ошеломления противников · кадр официального геймплея Square Enix / PlayStation Blog"
+          }
+        ]
+      },
+      {
+        "heading": "Обычные призывы Espers работают отдельно",
+        "paragraphs": [
+          "Visions не заменяют традиционные призывы Final Fantasy. В игре также есть Espers — они присоединяются к сражению на ограниченное число ходов, тогда как Visions постоянно меняют способности и характеристики экипированного персонажа.",
+          "Final Fantasy Resonance выйдет на PS5 22 октября. Помимо боевой системы, игра получит HD-2D-графику, оркестровую музыку с темами прежних частей и поездки на чокобо."
+        ],
+        "images": [
+          {
+            "src": "/assets/news/final-fantasy-resonance-visions/esper-summon.webp",
+            "alt": "Традиционный призыв Esper в Final Fantasy Resonance",
+            "caption": "Espers выходят на поле боя на ограниченное число ходов и существуют отдельно от Visions · кадр официального геймплея Square Enix / PlayStation Blog"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "slug": "modern-warfare-4-weapon-camos-prestige",
     "title": "Modern Warfare 4 объединит камуфляжи между мультиплеером и DMZ — оружие получит свой Prestige",
     "category": "Игры",
