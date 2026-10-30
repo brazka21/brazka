@@ -1,5 +1,46 @@
 [
   {
+    "slug": "phantom-blade-zero-sha-chi-weapon-swap-memory-flowers",
+    "title": "В Phantom Blade Zero смена оружия восстанавливает Sha-Chi, а цветы памяти повышают здоровье",
+    "category": "Игры",
+    "published": "2026-10-30T11:01:51+10:00",
+    "sourceDate": "28 октября 2026",
+    "description": "PlayStation раскрыла, как связаны бой и исследование в Phantom Blade Zero: переключение клинков возвращает ресурс защиты, трофейное оружие открывает пути, а воспоминания усиливают Soul.",
+    "image": "https://blog.playstation.com/tachyon/2026/10/ec5c0d2e679dafae07f9cca8e57d110598289457.jpg?crop_strategy=smart&resize=1088%2C612",
+    "imageAlt": "Phantom Blade Zero · официальная иллюстрация S-GAME к разбору боевой системы",
+    "source": "https://blog.playstation.com/2026/10/28/phantom-blade-zero-how-boss-weapons-transform-combat-and-exploration/",
+    "sourceName": "PlayStation Blog",
+    "product": "phantom-blade-zero",
+    "readingMinutes": 2,
+    "sections": [
+      {
+        "heading": "Смена клинков возвращает ресурс защиты",
+        "paragraphs": [
+          "Блокирование расходует Sha-Chi; опустевшая шкала оставляет героя уязвимым. Переключение между двумя основными видами оружия быстро восстанавливает ресурс. На DualSense для этого нужно нажать влево на крестовине.",
+          "Попадания также накапливают Sha-Chi Essence. Полная шкала позволяет выполнить Power Surge на L2 — мощный удар, прерывающий атаку противника."
+        ],
+        "callout": {
+          "title": "Ритм боя",
+          "text": "Блок расходует Sha-Chi. Смена оружия восстанавливает его. Попадания заряжают Power Surge."
+        }
+      },
+      {
+        "heading": "Клинок Hua создаёт замедляющие цветы",
+        "paragraphs": [
+          "После победы над Hua, Deadly Betrothed, можно получить Scarlet Wraithblade. Завершённые комбинации вызывают на земле паучьи лилии, замедляющие врагов.",
+          "Парные White Serpent и Crimson Viper позволяют сочетать разные комбинации: один меч работает вблизи, пока второй вращается вокруг героя."
+        ]
+      },
+      {
+        "heading": "Цветы памяти увеличивают здоровье Soul",
+        "paragraphs": [
+          "Некоторые Phantom Edge разбивают преграды или помогают добраться до удалённых мест, открывая ранее недоступные маршруты.",
+          "Blue Memory Flowers показывают прошлое локаций. Если собрать все цветы одной истории, запас здоровья Soul увеличится."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "gta-vi-edge-heat-police-waink-car-theft",
     "title": "В GTA VI полиция запоминает приметы, а заказные угоны идут через приложение WAINK",
     "category": "Игры",
