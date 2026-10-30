@@ -1,5 +1,66 @@
 [
   {
+    "slug": "modern-warfare-4-season-1-november-6-x01-battle-pass",
+    "title": "Первый сезон Modern Warfare 4 стартует 6 ноября: три карты, X01 и наверстывание Battle Pass",
+    "category": "Игры",
+    "published": "2026-10-30T19:06:27+10:00",
+    "sourceDate": "28 октября 2026",
+    "description": "Activision раскрыла первый сезон Modern Warfare 4: новые карты мультиплеера, оружейный комплекс X01 для DMZ и линейный боевой пропуск с автоматическим наверстыванием наград для покупателей премиум-версии.",
+    "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/s1-mp-dmz-announcement/MW4-SEASON-1-ANNOUNCEMENT-RM.webp",
+    "imageAlt": "Дорожная карта первого сезона Modern Warfare 4 · официальный материал Activision",
+    "source": "https://www.callofduty.com/uk/en/blog/2026/10/call-of-duty-modern-warfare-4-warzone-season-1-announcement",
+    "sourceName": "Call of Duty · официальный анонс первого сезона",
+    "product": "cod-mw4",
+    "readingMinutes": 3,
+    "sections": [
+      {
+        "heading": "Backstab, Canyon и Shoot House появятся на старте",
+        "paragraphs": [
+          "6 ноября мультиплеер получит три карты: заснеженный разрушенный город Backstab, скалистый Canyon и переосмысленную Shoot House в Северной Корее. Вместе с ними вернутся Grind со сбором и сдачей жетонов и Drop Zone с удержанием перемещающейся цели.",
+          "Ministry и Overflow добавят в середине сезона. Тогда же появится Counter Attack: нужно взорвать вражескую станцию связи и защитить свою."
+        ],
+        "callout": {
+          "title": "Не всё выходит 6 ноября",
+          "text": "На старте — Backstab, Canyon и Shoot House. В середине сезона — Ministry, Overflow и Counter Attack."
+        },
+        "images": [
+          {
+            "src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/s1-mp-dmz-announcement/MW4-SEASON-1-ANNOUNCEMENT-002.webp",
+            "alt": "Карта Backstab первого сезона Modern Warfare 4",
+            "caption": "Backstab · официальный материал Activision"
+          }
+        ]
+      },
+      {
+        "heading": "X01 начнёт перекрывать выходы из DMZ",
+        "paragraphs": [
+          "Новый оружейный комплекс X01 состоит из грузовых помещений, подземных лабораторий и производственных линий. Ghost будет сопровождать отряд по связи и направлять выполнение новых Orders.",
+          "Комплекс постепенно закрывает точки эвакуации: для выхода потребуется выполнить необходимые действия. События Threat Briefing предложат охоту на командиров, а Resupply Run — поиск и обмен предметов на ценное снаряжение."
+        ],
+        "images": [
+          {
+            "src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/s1-mp-dmz-announcement/MW4-SEASON-1-ANNOUNCEMENT-016.webp",
+            "alt": "Оружейный комплекс X01 для DMZ",
+            "caption": "X01 · официальный материал Activision"
+          }
+        ]
+      },
+      {
+        "heading": "Платный пропуск подтянет отставших до текущего дня",
+        "paragraphs": [
+          "Battle Pass перейдёт на линейную дорожку из 100 уровней с бесплатными и премиальными наградами. Покупателям премиального пропуска обещано более 50 гарантированных наград: система автоматически подтягивает отстающего до награды, соответствующей текущему дню сезона, максимум до 50-го дня.",
+          "В пропуск войдут штурмовая винтовка Cronen Osprey и пистолет-пулемёт CSG-35. Дробовик JAK 12 и топор ZLR Talonhawk появятся позднее в сезоне."
+        ]
+      },
+      {
+        "heading": "Warzone получит Hajin и Zodiac",
+        "paragraphs": [
+          "Сезон принесёт интеграцию Modern Warfare 4 с Warzone и две новые карты — Hajin и Zodiac. Отдельный подробный анонс Warzone с дорожной картой запланирован на 2 ноября."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "phantom-blade-zero-sha-chi-weapon-swap-memory-flowers",
     "title": "В Phantom Blade Zero смена оружия восстанавливает Sha-Chi, а цветы памяти повышают здоровье",
     "category": "Игры",
