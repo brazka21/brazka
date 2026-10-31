@@ -1,5 +1,51 @@
 [
   {
+    "slug": "assassins-creed-valhalla-new-game-plus-november-5",
+    "title": "Assassin’s Creed Valhalla получит New Game+ 5 ноября — с мифрилом и новой системой силы",
+    "category": "Игры",
+    "published": "2026-10-31T19:04:38+10:00",
+    "sourceDate": "29 октября 2026",
+    "description": "Ubisoft анонсировала New Game+ для Assassin’s Creed Valhalla: повторное прохождение с переносом значительной части прогресса появится 5 ноября. Обновление добавит мифрил, хранилище и костюм по мотивам образа Наоэ.",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3cUHzsC8bzifFPxrzngazP/17a7ff944f034a65de86ee374412bdaf/ACV_-_Arise_Main_Asset_-_EN.jpg",
+    "imageAlt": "Анонс обновления Assassin’s Creed Valhalla с New Game+ · официальный промоматериал © Ubisoft",
+    "source": "https://news.ubisoft.com/en-us/article/62QaxfV8LiDWqVSoyROYFA/assassins-creed-fall-2026-update",
+    "sourceName": "Ubisoft · Assassin’s Creed: Fall 2026 Update",
+    "product": "catalog",
+    "readingMinutes": 2,
+    "sections": [
+      {
+        "heading": "Историю Эйвора можно будет пройти заново с любимым снаряжением",
+        "paragraphs": [
+          "New Game+ позволит начать сагу заново, сохранив значительную часть развития персонажа. Для повторного прохождения предусмотрено отдельное масштабирование сложности NG+ — можно вернуться в Англию с любимым снаряжением или попробовать другую сборку."
+        ],
+        "callout": {
+          "title": "Дата выхода — 5 ноября",
+          "text": "New Game+ ещё готовится к выпуску. Ubisoft приурочила анонс к достижению Valhalla отметки в 40 миллионов игроков."
+        },
+        "images": [
+          {
+            "src": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2OGkVFZffzqfcorVwogYg2/355e8c64c2a41a263dcc3195ef20ed3d/40M_-_EN.jpg",
+            "alt": "Assassin’s Creed Valhalla достигла 40 миллионов игроков",
+            "caption": "40 миллионов игроков в Valhalla · официальный промоматериал © Ubisoft"
+          }
+        ]
+      },
+      {
+        "heading": "Снаряжение, руны и мастерство смогут влиять на общую силу",
+        "paragraphs": [
+          "Обновление предложит необязательный режим развития: в нём экипировка, руны и мастерство совместно формируют общую силу Эйвора. Также появятся новые руны, достижения, система хранилища и дополнительные награды."
+        ]
+      },
+      {
+        "heading": "Мифрил усилит руны и божественное снаряжение",
+        "paragraphs": [
+          "Новый ресурс — мифрил — предназначен для улучшения снаряжения качества Divine и усиления рун. Само божественное качество станет доступно для всех предметов.",
+          "Среди новых наград будет костюм мастера-ассасина, вдохновлённый образом Наоэ из Assassin’s Creed Shadows."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "gta-vi-justice-adaptive-score-december-11",
     "title": "Музыка GTA VI подстроится под игрока: альбом Justice с 30 треками выйдет 11 декабря",
     "category": "Игры",
