@@ -1,5 +1,58 @@
 [
   {
+    "slug": "apex-legends-cipher-strongholds-akimbo-wingman-november-3",
+    "title": "Apex Legends: Cipher стартует 3 ноября — с захватом Strongholds и парными Wingman",
+    "category": "Игры",
+    "published": "2026-11-01T11:01:34+10:00",
+    "sourceDate": "30 октября 2026",
+    "description": "Respawn раскрыла механики сезона Cipher для Apex Legends: один Stronghold за матч, парные револьверы Wingman и переработанный дрон Crypto. Сезон выйдет 3 ноября 2026 года; игра доступна на PS4 и PS5.",
+    "image": "https://drop-assets.ea.com/images/4JZSZYhNcauO6bysVQNEG7/e918ac130d826e30b96dbfc8295730e2/Apex_S31-Season_Crypto-Rewired-16x9.jpg",
+    "imageAlt": "Crypto и EMP в сезоне Apex Legends: Cipher · официальный скриншот © Electronic Arts / Respawn Entertainment",
+    "source": "https://www.ea.com/games/apex-legends/apex-legends/news/31-0-designers-notes",
+    "sourceName": "Respawn Entertainment · Cipher Designer’s Notes",
+    "product": "catalog",
+    "readingMinutes": 2,
+    "sections": [
+      {
+        "heading": "Stronghold нужно захватить и удержать",
+        "paragraphs": [
+          "В каждом матче дополнительно к обычным Care Packages будет приземляться один Stronghold. Сооружение прибудет закрытым и развернёт вокруг себя укрытия. Чтобы добраться до оружия из припасов, золотых стволов и другого редкого лута, отряду потребуется захватить и удерживать территорию рядом.",
+          "Противники смогут оспорить захват и забрать награды себе. Открытие также включит сигнализацию, выдающую позицию ближайшим отрядам."
+        ],
+        "callout": {
+          "title": "Старт сезона — 3 ноября",
+          "text": "Полные примечания к обновлению Respawn опубликует 2 ноября. Strongholds появятся в дополнение к обычным поставкам припасов."
+        },
+        "images": [
+          {
+            "src": "https://drop-assets.ea.com/images/5ByrxmIy6JQi1RMlEF3N0t/7320ab3a75ad9ac97b93dc8a346a0cc4/Strongholds.png",
+            "alt": "Перестрелка у Stronghold и развёрнутого энергетического укрытия",
+            "caption": "Stronghold создаёт новую точку борьбы за добычу · официальный скриншот © Electronic Arts / Respawn Entertainment"
+          }
+        ]
+      },
+      {
+        "heading": "Одно нажатие спуска — два последовательных выстрела",
+        "paragraphs": [
+          "Akimbo Wingman станет новым парным оружием. При нажатии на спуск револьверы стреляют последовательно, один за другим: это первый вариант стрельбы очередью в системе akimbo Apex."
+        ],
+        "images": [
+          {
+            "src": "https://drop-assets.ea.com/images/6orWgSJiAERNRQ8zy9Jxwh/233653cd5d98be753b51ea9801c7fd63/Apex_S31-Season_Akimbo-Wingman-16x9.jpg",
+            "alt": "Crypto держит два револьвера Wingman",
+            "caption": "Akimbo Wingman в Cipher · официальный скриншот © Electronic Arts / Respawn Entertainment"
+          }
+        ]
+      },
+      {
+        "heading": "Дрон Crypto перейдёт на батарею",
+        "paragraphs": [
+          "Surveillance Drone будет расходовать заряд батареи вместо ожидания перезарядки. Его можно подобрать и снова развернуть без долгой паузы. Оставленный на позиции дрон включит Sentry Mode и отметит замеченных врагов для отряда; EMP можно будет активировать нажатием кнопки."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "assassins-creed-valhalla-new-game-plus-november-5",
     "title": "Assassin’s Creed Valhalla получит New Game+ 5 ноября — с мифрилом и новой системой силы",
     "category": "Игры",
