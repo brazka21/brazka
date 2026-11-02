@@ -1,5 +1,63 @@
 [
   {
+    "slug": "final-fantasy-xiv-evercold-february-23-zephyr-bastion",
+    "title": "Final Fantasy XIV: Evercold выйдет 23 февраля — предзаказы откроются 4 ноября",
+    "category": "Игры",
+    "published": "2026-11-02T11:00:39+10:00",
+    "sourceDate": "31 октября 2026",
+    "description": "Square Enix назначила выход Final Fantasy XIV: Evercold на 23 февраля 2027 года. Предзаказы расширения для PS4 и PS5 откроются 4 ноября, а ранний доступ запланирован на 19 февраля. Новые профессии — танк Bastion и стрелок Zephyr.",
+    "image": "https://img.finalfantasyxiv.com/t/8874f1c53cc82ba16ae400053034af16e65dbe3f.png",
+    "imageAlt": "Final Fantasy XIV: Evercold · официальный промоматериал © SQUARE ENIX",
+    "source": "https://na.finalfantasyxiv.com/lodestone/topics/detail/8874f1c53cc82ba16ae400053034af16e65dbe3f",
+    "sourceName": "Square Enix · The Lodestone",
+    "product": "catalog",
+    "readingMinutes": 2,
+    "sections": [
+      {
+        "heading": "Ранний доступ начнётся 19 февраля в 19:00 по Владивостоку",
+        "paragraphs": [
+          "Старт раннего доступа назначен на 19 февраля 2027 года в 01:00 PST — это 19:00 во Владивостоке. Его получат предзаказавшие Evercold. Для доступа к новому контенту потребуется зарегистрированное дополнение Dawntrail и выполнение определённых заданий."
+        ],
+        "callout": {
+          "title": "Три даты",
+          "text": "4 ноября 2026 — открытие предзаказов. 19 февраля 2027 — ранний доступ. 23 февраля 2027 — официальный релиз."
+        }
+      },
+      {
+        "heading": "Bastion и Zephyr будут работать только в Evolved Mode",
+        "paragraphs": [
+          "Evercold добавит танка Bastion с оружием Skyltborg и физического бойца дальнего боя Zephyr с арбалетом. Обе новые профессии рассчитаны только на Evolved Mode.",
+          "Боевая система позволит переключаться между Reborn Mode, основанным на текущем устройстве боя, и Evolved Mode с акцентом на индивидуальность каждой профессии. Максимальный уровень поднимется со 100 до 110."
+        ],
+        "images": [
+          {
+            "src": "https://lds-img.finalfantasyxiv.com/promo/h/g/7Vml_z0aAGxjFVfufBv4Ohcim4.jpg",
+            "alt": "Профессия Bastion из Final Fantasy XIV: Evercold",
+            "caption": "Bastion — новый танк · официальная иллюстрация © SQUARE ENIX"
+          },
+          {
+            "src": "https://lds-img.finalfantasyxiv.com/promo/h/H/FgkLbrZcHoBsXHv41vHsHf_exs.jpg",
+            "alt": "Профессия Zephyr из Final Fantasy XIV: Evercold",
+            "caption": "Zephyr — физический боец дальнего боя · официальная иллюстрация © SQUARE ENIX"
+          }
+        ]
+      },
+      {
+        "heading": "Путешествие приведёт в ледяной мир Четвёртого отражения",
+        "paragraphs": [
+          "Воин Света отправится в Четвёртое отражение, скованное льдом. Новые области расположены на огромных воздушных кораблях. В расширении также заявлены новые подземелья и рейды; часть контента будет выходить последующими обновлениями."
+        ]
+      },
+      {
+        "heading": "Для игры нужны полная версия и подписка FFXIV",
+        "paragraphs": [
+          "Evercold не запускается отдельно: требуется полная версия Final Fantasy XIV, а не бесплатная пробная версия, и оплаченная игровая подписка. Регистрация расширения также открывает доступ к Endwalker и Dawntrail.",
+          "За предзаказ предусмотрены питомец Wind-up Köttr и Halone’s Earring. Серьга увеличивает опыт за победу над врагами на 30% для боевых и магических профессий с 1-го по 100-й уровень."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "destiny-2-unvaulting-four-campaigns-raids-menagerie",
     "title": "В Destiny 2 вернут четыре кампании, рейды и Menagerie — Bungie раскрыла план работ",
     "category": "Игры",
