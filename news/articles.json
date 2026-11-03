@@ -1,5 +1,56 @@
 [
   {
+    "slug": "warzone-season-1-ps4-shutdown-hajin-zodiac-november-6",
+    "title": "Warzone перестанет работать на PS4 с 6 ноября — прогресс можно перенести на PS5",
+    "category": "Игры",
+    "published": "2026-11-03T19:02:48+10:00",
+    "sourceDate": "2 ноября 2026",
+    "description": "С запуском первого сезона Warzone прекращает поддержку PS4 и Xbox One. Обновление выйдет 6 ноября в 15:00 по Владивостоку и добавит Hajin, Zodiac и интеграцию с Modern Warfare 4.",
+    "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/s1-wz-announcement/MW4-SEASON-1-WARZONE-ROADMAP.webp",
+    "imageAlt": "Дорожная карта первого сезона Warzone · официальный материал © Activision",
+    "source": "https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-warzone-season-1",
+    "sourceName": "Call of Duty · Warzone Season 1",
+    "product": "catalog",
+    "readingMinutes": 2,
+    "sections": [
+      {
+        "heading": "Для переноса нужна та же учётная запись Activision",
+        "paragraphs": [
+          "После начала сезона на PS4 и Xbox One играть в Warzone будет нельзя. При переходе на поддерживаемую платформу прогресс сохранится, если войти через ту же привязанную учётную запись Activision."
+        ],
+        "callout": {
+          "title": "Старт — 6 ноября, 15:00 по Владивостоку",
+          "text": "Официальное время запуска — полночь 6 ноября по восточному времени США. Warzone остаётся бесплатной игрой."
+        }
+      },
+      {
+        "heading": "Hajin получит 13 крупных точек интереса, Zodiac — десять",
+        "paragraphs": [
+          "Большая карта Hajin охватывает территории Южной и Северной Кореи: городские кварталы, фермы, реки и лесистые холмы. На ней предусмотрены изменчивая погода и два варианта ГУЛАГа.",
+          "Компактная Zodiac предназначена для Resurgence. Бои развернутся вокруг предприятия DRC Advanced Systems с производством дронов, крышами, подземными маршрутами и железной дорогой."
+        ],
+        "images": [
+          {
+            "src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/s1-wz-announcement/MW4-SEASON-1-WARZONE-005.webp",
+            "alt": "Карта Hajin в первом сезоне Warzone",
+            "caption": "Hajin · официальный материал © Activision"
+          },
+          {
+            "src": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/s1-wz-announcement/MW4-SEASON-1-WARZONE-011.webp",
+            "alt": "Карта Zodiac для Resurgence в Warzone",
+            "caption": "Zodiac · официальный материал © Activision"
+          }
+        ]
+      },
+      {
+        "heading": "Союзников можно будет перетаскивать при оживлении",
+        "paragraphs": [
+          "Обновление позволит оттаскивать раненого напарника из-под огня во время реанимации. Тактический спринт станет доступен всем операторам без отдельного перка, но его длительность немного сократится."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "final-fantasy-xiv-evercold-february-23-zephyr-bastion",
     "title": "Final Fantasy XIV: Evercold выйдет 23 февраля — предзаказы откроются 4 ноября",
     "category": "Игры",
