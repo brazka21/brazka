@@ -12,7 +12,7 @@ collections={
 rows=[e for group in D['groups'] for e in group['games']]
 games={k:{**v,'id':k,'editions':[e for e in rows if e['gameId']==k]} for k,v in D['titles'].items()}
 games={k:g for k,g in games.items() if g['editions']}
-REGIONS={'india':'🇮🇳 Индия','turkey':'🇹🇷 Турция'}
+REGIONS={'turkey':'🇹🇷 Турция'}
 def current_price(edition,region):
  if edition.get('availability',{}).get(region)=='unavailable':return None
  sale=edition.get('discounts',{}).get(region)
@@ -48,8 +48,8 @@ base=re.sub(r'<div class="game-grid" id="gameGrid" aria-live="polite">.*?</div>\
 base=base.replace('Для каталога включи JavaScript или','Чтобы оформить заказ,')
 base=base.replace('href="./"','href="/"')
 base=re.sub(r'(href|src)="(assets/|storefront\.)',r'\1="/\2',base)
-base=re.sub(r'storefront\.js\?v=[^"\']+','storefront.js?v=home2',base)
-base=re.sub(r'storefront\.css\?v=[^"\']+','storefront.css?v=india-on-request1',base)
+base=re.sub(r'storefront\.js\?v=[^"\']+','storefront.js?v=turkey-only1',base)
+base=re.sub(r'storefront\.css\?v=[^"\']+','storefront.css?v=turkey-only1',base)
 if 'mc.yandex.ru/metrika/tag.js?id=112697107' not in base:
  base=base.replace('</head>', '''<!-- Yandex.Metrika counter -->
 <script>
@@ -109,7 +109,7 @@ for g in games.values():
    offers.append(offer)
  details+='</div>'+nav
  product={'@context':'https://schema.org','@type':'Product','name':g['title'],'description':g.get('description',''),'image':[g['image']],'url':'https://brazka.shop'+url(g),'category':'Цифровые игры PlayStation','offers':offers}
- page(url(g),g['title']+' — купить для PlayStation, издания',g.get('description','')+' Издания для Индии и Турции. Заказ через Telegram.',details,image=g['image'],schemas=[product])
+ page(url(g),g['title']+' — купить для PlayStation, издания',g.get('description','')+' Издания для Турции. Заказ через Telegram.',details,image=g['image'],schemas=[product])
 for mode,(slug,title,desc) in collections.items():page('/collections/'+slug+'/',title,desc,subset=[g for g in games.values() if g.get('multiplayer',{}).get(mode)])
 (R/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'  <url><loc>https://brazka.shop{p}</loc></url>\n' for p in paths)+'</urlset>\n')
 print(f'Built {len(games)} game pages, 3 collections, {len(paths)} sitemap URLs')

@@ -52,3 +52,6 @@
 
 /* Shared navigation for editorial and catalog pages. */
 .site-nav{display:flex;gap:28px;align-items:center;padding-block:15px;border-bottom:1px solid var(--line);font-size:14px;font-weight:700}.site-nav a{color:var(--muted);padding:4px 0}.site-nav a:hover,.site-nav a[aria-current]{color:var(--text)}.site-nav a[aria-current]{box-shadow:0 3px var(--purple)}@media(max-width:620px){.site-nav{gap:24px;font-size:13px;padding-block:12px}}
+
+/* Single supported account region. */
+.region-options > .region-option:only-child{grid-column:1/-1}

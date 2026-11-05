@@ -13,18 +13,19 @@ if (!document.querySelector('.site-nav')) {
 ym(112697107,'init',{ssr:true,webvisor:true,clickmap:true,ecommerce:'dataLayer',referrer:document.referrer,url:location.href,accurateTrackBounce:true,trackLinks:true});
 
 const CONTACT_URL = 'https://t.me/m/LyEKjl0bODFi';
-const REGIONS = ['india', 'turkey'];
-const REGION_LABELS = {india:'🇮🇳 Индия',turkey:'🇹🇷 Турция'};
+const REGIONS = ['turkey'];
+const REGION_LABELS = {turkey:'🇹🇷 Турция'};
 const money = value => Number.isFinite(value) && value > 0 ? new Intl.NumberFormat('ru-RU').format(value) + ' ₽' : 'Уточнить цену';
 const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const cleanSearch = value => String(value).toLowerCase().replace(/[™®’'`]/g,'').replace(/ё/g,'е').replace(/[^a-zа-я0-9]+/g,' ').trim();
 function activeDiscount(edition, region, now=Date.now()) {
-  if(region==='india')return null;
+  if(!REGIONS.includes(region))return null;
   if(edition.availability?.[region]==='unavailable')return null;
   const sale = edition.discounts?.[region];
   return sale && sale.percent > 0 && Date.parse(sale.endsAt) > now ? sale : null;
 }
 function currentPrice(edition, region, now=Date.now()) {
+  if(!REGIONS.includes(region))return null;
   if(edition.availability?.[region]==='unavailable')return null;
   const sale=edition.discounts?.[region];
   if(sale?.endsAt && Date.parse(sale.endsAt)<=now) return null;
@@ -55,11 +56,11 @@ const collectionModes={'na-odnoy-ps5':'local','split-screen':'split','po-seti':'
 const collectionTitles={local:'Игры на двоих на одной PS5',split:'Игры со сплит-скрином на PS5',online:'Игры на двоих по сети на PS5'};
 if(typeof module!=='undefined'&&module.exports)module.exports={normalizeCatalog,filterGames,activeDiscount,currentPrice,minPrice,money,cleanSearch};
 if(typeof document!=='undefined'){
-  let games=[],catalogData,query='',filter='all',sort='featured',selectedGame,selectedEdition,selectedRegion='india',selectedPoints,selectedPointsRegion='india',catalogScroll=0;
+  let games=[],catalogData,query='',filter='all',sort='featured',selectedGame,selectedEdition,selectedRegion='turkey',selectedPoints,selectedPointsRegion='turkey',catalogScroll=0;
   const CART_KEY='brazka-cart-v1';
   let cart=[],cartOpener=null,sharedCartLoaded=false;
   const $=id=>document.getElementById(id);
-  const rootTitle=document.body.classList.contains('home-page')?'BRAZKA — игры PlayStation, новости и PS Plus':'БРАЗКА — каталог игр PlayStation, цены Индии и Турции';
+  const rootTitle=document.body.classList.contains('home-page')?'BRAZKA — игры PlayStation, новости и PS Plus':'БРАЗКА — каталог игр PlayStation, цены Турции';
   const PLUS_SALE_END=Date.parse('2026-10-01T00:00:00+03:00');
   const planData={essential:{name:'Essential',image:'/assets/ps-essential.png',note:'Онлайн, игры месяца и облачные сохранения.',prices:{1:1090,3:2990,12:7900},salePrices:{12:5900}},extra:{name:'Extra',image:'/assets/ps-extra.png',note:'Каталог игр и все возможности Essential.',prices:{1:1590,3:4290,12:11990},salePrices:{12:8990}},deluxe:{name:'Deluxe',image:'/assets/ps-deluxe.png',note:'Классика, пробные версии и все возможности Extra.',prices:{1:1790,3:4790,12:13990},salePrices:{12:10490}}};
   const planPrice=(data,term,now=Date.now())=>now<PLUS_SALE_END&&data.salePrices?.[term]||data.prices[term];
@@ -134,8 +135,8 @@ if(typeof document!=='undefined'){
   async function copyValue(value,success){try{await navigator.clipboard.writeText(value);toast(success);}catch{toast('Не удалось скопировать. Открой ссылку в обычном браузере.');}}
   function initCart(){loadSavedCart();installCartButtons();renderCart();}
   function tile(game){
-    const sale=maxDiscount(game),ind=minPrice(game,'india'),tr=minPrice(game,'turkey'),best=Math.min(ind??Infinity,tr??Infinity);
-    return `<a class="game-tile" href="${gameUrl(game)}" data-game="${escapeHtml(game.id)}" aria-label="${escapeHtml(game.title)} — выбрать издание"><div class="cover-wrap"><img src="${escapeHtml(game.image)}" alt="${escapeHtml(game.title)}" loading="lazy" decoding="async" width="400" height="400"><div class="tile-badges">${sale?`<span class="sale-badge">−${sale}% PS Store</span>`:''}<span class="edition-count">${game.editions.length} изд.</span></div></div><p class="tile-platform">${escapeHtml(game.platform||'PS5')}${Date.parse(game.releaseDate)>Date.now()?' · ПРЕДЗАКАЗ':''}</p><h3 class="tile-title">${escapeHtml(game.title)}</h3>${game.multiplayer?`<p class="coop-tile-label">${escapeHtml(game.multiplayer.label)}</p>`:''}<div class="tile-regions">${REGIONS.map(r=>{const p=r==='india'?ind:tr;return `<div class="tile-region ${p===best?'best':''}"><span>${REGION_LABELS[r]}</span><strong class="${p?'':'price-on-request'} ${sale?'sale-pulse':''}">${p&&game.editions.length>1?'<small>от</small>':''}${money(p)}</strong></div>`}).join('')}</div></a>`;
+    const sale=maxDiscount(game),tr=minPrice(game,'turkey'),best=tr??Infinity;
+    return `<a class="game-tile" href="${gameUrl(game)}" data-game="${escapeHtml(game.id)}" aria-label="${escapeHtml(game.title)} — выбрать издание"><div class="cover-wrap"><img src="${escapeHtml(game.image)}" alt="${escapeHtml(game.title)}" loading="lazy" decoding="async" width="400" height="400"><div class="tile-badges">${sale?`<span class="sale-badge">−${sale}% PS Store</span>`:''}<span class="edition-count">${game.editions.length} изд.</span></div></div><p class="tile-platform">${escapeHtml(game.platform||'PS5')}${Date.parse(game.releaseDate)>Date.now()?' · ПРЕДЗАКАЗ':''}</p><h3 class="tile-title">${escapeHtml(game.title)}</h3>${game.multiplayer?`<p class="coop-tile-label">${escapeHtml(game.multiplayer.label)}</p>`:''}<div class="tile-regions">${REGIONS.map(r=>{const p=tr;return `<div class="tile-region ${p===best?'best':''}"><span>${REGION_LABELS[r]}</span><strong class="${p?'':'price-on-request'} ${sale?'sale-pulse':''}">${p&&game.editions.length>1?'<small>от</small>':''}${money(p)}</strong></div>`}).join('')}</div></a>`;
   }
   function renderGrid(){
     const matches=filterGames(games,{query,filter,sort});$('gameGrid').innerHTML=matches.map(tile).join('');$('gameGrid').hidden=!matches.length;$('emptyState').hidden=!!matches.length;
@@ -158,7 +159,7 @@ if(typeof document!=='undefined'){
     $('detailView').innerHTML=`<a class="back-link" href="/catalog/" data-back>← Все игры</a><div class="detail-hero"><img id="detailCover" class="detail-cover" src="${escapeHtml(selectedEdition.image||game.image)}" alt="${escapeHtml(game.title)} — ${escapeHtml(selectedEdition.edition)}" width="400" height="400"><div class="detail-info"><p class="eyebrow">PLAYSTATION · ВЫБЕРИ СВОЁ ИЗДАНИЕ</p><h1 tabindex="-1">${escapeHtml(game.title)}</h1><p class="detail-description">${escapeHtml(game.description||'Сравни издания и выбери регион своего аккаунта.')}</p>${game.multiplayer?`<section class="coop-info"><h2>Как играть вместе</h2><p>${escapeHtml(game.multiplayer.label)}</p><p>${escapeHtml(game.multiplayer.note)}</p></section>`:''}<div class="detail-meta"><span>${escapeHtml(game.platform||'PS5')}</span><span>${escapeHtml(game.release||'Уже в продаже')}</span><span>Изданий: ${game.editions.length}</span></div><p class="detail-intro-prices">от ${money(lowestPrice(game))}</p></div><p class="detail-description">${escapeHtml(game.description||'Сравни издания и выбери регион своего аккаунта.')}</p></div><div class="editions-heading"><h2>Выбери издание</h2><span class="muted">Полные версии игры</span></div><div class="edition-layout"><div class="edition-list" id="editionList" role="group" aria-label="Издания игры"></div><aside class="purchase-panel" id="purchasePanel" aria-label="Выбранное издание и заказ"></aside></div><section class="buy-steps" aria-labelledby="buyStepsTitle"><div><p class="eyebrow">БЕЗ ЛИШНИХ ПЕРЕХОДОВ</p><h2 id="buyStepsTitle">Как проходит покупка</h2></div><ol><li><span>1</span><div><strong>Выбери товар</strong><p>Издание и регион аккаунта.</p></div></li><li><span>2</span><div><strong>Оставь контакт</strong><p>Telegram или телефон для связи.</p></div></li><li><span>3</span><div><strong>Подтвердим заказ</strong><p>Проверим цену и наличие до оплаты.</p></div></li></ol></section>${game.fcPoints?`<section class="points-section" id="fcPoints"><div class="points-heading"><div><p class="eyebrow">ULTIMATE TEAM</p><h2>${escapeHtml(game.fcPoints.title)}</h2><p>${escapeHtml(game.fcPoints.note)}</p></div><span class="points-badge">Только для FC 27</span></div><div id="pointsContent"></div></section>`:''}<section class="related-section"><div class="section-heading"><h2>Ещё в каталоге</h2></div><div class="game-grid">${games.filter(g=>g.id!==game.id).sort((a,b)=>(a.priority??99)-(b.priority??99)).slice(0,6).map(tile).join('')}</div></section><div class="mobile-order-bar" id="mobileOrderBar" aria-label="Быстрое оформление заказа"></div>`;
     $('detailView').querySelector('.buy-steps .eyebrow')?.remove();
     renderEdition();
-    if(game.fcPoints){selectedPoints=game.fcPoints.packs.find(p=>p.id==='500')||game.fcPoints.packs[0];selectedPointsRegion='india';renderPoints();}
+    if(game.fcPoints){selectedPoints=game.fcPoints.packs.find(p=>p.id==='500')||game.fcPoints.packs[0];selectedPointsRegion='turkey';renderPoints();}
   }
   function renderEdition(){
     const game=selectedGame,edition=selectedEdition;
@@ -182,10 +183,10 @@ if(typeof document!=='undefined'){
   function renderPoints(){
     const section=$('pointsContent'),points=selectedGame.fcPoints;
     if(!section||!points||!selectedPoints)return;
-    section.innerHTML=`<div class="points-layout"><div class="points-grid" role="group" aria-label="Номиналы FC Points">${points.packs.map(p=>`<button class="point-choice ${p.id===selectedPoints.id?'selected':''}" data-select-points="${escapeHtml(p.id)}" aria-pressed="${p.id===selectedPoints.id}"><strong>${escapeHtml(p.label)}</strong><span><i>🇮🇳 Индия</i><b class="${p.prices.india?'':'price-on-request'}">${money(p.prices.india)}</b></span><span><i>🇹🇷 Турция</i><b>${money(p.prices.turkey)}</b></span></button>`).join('')}</div><aside class="points-panel"><p class="purchase-kicker">EA SPORTS FC 27</p><h3>${escapeHtml(selectedPoints.label)}</h3><div class="region-options" role="group" aria-label="Регион аккаунта для FC Points">${REGIONS.map(r=>`<button class="region-option ${r===selectedPointsRegion?'selected':''}" data-points-region="${r}" aria-pressed="${r===selectedPointsRegion}"><span class="region-label">${REGION_LABELS[r]}</span><strong class="${selectedPoints.prices[r]?'':'price-on-request'}">${money(selectedPoints.prices[r])}</strong></button>`).join('')}</div><div class="purchase-actions"><button class="button secondary" type="button" id="addPointsToCart">+ В корзину</button><a class="button primary order-cta" href="${CONTACT_URL}" target="_blank" rel="noopener" id="pointsOrder">${selectedPoints.prices[selectedPointsRegion]?'Заказать':'Уточнить цену'} ↗</a></div><p class="order-context">${REGION_LABELS[selectedPointsRegion]} · ${escapeHtml(selectedPoints.label)} · ${money(selectedPoints.prices[selectedPointsRegion])}<br>Выбранный номинал скопируем для отправки в чат.</p><button class="order-copy" id="copyPointsOrder">Скопировать заказ</button></aside></div>`;
+    section.innerHTML=`<div class="points-layout"><div class="points-grid" role="group" aria-label="Номиналы FC Points">${points.packs.map(p=>`<button class="point-choice ${p.id===selectedPoints.id?'selected':''}" data-select-points="${escapeHtml(p.id)}" aria-pressed="${p.id===selectedPoints.id}"><strong>${escapeHtml(p.label)}</strong><span><i>🇹🇷 Турция</i><b>${money(p.prices.turkey)}</b></span></button>`).join('')}</div><aside class="points-panel"><p class="purchase-kicker">EA SPORTS FC 27</p><h3>${escapeHtml(selectedPoints.label)}</h3><div class="region-options" role="group" aria-label="Регион аккаунта для FC Points">${REGIONS.map(r=>`<button class="region-option ${r===selectedPointsRegion?'selected':''}" data-points-region="${r}" aria-pressed="${r===selectedPointsRegion}"><span class="region-label">${REGION_LABELS[r]}</span><strong class="${selectedPoints.prices[r]?'':'price-on-request'}">${money(selectedPoints.prices[r])}</strong></button>`).join('')}</div><div class="purchase-actions"><button class="button secondary" type="button" id="addPointsToCart">+ В корзину</button><a class="button primary order-cta" href="${CONTACT_URL}" target="_blank" rel="noopener" id="pointsOrder">${selectedPoints.prices[selectedPointsRegion]?'Заказать':'Уточнить цену'} ↗</a></div><p class="order-context">${REGION_LABELS[selectedPointsRegion]} · ${escapeHtml(selectedPoints.label)} · ${money(selectedPoints.prices[selectedPointsRegion])}<br>Выбранный номинал скопируем для отправки в чат.</p><button class="order-copy" id="copyPointsOrder">Скопировать заказ</button></aside></div>`;
   }
-  function orderText(){return `Привет! Хочу заказать ${selectedGame.title}, ${selectedEdition.edition}. Регион: ${selectedRegion==='india'?'Индия':'Турция'}. Цена на сайте: ${money(currentPrice(selectedEdition,selectedRegion))}. ${location.origin}${gameUrl(selectedGame,selectedEdition)}`;}
-  function pointsOrderText(){return `Привет! Хочу заказать ${selectedPoints.label} для EA SPORTS FC 27. Регион аккаунта: ${selectedPointsRegion==='india'?'Индия':'Турция'}. Цена на сайте: ${money(selectedPoints.prices[selectedPointsRegion])}. ${location.origin}${gameUrl(selectedGame)}#fcPoints`;}
+  function orderText(){return `Привет! Хочу заказать ${selectedGame.title}, ${selectedEdition.edition}. Регион: Турция. Цена на сайте: ${money(currentPrice(selectedEdition,selectedRegion))}. ${location.origin}${gameUrl(selectedGame,selectedEdition)}`;}
+  function pointsOrderText(){return `Привет! Хочу заказать ${selectedPoints.label} для EA SPORTS FC 27. Регион аккаунта: Турция. Цена на сайте: ${money(selectedPoints.prices[selectedPointsRegion])}. ${location.origin}${gameUrl(selectedGame)}#fcPoints`;}
   function selectRoute({scroll=true}={}){
     const params=new URLSearchParams(location.search),pathGame=location.pathname.match(/^\/games\/([^/]+)\/?$/),id=pathGame?.[1]||params.get('game');
     const collection=location.pathname.match(/^\/collections\/([^/]+)\/?$/);
@@ -339,7 +340,7 @@ if(typeof document!=='undefined'){
         kind: 'ea-play',
         product: 'EA Play',
         edition: text(subscription, 'h3', 'Срок уточнить'),
-        region: 'Индия / Турция',
+        region: 'Турция',
         price: 'Уточнить'
       };
     }

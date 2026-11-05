@@ -16,7 +16,7 @@ def price(g):
  vals=[p for p in vals if isinstance(p,(int,float)) and p>0]
  return 'от '+f'{min(vals):,.0f}'.replace(',','\u202f')+' ₽' if vals else 'Уточнить цену'
 def card(g,pre=False):
- return '<a class="home-game" href="/games/'+g['id']+'/" data-home-game="'+g['id']+'"><div class="home-cover"><img src="'+esc(g['image'],quote=True)+'" alt="'+esc(g['title'],quote=True)+'" width="400" height="400" loading="lazy">'+('<span class="home-badge">Предзаказ</span>' if pre else '')+'</div><p class="home-platform">'+esc(g.get('platform','PS5'))+'</p><h3>'+esc(g['title'])+'</h3><div class="home-game-bottom"><span data-home-price>'+price(g)+'</span><span class="home-select">Выбрать →</span></div><small>Турция · Индия — уточнить цену</small></a>'
+ return '<a class="home-game" href="/games/'+g['id']+'/" data-home-game="'+g['id']+'"><div class="home-cover"><img src="'+esc(g['image'],quote=True)+'" alt="'+esc(g['title'],quote=True)+'" width="400" height="400" loading="lazy">'+('<span class="home-badge">Предзаказ</span>' if pre else '')+'</div><p class="home-platform">'+esc(g.get('platform','PS5'))+'</p><h3>'+esc(g['title'])+'</h3><div class="home-game-bottom"><span data-home-price>'+price(g)+'</span><span class="home-select">Выбрать →</span></div><small>🇹🇷 Турция</small></a>'
 def shelf(title,kind,picks):
  if not picks:return ''
  return '<section class="home-shelf shell"><div class="home-section-heading"><h2>'+title+'</h2><a href="/catalog/?filter='+kind+'">Смотреть все →</a></div><div class="home-shelf-track">'+''.join(card(g,kind=='preorder') for g in picks[:4])+'</div></section>'

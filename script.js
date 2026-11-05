@@ -75,7 +75,7 @@ function regionPrice(region, label, game, best) {
 }
 
 function gameCard(game, groupId) {
-  const best = Math.min(game.prices.india, game.prices.turkey);
+  const best = game.prices.turkey;
   return `
     <article class="catalog-card reveal-card" data-kind="${groupId}">
       <div class="catalog-cover-wrap">
@@ -87,7 +87,6 @@ function gameCard(game, groupId) {
         <p class="catalog-platform">${game.platform}</p>
         <p class="catalog-release"><span aria-hidden="true">◷</span>${game.release}</p>
         <div class="region-prices" aria-label="Цены по регионам">
-          ${regionPrice('india', '🇮🇳 Индия', game, best)}
           ${regionPrice('turkey', '🇹🇷 Турция', game, best)}
         </div>
         <a class="button primary catalog-order" href="${TELEGRAM_URL}" target="_blank" rel="noopener" aria-label="Заказать ${game.title}">Заказать</a>
