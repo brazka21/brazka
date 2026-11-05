@@ -31,7 +31,7 @@ def reading(a):
 def figure(f):
     return '<figure class="article-figure"><a href="'+esc(f['src'],quote=True)+'" target="_blank" rel="noopener" aria-label="Открыть иллюстрацию: '+esc(f['alt'],quote=True)+'"><img src="'+esc(f['src'],quote=True)+'" alt="'+esc(f['alt'],quote=True)+'" width="1088" height="612" loading="lazy"></a><figcaption>'+esc(f.get('caption',f['alt']))+'</figcaption></figure>'
 def card(a):
-    return f'<a class="news-card" href="{url(a)}" data-news-link><img src="{esc(a["image"],quote=True)}" alt="{esc(a["imageAlt"])}" width="1088" height="612" loading="lazy"><div class="news-card-copy"><span class="eyebrow">{esc(a["category"])}</span><h3>{esc(a["title"])}</h3><p>{esc(a["description"])}</p><small>{date_label(a)} · {reading(a)} мин чтения <span aria-hidden="true">→</span></small></div></a>'
+    return f'<a class="news-card" href="{url(a)}" data-news-link><img src="{esc(a["image"],quote=True)}" alt="{esc(a["imageAlt"])}" width="1088" height="612" loading="lazy"><div class="news-card-copy"><span class="eyebrow">{esc(a["category"])}</span><h3>{esc(a["title"])}</h3><p>{esc(a["description"])}</p><small>{date_label(a)} · {("Фотогалерея" if a.get("layout") == "gallery" else str(reading(a))+" мин чтения")} <span aria-hidden="true">→</span></small></div></a>'
 def product(a):
     if a['product']=='plus':
         title='PlayStation Plus';image='/assets/ps-essential.png';target='/#plus';cost='Essential · Extra · Deluxe';button='Выбрать подписку';meta='Игры месяца и другие возможности'
@@ -54,6 +54,11 @@ def write(path,title,desc,image,body,schema=None):
     dest=R/path.strip('/')/'index.html';dest.parent.mkdir(parents=True,exist_ok=True);dest.write_text(content+'\n')
 write('/news/','Новости PlayStation','Новости игр PlayStation и PS Plus: важные объявления, официальные источники и переход к играм в каталоге BRAZKA.',articles[0]['image'],'<div class="news-heading"><div><p class="eyebrow">ЧИТАЙ · ВЫБИРАЙ · ИГРАЙ</p><h1>Новости PlayStation</h1><p>Главное об играх, релизах и подписках</p></div><div class="news-filters" role="group" aria-label="Фильтр новостей"><button class="filter active" data-news-filter="Все" aria-pressed="true">Все</button><button class="filter" data-news-filter="Игры" aria-pressed="false">Игры</button><button class="filter" data-news-filter="PS Plus" aria-pressed="false">PS Plus</button></div></div><div class="news-grid">'+''.join('<div data-news-category="'+a['category']+'">'+card(a)+'</div>' for a in articles)+'</div><div class="news-catalog-banner"><div><h2>Выбираешь следующую игру?</h2><p>Сравни издания и цены в каталоге BRAZKA.</p></div><a class="button secondary" href="/catalog/" data-news-product>Открыть каталог →</a></div>')
 for a in articles:
+    # Hand-crafted gallery pages retain their full-screen viewer when rebuilding news.
+    if a.get('layout') == 'gallery':
+        if not (R/url(a).strip('/')/'index.html').is_file():
+            raise FileNotFoundError('Missing gallery page: '+a['slug'])
+        continue
     sections=''
     for s in a['sections']:
         sections+='<section><h2>'+esc(s['heading'])+'</h2>'+''.join('<p>'+esc(p)+'</p>' for p in s.get('paragraphs',[]))
