@@ -1,0 +1,2203 @@
+{
+  "checkedAt": "2026-11-05T01:59:25Z",
+  "region": "turkey",
+  "summary": {
+    "checkedEditions": 106,
+    "checkedPointPacks": 9,
+    "unconditionalOffers": 110,
+    "activeDiscounts": 13,
+    "removedExpiredDiscounts": 38,
+    "changedRetailPrices": 64,
+    "retailIncreases": 37,
+    "retailDecreases": 27
+  },
+  "changes": [
+    {
+      "gameId": "fc-27",
+      "editionId": "ultimate",
+      "oldPrice": 11600,
+      "newPrice": 10800,
+      "oldStorePrice": 5499.0,
+      "storePrice": 5499.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/UP0006-PPSA34015_00-27ULTIMATEBUNDLE"
+    },
+    {
+      "gameId": "ufc-6",
+      "editionId": "ultimate",
+      "oldPrice": 11300,
+      "newPrice": 8200,
+      "oldStorePrice": 5499.0,
+      "storePrice": 3849.3,
+      "discount": {
+        "percent": 30,
+        "endsAt": "2026-11-20T23:59:00Z",
+        "storeOriginal": 5499.0
+      },
+      "source": "https://store.playstation.com/en-tr/product/EP0006-PPSA23566_00-ULTIMATEEDITION0"
+    },
+    {
+      "gameId": "wolverine",
+      "editionId": "standard",
+      "oldPrice": 7900,
+      "newPrice": 7300,
+      "oldStorePrice": 3449.0,
+      "storePrice": 3449.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/UP9000-PPSA03671_00-MARVELSWOLVERINE"
+    },
+    {
+      "gameId": "wolverine",
+      "editionId": "digital-deluxe",
+      "oldPrice": 8800,
+      "newPrice": 6400,
+      "oldStorePrice": 3849.0,
+      "storePrice": 2963.73,
+      "discount": {
+        "percent": 23,
+        "endsAt": "2026-11-20T23:59:00Z",
+        "storeOriginal": 3849.0
+      },
+      "source": "https://store.playstation.com/en-tr/product/UP9000-PPSA03671_00-WOLVERINEDELUXE0"
+    },
+    {
+      "gameId": "nba-2k27",
+      "editionId": "standard",
+      "oldPrice": 6300,
+      "newPrice": 8200,
+      "oldStorePrice": 2679.33,
+      "storePrice": 3999.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/UP1001-PPSA35889_00-NBA2K27000000000"
+    },
+    {
+      "gameId": "nba-2k27",
+      "editionId": "deluxe",
+      "oldPrice": 11300,
+      "newPrice": 5600,
+      "oldStorePrice": 5499.0,
+      "storePrice": 2474.55,
+      "discount": {
+        "percent": 55,
+        "endsAt": "2026-11-20T23:59:00Z",
+        "storeOriginal": 5499.0
+      },
+      "source": "https://store.playstation.com/en-tr/product/UP1001-PPSA35889_00-NBA2K27SUPERED00"
+    },
+    {
+      "gameId": "cod-mw4",
+      "editionId": "standard",
+      "oldPrice": 7400,
+      "newPrice": 6900,
+      "oldStorePrice": 3199.0,
+      "storePrice": 3199.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP0002-PPSA07950_00-CODMW4STANDARD01"
+    },
+    {
+      "gameId": "cod-mw4",
+      "editionId": "vault",
+      "oldPrice": 9700,
+      "newPrice": 9100,
+      "oldStorePrice": 4399.0,
+      "storePrice": 4399.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP0002-PPSA07950_00-CODMW4VAULT00001"
+    },
+    {
+      "gameId": "007-first-light",
+      "editionId": "deluxe",
+      "oldPrice": 7700,
+      "newPrice": 4300,
+      "oldStorePrice": 3449.0,
+      "storePrice": 1724.5,
+      "discount": {
+        "percent": 50,
+        "endsAt": "2026-11-20T23:59:00Z",
+        "storeOriginal": 3449.0
+      },
+      "source": "https://store.playstation.com/en-tr/product/EP3969-PPSA11386_00-007FLDELUXE00000"
+    },
+    {
+      "gameId": "onimusha",
+      "editionId": "standard",
+      "oldPrice": 7900,
+      "newPrice": 7300,
+      "oldStorePrice": 3449.0,
+      "storePrice": 3449.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/UP0102-PPSA27836_00-0000000000000001"
+    },
+    {
+      "gameId": "onimusha",
+      "editionId": "deluxe",
+      "oldPrice": 8800,
+      "newPrice": 8200,
+      "oldStorePrice": 3849.0,
+      "storePrice": 3849.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/UP0102-PPSA27836_00-0000000000000002"
+    },
+    {
+      "gameId": "onimusha",
+      "editionId": "premium-deluxe",
+      "oldPrice": 9700,
+      "newPrice": 9100,
+      "oldStorePrice": 4299.0,
+      "storePrice": 4299.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/UP0102-PPSA27836_00-0000000000000003"
+    },
+    {
+      "gameId": "dawnwalker",
+      "editionId": "standard",
+      "oldPrice": 6900,
+      "newPrice": 6400,
+      "oldStorePrice": 2999.0,
+      "storePrice": 2999.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP0700-PPSA28000_00-DAWNWALKER00GAME"
+    },
+    {
+      "gameId": "dawnwalker",
+      "editionId": "eclipse",
+      "oldPrice": 7900,
+      "newPrice": 6400,
+      "oldStorePrice": 3449.0,
+      "storePrice": 2759.2,
+      "discount": {
+        "percent": 20,
+        "endsAt": "2026-11-20T23:59:00Z",
+        "storeOriginal": 3449.0
+      },
+      "source": "https://store.playstation.com/en-tr/product/EP0700-PPSA28000_00-DAWNWALKER000DLX"
+    },
+    {
+      "gameId": "control-resonant",
+      "editionId": "digital-deluxe",
+      "oldPrice": 6900,
+      "newPrice": 5600,
+      "oldStorePrice": 2999.0,
+      "storePrice": 2399.2,
+      "discount": {
+        "percent": 20,
+        "endsAt": "2026-11-20T23:59:00Z",
+        "storeOriginal": 2999.0
+      },
+      "source": "https://store.playstation.com/en-tr/product/EP5291-PPSA34547_00-0993602042148218"
+    },
+    {
+      "gameId": "silent-hill-townfall",
+      "editionId": "standard",
+      "oldPrice": 5500,
+      "newPrice": 4300,
+      "oldStorePrice": 2149.0,
+      "storePrice": 1719.2,
+      "discount": {
+        "percent": 20,
+        "endsAt": "2026-11-20T23:59:00Z",
+        "storeOriginal": 2149.0
+      },
+      "source": "https://store.playstation.com/en-tr/product/JP0101-PPSA33286_00-TOWNFALLSIEJ0000"
+    },
+    {
+      "gameId": "phantom-blade-zero",
+      "editionId": "digital-deluxe",
+      "oldPrice": 6900,
+      "newPrice": 6400,
+      "oldStorePrice": 2849.0,
+      "storePrice": 2849.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/UB2134-PPSA34579_00-0679049422108833"
+    },
+    {
+      "gameId": "lego-batman",
+      "editionId": "standard",
+      "oldPrice": 5400,
+      "newPrice": 6400,
+      "oldStorePrice": 2099.3,
+      "storePrice": 2999.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/UP1018-PPSA16833_00-LEGOBATMAN000000"
+    },
+    {
+      "gameId": "lego-batman",
+      "editionId": "deluxe",
+      "oldPrice": 6300,
+      "newPrice": 8200,
+      "oldStorePrice": 2694.3,
+      "storePrice": 3849.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/UP1018-PPSA16833_00-LEGOBATMANDLXEDT"
+    },
+    {
+      "gameId": "saros",
+      "editionId": "standard",
+      "oldPrice": 6300,
+      "newPrice": 7300,
+      "oldStorePrice": 2586.75,
+      "storePrice": 3449.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP9000-PPSA07631_00-SAROS00000000000"
+    },
+    {
+      "gameId": "jujutsu-kaisen",
+      "editionId": "deluxe",
+      "oldPrice": 6700,
+      "newPrice": 3000,
+      "oldStorePrice": 2799,
+      "storePrice": 867.69,
+      "discount": {
+        "percent": 69,
+        "endsAt": "2026-11-20T23:59:00Z",
+        "storeOriginal": 2799.0
+      },
+      "source": "https://store.playstation.com/en-tr/product/EP0700-PPSA09535_00-JJTKCDLXEDITION0"
+    },
+    {
+      "gameId": "spider-man-2",
+      "editionId": "digital-deluxe",
+      "oldPrice": 8800,
+      "newPrice": 8200,
+      "oldStorePrice": 3849.0,
+      "storePrice": 3849.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP9000-PPSA08338_00-MSM2DDE000000000"
+    },
+    {
+      "gameId": "gta-v",
+      "editionId": "great-white-shark-bundle",
+      "oldPrice": 3100,
+      "newPrice": 4300,
+      "oldStorePrice": 874.5,
+      "storePrice": 1749.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP1004-PPSA01721_00-GTAVANDGWSBUNDLE"
+    },
+    {
+      "gameId": "dune-awakening",
+      "editionId": "deluxe",
+      "oldPrice": 6800,
+      "newPrice": 5100,
+      "oldStorePrice": 2999.0,
+      "storePrice": 2099.3,
+      "discount": {
+        "percent": 30,
+        "endsAt": "2026-11-20T23:59:00Z",
+        "storeOriginal": 2999.0
+      },
+      "source": "https://store.playstation.com/en-tr/product/EP1833-PPSA02391_00-DADELUXEEDITION0"
+    },
+    {
+      "gameId": "dune-awakening",
+      "editionId": "ultimate",
+      "oldPrice": 8700,
+      "newPrice": 8200,
+      "oldStorePrice": 3849.0,
+      "storePrice": 3849.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP1833-PPSA02391_00-DAULTEDITION0000"
+    },
+    {
+      "gameId": "nhl-27",
+      "editionId": "standard",
+      "oldPrice": 8700,
+      "newPrice": 8200,
+      "oldStorePrice": 3999.0,
+      "storePrice": 3999.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/UP0006-PPSA34063_00-NHL27STANDEDITON"
+    },
+    {
+      "gameId": "nhl-27",
+      "editionId": "deluxe",
+      "oldPrice": 9000,
+      "newPrice": 10800,
+      "oldStorePrice": 4124.25,
+      "storePrice": 5499.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/UP0006-PPSA34063_00-NHL27DELUXEDITON"
+    },
+    {
+      "gameId": "fable",
+      "editionId": "premium",
+      "oldPrice": 9600,
+      "newPrice": 9100,
+      "oldStorePrice": 4299.0,
+      "storePrice": 4299.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/UP6312-PPSA31381_00-0730774904492744"
+    },
+    {
+      "gameId": "ace-combat-8",
+      "editionId": "deluxe",
+      "oldPrice": 9600,
+      "newPrice": 9100,
+      "oldStorePrice": 4299.0,
+      "storePrice": 4299.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/JP0700-PPSA24913_00-ACEC8DLXEDITION0"
+    },
+    {
+      "gameId": "arc-raiders",
+      "editionId": "standard",
+      "oldPrice": 3500,
+      "newPrice": 5100,
+      "oldStorePrice": 1045.0,
+      "storePrice": 2090.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP6848-PPSA04998_00-4085881659726287"
+    },
+    {
+      "gameId": "arc-raiders",
+      "editionId": "deluxe",
+      "oldPrice": 4400,
+      "newPrice": 6900,
+      "oldStorePrice": 1545.0,
+      "storePrice": 3090.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP6848-PPSA04998_00-0848816902205797"
+    },
+    {
+      "gameId": "hogwarts-legacy",
+      "editionId": "standard",
+      "oldPrice": 2200,
+      "newPrice": 6900,
+      "oldStorePrice": 472.35,
+      "storePrice": 3149.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP1018-PPSA01603_00-HOGWARTSLEGACY01"
+    },
+    {
+      "gameId": "mortal-kombat-1",
+      "editionId": "standard",
+      "oldPrice": 2200,
+      "newPrice": 4300,
+      "oldStorePrice": 349.8,
+      "storePrice": 1749.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP1018-PPSA07571_00-MKONE00000000000"
+    },
+    {
+      "gameId": "resident-evil-4",
+      "editionId": "gold",
+      "oldPrice": 2600,
+      "newPrice": 4300,
+      "oldStorePrice": 524.7,
+      "storePrice": 1749.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP0102-PPSA07412_00-RE4GOLDEDITION00"
+    },
+    {
+      "gameId": "resident-evil-requiem",
+      "editionId": "deluxe",
+      "oldPrice": 5800,
+      "newPrice": 8200,
+      "oldStorePrice": 2386.38,
+      "storePrice": 3849.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP0102-PPSA31246_00-REREQUIEMDX00000"
+    },
+    {
+      "gameId": "tekken-8",
+      "editionId": "standard",
+      "oldPrice": 3500,
+      "newPrice": 4300,
+      "oldStorePrice": 1049.4,
+      "storePrice": 1749.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP0700-PPSA10594_00-TEKKEN8000000000"
+    },
+    {
+      "gameId": "ac-shadows",
+      "editionId": "premium",
+      "oldPrice": 4900,
+      "newPrice": 8600,
+      "oldStorePrice": 1889.55,
+      "storePrice": 4199.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP0001-PPSA22100_00-EDITIONCOMPLETE0"
+    },
+    {
+      "gameId": "lego-star-wars-skywalker-saga",
+      "editionId": "standard",
+      "oldPrice": 2200,
+      "newPrice": 5600,
+      "oldStorePrice": 374.85,
+      "storePrice": 2499.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP1018-PPSA01865_00-LEGOSWTSS0000000"
+    },
+    {
+      "gameId": "life-is-strange-reunion",
+      "editionId": "standard",
+      "oldPrice": 4400,
+      "newPrice": 5100,
+      "oldStorePrice": 1611.75,
+      "storePrice": 2149.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP0082-PPSA28101_00-0821634695257710"
+    },
+    {
+      "gameId": "crisis-core-final-fantasy-vii-reunion",
+      "editionId": "standard",
+      "oldPrice": 3100,
+      "newPrice": 5100,
+      "oldStorePrice": 839.6,
+      "storePrice": 2099.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP0082-PPSA07810_00-CRISISCORE000000"
+    },
+    {
+      "gameId": "terminator-2d-no-fate",
+      "editionId": "standard",
+      "oldPrice": 3100,
+      "newPrice": 3800,
+      "oldStorePrice": 974.25,
+      "storePrice": 1299.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP4060-PPSA25872_00-T2DNFMAINGAMEPS5"
+    },
+    {
+      "gameId": "ufc-6",
+      "editionId": "standard",
+      "oldPrice": 6700,
+      "newPrice": 8200,
+      "oldStorePrice": 2799.3,
+      "storePrice": 3999.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP0006-PPSA23566_00-BASEUFC6GAME0000"
+    },
+    {
+      "gameId": "rdr2",
+      "editionId": "standard",
+      "oldPrice": 2600,
+      "newPrice": 5100,
+      "oldStorePrice": 524.75,
+      "storePrice": 2099.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP1004-CUSA08519_00-REDEMPTIONFULL02"
+    },
+    {
+      "gameId": "forza-horizon-5",
+      "editionId": "deluxe",
+      "oldPrice": 3100,
+      "newPrice": 5100,
+      "oldStorePrice": 822.0,
+      "storePrice": 2055.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/UP6312-PPSA22327_00-0547256477986893"
+    },
+    {
+      "gameId": "007-first-light",
+      "editionId": "standard",
+      "oldPrice": 5400,
+      "newPrice": 6400,
+      "oldStorePrice": 2099.3,
+      "storePrice": 2999.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP3969-PPSA11386_00-007FIRSTLIGHT000"
+    },
+    {
+      "gameId": "atomic-heart",
+      "editionId": "standard",
+      "oldPrice": 2600,
+      "newPrice": 5600,
+      "oldStorePrice": 749.7,
+      "storePrice": 2499.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP4133-PPSA10695_00-ATOMICHEARTGAME0"
+    },
+    {
+      "gameId": "atomic-heart",
+      "editionId": "ultimate",
+      "oldPrice": 4000,
+      "newPrice": 9500,
+      "oldStorePrice": 1424.7,
+      "storePrice": 4749.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP4133-PPSA10695_00-ATOMICHEARTULTIM"
+    },
+    {
+      "gameId": "borderlands-3",
+      "editionId": "standard",
+      "oldPrice": 1700,
+      "newPrice": 2100,
+      "oldStorePrice": 45.9,
+      "storePrice": 459.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP1001-PPSA01463_00-0000000OAKNGSIEE"
+    },
+    {
+      "gameId": "borderlands-3",
+      "editionId": "super-deluxe",
+      "oldPrice": 2200,
+      "newPrice": 6400,
+      "oldStorePrice": 419.85,
+      "storePrice": 2799.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP1001-PPSA01463_00-000000OAKSIEESDD"
+    },
+    {
+      "gameId": "just-cause-4",
+      "editionId": "complete",
+      "oldPrice": 2200,
+      "newPrice": 5600,
+      "oldStorePrice": 499.8,
+      "storePrice": 2499.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP0082-CUSA09264_00-JC4COMPLETEWWNEW"
+    },
+    {
+      "gameId": "jujutsu-kaisen",
+      "editionId": "standard",
+      "oldPrice": 2600,
+      "newPrice": 5100,
+      "oldStorePrice": 692.67,
+      "storePrice": 2099.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP0700-PPSA09535_00-JJKCVSX400000000"
+    },
+    {
+      "gameId": "jujutsu-kaisen",
+      "editionId": "ultimate",
+      "oldPrice": 3500,
+      "newPrice": 7300,
+      "oldStorePrice": 1049.7,
+      "storePrice": 3499.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP0700-PPSA09535_00-JJTKCULTEDITION0"
+    },
+    {
+      "gameId": "golf-with-your-friends",
+      "editionId": "ultimate",
+      "oldPrice": 2200,
+      "newPrice": 3800,
+      "oldStorePrice": 269.8,
+      "storePrice": 1349.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP4064-CUSA17676_00-GWYFULTIMATE0000"
+    },
+    {
+      "gameId": "golf-with-your-friends",
+      "editionId": "standard",
+      "oldPrice": 1700,
+      "newPrice": 2500,
+      "oldStorePrice": 139.8,
+      "storePrice": 699.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP4064-CUSA17676_00-GOLFWYFRIENDS000"
+    },
+    {
+      "gameId": "split-fiction",
+      "editionId": "standard",
+      "oldPrice": 3500,
+      "newPrice": 4700,
+      "oldStorePrice": 1170.0,
+      "storePrice": 1800.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/UP0006-PPSA08560_00-SPLITSTANDARDED0"
+    },
+    {
+      "gameId": "it-takes-two",
+      "editionId": "standard",
+      "oldPrice": 2100,
+      "newPrice": 3800,
+      "oldStorePrice": 449.99,
+      "storePrice": 1499.99,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP0006-PPSA02343_00-ITTAKESTWORETAIL"
+    },
+    {
+      "gameId": "a-way-out",
+      "editionId": "standard",
+      "oldPrice": 2100,
+      "newPrice": 3400,
+      "oldStorePrice": 314.7,
+      "storePrice": 1049.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP0006-CUSA08004_00-AWAYOUTEU0000000"
+    },
+    {
+      "gameId": "overcooked-all-you-can-eat",
+      "editionId": "standard",
+      "oldPrice": 2100,
+      "newPrice": 3800,
+      "oldStorePrice": 419.7,
+      "storePrice": 1399.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP4064-PPSA01528_00-0538983162460184"
+    },
+    {
+      "gameId": "unravel-two",
+      "editionId": "standard",
+      "oldPrice": 1700,
+      "newPrice": 1700,
+      "oldStorePrice": 24.99,
+      "storePrice": 99.99,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP0006-CUSA10416_00-COLDWOODPIKE0000"
+    },
+    {
+      "gameId": "remnant-2",
+      "editionId": "standard",
+      "oldPrice": 5400,
+      "newPrice": 2500,
+      "oldStorePrice": 2149.0,
+      "storePrice": 644.7,
+      "discount": {
+        "percent": 70,
+        "endsAt": "2026-11-20T23:59:00Z",
+        "storeOriginal": 2149.0
+      },
+      "source": "https://store.playstation.com/en-tr/product/EP1965-PPSA06694_00-REM2STDPREORDER0"
+    },
+    {
+      "gameId": "remnant-2",
+      "editionId": "ultimate",
+      "oldPrice": 6800,
+      "newPrice": 3000,
+      "oldStorePrice": 2999.0,
+      "storePrice": 899.7,
+      "discount": {
+        "percent": 70,
+        "endsAt": "2026-11-20T23:59:00Z",
+        "storeOriginal": 2999.0
+      },
+      "source": "https://store.playstation.com/en-tr/product/EP1965-PPSA06694_00-REM2ULTIMATE0000"
+    },
+    {
+      "gameId": "palworld",
+      "editionId": "standard",
+      "oldPrice": 2600,
+      "newPrice": 3400,
+      "oldStorePrice": 710.5,
+      "storePrice": 1015.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/UP6360-PPSA23126_00-0112788005082769"
+    },
+    {
+      "gameId": "gang-beasts",
+      "editionId": "standard",
+      "oldPrice": 2600,
+      "newPrice": 2100,
+      "oldStorePrice": 699.0,
+      "storePrice": 279.6,
+      "discount": {
+        "percent": 60,
+        "endsAt": "2026-11-20T23:59:00Z",
+        "storeOriginal": 699.0
+      },
+      "source": "https://store.playstation.com/en-tr/product/EP2154-CUSA04865_00-GANGBEASTSPS04EU"
+    },
+    {
+      "gameId": "ghost-recon-wildlands",
+      "editionId": "standard",
+      "oldPrice": 5400,
+      "newPrice": 2100,
+      "oldStorePrice": 2149.0,
+      "storePrice": 429.8,
+      "discount": {
+        "percent": 80,
+        "endsAt": "2026-11-20T23:59:00Z",
+        "storeOriginal": 2149.0
+      },
+      "source": "https://store.playstation.com/en-tr/product/EP0001-CUSA02819_00-GRWEMEANORMAL000"
+    },
+    {
+      "gameId": "batman-arkham-knight",
+      "editionId": "premium",
+      "oldPrice": 1700,
+      "newPrice": 4300,
+      "oldStorePrice": 192.39,
+      "storePrice": 1749.0,
+      "discount": null,
+      "source": "https://store.playstation.com/en-tr/product/EP1018-CUSA00135_00-BAKPREMIUMED0000"
+    }
+  ],
+  "exceptions": [
+    {
+      "gameId": "nba-2k27",
+      "editionId": "ultra",
+      "url": "https://store.playstation.com/en-tr/product/UP1001-PPSA35889_00-NBA2K27ULTRAED00",
+      "reason": "product_not_resolved"
+    },
+    {
+      "gameId": "fc-27",
+      "editionId": "ultimate-plus",
+      "url": "https://store.playstation.com/en-tr/product/UP0006-PPSA34015_00-27SUPERDELUXEBUN",
+      "reason": "product_not_resolved"
+    },
+    {
+      "gameId": "halloween-the-game",
+      "editionId": "digital-deluxe",
+      "url": "https://store.playstation.com/en-tr/product/UP3095-PPSA29340_00-HALLOWEENDELUXED",
+      "reason": "product_not_resolved"
+    },
+    {
+      "gameId": "saros",
+      "editionId": "digital-deluxe",
+      "url": "https://store.playstation.com/en-tr/product/EP9000-PPSA07631_00-SAROSDELUXE00000",
+      "reason": "conditional_offer_ignored"
+    },
+    {
+      "gameId": "sackboy",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP9000-PPSA01288_00-SACKBOYADVENTURE",
+      "reason": "conditional_offer_ignored"
+    }
+  ],
+  "cardQuotes": {
+    "250": {
+      "productId": 5261862,
+      "response": {
+        "price": "429",
+        "cnt": "1",
+        "amount": "429",
+        "saleBasePrice": "0",
+        "salePercent": "",
+        "curr": "RUB",
+        "dprice": "",
+        "commiss": "0",
+        "err": "0"
+      },
+      "url": "https://plati.market/asp/price_options.asp?p=5261862&n=0&c=RUB&e=&d=false&x="
+    },
+    "750": {
+      "productId": 5250543,
+      "response": {
+        "price": "1299",
+        "cnt": "1",
+        "amount": "1299",
+        "saleBasePrice": "0",
+        "salePercent": "",
+        "curr": "RUB",
+        "dprice": "",
+        "commiss": "0",
+        "err": "0"
+      },
+      "url": "https://plati.market/asp/price_options.asp?p=5250543&n=0&c=RUB&e=&d=false&x="
+    },
+    "1000": {
+      "productId": 5254478,
+      "response": {
+        "price": "1734",
+        "cnt": "1",
+        "amount": "1734",
+        "saleBasePrice": "0",
+        "salePercent": "",
+        "curr": "RUB",
+        "dprice": "",
+        "commiss": "0",
+        "err": "0"
+      },
+      "url": "https://plati.market/asp/price_options.asp?p=5254478&n=0&c=RUB&e=&d=false&x="
+    },
+    "1500": {
+      "productId": 5304139,
+      "response": {
+        "price": "2604",
+        "cnt": "1",
+        "amount": "2604",
+        "saleBasePrice": "0",
+        "salePercent": "",
+        "curr": "RUB",
+        "dprice": "",
+        "commiss": "0",
+        "err": "0"
+      },
+      "url": "https://plati.market/asp/price_options.asp?p=5304139&n=0&c=RUB&e=&d=false&x="
+    },
+    "2000": {
+      "productId": 5250601,
+      "response": {
+        "price": "3474",
+        "cnt": "1",
+        "amount": "3474",
+        "saleBasePrice": "0",
+        "salePercent": "",
+        "curr": "RUB",
+        "dprice": "",
+        "commiss": "0",
+        "err": "0"
+      },
+      "url": "https://plati.market/asp/price_options.asp?p=5250601&n=0&c=RUB&e=&d=false&x="
+    },
+    "2500": {
+      "productId": 5250604,
+      "response": {
+        "price": "4339",
+        "cnt": "1",
+        "amount": "4339",
+        "saleBasePrice": "0",
+        "salePercent": "",
+        "curr": "RUB",
+        "dprice": "",
+        "commiss": "0",
+        "err": "0"
+      },
+      "url": "https://plati.market/asp/price_options.asp?p=5250604&n=0&c=RUB&e=&d=false&x="
+    },
+    "3000": {
+      "productId": 5297640,
+      "response": {
+        "price": "5209",
+        "cnt": "1",
+        "amount": "6042",
+        "saleBasePrice": "0",
+        "salePercent": "",
+        "curr": "RUB",
+        "dprice": "",
+        "commiss": "0",
+        "err": "0"
+      },
+      "url": "https://plati.market/asp/price_options.asp?p=5297640&n=0&c=RUB&e=&d=false&x="
+    }
+  },
+  "notes": [
+    "GTA VI remains fixed at 8800/10700 RUB.",
+    "FC Points retail prices retained; PS Store prices checked.",
+    "Conditional experiment offers ignored; prior regular prices retained.",
+    "PS Store direct HTML and exact-product CTA used; subscription offers excluded."
+  ],
+  "offers": [
+    {
+      "gameId": "wolverine",
+      "editionId": "digital-deluxe",
+      "url": "https://store.playstation.com/en-tr/product/UP9000-PPSA03671_00-WOLVERINEDELUXE0",
+      "status": "verified",
+      "price": 2963.73,
+      "original": 3849.0,
+      "endsAt": "2026-11-20T23:59:00Z",
+      "preorder": false,
+      "releaseDate": "2026-09-14T21:00:00Z"
+    },
+    {
+      "gameId": "ufc-6",
+      "editionId": "ultimate",
+      "url": "https://store.playstation.com/en-tr/product/EP0006-PPSA23566_00-ULTIMATEEDITION0",
+      "status": "verified",
+      "price": 3849.3,
+      "original": 5499.0,
+      "endsAt": "2026-11-20T23:59:00Z",
+      "preorder": false,
+      "releaseDate": "2026-06-12T15:00:00Z"
+    },
+    {
+      "gameId": "cod-mw4",
+      "editionId": "vault",
+      "url": "https://store.playstation.com/en-tr/product/EP0002-PPSA07950_00-CODMW4VAULT00001",
+      "status": "verified",
+      "price": 4399.0,
+      "original": 4399.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-10-22T21:00:00Z"
+    },
+    {
+      "gameId": "forza-horizon-5",
+      "editionId": "premium",
+      "url": "https://store.playstation.com/en-tr/product/UP6312-PPSA22327_00-0810100104879906",
+      "status": "verified",
+      "price": 2570.0,
+      "original": 2570.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2025-04-24T21:00:00Z"
+    },
+    {
+      "gameId": "007-first-light",
+      "editionId": "deluxe",
+      "url": "https://store.playstation.com/en-tr/product/EP3969-PPSA11386_00-007FLDELUXE00000",
+      "status": "verified",
+      "price": 1724.5,
+      "original": 3449.0,
+      "endsAt": "2026-11-20T23:59:00Z",
+      "preorder": false,
+      "releaseDate": "2026-05-27T14:00:00Z"
+    },
+    {
+      "gameId": "gta-vi",
+      "editionId": "ultimate",
+      "url": "https://store.playstation.com/en-tr/product/EP1004-PPSA01547_00-GTAVIULTIMATE001",
+      "status": "verified",
+      "price": 4999.0,
+      "original": 4999.0,
+      "endsAt": null,
+      "preorder": true,
+      "releaseDate": "2026-11-18T21:00:00Z"
+    },
+    {
+      "gameId": "god-of-war-laufey",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/UP9000-PPSA19249_00-LAUFEY0000000000",
+      "status": "verified",
+      "price": 3449.0,
+      "original": 3449.0,
+      "endsAt": null,
+      "preorder": true,
+      "releaseDate": "2027-05-19T21:00:00Z"
+    },
+    {
+      "gameId": "wolverine",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/UP9000-PPSA03671_00-MARVELSWOLVERINE",
+      "status": "verified",
+      "price": 3449.0,
+      "original": 3449.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-09-14T21:00:00Z"
+    },
+    {
+      "gameId": "cod-mw4",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP0002-PPSA07950_00-CODMW4STANDARD01",
+      "status": "verified",
+      "price": 3199.0,
+      "original": 3199.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-10-22T21:00:00Z"
+    },
+    {
+      "gameId": "gta-vi",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP1004-PPSA01547_00-GTAVISTANDARD001",
+      "status": "verified",
+      "price": 3999.0,
+      "original": 3999.0,
+      "endsAt": null,
+      "preorder": true,
+      "releaseDate": "2026-11-18T21:00:00Z"
+    },
+    {
+      "gameId": "forza-horizon-5",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/UP6312-PPSA22327_00-0629872585919347",
+      "status": "verified",
+      "price": 1541.0,
+      "original": 1541.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2025-04-28T21:00:00Z"
+    },
+    {
+      "gameId": "nba-2k27",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/UP1001-PPSA35889_00-NBA2K27000000000",
+      "status": "verified",
+      "price": 3999.0,
+      "original": 3999.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-09-03T21:00:00Z"
+    },
+    {
+      "gameId": "fc-27",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/UP0006-PPSA34015_00-27STANDARDBUNDLE",
+      "status": "verified",
+      "price": 3999.0,
+      "original": 3999.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-09-18T04:00:00Z"
+    },
+    {
+      "gameId": "fc-27",
+      "editionId": "ultimate",
+      "url": "https://store.playstation.com/en-tr/product/UP0006-PPSA34015_00-27ULTIMATEBUNDLE",
+      "status": "verified",
+      "price": 5499.0,
+      "original": 5499.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-09-17T21:00:00Z"
+    },
+    {
+      "gameId": "god-of-war-laufey",
+      "editionId": "digital-deluxe",
+      "url": "https://store.playstation.com/en-tr/product/UP9000-PPSA19249_00-LAUFEYDDE0000000",
+      "status": "verified",
+      "price": 3849.0,
+      "original": 3849.0,
+      "endsAt": null,
+      "preorder": true,
+      "releaseDate": "2027-05-19T21:00:00Z"
+    },
+    {
+      "gameId": "nba-2k27",
+      "editionId": "ultra",
+      "url": "https://store.playstation.com/en-tr/product/UP1001-PPSA35889_00-NBA2K27ULTRAED00",
+      "status": "no_unconditional_price",
+      "releaseDate": null
+    },
+    {
+      "gameId": "rdr2",
+      "editionId": "ultimate",
+      "url": "https://store.playstation.com/en-tr/product/EP1004-CUSA08519_00-RDR2ULTMEDTNBUND",
+      "status": "verified",
+      "price": 3499.0,
+      "original": 3499.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2018-10-28T21:00:00Z"
+    },
+    {
+      "gameId": "nba-2k27",
+      "editionId": "deluxe",
+      "url": "https://store.playstation.com/en-tr/product/UP1001-PPSA35889_00-NBA2K27SUPERED00",
+      "status": "verified",
+      "price": 2474.55,
+      "original": 5499.0,
+      "endsAt": "2026-11-20T23:59:00Z",
+      "preorder": false,
+      "releaseDate": "2026-08-26T16:00:00Z"
+    },
+    {
+      "gameId": "onimusha",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/UP0102-PPSA27836_00-0000000000000001",
+      "status": "verified",
+      "price": 3449.0,
+      "original": 3449.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-09-03T21:00:00Z"
+    },
+    {
+      "gameId": "dawnwalker",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP0700-PPSA28000_00-DAWNWALKER00GAME",
+      "status": "verified",
+      "price": 2999.0,
+      "original": 2999.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-09-02T21:00:00Z"
+    },
+    {
+      "gameId": "onimusha",
+      "editionId": "premium-deluxe",
+      "url": "https://store.playstation.com/en-tr/product/UP0102-PPSA27836_00-0000000000000003",
+      "status": "verified",
+      "price": 4299.0,
+      "original": 4299.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-09-03T21:00:00Z"
+    },
+    {
+      "gameId": "control-resonant",
+      "editionId": "digital-deluxe",
+      "url": "https://store.playstation.com/en-tr/product/EP5291-PPSA34547_00-0993602042148218",
+      "status": "verified",
+      "price": 2399.2,
+      "original": 2999.0,
+      "endsAt": "2026-11-20T23:59:00Z",
+      "preorder": false,
+      "releaseDate": "2026-09-24T14:00:00Z"
+    },
+    {
+      "gameId": "dawnwalker",
+      "editionId": "eclipse",
+      "url": "https://store.playstation.com/en-tr/product/EP0700-PPSA28000_00-DAWNWALKER000DLX",
+      "status": "verified",
+      "price": 2759.2,
+      "original": 3449.0,
+      "endsAt": "2026-11-20T23:59:00Z",
+      "preorder": false,
+      "releaseDate": "2026-09-02T21:00:00Z"
+    },
+    {
+      "gameId": "silent-hill-townfall",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/JP0101-PPSA33286_00-TOWNFALLSIEJ0000",
+      "status": "verified",
+      "price": 1719.2,
+      "original": 2149.0,
+      "endsAt": "2026-11-20T23:59:00Z",
+      "preorder": false,
+      "releaseDate": "2026-09-23T21:00:00Z"
+    },
+    {
+      "gameId": "control-resonant",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP5291-PPSA34547_00-0210080241603648",
+      "status": "verified",
+      "price": 2579.0,
+      "original": 2579.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-09-24T14:00:00Z"
+    },
+    {
+      "gameId": "phantom-blade-zero",
+      "editionId": "digital-deluxe",
+      "url": "https://store.playstation.com/en-tr/product/UB2134-PPSA34579_00-0679049422108833",
+      "status": "verified",
+      "price": 2849.0,
+      "original": 2849.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-10-29T02:00:00Z"
+    },
+    {
+      "gameId": "onimusha",
+      "editionId": "deluxe",
+      "url": "https://store.playstation.com/en-tr/product/UP0102-PPSA27836_00-0000000000000002",
+      "status": "verified",
+      "price": 3849.0,
+      "original": 3849.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-09-03T21:00:00Z"
+    },
+    {
+      "gameId": "black-flag",
+      "editionId": "deluxe",
+      "url": "https://store.playstation.com/en-tr/product/EP0001-PPSA28183_00-DELUXE0000000000",
+      "status": "verified",
+      "price": 2999.0,
+      "original": 2999.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-07-08T21:00:00Z"
+    },
+    {
+      "gameId": "silent-hill-townfall",
+      "editionId": "deluxe",
+      "url": "https://store.playstation.com/en-tr/product/JP0101-PPSA33286_00-SHTOWNFALLDELUXE",
+      "status": "verified",
+      "price": 2579.0,
+      "original": 2579.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-09-21T21:00:00Z"
+    },
+    {
+      "gameId": "borderlands-3",
+      "editionId": "ultimate",
+      "url": "https://store.playstation.com/en-tr/product/EP1001-PPSA01463_00-000000OAKSIEEUEB",
+      "status": "verified",
+      "price": 3499.0,
+      "original": 3499.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2020-11-11T21:00:00Z"
+    },
+    {
+      "gameId": "lego-batman",
+      "editionId": "deluxe",
+      "url": "https://store.playstation.com/en-tr/product/UP1018-PPSA16833_00-LEGOBATMANDLXEDT",
+      "status": "verified",
+      "price": 3849.0,
+      "original": 3849.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-05-18T21:00:00Z"
+    },
+    {
+      "gameId": "borderlands-3",
+      "editionId": "next-level",
+      "url": "https://store.playstation.com/en-tr/product/EP1001-PPSA01463_00-000000OAKSIEENLB",
+      "status": "verified",
+      "price": 507.46,
+      "original": 507.46,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2020-11-11T21:00:00Z"
+    },
+    {
+      "gameId": "jujutsu-kaisen",
+      "editionId": "deluxe",
+      "url": "https://store.playstation.com/en-tr/product/EP0700-PPSA09535_00-JJTKCDLXEDITION0",
+      "status": "verified",
+      "price": 867.69,
+      "original": 2799.0,
+      "endsAt": "2026-11-20T23:59:00Z",
+      "preorder": false,
+      "releaseDate": "2024-02-01T21:00:00Z"
+    },
+    {
+      "gameId": "lego-batman",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/UP1018-PPSA16833_00-LEGOBATMAN000000",
+      "status": "verified",
+      "price": 2999.0,
+      "original": 2999.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-05-21T21:00:00Z"
+    },
+    {
+      "gameId": "ac-origins",
+      "editionId": "gold",
+      "url": "https://store.playstation.com/en-tr/product/EP0001-CUSA05625_00-EDITIONGLDACE000",
+      "status": "verified",
+      "price": 359.0,
+      "original": 359.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2017-10-26T21:00:00Z"
+    },
+    {
+      "gameId": "ac-origins",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP0001-CUSA05625_00-GAMEACEMPIRE0000",
+      "status": "verified",
+      "price": 3149.0,
+      "original": 3149.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2017-10-26T21:00:00Z"
+    },
+    {
+      "gameId": "atomic-heart",
+      "editionId": "gold",
+      "url": "https://store.playstation.com/en-tr/product/EP4133-PPSA10695_00-ATOMICHEARTGLDED",
+      "status": "verified",
+      "price": 3499.0,
+      "original": 3499.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2023-02-20T21:00:00Z"
+    },
+    {
+      "gameId": "golf-with-your-friends",
+      "editionId": "starter",
+      "url": "https://store.playstation.com/en-tr/product/EP4064-CUSA17676_00-GWYFSTARTER00000",
+      "status": "verified",
+      "price": 799.0,
+      "original": 799.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2023-11-23T21:00:00Z"
+    },
+    {
+      "gameId": "phantom-blade-zero",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/UB2134-PPSA34579_00-0622032276386943",
+      "status": "verified",
+      "price": 2379.0,
+      "original": 2379.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-10-29T02:00:00Z"
+    },
+    {
+      "gameId": "black-flag",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP0001-PPSA28183_00-GAME000000000000",
+      "status": "verified",
+      "price": 2579.0,
+      "original": 2579.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-07-08T21:00:00Z"
+    },
+    {
+      "gameId": "gta-v",
+      "editionId": "great-white-shark-bundle",
+      "url": "https://store.playstation.com/en-tr/product/EP1004-PPSA01721_00-GTAVANDGWSBUNDLE",
+      "status": "verified",
+      "price": 1749.0,
+      "original": 1749.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-06-18T16:00:00Z"
+    },
+    {
+      "gameId": "saros",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP9000-PPSA07631_00-SAROS00000000000",
+      "status": "verified",
+      "price": 3449.0,
+      "original": 3449.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-04-29T21:00:00Z"
+    },
+    {
+      "gameId": "black-ops-2",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/UP0002-PPSA34502_00-CODBO2GAME000001",
+      "status": "verified",
+      "price": 1600.0,
+      "original": 1600.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-07-09T17:00:00Z"
+    },
+    {
+      "gameId": "spider-man-2",
+      "editionId": "digital-deluxe",
+      "url": "https://store.playstation.com/en-tr/product/EP9000-PPSA08338_00-MSM2DDE000000000",
+      "status": "verified",
+      "price": 3849.0,
+      "original": 3849.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2023-10-19T21:00:00Z"
+    },
+    {
+      "gameId": "nhl-27",
+      "editionId": "deluxe",
+      "url": "https://store.playstation.com/en-tr/product/UP0006-PPSA34063_00-NHL27DELUXEDITON",
+      "status": "verified",
+      "price": 5499.0,
+      "original": 5499.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-09-04T16:00:00Z"
+    },
+    {
+      "gameId": "fc-27",
+      "editionId": "ultimate-plus",
+      "url": "https://store.playstation.com/en-tr/product/UP0006-PPSA34015_00-27SUPERDELUXEBUN",
+      "status": "no_unconditional_price",
+      "releaseDate": null
+    },
+    {
+      "gameId": "just-cause-4",
+      "editionId": "gold",
+      "url": "https://store.playstation.com/en-tr/product/EP0082-CUSA09264_00-JC4GOLDNEWWW0000",
+      "status": "verified",
+      "price": 2099.0,
+      "original": 2099.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2019-11-06T21:00:00Z"
+    },
+    {
+      "gameId": "halloween-the-game",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/UP3095-PPSA29340_00-RAVAGEGAME100000",
+      "status": "verified",
+      "price": 1749.0,
+      "original": 1749.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-09-08T16:00:00Z"
+    },
+    {
+      "gameId": "dune-awakening",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP1833-PPSA02391_00-DUNEAWAKENING000",
+      "status": "verified",
+      "price": 2149.0,
+      "original": 2149.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-09-22T12:00:00Z"
+    },
+    {
+      "gameId": "dune-awakening",
+      "editionId": "deluxe",
+      "url": "https://store.playstation.com/en-tr/product/EP1833-PPSA02391_00-DADELUXEEDITION0",
+      "status": "verified",
+      "price": 2099.3,
+      "original": 2999.0,
+      "endsAt": "2026-11-20T23:59:00Z",
+      "preorder": false,
+      "releaseDate": "2026-09-22T12:00:00Z"
+    },
+    {
+      "gameId": "dune-awakening",
+      "editionId": "ultimate",
+      "url": "https://store.playstation.com/en-tr/product/EP1833-PPSA02391_00-DAULTEDITION0000",
+      "status": "verified",
+      "price": 3849.0,
+      "original": 3849.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-09-22T12:00:00Z"
+    },
+    {
+      "gameId": "just-cause-4",
+      "editionId": "reloaded",
+      "url": "https://store.playstation.com/en-tr/product/EP0082-CUSA09264_00-JC4RELOADEDWW000",
+      "status": "verified",
+      "price": 1399.0,
+      "original": 1399.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2019-11-06T21:00:00Z"
+    },
+    {
+      "gameId": "until-dawn-2",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP9000-PPSA05719_00-UNTILDAWN2000001",
+      "status": "verified",
+      "price": 2149.0,
+      "original": 2149.0,
+      "endsAt": null,
+      "preorder": true,
+      "releaseDate": "2027-01-27T21:00:00Z"
+    },
+    {
+      "gameId": "nhl-27",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/UP0006-PPSA34063_00-NHL27STANDEDITON",
+      "status": "verified",
+      "price": 3999.0,
+      "original": 3999.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-09-04T16:00:00Z"
+    },
+    {
+      "gameId": "fable",
+      "editionId": "premium",
+      "url": "https://store.playstation.com/en-tr/product/UP6312-PPSA31381_00-0730774904492744",
+      "status": "verified",
+      "price": 4299.0,
+      "original": 4299.0,
+      "endsAt": null,
+      "preorder": true,
+      "releaseDate": "2027-02-18T16:00:00Z"
+    },
+    {
+      "gameId": "fable",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/UP6312-PPSA31381_00-0202050640964065",
+      "status": "verified",
+      "price": 2999.0,
+      "original": 2999.0,
+      "endsAt": null,
+      "preorder": true,
+      "releaseDate": "2027-02-23T16:00:00Z"
+    },
+    {
+      "gameId": "halloween-the-game",
+      "editionId": "digital-deluxe",
+      "url": "https://store.playstation.com/en-tr/product/UP3095-PPSA29340_00-HALLOWEENDELUXED",
+      "status": "no_unconditional_price",
+      "releaseDate": null
+    },
+    {
+      "gameId": "ace-combat-8",
+      "editionId": "deluxe",
+      "url": "https://store.playstation.com/en-tr/product/JP0700-PPSA24913_00-ACEC8DLXEDITION0",
+      "status": "verified",
+      "price": 4299.0,
+      "original": 4299.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-10-01T22:00:00Z"
+    },
+    {
+      "gameId": "tomb-raider-legacy-of-atlantis",
+      "editionId": "deluxe",
+      "url": "https://store.playstation.com/en-tr/product/UP5267-PPSA29000_00-TRLOADELX0000000",
+      "status": "verified",
+      "price": 2999.0,
+      "original": 2999.0,
+      "endsAt": null,
+      "preorder": true,
+      "releaseDate": "2027-02-10T18:00:00Z"
+    },
+    {
+      "gameId": "until-dawn-2",
+      "editionId": "digital-deluxe",
+      "url": "https://store.playstation.com/en-tr/product/EP9000-PPSA05719_00-UNTILDAWN2DDE001",
+      "status": "verified",
+      "price": 2579.0,
+      "original": 2579.0,
+      "endsAt": null,
+      "preorder": true,
+      "releaseDate": "2027-01-27T21:00:00Z"
+    },
+    {
+      "gameId": "arc-raiders",
+      "editionId": "deluxe",
+      "url": "https://store.playstation.com/en-tr/product/EP6848-PPSA04998_00-0848816902205797",
+      "status": "verified",
+      "price": 3090.0,
+      "original": 3090.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2025-10-30T10:00:00Z"
+    },
+    {
+      "gameId": "ace-combat-8",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/JP0700-PPSA24913_00-MAINGAME00000000",
+      "status": "verified",
+      "price": 3449.0,
+      "original": 3449.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-10-01T22:00:00Z"
+    },
+    {
+      "gameId": "tomb-raider-legacy-of-atlantis",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/UP5267-PPSA29000_00-TRLOASTND0000000",
+      "status": "verified",
+      "price": 2579.0,
+      "original": 2579.0,
+      "endsAt": null,
+      "preorder": true,
+      "releaseDate": "2027-02-12T18:00:00Z"
+    },
+    {
+      "gameId": "hogwarts-legacy",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP1018-PPSA01603_00-HOGWARTSLEGACY01",
+      "status": "verified",
+      "price": 3149.0,
+      "original": 3149.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2023-02-09T21:00:00Z"
+    },
+    {
+      "gameId": "arc-raiders",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP6848-PPSA04998_00-4085881659726287",
+      "status": "verified",
+      "price": 2090.0,
+      "original": 2090.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2025-10-30T10:00:00Z"
+    },
+    {
+      "gameId": "mortal-kombat-1",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP1018-PPSA07571_00-MKONE00000000000",
+      "status": "verified",
+      "price": 1749.0,
+      "original": 1749.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2023-09-18T21:00:00Z"
+    },
+    {
+      "gameId": "life-is-strange-reunion",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP0082-PPSA28101_00-0821634695257710",
+      "status": "verified",
+      "price": 2149.0,
+      "original": 2149.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-03-26T16:00:00Z"
+    },
+    {
+      "gameId": "tekken-8",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP0700-PPSA10594_00-TEKKEN8000000000",
+      "status": "verified",
+      "price": 1749.0,
+      "original": 1749.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2024-01-25T23:00:00Z"
+    },
+    {
+      "gameId": "lego-star-wars-skywalker-saga",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP1018-PPSA01865_00-LEGOSWTSS0000000",
+      "status": "verified",
+      "price": 2499.0,
+      "original": 2499.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2022-04-04T21:00:00Z"
+    },
+    {
+      "gameId": "rdr2",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP1004-CUSA08519_00-REDEMPTIONFULL02",
+      "status": "verified",
+      "price": 2099.0,
+      "original": 2099.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2018-10-25T21:00:00Z"
+    },
+    {
+      "gameId": "resident-evil-4",
+      "editionId": "gold",
+      "url": "https://store.playstation.com/en-tr/product/EP0102-PPSA07412_00-RE4GOLDEDITION00",
+      "status": "verified",
+      "price": 1749.0,
+      "original": 1749.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2024-02-08T21:00:00Z"
+    },
+    {
+      "gameId": "ac-shadows",
+      "editionId": "premium",
+      "url": "https://store.playstation.com/en-tr/product/EP0001-PPSA22100_00-EDITIONCOMPLETE0",
+      "status": "verified",
+      "price": 4199.0,
+      "original": 4199.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2025-09-16T12:00:00Z"
+    },
+    {
+      "gameId": "ufc-6",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP0006-PPSA23566_00-BASEUFC6GAME0000",
+      "status": "verified",
+      "price": 3999.0,
+      "original": 3999.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-06-19T09:00:00Z"
+    },
+    {
+      "gameId": "terminator-2d-no-fate",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP4060-PPSA25872_00-T2DNFMAINGAMEPS5",
+      "status": "verified",
+      "price": 1299.0,
+      "original": 1299.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2025-12-12T08:00:00Z"
+    },
+    {
+      "gameId": "resident-evil-requiem",
+      "editionId": "deluxe",
+      "url": "https://store.playstation.com/en-tr/product/EP0102-PPSA31246_00-REREQUIEMDX00000",
+      "status": "verified",
+      "price": 3849.0,
+      "original": 3849.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-02-26T21:00:00Z"
+    },
+    {
+      "gameId": "crisis-core-final-fantasy-vii-reunion",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP0082-PPSA07810_00-CRISISCORE000000",
+      "status": "verified",
+      "price": 2099.0,
+      "original": 2099.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2022-12-12T21:00:00Z"
+    },
+    {
+      "gameId": "forza-horizon-5",
+      "editionId": "deluxe",
+      "url": "https://store.playstation.com/en-tr/product/UP6312-PPSA22327_00-0547256477986893",
+      "status": "verified",
+      "price": 2055.0,
+      "original": 2055.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2025-04-28T21:00:00Z"
+    },
+    {
+      "gameId": "saros",
+      "editionId": "digital-deluxe",
+      "url": "https://store.playstation.com/en-tr/product/EP9000-PPSA07631_00-SAROSDELUXE00000",
+      "status": "no_unconditional_price",
+      "releaseDate": "2026-04-27T21:00:00Z"
+    },
+    {
+      "gameId": "crimson-desert",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/UP4162-PPSA25286_00-0653729629077452",
+      "status": "verified",
+      "price": 2999.0,
+      "original": 2999.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-03-19T22:00:00Z"
+    },
+    {
+      "gameId": "borderlands-3",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP1001-PPSA01463_00-0000000OAKNGSIEE",
+      "status": "verified",
+      "price": 459.0,
+      "original": 459.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2020-11-11T21:00:00Z"
+    },
+    {
+      "gameId": "atomic-heart",
+      "editionId": "ultimate",
+      "url": "https://store.playstation.com/en-tr/product/EP4133-PPSA10695_00-ATOMICHEARTULTIM",
+      "status": "verified",
+      "price": 4749.0,
+      "original": 4749.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-04-16T15:00:00Z"
+    },
+    {
+      "gameId": "atomic-heart",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP4133-PPSA10695_00-ATOMICHEARTGAME0",
+      "status": "verified",
+      "price": 2499.0,
+      "original": 2499.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2023-02-20T21:00:00Z"
+    },
+    {
+      "gameId": "007-first-light",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP3969-PPSA11386_00-007FIRSTLIGHT000",
+      "status": "verified",
+      "price": 2999.0,
+      "original": 2999.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-05-26T14:00:00Z"
+    },
+    {
+      "gameId": "crimson-desert",
+      "editionId": "deluxe",
+      "url": "https://store.playstation.com/en-tr/product/UP4162-PPSA25286_00-0527386153670087",
+      "status": "verified",
+      "price": 3449.0,
+      "original": 3449.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-03-19T22:00:00Z"
+    },
+    {
+      "gameId": "ac-origins",
+      "editionId": "deluxe",
+      "url": "https://store.playstation.com/en-tr/product/EP0001-CUSA05625_00-EDITIONDLXACE000",
+      "status": "verified",
+      "price": 3499.0,
+      "original": 3499.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2017-10-26T21:00:00Z"
+    },
+    {
+      "gameId": "just-cause-4",
+      "editionId": "complete",
+      "url": "https://store.playstation.com/en-tr/product/EP0082-CUSA09264_00-JC4COMPLETEWWNEW",
+      "status": "verified",
+      "price": 2499.0,
+      "original": 2499.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2019-11-06T21:00:00Z"
+    },
+    {
+      "gameId": "borderlands-3",
+      "editionId": "super-deluxe",
+      "url": "https://store.playstation.com/en-tr/product/EP1001-PPSA01463_00-000000OAKSIEESDD",
+      "status": "verified",
+      "price": 2799.0,
+      "original": 2799.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2020-11-11T21:00:00Z"
+    },
+    {
+      "gameId": "jujutsu-kaisen",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP0700-PPSA09535_00-JJKCVSX400000000",
+      "status": "verified",
+      "price": 2099.0,
+      "original": 2099.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2024-02-01T21:00:00Z"
+    },
+    {
+      "gameId": "jujutsu-kaisen",
+      "editionId": "ultimate",
+      "url": "https://store.playstation.com/en-tr/product/EP0700-PPSA09535_00-JJTKCULTEDITION0",
+      "status": "verified",
+      "price": 3499.0,
+      "original": 3499.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2024-02-01T21:00:00Z"
+    },
+    {
+      "gameId": "golf-with-your-friends",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP4064-CUSA17676_00-GOLFWYFRIENDS000",
+      "status": "verified",
+      "price": 699.0,
+      "original": 699.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2020-06-01T21:00:00Z"
+    },
+    {
+      "gameId": "golf-with-your-friends",
+      "editionId": "ultimate",
+      "url": "https://store.playstation.com/en-tr/product/EP4064-CUSA17676_00-GWYFULTIMATE0000",
+      "status": "verified",
+      "price": 1349.0,
+      "original": 1349.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2023-11-23T21:00:00Z"
+    },
+    {
+      "gameId": "a-way-out",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP0006-CUSA08004_00-AWAYOUTEU0000000",
+      "status": "verified",
+      "price": 1049.0,
+      "original": 1049.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2018-03-22T21:00:00Z"
+    },
+    {
+      "gameId": "it-takes-two",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP0006-PPSA02343_00-ITTAKESTWORETAIL",
+      "status": "verified",
+      "price": 1499.99,
+      "original": 1499.99,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2021-03-25T21:00:00Z"
+    },
+    {
+      "gameId": "sackboy",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP9000-PPSA01288_00-SACKBOYADVENTURE",
+      "status": "no_unconditional_price",
+      "releaseDate": "2020-11-11T21:00:00Z"
+    },
+    {
+      "gameId": "sackboy",
+      "editionId": "deluxe",
+      "url": "https://store.playstation.com/en-tr/product/EP9000-PPSA01288_00-DIGITALDELUXE001",
+      "status": "verified",
+      "price": 3449.0,
+      "original": 3449.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2020-11-11T21:00:00Z"
+    },
+    {
+      "gameId": "split-fiction",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/UP0006-PPSA08560_00-SPLITSTANDARDED0",
+      "status": "verified",
+      "price": 1800.0,
+      "original": 1800.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2025-03-06T16:00:00Z"
+    },
+    {
+      "gameId": "remnant-2",
+      "editionId": "deluxe",
+      "url": "https://store.playstation.com/en-tr/product/EP1965-PPSA06694_00-REM2DIGITALDELUX",
+      "status": "verified",
+      "price": 2579.0,
+      "original": 2579.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2023-07-25T16:00:00Z"
+    },
+    {
+      "gameId": "unravel-two",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP0006-CUSA10416_00-COLDWOODPIKE0000",
+      "status": "verified",
+      "price": 99.99,
+      "original": 99.99,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2018-06-08T21:00:00Z"
+    },
+    {
+      "gameId": "remnant-2",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP1965-PPSA06694_00-REM2STDPREORDER0",
+      "status": "verified",
+      "price": 644.7,
+      "original": 2149.0,
+      "endsAt": "2026-11-20T23:59:00Z",
+      "preorder": false,
+      "releaseDate": "2023-07-25T16:00:00Z"
+    },
+    {
+      "gameId": "overcooked-all-you-can-eat",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP4064-PPSA01528_00-0538983162460184",
+      "status": "verified",
+      "price": 1399.0,
+      "original": 1399.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2020-11-11T21:00:00Z"
+    },
+    {
+      "gameId": "remnant-2",
+      "editionId": "ultimate",
+      "url": "https://store.playstation.com/en-tr/product/EP1965-PPSA06694_00-REM2ULTIMATE0000",
+      "status": "verified",
+      "price": 899.7,
+      "original": 2999.0,
+      "endsAt": "2026-11-20T23:59:00Z",
+      "preorder": false,
+      "releaseDate": "2023-07-21T23:00:00Z"
+    },
+    {
+      "gameId": "palworld",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/UP6360-PPSA23126_00-0112788005082769",
+      "status": "verified",
+      "price": 1015.0,
+      "original": 1015.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2024-09-24T23:00:00Z"
+    },
+    {
+      "gameId": "gang-beasts",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP2154-CUSA04865_00-GANGBEASTSPS04EU",
+      "status": "verified",
+      "price": 279.6,
+      "original": 699.0,
+      "endsAt": "2026-11-20T23:59:00Z",
+      "preorder": false,
+      "releaseDate": "2017-12-11T21:00:00Z"
+    },
+    {
+      "gameId": "ghost-recon-wildlands",
+      "editionId": "standard",
+      "url": "https://store.playstation.com/en-tr/product/EP0001-CUSA02819_00-GRWEMEANORMAL000",
+      "status": "verified",
+      "price": 429.8,
+      "original": 2149.0,
+      "endsAt": "2026-11-20T23:59:00Z",
+      "preorder": false,
+      "releaseDate": "2017-04-17T21:00:00Z"
+    },
+    {
+      "gameId": "minecraft",
+      "editionId": "deluxe-collection",
+      "url": "https://store.playstation.com/en-tr/product/UP4433-PPSA19639_00-MINECRAFTDLXCOL2",
+      "status": "verified",
+      "price": 1299.0,
+      "original": 1299.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-03-31T15:00:00Z"
+    },
+    {
+      "gameId": "fc-points",
+      "editionId": "100",
+      "url": "https://store.playstation.com/en-tr/product/UP0006-CUSA57220_00-FP06000000000000",
+      "status": "verified",
+      "price": 60.0,
+      "original": 60.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-08-25T16:00:00Z"
+    },
+    {
+      "gameId": "batman-arkham-knight",
+      "editionId": "premium",
+      "url": "https://store.playstation.com/en-tr/product/EP1018-CUSA00135_00-BAKPREMIUMED0000",
+      "status": "verified",
+      "price": 1749.0,
+      "original": 1749.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2015-06-22T21:00:00Z"
+    },
+    {
+      "gameId": "fc-points",
+      "editionId": "1600",
+      "url": "https://store.playstation.com/en-tr/product/UP0006-CUSA57220_00-FP06030000000000",
+      "status": "verified",
+      "price": 880.0,
+      "original": 880.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-08-25T16:00:00Z"
+    },
+    {
+      "gameId": "fc-points",
+      "editionId": "500",
+      "url": "https://store.playstation.com/en-tr/product/UP0006-CUSA57220_00-FP06010000000000",
+      "status": "verified",
+      "price": 290.0,
+      "original": 290.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-08-25T16:00:00Z"
+    },
+    {
+      "gameId": "fc-points",
+      "editionId": "50",
+      "url": "https://store.playstation.com/en-tr/product/UP0006-CUSA57220_00-FP06130000000000",
+      "status": "verified",
+      "price": 45.0,
+      "original": 45.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-09-03T00:00:00Z"
+    },
+    {
+      "gameId": "fc-points",
+      "editionId": "12000",
+      "url": "https://store.playstation.com/en-tr/product/UP0006-CUSA57220_00-FP06060000000000",
+      "status": "verified",
+      "price": 5800.0,
+      "original": 5800.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-08-25T16:00:00Z"
+    },
+    {
+      "gameId": "fc-points",
+      "editionId": "2800",
+      "url": "https://store.playstation.com/en-tr/product/UP0006-CUSA57220_00-FP06040000000000",
+      "status": "verified",
+      "price": 1450.0,
+      "original": 1450.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-08-25T16:00:00Z"
+    },
+    {
+      "gameId": "fc-points",
+      "editionId": "5900",
+      "url": "https://store.playstation.com/en-tr/product/UP0006-CUSA57220_00-FP06050000000000",
+      "status": "verified",
+      "price": 2900.0,
+      "original": 2900.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-09-02T00:00:00Z"
+    },
+    {
+      "gameId": "fc-points",
+      "editionId": "1050",
+      "url": "https://store.playstation.com/en-tr/product/UP0006-CUSA57220_00-FP06020000000000",
+      "status": "verified",
+      "price": 580.0,
+      "original": 580.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-08-25T16:00:00Z"
+    },
+    {
+      "gameId": "fc-points",
+      "editionId": "18500",
+      "url": "https://store.playstation.com/en-tr/product/UP0006-CUSA57220_00-FP06070000000000",
+      "status": "verified",
+      "price": 8800.0,
+      "original": 8800.0,
+      "endsAt": null,
+      "preorder": false,
+      "releaseDate": "2026-08-25T16:00:00Z"
+    }
+  ],
+  "releaseChanges": [
+    {
+      "gameId": "god-of-war-laufey",
+      "previousRelease": "16 февраля 2027",
+      "release": "20 мая 2027",
+      "releaseDate": "2027-05-19T21:00:00Z",
+      "source": "https://store.playstation.com/en-tr/product/UP9000-PPSA19249_00-LAUFEY0000000000"
+    },
+    {
+      "gameId": "cod-mw4",
+      "previousRelease": "23 октября",
+      "release": "Уже в продаже",
+      "releaseDate": "2026-10-22T21:00:00Z",
+      "source": "https://store.playstation.com/en-tr/product/EP0002-PPSA07950_00-CODMW4STANDARD01"
+    },
+    {
+      "gameId": "control-resonant",
+      "previousRelease": "24 сентября",
+      "release": "Уже в продаже",
+      "releaseDate": "2026-09-24T14:00:00Z",
+      "source": "https://store.playstation.com/en-tr/product/EP5291-PPSA34547_00-0210080241603648"
+    },
+    {
+      "gameId": "fc-27",
+      "previousRelease": "25 сентября",
+      "release": "Уже в продаже",
+      "releaseDate": "2026-09-18T04:00:00Z",
+      "source": "https://store.playstation.com/en-tr/product/UP0006-PPSA34015_00-27STANDARDBUNDLE"
+    },
+    {
+      "gameId": "gta-vi",
+      "previousRelease": "19 ноября",
+      "release": "19 ноября 2026",
+      "releaseDate": "2026-11-18T21:00:00Z",
+      "source": "https://store.playstation.com/en-tr/product/EP1004-PPSA01547_00-GTAVISTANDARD001"
+    },
+    {
+      "gameId": "phantom-blade-zero",
+      "previousRelease": "29 октября",
+      "release": "Уже в продаже",
+      "releaseDate": "2026-10-29T02:00:00Z",
+      "source": "https://store.playstation.com/en-tr/product/UB2134-PPSA34579_00-0622032276386943"
+    },
+    {
+      "gameId": "silent-hill-townfall",
+      "previousRelease": "24 сентября",
+      "release": "Уже в продаже",
+      "releaseDate": "2026-09-23T21:00:00Z",
+      "source": "https://store.playstation.com/en-tr/product/JP0101-PPSA33286_00-TOWNFALLSIEJ0000"
+    },
+    {
+      "gameId": "wolverine",
+      "previousRelease": "15 сентября",
+      "release": "Уже в продаже",
+      "releaseDate": "2026-09-14T21:00:00Z",
+      "source": "https://store.playstation.com/en-tr/product/UP9000-PPSA03671_00-MARVELSWOLVERINE"
+    },
+    {
+      "gameId": "dune-awakening",
+      "previousRelease": "22 сентября",
+      "release": "Уже в продаже",
+      "releaseDate": "2026-09-22T12:00:00Z",
+      "source": "https://store.playstation.com/en-tr/product/EP1833-PPSA02391_00-DUNEAWAKENING000"
+    },
+    {
+      "gameId": "until-dawn-2",
+      "previousRelease": "28 января",
+      "release": "28 января 2027",
+      "releaseDate": "2027-01-27T21:00:00Z",
+      "source": "https://store.playstation.com/en-tr/product/EP9000-PPSA05719_00-UNTILDAWN2000001"
+    },
+    {
+      "gameId": "tomb-raider-legacy-of-atlantis",
+      "previousRelease": "12 февраля",
+      "release": "12 февраля 2027",
+      "releaseDate": "2027-02-12T18:00:00Z",
+      "source": "https://store.playstation.com/en-tr/product/UP5267-PPSA29000_00-TRLOASTND0000000"
+    },
+    {
+      "gameId": "fable",
+      "previousRelease": "23 февраля",
+      "release": "23 февраля 2027",
+      "releaseDate": "2027-02-23T16:00:00Z",
+      "source": "https://store.playstation.com/en-tr/product/UP6312-PPSA31381_00-0202050640964065"
+    },
+    {
+      "gameId": "ace-combat-8",
+      "previousRelease": "2 октября",
+      "release": "Уже в продаже",
+      "releaseDate": "2026-10-01T22:00:00Z",
+      "source": "https://store.playstation.com/en-tr/product/JP0700-PPSA24913_00-MAINGAME00000000"
+    }
+  ]
+}
