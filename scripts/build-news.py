@@ -87,3 +87,4 @@ print(f'Built news index, {len(articles)} articles, home preview and sitemap ent
 
 import runpy
 runpy.run_path(str(R/"scripts/build-home.py"))
+runpy.run_path(str(R/"scripts/build-news-seo.py"))

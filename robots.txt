@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://brazka.shop/sitemap.xml
+Sitemap: https://brazka.shop/news-sitemap.xml
