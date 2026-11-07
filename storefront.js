@@ -280,11 +280,6 @@ if(typeof document!=='undefined'){
     if(next)scheduleExpiryRefresh.timer=setTimeout(()=>{renderGrid();renderFeature();if(selectedGame)renderEdition();scheduleExpiryRefresh();},Math.min(next-Date.now()+1000,2147483647));
   }
   async function load(){try{const r=await fetch('/games.json',{cache:'no-store'});if(!r.ok)throw new Error('catalog');catalogData=await r.json();games=normalizeCatalog(catalogData);if(!games.length)throw new Error('empty');renderGrid();renderFeature();renderPlan();scheduleExpiryRefresh();selectRoute({scroll:false});renderCart();hydrateSharedCart();if(new URLSearchParams(location.search).get("openCart")==="1")openCart($("cartButton"));}catch{ $('gameGrid').innerHTML=`<div class="loading">Каталог сейчас не загрузился. <button class="button secondary" id="retryCatalog">Попробовать ещё раз</button> <a class="button primary" href="${CONTACT_URL}" target="_blank" rel="noopener">Узнать цену в Telegram ↗</a></div>`;$('retryCatalog').addEventListener('click',load);}}
-  const homePlusFrom = $('homePlusFrom');
-  if(homePlusFrom){
-    const prices = Object.values(planData).flatMap(tier => [1, 3, 12].map(term => planPrice(tier, term)));
-    homePlusFrom.textContent = 'от ' + money(Math.min(...prices));
-  }
   initCart();
   load();
 }

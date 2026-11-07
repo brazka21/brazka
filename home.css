@@ -8,47 +8,23 @@
 @media(max-width:900px){.home-hero-logo{width:240px}.home-hero-copy{padding:32px 28px}}
 @media(max-width:620px){.home-hero{min-height:450px}.home-hero-copy{padding:175px 20px 24px}.home-hero-logo{width:190px}.home-hero-copy>p.home-hero-price{font-size:24px;margin:14px 0}.home-hero>img{object-position:65% center}}
 
-.home-shortcuts {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 10px;
-  margin-top: 14px;
+.home-sale-link {
+  margin-top: 12px;
 }
-.home-shortcut {
-  display: flex;
+.home-sale-link a {
+  display: inline-flex;
   align-items: center;
-  justify-content: space-between;
   gap: 8px;
-  min-height: 66px;
-  padding: 10px 15px;
-  border: 1px solid #51405f;
-  border-radius: 11px;
-  background: #1c1526;
-}
-.home-shortcut:hover, .home-shortcut:focus-visible {
-  border-color: #c49af8;
-  background: #2b1c3b;
-}
-.home-shortcut strong, .home-shortcut small {
-  display: block;
-}
-.home-shortcut small {
-  color: #c8b7d7;
-  font-size: 12px;
-}
-.home-shortcut-arrow {
+  min-height: 44px;
+  padding: 6px 0;
   color: #d6b4ff;
+  font-size: 14px;
+  font-weight: 700;
 }
-.home-shortcut-plus {
-  border-color: #6c563e;
+.home-sale-link a:hover {
+  color: #f0ddff;
 }
-.home-shortcut-plus small {
-  color: #f2d793;
-}
-@media (max-width: 620px) {
-  .home-shortcuts { gap: 6px; }
-  .home-shortcut { min-height: 56px; padding: 7px; font-size: 12px; }
-  .home-shortcut:not(.home-shortcut-plus) small { display: none; }
-  .home-shortcut small { font-size: 11px; }
-  .home-shortcut-arrow { display: none; }
+.home-sale-link a:focus-visible {
+  outline: 2px solid #d6b4ff;
+  outline-offset: 3px;
 }
