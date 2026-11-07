@@ -132,3 +132,31 @@
     grid-template-columns: 1fr;
   }
 }
+
+.order-guide {
+  margin-top: 10px;
+  color: #c8b7d7;
+  font-size: 13px;
+}
+.order-guide summary {
+  width: fit-content;
+  padding: 4px 0;
+  color: #eedcff;
+  font-weight: 700;
+  cursor: pointer;
+}
+.order-guide ol {
+  margin: 5px 0 8px;
+  padding-left: 19px;
+}
+.order-guide li + li {
+  margin-top: 4px;
+}
+.order-guide a {
+  color: #e1bfff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.plus-section .order-guide {
+  margin-top: 0;
+}

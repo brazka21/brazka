@@ -23,11 +23,17 @@ def shelf(title,kind,picks):
 new=sorted([g for g in games if now-timedelta(days=30)<=release(g)<=now],key=lambda g:release(g),reverse=True)
 pre=sorted([g for g in games if release(g)>now],key=lambda g:(g['id']!='gta-vi',g.get('priority',99),release(g)))
 hero='''<section class="home-hero shell" aria-labelledby="homeTitle"><img src="/assets/gta6-robbery-hero.jpg" alt="Джейсон и Люсия — официальный арт Grand Theft Auto VI, Rockstar Games" width="2048" height="1152" fetchpriority="high"><div class="home-hero-copy"><p class="eyebrow">В ЦЕНТРЕ ВНИМАНИЯ</p><h1 id="homeTitle"><img class="home-hero-logo" src="/assets/gta6-logo.png" alt="Grand Theft Auto VI" width="580" height="440"></h1><p class="home-hero-price">от 8 800 ₽</p><div class="home-hero-actions"><a class="button primary" href="/games/gta-vi/">Смотреть игру →</a><a class="button secondary" href="/news/gta-vi-screenshots-leonida-details/">Новости GTA VI</a></div></div></section>'''
+shortcuts='''<nav class="home-shortcuts shell" aria-label="Быстрые разделы">
+  <a class="home-shortcut" href="/catalog/"><span><strong>Каталог игр</strong><small>Найти игру для PS4 или PS5</small></span><span class="home-shortcut-arrow" aria-hidden="true">↗</span></a>
+  <a class="home-shortcut" href="/catalog/?filter=sale"><span><strong>Скидки</strong><small>Действующие предложения</small></span><span class="home-shortcut-arrow" aria-hidden="true">↗</span></a>
+  <a class="home-shortcut home-shortcut-plus" href="#plus"><span><strong>PS Plus</strong><small id="homePlusFrom">Сравнить тарифы</small></span><span class="home-shortcut-arrow" aria-hidden="true">↓</span></a>
+</nav>'''
 news=json.loads((R/'news/articles.json').read_text())
 news_html='<section class="home-news shell"><div class="home-section-heading"><h2>Новости PlayStation</h2><a href="/news/">Все новости →</a></div><div class="home-news-grid">'+''.join('<a class="home-news-card" href="/news/'+a['slug']+'/"><img src="'+esc(a['image'],quote=True)+'" alt="'+esc(a['imageAlt'],quote=True)+'" width="300" height="169" loading="lazy"><div><small>'+esc(a['category'])+'</small><h3>'+esc(a['title'])+'</h3><span>Читать →</span></div></a>' for a in news[:2])+'</div></section>'
 s=(R/'catalog/index.html').read_text()
 s=s.replace('<body>','<body class="home-page">')
-s=re.sub(r'<section class="catalog-intro shell">.*?</section>',hero+shelf('Новинки','new',new)+shelf('Предзаказы','preorder',pre)+news_html,s,flags=re.S)
+s=s.replace('home.css?v=4','home.css?v=quick-links1')
+s=re.sub(r'<section class="catalog-intro shell">.*?</section>',hero+shortcuts+shelf('Новинки','new',new)+shelf('Предзаказы','preorder',pre)+news_html,s,flags=re.S)
 s=s.replace('<section class="catalog-section shell"','<section hidden class="catalog-section shell"')
 s=s.replace('<div class="offers-strip"','<div style="display:none" class="offers-strip"')
 s=re.sub(r'<!-- NEWS PREVIEW START -->.*?<!-- NEWS PREVIEW END -->','',s,flags=re.S)
