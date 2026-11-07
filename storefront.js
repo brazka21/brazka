@@ -62,7 +62,7 @@ if(typeof document!=='undefined'){
   const $=id=>document.getElementById(id);
   const rootTitle=document.body.classList.contains('home-page')?'BRAZKA — игры PlayStation, новости и PS Plus':'БРАЗКА — каталог игр PlayStation, цены Турции';
   const PLUS_SALE_END=Date.parse('2026-10-01T00:00:00+03:00');
-  const planData={essential:{name:'Essential',image:'/assets/ps-essential.png',note:'Онлайн, игры месяца и облачные сохранения.',prices:{1:1090,3:2990,12:7900},salePrices:{12:5900}},extra:{name:'Extra',image:'/assets/ps-extra.png',note:'Каталог игр и все возможности Essential.',prices:{1:1590,3:4290,12:11990},salePrices:{12:8990}},deluxe:{name:'Deluxe',image:'/assets/ps-deluxe.png',note:'Классика, пробные версии и все возможности Extra.',prices:{1:1790,3:4790,12:13990},salePrices:{12:10490}}};
+  const planData={essential:{name:'Essential',image:'/assets/ps-essential.png',note:'Онлайн, игры месяца и облачные сохранения.',prices:{1:890,3:2990,12:6990},salePrices:{12:5900}},extra:{name:'Extra',image:'/assets/ps-extra.png',note:'Каталог игр и все возможности Essential.',prices:{1:1290,3:3890,12:10190},salePrices:{12:8990}},deluxe:{name:'Deluxe',image:'/assets/ps-deluxe.png',note:'Классика, пробные версии и все возможности Extra.',prices:{1:1390,3:4290,12:11490},salePrices:{12:10490}}};
   const planPrice=(data,term,now=Date.now())=>now<PLUS_SALE_END&&data.salePrices?.[term]||data.prices[term];
   let plan='essential',months=12;
   function toast(text){$('toast').textContent=text;$('toast').hidden=false;clearTimeout(toast.timer);toast.timer=setTimeout(()=>$('toast').hidden=true,5000);}
