@@ -237,7 +237,30 @@ if(typeof document!=='undefined'){
   $('resetSearch').addEventListener('click',()=>{query='';filter='all';history.pushState({},'','/catalog/');$('catalogHeading').textContent='Каталог игр';$('collectionDescription')?.remove();$('gameSearch').value='';renderGrid();$('gameSearch').focus();});
   document.querySelectorAll('.catalog-plus-link').forEach(link=>link.addEventListener('click',event=>{event.preventDefault();history.replaceState({},'','#plus');$('plus').scrollIntoView({behavior:'smooth',block:'start'});}));
   $('tickerToggle').addEventListener('click',()=>{const paused=$('tickerTrack').classList.toggle('paused');$('tickerToggle').textContent=paused?'▶':'Ⅱ';$('tickerToggle').setAttribute('aria-pressed',String(paused));$('tickerToggle').setAttribute('aria-label',paused?'Запустить ленту':'Приостановить ленту');});
-  function renderPlan(){const p=planData[plan],sale=months===12&&Date.now()<PLUS_SALE_END,oldPrice=$('planOldPrice'),saleBadge=$('planSale'),saleNote=$('planSaleNote');$('planPrice').textContent=money(planPrice(p,months));if(oldPrice){oldPrice.textContent=sale?money(p.prices[months]):'';oldPrice.hidden=!sale;}if(saleBadge)saleBadge.hidden=!sale;if(saleNote)saleNote.hidden=!sale;$('planDescription').textContent=p.note;document.querySelectorAll('[data-plan]').forEach(b=>{b.classList.toggle('active',b.dataset.plan===plan);b.setAttribute('aria-pressed',String(b.dataset.plan===plan));});document.querySelectorAll('[data-months]').forEach(b=>{b.classList.toggle('active',Number(b.dataset.months)===months);b.setAttribute('aria-pressed',String(Number(b.dataset.months)===months));});}
+  function renderPlan(){
+    const selected = planData[plan];
+    const now = Date.now();
+    const sale = months === 12 && now < PLUS_SALE_END;
+    const oldPrice = $('planOldPrice'), saleBadge = $('planSale'), saleNote = $('planSaleNote');
+    const activeDuration = document.querySelector(`[data-months="${months}"] .duration-label`);
+    $('planSelection').textContent = `${selected.name} · ${activeDuration.textContent}`;
+    $('planPrice').textContent = money(planPrice(selected, months, now));
+    if(oldPrice){oldPrice.textContent = sale ? money(selected.prices[months]) : '';oldPrice.hidden = !sale;}
+    if(saleBadge)saleBadge.hidden = !sale;
+    if(saleNote)saleNote.hidden = !sale;
+    $('planDescription').textContent = selected.note;
+    document.querySelectorAll('[data-plan]').forEach(button => {
+      const active = button.dataset.plan === plan;
+      button.classList.toggle('active', active);
+      button.setAttribute('aria-pressed', String(active));
+    });
+    document.querySelectorAll('[data-months]').forEach(button => {
+      const term = Number(button.dataset.months);
+      button.querySelector('.duration-price').textContent = money(planPrice(selected, term, now));
+      button.classList.toggle('active', term === months);
+      button.setAttribute('aria-pressed', String(term === months));
+    });
+  }
   document.querySelectorAll('[data-plan]').forEach(b=>b.addEventListener('click',()=>{plan=b.dataset.plan;renderPlan();}));document.querySelectorAll('[data-months]').forEach(b=>b.addEventListener('click',()=>{months=Number(b.dataset.months);renderPlan();}));
   $('planOrder').addEventListener('click',()=>{if(typeof ym==='function')ym(112697107,'reachGoal','psplus_order_click');navigator.clipboard?.writeText(`Привет! Нужна PS Plus ${planData[plan].name}, ${months} мес., регион Турция. На сайте ${money(planPrice(planData[plan],months))}.`).catch(()=>{});});
   window.addEventListener('popstate',()=>selectRoute());
@@ -328,8 +351,8 @@ if(typeof document!=='undefined'){
       return {
         kind: 'plus',
         product: 'PlayStation Plus',
-        edition: `${planName} · ${cleanText(activeMonths?.textContent) || 'срок уточнить'}`,
-        region: 'Уточнить',
+        edition: `${planName} · ${cleanText(activeMonths?.querySelector('.duration-label')?.textContent) || 'срок уточнить'}`,
+        region: 'Турция',
         price: text(document, '#planPrice', 'Уточнить')
       };
     }

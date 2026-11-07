@@ -55,3 +55,80 @@
 
 /* Single supported account region. */
 .region-options > .region-option:only-child{grid-column:1/-1}
+
+/* Keep the subscription prices and selected term visible together. */
+.plus-section {
+  border-color: #655039;
+  background: radial-gradient(ellipse at top left, #3b2b37, transparent 65%), #191321;
+}
+.plus-section .plan-choice:hover {
+  border-color: #d7b676;
+}
+.plus-section .subscription-choice {
+  min-width: 0;
+  padding: clamp(12px, 2vw, 20px);
+  border: 1px solid #51405f;
+  border-radius: 12px;
+  background: #16111e;
+}
+.plus-section .duration-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 6px;
+}
+.plus-section .duration-choice {
+  display: grid;
+  align-content: center;
+  justify-items: start;
+  gap: 3px;
+  min-height: 58px;
+  padding: 7px clamp(5px, 1vw, 12px);
+  border-radius: 7px;
+}
+.duration-label {
+  font-size: 12px;
+  line-height: 1.3;
+}
+.duration-price {
+  font-size: clamp(12px, 1.4vw, 16px);
+  font-weight: 800;
+  white-space: nowrap;
+}
+.plus-section .subscription-order {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+  gap: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #51405f;
+}
+.plan-summary {
+  display: grid;
+  gap: 2px;
+  margin-top: 3px;
+}
+#planSelection {
+  font-size: 14px;
+  font-weight: 700;
+}
+.plus-section .plan-price-line strong {
+  color: #fff0c7;
+  font-size: clamp(26px, 3vw, 34px);
+  line-height: 1.2;
+}
+.plus-section .subscription-actions {
+  margin-top: 0;
+}
+.plus-section .subscription-actions .button {
+  min-height: 44px;
+  text-align: center;
+}
+.plus-section :is(button, a):focus-visible {
+  outline: 2px solid #f4d785;
+  outline-offset: 2px;
+}
+@media (max-width: 400px) {
+  .plus-section .subscription-actions {
+    grid-template-columns: 1fr;
+  }
+}
