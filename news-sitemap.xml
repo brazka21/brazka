@@ -11,15 +11,4 @@
       <news:title>GTA VI: все 39 новых скриншотов</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://brazka.shop/news/helldivers-2-noxious-poison-webs-caves/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>BRAZKA</news:name>
-        <news:language>ru</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-05T11:03:52+10:00</news:publication_date>
-      <news:title>В Helldivers 2 появились ядовитые терминиды: паутина блокирует спринт, а стимуляторы снимают отравление</news:title>
-    </news:news>
-  </url>
 </urlset>
