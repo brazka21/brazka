@@ -23,13 +23,16 @@ def shelf(title,kind,picks):
 new=sorted([g for g in games if now-timedelta(days=30)<=release(g)<=now],key=lambda g:release(g),reverse=True)
 pre=sorted([g for g in games if release(g)>now],key=lambda g:(g['id']!='gta-vi',g.get('priority',99),release(g)))
 hero='''<section class="home-hero shell" aria-labelledby="homeTitle"><img src="/assets/gta6-robbery-hero.jpg" alt="Джейсон и Люсия — официальный арт Grand Theft Auto VI, Rockstar Games" width="2048" height="1152" fetchpriority="high"><div class="home-hero-copy"><p class="eyebrow">В ЦЕНТРЕ ВНИМАНИЯ</p><h1 id="homeTitle"><img class="home-hero-logo" src="/assets/gta6-logo.png" alt="Grand Theft Auto VI" width="580" height="440"></h1><p class="home-hero-price">от 8 800 ₽</p><div class="home-hero-actions"><a class="button primary" href="/games/gta-vi/">Смотреть игру →</a><a class="button secondary" href="/news/gta-vi-screenshots-leonida-details/">Новости GTA VI</a></div></div></section>'''
-sale_link='''<div class="home-sale-link shell"><a href="/catalog/?filter=sale">Игры со скидкой <span aria-hidden="true">→</span></a></div>'''
+primary_links='''<nav class="home-primary-links shell" aria-label="Игры и подписки">
+  <a href="/catalog/"><span><strong>Каталог игр</strong><small>PS4 и PS5</small></span><span aria-hidden="true">→</span></a>
+  <a class="home-primary-plus" href="#plus"><span><strong>PS Plus</strong><small id="homePlusFrom">Сравнить тарифы</small></span><span aria-hidden="true">↓</span></a>
+</nav>'''
 news=json.loads((R/'news/articles.json').read_text())
 news_html='<section class="home-news shell"><div class="home-section-heading"><h2>Новости PlayStation</h2><a href="/news/">Все новости →</a></div><div class="home-news-grid">'+''.join('<a class="home-news-card" href="/news/'+a['slug']+'/"><img src="'+esc(a['image'],quote=True)+'" alt="'+esc(a['imageAlt'],quote=True)+'" width="300" height="169" loading="lazy"><div><small>'+esc(a['category'])+'</small><h3>'+esc(a['title'])+'</h3><span>Читать →</span></div></a>' for a in news[:2])+'</div></section>'
 s=(R/'catalog/index.html').read_text()
 s=s.replace('<body>','<body class="home-page">')
-s=s.replace('home.css?v=4','home.css?v=sale-link1')
-s=re.sub(r'<section class="catalog-intro shell">.*?</section>',hero+sale_link+shelf('Новинки','new',new)+shelf('Предзаказы','preorder',pre)+news_html,s,flags=re.S)
+s=s.replace('home.css?v=4','home.css?v=home-links2')
+s=re.sub(r'<section class="catalog-intro shell">.*?</section>',hero+primary_links+shelf('Новинки','new',new)+shelf('Предзаказы','preorder',pre)+news_html,s,flags=re.S)
 s=s.replace('<section class="catalog-section shell"','<section hidden class="catalog-section shell"')
 s=s.replace('<div class="offers-strip"','<div style="display:none" class="offers-strip"')
 s=re.sub(r'<!-- NEWS PREVIEW START -->.*?<!-- NEWS PREVIEW END -->','',s,flags=re.S)
@@ -39,6 +42,10 @@ s=re.sub(r'(<meta property="og:url" content=")[^"]*',r'\g<1>https://brazka.shop/
 s=re.sub(r'(<meta (?:property="og:title"|name="twitter:title") content=")[^"]*',r'\g<1>BRAZKA — игры PlayStation, новости и PS Plus',s)
 s=s.replace('href="#catalog"','href="/catalog/"')
 s=s.replace('href="/">Главная','href="/" aria-current="page">Главная')
+s=re.sub(r'<nav class="site-nav shell" aria-label="Разделы сайта">.*?</nav>',
+         lambda match: match[0].replace('<a href="/catalog/">Каталог</a>','').replace('<a href="/#plus">PS Plus</a>',''),
+         s, count=1, flags=re.S)
+s=re.sub(r'storefront[.]js[?]v=[^"]+', 'storefront.js?v=home-links2', s, count=1)
 s=s.replace('</body>','<aside class="home-plus-dock" id="homePlusDock" hidden aria-label="Оформить PlayStation Plus"><img src="/assets/psplus-icon.png" alt="" width="32" height="32"><div><strong>PS Plus</strong><small>Essential · Extra · Deluxe</small></div><a class="button primary" href="#plus">Оформить →</a></aside></body>')
 s=s.replace('</head>','<script>if(location.hash==="#catalog")location.replace("/catalog/"+location.search);</script></head>')
 s=s.replace('</body>','<script src="/home.js?v=2" defer></script></body>')

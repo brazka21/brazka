@@ -8,23 +8,41 @@
 @media(max-width:900px){.home-hero-logo{width:240px}.home-hero-copy{padding:32px 28px}}
 @media(max-width:620px){.home-hero{min-height:450px}.home-hero-copy{padding:175px 20px 24px}.home-hero-logo{width:190px}.home-hero-copy>p.home-hero-price{font-size:24px;margin:14px 0}.home-hero>img{object-position:65% center}}
 
-.home-sale-link {
-  margin-top: 12px;
+.home-primary-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 14px;
 }
-.home-sale-link a {
-  display: inline-flex;
+.home-primary-links a {
+  display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 8px;
-  min-height: 44px;
-  padding: 6px 0;
-  color: #d6b4ff;
-  font-size: 14px;
-  font-weight: 700;
+  min-height: 60px;
+  padding: 8px 14px;
+  border: 1px solid #51405f;
+  border-radius: 11px;
+  background: #1c1526;
 }
-.home-sale-link a:hover {
-  color: #f0ddff;
+.home-primary-links a:hover, .home-primary-links a:focus-visible {
+  border-color: #c49af8;
+  background: #2b1c3b;
 }
-.home-sale-link a:focus-visible {
-  outline: 2px solid #d6b4ff;
-  outline-offset: 3px;
+.home-primary-links strong, .home-primary-links small {
+  display: block;
+}
+.home-primary-links small {
+  color: #c8b7d7;
+  font-size: 12px;
+}
+.home-primary-links .home-primary-plus {
+  border-color: #6c563e;
+}
+.home-primary-plus small {
+  color: #f2d793;
+}
+@media (max-width: 620px) {
+  .home-primary-links { gap: 8px; margin-top: 10px; }
+  .home-primary-links a { padding-inline: 10px; font-size: 14px; }
 }
