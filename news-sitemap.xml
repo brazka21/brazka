@@ -1,2 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" />
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <url>
+    <loc>https://brazka.shop/news/hozy-ps5-november-9-renovation-dualsense/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>BRAZKA</news:name>
+        <news:language>ru</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-09T10:59:23+10:00</news:publication_date>
+      <news:title>Hozy выходит на PS5 9 ноября — девять уровней ремонта и песочница</news:title>
+    </news:news>
+  </url>
+</urlset>

@@ -1,5 +1,61 @@
 [
   {
+    "slug": "hozy-ps5-november-9-renovation-dualsense",
+    "title": "Hozy выходит на PS5 9 ноября — девять уровней ремонта и песочница",
+    "category": "Игры",
+    "published": "2026-11-09T10:59:23+10:00",
+    "sourceDate": "6 ноября 2026",
+    "description": "9 ноября Hozy выходит на PS5. В симуляторе ремонта можно мыть окна, перекрашивать стены и обставлять комнаты в своём темпе. DualSense передаёт движение швабры и сопротивление досок под ломом.",
+    "image": "https://blog.playstation.com/tachyon/2048/11/e764de8347a5d741a749dd7bb7f43be000c90034.jpg?crop_strategy=smart&resize=1088%2C612",
+    "imageAlt": "Официальная обложка Hozy к анонсу выхода на PS5, Come On Games / tinyBuild",
+    "source": "https://blog.playstation.com/2026/11/06/hozy-brings-calm-tactile-home-restoration-to-ps5-on-november-9/",
+    "sourceName": "tinyBuild в PlayStation Blog",
+    "product": "catalog",
+    "sections": [
+      {
+        "heading": "Девять пространств в Литлвилле",
+        "paragraphs": [
+          "В сюжетном режиме у каждого места свой набор мебели и декора. Сначала нужно навести порядок и закончить ремонт, затем можно расставить вещи по своему вкусу. Таймеров и очков в игре нет.",
+          "Некоторые предметы работают и после расстановки. Можно включить лампу у дивана, сыграть на пианино или найти записку в ящике."
+        ],
+        "images": [
+          {
+            "src": "https://image.api.playstation.com/vulcan/ap/rnd/202609/0215/d5334df3584f85d3e0fb4dfd3ea59e59da56d269531613f7.jpg",
+            "alt": "Кафе в Литлвилле",
+            "caption": "Кафе в Литлвилле. Официальный кадр Hozy, Come On Games / tinyBuild."
+          }
+        ]
+      },
+      {
+        "heading": "Лом и швабра на DualSense",
+        "paragraphs": [
+          "Тактильная отдача меняется в зависимости от действия, например когда ведёшь шваброй по полу или двигаешь мебель. Адаптивные триггеры передают усилие, с которым лом поддевает доски. Часть звуков инструментов идёт из динамика геймпада."
+        ],
+        "images": [
+          {
+            "src": "https://image.api.playstation.com/vulcan/ap/rnd/202609/0215/eb8182dc9442401358f667ec68a6f3d32a7861723ef84ea5.jpg",
+            "alt": "Интерьер с высокими окнами и зелёной мебелью",
+            "caption": "Интерьер с высокими окнами и зелёной мебелью. Официальный кадр Hozy, Come On Games / tinyBuild."
+          }
+        ]
+      },
+      {
+        "heading": "Новая обстановка после прохождения",
+        "callout": {
+          "title": "Game+ и «Песочница»",
+          "text": "В Game+ можно вернуться в пройденные комнаты с другими наборами мебели и переключать день и ночь. В «Песочнице» доступны все предметы, а понравившиеся вещи можно дублировать."
+        },
+        "images": [
+          {
+            "src": "https://image.api.playstation.com/vulcan/ap/rnd/202609/0215/16c69b24bd00b05348a66876e07d56324a02d1d7a801c180.jpg",
+            "alt": "Комната с неоновым освещением",
+            "caption": "Комната с неоновым освещением. Официальный кадр Hozy, Come On Games / tinyBuild."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "slug": "gta-vi-launch-gallery-new-screenshots",
     "title": "GTA VI: все 39 новых скриншотов",
     "category": "Игры",
