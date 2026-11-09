@@ -1,5 +1,53 @@
 [
   {
+    "slug": "ps-plus-japan-dragon-quest-iii-dynasty-warriors-origins",
+    "title": "Sony Japan анонсировала Dragon Quest III и Dynasty Warriors: Origins для каталога PS Plus",
+    "category": "PS Plus",
+    "published": "2026-11-09T19:04:59+10:00",
+    "sourceDate": "9 ноября 2026",
+    "description": "Dragon Quest III HD-2D Remake пополнит японский каталог PlayStation Plus в ноябре, а Dynasty Warriors: Origins добавят в декабре. Sony назвала обе игры 9 ноября в анонсе новой модели PlayStation Portal для Японии.",
+    "image": "https://blog.ja.playstation.com/tachyon/sites/7/2026/11/6f5a05fe4ee2f59d41feafc664c59b0e5f9ba9a3.jpg",
+    "imageAlt": "Официальный баннер японского PS Plus с Dragon Quest III и Dynasty Warriors: Origins, Sony Interactive Entertainment",
+    "source": "https://blog.ja.playstation.com/2026/11/09/20261109-playstation-portal-announcement-o/",
+    "sourceName": "PlayStation Blog Japan",
+    "product": "plus",
+    "sections": [
+      {
+        "heading": "Ноябрь — Dragon Quest III HD-2D Remake",
+        "paragraphs": [
+          "В ремейке Square Enix наследник героя Ортеги собирает отряд и отправляется победить Барамоса. Пиксельные персонажи путешествуют по трёхмерным локациям, а в пошаговых боях можно менять скорость и включать автоматические действия отряда."
+        ],
+        "images": [
+          {
+            "src": "https://gmedia.playstation.com/is/image/SIEPDC/dragon-quest-3-hd-2d-remaster-screenshot-03-en-08july24?wid=1088&fmt=jpg",
+            "alt": "Пошаговый бой в Dragon Quest III HD-2D Remake",
+            "caption": "Пошаговый бой в Dragon Quest III HD-2D Remake. Официальный кадр. © ARMOR PROJECT / BIRD STUDIO / SPIKE CHUNSOFT / SQUARE ENIX."
+          }
+        ]
+      },
+      {
+        "heading": "Декабрь — Dynasty Warriors: Origins",
+        "paragraphs": [
+          "В экшене Koei Tecmo безымянный воин оказывается в центре битв эпохи Троецарствия. На поле боя сходятся целые армии: герой сражается с отрядами и вражескими полководцами."
+        ],
+        "images": [
+          {
+            "src": "https://gmedia.playstation.com/is/image/SIEPDC/dynasty-warriors-origins-large-force-screenshot-06-en-07oct24?wid=1088&fmt=jpg",
+            "alt": "Армии на поле боя в Dynasty Warriors: Origins",
+            "caption": "Армии на поле боя в Dynasty Warriors: Origins. Официальный кадр. © Koei Tecmo Games."
+          }
+        ]
+      },
+      {
+        "heading": "Для каких аккаунтов анонс",
+        "callout": {
+          "title": "Японский каталог PS Plus",
+          "text": "Анонс относится к Японии. Для турецкого каталога появление обеих игр пока не подтверждено. Игровой каталог в Японии входит в Extra и Premium."
+        }
+      }
+    ]
+  },
+  {
     "slug": "hozy-ps5-november-9-renovation-dualsense",
     "title": "Hozy выходит на PS5 9 ноября — девять уровней ремонта и песочница",
     "category": "Игры",
