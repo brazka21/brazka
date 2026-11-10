@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://brazka.shop/news/gta-vi-the-festival-miami-november-21/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>BRAZKA</news:name>
+        <news:language>ru</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-10T11:02:51+10:00</news:publication_date>
+      <news:title>Rockstar и PlayStation проведут фестиваль GTA VI в Майами 21 ноября</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://brazka.shop/news/ps-plus-japan-dragon-quest-iii-dynasty-warriors-origins/</loc>
     <news:news>
       <news:publication>

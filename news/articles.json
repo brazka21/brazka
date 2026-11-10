@@ -1,5 +1,36 @@
 [
   {
+    "slug": "gta-vi-the-festival-miami-november-21",
+    "title": "Rockstar и PlayStation проведут фестиваль GTA VI в Майами 21 ноября",
+    "category": "Игры",
+    "published": "2026-11-10T11:02:51+10:00",
+    "sourceDate": "9 ноября 2026",
+    "description": "Grand Theft Auto VI: The Festival пройдёт 21 ноября на площадке Mana Wynwood в Майами. На двух сценах выступят артисты из игры и её саундтрека, среди них Travis Scott, Cardi B, Metro Boomin и Justice.",
+    "image": "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/o39o87a435a25a/f14b9244ed05b99e611d0376ad7e0ec3b4f84aab.jpg",
+    "imageAlt": "Официальная афиша Grand Theft Auto VI: The Festival с датой, площадкой и составом артистов. Rockstar Games / PlayStation.",
+    "source": "https://www.rockstargames.com/newswire/article/o39o87a435a25a/grand-theft-auto-vi-the-festival",
+    "sourceName": "Rockstar Games Newswire",
+    "product": "gta-vi",
+    "sections": [
+      {
+        "heading": "Кто выступит на двух сценах",
+        "paragraphs": [
+          "Программу готовит команда фестиваля III Points. В блоке Cactus Jack заявлены Travis Scott, Don Toliver, Kodak Black и Sofaygo. Также выступят Cardi B, Metro Boomin, Tainy и другие артисты. Justice, написавшие оригинальную музыку GTA VI, сыграют диджейский сет."
+        ]
+      },
+      {
+        "heading": "Как устроена продажа билетов",
+        "paragraphs": [
+          "Доступ к предпродаже разыгрывают среди участников лотереи. Для покупки нужен аккаунт DICE с тем же номером телефона и почтой, что указаны в заявке. Выбранные участники получат код. С ним можно купить до двух билетов при наличии мест. Билеты нельзя передавать, на входе требуется удостоверение личности с фото, возраст — от 17 лет."
+        ],
+        "callout": {
+          "title": "Расписание по времени Майами",
+          "text": "10 ноября в 16:00 закрывают приём заявок, в 19:00 выбирают участников. Продажа для обладателей кодов откроется 11 ноября в 12:00."
+        }
+      }
+    ]
+  },
+  {
     "slug": "ps-plus-japan-dragon-quest-iii-dynasty-warriors-origins",
     "title": "Sony Japan анонсировала Dragon Quest III и Dynasty Warriors: Origins для каталога PS Plus",
     "category": "PS Plus",
