@@ -1,5 +1,61 @@
 [
   {
+    "slug": "warhammer-40000-dark-heresy-ps5-january-28",
+    "title": "Warhammer 40,000: Dark Heresy выйдет на PS5 28 января 2027 года",
+    "category": "Игры",
+    "published": "2026-11-10T19:07:48+10:00",
+    "sourceDate": "9 ноября 2026",
+    "description": "Owlcat Games назначила релиз Dark Heresy на 28 января 2027 года. В новой ролевой игре по Warhammer 40,000 аколит Инквизиции собирает отряд и расследует заговоры в секторе Каликсис.",
+    "image": "https://darkheresy.owlcat.games/storage/news/1920x1080-en-RaeR.jpg",
+    "imageAlt": "Официальный арт Owlcat Games к анонсу даты выхода Warhammer 40,000: Dark Heresy",
+    "source": "https://darkheresy.owlcat.games/news/en/29",
+    "sourceName": "Owlcat Games",
+    "product": "catalog",
+    "sections": [
+      {
+        "heading": "Допросы и улики в секторе Каликсис",
+        "paragraphs": [
+          "Герой начинает службу младшим аколитом. Чтобы раскрывать преступления и выходить на след культов, нужно допрашивать подозреваемых и сопоставлять улики. Решения в расследованиях влияют на судьбу отряда и финал истории."
+        ],
+        "images": [
+          {
+            "src": "https://darkheresy.owlcat.games/storage/game-features/5-H3zY.jpg",
+            "alt": "Отряд аколита на мрачной локации",
+            "caption": "Отряд аколита на мрачной локации. Официальный кадр Owlcat Games."
+          }
+        ]
+      },
+      {
+        "heading": "Спутники помогают и в бою, и в расследованиях",
+        "paragraphs": [
+          "В отряд можно взять катаканского бойца Хаймара, псайкера Саро и даже наёмника круута. У спутников свои навыки и взгляд на происходящее. В расследованиях они дают советы, а в пошаговых боях помогают бить по слабым местам противника. На боевые возможности каждого бойца влияет его мораль."
+        ],
+        "images": [
+          {
+            "src": "https://darkheresy.owlcat.games/storage/game-features/1-dRzz.jpg",
+            "alt": "Отряд в зале Империума",
+            "caption": "Отряд в зале Империума. Официальный кадр Owlcat Games."
+          },
+          {
+            "src": "https://darkheresy.owlcat.games/storage/game-features/2-mVMT.jpg",
+            "alt": "Пошаговое сражение в Dark Heresy",
+            "caption": "Пошаговое сражение в Dark Heresy. Официальный кадр Owlcat Games."
+          }
+        ]
+      },
+      {
+        "heading": "Релиз и закрытие беты",
+        "paragraphs": [
+          "Игра выходит 28 января на PS5, Xbox Series X|S и ПК. Версия для Nintendo Switch 2 выйдет позже. Наборы основателя будут доступны до начала января."
+        ],
+        "callout": {
+          "title": "Бета на ПК — до 7 января",
+          "text": "Доступ к тестированию получают владельцы наборов основателя. Owlcat закроет бету 7 января 2027 года."
+        }
+      }
+    ]
+  },
+  {
     "slug": "gta-vi-the-festival-miami-november-21",
     "title": "Rockstar и PlayStation проведут фестиваль GTA VI в Майами 21 ноября",
     "category": "Игры",

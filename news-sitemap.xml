@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://brazka.shop/news/warhammer-40000-dark-heresy-ps5-january-28/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>BRAZKA</news:name>
+        <news:language>ru</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-10T19:07:48+10:00</news:publication_date>
+      <news:title>Warhammer 40,000: Dark Heresy выйдет на PS5 28 января 2027 года</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://brazka.shop/news/gta-vi-the-festival-miami-november-21/</loc>
     <news:news>
       <news:publication>
