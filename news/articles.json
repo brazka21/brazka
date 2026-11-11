@@ -1,5 +1,54 @@
 [
   {
+    "slug": "gta-vi-30-fps-ps5-pro-pssr-ray-traced-shadows",
+    "title": "GTA VI нацелена на 30 FPS — Rockstar раскрыла улучшения для PS5 Pro",
+    "category": "Игры",
+    "published": "2026-11-11T11:00:09+10:00",
+    "sourceDate": "10 ноября 2026",
+    "description": "Rockstar назвала 30 кадров в секунду целевым показателем GTA VI на консолях. Для PS5 Pro подтверждены PSSR и тени с трассировкой лучей. Компания раскрыла технические особенности игры вместе со стартом предзагрузки.",
+    "image": "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/89834o94713o21/94f09130d07de4a50e3ab971e2b7d8c253b7c706.jpg",
+    "imageAlt": "Официальная иллюстрация Джейсона и Люсии к старту предзагрузки GTA VI. © Rockstar Games.",
+    "source": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now",
+    "sourceName": "Rockstar Games Newswire",
+    "product": "gta-vi",
+    "sections": [
+      {
+        "heading": "30 кадров в секунду — целевой показатель",
+        "paragraphs": [
+          "Разработчики связывают выбранную частоту кадров с плотностью мира Леониды и детализацией окружения и его обитателей. Rockstar описывает 30 FPS именно как целевой показатель."
+        ],
+        "images": [
+          {
+            "src": "https://www.rockstargames.com/VI/_next/static/media/Vice_City_15.11tb0mz68edqo.jpg",
+            "alt": "Вайс-Сити в GTA VI",
+            "caption": "Вайс-Сити. Скриншот из официальной галереи от 5 ноября 2026 года. © Rockstar Games."
+          }
+        ]
+      },
+      {
+        "heading": "PSSR и трассируемые тени на PS5 Pro",
+        "paragraphs": [
+          "На PS5 Pro игра использует PlayStation Spectral Super Resolution для повышения чёткости изображения. Тени с трассировкой лучей Rockstar заявила как особенность этой модели консоли.",
+          "На PS5 поддерживаются тактильная отдача DualSense с настройкой через параметры доступности, пространственное звучание Tempest 3D Audio и быстрая загрузка."
+        ],
+        "images": [
+          {
+            "src": "https://www.rockstargames.com/VI/_next/static/media/Port_Gellhorn_07.053ldlg0m.2r...jpg",
+            "alt": "Порт-Геллхорн в GTA VI",
+            "caption": "Порт-Геллхорн. Скриншот из официальной галереи от 5 ноября 2026 года. © Rockstar Games."
+          }
+        ]
+      },
+      {
+        "heading": "Предзагрузка открыта, релиз — 19 ноября",
+        "callout": {
+          "title": "Для владельцев предзаказа",
+          "text": "Цифровую версию уже можно загружать заранее. Покупатели коробочного издания с кодом тоже смогут начать скачивание после его активации. GTA VI выходит 19 ноября на PS5 и Xbox Series X|S."
+        }
+      }
+    ]
+  },
+  {
     "slug": "warhammer-40000-dark-heresy-ps5-january-28",
     "title": "Warhammer 40,000: Dark Heresy выйдет на PS5 28 января 2027 года",
     "category": "Игры",
