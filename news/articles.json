@@ -1,5 +1,68 @@
 [
   {
+    "slug": "marathon-symbiosis-expedition-open-play-week",
+    "title": "Marathon получит PvE-экспедиции и бои 3 на 3 уже 8 декабря",
+    "category": "Игры",
+    "published": "2026-11-11T19:02:36+10:00",
+    "sourceDate": "10 ноября 2026",
+    "description": "Bungie показала обновление Symbiosis для Marathon. В нём появятся вылазки без вражеских игроков, бета командного Deathmatch и новые маршруты в Perimeter. С 8 по 15 декабря полную игру на PS5 можно будет попробовать без покупки.",
+    "image": "/news/marathon-symbiosis-expedition-open-play-week/images/cover.jpg",
+    "imageAlt": "Официальная обложка обновления Marathon: Symbiosis · © Bungie",
+    "source": "https://press.bungie.com/First-look-Marathon-Symbiosis-gameplay-trailer-reveals-whats-coming-De",
+    "sourceName": "Bungie Press Room",
+    "product": "catalog",
+    "sections": [
+      {
+        "heading": "Три вылазки в Expedition",
+        "paragraphs": [
+          "Первая версия постоянного PvE-режима Expedition строится вокруг серии из трёх вылазок. В них можно отправиться одному или с отрядом. Соперников из других команд в режиме нет, а боевые и полевые испытания проходят с усилениями Flash Boosts, которые позволяют менять сборку прямо по ходу вылазки."
+        ],
+        "images": [
+          {
+            "src": "/news/marathon-symbiosis-expedition-open-play-week/images/extraction.jpg",
+            "alt": "Отряд среди красной растительности на Тау Кита IV",
+            "caption": "Вылазка на Тау Кита IV, кадр из пресс-кита Symbiosis · © Bungie"
+          }
+        ]
+      },
+      {
+        "heading": "Подземные норы и затопленный резервуар",
+        "paragraphs": [
+          "В Perimeter разросся грибок и появились новые формы инопланетной жизни. Обновление откроет два участка для исследования: подземные Burrows и затопленный Reservoir. Глубоко под поверхностью можно будет встретить Tick Queen."
+        ],
+        "images": [
+          {
+            "src": "/news/marathon-symbiosis-expedition-open-play-week/images/sunken-reservoir.jpg",
+            "alt": "Вооружённый бегун в красном освещении",
+            "caption": "Кадр из материала Sunken Reservoir · © Bungie"
+          },
+          {
+            "src": "/news/marathon-symbiosis-expedition-open-play-week/images/tick-queen.jpg",
+            "alt": "Отряд в тёмном подземном помещении",
+            "caption": "Кадр из материала Tick Queen · © Bungie"
+          }
+        ]
+      },
+      {
+        "heading": "Deathmatch, тир и новая оболочка Bishop",
+        "paragraphs": [
+          "В бете Deathmatch два отряда по три игрока будут сражаться за очки в коротких матчах. Риска потерять постоянную экипировку в этом режиме нет. В новой зоне Limbo можно будет испытать снаряжение в тире и вызвать другого игрока на дуэль.",
+          "Bishop рассчитан на быстрые атаки клинком в ближнем бою. Арсенал пополнят огнемёт V17 для коротких дистанций и тяжёлый револьвер Maverick."
+        ]
+      },
+      {
+        "heading": "Открытый доступ с 8 по 15 декабря",
+        "paragraphs": [
+          "На неделе Open Play Week можно будет скачать полную игру и попробовать новый контент Symbiosis. При покупке Marathon после окончания недели сохранятся заработанные предметы и прогресс."
+        ],
+        "callout": {
+          "title": "Когда выходит Symbiosis",
+          "text": "8 декабря 2026 года на PS5, Xbox Series X|S и в Steam. Обновление будет доступно всем владельцам Marathon."
+        }
+      }
+    ]
+  },
+  {
     "slug": "ps-plus-november-2026-death-stranding-2-atomfall-lineup",
     "title": "Death Stranding 2, Pirate Yakuza и Atomfall пополнят каталог PS Plus в ноябре",
     "category": "PS Plus",

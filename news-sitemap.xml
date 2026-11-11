@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://brazka.shop/news/marathon-symbiosis-expedition-open-play-week/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>BRAZKA</news:name>
+        <news:language>ru</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-11T19:02:36+10:00</news:publication_date>
+      <news:title>Marathon получит PvE-экспедиции и бои 3 на 3 уже 8 декабря</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://brazka.shop/news/ps-plus-november-2026-death-stranding-2-atomfall-lineup/</loc>
     <news:news>
       <news:publication>
