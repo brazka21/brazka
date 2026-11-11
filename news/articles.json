@@ -1,5 +1,68 @@
 [
   {
+    "slug": "ps-plus-november-2026-death-stranding-2-atomfall-lineup",
+    "title": "Death Stranding 2, Pirate Yakuza и Atomfall пополнят каталог PS Plus в ноябре",
+    "category": "PS Plus",
+    "published": "2026-11-11T11:05:38+10:00",
+    "sourceDate": "10 ноября 2026",
+    "description": "Sony раскрыла ноябрьскую подборку игрового каталога PS Plus. Среди главных игр — Death Stranding 2: On the Beach, Like a Dragon: Pirate Yakuza in Hawaii, Atomfall и Dragon Quest III HD-2D Remake.",
+    "image": "https://blog.playstation.com/tachyon/2026/11/6ae8af767f59801bb5a0ceabf7fe915f00eed004.jpg?crop_strategy=smart&resize=1088%2C612",
+    "imageAlt": "Официальный баннер ноябрьской подборки PS Plus. © Sony Interactive Entertainment и правообладатели игр.",
+    "source": "https://blog.playstation.com/2026/11/10/playstation-plus-game-catalog-for-november-death-stranding-2-on-the-beach-like-a-dragon-pirate-yakuza-in-hawaii-atomfall-dragon-quest-iii-hd-2d-remake-and-more/",
+    "sourceName": "PlayStation Blog",
+    "product": "plus",
+    "sections": [
+      {
+        "heading": "Death Stranding 2 и Atomfall — с 17 ноября",
+        "paragraphs": [
+          "На 17 ноября назначены Death Stranding 2: On the Beach, Atomfall и Dragon Quest III HD-2D Remake. Они входят в подборку для Extra и Premium."
+        ],
+        "images": [
+          {
+            "src": "https://blog.playstation.com/uploads/2026/11/be07500b8d288a2ac8b3bdd91247f5a62b972d68.jpg",
+            "alt": "Death Stranding 2: On the Beach",
+            "caption": "Death Stranding 2: On the Beach. Официальная иллюстрация к ноябрьской подборке PS Plus. © Kojima Productions / Sony Interactive Entertainment."
+          },
+          {
+            "src": "https://blog.playstation.com/uploads/2026/11/3dd25d1cd2330dd434593ae7c888a90966956aa1.jpg",
+            "alt": "Atomfall",
+            "caption": "Atomfall. Официальная иллюстрация к ноябрьской подборке PS Plus. © Rebellion."
+          }
+        ]
+      },
+      {
+        "heading": "Ещё пять игр для Extra и Premium",
+        "items": [
+          "Like a Dragon: Pirate Yakuza in Hawaii — PS5, PS4.",
+          "Trepang2 — PS5.",
+          "MotoGP 26 — PS5.",
+          "Cricket 26 – The Official Game of the Ashes — PS5, PS4.",
+          "Hell Let Loose — PS5."
+        ],
+        "paragraphs": [
+          "В США и Великобритании первые четыре игры из этого списка добавят 24 ноября, а Hell Let Loose — 11 ноября. В Японии Pirate Yakuza появится 24 ноября, Hell Let Loose — 12 ноября."
+        ],
+        "images": [
+          {
+            "src": "https://blog.playstation.com/uploads/2026/11/0f9cbfa84d97aacff67d89beb5d26cd741adf9ec.jpg",
+            "alt": "Like a Dragon: Pirate Yakuza in Hawaii",
+            "caption": "Like a Dragon: Pirate Yakuza in Hawaii. Официальная иллюстрация к ноябрьской подборке PS Plus. © SEGA."
+          }
+        ]
+      },
+      {
+        "heading": "Soul Reaver 2 и Freedom Wars Remastered",
+        "paragraphs": [
+          "Обе игры для PS5 и PS4 включены в подборку Premium с 17 ноября."
+        ],
+        "callout": {
+          "title": "Состав и сроки зависят от региона",
+          "text": "Sony просит проверять доступность в PS Store в день добавления. Для турецкого аккаунта ориентируйтесь на местный каталог Extra и Deluxe."
+        }
+      }
+    ]
+  },
+  {
     "slug": "gta-vi-30-fps-ps5-pro-pssr-ray-traced-shadows",
     "title": "GTA VI нацелена на 30 FPS — Rockstar раскрыла улучшения для PS5 Pro",
     "category": "Игры",

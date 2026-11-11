@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://brazka.shop/news/ps-plus-november-2026-death-stranding-2-atomfall-lineup/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>BRAZKA</news:name>
+        <news:language>ru</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-11T11:05:38+10:00</news:publication_date>
+      <news:title>Death Stranding 2, Pirate Yakuza и Atomfall пополнят каталог PS Plus в ноябре</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://brazka.shop/news/gta-vi-30-fps-ps5-pro-pssr-ray-traced-shadows/</loc>
     <news:news>
       <news:publication>
