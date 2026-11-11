@@ -55,15 +55,4 @@
       <news:title>Rockstar и PlayStation проведут фестиваль GTA VI в Майами 21 ноября</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://brazka.shop/news/ps-plus-japan-dragon-quest-iii-dynasty-warriors-origins/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>BRAZKA</news:name>
-        <news:language>ru</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-09T19:04:59+10:00</news:publication_date>
-      <news:title>Sony Japan анонсировала Dragon Quest III и Dynasty Warriors: Origins для каталога PS Plus</news:title>
-    </news:news>
-  </url>
 </urlset>
