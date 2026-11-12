@@ -1,5 +1,69 @@
 [
   {
+    "slug": "the-outer-worlds-2-side-effects-guaranteed-ps5-december-2",
+    "title": "Первое DLC для The Outer Worlds 2 выйдет на PS5 2 декабря",
+    "category": "Игры",
+    "published": "2026-11-12T19:02:05+10:00",
+    "sourceDate": "10 ноября 2026",
+    "description": "В Side Effects Guaranteed команда расследует, что случилось с экипажем заброшенного корабля, и отправится в долину Элизиум. Obsidian добавит пять видов оружия и поднимет максимальный уровень до 36. Вместе с дополнением выйдет обновление с перераспределением очков персонажа для всех игроков.",
+    "image": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/11/XBOX_TOW-Expansion_KeyArt_Horizontal-3ff701b040bc3de8c709-1600x900.jpg",
+    "imageAlt": "Официальный арт The Outer Worlds 2: Side Effects Guaranteed · © Xbox Game Studios / Obsidian Entertainment",
+    "source": "https://blog.playstation.com/2026/11/10/the-outer-worlds-2s-first-dlc-arrives-december-2/",
+    "sourceName": "Obsidian Entertainment в PlayStation Blog",
+    "product": "catalog",
+    "sections": [
+      {
+        "heading": "Сигнал бедствия и борьба за власть в Sub Rosa",
+        "paragraphs": [
+          "Расследование начинается с сигнала бедствия. На корабле команда находит экипаж в анабиозе и запись капитана. После ограбления люди подверглись заражению, которое без лечения приводит к распаду клеток.",
+          "Агент Sub Rosa Гордон Хейзен направляет командира в долину Элизиум, где живут бывшие подданные Протектората. Хейзен рассчитывает найти там способ спасти экипаж, а его соперник Элджернон Ланкестер хочет использовать жителей в своих интересах. Решения командира повлияют на вторую часть истории, которую Obsidian выпустит весной 2027 года."
+        ],
+        "images": [
+          {
+            "src": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/11/tow2-dlc1-npc-gordon-001-3a3c5f396763e34891f0-1024x576.jpg",
+            "alt": "Гордон Хейзен держит устройство в зале с фиолетовой подсветкой",
+            "caption": "Гордон Хейзен, агент Sub Rosa · © Xbox Game Studios / Obsidian Entertainment"
+          },
+          {
+            "src": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/11/tow2-dlc1-env-microlab-001-897938a09c411428d604-1024x576.jpg",
+            "alt": "Фигура на освещённой платформе в лаборатории",
+            "caption": "Лаборатория из Side Effects Guaranteed · © Xbox Game Studios / Obsidian Entertainment"
+          }
+        ]
+      },
+      {
+        "heading": "Пять видов оружия и рост до 36-го уровня",
+        "paragraphs": [
+          "Immobilizer поднимает цель в воздух, оставляя время сменить оружие или бросить гранату. У 1/6 Resolver каждый шестой выстрел наносит усиленный урон. Остальные новинки — оружие с повышенным уроном по существам, особая клюшка для тоссбола и плазменное оружие.",
+          "Предел прокачки вырастет с 30-го до 36-го уровня. В дополнении появятся 15 новых перков, четыре новые слабости персонажа и радиостанция Sub Rosa с 20 композициями."
+        ],
+        "images": [
+          {
+            "src": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/11/tow2-dlc1-cmbt-primal-sprat-001-0d6cc27e4df55d0ae5d2-1024x576.jpg",
+            "alt": "Крупное существо и вооружённый персонаж в бою",
+            "caption": "Бой с крупным спрэттом из дополнения · © Xbox Game Studios / Obsidian Entertainment"
+          },
+          {
+            "src": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/11/tow2-dlc1-player-armor-001-a2e9272f0668356ec3a0-1024x576.jpg",
+            "alt": "Персонаж в шлеме и броне целится из оружия",
+            "caption": "Экипировка персонажа в Side Effects Guaranteed · © Xbox Game Studios / Obsidian Entertainment"
+          }
+        ]
+      },
+      {
+        "heading": "Как начать дополнение и что получат все игроки",
+        "paragraphs": [
+          "В основной кампании события DLC запускаются перед точкой невозврата. Начать можно и через меню новой игры: оно загрузит готового персонажа 27-го уровня, которому можно распределить очки навыков и выбрать перки.",
+          "Одновременно с DLC выйдет обновление для всех игроков. Оно позволит перераспределять очки персонажа в любой момент и менять количество очков навыков за уровень в пользовательских настройках игры."
+        ],
+        "callout": {
+          "title": "Релиз на PS5 — 2 декабря 2026 года",
+          "text": "Side Effects Guaranteed можно будет приобрести отдельно. Дополнение также входит в Premium Edition и Premium Edition Upgrade."
+        }
+      }
+    ]
+  },
+  {
     "slug": "skyrim-15th-anniversary-creations-bundle",
     "title": "Skyrim к 15-летию получил набор с орочьими квестами и двемерскими подземельями",
     "category": "Игры",

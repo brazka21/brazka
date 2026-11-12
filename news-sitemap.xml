@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://brazka.shop/news/the-outer-worlds-2-side-effects-guaranteed-ps5-december-2/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>BRAZKA</news:name>
+        <news:language>ru</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-12T19:02:05+10:00</news:publication_date>
+      <news:title>Первое DLC для The Outer Worlds 2 выйдет на PS5 2 декабря</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://brazka.shop/news/skyrim-15th-anniversary-creations-bundle/</loc>
     <news:news>
       <news:publication>
