@@ -55,15 +55,4 @@
       <news:title>GTA VI нацелена на 30 FPS — Rockstar раскрыла улучшения для PS5 Pro</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://brazka.shop/news/warhammer-40000-dark-heresy-ps5-january-28/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>BRAZKA</news:name>
-        <news:language>ru</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-10T19:07:48+10:00</news:publication_date>
-      <news:title>Warhammer 40,000: Dark Heresy выйдет на PS5 28 января 2027 года</news:title>
-    </news:news>
-  </url>
 </urlset>
