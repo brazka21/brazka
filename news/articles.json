@@ -1,5 +1,57 @@
 [
   {
+    "slug": "skyrim-15th-anniversary-creations-bundle",
+    "title": "Skyrim к 15-летию получил набор с орочьими квестами и двемерскими подземельями",
+    "category": "Игры",
+    "published": "2026-11-12T10:58:17+10:00",
+    "sourceDate": "11 ноября 2026",
+    "description": "Bethesda собрала пять работ проверенных авторов Creations в юбилейный набор Skyrim. В него вошли сюжет об орках, два двемерских подземелья, спутница-целительница, ручная пушка и дом под Рифтеном. Набор доступен на PlayStation до 12 декабря.",
+    "image": "https://res.cloudinary.com/dewzjk72j/image/authenticated/s--4NgwJgj---/c_lfill,w_1280/f_auto:image,q_auto/v1/cms/Skyrim-AnniversaryBundle_ExpandedGallery_3240x1823-01.jpg-accd570e16f1fa7e37a3d4fe6af47f4c",
+    "imageAlt": "Пять работ из юбилейного набора Skyrim на коллаже Bethesda Softworks · © ZeniMax Media",
+    "source": "https://elderscrolls.bethesda.net/en-US/news/skyrim-15-anniversary-creation-bundle",
+    "sourceName": "Bethesda Softworks",
+    "product": "catalog",
+    "sections": [
+      {
+        "heading": "Борьба за орочью крепость и два подземелья",
+        "paragraphs": [
+          "В Legacy of Orsinium от Veelpot силы Орсиниума угрожают небольшой крепости. Игроку предстоит завоевать доверие Agra Crun, обследовать шахты Мор Хазгун и найти забытую орочью гробницу. У озвученной сюжетной линии несколько концовок.",
+          "В Legendary Dungeons: Dwarven Delves автор Trainwiz перенёс в Skyrim два подземелья из The Elder Scrolls Online. В Stone Garden ведёт проход из пещеры Pinemoon Cave, а вход в Frostvault находится на развилке в Uttering Hills Cave."
+        ]
+      },
+      {
+        "heading": "Спутница из Предела, ручная пушка и дом",
+        "items": [
+          "Kaitryn Fair-Shadows от anbeegod добавляет спутницу из Предела. Она лечит, пользуется магией и комментирует события основной истории и дополнений. У неё есть система отношения к герою и возможность завести роман.",
+          "Arquebus от Shoeburglar отправляет в двемерские руины за ручной пушкой. Её характеристики связаны с навыком стрельбы, а после квеста можно изготовить разные версии оружия и боеприпасы, в том числе взрывные.",
+          "Shadetree Lodge от TheRealElianora добавляет дом под Рифтеном. В нём есть места для ремесла, свой уголок для рыбалки и скрытая комната для трофеев в подвале."
+        ]
+      },
+      {
+        "heading": "Где найти набор и сколько он будет доступен",
+        "callout": {
+          "title": "До 12 декабря",
+          "text": "Юбилейный набор доступен в меню Creations внутри Skyrim на PlayStation, Xbox и ПК. 12 декабря Bethesda уберёт его из этого меню."
+        },
+        "paragraphs": [
+          "Вместе с ним Bethesda представила ещё три временные подборки. Ancient Treasures собирает четыре приключения RoastGorilla, Echoes of Adventure объединяет две работы EasierRider, а в набор Kinggath Creations входят East Empire Expansion, Bard’s College Expansion и Sigil of the Fallen."
+        ],
+        "images": [
+          {
+            "src": "https://res.cloudinary.com/dewzjk72j/image/authenticated/s--grtYclFw--/c_lfill,w_1280/f_auto:image,q_auto/v1/cms/Skyrim-RoastGorillaBundle_ExpandedGallery_3240x1823-01.jpg-eb21c72a74785f1e9cebe14181a1facd",
+            "alt": "Коллаж со скриншотами Ancient Treasures Bundle",
+            "caption": "Ancient Treasures Bundle, официальный коллаж Bethesda Softworks · © ZeniMax Media"
+          },
+          {
+            "src": "https://res.cloudinary.com/dewzjk72j/image/authenticated/s--eqnx-PzL--/c_lfill,w_1280/f_auto:image,q_auto/v1/cms/Skyrim-EasierRiderBundle_ExpandedGallery_3240x1823-01.jpg-cda1d4515722b901ea72ab52323d2746",
+            "alt": "Коллаж со скриншотами Echoes of Adventure Bundle",
+            "caption": "Echoes of Adventure Bundle, официальный коллаж Bethesda Softworks · © ZeniMax Media"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "slug": "marathon-symbiosis-expedition-open-play-week",
     "title": "Marathon получит PvE-экспедиции и бои 3 на 3 уже 8 декабря",
     "category": "Игры",

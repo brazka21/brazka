@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://brazka.shop/news/skyrim-15th-anniversary-creations-bundle/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>BRAZKA</news:name>
+        <news:language>ru</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-12T10:58:17+10:00</news:publication_date>
+      <news:title>Skyrim к 15-летию получил набор с орочьими квестами и двемерскими подземельями</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://brazka.shop/news/marathon-symbiosis-expedition-open-play-week/</loc>
     <news:news>
       <news:publication>
