@@ -55,15 +55,4 @@
       <news:title>Warhammer 40,000: Dark Heresy выйдет на PS5 28 января 2027 года</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://brazka.shop/news/gta-vi-the-festival-miami-november-21/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>BRAZKA</news:name>
-        <news:language>ru</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-10T11:02:51+10:00</news:publication_date>
-      <news:title>Rockstar и PlayStation проведут фестиваль GTA VI в Майами 21 ноября</news:title>
-    </news:news>
-  </url>
 </urlset>
