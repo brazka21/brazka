@@ -55,15 +55,4 @@
       <news:title>Death Stranding 2, Pirate Yakuza и Atomfall пополнят каталог PS Plus в ноябре</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://brazka.shop/news/gta-vi-30-fps-ps5-pro-pssr-ray-traced-shadows/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>BRAZKA</news:name>
-        <news:language>ru</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-11T11:00:09+10:00</news:publication_date>
-      <news:title>GTA VI нацелена на 30 FPS — Rockstar раскрыла улучшения для PS5 Pro</news:title>
-    </news:news>
-  </url>
 </urlset>
