@@ -44,15 +44,4 @@
       <news:title>Skyrim к 15-летию получил набор с орочьими квестами и двемерскими подземельями</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://brazka.shop/news/marathon-symbiosis-expedition-open-play-week/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>BRAZKA</news:name>
-        <news:language>ru</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-11T19:02:36+10:00</news:publication_date>
-      <news:title>Marathon получит PvE-экспедиции и бои 3 на 3 уже 8 декабря</news:title>
-    </news:news>
-  </url>
 </urlset>
