@@ -1,5 +1,49 @@
 [
   {
+    "slug": "god-of-war-sons-of-sparta-ps4-hermes-erebus",
+    "title": "God of War Sons of Sparta выйдет на PS4 16 ноября вместе с двумя новыми режимами",
+    "category": "Игры",
+    "published": "2026-11-14T10:58:51+10:00",
+    "sourceDate": "13 ноября 2026",
+    "description": "Santa Monica Studio объявила дату выхода PS4-версии God of War Sons of Sparta. Одновременно Mega Cat Studios выпустит обновление для PS4 и PS5 с прохождением на время в Hermes Mode и боями до первого попадания в Erebus Mode.",
+    "image": "https://blog.de.playstation.com/tachyon/sites/13/2026/11/9112a790262442f49ec7d2452d3be038adab2506.jpg",
+    "imageAlt": "Кратос сидит под деревом на официальном арте God of War Sons of Sparta · © Sony Interactive Entertainment",
+    "source": "https://blog.de.playstation.com/2026/11/13/god-of-war-sons-of-sparta-ps4-version-ab-16-november/",
+    "sourceName": "Santa Monica Studio в PlayStation Blog",
+    "product": "catalog",
+    "sections": [
+      {
+        "heading": "Hermes Mode — таймер по отрезкам и таблица результатов",
+        "paragraphs": [
+          "Режим для скоростного прохождения добавит таймер с замерами отдельных отрезков и таблицу, в которой сохраняются результаты. Hermes Mode открывается после первого прохождения игры."
+        ],
+        "callout": {
+          "title": "Как открыть Hermes Mode сразу",
+          "text": "В стартовом меню нажмите ↑ ↑ ↓ ↓ ← → ← →, затем L1, R1 и сенсорную панель."
+        }
+      },
+      {
+        "heading": "Erebus Mode — один удар решает бой",
+        "paragraphs": [
+          "В Erebus Mode и Кратос, и его противники погибают от одного попадания. На официальном кадре режима видно счётчик смертей."
+        ],
+        "images": [
+          {
+            "src": "https://live.staticflickr.com/65535/55648508922_5eb7fff24d_4k.jpg",
+            "alt": "Кратос перед зданием, в углу экрана виден счётчик смертей",
+            "caption": "Режим Erebus, кадр на PS5 Pro из анонса обновления · © Sony Interactive Entertainment"
+          }
+        ]
+      },
+      {
+        "heading": "Когда выходит версия для PS4 и как выбрать режим",
+        "paragraphs": [
+          "На PS4 игра выйдет 16 ноября 2026 года в полночь по местному времени. Обновление с двумя режимами выйдет одновременно на PS4 и PS5. Режим выбирается при запуске новой игры, когда вы указываете слот сохранения. Он закрепляется за этим сохранением."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "once-human-dissonant-resonance-ps5-colossus-raid",
     "title": "В Once Human появится рейд на четверых против гигантского Колосса-органа",
     "category": "Игры",
