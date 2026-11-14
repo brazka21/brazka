@@ -1,5 +1,50 @@
 [
   {
+    "slug": "gta-vi-macca-and-friends-weazel-teaser",
+    "title": "В GTA VI покажут мультсериал Macca & Friends. Первый тизер уже вышел",
+    "category": "Игры",
+    "published": "2026-11-14T19:07:27+10:00",
+    "sourceDate": "13 ноября 2026",
+    "description": "На внутриигровом канале WEAZEL 19 ноября стартует Macca & Friends — мультсериал о розовом аллигаторе Макке и его друзьях из болот Леониды. В первом тизере они гоняют на аэроглиссере и появляются в полицейской форме.",
+    "image": "/news/gta-vi-macca-and-friends-weazel-teaser/images/cover.jpg",
+    "imageAlt": "Титульный кадр тизера Macca & Friends с героями мультсериала и логотипом WEAZEL · © Rockstar Games",
+    "source": "https://www.youtube.com/watch?v=UhPvgbP7ps8",
+    "sourceName": "DiscussingFilm — оригинальный тизер Macca & Friends",
+    "product": "gta-vi",
+    "sections": [
+      {
+        "heading": "Макка и его друзья путешествуют по Леониде",
+        "paragraphs": [
+          "В 30-секундном ролике Макка размахивает битой перед крабом, а затем мчится по болотам на лодке с воздушным винтом. Среди героев тизера — фламинго в очках и говорящее солнце в тёмных очках."
+        ],
+        "images": [
+          {
+            "src": "/news/gta-vi-macca-and-friends-weazel-teaser/images/airboat.jpg",
+            "alt": "Розовый аллигатор Макка на аэроглиссере",
+            "caption": "Макка за штурвалом аэроглиссера · Кадр из тизера · © Rockstar Games"
+          }
+        ]
+      },
+      {
+        "heading": "Премьера на WEAZEL в день выхода игры",
+        "paragraphs": [
+          "Ближе к финалу Макка и его компания заходят в полицейский участок в форме. Затем появляется заставка с названием сериала и датой премьеры на WEAZEL. Тизер первым опубликовал DiscussingFilm, после чего им поделилась Rockstar Games."
+        ],
+        "images": [
+          {
+            "src": "/news/gta-vi-macca-and-friends-weazel-teaser/images/weazel.jpg",
+            "alt": "Макка и его друзья в полицейской форме",
+            "caption": "Герои в форме заходят в полицейский участок · Кадр из тизера · © Rockstar Games"
+          }
+        ],
+        "callout": {
+          "title": "Когда смотреть",
+          "text": "Macca & Friends появится на внутриигровом канале WEAZEL 19 ноября 2026 года, в день выхода GTA VI на PS5 и Xbox Series X|S."
+        }
+      }
+    ]
+  },
+  {
     "slug": "god-of-war-sons-of-sparta-ps4-hermes-erebus",
     "title": "God of War Sons of Sparta выйдет на PS4 16 ноября вместе с двумя новыми режимами",
     "category": "Игры",
