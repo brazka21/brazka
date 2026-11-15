@@ -1,5 +1,68 @@
 [
   {
+    "slug": "ps5-qssr-spider-man-2-control-arc-raiders",
+    "title": "Marvel’s Spider-Man 2 получила QSSR на обычной PS5. Sony назвала ещё пять игр",
+    "category": "Игры",
+    "published": "2026-11-15T10:59:23+10:00",
+    "sourceDate": "13 ноября 2026",
+    "description": "Патч 1.006.000 для Marvel’s Spider-Man 2 уже доступен на PS5. Он добавляет ИИ-масштабирование QSSR в режимы «Качество» и «Производительность». Sony также подтвердила обновления для Control Resonant, ARC Raiders, THE FINALS, No Man’s Sky и Hell Let Loose: Vietnam.",
+    "image": "https://blog.playstation.com/tachyon/2026/11/105d12450fe9246de305a3a43412100d0e299216-scaled.jpg",
+    "imageAlt": "Человек-паук над Нью-Йорком на официальном кадре Marvel’s Spider-Man 2 из анонса QSSR · © Sony Interactive Entertainment / Marvel",
+    "source": "https://blog.playstation.com/2026/11/13/qssr-arrives-in-marvels-spider-man-2-control-resonant-the-finals-arc-raiders-and-hell-let-loose-vietnam/",
+    "sourceName": "PlayStation Blog",
+    "product": "spider-man-2",
+    "sections": [
+      {
+        "heading": "Что изменилось в Marvel’s Spider-Man 2",
+        "paragraphs": [
+          "Insomniac выпустила обновление 13 ноября. На базовой PS5 игра теперь использует QSSR (Quick Spectral Super Resolution). Алгоритм восстанавливает детали при масштабировании изображения. Insomniac отмечает, что картинка стала чётче и стабильнее в обоих графических режимах."
+        ],
+        "callout": {
+          "title": "Уже доступно",
+          "text": "Обновление Marvel’s Spider-Man 2 версии 1.006.000 добавляет QSSR на обычной PS5."
+        }
+      },
+      {
+        "heading": "Control Resonant получит обновление в декабре",
+        "paragraphs": [
+          "Remedy готовит декабрьский патч для Control Resonant. Разработчики выделяют более стабильное изображение и лучшую передачу мелких деталей. На официальном превью Sony показывает один и тот же кадр с выключенным и включённым QSSR."
+        ],
+        "images": [
+          {
+            "src": "https://i.ytimg.com/vi/OA0Vd7Mx-VI/maxresdefault.jpg",
+            "alt": "Control Resonant с выключенным и включённым QSSR",
+            "caption": "Control Resonant с выключенным и включённым QSSR · Превью демонстрации QSSR в PlayStation Blog · © Remedy Entertainment"
+          }
+        ]
+      },
+      {
+        "heading": "Что известно о сроках для остальных игр",
+        "items": [
+          "ARC Raiders и THE FINALS. Embark Studios подтвердила поддержку в предстоящих обновлениях.",
+          "No Man’s Sky. Hello Games планирует добавить QSSR в ближайшие недели.",
+          "Hell Let Loose: Vietnam. Expression Games добавит QSSR в одном из следующих обновлений."
+        ],
+        "images": [
+          {
+            "src": "https://i.ytimg.com/vi/IToqub3xrGg/maxresdefault.jpg",
+            "alt": "Сравнение изображения в ARC Raiders",
+            "caption": "Сравнение изображения в ARC Raiders · Превью демонстрации QSSR в PlayStation Blog · © Embark Studios"
+          },
+          {
+            "src": "https://i.ytimg.com/vi/6BbuDs4J_0o/maxresdefault.jpg",
+            "alt": "Сцена из No Man’s Sky",
+            "caption": "Сцена из No Man’s Sky · Превью демонстрации QSSR в PlayStation Blog · © Hello Games"
+          },
+          {
+            "src": "https://i.ytimg.com/vi/MLSYPk36Et8/maxresdefault.jpg",
+            "alt": "Сравнение изображения в Hell Let Loose: Vietnam",
+            "caption": "Сравнение изображения в Hell Let Loose: Vietnam · Превью демонстрации QSSR в PlayStation Blog · © Team17 / Expression Games"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "slug": "gta-vi-macca-and-friends-weazel-teaser",
     "title": "В GTA VI покажут мультсериал Macca & Friends. Первый тизер уже вышел",
     "category": "Игры",
