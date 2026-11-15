@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://brazka.shop/news/guild-saga-vanished-worlds-ps5-may-2027/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>BRAZKA</news:name>
+        <news:language>ru</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-15T19:01:00+10:00</news:publication_date>
+      <news:title>Guild Saga: Vanished Worlds выйдет на PS5 в мае 2027 года. Погода меняет ход боя</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://brazka.shop/news/ps5-qssr-spider-man-2-control-arc-raiders/</loc>
     <news:news>
       <news:publication>
@@ -31,17 +42,6 @@
       </news:publication>
       <news:publication_date>2026-11-14T10:58:51+10:00</news:publication_date>
       <news:title>God of War Sons of Sparta выйдет на PS4 16 ноября вместе с двумя новыми режимами</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://brazka.shop/news/once-human-dissonant-resonance-ps5-colossus-raid/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>BRAZKA</news:name>
-        <news:language>ru</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-13T18:59:39+10:00</news:publication_date>
-      <news:title>В Once Human появится рейд на четверых против гигантского Колосса-органа</news:title>
     </news:news>
   </url>
 </urlset>
