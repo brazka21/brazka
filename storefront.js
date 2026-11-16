@@ -17,7 +17,7 @@ const REGIONS = ['turkey'];
 const REGION_LABELS = {turkey:'🇹🇷 Турция'};
 const plusAnnualPromotion = {
   endsAt: Date.parse('2026-12-01T00:00:00+03:00'),
-  prices: { essential: 5990, extra: 8990, deluxe: 8990 },
+  prices: { essential: 5990, extra: 8590, deluxe: 8590 },
   note: 'До 30 ноября включительно по времени Турции. Акционная цена действует, если предложение доступно на вашем аккаунте.'
 };
 function plusPromotionPrice(planId, months, now = Date.now()) {
