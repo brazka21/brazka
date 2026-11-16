@@ -1,5 +1,56 @@
 [
   {
+    "slug": "ps-plus-black-friday-2026-turkey-subscriptions",
+    "title": "В турецком PS Store началась акция на PS Plus Essential, Extra и Deluxe",
+    "category": "PS Plus",
+    "sourceDate": "16 ноября 2026",
+    "description": "С 16 ноября в Турции действуют предложения Black Friday на все три уровня PlayStation Plus. Sony выделила скидки на новое подключение и отдельное предложение для действующих подписчиков при переходе на Deluxe.",
+    "image": "https://gmedia.playstation.com/is/image/SIEPDC/Black-Friday-PLP-Header-Keyart-01-28oct26_en?wid=1088",
+    "imageAlt": "Символы PlayStation на обложке акции Black Friday · © Sony Interactive Entertainment",
+    "source": "https://www.playstation.com/tr-tr/ps-plus/",
+    "sourceName": "PlayStation Plus — Турция",
+    "product": "plus",
+    "sections": [
+      {
+        "heading": "Скидки на подключение и переход на Deluxe",
+        "paragraphs": [
+          "На турецкой странице PlayStation Plus Sony подтвердила предложения на Essential, Extra и Deluxe. Условия акции распространяются на аккаунты, которым доступно предложение.",
+          "Для действующих подписчиков Sony предусмотрела отдельную скидку при повышении уровня до Deluxe в регионах, где он доступен."
+        ],
+        "callout": {
+          "title": "До 30 ноября",
+          "text": "Войдите под турецким аккаунтом PlayStation, чтобы увидеть доступные ему предложения, цену и срок действия скидки."
+        },
+        "images": [
+          {
+            "src": "https://blog.playstation.com/tachyon/2026/11/650f40e60d8a0625fe4aa85a998d2cbb6a08120a.jpg?resize=1088%2C612",
+            "alt": "Англоязычный баннер со скидками на отдельные планы PlayStation Plus",
+            "caption": "Официальный баннер акции PlayStation Plus Black Friday. © Sony Interactive Entertainment"
+          }
+        ]
+      },
+      {
+        "heading": "Что входит в каждый план",
+        "items": [
+          "Essential — сетевой мультиплеер, игры месяца и облачное хранилище для сохранений.",
+          "Extra — возможности Essential и доступ к каталогу игр.",
+          "Deluxe — возможности Extra, каталог классики и пробные версии игр."
+        ],
+        "paragraphs": [
+          "Подписка продлевается автоматически по действующей на момент продления цене, пока её не отменят."
+        ],
+        "images": [
+          {
+            "src": "https://gmedia.playstation.com/is/image/SIEPDC/black-friday-hub-ps-plus-games-image-block-01-03nov26_en?wid=1088",
+            "alt": "На баннере PS Plus обложки Mortal Kombat 1, Helldivers 2 и Ghost of Tsushima",
+            "caption": "Подборка игр на турецкой странице акции. © Sony Interactive Entertainment и правообладатели игр"
+          }
+        ]
+      }
+    ],
+    "published": "2026-11-16T11:01:04+10:00"
+  },
+  {
     "slug": "guild-saga-vanished-worlds-ps5-may-2027",
     "title": "Guild Saga: Vanished Worlds выйдет на PS5 в мае 2027 года. Погода меняет ход боя",
     "category": "Игры",
