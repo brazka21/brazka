@@ -45,7 +45,7 @@ s=s.replace('href="/">Главная','href="/" aria-current="page">Главна
 s=re.sub(r'<nav class="site-nav shell" aria-label="Разделы сайта">.*?</nav>',
          lambda match: match[0].replace('<a href="/catalog/">Каталог</a>','').replace('<a href="/#plus">PS Plus</a>',''),
          s, count=1, flags=re.S)
-s=re.sub(r'storefront[.]js[?]v=[^"]+', 'storefront.js?v=home-links2', s, count=1)
+s=re.sub(r'storefront[.]js[?]v=[^"]+', 'storefront.js?v=plus-bf26', s, count=1)
 s=s.replace('</body>','<aside class="home-plus-dock" id="homePlusDock" hidden aria-label="Оформить PlayStation Plus"><img src="/assets/psplus-icon.png" alt="" width="32" height="32"><div><strong>PS Plus</strong><small>Essential · Extra · Deluxe</small></div><a class="button primary" href="#plus">Оформить →</a></aside></body>')
 s=s.replace('</head>','<script>if(location.hash==="#catalog")location.replace("/catalog/"+location.search);</script></head>')
 s=s.replace('</body>','<script src="/home.js?v=2" defer></script></body>')

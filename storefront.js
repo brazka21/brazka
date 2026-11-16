@@ -15,6 +15,16 @@ ym(112697107,'init',{ssr:true,webvisor:true,clickmap:true,ecommerce:'dataLayer',
 const CONTACT_URL = 'https://t.me/m/LyEKjl0bODFi';
 const REGIONS = ['turkey'];
 const REGION_LABELS = {turkey:'🇹🇷 Турция'};
+const plusAnnualPromotion = {
+  endsAt: Date.parse('2026-12-01T00:00:00+03:00'),
+  prices: { extra: 8990, deluxe: 8990 },
+  note: 'До 30 ноября включительно по времени Турции. Акционная цена действует, если предложение доступно на вашем аккаунте.'
+};
+function plusPromotionPrice(planId, months, now = Date.now()) {
+  if (months !== 12 || now >= plusAnnualPromotion.endsAt) return null;
+  return plusAnnualPromotion.prices[planId] ?? null;
+}
+
 const money = value => Number.isFinite(value) && value > 0 ? new Intl.NumberFormat('ru-RU').format(value) + ' ₽' : 'Уточнить цену';
 const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const cleanSearch = value => String(value).toLowerCase().replace(/[™®’'`]/g,'').replace(/ё/g,'е').replace(/[^a-zа-я0-9]+/g,' ').trim();
@@ -61,9 +71,8 @@ if(typeof document!=='undefined'){
   let cart=[],cartOpener=null,sharedCartLoaded=false;
   const $=id=>document.getElementById(id);
   const rootTitle=document.body.classList.contains('home-page')?'BRAZKA — игры PlayStation, новости и PS Plus':'БРАЗКА — каталог игр PlayStation, цены Турции';
-  const PLUS_SALE_END=Date.parse('2026-10-01T00:00:00+03:00');
-  const planData={essential:{name:'Essential',image:'/assets/ps-essential.png',note:'Онлайн, игры месяца и облачные сохранения.',prices:{1:890,3:2990,12:6990},salePrices:{12:5900}},extra:{name:'Extra',image:'/assets/ps-extra.png',note:'Каталог игр и все возможности Essential.',prices:{1:1290,3:3890,12:10190},salePrices:{12:8990}},deluxe:{name:'Deluxe',image:'/assets/ps-deluxe.png',note:'Классика, пробные версии и все возможности Extra.',prices:{1:1390,3:4290,12:11490},salePrices:{12:10490}}};
-  const planPrice=(data,term,now=Date.now())=>now<PLUS_SALE_END&&data.salePrices?.[term]||data.prices[term];
+  const planData={essential:{name:'Essential',image:'/assets/ps-essential.png',note:'Онлайн, игры месяца и облачные сохранения.',prices:{1:890,3:2990,12:6990}},extra:{name:'Extra',image:'/assets/ps-extra.png',note:'Каталог игр и все возможности Essential.',prices:{1:1290,3:3890,12:10190}},deluxe:{name:'Deluxe',image:'/assets/ps-deluxe.png',note:'Классика, пробные версии и все возможности Extra.',prices:{1:1390,3:4290,12:11490}}};
+  const planPrice=(planId,term,now=Date.now())=>plusPromotionPrice(planId,term,now)??planData[planId].prices[term];
   let plan='essential',months=12;
   function toast(text){$('toast').textContent=text;$('toast').hidden=false;clearTimeout(toast.timer);toast.timer=setTimeout(()=>$('toast').hidden=true,5000);}
   function cartId(item){return [item.type,item.gameId||'',item.editionId||'',item.packId||'',item.planId||'',item.months||'',item.region||''].join(':');}
@@ -89,7 +98,7 @@ if(typeof document!=='undefined'){
     }
     if(item.type==='plus'){
       const data=planData[item.planId];if(!data)return null;
-      return {...item,product:'PlayStation Plus',edition:`${data.name} · ${item.months} мес.`,regionLabel:'🇹🇷 Турция',price:planPrice(data,item.months)||null,image:data.image};
+      return {...item,product:'PlayStation Plus',edition:`${data.name} · ${item.months} мес.`,regionLabel:'🇹🇷 Турция',price:planPrice(item.planId,item.months)||null,image:data.image};
     }
     return null;
   }
@@ -250,14 +259,14 @@ if(typeof document!=='undefined'){
   function renderPlan(){
     const selected = planData[plan];
     const now = Date.now();
-    const sale = months === 12 && now < PLUS_SALE_END;
+    const sale = plusPromotionPrice(plan, months, now) !== null;
     const oldPrice = $('planOldPrice'), saleBadge = $('planSale'), saleNote = $('planSaleNote');
     const activeDuration = document.querySelector(`[data-months="${months}"] .duration-label`);
     $('planSelection').textContent = `${selected.name} · ${activeDuration.textContent}`;
-    $('planPrice').textContent = money(planPrice(selected, months, now));
+    $('planPrice').textContent = money(planPrice(plan, months, now));
     if(oldPrice){oldPrice.textContent = sale ? money(selected.prices[months]) : '';oldPrice.hidden = !sale;}
-    if(saleBadge)saleBadge.hidden = !sale;
-    if(saleNote)saleNote.hidden = !sale;
+    if(saleBadge){saleBadge.textContent = sale ? 'Акция' : '';saleBadge.hidden = !sale;}
+    if(saleNote){saleNote.textContent = sale ? plusAnnualPromotion.note : '';saleNote.hidden = !sale;}
     $('planDescription').textContent = selected.note;
     document.querySelectorAll('[data-plan]').forEach(button => {
       const active = button.dataset.plan === plan;
@@ -266,13 +275,13 @@ if(typeof document!=='undefined'){
     });
     document.querySelectorAll('[data-months]').forEach(button => {
       const term = Number(button.dataset.months);
-      button.querySelector('.duration-price').textContent = money(planPrice(selected, term, now));
+      button.querySelector('.duration-price').textContent = money(planPrice(plan, term, now));
       button.classList.toggle('active', term === months);
       button.setAttribute('aria-pressed', String(term === months));
     });
   }
   document.querySelectorAll('[data-plan]').forEach(b=>b.addEventListener('click',()=>{plan=b.dataset.plan;renderPlan();}));document.querySelectorAll('[data-months]').forEach(b=>b.addEventListener('click',()=>{months=Number(b.dataset.months);renderPlan();}));
-  $('planOrder').addEventListener('click',()=>{if(typeof ym==='function')ym(112697107,'reachGoal','psplus_order_click');navigator.clipboard?.writeText(`Привет! Нужна PS Plus ${planData[plan].name}, ${months} мес., регион Турция. На сайте ${money(planPrice(planData[plan],months))}.`).catch(()=>{});});
+  $('planOrder').addEventListener('click',()=>{if(typeof ym==='function')ym(112697107,'reachGoal','psplus_order_click');navigator.clipboard?.writeText(`Привет! Нужна PS Plus ${planData[plan].name}, ${months} мес., регион Турция. На сайте ${money(planPrice(plan,months))}.`).catch(()=>{});});
   window.addEventListener('popstate',()=>selectRoute());
   function scheduleExpiryRefresh(){
     clearTimeout(scheduleExpiryRefresh.timer);
@@ -282,8 +291,8 @@ if(typeof document!=='undefined'){
   async function load(){try{const r=await fetch('/games.json',{cache:'no-store'});if(!r.ok)throw new Error('catalog');catalogData=await r.json();games=normalizeCatalog(catalogData);if(!games.length)throw new Error('empty');renderGrid();renderFeature();renderPlan();scheduleExpiryRefresh();selectRoute({scroll:false});renderCart();hydrateSharedCart();if(new URLSearchParams(location.search).get("openCart")==="1")openCart($("cartButton"));}catch{ $('gameGrid').innerHTML=`<div class="loading">Каталог сейчас не загрузился. <button class="button secondary" id="retryCatalog">Попробовать ещё раз</button> <a class="button primary" href="${CONTACT_URL}" target="_blank" rel="noopener">Узнать цену в Telegram ↗</a></div>`;$('retryCatalog').addEventListener('click',load);}}
   const homePlusFrom = $('homePlusFrom');
   if(homePlusFrom){
-    const prices = Object.values(planData).flatMap(tier =>
-      Object.keys(tier.prices).map(term => planPrice(tier, Number(term))));
+    const prices = Object.entries(planData).flatMap(([planId,tier]) =>
+      Object.keys(tier.prices).map(term => planPrice(planId, Number(term))));
     homePlusFrom.textContent = 'от ' + money(Math.min(...prices));
   }
   initCart();
@@ -301,9 +310,9 @@ if(typeof document!=='undefined'){
   const DIRECT_TELEGRAM = 'https://t.me/m/LyEKjl0bODFi';
   const STORAGE_KEY = 'brazka-attribution';
   const PLUS_PRICES = {
-    essential: { name: 'Essential', prices: { 1: 1090, 3: 2990, 12: Date.now() < Date.parse('2026-10-01T00:00:00+03:00') ? 5900 : 7900 } },
-    extra: { name: 'Extra', prices: { 1: 1590, 3: 4290, 12: Date.now() < Date.parse('2026-10-01T00:00:00+03:00') ? 8990 : 11990 } },
-    deluxe: { name: 'Deluxe', prices: { 1: 1790, 3: 4790, 12: Date.now() < Date.parse('2026-10-01T00:00:00+03:00') ? 10490 : 13990 } }
+    essential: { name: 'Essential', prices: { 1: 1090, 3: 2990, 12: 7900 } },
+    extra: { name: 'Extra', prices: { 1: 1590, 3: 4290, 12: 11990 } },
+    deluxe: { name: 'Deluxe', prices: { 1: 1790, 3: 4790, 12: 13990 } }
   };
   let currentOrder = null;
   let opener = null;
@@ -459,7 +468,7 @@ if(typeof document!=='undefined'){
     const planId = document.getElementById('orderPlusPlan')?.value || 'essential';
     const months = Number(document.getElementById('orderPlusMonths')?.value || 3);
     const plan = PLUS_PRICES[planId] || PLUS_PRICES.essential;
-    return { enabled, planId, plan: plan.name, months, price: plan.prices[months] };
+    return { enabled, planId, plan: plan.name, months, price: plusPromotionPrice(planId, months) ?? plan.prices[months] };
   }
 
   function renderPlusAddon() {
