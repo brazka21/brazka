@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://brazka.shop/news/nba-2k27-gta-vi-vice-city-season-3/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>BRAZKA</news:name>
+        <news:language>ru</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-17T11:08:18+10:00</news:publication_date>
+      <news:title>GTA VI и NBA 2K27 устроят кроссовер. Подписчики GTA+ получат доступ к игре</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://brazka.shop/news/ps-plus-black-friday-2026-turkey-subscriptions/</loc>
     <news:news>
       <news:publication>
@@ -20,17 +31,6 @@
       </news:publication>
       <news:publication_date>2026-11-15T19:01:00+10:00</news:publication_date>
       <news:title>Guild Saga: Vanished Worlds выйдет на PS5 в мае 2027 года. Погода меняет ход боя</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://brazka.shop/news/ps5-qssr-spider-man-2-control-arc-raiders/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>BRAZKA</news:name>
-        <news:language>ru</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-15T10:59:23+10:00</news:publication_date>
-      <news:title>Marvel’s Spider-Man 2 получила QSSR на обычной PS5. Sony назвала ещё пять игр</news:title>
     </news:news>
   </url>
 </urlset>
