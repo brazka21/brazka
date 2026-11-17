@@ -1,5 +1,52 @@
 [
   {
+    "slug": "machine-party-ps5-november-26",
+    "title": "Machine Party от создателя Buckshot Roulette выйдет на PS5 26 ноября",
+    "category": "Игры",
+    "sourceDate": "16 ноября 2026",
+    "description": "Oro Interactive выпустит Machine Party на PS5 26 ноября. В хоррор-сборнике Майка Клубники и GDeavid 15 мини-игр на выживание для компании из двух, трёх или четырёх человек.",
+    "image": "https://i.ytimg.com/vi/SBnHUpolMqY/maxresdefault.jpg",
+    "imageAlt": "Обложка трейлера консольной версии Machine Party · © Mike Klubnika и GDeavid",
+    "source": "https://www.gamespress.com/Machine-Party-Brings-Its-Violent-Party-Games-to-Consoles-on-November-2",
+    "sourceName": "Пресс-релиз Oro Interactive",
+    "product": "catalog",
+    "sections": [
+      {
+        "heading": "Горох на скорость и побег от промышленных машин",
+        "paragraphs": [
+          "В одном испытании нужно успеть съесть горох до конца отсчёта, в другом — уйти от движущихся механизмов. Часть раундов проверяет реакцию, в остальных важно быстро решить, как перехитрить соперников и остаться в живых.",
+          "Можно пройти все 15 испытаний подряд или выбрать отдельные мини-игры. Внешность своего подопытного можно менять."
+        ],
+        "images": [
+          {
+            "src": "https://cdn.prod.website-files.com/67839eec5ee175873139e908/69d79df42fd1ba2c1dc65187_ss_a7581f9658f1464d148d22093f128e8e1bfc6716.1920x1080.webp",
+            "alt": "Участники испытания за столом с тарелками гороха",
+            "caption": "Участники испытания за столом с тарелками гороха. Официальный скриншот © Mike Klubnika и GDeavid"
+          }
+        ]
+      },
+      {
+        "heading": "До четырёх игроков и условия сетевой игры на PS5",
+        "paragraphs": [
+          "Версия для PS5 поддерживает локальную игру. Для сетевых матчей на консоли понадобится PlayStation Plus. В онлайне могут участвовать до четырёх игроков.",
+          "В тот же день Machine Party выйдет на Xbox Series X|S, Nintendo Switch и в магазине Xbox на ПК. С момента летнего релиза в Steam, по данным издателя, уже продано свыше 2,5 млн копий."
+        ],
+        "callout": {
+          "title": "Время выхода на PS5",
+          "text": "В американском PlayStation Store указано 26 ноября в 14:00 UTC. Во Владивостоке это полночь в ночь на 27 ноября."
+        },
+        "images": [
+          {
+            "src": "https://cdn.prod.website-files.com/67839eec5ee175873139e908/69d79df4f03a6c3218a59452_ss_bed4af8175dc99a382d2f2c763ddeee665441e7b.1920x1080.webp",
+            "alt": "Участники мини-игры на подземном испытательном стенде",
+            "caption": "Участники мини-игры на подземном испытательном стенде. Официальный скриншот © Mike Klubnika и GDeavid"
+          }
+        ]
+      }
+    ],
+    "published": "2026-11-17T19:02:33+10:00"
+  },
+  {
     "slug": "nba-2k27-gta-vi-vice-city-season-3",
     "title": "GTA VI и NBA 2K27 устроят кроссовер. Подписчики GTA+ получат доступ к игре",
     "category": "Игры",
