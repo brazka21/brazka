@@ -1,5 +1,56 @@
 [
   {
+    "slug": "hounded-ps5-2027-duke-magic",
+    "title": "В Hounded на PS5 бордер-колли будет искать хозяина с помощью магического лая",
+    "category": "Игры",
+    "sourceDate": "17 ноября 2026",
+    "description": "Imprnt Studios и Silver Lining Interactive анонсировали Hounded для PS5 на 2027 год. Играть предстоит за бордер-колли Дюка, который ищет пропавшего хозяина в фэнтезийной Англодии.",
+    "image": "https://blog.playstation.com/tachyon/2048/11/35ee932cfac0044b7c4d4d1d41f95533dd2f3202-scaled.jpg",
+    "imageAlt": "Официальная иллюстрация Hounded с Дюком · © Imprnt Studios / Silver Lining Interactive",
+    "source": "https://blog.playstation.com/2026/11/17/introducing-hounded-crafting-the-dog-adventure-coming-to-ps5-in-2027/",
+    "sourceName": "PlayStation Blog",
+    "product": "catalog",
+    "sections": [
+      {
+        "heading": "Лай разрушает преграды, вой заряжает механизмы",
+        "paragraphs": [
+          "Дюк владеет древней магией The Tide. По мере прохождения он сможет открывать способности, помогающие исследовать мир."
+        ],
+        "items": [
+          "Power Bark разрушает препятствия.",
+          "Power Howl заряжает электричеством загадочные устройства.",
+          "Способность видеть Imprints позволяет переживать отголоски событий, случившихся до прихода Дюка."
+        ],
+        "images": [
+          {
+            "src": "https://live.staticflickr.com/65535/55635589742_b4c8fc4583_5k.jpg",
+            "alt": "Дюк у дома в Англодии",
+            "caption": "Англодия в Hounded. © Imprnt Studios / Silver Lining Interactive"
+          }
+        ]
+      },
+      {
+        "heading": "Пропавший хозяин и движения, созданные вручную",
+        "paragraphs": [
+          "Англодия вдохновлена Британией конца XVIII века. Хозяин Дюка, Артемис Флетчер, связан с сопротивлением тираническому режиму. После его исчезновения пёс отправляется на поиски.",
+          "Команда вручную анимирует движения Дюка. Собственная система Motion Matching выбирает подходящие анимации из библиотеки, созданной по реальным образцам движений собак."
+        ],
+        "callout": {
+          "title": "Выход в 2027 году",
+          "text": "Hounded уже можно добавить в список желаемого на PS5."
+        },
+        "images": [
+          {
+            "src": "https://live.staticflickr.com/65535/55636574676_b8646fe5b1_5k.jpg",
+            "alt": "Бордер-колли Дюк в Hounded",
+            "caption": "Дюк — главный герой Hounded. © Imprnt Studios / Silver Lining Interactive"
+          }
+        ]
+      }
+    ],
+    "published": "2026-11-18T19:00:21+10:00"
+  },
+  {
     "slug": "phasmophobia-resonance-ps5-november-24",
     "title": "Phasmophobia получит Resonance 24 ноября. Новые рамки помогут найти кость",
     "category": "Игры",
