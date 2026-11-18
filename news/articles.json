@@ -1,5 +1,65 @@
 [
   {
+    "slug": "phasmophobia-resonance-ps5-november-24",
+    "title": "Phasmophobia получит Resonance 24 ноября. Новые рамки помогут найти кость",
+    "category": "Игры",
+    "sourceDate": "17 ноября 2026",
+    "description": "Kinetic Games назначила выход бесплатного обновления Resonance для Phasmophobia на 24 ноября. На PS5, Xbox Series X|S и ПК появятся поисковые рамки, новые команды призракам и улучшенное освещение благодаря переходу на Unity 6.",
+    "image": "https://www.kineticgames.co.uk/payload-api/media/file/resonance_ka_date_16x9.webp",
+    "imageAlt": "Обложка Phasmophobia Resonance с датой 24 ноября · © Kinetic Games",
+    "source": "https://www.kineticgames.co.uk/news/resonance-releasedate",
+    "sourceName": "Kinetic Games",
+    "product": "catalog",
+    "sections": [
+      {
+        "heading": "Рамки укажут направление к кости",
+        "paragraphs": [
+          "Новый предмет Dowsing Rods предназначен для поиска кости, в том числе на больших картах вроде Brownstone High School. Рамки первого уровня указывают общее направление, а версия третьего уровня помогает определить даже нужный этаж."
+        ],
+        "callout": {
+          "title": "Выход на всех платформах",
+          "text": "Resonance выйдет 24 ноября 2026 года. Обновление будет бесплатным для владельцев Phasmophobia."
+        },
+        "images": [
+          {
+            "src": "https://www.kineticgames.co.uk/payload-api/media/file/Resonance_screenshot_03_16x9.webp",
+            "alt": "Поисковые рамки Dowsing Rods в руках охотника",
+            "caption": "Поисковые рамки Dowsing Rods в руках охотника. Официальный скриншот Resonance © Kinetic Games"
+          }
+        ]
+      },
+      {
+        "heading": "Датчик звука и команды призраку",
+        "paragraphs": [
+          "На карте датчика звука появятся значки источников шума. Повторяющийся звук останется отмеченным дольше, разовый — быстро исчезнет. Датчик учитывает звуки на этаже игрока, а карта поможет оценить скорость движения призрака.",
+          "Призрака можно будет попросить открыть дверь, взаимодействовать с выключателем или бросить предмет. Список фраз добавят в журнал. Команды будут доступны и в текстовом режиме распознавания, а в VR их можно будет выбрать через часы рассудка."
+        ],
+        "images": [
+          {
+            "src": "https://www.kineticgames.co.uk/payload-api/media/file/Resonance_screenshot_01_16x9.webp",
+            "alt": "Карта датчика звука в 6 Tanglewood Drive",
+            "caption": "Карта датчика звука в 6 Tanglewood Drive. Официальный скриншот Resonance © Kinetic Games"
+          }
+        ]
+      },
+      {
+        "heading": "Свой набор случайных карт и новое освещение",
+        "paragraphs": [
+          "Игроки смогут собрать собственный набор локаций для случайного выбора контракта. Кнопки быстрого выбора позволят отметить маленькие, средние или большие карты.",
+          "Переход на Unity 6 принесёт улучшенное освещение, дополнительные настройки графики и адаптацию глаз в VR. Также появятся режимы для игроков с нарушениями цветового зрения. Полный список изменений Kinetic Games опубликует в день выхода."
+        ],
+        "images": [
+          {
+            "src": "https://www.kineticgames.co.uk/payload-api/media/file/Resonance_screenshot_05_16x9.webp",
+            "alt": "Интерьер локации в обновлении Resonance",
+            "caption": "Интерьер локации в обновлении Resonance. Официальный скриншот Resonance © Kinetic Games"
+          }
+        ]
+      }
+    ],
+    "published": "2026-11-18T11:00:10+10:00"
+  },
+  {
     "slug": "machine-party-ps5-november-26",
     "title": "Machine Party от создателя Buckshot Roulette выйдет на PS5 26 ноября",
     "category": "Игры",
