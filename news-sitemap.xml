@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://brazka.shop/news/gta-vi-ps5-release-november-19/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>BRAZKA</news:name>
+        <news:language>ru</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-19T11:03:49+10:00</news:publication_date>
+      <news:title>GTA VI вышла на PS5. В турецкой версии есть русский текст</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://brazka.shop/news/hounded-ps5-2027-duke-magic/</loc>
     <news:news>
       <news:publication>
