@@ -44,15 +44,4 @@
       <news:title>Phasmophobia получит Resonance 24 ноября. Новые рамки помогут найти кость</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://brazka.shop/news/machine-party-ps5-november-26/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>BRAZKA</news:name>
-        <news:language>ru</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-17T19:02:33+10:00</news:publication_date>
-      <news:title>Machine Party от создателя Buckshot Roulette выйдет на PS5 26 ноября</news:title>
-    </news:news>
-  </url>
 </urlset>
