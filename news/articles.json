@@ -1,5 +1,44 @@
 [
   {
+    "slug": "mlb-the-show-27-tech-test-now-later-packs",
+    "title": "MLB The Show 27 вернёт техтест. Награды для новой части можно заработать уже в The Show 26",
+    "category": "Игры",
+    "sourceDate": "17 ноября 2026",
+    "description": "San Diego Studio подтвердила техническое тестирование MLB The Show 27 и возвращение наборов Now & Later. Играя в Diamond Dynasty в The Show 26 на консоли, можно получить наборы для следующей части.",
+    "image": "https://live.staticflickr.com/65535/55654769387_8d80d032f8_4k.jpg",
+    "imageAlt": "Официальный логотип MLB The Show 27 · © Sony Interactive Entertainment",
+    "source": "https://blog.playstation.com/2026/11/17/first-details-on-mlb-the-show-27/",
+    "sourceName": "San Diego Studio в PlayStation Blog",
+    "product": "catalog",
+    "sections": [
+      {
+        "heading": "Как получить наборы в The Show 27",
+        "paragraphs": [
+          "Now & Later Packs содержат предметы для MLB The Show 26 и ваучер на The Show Packs в MLB The Show 27. Их зарабатывают в консольном режиме Diamond Dynasty.",
+          "Ваучеры автоматически обменяются на наборы при входе в The Show 27 на консоли во время стандартного релиза игры."
+        ],
+        "callout": {
+          "title": "Вход под тем же аккаунтом",
+          "text": "В The Show 27 нужно использовать аккаунт, на котором заработаны Now & Later Packs в The Show 26."
+        },
+        "images": [
+          {
+            "src": "https://live.staticflickr.com/65535/55656175415_a0fd1826d2_h.jpg",
+            "alt": "Набор Now & Later для MLB The Show 26 и 27",
+            "caption": "Официальный промоматериал Now & Later. © Sony Interactive Entertainment / MLB / Topps"
+          }
+        ]
+      },
+      {
+        "heading": "Первый Tech Test после The Show 23",
+        "paragraphs": [
+          "Студия вновь проведёт техническое тестирование, чтобы проверить производительность, найти ошибки и собрать отзывы до запуска. Подробности теста разработчики раскроют в 2027 году."
+        ]
+      }
+    ],
+    "published": "2026-11-19T19:02:14+10:00"
+  },
+  {
     "slug": "gta-vi-ps5-release-november-19",
     "title": "GTA VI вышла на PS5. В турецкой версии есть русский текст",
     "category": "Игры",
