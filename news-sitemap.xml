@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://brazka.shop/news/coral-island-kids-grow-up-ps5-december-7/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>BRAZKA</news:name>
+        <news:language>ru</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-20T18:59:14+10:00</news:publication_date>
+      <news:title>В Coral Island дети вырастут до подростков: бесплатное обновление выйдет на PS5 7 декабря</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://brazka.shop/news/gta-vi-leonida-map-poster-free-download/</loc>
     <news:news>
       <news:publication>
