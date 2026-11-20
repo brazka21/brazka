@@ -1,5 +1,56 @@
 [
   {
+    "slug": "gta-vi-leonida-map-poster-free-download",
+    "title": "Rockstar выложила официальную карту Леониды и постер GTA VI для бесплатной печати",
+    "category": "Игры",
+    "sourceDate": "19 ноября 2026",
+    "description": "К выходу GTA VI Rockstar открыла бесплатную загрузку карты Леониды и постера с обложкой игры. Оба изображения доступны в обычном виде и в отдельных версиях для печати.",
+    "image": "https://www.rockstargames.com/VI/_next/static/media/mapPromoCard.0gcwsrkum~6o_.jpg",
+    "imageAlt": "Фрагмент официальной карты Леониды на странице загрузок GTA VI · © Rockstar Games",
+    "source": "https://www.rockstargames.com/VI/media",
+    "sourceName": "Rockstar Games — Media",
+    "product": "gta-vi",
+    "sections": [
+      {
+        "heading": "Где забрать карту и постер",
+        "paragraphs": [
+          "На официальной странице Media откройте блок Leonida Map & Cover Art Poster и нажмите View Options. В нём есть четыре варианта загрузки."
+        ],
+        "items": [
+          "Leonida Map — карта Леониды.",
+          "Cover Art — постер с обложкой GTA VI.",
+          "Leonida Map - Printable — карта для печати.",
+          "Cover Art - Printable — постер для печати."
+        ],
+        "images": [
+          {
+            "src": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Map_Poster.08ir77j-.26ny.jpg",
+            "alt": "Официальная карта штата Леонида из GTA VI",
+            "caption": "Карта Леониды для загрузки на сайте Rockstar. © Rockstar Games"
+          }
+        ]
+      },
+      {
+        "heading": "Печатные версии скачиваются отдельными архивами",
+        "paragraphs": [
+          "Для карты и постера предусмотрены отдельные ZIP-архивы. На странице указан размер печатных вариантов — 19,25 × 26,33 дюйма."
+        ],
+        "callout": {
+          "title": "Бесплатная загрузка",
+          "text": "Откройте официальный раздел Rockstar по ссылке в конце статьи, затем выберите нужное изображение через View Options."
+        },
+        "images": [
+          {
+            "src": "https://www.rockstargames.com/VI/_next/static/media/Cover_Art_Poster.05g75soif2t00.jpg",
+            "alt": "Официальный постер с обложкой GTA VI",
+            "caption": "Постер GTA VI из раздела загрузок. © Rockstar Games"
+          }
+        ]
+      }
+    ],
+    "published": "2026-11-20T11:06:38+10:00"
+  },
+  {
     "slug": "mlb-the-show-27-tech-test-now-later-packs",
     "title": "MLB The Show 27 вернёт техтест. Награды для новой части можно заработать уже в The Show 26",
     "category": "Игры",

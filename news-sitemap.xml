@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://brazka.shop/news/gta-vi-leonida-map-poster-free-download/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>BRAZKA</news:name>
+        <news:language>ru</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-20T11:06:38+10:00</news:publication_date>
+      <news:title>Rockstar выложила официальную карту Леониды и постер GTA VI для бесплатной печати</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://brazka.shop/news/mlb-the-show-27-tech-test-now-later-packs/</loc>
     <news:news>
       <news:publication>
@@ -31,17 +42,6 @@
       </news:publication>
       <news:publication_date>2026-11-18T19:00:21+10:00</news:publication_date>
       <news:title>В Hounded на PS5 бордер-колли будет искать хозяина с помощью магического лая</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://brazka.shop/news/phasmophobia-resonance-ps5-november-24/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>BRAZKA</news:name>
-        <news:language>ru</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-18T11:00:10+10:00</news:publication_date>
-      <news:title>Phasmophobia получит Resonance 24 ноября. Новые рамки помогут найти кость</news:title>
     </news:news>
   </url>
 </urlset>
