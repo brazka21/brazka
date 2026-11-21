@@ -1,5 +1,62 @@
 [
   {
+    "slug": "gta-vi-the-album-34-songs-out-now",
+    "title": "Вышел альбом GTA VI: 34 новые песни с Ланой Дель Рей, Dua Lipa и Playboi Carti",
+    "category": "Игры",
+    "published": "2026-11-21T11:03:59+10:00",
+    "sourceDate": "20 ноября 2026",
+    "description": "Rockstar и Atlantic Records выпустили Grand Theft Auto VI: The Album. Сборник из 34 оригинальных песен уже можно слушать на основных музыкальных стримингах; также доступны издания на виниле и CD.",
+    "image": "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/k4a8955a93o747/e47c077621ea90ee966fcab7221f8db961e5d60c.jpg",
+    "imageAlt": "Официальный релизный арт Grand Theft Auto VI: The Album с именами исполнителей · © Rockstar Games / Atlantic Records",
+    "source": "https://www.rockstargames.com/newswire/article/k4a8955a93o747/grand-theft-auto-vi-the-album-now-available",
+    "sourceName": "Rockstar Games",
+    "product": "gta-vi",
+    "sections": [
+      {
+        "heading": "Что вошло в альбом",
+        "paragraphs": [
+          "Среди участников — Playboi Carti, Lana Del Rey, Don Toliver, Dua Lipa, JENNIE, JHAYCO, Zara Larsson, Gunna и Burna Boy. Полный список композиций опубликован в музыкальном разделе сайта GTA VI."
+        ],
+        "items": [
+          "Playboi Carti — AHH YEA.",
+          "Dua Lipa — Go Easy.",
+          "JENNIE — Power Trip.",
+          "Lana Del Rey — Crazy for You."
+        ],
+        "callout": {
+          "title": "Уже можно слушать",
+          "text": "Официальный альбом вышел 20 ноября 2026 года. Кнопка Listen Now в музыкальном разделе GTA VI открывает выбор сервиса."
+        },
+        "images": [
+          {
+            "src": "https://www.rockstargames.com/VI/_next/static/media/GTAVI_MusicPage_AlbumArt.05qucexa8vzgb.jpg",
+            "alt": "Обложка GTA VI The Album с Люсией и Джейсоном",
+            "caption": "Официальная обложка альбома. © Rockstar Games / Atlantic Records"
+          }
+        ]
+      },
+      {
+        "heading": "Винил и CD продаются отдельно",
+        "paragraphs": [
+          "Физические версии представлены на сайте альбома и у отдельных продавцов. На официальной странице Rockstar показаны стандартный и эксклюзивный виниловые варианты."
+        ],
+        "images": [
+          {
+            "src": "https://www.rockstargames.com/VI/_next/static/media/D2C_SPLATTER.0us~vn1m.~ikt.jpg",
+            "alt": "Эксклюзивное виниловое издание GTA VI The Album",
+            "caption": "Промоизображение эксклюзивного винилового издания с официального сайта GTA VI. © Rockstar Games / Atlantic Records"
+          }
+        ]
+      },
+      {
+        "heading": "Музыка Justice выйдет 11 декабря",
+        "paragraphs": [
+          "Отдельный Grand Theft Auto VI: Original Score от Justice поступит на стриминги, винил и CD 11 декабря. В него войдут 30 треков и цифровые бонусные композиции."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "coral-island-kids-grow-up-ps5-december-7",
     "title": "В Coral Island дети вырастут до подростков: бесплатное обновление выйдет на PS5 7 декабря",
     "category": "Игры",

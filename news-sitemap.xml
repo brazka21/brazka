@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://brazka.shop/news/gta-vi-the-album-34-songs-out-now/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>BRAZKA</news:name>
+        <news:language>ru</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-21T11:03:59+10:00</news:publication_date>
+      <news:title>Вышел альбом GTA VI: 34 новые песни с Ланой Дель Рей, Dua Lipa и Playboi Carti</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://brazka.shop/news/coral-island-kids-grow-up-ps5-december-7/</loc>
     <news:news>
       <news:publication>
@@ -31,17 +42,6 @@
       </news:publication>
       <news:publication_date>2026-11-19T19:02:14+10:00</news:publication_date>
       <news:title>MLB The Show 27 вернёт техтест. Награды для новой части можно заработать уже в The Show 26</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://brazka.shop/news/gta-vi-ps5-release-november-19/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>BRAZKA</news:name>
-        <news:language>ru</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-19T11:03:49+10:00</news:publication_date>
-      <news:title>GTA VI вышла на PS5. В турецкой версии есть русский текст</news:title>
     </news:news>
   </url>
 </urlset>
