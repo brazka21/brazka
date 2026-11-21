@@ -44,15 +44,4 @@
       <news:title>Rockstar выложила официальную карту Леониды и постер GTA VI для бесплатной печати</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://brazka.shop/news/mlb-the-show-27-tech-test-now-later-packs/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>BRAZKA</news:name>
-        <news:language>ru</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-19T19:02:14+10:00</news:publication_date>
-      <news:title>MLB The Show 27 вернёт техтест. Награды для новой части можно заработать уже в The Show 26</news:title>
-    </news:news>
-  </url>
 </urlset>
