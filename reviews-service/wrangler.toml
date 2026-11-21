@@ -9,7 +9,7 @@ SITE_ORIGIN = "https://brazka.shop"
 [[d1_databases]]
 binding = "DB"
 database_name = "brazka-reviews"
-database_id = "REPLACE_WITH_D1_DATABASE_ID"
+database_id = "fe93f20c-dc01-404b-9cbd-92429eb1e4b0"
 
 [[ratelimits]]
 name = "SUBMISSIONS"
