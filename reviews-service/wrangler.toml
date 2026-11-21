@@ -1,0 +1,22 @@
+name = "brazka-reviews"
+main = "worker.mjs"
+compatibility_date = "2026-11-21"
+workers_dev = true
+
+[vars]
+SITE_ORIGIN = "https://brazka.shop"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "brazka-reviews"
+database_id = "fe93f20c-dc01-404b-9cbd-92429eb1e4b0"
+
+[[ratelimits]]
+name = "SUBMISSIONS"
+namespace_id = "721426"
+simple = { limit = 6, period = 60 }
+
+[[ratelimits]]
+name = "ADMIN_ATTEMPTS"
+namespace_id = "721427"
+simple = { limit = 10, period = 60 }
