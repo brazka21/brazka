@@ -1,2 +1,1 @@
-// Set this to the deployed Worker origin before publishing the page.
-export const reviewApi = 'https://reviews-api.brazka.shop';
+export const reviewApi = 'https://brazka-reviews.rrddturk.workers.dev';
