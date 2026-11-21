@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Отзывы покупателей — БРАЗКА</title>
+  <meta name="description" content="Отзывы покупателей БРАЗКА об играх и подписках для PlayStation.">
+  <link rel="canonical" href="https://brazka.shop/reviews/">
+  <link rel="stylesheet" href="/storefront.css?v=reviews-nav1">
+  <link rel="stylesheet" href="/reviews/reviews.css">
+  <script type="module" src="/reviews/reviews.js"></script>
+</head>
+<body>
+  <header class="store-header"><div class="header-inner">
+    <a class="brand" href="/" aria-label="БРАЗКА — главная"><span class="logo-crop"><img src="/assets/brazka-logo.png" alt="БРАЗКА" width="1254" height="1254"></span></a>
+  </div></header>
+  <nav class="site-nav shell" aria-label="Разделы сайта"><a href="/">Главная</a><a href="/news/">Новости</a><a href="/reviews/" aria-current="page">Отзывы</a></nav>
+  <main class="shell reviews-page">
+    <header class="reviews-intro">
+      <h1>Отзывы покупателей</h1>
+      <a class="button primary" href="#write">Оставить отзыв</a>
+    </header>
+    <div class="reviews-layout">
+      <section aria-labelledby="published-title">
+        <h2 id="published-title">Опубликованные отзывы</h2>
+        <p id="list-status" class="review-card muted" role="status">Загружаем отзывы…</p>
+        <div id="reviews-list" class="reviews-list"></div>
+      </section>
+      <section id="write" class="review-card" aria-labelledby="write-title">
+        <h2 id="write-title">Оставить отзыв</h2>
+        <p class="muted">Отзыв появится на сайте после проверки.</p>
+        <form id="review-form" method="post">
+          <label>Имя или ник<input name="name" maxlength="40" required></label>
+          <label>Что покупали <span class="muted">(необязательно)</span><input name="product" maxlength="100" placeholder="Например, PS Plus Deluxe"></label>
+          <label>Оценка<select name="rating" required><option value="">Выберите оценку</option><option value="5">5 из 5</option><option value="4">4 из 5</option><option value="3">3 из 5</option><option value="2">2 из 5</option><option value="1">1 из 5</option></select></label>
+          <label>Ваш отзыв<textarea name="body" minlength="10" maxlength="1200" rows="5" required></textarea></label>
+          <div hidden><label>Сайт<input name="website" tabindex="-1" autocomplete="off"></label></div>
+          <p class="muted">Пожалуйста, не указывайте телефон, email или данные аккаунта.</p>
+          <button class="button primary" type="submit" disabled>Отправить на проверку</button>
+          <p id="form-status" role="status" tabindex="-1"></p>
+        </form>
+        <noscript><p>Для отправки отзыва включите JavaScript.</p></noscript>
+      </section>
+    </div>
+  </main>
+  <footer class="shell"><a href="/">БРАЗКА</a></footer>
+</body>
+</html>

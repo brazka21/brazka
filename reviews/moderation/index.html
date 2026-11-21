@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Модерация отзывов — БРАЗКА</title>
+  <link rel="stylesheet" href="/storefront.css?v=reviews-nav1">
+  <link rel="stylesheet" href="/reviews/reviews.css">
+  <script type="module" src="/reviews/moderation/moderation.js"></script>
+</head>
+<body>
+  <main class="shell reviews-page">
+    <header class="reviews-intro"><h1>Модерация отзывов</h1><a href="/reviews/">Публичная страница</a></header>
+    <form id="moderation-login" class="review-card">
+      <label for="moderation-key">Ключ модератора</label>
+      <input id="moderation-key" type="password" required maxlength="500" autocomplete="current-password">
+      <button class="button primary" type="submit">Открыть очередь</button>
+    </form>
+    <div id="moderation-actions" hidden>
+      <button id="moderation-refresh" class="button secondary" type="button">Обновить</button>
+      <button id="moderation-logout" class="button secondary" type="button">Выйти</button>
+    </div>
+    <p id="moderation-status" role="status"></p>
+    <div id="moderation-list" class="reviews-list"></div>
+  </main>
+</body>
+</html>
