@@ -1,5 +1,51 @@
 [
   {
+    "slug": "gta-vi-day-one-sales-3-79-billion",
+    "title": "GTA VI принесла $3,79 млрд розничных продаж за первый день — оценка Take-Two",
+    "category": "Игры",
+    "published": "2026-11-21T18:59:52+10:00",
+    "sourceDate": "20 ноября 2026",
+    "description": "По оценке Take-Two, мировые розничные продажи GTA VI к концу 19 ноября достигли $3,79 млрд. Компания назвала выход игры крупнейшим развлекательным запуском в истории. Ещё до релиза было продано 32,5 млн копий.",
+    "image": "https://live.staticflickr.com/65535/55656550652_ae44cc16c0_k.jpg",
+    "imageAlt": "Люсия и Джейсон — официальный релизный скриншот GTA VI от 18 ноября · © Rockstar Games",
+    "source": "https://www.take2games.com/ir/news/grand-theft-auto-vi-shatters-entertainment-box-office-records",
+    "sourceName": "Take-Two Interactive — пресс-релиз",
+    "product": "gta-vi",
+    "sections": [
+      {
+        "heading": "$3,79 млрд — результат первого дня",
+        "paragraphs": [
+          "Take-Two объявила первые показатели 20 ноября. Сумма относится к розничным продажам по всему миру за первый день GTA VI. В расчёте использованы оценки компании по состоянию на конец 19 ноября."
+        ],
+        "callout": {
+          "title": "Денежные продажи и количество копий",
+          "text": "$3,79 млрд — оценка розничных продаж первого дня. 32,5 млн копий — продажи до релиза. Это разные показатели."
+        },
+        "images": [
+          {
+            "src": "https://mms.businesswire.com/media/20261120446139/en/2978423/4/Grand_Theft_Auto_VI_Official_Cover_Art_Hi-Res.jpg",
+            "alt": "Официальная обложка Grand Theft Auto VI",
+            "caption": "Обложка GTA VI из пресс-релиза о результатах продаж. © Rockstar Games"
+          }
+        ]
+      },
+      {
+        "heading": "32,5 млн копий купили до выхода",
+        "paragraphs": [
+          "Продажи до релиза достигли 32,5 млн копий. Take-Two назвала этот результат рекордом среди всех платформ.",
+          "GTA VI вышла 19 ноября на PS5 и Xbox Series X|S. Действие одиночной истории Джейсона и Люсии разворачивается в Вайс-Сити и штате Леонида: после неудачного дела герои оказываются втянуты в преступный заговор."
+        ],
+        "images": [
+          {
+            "src": "https://live.staticflickr.com/65535/55657665268_d512489e41_k.jpg",
+            "alt": "Ночной Вайс-Сити в GTA VI",
+            "caption": "Официальный скриншот из релизной публикации PlayStation Blog от 18 ноября; иллюстрация к новости. © Rockstar Games"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "slug": "gta-vi-the-album-34-songs-out-now",
     "title": "Вышел альбом GTA VI: 34 новые песни с Ланой Дель Рей, Dua Lipa и Playboi Carti",
     "category": "Игры",
