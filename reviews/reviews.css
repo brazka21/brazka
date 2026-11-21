@@ -1,0 +1,23 @@
+.reviews-page { max-width: 1120px; padding-block: clamp(32px, 7vw, 80px); }
+.reviews-intro { display: flex; gap: 18px; align-items: center; justify-content: space-between; flex-wrap: wrap; padding-bottom: 32px; border-bottom: 1px solid var(--line); margin-bottom: 32px; }
+.reviews-intro h1 { font-size: clamp(32px, 5vw, 58px); letter-spacing: -.04em; }
+.reviews-layout { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); align-items: start; gap: 24px; }
+.reviews-page h2 { margin-bottom: 14px; font-size: clamp(21px, 2.7vw, 27px); }
+.reviews-list, #review-form { display: grid; gap: 14px; }
+.review-card { padding: clamp(16px, 3vw, 24px); border: 1px solid var(--line); border-radius: 14px; background: var(--panel); overflow-wrap: anywhere; }
+.review-card header { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+.review-card .review-rating { color: var(--purple-bright); }
+.review-text { margin-top: 10px; white-space: pre-wrap; }
+#review-form { margin-top: 18px; }
+#review-form label { display: grid; gap: 5px; font-weight: 700; font-size: 14px; }
+#review-form label .muted { display: inline; font-weight: 400; }
+#review-form :is(input, textarea, select) { width: 100%; background: var(--bg); color: var(--text); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; font: inherit; }
+#review-form textarea { resize: vertical; }
+#review-form textarea:focus-visible { outline: 3px solid var(--purple-bright); outline-offset: 2px; }
+#form-status:empty { display: none; }
+#form-status[data-error] { color: #ffb4c0; }
+@media (max-width: 760px) { .reviews-layout { grid-template-columns: 1fr; } }
+#moderation-login { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+#moderation-key { min-width: 0; padding: 8px; color: var(--text); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; }
+#moderation-actions, .moderation-buttons { display: flex; flex-wrap: wrap; gap: 8px; margin-block: 12px; }
+#moderation-status { margin-block: 14px; }
