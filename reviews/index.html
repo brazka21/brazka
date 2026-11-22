@@ -7,8 +7,8 @@
   <meta name="description" content="Отзывы покупателей БРАЗКА об играх и подписках для PlayStation.">
   <link rel="canonical" href="https://brazka.shop/reviews/">
   <link rel="stylesheet" href="/storefront.css?v=reviews-stars1">
-  <link rel="stylesheet" href="/reviews/reviews.css?v=stars1">
-  <script type="module" src="/reviews/reviews.js"></script>
+  <link rel="stylesheet" href="/reviews/reviews.css?v=photos1">
+  <script type="module" src="/reviews/reviews.js?v=photos1"></script>
 </head>
 <body>
   <header class="store-header"><div class="header-inner">
@@ -43,8 +43,14 @@
             </div>
           </fieldset>
           <label>Ваш отзыв<textarea name="body" minlength="10" maxlength="1200" rows="5" required></textarea></label>
+          <div id="review-photo-field" hidden>
+            <label>Фото <span class="muted">(необязательно)</span>
+              <input id="review-photo" type="file" accept="image/jpeg,image/png,image/webp" disabled aria-describedby="review-photo-hint">
+            </label>
+            <small id="review-photo-hint" class="muted">Одно фото в JPG, PNG или WebP до 15 МБ.</small>
+          </div>
           <div hidden><label>Сайт<input name="website" tabindex="-1" autocomplete="off"></label></div>
-          <p class="muted">Пожалуйста, не указывайте телефон, email или данные аккаунта.</p>
+          <p class="muted">Пожалуйста, не указывайте телефон, email или данные аккаунта в тексте и на фото.</p>
           <button class="button primary" type="submit" disabled>Отправить на проверку</button>
           <p id="form-status" role="status" tabindex="-1"></p>
         </form>

@@ -1,5 +1,45 @@
 const reviewFields = 'id, name, product, rating, body, created_at';
 const idPattern = /^[a-f\d]{8}-(?:[a-f\d]{4}-){3}[a-f\d]{12}$/i;
+const maxEncodedPhoto = 480000;
+const initializedDatabases = new WeakSet();
+const photoFlag = 'EXISTS (SELECT 1 FROM review_photos WHERE review_id = reviews.id) AS has_photo';
+
+async function ensurePhotoTable(db) {
+  if (initializedDatabases.has(db)) return;
+  await db.prepare(`CREATE TABLE IF NOT EXISTS review_photos (
+    review_id TEXT PRIMARY KEY REFERENCES reviews(id) ON DELETE CASCADE DEFERRABLE INITIALLY DEFERRED,
+    jpeg_base64 TEXT NOT NULL
+  )`).run();
+  initializedDatabases.add(db);
+}
+
+function decodePhoto(photo) {
+  return Uint8Array.from(atob(photo), (byte) => byte.charCodeAt(0));
+}
+
+function validPhoto(photo) {
+  if (typeof photo !== 'string' || photo.length > maxEncodedPhoto ||
+      !/^[A-Za-z0-9+/]+={0,2}$/.test(photo) || photo.length % 4 !== 0) return false;
+  const bytes = decodePhoto(photo);
+  return bytes.length > 4 && bytes[0] === 0xff && bytes[1] === 0xd8 && bytes[2] === 0xff &&
+    bytes.at(-2) === 0xff && bytes.at(-1) === 0xd9;
+}
+
+async function reviewPhoto(env, id, status) {
+  await ensurePhotoTable(env.DB);
+  const row = await env.DB.prepare(`SELECT jpeg_base64 FROM review_photos
+    JOIN reviews ON reviews.id = review_photos.review_id
+    WHERE review_id = ? AND status = ?`).bind(id.toLowerCase(), status).first();
+  if (!row) return reply(env, { error: 'not_found' }, 404);
+  return new Response(decodePhoto(row.jpeg_base64), {
+    headers: {
+      'content-type': 'image/jpeg',
+      'access-control-allow-origin': env.SITE_ORIGIN,
+      'cache-control': 'no-store',
+      'x-content-type-options': 'nosniff',
+    },
+  });
+}
 
 function reply(env, data, status = 200) {
   return new Response(data === null ? null : JSON.stringify(data), {
@@ -24,7 +64,7 @@ async function authenticated(request, secret) {
   return actual.reduce((difference, byte, i) => difference | (byte ^ expected[i]), 0) === 0;
 }
 
-async function readJSON(request) {
+async function readJSON(request, maxBytes = 8192) {
   if (!request.headers.get('content-type')?.startsWith('application/json') || !request.body) return null;
   const reader = request.body.getReader();
   const decoder = new TextDecoder();
@@ -35,7 +75,7 @@ async function readJSON(request) {
       const { done, value } = await reader.read();
       if (done) return JSON.parse(text + decoder.decode());
       bytes += value.byteLength;
-      if (bytes > 8192) {
+      if (bytes > maxBytes) {
         await reader.cancel();
         return null;
       }
@@ -74,17 +114,23 @@ export default {
 
     try {
       if (path === '/reviews' && method === 'GET') {
-        const { results } = await env.DB.prepare(`SELECT ${reviewFields}
+        await ensurePhotoTable(env.DB);
+        const { results } = await env.DB.prepare(`SELECT ${reviewFields}, ${photoFlag}
           FROM reviews WHERE status = 'approved' ORDER BY created_at DESC, id DESC LIMIT 100`).all();
-        return respond({ reviews: results });
+        return respond({ reviews: results, photoUploads: true });
+      }
+
+      if (method === 'GET') {
+        const match = /^\/reviews\/([^/]+)\/photo$/.exec(path);
+        if (match && idPattern.test(match[1])) return await reviewPhoto(env, match[1], 'approved');
       }
 
       if (path === '/reviews' && method === 'POST') {
         const { success } = await env.SUBMISSIONS.limit({ key: ip });
         if (!success) return respond({ error: 'rate_limit' }, 429);
 
-        const data = await readJSON(request);
-        const { id, name, product = '', rating, body, website } = data || {};
+        const data = await readJSON(request, maxEncodedPhoto + 8192);
+        const { id, name, product = '', rating, body, website, photo } = data || {};
         if (website) return respond({ ok: true }, 202);
         if (typeof id !== 'string' || !idPattern.test(id) ||
             typeof name !== 'string' || !name.trim() || name.length > 40 ||
@@ -94,11 +140,23 @@ export default {
           return respond({ error: 'invalid_review' }, 400);
         }
 
-        const insert = await env.DB.prepare(`INSERT INTO reviews (id, name, product, rating, body)
+        if (photo !== undefined && !validPhoto(photo)) return respond({ error: 'invalid_photo' }, 400);
+        const reviewId = id.toLowerCase();
+        const reviewInsert = env.DB.prepare(`INSERT INTO reviews (id, name, product, rating, body)
           VALUES (?, ?, ?, ?, ?) ON CONFLICT(id) DO NOTHING`)
-          .bind(id.toLowerCase(), name.trim(), product.trim(), rating, body.trim()).run();
+          .bind(reviewId, name.trim(), product.trim(), rating, body.trim());
+        let insert;
+        if (photo !== undefined) {
+          await ensurePhotoTable(env.DB);
+          const photoInsert = env.DB.prepare(`INSERT INTO review_photos (review_id, jpeg_base64)
+            SELECT ?, ? WHERE NOT EXISTS (SELECT 1 FROM reviews WHERE id = ?)`)
+            .bind(reviewId, photo, reviewId);
+          [, insert] = await env.DB.batch([photoInsert, reviewInsert]);
+        } else {
+          insert = await reviewInsert.run();
+        }
         if (insert.meta.changes && env.TELEGRAM_BOT_TOKEN && env.TELEGRAM_ADMIN_CHAT_ID) {
-          context.waitUntil(notifyOwner(env, id).catch(() => console.error('Review notification failed')));
+          context.waitUntil(notifyOwner(env, reviewId).catch(() => console.error('Review notification failed')));
         }
         return respond({ ok: true }, 202);
       }
@@ -110,18 +168,34 @@ export default {
         }
 
         if (path === '/moderation' && method === 'GET') {
-          const { results } = await env.DB.prepare(`SELECT ${reviewFields}
+          await ensurePhotoTable(env.DB);
+          const { results } = await env.DB.prepare(`SELECT ${reviewFields}, ${photoFlag}
             FROM reviews WHERE status = 'pending' ORDER BY created_at ASC, id ASC LIMIT 100`).all();
           return respond({ reviews: results });
+        }
+
+        if (method === 'GET') {
+          const match = /^\/moderation\/([^/]+)\/photo$/.exec(path);
+          if (match && idPattern.test(match[1])) return await reviewPhoto(env, match[1], 'pending');
         }
 
         const id = path.slice('/moderation/'.length);
         if (method === 'POST' && idPattern.test(id)) {
           const data = await readJSON(request);
           if (!['approved', 'rejected'].includes(data?.status)) return respond({ error: 'invalid_status' }, 400);
-          const result = await env.DB.prepare(`UPDATE reviews SET status = ?,
+          const update = env.DB.prepare(`UPDATE reviews SET status = ?,
             moderated_at = strftime('%Y-%m-%dT%H:%M:%fZ', 'now') WHERE id = ? AND status = 'pending'`)
-            .bind(data.status, id.toLowerCase()).run();
+            .bind(data.status, id.toLowerCase());
+          let result;
+          if (data.status === 'rejected') {
+            await ensurePhotoTable(env.DB);
+            const removePhoto = env.DB.prepare(`DELETE FROM review_photos WHERE review_id = ?
+              AND EXISTS (SELECT 1 FROM reviews WHERE id = ? AND status = 'rejected')`)
+              .bind(id.toLowerCase(), id.toLowerCase());
+            [result] = await env.DB.batch([update, removePhoto]);
+          } else {
+            result = await update.run();
+          }
           return result.meta.changes ? respond({ ok: true }) : respond({ error: 'not_pending' }, 409);
         }
       }

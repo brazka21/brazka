@@ -29,6 +29,29 @@ function element(tag, text, className = '') {
   return node;
 }
 
+async function loadPhoto(current, id, container) {
+  try {
+    const response = await fetch(`${reviewApi}/moderation/${encodeURIComponent(id)}/photo`, {
+      headers: { authorization: `Bearer ${current.key}` },
+    });
+    if (!response.ok) throw new Error('Photo unavailable');
+    const blob = await response.blob();
+    if (current !== session || !container.isConnected) return;
+    const url = URL.createObjectURL(blob);
+    const image = element('img', '', 'review-photo');
+    image.alt = 'Фото к отзыву';
+    image.addEventListener('load', () => URL.revokeObjectURL(url), { once: true });
+    image.addEventListener('error', () => {
+      URL.revokeObjectURL(url);
+      container.textContent = 'Фото не загрузилось.';
+    }, { once: true });
+    image.src = url;
+    container.replaceChildren(image);
+  } catch {
+    container.textContent = 'Фото не загрузилось.';
+  }
+}
+
 function render(current, reviews) {
   list.replaceChildren();
   status.textContent = reviews.length ? `Ожидают проверки: ${reviews.length}` : 'Новых отзывов пока нет.';
@@ -42,6 +65,11 @@ function render(current, reviews) {
       element('p', `${review.rating} из 5${product}`, 'muted'),
       element('p', review.body, 'review-text'),
     );
+    if (review.has_photo) {
+      const photo = element('div', 'Загружаем фото…', 'muted');
+      card.append(photo);
+      void loadPhoto(current, review.id, photo);
+    }
     const buttons = element('div', '', 'moderation-buttons');
     for (const [nextStatus, label, style] of [['approved', 'Опубликовать', 'primary'], ['rejected', 'Отклонить', 'secondary']]) {
       const button = element('button', label, `button ${style}`);
