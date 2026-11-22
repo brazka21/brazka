@@ -198,10 +198,7 @@
           "editionId": "standard",
           "editionOrder": 0,
           "features": [
-            "Grand Theft Auto VI",
-            "Набор Vintage Vice City",
-            "Один месяц GTA+ — условия активации уточняем при заказе",
-            "Предзагрузка с 10 ноября 2026 — за 9 дней до выхода"
+            "Grand Theft Auto VI"
           ],
           "gameId": "gta-vi",
           "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1818/9f51f0ccdb65bd29c36a0907a738c2902a712f03e2fd6470.png",
@@ -210,7 +207,6 @@
             "width": 1024
           },
           "imageRole": "MASTER",
-          "notice": "Для бонуса GTA+ действуют условия активации и автопродления подписки; уточним их перед оформлением.",
           "platform": "PS5",
           "prices": {
             "india": null,
@@ -271,7 +267,7 @@
             "india": "https://store.playstation.com/en-in/product/EP1004-PPSA01547_00-GTAVISTANDARD001",
             "turkey": "https://store.playstation.com/en-tr/product/EP1004-PPSA01547_00-GTAVISTANDARD001"
           },
-          "summary": "Игра и бонусы предзаказа",
+          "summary": "Полная версия игры",
           "title": "Grand Theft Auto VI — Standard Edition",
           "verifiedAt": "2026-11-05",
           "storePriceVerifiedAt": {
@@ -290,10 +286,7 @@
           "editionOrder": 5,
           "features": [
             "Grand Theft Auto VI",
-            "Контент Ultimate Edition",
-            "Набор Vintage Vice City",
-            "Один месяц GTA+ — условия активации уточняем при заказе",
-            "Предзагрузка с 10 ноября 2026 — за 9 дней до выхода"
+            "Контент Ultimate Edition"
           ],
           "gameId": "gta-vi",
           "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1819/f73cd287d6bbf6a95aa5a93f5a294a2614288a00af4dcdba.png",
@@ -302,7 +295,6 @@
             "width": 1024
           },
           "imageRole": "MASTER",
-          "notice": "Для бонуса GTA+ действуют условия активации и автопродления подписки; уточним их перед оформлением.",
           "platform": "PS5",
           "prices": {
             "india": null,
@@ -366,7 +358,7 @@
             "india": "https://store.playstation.com/en-in/product/EP1004-PPSA01547_00-GTAVIULTIMATE001",
             "turkey": "https://store.playstation.com/en-tr/product/EP1004-PPSA01547_00-GTAVIULTIMATE001"
           },
-          "summary": "Игра, контент Ultimate и бонусы предзаказа",
+          "summary": "Полная версия игры и контент Ultimate Edition",
           "title": "Grand Theft Auto VI — Ultimate Edition",
           "verifiedAt": "2026-11-05",
           "storePriceVerifiedAt": {
@@ -10009,7 +10001,7 @@
         "gta 6",
         "джи ти эй"
       ],
-      "description": "Леонида, Вайс-Сити и новая история Джейсона и Люсии. Выбери своё издание следующей Grand Theft Auto.",
+      "description": "Grand Theft Auto VI уже вышла на PS5. Отправляйся в Вайс-Сити и Леониду вместе с Джейсоном и Люсией.",
       "image": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1818/9f51f0ccdb65bd29c36a0907a738c2902a712f03e2fd6470.png",
       "imageDimensions": {
         "height": 1024,
