@@ -6,8 +6,8 @@
   <title>Отзывы покупателей — БРАЗКА</title>
   <meta name="description" content="Отзывы покупателей БРАЗКА об играх и подписках для PlayStation.">
   <link rel="canonical" href="https://brazka.shop/reviews/">
-  <link rel="stylesheet" href="/storefront.css?v=reviews-nav1">
-  <link rel="stylesheet" href="/reviews/reviews.css">
+  <link rel="stylesheet" href="/storefront.css?v=reviews-stars1">
+  <link rel="stylesheet" href="/reviews/reviews.css?v=stars1">
   <script type="module" src="/reviews/reviews.js"></script>
 </head>
 <body>
@@ -32,7 +32,16 @@
         <form id="review-form" method="post">
           <label>Имя или ник<input name="name" maxlength="40" required></label>
           <label>Что покупали <span class="muted">(необязательно)</span><input name="product" maxlength="100" placeholder="Например, PS Plus Deluxe"></label>
-          <label>Оценка<select name="rating" required><option value="">Выберите оценку</option><option value="5">5 из 5</option><option value="4">4 из 5</option><option value="3">3 из 5</option><option value="2">2 из 5</option><option value="1">1 из 5</option></select></label>
+          <fieldset class="review-rating-field">
+            <legend>Оценка</legend>
+            <div class="review-stars">
+              <label><input type="radio" name="rating" value="1" aria-label="1 из 5" required><span aria-hidden="true"></span></label>
+              <label><input type="radio" name="rating" value="2" aria-label="2 из 5" required><span aria-hidden="true"></span></label>
+              <label><input type="radio" name="rating" value="3" aria-label="3 из 5" required><span aria-hidden="true"></span></label>
+              <label><input type="radio" name="rating" value="4" aria-label="4 из 5" required><span aria-hidden="true"></span></label>
+              <label><input type="radio" name="rating" value="5" aria-label="5 из 5" required><span aria-hidden="true"></span></label>
+            </div>
+          </fieldset>
           <label>Ваш отзыв<textarea name="body" minlength="10" maxlength="1200" rows="5" required></textarea></label>
           <div hidden><label>Сайт<input name="website" tabindex="-1" autocomplete="off"></label></div>
           <p class="muted">Пожалуйста, не указывайте телефон, email или данные аккаунта.</p>
