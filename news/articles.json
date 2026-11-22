@@ -1,5 +1,68 @@
 [
   {
+    "slug": "arknights-endfield-november-25-free-mimino-mushrooms",
+    "title": "Arknights: Endfield получит грибное королевство 25 ноября — Мимино и её оружие дадут бесплатно",
+    "category": "Игры",
+    "published": "2026-11-22T19:06:21+10:00",
+    "sourceDate": "21 ноября 2026",
+    "description": "GRYPHLINE назначила бесплатное обновление Arknights: Endfield Meeting You in the World o’Shrooms на 25 ноября. На PS5 появятся новая область Old Dam, оператор Kay, постоянный режим восстановления фабрики и две карточные игры для мультиплеера.",
+    "image": "https://imgeucdn.gamespress.com/cdn/files/Games%20Press/2026/11/202326-579858bc/GRYPHLINE_-_Arknights__Endfield_-__Meeting_You_in_the_World_o_Shrooms__Key_Art.png?w=533&mode=max&otf=y&quality=90&format=png&bgcolor=transparent&sky=0e519a3a9cc0c33677726cae245cf43001c02f4d0b296172e89fa917990b3f8f",
+    "imageAlt": "Официальный арт обновления Arknights Endfield Meeting You in the World o’Shrooms · © GRYPHLINE",
+    "source": "https://www.gamespress.com/The-Game-Awards-Nominee-Arknights-Endfield-Launches-Meeting-You-in-the",
+    "sourceName": "GRYPHLINE — официальный пресс-релиз на Games Press",
+    "product": "catalog",
+    "sections": [
+      {
+        "heading": "Вафли откроют двери и повернут мосты",
+        "paragraphs": [
+          "Заброшенную плотину возле Улина захватили необычные грибы. В новой области Old Dam нужно стрелять медовыми вафлями Kay по грибам, чтобы открывать двери и вращать мосты. Часть грибов сбивает чувство направления.",
+          "Kay разбрасывает оружие по полю боя, а затем собирает его для тяжёлого удара молотом. Оставленные ею закуски лечат союзников."
+        ],
+        "callout": {
+          "title": "Мимино и Star of Tomorrow — за вход",
+          "text": "Позднее в обновлении начнётся Workers’ Guards: Roll Call. За вход во время события дадут Мимино и её фирменное оружие. Дополнительные копии для полного потенциала можно заработать заданиями события."
+        }
+      },
+      {
+        "heading": "Фабрика в четыре этапа и карточные партии",
+        "paragraphs": [
+          "В постоянном режиме Exclusion Zone Rebuilding игроки будут поставлять материалы и восстанавливать северную зону Улина в четыре этапа. Новая Forge of Luminance позволит преобразовывать продукцию на конвейерах.",
+          "В Lucky Carrot’s Games of Wonder добавят Witch’s Darkjack и Band Uprising. Обе карточные игры поддерживают партии с друзьями и подбор соперников."
+        ]
+      },
+      {
+        "heading": "1000 Oroberyl можно забрать до обновления",
+        "paragraphs": [
+          "На официальной странице New Version Guide доступна награда: 1000 Oroberyl, 10 000 T-Creds, восемь Elementary Cognitive Carrier и четыре Arms INSP Set. Нужно войти в игровой аккаунт с созданным персонажем и нажать Claim Rewards. Награды придут во внутриигровую почту; получить их можно один раз на аккаунт."
+        ],
+        "callout": {
+          "title": "До 25 ноября, 08:00 по Владивостоку",
+          "text": "Получение наград закроется 25 ноября в 06:00 UTC+8. Страница доступна по ссылке из внутриигрового письма и объявления."
+        },
+        "images": [
+          {
+            "src": "https://web-static.hg-cdn.com/upload/image/20261120/f4987c0f8ada55a7d69ff5f609f54e5c.jpg",
+            "alt": "Баннер New Version Guide с наградой 1000 Oroberyl",
+            "caption": "Официальный баннер наград за просмотр гида новой версии. © GRYPHLINE"
+          }
+        ]
+      },
+      {
+        "heading": "Smart Picks подберёт отряд из ваших операторов",
+        "paragraphs": [
+          "В инструментах Team Picks и Build Guide появится Smart Picks: система предложит составы для конкретных этапов с учётом доступных вам операторов. Открыть инструменты можно через Protosync → Game Tools."
+        ],
+        "images": [
+          {
+            "src": "https://web-static.hg-cdn.com/upload/image/20261120/b7ee202711985496371d063a42f6b80c.jpg",
+            "alt": "Рекомендации отрядов Smart Picks в Arknights Endfield",
+            "caption": "Демонстрация Smart Picks из сообщения разработчиков; интерфейс может отличаться в игре. © GRYPHLINE"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "slug": "zenless-zone-zero-3-4-free-robin-december-2",
     "title": "Zenless Zone Zero 3.4 выйдет на PS5 2 декабря — Зарянку из Star Rail дадут бесплатно",
     "category": "Игры",

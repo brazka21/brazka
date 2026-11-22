@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://brazka.shop/news/arknights-endfield-november-25-free-mimino-mushrooms/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>BRAZKA</news:name>
+        <news:language>ru</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-22T19:06:21+10:00</news:publication_date>
+      <news:title>Arknights: Endfield получит грибное королевство 25 ноября — Мимино и её оружие дадут бесплатно</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://brazka.shop/news/zenless-zone-zero-3-4-free-robin-december-2/</loc>
     <news:news>
       <news:publication>
@@ -31,17 +42,6 @@
       </news:publication>
       <news:publication_date>2026-11-21T11:03:59+10:00</news:publication_date>
       <news:title>Вышел альбом GTA VI: 34 новые песни с Ланой Дель Рей, Dua Lipa и Playboi Carti</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://brazka.shop/news/coral-island-kids-grow-up-ps5-december-7/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>BRAZKA</news:name>
-        <news:language>ru</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-20T18:59:14+10:00</news:publication_date>
-      <news:title>В Coral Island дети вырастут до подростков: бесплатное обновление выйдет на PS5 7 декабря</news:title>
     </news:news>
   </url>
 </urlset>
