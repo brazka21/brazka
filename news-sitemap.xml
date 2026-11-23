@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://brazka.shop/news/gta-vi-gang-supply-network-npc-rockstar-interview/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>BRAZKA</news:name>
+        <news:language>ru</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-23T19:06:47+10:00</news:publication_date>
+      <news:title>Rockstar раскрыла предысторию банд GTA VI: сеть поставок продумали до уличного покупателя</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://brazka.shop/news/arknights-endfield-november-25-free-mimino-mushrooms/</loc>
     <news:news>
       <news:publication>
@@ -20,17 +31,6 @@
       </news:publication>
       <news:publication_date>2026-11-22T11:01:52+10:00</news:publication_date>
       <news:title>Zenless Zone Zero 3.4 выйдет на PS5 2 декабря — Зарянку из Star Rail дадут бесплатно</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://brazka.shop/news/gta-vi-day-one-sales-3-79-billion/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>BRAZKA</news:name>
-        <news:language>ru</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-21T18:59:52+10:00</news:publication_date>
-      <news:title>GTA VI принесла $3,79 млрд розничных продаж за первый день — оценка Take-Two</news:title>
     </news:news>
   </url>
 </urlset>
