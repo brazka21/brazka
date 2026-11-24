@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://brazka.shop/news/gta-vi-39-million-ps5-players-launch-record/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>BRAZKA</news:name>
+        <news:language>ru</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-24T11:06:50+10:00</news:publication_date>
+      <news:title>GTA VI стала крупнейшим запуском в истории PlayStation — более 39 млн игроков на PS5</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://brazka.shop/news/gta-vi-gang-supply-network-npc-rockstar-interview/</loc>
     <news:news>
       <news:publication>
@@ -20,17 +31,6 @@
       </news:publication>
       <news:publication_date>2026-11-22T19:06:21+10:00</news:publication_date>
       <news:title>Arknights: Endfield получит грибное королевство 25 ноября — Мимино и её оружие дадут бесплатно</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://brazka.shop/news/zenless-zone-zero-3-4-free-robin-december-2/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>BRAZKA</news:name>
-        <news:language>ru</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-22T11:01:52+10:00</news:publication_date>
-      <news:title>Zenless Zone Zero 3.4 выйдет на PS5 2 декабря — Зарянку из Star Rail дадут бесплатно</news:title>
     </news:news>
   </url>
 </urlset>

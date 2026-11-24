@@ -1,5 +1,50 @@
 [
   {
+    "slug": "gta-vi-39-million-ps5-players-launch-record",
+    "title": "GTA VI стала крупнейшим запуском в истории PlayStation — более 39 млн игроков на PS5",
+    "category": "Игры",
+    "published": "2026-11-24T11:06:50+10:00",
+    "sourceDate": "23 ноября 2026",
+    "description": "Sony назвала GTA VI крупнейшим игровым запуском за всю историю PlayStation. С 19 по 22 ноября в игру на PS5 сыграли более 39 млн уникальных игроков, проведя в Леониде суммарно 683 млн часов.",
+    "image": "https://blog.playstation.com/tachyon/2026/11/fd8023623ccb61c2b195870ea714209ebf52e951.jpg",
+    "imageAlt": "Официальный арт GTA VI из публикации PlayStation Blog о рекордном запуске · © Rockstar Games",
+    "source": "https://blog.playstation.com/2026/11/23/thank-you-for-making-grand-theft-auto-vi-the-biggest-launch-in-playstation-history/",
+    "sourceName": "PlayStation Blog — статистика Sony Interactive Entertainment",
+    "product": "gta-vi",
+    "sections": [
+      {
+        "heading": "Рекорд одновременной аудитории",
+        "paragraphs": [
+          "GTA VI установила рекорд по количеству одновременно играющих пользователей среди всех игр на PlayStation. Она превзошла прежние показатели одиночных, многопользовательских и условно-бесплатных проектов."
+        ],
+        "callout": {
+          "title": "Четыре дня — 683 млн часов",
+          "text": "В среднем каждый игрок провёл в GTA VI 17,4 часа. Все показатели Sony основаны на внутренних данных SIE за 19–22 ноября 2026 года."
+        },
+        "images": [
+          {
+            "src": "https://live.staticflickr.com/65535/55657665268_d512489e41_k.jpg",
+            "alt": "Ночной Вайс-Сити в GTA VI",
+            "caption": "Релизный скриншот из PlayStation Blog от 18 ноября; иллюстрация к новости. © Rockstar Games"
+          }
+        ]
+      },
+      {
+        "heading": "GTA VI первой запустили на 70% новых PS5",
+        "paragraphs": [
+          "На старт GTA VI пришёлся рекорд по новым подключённым PS5 за один день вне новогоднего праздничного периода с момента выхода консоли. После релиза GTA VI стала первой запущенной игрой на 70% новых PS5."
+        ],
+        "images": [
+          {
+            "src": "https://live.staticflickr.com/65535/55657559960_e75c0acd33_k.jpg",
+            "alt": "Люсия и Джейсон в ангаре GTA VI",
+            "caption": "Релизный скриншот из PlayStation Blog от 18 ноября; иллюстрация к новости. © Rockstar Games"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "slug": "gta-vi-gang-supply-network-npc-rockstar-interview",
     "title": "Rockstar раскрыла предысторию банд GTA VI: сеть поставок продумали до уличного покупателя",
     "category": "Игры",
