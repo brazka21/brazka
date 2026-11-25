@@ -1,5 +1,56 @@
 [
   {
+    "slug": "exoprimal-end-of-service-september-2027",
+    "title": "Exoprimal отключат 30 сентября 2027 года — после закрытия играть не получится",
+    "category": "Игры",
+    "published": "2026-11-25T19:05:27+10:00",
+    "sourceDate": "25 ноября 2026",
+    "description": "Capcom завершит работу Exoprimal на всех платформах, включая PS5 и PS4, 30 сентября 2027 года в 13:00 по Владивостоку. После отключения игра станет недоступна. Продажи самой игры и дополнений прекратятся раньше — весной 2027-го.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1286320/ss_dcba3dc9938cd9a284aa0449a1e69c8d7f5dbf0a.1920x1080.jpg?t=1795568630",
+    "imageAlt": "Боец Exoprimal — ранее опубликованный официальный скриншот PC-версии из Steam · © CAPCOM",
+    "source": "https://info.exoprimal.com/en/pages/important_261125_001/",
+    "sourceName": "Capcom — официальное объявление о завершении работы Exoprimal",
+    "product": "catalog",
+    "sections": [
+      {
+        "heading": "Премиальные пропуски уже сняты с продажи",
+        "paragraphs": [
+          "Продажа Premium Tier для Survival Pass сезонов 1–4 прекратилась 25 ноября 2026 года в 11:00 по Владивостоку."
+        ],
+        "callout": {
+          "title": "После закрытия играть не получится",
+          "text": "Capcom завершит работу сервиса для всех платформ. Купленная и установленная копия Exoprimal тоже перестанет быть доступна для игры."
+        }
+      },
+      {
+        "heading": "Игру и DLC уберут из магазинов 31 марта",
+        "paragraphs": [
+          "С 31 марта 2027 года, 11:00 по Владивостоку, купить Exoprimal, DLC и остальные продукты игры в цифровых магазинах будет нельзя."
+        ],
+        "images": [
+          {
+            "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1286320/ss_b2774d87e655fdf3dda7bfb3bcd2fb7e302e5b3e.1920x1080.jpg?t=1795568630",
+            "alt": "Экзокостюм с энергетическим оружием в Exoprimal",
+            "caption": "Ранее опубликованный официальный скриншот PC-версии из Steam; иллюстрация к новости о закрытии. © CAPCOM"
+          }
+        ]
+      },
+      {
+        "heading": "Повторное скачивание останется до отключения",
+        "paragraphs": [
+          "После прекращения продаж владельцы смогут повторно скачать Exoprimal до завершения работы сервиса. После 30 сентября 2027 года, 13:00 по Владивостоку, играть будет невозможно."
+        ],
+        "images": [
+          {
+            "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1286320/ss_39e42325843fbb3fc015012ca27fd6abad1f137f.1920x1080.jpg?t=1795568630",
+            "alt": "Экзокостюм со щитом в Exoprimal",
+            "caption": "Ранее опубликованный официальный скриншот PC-версии из Steam; иллюстрация к новости о закрытии. © CAPCOM"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "slug": "lords-of-the-fallen-ii-april-2027-release-window",
     "title": "Lords of the Fallen II выйдет в апреле 2027 года — точную дату назовут в декабре",
     "category": "Игры",
