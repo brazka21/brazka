@@ -44,15 +44,4 @@
       <news:title>GTA VI стала крупнейшим запуском в истории PlayStation — более 39 млн игроков на PS5</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://brazka.shop/news/gta-vi-gang-supply-network-npc-rockstar-interview/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>BRAZKA</news:name>
-        <news:language>ru</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-23T19:06:47+10:00</news:publication_date>
-      <news:title>Rockstar раскрыла предысторию банд GTA VI: сеть поставок продумали до уличного покупателя</news:title>
-    </news:news>
-  </url>
 </urlset>
