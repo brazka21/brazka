@@ -1,5 +1,57 @@
 [
   {
+    "slug": "lords-of-the-fallen-ii-april-2027-release-window",
+    "title": "Lords of the Fallen II выйдет в апреле 2027 года — точную дату назовут в декабре",
+    "category": "Игры",
+    "published": "2026-11-25T11:09:27+10:00",
+    "sourceDate": "24 ноября 2026",
+    "description": "CI Games определила месяц выхода Lords of the Fallen II: апрель 2027 года. Точный день релиза компания объявит в декабре 2026-го. Продолжение мрачной ролевой игры готовится в том числе для PS5.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4767480/6e300b19df2d25ee2435c848dca5da277ce7ebff/ss_6e300b19df2d25ee2435c848dca5da277ce7ebff.1920x1080.jpg?t=1794917531",
+    "imageAlt": "Бой в Lords of the Fallen II — ранее опубликованная официальная иллюстрация из Steam · © CI Games",
+    "source": "https://www.bankier.pl/wiadomosc/CI-GAMES-S-E-Aktualizacja-harmonogramu-prac-nad-gra-Lords-of-the-Fallen-II-9234465.html",
+    "sourceName": "CI Games — официальный отчёт ESPI № 39/2026 на Bankier.pl",
+    "product": "catalog",
+    "sections": [
+      {
+        "heading": "Апрель — новый ориентир релиза",
+        "paragraphs": [
+          "Компания закрепила сроки в официальном сообщении от 24 ноября, подписанном главой CI Games Мареком Тыминьским."
+        ],
+        "callout": {
+          "title": "Точная дата — в декабре 2026 года",
+          "text": "Пока объявлен месяц выхода: апрель 2027-го. День релиза CI Games раскроет в декабре."
+        }
+      },
+      {
+        "heading": "Лампа откроет пути между двумя мирами",
+        "paragraphs": [
+          "Lords of the Fallen II — мрачная ролевая игра с боями в духе Souls. Лампа Умбра позволяет переходить между мирами живых и мёртвых: у каждого свои маршруты, сокровища и противники.",
+          "В бою можно сочетать оружие ближнего и дальнего боя с магией. Путешествие проходит по разрушенному королевству, где два мира начинают сливаться."
+        ],
+        "images": [
+          {
+            "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4767480/1df7433ccf5ee36dafdbdeec00cd2cb9d4780457/ss_1df7433ccf5ee36dafdbdeec00cd2cb9d4780457.1920x1080.jpg?t=1794917531",
+            "alt": "Воин с лампой Умбра в Lords of the Fallen II",
+            "caption": "Ранее опубликованная официальная иллюстрация из Steam; иллюстрация к новости о сроках выхода. © CI Games"
+          }
+        ]
+      },
+      {
+        "heading": "Совместная кампания сохранит прогресс обоих игроков",
+        "paragraphs": [
+          "Кампанию можно пройти одному или с напарником в бесшовном сетевом кооперативе. В режиме общей кампании основной прогресс сохраняется у обоих участников. Для помощи другому игроку предусмотрены и обычные совместные сессии."
+        ],
+        "images": [
+          {
+            "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4767480/138071247c92a87f61720e1af1633b74d65c44ae/ss_138071247c92a87f61720e1af1633b74d65c44ae.1920x1080.jpg?t=1794917531",
+            "alt": "Два героя перед крепостью в Lords of the Fallen II",
+            "caption": "Ранее опубликованная официальная иллюстрация из Steam; иллюстрация к новости о сроках выхода. © CI Games"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "slug": "gta-vi-november-23-autosave-story-calls-fixes",
     "title": "GTA VI получила исправления автосохранений, сюжетных звонков и зависшего розыска",
     "category": "Игры",
