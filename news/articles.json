@@ -1,5 +1,44 @@
 [
   {
+    "slug": "silksong-sea-of-sorrow-cherry-time-november-27",
+    "title": "О Sea of Sorrow для Silksong расскажут на Cherry Time — эфир 28 ноября по Владивостоку",
+    "category": "Игры",
+    "published": "2026-11-26T19:06:07+10:00",
+    "sourceDate": "25 ноября 2026",
+    "description": "Team Cherry проведёт презентацию Cherry Time с новостями о Hollow Knight: Silksong — Sea of Sorrow. Эфир начнётся 28 ноября в 01:00 по Владивостоку. Помимо дополнения студия готовит другие анонсы.",
+    "image": "https://images.squarespace-cdn.com/content/v1/606d4deb4db8c15ea53b3624/c3455303-325a-48ef-9d20-306e24fafe69/cherry%2Btime%2Bwide.jpg",
+    "imageAlt": "Официальный баннер презентации Cherry Time · © Team Cherry",
+    "source": "https://www.teamcherry.com.au/blog/cherrytimeannounce",
+    "sourceName": "Team Cherry — официальный блог",
+    "product": "catalog",
+    "sections": [
+      {
+        "heading": "Когда смотреть Cherry Time",
+        "paragraphs": [
+          "Премьера пройдёт на YouTube. Для западного побережья США показ назначен на 27 ноября, 07:00 по тихоокеанскому времени."
+        ],
+        "callout": {
+          "title": "28 ноября, 01:00 — Владивосток",
+          "text": "Это ночь с пятницы на субботу. Время начала по UTC — 27 ноября, 15:00."
+        }
+      },
+      {
+        "heading": "Sea of Sorrow будет бесплатным дополнением",
+        "paragraphs": [
+          "Sea of Sorrow продолжит приключения Хорнет в морской тематике. Ранее Team Cherry объявила для дополнения новые области, боссов и инструменты; оно будет бесплатным для всех игроков.",
+          "На Cherry Time студия поделится новостями о Sea of Sorrow."
+        ],
+        "images": [
+          {
+            "src": "https://images.squarespace-cdn.com/content/v1/606d4deb4db8c15ea53b3624/ebed6619-538d-4968-bd8d-5a3241533539/bannersea.jpg",
+            "alt": "Хорнет на иллюстрации Team Cherry",
+            "caption": "Иллюстрация из публикации Team Cherry от 15 декабря 2025 года, в которой объявили Sea of Sorrow. © Team Cherry"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "slug": "witcher-4-sony-marketing-playstation-plus-partnership",
     "title": "CD Projekt RED и Sony заключили соглашения по The Witcher 4 и PS Plus",
     "category": "Игры",
