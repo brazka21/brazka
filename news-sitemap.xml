@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://brazka.shop/news/witcher-4-sony-marketing-playstation-plus-partnership/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>BRAZKA</news:name>
+        <news:language>ru</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-26T11:08:50+10:00</news:publication_date>
+      <news:title>CD Projekt RED и Sony заключили соглашения по The Witcher 4 и PS Plus</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://brazka.shop/news/ps-plus-december-2026-tony-hawk-xenoverse-amnesia/</loc>
     <news:news>
       <news:publication>
@@ -42,17 +53,6 @@
       </news:publication>
       <news:publication_date>2026-11-24T19:02:09+10:00</news:publication_date>
       <news:title>GTA VI получила исправления автосохранений, сюжетных звонков и зависшего розыска</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://brazka.shop/news/gta-vi-39-million-ps5-players-launch-record/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>BRAZKA</news:name>
-        <news:language>ru</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-24T11:06:50+10:00</news:publication_date>
-      <news:title>GTA VI стала крупнейшим запуском в истории PlayStation — более 39 млн игроков на PS5</news:title>
     </news:news>
   </url>
 </urlset>

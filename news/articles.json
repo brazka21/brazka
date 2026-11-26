@@ -1,5 +1,50 @@
 [
   {
+    "slug": "witcher-4-sony-marketing-playstation-plus-partnership",
+    "title": "CD Projekt RED и Sony заключили соглашения по The Witcher 4 и PS Plus",
+    "category": "Игры",
+    "published": "2026-11-26T11:08:50+10:00",
+    "sourceDate": "24 ноября 2026",
+    "description": "CD Projekt RED подписала новые партнёрские соглашения с Sony Interactive Entertainment 24 ноября. Сотрудничество охватывает игры студии на PlayStation, подписку PS Plus и маркетинговую кампанию The Witcher 4.",
+    "image": "https://press.cdn.cdpr.app/media/assets/804/The_Witcher_4_UE5_tech_demo_PS5_Ciri_1_CLEAN.jpeg",
+    "imageAlt": "Цири верхом — ранее опубликованная техническая демонстрация The Witcher 4 на UE5 для PS5, не финальный игровой процесс · © CD PROJEKT RED",
+    "source": "https://www.cdprojekt.com/en/wp-content/uploads-en/2026/11/consolidated-financial-statements-of-the-cd-projekt-red-group-for-q3-2026.pdf",
+    "sourceName": "CD Projekt RED — официальный квартальный отчёт, PDF",
+    "product": "catalog",
+    "sections": [
+      {
+        "heading": "PlayStation, PS Plus и продвижение The Witcher 4",
+        "paragraphs": [
+          "Договорённости включают доступность игр CD Projekt RED на платформах PlayStation и в подписочных сервисах PlayStation Plus."
+        ],
+        "callout": {
+          "title": "Sony станет партнёром маркетинговой кампании",
+          "text": "Отдельное направление соглашений — сотрудничество компаний при продвижении The Witcher 4."
+        },
+        "images": [
+          {
+            "src": "https://press.cdn.cdpr.app/media/assets/804/The_Witcher_4_UE5_tech_demo_PS5_Kelpie_CLEAN.jpeg",
+            "alt": "Кобыла Келпи в технической демонстрации The Witcher 4",
+            "caption": "Ранее опубликованный кадр технической демонстрации The Witcher 4 на UE5 для PS5; техническая презентация, не игровой процесс финальной игры. © CD PROJEKT RED"
+          }
+        ]
+      },
+      {
+        "heading": "The Witcher 4 запланирована на 2028 год",
+        "paragraphs": [
+          "Объявленное компанией окно выхода The Witcher 4 — 2028 год. Этот ориентир CD Projekt RED представила ещё в августе 2026-го."
+        ],
+        "images": [
+          {
+            "src": "https://press.cdn.cdpr.app/media/assets/804/The_Witcher_4_UE5_tech_demo_PS5_Manticore_CLEAN.jpeg",
+            "alt": "Мантикора в технической демонстрации The Witcher 4",
+            "caption": "Ранее опубликованный кадр технической демонстрации The Witcher 4 на UE5 для PS5; техническая презентация, не игровой процесс финальной игры. © CD PROJEKT RED"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "slug": "ps-plus-december-2026-tony-hawk-xenoverse-amnesia",
     "title": "PS Plus в декабре: Tony Hawk’s Pro Skater 3+4, Dragon Ball Xenoverse 2 и Amnesia",
     "category": "PS Plus",
