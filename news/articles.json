@@ -1,5 +1,69 @@
 [
   {
+    "slug": "ps-plus-december-2026-tony-hawk-xenoverse-amnesia",
+    "title": "PS Plus в декабре: Tony Hawk’s Pro Skater 3+4, Dragon Ball Xenoverse 2 и Amnesia",
+    "category": "PS Plus",
+    "published": "2026-11-26T11:03:45+10:00",
+    "sourceDate": "25 ноября 2026",
+    "description": "Sony объявила три декабрьские игры PS Plus. Добавить их в библиотеку можно с 1 декабря 2026 года по 4 января 2027-го. Подборка доступна подписчикам всех уровней, включая Essential.",
+    "image": "https://blog.playstation.com/tachyon/2026/11/bc4af3b9af7eabe20204f2228edee81050b007ef.jpg",
+    "imageAlt": "Официальный баннер декабрьских игр PS Plus 2026 · © Sony Interactive Entertainment; изображения игр принадлежат их правообладателям",
+    "source": "https://blog.playstation.com/2026/11/25/playstation-plus-monthly-games-for-december-tony-hawks-pro-skater-34-dragon-ball-xenoverse-2-amnesia-the-bunker/",
+    "sourceName": "PlayStation Blog",
+    "product": "plus",
+    "sections": [
+      {
+        "heading": "Tony Hawk’s Pro Skater 3+4 — PS5 и PS4",
+        "paragraphs": [
+          "В подписку включена Cross-Gen Edition. В обновлённых скейт-парках задания построены вокруг двухминутных заездов. Редакторы позволяют создавать скейтеров, парки и собственные цели для друзей."
+        ],
+        "images": [
+          {
+            "src": "https://blog.playstation.com/tachyon/2026/11/393a7151bd4ebdcfaec45d08f6598f81ccc842af.jpg",
+            "alt": "Официальный арт Tony Hawk’s Pro Skater 3+4",
+            "caption": "Промоматериал декабрьской подборки PlayStation Blog. © Activision"
+          }
+        ]
+      },
+      {
+        "heading": "Dragon Ball Xenoverse 2 — PS5 и PS4",
+        "paragraphs": [
+          "Создавайте персонажа, тренируйтесь у героев Dragon Ball и участвуйте в сетевых боях. В Raid Battles игроки объединяются против гигантских противников."
+        ],
+        "images": [
+          {
+            "src": "https://blog.playstation.com/tachyon/2026/11/31b101a1fe6a6fcebcb2cb8afb3e7a50013465da.jpg",
+            "alt": "Официальный арт Dragon Ball Xenoverse 2",
+            "caption": "Промоматериал декабрьской подборки PlayStation Blog. © Bandai Namco Entertainment; © Bird Studio/Shueisha, Toei Animation"
+          }
+        ]
+      },
+      {
+        "heading": "Amnesia: The Bunker — PS4",
+        "paragraphs": [
+          "Хоррор от первого лица отправляет солдата Анри Клемана в бункер Первой мировой. Преследующая угроза реагирует на движения и звуки; припасы приходится искать и создавать."
+        ],
+        "images": [
+          {
+            "src": "https://blog.playstation.com/tachyon/2026/11/2bb62e662b96a987bd43c0d685c1f7fb65109a19.jpg",
+            "alt": "Официальный арт Amnesia The Bunker",
+            "caption": "Промоматериал декабрьской подборки PlayStation Blog. © Frictional Games"
+          }
+        ]
+      },
+      {
+        "heading": "Сроки и условия доступа",
+        "callout": {
+          "title": "Добавьте в библиотеку до 4 января",
+          "text": "Для игры нужна действующая PS Plus. После добавления доступ сохраняется при активной подписке. Состав подборки может различаться по регионам."
+        },
+        "paragraphs": [
+          "Ноябрьские Dead Island 2, Tomb Raider IV–VI Remastered и Monster Train 2 можно добавить до 30 ноября."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "exoprimal-end-of-service-september-2027",
     "title": "Exoprimal отключат 30 сентября 2027 года — после закрытия играть не получится",
     "category": "Игры",
