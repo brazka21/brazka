@@ -1,5 +1,49 @@
 [
   {
+    "slug": "infinity-nikki-3-0-ps5-cities-muskets-magic",
+    "title": "Infinity Nikki 3.0 вышла на PS5: два города, мушкеты, магия и алхимия",
+    "category": "Игры",
+    "published": "2026-11-27T10:58:01+10:00",
+    "sourceDate": "26 ноября 2026",
+    "description": "Infinity Nikki 3.0 «Of Yesterday and Tomorrow» вышла на PS5. Никки и Момо отправляются в Cicia и Ceremius; обновление добавляет почти десять часов сюжета и новые системы исследования и боя.",
+    "image": "https://blog.playstation.com/tachyon/2048/11/2a1b04b0d0c0589134242513d7310e67844936c9-scaled.jpeg",
+    "imageAlt": "Официальный арт Infinity Nikki 3.0 Of Yesterday and Tomorrow · © Infold Games",
+    "source": "https://blog.playstation.com/2026/11/26/infinity-nikki-version-3-0-of-yesterday-and-tomorrow-update-live-today-on-ps5/",
+    "sourceName": "PlayStation Blog — Infold Games",
+    "product": "catalog",
+    "sections": [
+      {
+        "heading": "Поездки с пассажирами и собственный бутик",
+        "paragraphs": [
+          "В Cicia можно выполнять заказы пассажиров на машине Brise Automobile и подбирать наряды клиентам Warmhearted Boutique. В Ceremius доступны восстановление реликвий и фотографий."
+        ],
+        "images": [
+          {
+            "src": "https://live.staticflickr.com/65535/55668942228_0d291ec579_4k.jpg",
+            "alt": "Никки и Момо в автомобиле — промо Infinity Nikki 3.0",
+            "caption": "Официальная промоиллюстрация обновления из PlayStation Blog от 26 ноября. © Infold Games"
+          }
+        ]
+      },
+      {
+        "heading": "Телепортация и зелья для головоломок",
+        "paragraphs": [
+          "Veiling позволяет бросить Shadow Beetle и выбрать момент телепортации. Алхимические зелья применяются в боях, головоломках и взаимодействиях с NPC."
+        ],
+        "callout": {
+          "title": "Начать можно сразу с Cicia",
+          "text": "Новые и вернувшиеся игроки могут пропустить обычное обучение, пройти переходное и выбрать стартовую сюжетную главу."
+        }
+      },
+      {
+        "heading": "Мушкет и посох входят в наряд Star Crown",
+        "paragraphs": [
+          "Наряд Резонанса Where Stars Shine Again включает мушкет и посох. Короткий мушкет стреляет быстро, длинный предназначен для прицельных выстрелов. Посох использует разные Oracle Arts. Наряд можно бесплатно опробовать в зале событий перед покупкой."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "silksong-sea-of-sorrow-cherry-time-november-27",
     "title": "О Sea of Sorrow для Silksong расскажут на Cherry Time — эфир 28 ноября по Владивостоку",
     "category": "Игры",
