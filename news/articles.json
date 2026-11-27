@@ -1,5 +1,59 @@
 [
   {
+    "slug": "arkheron-ps5-free-opening-weekend-friend-pass",
+    "title": "Arkheron стартует на PS5 с бесплатными выходными — доступ можно продлить до 6 декабря",
+    "category": "Игры",
+    "published": "2026-11-27T19:07:32+10:00",
+    "sourceDate": "26 ноября 2026",
+    "description": "Ранний доступ Arkheron на PS5, Xbox Series X|S и Steam откроется 27 ноября в 07:00 PST — 28 ноября в 01:00 по Владивостоку. Bonfire Studios проведёт бесплатные выходные через Friend Pass и выдаст косметические награды за просмотр трансляций.",
+    "image": "https://www.arkheron.com/228990/1795721657-openingweekend_twitchkickdrops_16x9.png",
+    "imageAlt": "Промоматериал наград стартовых выходных Arkheron для Twitch и KICK · © Bonfire Studios",
+    "source": "https://www.arkheron.com/en_US/news/opening-weekend/",
+    "sourceName": "Bonfire Studios — Opening Weekend",
+    "product": "catalog",
+    "sections": [
+      {
+        "heading": "Как играть бесплатно на старте",
+        "paragraphs": [
+          "Arkheron — командная PvP-игра для отрядов из трёх человек. Способности персонажей зависят от найденных предметов. На стартовые выходные нужно скачать бесплатную Friend Pass Edition: она откроет соревновательные режимы Ascension и Spires без покупки основной игры."
+        ],
+        "callout": {
+          "title": "Бесплатные выходные: 27–29 ноября",
+          "text": "Даты акции указаны разработчиками. Сам запуск по времени Владивостока состоится уже 28 ноября в 01:00. Прогресс Friend Pass сохранится при последующей покупке Arkheron."
+        }
+      },
+      {
+        "heading": "Как продлить доступ до 6 декабря",
+        "paragraphs": [
+          "С 30 ноября по 6 декабря бесплатный доступ к Ascension, Spires и Custom Games получат игроки, представляющие участвующий Partner Server. Одного вступления в Discord недостаточно: сервер нужно выбрать внутри игры.",
+          "Вступите в партнёрское сообщество Discord, откройте Social → Communities и привяжите аккаунт. Добавьте сервер в Manage Servers, затем нажмите звёздочку, чтобы представлять его. Эти функции работают на PS5, Xbox Series X|S и Steam с кроссплеем.",
+          "После 6 декабря вернутся обычные условия Friend Pass: самостоятельно доступны обучение и тренировка, а для Ascension, Spires и Custom Games потребуется отряд с владельцем Arkheron. Купить игру достаточно одному участнику группы."
+        ],
+        "images": [
+          {
+            "src": "https://www.arkheron.com/228990/1795645229-2-add-rep-your-servers.png",
+            "alt": "Официальная инструкция по выбору Partner Server в Arkheron",
+            "caption": "Добавление сервера и выбор сообщества через звёздочку. Иллюстрация официальной инструкции от 25 ноября. © Bonfire Studios"
+          }
+        ]
+      },
+      {
+        "heading": "Награды за трансляции и покупку",
+        "paragraphs": [
+          "В стартовые выходные за просмотр Arkheron на Twitch и KICK предусмотрены награды: значок Shore Wanderer Mask за 30 минут, баннер Distant Shore за 60 и облик Shore Wanderer Dissident за 120. Облик Ancient Asunder выдаётся за 240 минут на KICK.",
+          "При покупке любого издания с 27 по 30 ноября включён Armored Swan Pack: облик Cygnus, Anchor, эмоция, баннер и значок игрока."
+        ],
+        "images": [
+          {
+            "src": "https://www.arkheron.com/228990/1795721717-armored-swan.png",
+            "alt": "Официальное промо набора Armored Swan Pack для Arkheron",
+            "caption": "Armored Swan Pack — официальный промоматериал стартовых выходных, а не игровой скриншот. © Bonfire Studios"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "slug": "infinity-nikki-3-0-ps5-cities-muskets-magic",
     "title": "Infinity Nikki 3.0 вышла на PS5: два города, мушкеты, магия и алхимия",
     "category": "Игры",

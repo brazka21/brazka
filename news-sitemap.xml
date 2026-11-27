@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://brazka.shop/news/arkheron-ps5-free-opening-weekend-friend-pass/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>BRAZKA</news:name>
+        <news:language>ru</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-27T19:07:32+10:00</news:publication_date>
+      <news:title>Arkheron стартует на PS5 с бесплатными выходными — доступ можно продлить до 6 декабря</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://brazka.shop/news/infinity-nikki-3-0-ps5-cities-muskets-magic/</loc>
     <news:news>
       <news:publication>
@@ -42,17 +53,6 @@
       </news:publication>
       <news:publication_date>2026-11-26T11:03:45+10:00</news:publication_date>
       <news:title>PS Plus в декабре: Tony Hawk’s Pro Skater 3+4, Dragon Ball Xenoverse 2 и Amnesia</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://brazka.shop/news/exoprimal-end-of-service-september-2027/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>BRAZKA</news:name>
-        <news:language>ru</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-25T19:05:27+10:00</news:publication_date>
-      <news:title>Exoprimal отключат 30 сентября 2027 года — после закрытия играть не получится</news:title>
     </news:news>
   </url>
 </urlset>
