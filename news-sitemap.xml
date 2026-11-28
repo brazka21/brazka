@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://brazka.shop/news/phantom-blade-zero-patch-10304629-camera-quest-fixes/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>BRAZKA</news:name>
+        <news:language>ru</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-28T18:58:01+10:00</news:publication_date>
+      <news:title>Phantom Blade Zero: патч на 7 ГБ улучшит камеру и вернёт пропавшие предметы</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://brazka.shop/news/silksong-sea-of-sorrow-december-11-free-expansion/</loc>
     <news:news>
       <news:publication>

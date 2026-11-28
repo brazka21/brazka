@@ -1,5 +1,56 @@
 [
   {
+    "slug": "phantom-blade-zero-patch-10304629-camera-quest-fixes",
+    "title": "Phantom Blade Zero: патч на 7 ГБ улучшит камеру и вернёт пропавшие предметы",
+    "category": "Игры",
+    "published": "2026-11-28T18:58:01+10:00",
+    "sourceDate": "26 ноября 2026",
+    "description": "S-GAME назначила обновление Phantom Blade Zero 1.0304629 на 28 ноября. Патч добавит настройки помощи камеры, оптимизирует игру и исправит ошибки, мешавшие прохождению заданий. Объявленный размер загрузки — 7 ГБ.",
+    "image": "https://gmedia.playstation.com/is/image/SIEPDC/phantom-blade-zero-screenshot-09-en-14jul26?fmt=jpeg&wid=1920",
+    "imageAlt": "Phantom Blade Zero — официальный архивный скриншот боя под дождём · © S-GAME",
+    "source": "https://pbz.s-game.com/en-US/news/patch-notes-1-0304629/",
+    "sourceName": "S-GAME — описание обновления 1.0304629",
+    "product": "phantom-blade-zero",
+    "sections": [
+      {
+        "heading": "Камера с меньшим вмешательством",
+        "paragraphs": [
+          "В настройках появятся раздел Combat Assist и переключатель Automatic Strong Camera Assist. Если отключить его, сильная помощь камеры будет работать только при атаке противника; в остальное время останутся небольшие корректировки."
+        ],
+        "images": [
+          {
+            "src": "https://gmedia.playstation.com/is/image/SIEPDC/phantom-blade-zero-screenshot-04-en-14jul26?fmt=jpeg&wid=1920",
+            "alt": "Soul на деревянном мосту под дождём в Phantom Blade Zero",
+            "caption": "Официальный архивный скриншот со страницы игры PlayStation. © S-GAME"
+          }
+        ]
+      },
+      {
+        "heading": "Оптимизация и движение по неровностям",
+        "paragraphs": [
+          "Обновление снизит потребление видеопамяти и оперативной памяти, особенно в роликах и заснеженных локациях. Разработчики также улучшат производительность в отдельных областях и боях с боссами, уменьшат подёргивания от эффектов и застревания на небольших камнях и ступенях."
+        ]
+      },
+      {
+        "heading": "Предметы для полного сбора восстановятся",
+        "callout": {
+          "title": "Возврат пропавших предметов",
+          "text": "Патч исправит ошибку передачи сюжетных книг, мешавшую собрать 100% предметов. Пропавшие предметы восстановятся автоматически после загрузки игры с обновлением."
+        },
+        "paragraphs": [
+          "Исправления также затронут зависание боссов, невидимых врагов после сброса колоколом и блокировки заданий в New Game+."
+        ],
+        "images": [
+          {
+            "src": "https://gmedia.playstation.com/is/image/SIEPDC/phantom-blade-zero-screenshot-07-en-14jul26?fmt=jpeg&wid=1920",
+            "alt": "Soul с тяжёлым оружием в Phantom Blade Zero",
+            "caption": "Официальный архивный скриншот со страницы игры PlayStation. © S-GAME"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "slug": "silksong-sea-of-sorrow-december-11-free-expansion",
     "title": "Sea of Sorrow для Silksong выйдет 11 декабря — дополнение будет бесплатным",
     "category": "Игры",
