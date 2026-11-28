@@ -44,15 +44,4 @@
       <news:title>Infinity Nikki 3.0 вышла на PS5: два города, мушкеты, магия и алхимия</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://brazka.shop/news/silksong-sea-of-sorrow-cherry-time-november-27/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>BRAZKA</news:name>
-        <news:language>ru</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-26T19:06:07+10:00</news:publication_date>
-      <news:title>О Sea of Sorrow для Silksong расскажут на Cherry Time — эфир 28 ноября по Владивостоку</news:title>
-    </news:news>
-  </url>
 </urlset>
