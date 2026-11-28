@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://brazka.shop/news/silksong-sea-of-sorrow-december-11-free-expansion/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>BRAZKA</news:name>
+        <news:language>ru</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-28T10:59:10+10:00</news:publication_date>
+      <news:title>Sea of Sorrow для Silksong выйдет 11 декабря — дополнение будет бесплатным</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://brazka.shop/news/arkheron-ps5-free-opening-weekend-friend-pass/</loc>
     <news:news>
       <news:publication>

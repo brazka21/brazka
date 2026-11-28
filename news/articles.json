@@ -1,5 +1,43 @@
 [
   {
+    "slug": "silksong-sea-of-sorrow-december-11-free-expansion",
+    "title": "Sea of Sorrow для Silksong выйдет 11 декабря — дополнение будет бесплатным",
+    "category": "Игры",
+    "published": "2026-11-28T10:59:10+10:00",
+    "sourceDate": "27 ноября 2026",
+    "description": "Team Cherry назначила релиз Hollow Knight: Silksong — Sea of Sorrow на 11 декабря 2026 года. Первое крупное контентное обновление будет бесплатным для всех игроков и отправит Хорнет к забытому океану Фарлума.",
+    "image": "https://i.ytimg.com/vi/7hj4g173FhM/maxresdefault.jpg",
+    "imageAlt": "Официальная обложка релизного трейлера Hollow Knight: Silksong — Sea of Sorrow · © Team Cherry",
+    "source": "https://www.teamcherry.com.au/blog/its-cherry-time",
+    "sourceName": "Team Cherry — It’s Cherry Time!",
+    "product": "catalog",
+    "sections": [
+      {
+        "heading": "Острова, форты и подводные пещеры",
+        "paragraphs": [
+          "Путешествие пройдёт над поверхностью океана и под водой: Хорнет посетит острова, форты и глубокие пещеры под волнами. В дополнении появятся новые персонажи и боссы. Музыку вновь пишет Кристофер Ларкин."
+        ],
+        "callout": {
+          "title": "11 декабря — бесплатно для игроков Silksong",
+          "text": "Sea of Sorrow станет первым крупным контентным обновлением Hollow Knight: Silksong. Основная игра доступна на PS5 и PS4."
+        }
+      },
+      {
+        "heading": "В Team Cherry теперь четыре разработчика",
+        "paragraphs": [
+          "Студия также представила четвёртого участника команды — Хюи Ле (Huy Le). Он помогает с Sea of Sorrow и участвовал в работе над Silksong: занимался портами, исправлением ошибок, автосохранениями, достижениями и HD rumble."
+        ],
+        "images": [
+          {
+            "src": "https://images.squarespace-cdn.com/content/v1/606d4deb4db8c15ea53b3624/d5e81e8f-7f4b-435a-969f-d1cd3890fbb6/huy_short.jpg",
+            "alt": "Хюи Ле — четвёртый участник Team Cherry",
+            "caption": "Хюи Ле: официальный портрет из объявления Team Cherry от 27 ноября. © Team Cherry"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "slug": "arkheron-ps5-free-opening-weekend-friend-pass",
     "title": "Arkheron стартует на PS5 с бесплатными выходными — доступ можно продлить до 6 декабря",
     "category": "Игры",
